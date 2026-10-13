@@ -73,7 +73,6 @@
         "sv": "Åklagarmyndigheten"
       },
       "owner": "SE2021000084",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -100,7 +99,6 @@
         "sv": "Alingsås tingsrätt"
       },
       "owner": "SE2021002742-ALINGSAS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -127,7 +125,6 @@
         "sv": "Älmhults kommun"
       },
       "owner": "SE2120000647",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -179,7 +176,6 @@
         "sv": "Älvdalens kommun"
       },
       "owner": "SE2120002197",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -206,7 +202,6 @@
         "sv": "Alvesta kommun"
       },
       "owner": "SE2120000639",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -233,7 +228,6 @@
         "sv": "Älvsbyns kommun"
       },
       "owner": "SE2120002734",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -260,7 +254,6 @@
         "sv": "Åmåls kommun"
       },
       "owner": "SE2120001587",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -287,7 +280,6 @@
         "sv": "Aneby kommun"
       },
       "owner": "SE2120000498",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -314,7 +306,6 @@
         "sv": "Ångermanlands tingsrätt"
       },
       "owner": "SE2021002742-ANGERMANLANDS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -366,7 +357,6 @@
         "sv": "Första ap-fonden"
       },
       "owner": "SE8020057538",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -393,7 +383,6 @@
         "sv": "Andra ap-fonden"
       },
       "owner": "SE8572090606",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -420,7 +409,6 @@
         "sv": "Tredje ap-fonden"
       },
       "owner": "SE8020144120",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -447,7 +435,6 @@
         "sv": "Fjärde ap-fonden"
       },
       "owner": "SE8020051952",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -474,7 +461,6 @@
         "sv": "Sjunde ap-fonden"
       },
       "owner": "SE8024062302",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -501,7 +487,6 @@
         "sv": "Sjätte ap-fonden"
       },
       "owner": "SE8551040721",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -597,11 +582,7 @@
         }
       ],
       "id": "api.lantmateriet.se",
-      "label": {
-        "sv": "Lantmäteriet (api.lantmateriet.se)"
-      },
       "owner": "SE2021004888",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -635,7 +616,6 @@
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "note": "Svensk nationell datatjänst (SND), a consortium hosted by Göteborgs universitet.",
       "owner": "SE2021003153",
-      "software": "custom",
       "source": [
         "check",
         "dataportal",
@@ -716,7 +696,6 @@
         "sv": "Skolverkets API:er"
       },
       "owner": "SE2021004185",
-      "software": "custom",
       "source": [
         "check",
         "data_europa",
@@ -749,7 +728,6 @@
       },
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "owner": "SE2120002411",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -823,7 +801,6 @@
         "sv": "Webperfs katalog för öppna data"
       },
       "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -854,7 +831,6 @@
       },
       "license": "https://creativecommons.org/publicdomain/zero/1.0/",
       "owner": "SE2021003815",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -874,11 +850,7 @@
         }
       ],
       "id": "apigw.stockholm.se",
-      "label": {
-        "sv": "Stockholms stad (apigw.stockholm.se)"
-      },
       "owner": "SE2120000142",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -930,7 +902,6 @@
         "sv": "Arbetsdomstolen"
       },
       "owner": "SE2021002122",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -957,7 +928,6 @@
         "sv": "Arbetsgivarverket"
       },
       "owner": "SE2021003476",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -984,7 +954,6 @@
         "sv": "Arboga kommun"
       },
       "owner": "SE2120002122",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1095,7 +1064,6 @@
         "sv": "Åre kommun"
       },
       "owner": "SE2120002494",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1147,7 +1115,6 @@
         "sv": "Årjängs kommun"
       },
       "owner": "SE2120001835",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1174,7 +1141,6 @@
         "sv": "Arjeplogs kommun"
       },
       "owner": "SE2120002668",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1201,7 +1167,6 @@
         "sv": "Statens centrum för arkitektur och design"
       },
       "owner": "SE2021003427",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1253,7 +1218,6 @@
         "sv": "Allmänna reklamationsnämnden"
       },
       "owner": "SE2021003625",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1280,7 +1244,6 @@
         "sv": "Arvidsjaurs kommun"
       },
       "owner": "SE2120002650",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1307,7 +1270,6 @@
         "sv": "Arvika kommun"
       },
       "owner": "SE2120001892",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1334,7 +1296,6 @@
         "sv": "Arvfondsdelegationen"
       },
       "owner": "SE2021005950",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1361,7 +1322,6 @@
         "sv": "Åsele kommun"
       },
       "owner": "SE2120002791",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1388,7 +1348,6 @@
         "sv": "Askersunds kommun"
       },
       "owner": "SE2120001983",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1415,7 +1374,6 @@
         "sv": "Åstorps kommun"
       },
       "owner": "SE2120000936",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1467,7 +1425,6 @@
         "sv": "Attunda tingsrätt"
       },
       "owner": "SE2021002742-ATTUNDA-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1494,7 +1451,6 @@
         "sv": "Åtvidabergs kommun"
       },
       "owner": "SE2120000415",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1559,7 +1515,6 @@
         "sv": "Avesta kommun"
       },
       "owner": "SE2120002262",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1592,7 +1547,6 @@
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "note": "Statens inköpscentral at Kammarkollegiet.",
       "owner": "SE2021000829",
-      "software": "custom",
       "source": [
         "check",
         "dataportal",
@@ -1620,7 +1574,6 @@
         "sv": "Barnombudsmannen"
       },
       "owner": "SE2021003690",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1651,7 +1604,6 @@
         "sv": "Barnsakert.se — öppna data"
       },
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1678,7 +1630,6 @@
         "sv": "Bengtsfors kommun"
       },
       "owner": "SE2120001470",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1705,7 +1656,6 @@
         "sv": "Bergs kommun"
       },
       "owner": "SE2120002502",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1732,7 +1682,6 @@
         "sv": "Bokföringsnämnden"
       },
       "owner": "SE2021003278",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1811,7 +1760,6 @@
         "sv": "Bjurholms kommun"
       },
       "owner": "SE2120002833",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1838,7 +1786,6 @@
         "sv": "Bjuvs kommun"
       },
       "owner": "SE2120001041",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1865,7 +1812,6 @@
         "sv": "Blekinge tingsrätt"
       },
       "owner": "SE2021002742-BLEKINGE-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1892,7 +1838,6 @@
         "sv": "Bodens kommun"
       },
       "owner": "SE2120002767",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1944,7 +1889,6 @@
         "sv": "Bollebygds kommun"
       },
       "owner": "SE2120002973",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1971,7 +1915,6 @@
         "sv": "Bollnäs kommun"
       },
       "owner": "SE2120002361",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -1998,7 +1941,6 @@
         "sv": "Borås tingsrätt"
       },
       "owner": "SE2021002742-BORAS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -2025,7 +1967,6 @@
         "sv": "Borgholms kommun"
       },
       "owner": "SE2120000795",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -2078,7 +2019,6 @@
         "sv": "Borlänge kommun"
       },
       "owner": "SE2120002239",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -2105,7 +2045,6 @@
         "sv": "Boxholms kommun"
       },
       "owner": "SE2120000407",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -2132,7 +2071,6 @@
         "sv": "Brottsförebyggande rådet"
       },
       "owner": "SE2021000068",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -2159,7 +2097,6 @@
         "sv": "Bräcke kommun"
       },
       "owner": "SE2120002460",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -2211,7 +2148,6 @@
         "sv": "Bromölla kommun"
       },
       "owner": "SE2120000894",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -2238,7 +2174,6 @@
         "sv": "Brottsoffermyndigheten"
       },
       "owner": "SE2021003435",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -2290,7 +2225,6 @@
         "sv": "Blekinge Tekniska högskola"
       },
       "owner": "SE2021004011",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -4351,7 +4285,6 @@
         "sv": "Jordbruksverkets nedladdningstjänst ATOM Inspire"
       },
       "owner": "SE2021004151",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -4381,7 +4314,6 @@
       "label": {
         "sv": "Civic Tech Swedens öppna data"
       },
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -4460,9 +4392,6 @@
         }
       ],
       "id": "daim.lfv.se",
-      "label": {
-        "sv": "Luftfartsverket (daim.lfv.se)"
-      },
       "owner": "SE2021000795",
       "software": "geoserver",
       "source": [
@@ -4491,7 +4420,6 @@
         "sv": "Danderyds kommun"
       },
       "owner": "SE2120000126",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -4731,7 +4659,6 @@
       },
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "owner": "SE2021002114",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -5051,7 +4978,6 @@
       },
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "owner": "SE2021002072",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -5107,7 +5033,6 @@
       },
       "license": "http://creativecommons.org/licenses/by/4.0/",
       "owner": "SE2021001868",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -5314,7 +5239,6 @@
         "sv": "Datainspektionen"
       },
       "owner": "SE2021000050",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -5529,7 +5453,6 @@
       },
       "license": "http://creativecommons.org/licenses/by/4.0/",
       "owner": "SE2120000142",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -5601,11 +5524,7 @@
         }
       ],
       "id": "datavardluft.smhi.se",
-      "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut (datavardluft.smhi.se)"
-      },
       "owner": "SE2021000696",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -5657,7 +5576,6 @@
         "sv": "Degerfors kommun"
       },
       "owner": "SE2120001934",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -5759,7 +5677,6 @@
         "sv": "Diskrimineringsombudsmannen"
       },
       "owner": "SE2021006073",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -5858,7 +5775,6 @@
         "https://admin.dataportal.se/store/602",
         "https://admin.dataportal.se/store/603"
       ],
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -5885,7 +5801,6 @@
         "sv": "Dorotea kommun"
       },
       "owner": "SE2120002809",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -5962,7 +5877,6 @@
         "sv": "Högskolan Dalarna"
       },
       "owner": "SE2021002908",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -5989,7 +5903,6 @@
         "sv": "Eda kommun"
       },
       "owner": "SE2120001769",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -6930,7 +6843,6 @@
         "sv": "Ekerö kommun"
       },
       "owner": "SE2120000050",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -6957,7 +6869,6 @@
         "sv": "Exportkreditnämnden"
       },
       "owner": "SE2021002098",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -6984,7 +6895,6 @@
         "sv": "Ekobrottsmyndigheten"
       },
       "owner": "SE2021004979",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -7011,7 +6921,6 @@
         "sv": "Eksjö kommun"
       },
       "owner": "SE2120000589",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -7038,7 +6947,6 @@
         "sv": "Eksjö tingsrätt"
       },
       "owner": "SE2021002742-EKSJO-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -7065,7 +6973,6 @@
         "sv": "E-Legitimationsnämnden"
       },
       "owner": "SE2021006438",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -7115,7 +7022,6 @@
       },
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "owner": "SE5590719547",
-      "software": "custom",
       "source": [
         "check",
         "data_europa",
@@ -7143,7 +7049,6 @@
         "sv": "Elsäkerhetsverket"
       },
       "owner": "SE2021004466",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -7170,7 +7075,6 @@
         "sv": "Emmaboda kommun"
       },
       "owner": "SE2120000738",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -7197,7 +7101,6 @@
         "sv": "Ängelholms kommun"
       },
       "owner": "SE2120000977",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -7286,7 +7189,6 @@
         "https://admin.dataportal.se/store/467",
         "https://admin.dataportal.se/store/599"
       ],
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -7333,11 +7235,7 @@
         }
       ],
       "id": "epub.sjv.se",
-      "label": {
-        "sv": "Statens jordbruksverk (epub.sjv.se)"
-      },
       "owner": "SE2021004151",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -7364,7 +7262,6 @@
         "sv": "Ersättningsnämnden"
       },
       "owner": "SE2021006503",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -7416,7 +7313,6 @@
         "sv": "Svenska ESF-rådet"
       },
       "owner": "SE2021005224",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -7568,7 +7464,6 @@
         "sv": "Eskilstuna tingsrätt"
       },
       "owner": "SE2021002742-ESKILSTUNA-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -7601,7 +7496,6 @@
       "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.sv",
       "note": "Harvested from esv.se: the catalog was set up when the body was Ekonomistyrningsverket.",
       "owner": "SE2021005026",
-      "software": "custom",
       "source": [
         "check",
         "dataportal",
@@ -7677,7 +7571,6 @@
         "sv": "SE.LST INSPIRE Nedladdningstjänst (ATOM)"
       },
       "owner": "SE2021002361-LST",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -7746,9 +7639,6 @@
         }
       ],
       "id": "ext-geodata-nationella.lansstyrelsen.se",
-      "label": {
-        "sv": "Länsstyrelserna gemensamt (ext-geodata-nationella.lansstyrelsen.se)"
-      },
       "owner": "SE2021002361-LST",
       "software": "arcgis",
       "source": [
@@ -7816,11 +7706,7 @@
         }
       ],
       "id": "ext-geodata-ows.lansstyrelsen.se",
-      "label": {
-        "sv": "Länsstyrelserna gemensamt (ext-geodata-ows.lansstyrelsen.se)"
-      },
       "owner": "SE2021002361-LST",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -8529,7 +8415,6 @@
         "sv": "Fagersta kommun"
       },
       "owner": "SE2120002106",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -8556,7 +8441,6 @@
         "sv": "Falkenbergs kommun"
       },
       "owner": "SE2120001231",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -8635,7 +8519,6 @@
         "sv": "Falu tingsrätt"
       },
       "owner": "SE2021002742-FALU-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -8662,7 +8545,6 @@
         "sv": "Färgelanda kommun"
       },
       "owner": "SE2120001421",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -8689,7 +8571,6 @@
         "sv": "Folke Bernadotteakademin"
       },
       "owner": "SE2021005380",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -8766,7 +8647,6 @@
         "sv": "Försvarshögskolan"
       },
       "owner": "SE2021004730",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -8793,7 +8673,6 @@
         "sv": "Finansinspektionen"
       },
       "owner": "SE2021004235",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -8825,7 +8704,6 @@
       },
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "owner": "SE2021002742",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -8852,7 +8730,6 @@
         "sv": "Filipstads kommun"
       },
       "owner": "SE2120001876",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -8879,7 +8756,6 @@
         "sv": "Finanspolitiska Rådet"
       },
       "owner": "SE2021005687",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -8906,7 +8782,6 @@
         "sv": "Finspångs kommun"
       },
       "owner": "SE2120000423",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -8958,7 +8833,6 @@
         "sv": "Flens kommun"
       },
       "owner": "SE2120000332",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -8985,7 +8859,6 @@
         "sv": "Fastighetsmäklarinspektionen"
       },
       "owner": "SE2021004870",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9037,7 +8910,6 @@
         "sv": "Försvarets materielverk"
       },
       "owner": "SE2021000340",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9068,7 +8940,6 @@
       },
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "owner": "SE2021006545",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9124,7 +8995,6 @@
         "sv": "Totalförsvarets forskningsinstitut"
       },
       "owner": "SE2021005182",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9215,7 +9085,6 @@
         "sv": "Forshaga kommun"
       },
       "owner": "SE2120001819",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9242,7 +9111,6 @@
         "sv": "Forskarskattenämnden"
       },
       "owner": "SE2021005893",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9269,7 +9137,6 @@
         "sv": "Försvarsmakten"
       },
       "owner": "SE2021004615",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9296,7 +9163,6 @@
         "sv": "Forskningsrådet för hälsa, arbetsliv och välfärd"
       },
       "owner": "SE2021005240",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9323,7 +9189,6 @@
         "sv": "Fortifikationsverket"
       },
       "owner": "SE2021004607",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9350,7 +9215,6 @@
         "sv": "Förvaltningsrätten i Falun"
       },
       "owner": "SE2021002742-FORVALTNINGSRATTENIFALUN",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9377,7 +9241,6 @@
         "sv": "Förvaltningsrätten i Göteborg"
       },
       "owner": "SE2021002742-FORVALTNINGSRATTENIGOTEBORG",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9404,7 +9267,6 @@
         "sv": "Förvaltningsrätten i Härnösand"
       },
       "owner": "SE2021002742-FORVALTNINGSRATTENIHARNOSAND",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9431,7 +9293,6 @@
         "sv": "Förvaltningsrätten i Jönköping"
       },
       "owner": "SE2021002742-FORVALTNINGSRATTENIJONKOPING",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9458,7 +9319,6 @@
         "sv": "Förvaltningsrätten i Karlstad"
       },
       "owner": "SE2021002742-FORVALTNINGSRATTENIKARLSTAD",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9485,7 +9345,6 @@
         "sv": "Förvaltningsrätten i Linköping"
       },
       "owner": "SE2021002742-FORVALTNINGSRATTENILINKOPING",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9512,7 +9371,6 @@
         "sv": "Förvaltningsrätten i Luleå"
       },
       "owner": "SE2021002742-FORVALTNINGSRATTENILULEA",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9539,7 +9397,6 @@
         "sv": "Förvaltningsrätten i Malmö och Migrationsdomstol"
       },
       "owner": "SE2021002742-FORVALTNINGSRATTENIMALMO",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9566,7 +9423,6 @@
         "sv": "Förvaltningsrätten i Stockholm"
       },
       "owner": "SE2021002742-FORVALTNINGSRATTENISTOCKHOLM",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9593,7 +9449,6 @@
         "sv": "Förvaltningsrätten i Umeå"
       },
       "owner": "SE2021002742-FORVALTNINGSRATTENIUMEA",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9620,7 +9475,6 @@
         "sv": "Förvaltningsrätten i Uppsala"
       },
       "owner": "SE2021002742-FORVALTNINGSRATTENIUPPSALA",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9647,7 +9501,6 @@
         "sv": "Förvaltningsrätten i Växjö"
       },
       "owner": "SE2021002742-FORVALTNINGSRATTENIVAXJO",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -9674,7 +9527,6 @@
         "sv": "Försvarets radioanstalt"
       },
       "owner": "SE2021000365",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -10162,7 +10014,6 @@
         "sv": "Gagnefs kommun"
       },
       "owner": "SE2120002155",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -10189,7 +10040,6 @@
         "sv": "Gävle tingsrätt"
       },
       "owner": "SE2021002742-GAVLE-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -10275,7 +10125,6 @@
         "sv": "Gällivare kommun"
       },
       "owner": "SE2120002726",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -10302,7 +10151,6 @@
         "sv": "Gentekniknämnden"
       },
       "owner": "SE2021004813",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -10340,11 +10188,7 @@
         }
       ],
       "id": "geo-inspire.trafikverket.se",
-      "label": {
-        "sv": "Trafikverket (geo-inspire.trafikverket.se)"
-      },
       "owner": "SE2021006297",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -10368,7 +10212,6 @@
         "sv": "Bytes- och stoppunkter - nedladdningstjänst"
       },
       "owner": "SE2021006297",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -10448,9 +10291,6 @@
         }
       ],
       "id": "geodata-svoa-extern.stockholm.se",
-      "label": {
-        "sv": "Stockholms stad (geodata-svoa-extern.stockholm.se)"
-      },
       "owner": "SE2120000142",
       "software": "arcgis",
       "source": [
@@ -10619,11 +10459,7 @@
         }
       ],
       "id": "geodata.havochvatten.se",
-      "label": {
-        "sv": "Havs- och vattenmyndigheten (geodata.havochvatten.se)"
-      },
       "owner": "SE2021006420",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -10806,11 +10642,7 @@
         }
       ],
       "id": "geodata.naturvardsverket.se",
-      "label": {
-        "sv": "Naturvårdsverket (geodata.naturvardsverket.se)"
-      },
       "owner": "SE2021001975",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -10859,7 +10691,6 @@
         "sv": "Renskötselområdets ungefärliga utbredning i Sverige Inspire nedladdningstjänst"
       },
       "owner": "SE2021004573",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -10989,9 +10820,6 @@
         }
       ],
       "id": "geodata.scb.se",
-      "label": {
-        "sv": "Statistiska centralbyrån (geodata.scb.se)"
-      },
       "owner": "SE2021000837",
       "software": "geoserver",
       "source": [
@@ -11127,11 +10955,7 @@
         }
       ],
       "id": "geodata.socialstyrelsen.se",
-      "label": {
-        "sv": "Socialstyrelsen (geodata.socialstyrelsen.se)"
-      },
       "owner": "SE2021000555",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -11300,9 +11124,6 @@
         }
       ],
       "id": "geodpags.skogsstyrelsen.se",
-      "label": {
-        "sv": "Skogsstyrelsen (geodpags.skogsstyrelsen.se)"
-      },
       "owner": "SE2021005612",
       "software": "arcgis",
       "source": [
@@ -11337,7 +11158,6 @@
         "sv": "AU.Maritima enheter - nedladdningstjänst"
       },
       "owner": "SE2021000654",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -11357,9 +11177,6 @@
         }
       ],
       "id": "geonode.folkhalsomyndigheten.se",
-      "label": {
-        "sv": "Folkhälsomyndigheten (geonode.folkhalsomyndigheten.se)"
-      },
       "owner": "SE2021006545",
       "software": "geoserver",
       "source": [
@@ -11785,7 +11602,6 @@
         "sv": "Gih"
       },
       "owner": "SE2021004334",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -11981,11 +11797,7 @@
         }
       ],
       "id": "gis.miljo.stockholm.se",
-      "label": {
-        "sv": "Stockholms stad (gis.miljo.stockholm.se)"
-      },
       "owner": "SE2120000142",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -12180,9 +11992,6 @@
         }
       ],
       "id": "gis.swedgeo.se",
-      "label": {
-        "sv": "Statens geotekniska institut (gis.swedgeo.se)"
-      },
       "owner": "SE2021000712",
       "software": "geoserver",
       "source": [
@@ -12279,9 +12088,6 @@
         }
       ],
       "id": "gisapp.msb.se",
-      "label": {
-        "sv": "Myndigheten för civilt försvar (gisapp.msb.se)"
-      },
       "note": "msb.se is Myndigheten för civilt försvar's domain from its MSB years.",
       "owner": "SE2021005984",
       "software": "arcgis",
@@ -12427,7 +12233,6 @@
         "sv": "Renskötselområdets ungefärliga utbredning i Sverige Inspire visningstjänst"
       },
       "owner": "SE2021004573",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -12454,7 +12259,6 @@
         "sv": "Gnesta kommun"
       },
       "owner": "SE2120002965",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -12481,7 +12285,6 @@
         "sv": "Gnosjö kommun"
       },
       "owner": "SE2120000506",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -12508,7 +12311,6 @@
         "sv": "Göta Hovrätt"
       },
       "owner": "SE2021002742-GOTA-HOVRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -12535,7 +12337,6 @@
         "sv": "Göteborgs tingsrätt"
       },
       "owner": "SE2021002742-GBG-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -12562,7 +12363,6 @@
         "sv": "Gotlands tingsrätt"
       },
       "owner": "SE2021002742-GOTLANDS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -12589,7 +12389,6 @@
         "sv": "Grums kommun"
       },
       "owner": "SE2120001827",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -12616,7 +12415,6 @@
         "sv": "Göteborgs universitet"
       },
       "owner": "SE2021003153",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -12685,7 +12483,6 @@
       "label": {
         "sv": "Gymnasio — öppna data om svenska gymnasieskolor"
       },
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -12737,7 +12534,6 @@
         "sv": "Hagfors kommun"
       },
       "owner": "SE2120001884",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -12764,7 +12560,6 @@
         "sv": "Hallsbergs kommun"
       },
       "owner": "SE2120001926",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -12791,7 +12586,6 @@
         "sv": "Hallstahammars kommun"
       },
       "owner": "SE2120002064",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -12818,7 +12612,6 @@
         "sv": "Halmstads kommun"
       },
       "owner": "SE2120001215",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -12845,7 +12638,6 @@
         "sv": "Halmstads tingsrätt"
       },
       "owner": "SE2021002742-HALMSTADS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -12872,7 +12664,6 @@
         "sv": "Hammarö kommun"
       },
       "owner": "SE2120001793",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -12899,7 +12690,6 @@
         "sv": "Myndigheten för delaktighet"
       },
       "owner": "SE2021005588",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -12969,7 +12759,6 @@
         "sv": "Haparanda kommun"
       },
       "owner": "SE2120002775",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -12996,7 +12785,6 @@
         "sv": "Härnösands kommun"
       },
       "owner": "SE2120002403",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13023,7 +12811,6 @@
         "sv": "Hässleholms kommun"
       },
       "owner": "SE2120000985",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13050,7 +12837,6 @@
         "sv": "Hässleholms tingsrätt"
       },
       "owner": "SE2021002742-HASSLEHOLMS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13077,7 +12863,6 @@
         "sv": "Statens haverikommission"
       },
       "owner": "SE2021003260",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13154,7 +12939,6 @@
         "sv": "Högskolan i Borås"
       },
       "owner": "SE2021003138",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13181,7 +12965,6 @@
         "sv": "Hedemora kommun"
       },
       "owner": "SE2120002254",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13208,7 +12991,6 @@
         "sv": "Hällefors kommun"
       },
       "owner": "SE2120001942",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13235,7 +13017,6 @@
         "sv": "Helsingborgs tingsrätt"
       },
       "owner": "SE2021002742-HELSINGBORGS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13262,7 +13043,6 @@
         "sv": "Härjedalens kommun"
       },
       "owner": "SE2120002510",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13289,7 +13069,6 @@
         "sv": "Herrljunga kommun"
       },
       "owner": "SE2120001520",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13341,7 +13120,6 @@
         "sv": "Högskolan i Halmstad"
       },
       "owner": "SE2021003203",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13393,7 +13171,6 @@
         "sv": "Högskolan i Gävle"
       },
       "owner": "SE2021002890",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13445,7 +13222,6 @@
         "sv": "Högskolan i Skövde"
       },
       "owner": "SE2021003146",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13469,7 +13245,6 @@
         "sv": "Historiska platsannonser"
       },
       "owner": "SE2021002114",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -13496,7 +13271,6 @@
         "sv": "Statens historiska museer"
       },
       "owner": "SE2021004953",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13523,7 +13297,6 @@
         "sv": "Högskolan i Kristianstad"
       },
       "owner": "SE2021003195",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13550,7 +13323,6 @@
         "sv": "Hofors kommun"
       },
       "owner": "SE2120002296",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13577,7 +13349,6 @@
         "sv": "Höganäs kommun"
       },
       "owner": "SE2120001165",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13604,7 +13375,6 @@
         "sv": "Högsby kommun"
       },
       "owner": "SE2120000688",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13631,7 +13401,6 @@
         "sv": "Högsta Domstolen"
       },
       "owner": "SE2021002742-HOGSTA-DOMSTOLEN",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13658,7 +13427,6 @@
         "sv": "Högsta Förvaltningsdomstolen"
       },
       "owner": "SE2021002742-HOGSTAFORVALTNINGSDOMSTOLEN",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13685,7 +13453,6 @@
         "sv": "Höörs kommun"
       },
       "owner": "SE2120001116",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13712,7 +13479,6 @@
         "sv": "Hörby kommun"
       },
       "owner": "SE2120001108",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13739,7 +13505,6 @@
         "sv": "Hovrätten för nedre Norrland"
       },
       "owner": "SE2021002742-HOVRATTEN-NEDRENORRLAND",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13766,7 +13531,6 @@
         "sv": "Hovrätten för övre Norrland"
       },
       "owner": "SE2021002742-HOVRATTEN-OVRENORRLAND",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13793,7 +13557,6 @@
         "sv": "Hovrätten över Skåne och Blekinge"
       },
       "owner": "SE2021002742-HOVRATTEN-SKANEBLEKINGE",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13820,7 +13583,6 @@
         "sv": "Hälso- & sjukvårdens ansvarsnämnd"
       },
       "owner": "SE2021003765",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13847,7 +13609,6 @@
         "sv": "Hudiksvalls kommun"
       },
       "owner": "SE2120002379",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13874,7 +13635,6 @@
         "sv": "Hudiksvalls tingsrätt"
       },
       "owner": "SE2021002742-HALSINGLANDS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13901,7 +13661,6 @@
         "sv": "Hultsfreds kommun"
       },
       "owner": "SE2120000712",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -13953,7 +13712,6 @@
         "sv": "Högskolan Väst"
       },
       "owner": "SE2021004052",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14008,7 +13766,6 @@
         "sv": "Hylte kommun"
       },
       "owner": "SE2120001207",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14035,7 +13792,6 @@
         "sv": "Institutet för arbetsmarknads-Och utbildningspolitisk utvärdering"
       },
       "owner": "SE2021004946",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14062,7 +13818,6 @@
         "sv": "Ilo-Kommittén"
       },
       "owner": "SE2021005877",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14127,9 +13882,6 @@
         }
       ],
       "id": "inspire-raa.metria.se",
-      "label": {
-        "sv": "Riksantikvarieämbetet (inspire-raa.metria.se)"
-      },
       "operator": "SE5567992242",
       "owner": "SE2021001090",
       "software": "geoserver",
@@ -14227,7 +13979,6 @@
         "sv": "Institutet för rymdfysik"
       },
       "owner": "SE2021003567",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14254,7 +14005,6 @@
         "sv": "Inspektionen för socialförsäkringen"
       },
       "owner": "SE2021006248",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14281,7 +14031,6 @@
         "sv": "Inspektionen för strategiska produkter"
       },
       "owner": "SE2021004912",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14367,7 +14116,6 @@
         "sv": "Inspektionen för vård och omsorg"
       },
       "owner": "SE2021006537",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14394,7 +14142,6 @@
         "sv": "Järfälla kommun"
       },
       "owner": "SE2120000043",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14446,7 +14193,6 @@
         "sv": "Riksdagens ombudsmän"
       },
       "owner": "SE2021002650",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14470,7 +14216,6 @@
         "sv": "JobAd Enrichments"
       },
       "owner": "SE2021002114",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -14494,7 +14239,6 @@
         "sv": "JobEd Connect"
       },
       "owner": "SE2021002114",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -14521,7 +14265,6 @@
         "sv": "Jokkmokks kommun"
       },
       "owner": "SE2120002676",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14548,7 +14291,6 @@
         "sv": "Jönköpings tingsrätt"
       },
       "owner": "SE2021002742-JONKOPINGS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14600,7 +14342,6 @@
         "sv": "Justitiekanslern"
       },
       "owner": "SE2021000035",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14627,7 +14368,6 @@
         "sv": "Kalix kommun"
       },
       "owner": "SE2120002692",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14654,7 +14394,6 @@
         "sv": "Kalmar kommun"
       },
       "owner": "SE2120000746",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14681,7 +14420,6 @@
         "sv": "Kalmar tingsrätt"
       },
       "owner": "SE2021002742-KALMAR-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14708,7 +14446,6 @@
         "sv": "Kammarkollegiet"
       },
       "owner": "SE2021000829",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14735,7 +14472,6 @@
         "sv": "Kammarrätten i Göteborg"
       },
       "owner": "SE2021002742-KAMMARRATTEN-GOTEBORG",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14762,7 +14498,6 @@
         "sv": "Kammarrätten i Jönköping"
       },
       "owner": "SE2021002742-KAMMARRATTENIJONKOPING",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14789,7 +14524,6 @@
         "sv": "Kammarrätten i Stockholm"
       },
       "owner": "SE2021002742-KAMMARRATTENISTOCKHOLM",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14816,7 +14550,6 @@
         "sv": "Kammarrätten i Sundsvall"
       },
       "owner": "SE2021002742-KAMMARRATTENISUNDSVALL",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14843,7 +14576,6 @@
         "sv": "Karlskoga kommun"
       },
       "owner": "SE2120001991",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -14895,7 +14627,6 @@
         "sv": "Kärnavfallsfondens styrelse"
       },
       "owner": "SE2021004904",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -15762,11 +15493,7 @@
         }
       ],
       "id": "karta.lidingo.se",
-      "label": {
-        "sv": "Lidingö stad (karta.lidingo.se)"
-      },
       "owner": "SE2120000191",
-      "software": "custom",
       "source": [
         "check",
         "data_europa",
@@ -17066,11 +16793,7 @@
         }
       ],
       "id": "kartor.stockholm.se",
-      "label": {
-        "sv": "Stockholms stad (kartor.stockholm.se)"
-      },
       "owner": "SE2120000142",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -17526,7 +17249,6 @@
         "sv": "Karlstads universitet"
       },
       "owner": "SE2021003120",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -17553,7 +17275,6 @@
         "sv": "Kävlinge kommun"
       },
       "owner": "SE2120001058",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -17580,7 +17301,6 @@
         "sv": "Karolinska Institutet"
       },
       "owner": "SE2021002973",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -17632,7 +17352,6 @@
         "sv": "Kils kommun"
       },
       "owner": "SE2120001751",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -17659,7 +17378,6 @@
         "sv": "Kinda kommun"
       },
       "owner": "SE2120000399",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -17711,7 +17429,6 @@
         "sv": "Kungliga Konsthögskolan"
       },
       "owner": "SE2021002957",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -17738,7 +17455,6 @@
         "sv": "Klippans kommun"
       },
       "owner": "SE2120000928",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -17790,7 +17506,6 @@
         "sv": "Kungliga Musikhögskolan"
       },
       "owner": "SE2021001215",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -17817,7 +17532,6 @@
         "sv": "Knivsta kommun"
       },
       "owner": "SE2120003013",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -17844,7 +17558,6 @@
         "sv": "Kommerskollegium"
       },
       "owner": "SE2021002007",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -17871,7 +17584,6 @@
         "sv": "Kiruna kommun"
       },
       "owner": "SE2120002783",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -17902,7 +17614,6 @@
         "sv": "Kommun Kartan"
       },
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -17929,7 +17640,6 @@
         "sv": "Konjunkturinstitutet"
       },
       "owner": "SE2021000845",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -17956,7 +17666,6 @@
         "sv": "Konkurrensverket"
       },
       "owner": "SE2021004342",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18008,7 +17717,6 @@
         "sv": "Konstfack"
       },
       "owner": "SE2021001199",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18035,7 +17743,6 @@
         "sv": "Konstnärsnämnden"
       },
       "owner": "SE2021003252",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18105,7 +17812,6 @@
         "sv": "Köpings kommun"
       },
       "owner": "SE2120002114",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18132,7 +17838,6 @@
         "sv": "Kramfors kommun"
       },
       "owner": "SE2120002429",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18159,7 +17864,6 @@
         "sv": "Kriminalvården"
       },
       "owner": "SE2021000225",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18211,7 +17915,6 @@
         "sv": "Kristianstads tingsrätt"
       },
       "owner": "SE2021002742-KRISTIANSTADS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18238,7 +17941,6 @@
         "sv": "Kristinehamns kommun"
       },
       "owner": "SE2120001868",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18265,7 +17967,6 @@
         "sv": "Krokoms kommun"
       },
       "owner": "SE2120002478",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18358,7 +18059,6 @@
         "sv": "Kungliga Tekniska högskolan"
       },
       "owner": "SE2021003054",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18385,7 +18085,6 @@
         "sv": "Myndigheten för kulturanalys"
       },
       "owner": "SE2021006404",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18437,7 +18136,6 @@
         "sv": "Statens kulturråd"
       },
       "owner": "SE2021001280",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18464,7 +18162,6 @@
         "sv": "Kumla kommun"
       },
       "owner": "SE2120001975",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18532,7 +18229,6 @@
         "sv": "Kungsörs kommun"
       },
       "owner": "SE2120002056",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18559,7 +18255,6 @@
         "sv": "Kustbevakningen"
       },
       "owner": "SE2021003997",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18586,7 +18281,6 @@
         "sv": "Lagrådet"
       },
       "owner": "SE2021005315",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18613,7 +18307,6 @@
         "sv": "Laholms kommun"
       },
       "owner": "SE2120001223",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18640,7 +18333,6 @@
         "sv": "Landstinget Sörmland"
       },
       "owner": "SE2321000032",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18869,7 +18561,6 @@
         "https://admin.dataportal.se/store/76",
         "https://admin.dataportal.se/store/84"
       ],
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18936,7 +18627,6 @@
         "sv": "Lantmäteriet"
       },
       "owner": "SE2021004888",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -18963,7 +18653,6 @@
         "sv": "Skogsstyrelsen"
       },
       "owner": "SE2021005612",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19016,7 +18705,6 @@
         "sv": "Laxå kommun"
       },
       "owner": "SE2120001918",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19043,7 +18731,6 @@
         "sv": "Lekebergs kommun"
       },
       "owner": "SE2120002981",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19070,7 +18757,6 @@
         "sv": "Leksands kommun"
       },
       "owner": "SE2120002163",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19097,7 +18783,6 @@
         "sv": "Lessebo kommun"
       },
       "owner": "SE2120000613",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19124,7 +18809,6 @@
         "sv": "Forum för levande historia"
       },
       "owner": "SE2021005356",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19151,7 +18835,6 @@
         "sv": "Luftfartsverket"
       },
       "owner": "SE2021000795",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19178,7 +18861,6 @@
         "sv": "Lindesbergs kommun"
       },
       "owner": "SE2120002015",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19246,7 +18928,6 @@
         "sv": "Linköpings tingsrätt"
       },
       "owner": "SE2021002742-LINKOPINGS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19270,7 +18951,6 @@
         "sv": "JobAd Links"
       },
       "owner": "SE2021002114",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -19297,7 +18977,6 @@
         "sv": "Linnéuniversitetet"
       },
       "owner": "SE2021006271",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19349,7 +19028,6 @@
         "sv": "Linköpings universitet"
       },
       "owner": "SE2021003096",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19376,7 +19054,6 @@
         "sv": "Landstinget i Värmland"
       },
       "owner": "SE2321000156",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19429,7 +19106,6 @@
         "sv": "Ljungby kommun"
       },
       "owner": "SE2120000670",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19456,7 +19132,6 @@
         "sv": "Ljusdals kommun"
       },
       "owner": "SE2120002320",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19483,7 +19158,6 @@
         "sv": "Ljusnarsbergs kommun"
       },
       "owner": "SE2120001959",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19535,7 +19209,6 @@
         "sv": "Livrustkammaren och Skoklosters slott med stiftelsen Hallwylska museet"
       },
       "owner": "SE2021003732",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19562,7 +19235,6 @@
         "sv": "Landstinget Dalarna"
       },
       "owner": "SE2321000180",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19589,7 +19261,6 @@
         "sv": "Landstinget i Kalmar län"
       },
       "owner": "SE2321000073",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19616,7 +19287,6 @@
         "sv": "Region Kronoberg"
       },
       "owner": "SE2321000065",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19668,7 +19338,6 @@
         "sv": "Luleå Tekniska universitet"
       },
       "owner": "SE2021002841",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19695,7 +19364,6 @@
         "sv": "Landstinget Västmanland"
       },
       "owner": "SE2321000172",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19722,7 +19390,6 @@
         "sv": "Lunds universitet"
       },
       "owner": "SE2021003211",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19749,7 +19416,6 @@
         "sv": "Ludvika kommun"
       },
       "owner": "SE2120002270",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19776,7 +19442,6 @@
         "sv": "Landstinget i Uppsala län"
       },
       "owner": "SE2321000024",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19803,7 +19468,6 @@
         "sv": "Luleå kommun"
       },
       "owner": "SE2120002742",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19830,7 +19494,6 @@
         "sv": "Lunds tingsrätt"
       },
       "owner": "SE2021002742-LUNDS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19882,7 +19545,6 @@
         "sv": "Landstinget Västernorrland"
       },
       "owner": "SE2321000206",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19909,7 +19571,6 @@
         "sv": "Lycksele kommun"
       },
       "owner": "SE2120002635",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19936,7 +19597,6 @@
         "sv": "Lycksele tingsrätt"
       },
       "owner": "SE2021002742-LYCKSELE-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -19963,7 +19623,6 @@
         "sv": "Lysekils kommun"
       },
       "owner": "SE2120001389",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -20015,7 +19674,6 @@
         "sv": "MR.Mineralresurser (nedladdningstjänst för direktåtkomst)"
       },
       "owner": "SE2021002528",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -20042,7 +19700,6 @@
         "sv": "Malmö högskola"
       },
       "owner": "SE2021004920",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -20069,7 +19726,6 @@
         "sv": "Malå kommun"
       },
       "owner": "SE2120002866",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -20096,7 +19752,6 @@
         "sv": "Malmö tingsrätt"
       },
       "owner": "SE2021002742-MALMO-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -20123,7 +19778,6 @@
         "sv": "Malung-Sälens kommun"
       },
       "owner": "SE2120002148",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -20186,11 +19840,7 @@
         }
       ],
       "id": "maps.lantmateriet.se",
-      "label": {
-        "sv": "Lantmäteriet (maps.lantmateriet.se)"
-      },
       "owner": "SE2021004888",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -20287,9 +19937,6 @@
         }
       ],
       "id": "mapsext.sgi.se",
-      "label": {
-        "sv": "Statens geotekniska institut (mapsext.sgi.se)"
-      },
       "owner": "SE2021000712",
       "software": "geoserver",
       "source": [
@@ -20318,7 +19965,6 @@
         "sv": "Statens maritima museer"
       },
       "owner": "SE2021001132",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -20345,7 +19991,6 @@
         "sv": "Marks kommun"
       },
       "owner": "SE2120001504",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -20372,7 +20017,6 @@
         "sv": "Markaryds kommun"
       },
       "owner": "SE2120000654",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -20399,7 +20043,6 @@
         "sv": "Marknadsdomstolen"
       },
       "owner": "SE2021002015",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -20451,7 +20094,6 @@
         "sv": "Myndigheten för samhällsskydd och beredskap"
       },
       "owner": "SE2021005984",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -20503,7 +20145,6 @@
         "sv": "Mälardalens högskola"
       },
       "owner": "SE2021002916",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -20981,7 +20622,6 @@
       },
       "note": "Registered on dataportal.se under a misspelt name and the predecessor's domain; the body is Myndigheten för familjerätt och föräldraskapsstöd.",
       "owner": "SE2021004169",
-      "software": "custom",
       "source": [
         "check",
         "dataportal",
@@ -21014,7 +20654,6 @@
       },
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "owner": "SE2021002163",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21119,7 +20758,6 @@
         "sv": "Mittuniversitetet"
       },
       "owner": "SE2021004524",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21146,7 +20784,6 @@
         "sv": "Mjölby kommun"
       },
       "owner": "SE2120000480",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21173,7 +20810,6 @@
         "sv": "Moderna Museet"
       },
       "owner": "SE2021005091",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21200,7 +20836,6 @@
         "sv": "Mönsterås kommun"
       },
       "owner": "SE2120000720",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21227,7 +20862,6 @@
         "sv": "Mora kommun"
       },
       "owner": "SE2120002213",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21254,7 +20888,6 @@
         "sv": "Mora tingsrätt"
       },
       "owner": "SE2021002742-MORA-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21281,7 +20914,6 @@
         "sv": "Mörbylånga kommun"
       },
       "owner": "SE2120000704",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21308,7 +20940,6 @@
         "sv": "Motala kommun"
       },
       "owner": "SE2120002817",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21360,7 +20991,6 @@
         "sv": "Myndigheten för tillgängliga medier"
       },
       "owner": "SE2021003591",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21387,7 +21017,6 @@
         "sv": "Mullsjö kommun"
       },
       "owner": "SE2120001603",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21414,7 +21043,6 @@
         "sv": "Munkedals kommun"
       },
       "owner": "SE2120001330",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21441,7 +21069,6 @@
         "sv": "Munkfors kommun"
       },
       "owner": "SE2120001801",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21468,7 +21095,6 @@
         "sv": "Statens musikverk"
       },
       "owner": "SE2021003666",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21520,7 +21146,6 @@
         "sv": "Nämnden för statligt stöd till trossamfund"
       },
       "owner": "SE2021005141",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21547,7 +21172,6 @@
         "sv": "Nacka kommun"
       },
       "owner": "SE2120000167",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21574,7 +21198,6 @@
         "sv": "Nacka tingsrätt"
       },
       "owner": "SE2021002742-NACKA-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21626,7 +21249,6 @@
         "sv": "Nordiska Afrikainstitutet"
       },
       "owner": "SE2021002726",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21653,7 +21275,6 @@
         "sv": "Nämnden mot diskriminering"
       },
       "owner": "SE2021006206",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21680,7 +21301,6 @@
         "sv": "Nässjö kommun"
       },
       "owner": "SE2120000548",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21732,7 +21352,6 @@
         "sv": "Nationalmuseum med Prins Eugens Waldemarsudde"
       },
       "owner": "SE2021001108",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21808,7 +21427,6 @@
         "sv": "Nämnden för hemslöjdsfrågor"
       },
       "owner": "SE2021004144",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21835,7 +21453,6 @@
         "sv": "Sync (profDatasets) for \"Specifikationer för hälso- och sjukvård och socialtjänst\" in context 175"
       },
       "owner": "SE2021006552",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21862,7 +21479,6 @@
         "sv": "Norrbottens läns landsting"
       },
       "owner": "SE2321000230",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21889,7 +21505,6 @@
         "sv": "Nora kommun"
       },
       "owner": "SE2120002007",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21916,7 +21531,6 @@
         "sv": "Norbergs kommun"
       },
       "owner": "SE2120002072",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21943,7 +21557,6 @@
         "sv": "Nordanstigs kommun"
       },
       "owner": "SE2120002312",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -21995,7 +21608,6 @@
         "sv": "Nordmalings kommun"
       },
       "owner": "SE2120002536",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22022,7 +21634,6 @@
         "sv": "Norrköpings kommun"
       },
       "owner": "SE2120000456",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22049,7 +21660,6 @@
         "sv": "Norrköpings tingsrätt"
       },
       "owner": "SE2021002742-NORRKOPINGS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22076,7 +21686,6 @@
         "sv": "Norrtälje kommun"
       },
       "owner": "SE2120000217",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22128,7 +21737,6 @@
         "sv": "Norrtälje tingsrätt"
       },
       "owner": "SE2021002742-NORRTALJE-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22155,7 +21763,6 @@
         "sv": "Norsjö kommun"
       },
       "owner": "SE2120002858",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22232,7 +21839,6 @@
         "sv": "Naturhistoriska riksmuseet"
       },
       "owner": "SE2021001124",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22252,9 +21858,6 @@
         }
       ],
       "id": "nvgis.naturvardsverket.se",
-      "label": {
-        "sv": "Naturvårdsverket (nvgis.naturvardsverket.se)"
-      },
       "owner": "SE2021001975",
       "software": "geoserver",
       "source": [
@@ -22283,7 +21886,6 @@
         "sv": "Nybro kommun"
       },
       "owner": "SE2120000753",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22310,7 +21912,6 @@
         "sv": "Nyköpings tingsrätt"
       },
       "owner": "SE2021002742-NYKOPINGS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22337,7 +21938,6 @@
         "sv": "Nykvarns kommun"
       },
       "owner": "SE2120002999",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22364,7 +21964,6 @@
         "sv": "Nynäshamns kommun"
       },
       "owner": "SE2120000233",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22391,7 +21990,6 @@
         "sv": "Ockelbo kommun"
       },
       "owner": "SE2120002288",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22418,7 +22016,6 @@
         "sv": "Öckerö kommun"
       },
       "owner": "SE2120001280",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22445,7 +22042,6 @@
         "sv": "Ödeshögs kommun"
       },
       "owner": "SE2120000373",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22475,7 +22071,6 @@
       "label": {
         "sv": "Données ouvertes Off We Gooo"
       },
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22502,7 +22097,6 @@
         "sv": "Överklagandenämnden för studiestöd"
       },
       "owner": "SE2021005273",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22554,7 +22148,6 @@
         "sv": "Överklagandenämnden för högskolan"
       },
       "owner": "SE2021004375",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22686,7 +22279,6 @@
       },
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "owner": "SE2021000696",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -22706,11 +22298,7 @@
         }
       ],
       "id": "opendata-download-algae.smhi.se",
-      "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut (opendata-download-algae.smhi.se)"
-      },
       "owner": "SE2021000696",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -22761,7 +22349,6 @@
         "sv": "SE.HY Dammregistret, Del- och Huvudavrinningsområden: Nedladdningstjänst"
       },
       "owner": "SE2021000696",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -22812,7 +22399,6 @@
         "sv": "SE.ACMF Hydrologiska observationer - Vattenföring: Nedladdningstjänst"
       },
       "owner": "SE2021000696",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -22832,11 +22418,7 @@
         }
       ],
       "id": "opendata-download-icemap.smhi.se",
-      "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut (opendata-download-icemap.smhi.se)"
-      },
       "owner": "SE2021000696",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -22856,11 +22438,7 @@
         }
       ],
       "id": "opendata-download-lightning.smhi.se",
-      "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut (opendata-download-lightning.smhi.se)"
-      },
       "owner": "SE2021000696",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -22898,11 +22476,7 @@
         }
       ],
       "id": "opendata-download-metanalys.smhi.se",
-      "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut (opendata-download-metanalys.smhi.se)"
-      },
       "owner": "SE2021000696",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -22940,11 +22514,7 @@
         }
       ],
       "id": "opendata-download-metfcst.smhi.se",
-      "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut (opendata-download-metfcst.smhi.se)"
-      },
       "owner": "SE2021000696",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -23013,7 +22583,6 @@
         "sv": "SE.ACMF Meteorologiska observationer: Nedladdningstjänst"
       },
       "owner": "SE2021000696",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -23082,7 +22651,6 @@
         "sv": "SE.OF Oceanografiska observationer: Nedladdningstjänst"
       },
       "owner": "SE2021000696",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -23102,11 +22670,7 @@
         }
       ],
       "id": "opendata-download-radar.smhi.se",
-      "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut (opendata-download-radar.smhi.se)"
-      },
       "owner": "SE2021000696",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -23126,11 +22690,7 @@
         }
       ],
       "id": "opendata-download-satellite.smhi.se",
-      "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut (opendata-download-satellite.smhi.se)"
-      },
       "owner": "SE2021000696",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -23150,11 +22710,7 @@
         }
       ],
       "id": "opendata-download-warnings.smhi.se",
-      "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut (opendata-download-warnings.smhi.se)"
-      },
       "owner": "SE2021000696",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -23219,11 +22775,7 @@
         }
       ],
       "id": "opendata-view.smhi.se",
-      "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut (opendata-view.smhi.se)"
-      },
       "owner": "SE2021000696",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -23368,11 +22920,7 @@
         }
       ],
       "id": "opendata.smhi.se",
-      "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut (opendata.smhi.se)"
-      },
       "owner": "SE2021000696",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -23613,9 +23161,6 @@
         }
       ],
       "id": "openexpl.stockholm.se",
-      "label": {
-        "sv": "Stockholms stad (openexpl.stockholm.se)"
-      },
       "owner": "SE2120000142",
       "software": "geoserver",
       "source": [
@@ -23671,11 +23216,7 @@
         }
       ],
       "id": "openstreetgs.stockholm.se",
-      "label": {
-        "sv": "Stockholms stad (openstreetgs.stockholm.se)"
-      },
       "owner": "SE2120000142",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -24043,7 +23584,6 @@
         "sv": "Örebro tingsrätt"
       },
       "owner": "SE2021002742-OREBRO-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24070,7 +23610,6 @@
         "sv": "Örkelljunga kommun"
       },
       "owner": "SE2120000878",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24097,7 +23636,6 @@
         "sv": "Örnsköldsviks kommun"
       },
       "owner": "SE2120002445",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24124,7 +23662,6 @@
         "sv": "Orsa kommun"
       },
       "owner": "SE2120002189",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24176,7 +23713,6 @@
         "sv": "Örebro universitet"
       },
       "owner": "SE2021002924",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24203,7 +23739,6 @@
         "sv": "Orust kommun"
       },
       "owner": "SE2120001314",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24230,7 +23765,6 @@
         "sv": "Osby kommun"
       },
       "owner": "SE2120000902",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24257,7 +23791,6 @@
         "sv": "Oskarshamns kommun"
       },
       "owner": "SE2120000761",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24284,7 +23817,6 @@
         "sv": "Österåkers kommun"
       },
       "owner": "SE2120002890",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24311,7 +23843,6 @@
         "sv": "Östersunds kommun"
       },
       "owner": "SE2120002528",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24338,7 +23869,6 @@
         "sv": "Östhammars kommun"
       },
       "owner": "SE2120000290",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24365,7 +23895,6 @@
         "sv": "Östra Göinge kommun"
       },
       "owner": "SE2120000860",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24392,7 +23921,6 @@
         "sv": "Ovanåkers kommun"
       },
       "owner": "SE2120002304",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24419,7 +23947,6 @@
         "sv": "Skolväsendets överklagandenämnd"
       },
       "owner": "SE2021005729",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24471,7 +23998,6 @@
         "sv": "Övertorneå kommun"
       },
       "owner": "SE2120002700",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24523,7 +24049,6 @@
         "sv": "Pajala kommun"
       },
       "owner": "SE2120002718",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24575,7 +24100,6 @@
         "sv": "Partille kommun"
       },
       "owner": "SE2120001272",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24628,7 +24152,6 @@
         "sv": "Patentbesvärsrätten"
       },
       "owner": "SE2021003971",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24659,7 +24182,6 @@
       },
       "license": "https://creativecommons.org/licenses/by-sa/4.0/",
       "owner": "SE2021006255",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24712,7 +24234,6 @@
         "sv": "Perstorps kommun"
       },
       "owner": "SE2120000910",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24739,7 +24260,6 @@
         "sv": "Piteå kommun"
       },
       "owner": "SE2120002759",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24766,7 +24286,6 @@
         "sv": "Totalförsvarets rekryteringsmyndighet"
       },
       "owner": "SE2021004771",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -24818,7 +24337,6 @@
         "sv": "Polarforskningssekretariatet"
       },
       "owner": "SE2021004060",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -25282,7 +24800,6 @@
         "sv": "Kvalifikationer Sverige API"
       },
       "owner": "SE2021006230",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -25334,7 +24851,6 @@
         "sv": "Myndigheten för press, radio och tv"
       },
       "owner": "SE2021006347",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -25361,7 +24877,6 @@
         "sv": "Ragunda kommun"
       },
       "owner": "SE2120002452",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -25388,7 +24903,6 @@
         "sv": "Rättshjälpsmyndigheten"
       },
       "owner": "SE2021006016",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -25415,7 +24929,6 @@
         "sv": "Rättviks kommun"
       },
       "owner": "SE2120002171",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -25445,7 +24958,6 @@
         "sv": "Svenska Opinionsundersökningar"
       },
       "license": "https://dataportal.se/concepts/licensecategories/otherlicense",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -25472,7 +24984,6 @@
         "sv": "Krigsförsäkringsnämnden"
       },
       "owner": "SE2021005810",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -25499,7 +25010,6 @@
         "sv": "Region Gävleborg"
       },
       "owner": "SE2321000198",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -25526,7 +25036,6 @@
         "sv": "Region Halland"
       },
       "owner": "SE2321000115",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -25553,7 +25062,6 @@
         "sv": "Region Jämtland Härjedalen"
       },
       "owner": "SE2321000214",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -25580,7 +25088,6 @@
         "sv": "Region Örebro län"
       },
       "owner": "SE2321000164",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -25607,7 +25114,6 @@
         "sv": "Region Östergötland"
       },
       "owner": "SE2321000040",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -25793,11 +25299,7 @@
         }
       ],
       "id": "resource.sgu.se",
-      "label": {
-        "sv": "Sveriges geologiska undersökning (resource.sgu.se)"
-      },
       "owner": "SE2021002528",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -25824,7 +25326,6 @@
         "sv": "Revisorsnämnden"
       },
       "owner": "SE2021004805",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -25881,7 +25382,6 @@
       },
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "owner": "SE2021001090",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -25933,7 +25433,6 @@
         "sv": "Riksgäldskontoret"
       },
       "owner": "SE2021002635",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -25960,7 +25459,6 @@
         "sv": "Riksrevisionen"
       },
       "owner": "SE2021005422",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -25987,7 +25485,6 @@
         "sv": "Riksutställningar"
       },
       "owner": "SE2021004995",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26014,7 +25511,6 @@
         "sv": "Region Jönköpings län"
       },
       "owner": "SE2321000057",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26083,7 +25579,6 @@
         "sv": "Rättsmedicinalverket"
       },
       "owner": "SE2021004227",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26110,7 +25605,6 @@
         "sv": "Robertsfors kommun"
       },
       "owner": "SE2120002551",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26137,7 +25631,6 @@
         "sv": "Ronneby kommun"
       },
       "owner": "SE2120000837",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26164,7 +25657,6 @@
         "sv": "Säffle kommun"
       },
       "owner": "SE2120001900",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26191,7 +25683,6 @@
         "sv": "Säkerhetspolisen"
       },
       "owner": "SE2021006594",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26218,7 +25709,6 @@
         "sv": "Säkerhets- och integritetsskyddsnämnden"
       },
       "owner": "SE2021005703",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26245,7 +25735,6 @@
         "sv": "Sala kommun"
       },
       "owner": "SE2120002098",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26272,7 +25761,6 @@
         "sv": "Salems kommun"
       },
       "owner": "SE2120002874",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26299,7 +25787,6 @@
         "sv": "Sameskolstyrelsen"
       },
       "owner": "SE2021004631",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26326,7 +25813,6 @@
         "sv": "Sametinget"
       },
       "owner": "SE2021004573",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26353,7 +25839,6 @@
         "sv": "Säters kommun"
       },
       "owner": "SE2120002247",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26384,7 +25869,6 @@
         "sv": "PSI-data (information tillgänglig för vidareutnyttjande)"
       },
       "owner": "SE2021004417",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26510,7 +25994,6 @@
         "sv": "Statens försvarshistoriska museer"
       },
       "owner": "SE2021001132",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26537,7 +26020,6 @@
         "sv": "Statens fastighetsverk"
       },
       "owner": "SE2021004474",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26614,7 +26096,6 @@
         "sv": "Svenska institutet"
       },
       "owner": "SE2021004961",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26641,7 +26122,6 @@
         "sv": "Svenska institutet för Europapolitiska studier"
       },
       "owner": "SE2021005331",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26668,7 +26148,6 @@
         "sv": "Sigtuna kommun"
       },
       "owner": "SE2120000225",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26695,7 +26174,6 @@
         "sv": "Statens inspektion för försvarsunderrättelseverksamheten "
       },
       "owner": "SE2021006214",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26722,7 +26200,6 @@
         "sv": "Sjöbo kommun"
       },
       "owner": "SE2120001090",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26749,7 +26226,6 @@
         "sv": "Sjöfartsverket"
       },
       "owner": "SE2021000654",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26776,7 +26252,6 @@
         "sv": "Skatterättsnämnden"
       },
       "owner": "SE2021005901",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26847,7 +26322,6 @@
         "sv": "Skellefteå kommun"
       },
       "owner": "SE2120002643",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26874,7 +26348,6 @@
         "sv": "Skellefteå tingsrätt"
       },
       "owner": "SE2021002742-SKELLEFTEA-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -26901,7 +26374,6 @@
         "sv": "Skinnskattebergs kommun"
       },
       "owner": "SE2120002023",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27000,7 +26472,6 @@
         "sv": "Skolforskningsinstitutet"
       },
       "owner": "SE2021006602",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27027,7 +26498,6 @@
         "sv": "Statens skolinspektion"
       },
       "owner": "SE2021006065",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27096,7 +26566,6 @@
         "sv": "Skurups kommun"
       },
       "owner": "SE2120001082",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27123,7 +26592,6 @@
         "sv": "Stockholms läns landsting"
       },
       "owner": "SE2321000016",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27184,7 +26652,6 @@
         "sv": "Smedjebackens kommun"
       },
       "owner": "SE2120002205",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27261,7 +26728,6 @@
         "sv": "Söderhamns kommun"
       },
       "owner": "SE2120002353",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27288,7 +26754,6 @@
         "sv": "Söderköpings kommun"
       },
       "owner": "SE2120000464",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27315,7 +26780,6 @@
         "sv": "Södertälje tingsrätt"
       },
       "owner": "SE2021002742-SODERTALJE-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27342,7 +26806,6 @@
         "sv": "Södertörns tingsrätt"
       },
       "owner": "SE2021002742-SODERTORNS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27394,7 +26857,6 @@
         "sv": "Sollefteå kommun"
       },
       "owner": "SE2120002437",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27421,7 +26883,6 @@
         "sv": "Sollentuna kommun"
       },
       "owner": "SE2120000134",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27448,7 +26909,6 @@
         "sv": "Solna tingsrätt"
       },
       "owner": "SE2021002742-SOLNA-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27475,7 +26935,6 @@
         "sv": "Sorsele kommun"
       },
       "owner": "SE2120002585",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27527,7 +26986,6 @@
         "sv": "Sotenäs kommun"
       },
       "owner": "SE2120001322",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27554,7 +27012,6 @@
         "sv": "Lotteriinspektionen"
       },
       "owner": "SE2021003310",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27656,7 +27113,6 @@
         "sv": "Institutet för språk och folkminnen"
       },
       "owner": "SE2021001082",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27683,7 +27139,6 @@
         "sv": "Specialpedagogiska skolmyndigheten"
       },
       "owner": "SE2021005745",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27722,7 +27177,6 @@
       "same_as": [
         "https://admin.dataportal.se/store/257"
       ],
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27774,7 +27228,6 @@
         "sv": "Staffanstorps kommun"
       },
       "owner": "SE2120001017",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27801,7 +27254,6 @@
         "sv": "Statens institutionsstyrelse"
       },
       "owner": "SE2021004508",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27828,7 +27280,6 @@
         "sv": "Statens ansvarsnämnd"
       },
       "owner": "SE2021005836",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27855,7 +27306,6 @@
         "sv": "Statens medieråd"
       },
       "owner": "SE2021006396",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27882,7 +27332,6 @@
         "sv": "Statens servicecenter"
       },
       "owner": "SE2021006453",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -27902,11 +27351,7 @@
         }
       ],
       "id": "static.minaombud.se",
-      "label": {
-        "sv": "Bolagsverket (static.minaombud.se)"
-      },
       "owner": "SE2021005489",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -28622,7 +28067,6 @@
         "sv": "Statskontoret"
       },
       "owner": "SE2021005026",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -28649,7 +28093,6 @@
         "sv": "Stockholms stad"
       },
       "owner": "SE2120000142",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -28676,7 +28119,6 @@
         "sv": "Stockholms tingsrätt"
       },
       "owner": "SE2021002742-STOCKHOLMS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -28703,7 +28145,6 @@
         "sv": "Storfors kommun"
       },
       "owner": "SE2120001785",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -28730,7 +28171,6 @@
         "sv": "Storumans kommun"
       },
       "owner": "SE2120002577",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -28757,7 +28197,6 @@
         "sv": "Strömstads kommun"
       },
       "owner": "SE2120001405",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -28784,7 +28223,6 @@
         "sv": "Strömsunds kommun"
       },
       "owner": "SE2120002486",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -28938,7 +28376,6 @@
         "sv": "Stockholms universitet"
       },
       "owner": "SE2021003062",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -28965,7 +28402,6 @@
         "sv": "Sundsvalls tingsrätt"
       },
       "owner": "SE2021002742-SUNDSVALLS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -28992,7 +28428,6 @@
         "sv": "Sunne kommun"
       },
       "owner": "SE2120001843",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29044,7 +28479,6 @@
         "sv": "Surahammars kommun"
       },
       "owner": "SE2120002031",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29071,7 +28505,6 @@
         "sv": "Svalövs kommun"
       },
       "owner": "SE2120000993",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29098,7 +28531,6 @@
         "sv": "Svea Hovrätt"
       },
       "owner": "SE2021002742-SVEA-HOVRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29125,7 +28557,6 @@
         "sv": "Svenljunga kommun"
       },
       "owner": "SE2120001512",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29177,7 +28608,6 @@
         "sv": "Sveriges författarfond"
       },
       "owner": "SE2021003583",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29292,7 +28722,6 @@
         "sv": "Statens geotekniska institut"
       },
       "owner": "SE2021000712",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29319,7 +28748,6 @@
         "sv": "Täby kommun"
       },
       "owner": "SE2120000118",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29346,7 +28774,6 @@
         "sv": "Tanums kommun"
       },
       "owner": "SE2120001348",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29370,7 +28797,6 @@
         "sv": "Arbetsmarknadstaxonomi"
       },
       "owner": "SE2021002114",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -29422,7 +28848,6 @@
         "sv": "Myndigheten för tillväxtpolitiska utvärderingar och analyser"
       },
       "owner": "SE2021006164",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29449,7 +28874,6 @@
         "sv": "Timrå kommun"
       },
       "owner": "SE2120002395",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29476,7 +28900,6 @@
         "sv": "Tingsryds kommun"
       },
       "owner": "SE2120000621",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29530,7 +28953,6 @@
         "sv": "Tandvårds- och läkemedelsförmånsverket"
       },
       "owner": "SE2021005364",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29582,7 +29004,6 @@
         "sv": "Torsås kommun"
       },
       "owner": "SE2120000696",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29609,7 +29030,6 @@
         "sv": "Torsby kommun"
       },
       "owner": "SE2120001777",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29745,7 +29165,6 @@
         "sv": "Tranås kommun"
       },
       "owner": "SE2120000597",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29815,7 +29234,6 @@
         "sv": "Trosa kommun"
       },
       "owner": "SE2120002957",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29842,7 +29260,6 @@
         "sv": "Tullverket"
       },
       "owner": "SE2021000969",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29869,7 +29286,6 @@
         "sv": "Tyresö kommun"
       },
       "owner": "SE2120000092",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29921,7 +29337,6 @@
         "sv": "Uddevalla kommun"
       },
       "owner": "SE2120001397",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29948,7 +29363,6 @@
         "sv": "Uddevalla tingsrätt"
       },
       "owner": "SE2021002742-UDDEVALLA-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -29975,7 +29389,6 @@
         "sv": "Universitetskanslersämbetet"
       },
       "owner": "SE2021006495",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30002,7 +29415,6 @@
         "sv": "Umeå tingsrätt"
       },
       "owner": "SE2021002742-UMEA-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30092,7 +29504,6 @@
         "sv": "Försvarsunderrättelsedomstolen"
       },
       "owner": "SE2021006313",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30119,7 +29530,6 @@
         "sv": "Myndigheten för ungdoms- och civilsamhällesfrågor"
       },
       "owner": "SE2021001173",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30171,7 +29581,6 @@
         "sv": "Stockholms konstnärliga högskola"
       },
       "owner": "SE2021006560",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30198,7 +29607,6 @@
         "sv": "Upplands-Bro kommun"
       },
       "owner": "SE2120000100",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30225,7 +29633,6 @@
         "sv": "Upplands Väsby kommun"
       },
       "owner": "SE2120000019",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30252,7 +29659,6 @@
         "sv": "Uppvidinge kommun"
       },
       "owner": "SE2120000605",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30330,7 +29736,6 @@
         "sv": "Uppsala universitet"
       },
       "owner": "SE2021002932",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30357,7 +29762,6 @@
         "sv": "Vadstena kommun"
       },
       "owner": "SE2120002825",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30384,7 +29788,6 @@
         "sv": "Vaggeryds kommun"
       },
       "owner": "SE2120000522",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30411,7 +29814,6 @@
         "sv": "Valmyndigheten"
       },
       "owner": "SE2021005281",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30438,7 +29840,6 @@
         "sv": "Valdemarsviks kommun"
       },
       "owner": "SE2120000431",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30465,7 +29866,6 @@
         "sv": "Vallentuna kommun"
       },
       "owner": "SE2120000027",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30492,7 +29892,6 @@
         "sv": "Vänersborgs tingsrätt"
       },
       "owner": "SE2021002742-VANERSBORGS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30519,7 +29918,6 @@
         "sv": "Vännäs kommun"
       },
       "owner": "SE2120002841",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30546,7 +29944,6 @@
         "sv": "Vansbro kommun"
       },
       "owner": "SE2120002130",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30599,7 +29996,6 @@
         "sv": "Varbergs tingsrätt"
       },
       "owner": "SE2021002742-VARBERGS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30626,7 +30022,6 @@
         "sv": "Myndigheten för vård- och omsorgsanalys"
       },
       "owner": "SE2021006412",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30657,7 +30052,6 @@
         "sv": "Vårdbetygs öppna datakatalog"
       },
       "license": "http://creativecommons.org/licenses/by/4.0/",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30711,7 +30105,6 @@
         "sv": "Vårgårda kommun"
       },
       "owner": "SE2120001454",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30741,7 +30134,6 @@
         "sv": "Hack4heritage"
       },
       "owner": "SE2021005075",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30768,7 +30160,6 @@
         "sv": "Värmdö kommun"
       },
       "owner": "SE2120000035",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30795,7 +30186,6 @@
         "sv": "Värmlands tingsrätt"
       },
       "owner": "SE2021002742-VARMLANDS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30822,7 +30212,6 @@
         "sv": "Värnamo kommun"
       },
       "owner": "SE2120000555",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30849,7 +30238,6 @@
         "sv": "Västmanlands tingsrätt"
       },
       "owner": "SE2021002742-VASTMANLANDS-TINGSRATT",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30876,7 +30264,6 @@
         "sv": "Hovrätten för västra Sverige"
       },
       "owner": "SE2021002742-HOVRATTEN-VASTRASVERIGE",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30903,7 +30290,6 @@
         "sv": "Vaxholms stad"
       },
       "owner": "SE2120002908",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30930,7 +30316,6 @@
         "sv": "Växjö kommun"
       },
       "owner": "SE2120000662",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30957,7 +30342,6 @@
         "sv": "Vellinge kommun"
       },
       "owner": "SE2120001033",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -30984,7 +30368,6 @@
         "sv": "Vetlanda kommun"
       },
       "owner": "SE2120000571",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -31077,7 +30460,6 @@
         "sv": "Vilhelmina kommun"
       },
       "owner": "SE2120002601",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -31104,7 +30486,6 @@
         "sv": "Vimmerby kommun"
       },
       "owner": "SE2120000787",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -31131,7 +30512,6 @@
         "sv": "Vindelns kommun"
       },
       "owner": "SE2120002544",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -31198,7 +30578,6 @@
         "sv": "Västerbottens läns landsting"
       },
       "owner": "SE2321000222",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -31250,7 +30629,6 @@
         "sv": "Statens väg- och transportforskningsinstitut"
       },
       "owner": "SE2021000704",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -31277,7 +30655,6 @@
         "sv": "Södertörns högskola"
       },
       "owner": "SE2021004896",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"
@@ -31528,7 +30905,6 @@
         "sv": "EF.Riksskogstaxeringens statistikprodukter.WMS"
       },
       "owner": "SE2021002817",
-      "software": "custom",
       "source": [
         "check",
         "data_europa"
@@ -31587,7 +30963,6 @@
       },
       "license": "https://www.skatteverket.se/omoss/digitalasamarbeten/kontaktaossomapieroppnadataochandradigitalasamarbeten.4.7c708f0e16bed42cd055bf0.html",
       "owner": "SE2021005448",
-      "software": "custom",
       "source": [
         "check",
         "data_europa",
@@ -31615,7 +30990,6 @@
         "sv": "Ydre kommun"
       },
       "owner": "SE2120000381",
-      "software": "custom",
       "source": [
         "check",
         "dataportal"

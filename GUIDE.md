@@ -21,8 +21,8 @@ Statistikdatabasen, one for hvduppdrag and will have one for its geodata.
 | field | meaning | from |
 |---|---|---|
 | `id` | host of the canonical URL, plus the first path segment when one host carries several installs; lower case, no scheme, no `www.` | derived |
-| `label` | name by language | registers, edits |
-| `software` | id in `software.json` | edits, check |
+| `label` | name by language, as a register or an edit gives it; a data.europa.eu host with exactly one data service carries that service's title. Absent when nothing names the install |
+| `software` | id in `software.json`; `custom` is an edit's statement that the install is a one-off. Absent when nothing says what it runs on |
 | `owner` | organisation id the data belongs to | registers, edits |
 | `operator` | organisation id that runs the install when it is not the owner (MetaSolutions for `*.entryscape.net`) | edits |
 | `endpoint[]` | how to talk to it: `protocol` (id in `protocols.json`), `url`, `language[]`, optional `support` override, `checked {date, result, detail}` | registers, edits, check |
@@ -141,7 +141,7 @@ and keeps the previous results.
 |---|---|
 | `snapshots/<register>.json` | the reduced result of the last successful fetch of each register, committed so a build still runs when a register is down |
 | `dist/<product>.json`, `dist/<product>.csv` | the three product files in every published format: a copy of the JSON and a CSV with one row per record, same name, only the extension differs. Nested fields are dotted columns (`label.sv`), lists are `\|`-joined, and a list of objects gives one column per field with the items aligned by position (`endpoint.protocol`, `endpoint.url`). Derived from the JSON, so it changes exactly when the product does |
-| `reports/<date>.json` | written by a build that changed a catalog or found a register with no snapshot: per register `fetched`, `stale` or `failed`, counts by software, protocol and status, added and removed ids, catalogs `without_owner` and `without_software_protocol` (the worklists for edits). `generated` in `catalogs.json` is the date of the last content change |
+| `reports/<date>.json` | written by a build that changed a catalog or found a register with no snapshot: per register `fetched`, `stale` or `failed`, counts by software, protocol and status, added and removed ids, catalogs `without_owner`, `without_label`, `without_software` and `without_software_protocol` (the worklists for edits). `generated` in `catalogs.json` is the date of the last content change |
 
 ## Build and check
 

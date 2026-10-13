@@ -138,7 +138,7 @@ def main():
                 e["checked"] = {"date": row["run"]["date"], "result": "ok" if ok else "error",
                                 "detail": f"dataportal.se harvest {row['run']['status']}, {row['run']['datasets']} datasets, {row['run']['errors']} validation errors"}
             endpoints = [e]
-            software = "custom"
+            software = None  # set only when the harvested URL says what the install runs on
             root = f"{parsed.scheme}://{parsed.hostname}"
             if host in SHARED_HOSTS:
                 software = "entryscape"  # one context in somebody else's install; the RDF export is its only endpoint
@@ -151,9 +151,10 @@ def main():
             elif host.endswith("hub.arcgis.com") or parsed.path.endswith("data.json"):
                 software = "arcgis"
                 endpoints.append({"protocol": "arcgis_hub", "url": root})
-            record = {"id": key, "label": {"sv": row["title"]} if row["title"] else {}, "software": software,
-                      "endpoint": endpoints, "status": "unknown", "source": ["dataportal"],
-                      "identifier": {"dataportal": f"https://admin.dataportal.se/store/{context}"}}
+            record = {"id": key, "label": {"sv": row["title"]} if row["title"] else {}, "endpoint": endpoints, "status": "unknown",
+                      "source": ["dataportal"], "identifier": {"dataportal": f"https://admin.dataportal.se/store/{context}"}}
+            if software:
+                record["software"] = software
             if row["homepage"]:
                 record["homepage"] = row["homepage"]
             if row.get("description"):
@@ -195,12 +196,16 @@ def main():
                 software = "pxweb"
             elif "entrystore" in spoken:
                 software = "entryscape"
-            elif spoken & GEO:
-                software = "geoserver" if "/geoserver" in bases else "arcgis" if "arcgis_rest" in spoken else "custom"
+            elif "/geoserver" in bases:
+                software = "geoserver"
+            elif "arcgis_rest" in spoken:
+                software = "arcgis"
             else:
-                software = "custom"
-            record = {"id": key, "label": {"sv": row["title"]} if row.get("title") else {}, "software": software,
-                      "endpoint": endpoints, "status": "unknown", "source": ["data_europa"]}
+                software = None  # the URLs say which protocols answer, not what serves them
+            record = {"id": key, "label": {"sv": row["title"]} if row.get("title") else {}, "endpoint": endpoints, "status": "unknown",
+                      "source": ["data_europa"]}
+            if software:
+                record["software"] = software
             owner = owner_of("", *row["publisher"], f"https://{host}/")
             if owner:
                 record["owner"] = owner
@@ -241,8 +246,7 @@ def main():
                 if "checked" not in e and old and old.get("checked"):
                     e["checked"] = old["checked"]  # carried until the next check overwrites it
             if not r["label"]:
-                owner = orgs[r["owner"]]["label"] if r.get("owner") in orgs else r["id"]
-                r["label"]["sv"] = f"{owner} ({r['id']})"  # the owner and the host, until a register or an edit names it
+                del r["label"]  # no register or edit names it; the report lists it
         except Exception as error:  # noqa: BLE001 - one bad row must not cost the register
             skip("build", r, error)
 
@@ -268,11 +272,13 @@ def main():
     for register, n in skipped.items():
         registers.setdefault(register, {})["skipped"] = n
     report.update({"count": len(catalogs), "added": added, "removed": removed, "changed": len(changed),
-                   "software": dict(Counter(r["software"] for r in catalogs.values())),
+                   "software": dict(Counter(r.get("software", "none") for r in catalogs.values())),
                    "protocol": dict(Counter(e["protocol"] for r in catalogs.values() for e in r["endpoint"])),
                    "status": dict(Counter(r["status"] for r in catalogs.values())),
                    "without_owner": sorted(unresolved, key=lambda u: u["id"]),
-                   "without_software_protocol": sorted(k for k, r in catalogs.items() if products[r["software"]].get("protocol")
+                   "without_label": sorted(k for k, r in catalogs.items() if "label" not in r),
+                   "without_software": sorted(k for k, r in catalogs.items() if "software" not in r),
+                   "without_software_protocol": sorted(k for k, r in catalogs.items() if products.get(r.get("software"), {}).get("protocol")
                                                        and not {e["protocol"] for e in r["endpoint"]} & set(products[r["software"]]["protocol"]))})
     if added or removed or changed or any(v.get("status") == "failed" or v.get("skipped") for v in registers.values()) or "export" in report:
         dump(ROOT / "reports" / f"{report['date']}.json", report)
