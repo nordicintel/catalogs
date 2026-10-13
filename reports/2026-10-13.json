@@ -1,7 +1,5 @@
 {
-  "added": [
-    "geodatakatalogen.naturvardsverket.se"
-  ],
+  "added": [],
   "catalog_type": {
     "api": 26,
     "file_collection": 2,
@@ -11,7 +9,7 @@
     "research_repository": 90,
     "statistics_database": 41
   },
-  "changed": 82,
+  "changed": 44,
   "count": 1057,
   "date": "2026-10-13",
   "protocol": {
@@ -49,11 +47,11 @@
   "register": {
     "check": {
       "endpoints": 734,
-      "error": 52,
-      "ok": 617,
+      "error": 50,
+      "ok": 596,
       "restricted": 13,
       "status": "fetched",
-      "unreachable": 52
+      "unreachable": 75
     },
     "data_europa": {
       "rows": 74,
@@ -68,15 +66,12 @@
       "status": "fetched"
     }
   },
-  "removed": [
-    "metadatakatalogen.naturvardsverket.se",
-    "vgregion.se"
-  ],
+  "removed": [],
   "status": {
-    "error": 498,
-    "ok": 530,
+    "error": 496,
+    "ok": 516,
     "restricted": 7,
-    "unreachable": 22
+    "unreachable": 38
   },
   "without_owner": [
     {

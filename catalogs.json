@@ -697,7 +697,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "api",
@@ -2520,7 +2520,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -2529,7 +2529,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -2572,7 +2572,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -2581,7 +2581,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -3290,7 +3290,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -3299,7 +3299,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -4172,7 +4172,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -4181,7 +4181,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -4346,7 +4346,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -4355,7 +4355,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -4553,8 +4553,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: The read operation timed out",
-            "result": "unreachable"
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "oai_pmh",
           "url": "https://commons.wmu.se/do/oai"
@@ -4571,7 +4571,7 @@
         "check",
         "edits"
       ],
-      "status": "unreachable"
+      "status": "ok"
     },
     "daim.lfv.se": {
       "catalog_type": "geoportal",
@@ -4641,8 +4641,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: The read operation timed out",
+            "result": "unreachable"
           },
           "protocol": "arcgis_hub",
           "url": "https://data-jonkoping.opendata.arcgis.com"
@@ -5061,7 +5061,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -5070,7 +5070,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -5215,8 +5215,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host",
-            "result": "unreachable"
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "web",
           "url": "https://data.riksdagen.se"
@@ -5233,7 +5233,7 @@
         "check",
         "edits"
       ],
-      "status": "unreachable"
+      "status": "ok"
     },
     "data.sva.se": {
       "catalog_type": "open_data_portal",
@@ -5865,7 +5865,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -8845,7 +8845,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -8854,7 +8854,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -11552,8 +11552,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "arcgis_rest",
           "url": "https://geodata.ystad.se/arcgis/rest/services"
@@ -11561,8 +11561,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://geodata.ystad.se/portal/apps/webappviewer/index.html"
@@ -11579,7 +11579,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "geodatakatalogen.naturvardsverket.se": {
       "catalog_type": "geoportal",
@@ -11841,8 +11841,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "arcgis_rest",
           "url": "https://geoportalen.lund.se/arcgis/rest/services"
@@ -11850,8 +11850,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://geoportalen.lund.se/portal/apps/instant/filtergallery/index.html"
@@ -11868,7 +11868,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "geoportalen.vasttrafik.se": {
       "catalog_type": "geoportal",
@@ -12581,8 +12581,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "arcgis_rest",
           "url": "https://gis.torsas.se/arcgis/rest/services"
@@ -12599,7 +12599,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "gis.vindeln.se": {
       "catalog_type": "geoportal",
@@ -12771,8 +12771,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "arcgis_rest",
           "url": "https://gisportal.pitea.se/arcgis/rest/services"
@@ -12780,8 +12780,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://gisportal.pitea.se/portal/apps/experiencebuilder/experience"
@@ -12798,7 +12798,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "gisportal.sametinget.se": {
       "catalog_type": "geoportal",
@@ -15334,8 +15334,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://karlskogakartan.karlskoga.se/webmap"
@@ -15352,7 +15352,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "karnavfallsfonden.se": {
       "catalog_type": "open_data_portal",
@@ -15492,7 +15492,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certifi",
+            "detail": "TimeoutError: timed out",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -15518,8 +15518,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "arcgis_rest",
           "url": "https://karta.atvidaberg.se/arcgis/rest/services"
@@ -15527,8 +15527,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://karta.atvidaberg.se/portal/home"
@@ -15545,7 +15545,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "karta.bastad.se": {
       "catalog_type": "geoportal",
@@ -15710,8 +15710,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://karta.eskilstuna.se/webb"
@@ -15728,7 +15728,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "karta.forshaga.se": {
       "catalog_type": "geoportal",
@@ -16162,8 +16162,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionRefusedError: [Errno 111] Connection refused",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://karta.kungsbacka.se/publik"
@@ -16180,7 +16180,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "karta.laxa.se": {
       "catalog_type": "geoportal",
@@ -16188,7 +16188,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certifi",
+            "detail": "TimeoutError: timed out",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -16214,7 +16214,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certifi",
+            "detail": "TimeoutError: timed out",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -16431,8 +16431,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: _ssl.c:1015: The handshake operation timed out",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://karta.morakommun.se"
@@ -16449,7 +16449,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "karta.nacka.se": {
       "catalog_type": "geoportal",
@@ -16561,8 +16561,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://karta.ockero.se"
@@ -16579,7 +16579,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "karta.orebro.se": {
       "catalog_type": "geoportal",
@@ -16743,8 +16743,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://karta.sigtuna.se"
@@ -16752,8 +16752,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "wfs_2",
           "url": "https://karta.sigtuna.se/geoserver/ows"
@@ -16761,8 +16761,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "wms_1_3",
           "url": "https://karta.sigtuna.se/geoserver/ows"
@@ -16779,7 +16779,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "karta.skinnskatteberg.se": {
       "catalog_type": "geoportal",
@@ -17021,8 +17021,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://karta.uddevalla.se"
@@ -17039,7 +17039,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "karta.vanersborg.se": {
       "catalog_type": "geoportal",
@@ -17073,8 +17073,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://karta.varberg.se"
@@ -17091,7 +17091,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "karta.varmdo.se": {
       "catalog_type": "geoportal",
@@ -17255,8 +17255,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://kartor.hudiksvall.se/hudikkartan"
@@ -17273,7 +17273,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "kartor.knivsta.se": {
       "catalog_type": "geoportal",
@@ -17645,8 +17645,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "OSError: [Errno 101] Network is unreachable",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://kartor.strangnas.se"
@@ -17663,7 +17663,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "kartor.tomelilla.se": {
       "catalog_type": "geoportal",
@@ -17671,8 +17671,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://kartor.tomelilla.se"
@@ -17689,7 +17689,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "kartor.vasteras.se": {
       "catalog_type": "geoportal",
@@ -17953,7 +17953,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -20870,8 +20870,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://maps.torsby.se"
@@ -20888,7 +20888,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "maps3.sgu.se": {
       "catalog_type": "geoportal",
@@ -21194,7 +21194,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -22821,8 +22821,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://norrtaljekarta.norrtalje.se"
@@ -22839,7 +22839,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "norrtaljetingsratt.domstol.se": {
       "catalog_type": "open_data_portal",
@@ -24479,7 +24479,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -24488,7 +24488,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -24558,7 +24558,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -24567,7 +24567,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -24610,7 +24610,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -24619,7 +24619,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -24704,7 +24704,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -24713,7 +24713,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -25781,8 +25781,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 404",
-            "result": "error"
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "language": [
             "sv"
@@ -25803,7 +25803,7 @@
         "check",
         "edits"
       ],
-      "status": "error"
+      "status": "ok"
     },
     "px.socialstyrelsen.se": {
       "catalog_type": "statistics_database",
@@ -28031,7 +28031,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it",
+            "detail": "ConnectionRefusedError: [Errno 111] Connection refused",
             "result": "unreachable"
           },
           "protocol": "wfs_2",
@@ -28040,7 +28040,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it",
+            "detail": "ConnectionRefusedError: [Errno 111] Connection refused",
             "result": "unreachable"
           },
           "protocol": "wms_1_3",
@@ -29523,8 +29523,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 429",
-            "result": "error"
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "language": [
             "sv"
@@ -29545,7 +29545,7 @@
         "data_europa",
         "edits"
       ],
-      "status": "error"
+      "status": "ok"
     },
     "statskontoret.se": {
       "catalog_type": "open_data_portal",
@@ -29787,7 +29787,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -29796,7 +29796,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -30466,7 +30466,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno 11001] getaddrinfo failed",
+            "detail": "gaierror: [Errno -2] Name or service not known",
             "result": "unreachable"
           },
           "protocol": "arcgis_rest",
