@@ -16,7 +16,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021004888"
-    ]
+    ],
+    "title": ""
   },
   "api.skolverket.se": {
     "catalogue": [
@@ -29,7 +30,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021004185"
-    ]
+    ],
+    "title": "Skolenheter, studievägar och statistik, Planned Education"
   },
   "api.trafa.se": {
     "catalogue": [
@@ -43,7 +45,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021006305"
-    ]
+    ],
+    "title": "Trafikanalys öppna data API"
   },
   "apigw.stockholm.se": {
     "catalogue": [
@@ -56,7 +59,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2120000142"
-    ]
+    ],
+    "title": ""
   },
   "cdn.jordbruksverket.se": {
     "catalogue": [
@@ -70,7 +74,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021004151"
-    ]
+    ],
+    "title": "Jordbruksverkets nedladdningstjänst ATOM Inspire"
   },
   "daim.lfv.se": {
     "catalogue": [
@@ -87,7 +92,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021000795"
-    ]
+    ],
+    "title": ""
   },
   "data.visitsweden.com": {
     "catalogue": [
@@ -100,7 +106,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/5565007621"
-    ]
+    ],
+    "title": "Nationellt API för svensk besöksnäring"
   },
   "datavardluft.smhi.se": {
     "catalogue": [
@@ -115,7 +122,8 @@
         "https://datavardluft.smhi.se/shair/wms"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "elprisersverige.nu": {
     "catalogue": [
@@ -129,7 +137,8 @@
     },
     "publisher": [
       "https://elprisersverige.nu/dcat-ap-se.rdf#utgivare"
-    ]
+    ],
+    "title": "Elpris-API för dagens och morgondagens elpriser i Sverige"
   },
   "epub.sjv.se": {
     "catalogue": [
@@ -148,7 +157,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021004151"
-    ]
+    ],
+    "title": ""
   },
   "ext-dokument.lansstyrelsen.se": {
     "catalogue": [
@@ -162,7 +172,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021002361-LST"
-    ]
+    ],
+    "title": "SE.LST INSPIRE Nedladdningstjänst (ATOM)"
   },
   "ext-geodata-applikationer.lansstyrelsen.se": {
     "catalogue": [
@@ -176,7 +187,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021002361-LST"
-    ]
+    ],
+    "title": "LST (GI) Nationella Värdetrakter - Karttjänst"
   },
   "ext-geodata-nationella-visning.lansstyrelsen.se": {
     "catalogue": [
@@ -190,7 +202,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021002361-LST"
-    ]
+    ],
+    "title": "LST GIS-stöd för planering och tillsyn av små avlopp - alla skikt (tjänst)"
   },
   "ext-geodata-nationella.lansstyrelsen.se": {
     "catalogue": [
@@ -201,7 +214,8 @@
         "https://ext-geodata-nationella.lansstyrelsen.se/arcgis/rest/services"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "ext-geodata-ows.lansstyrelsen.se": {
     "catalogue": [
@@ -222,7 +236,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021002361-LST"
-    ]
+    ],
+    "title": ""
   },
   "ext-geodata-raster.lansstyrelsen.se": {
     "catalogue": [
@@ -233,7 +248,8 @@
         "https://ext-geodata-raster.lansstyrelsen.se/arcgis/rest/services"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "ext-geoserver.lansstyrelsen.se": {
     "catalogue": [
@@ -246,7 +262,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021002361-LST"
-    ]
+    ],
+    "title": "SE.LST INSPIRE Nedladdningstjänst (WFS)"
   },
   "geo-inspire.trafikverket.se": {
     "catalogue": [
@@ -262,7 +279,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021006297"
-    ]
+    ],
+    "title": ""
   },
   "geo-transfernode.trafikverket.se": {
     "catalogue": [
@@ -276,7 +294,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021006297"
-    ]
+    ],
+    "title": "Bytes- och stoppunkter - nedladdningstjänst"
   },
   "geo.hjartstartarregistret.se": {
     "catalogue": [
@@ -292,7 +311,8 @@
     },
     "publisher": [
       "https://free.entryscape.com/store/727/resource/1"
-    ]
+    ],
+    "title": "Sveriges Hjärtstartarregister API"
   },
   "geodata-svoa-extern.stockholm.se": {
     "catalogue": [
@@ -305,7 +325,8 @@
     },
     "publisher": [
       "https://resources.stockholm.se/metadata#foaf/Stockholm+Vatten+och+Avfall/"
-    ]
+    ],
+    "title": ""
   },
   "geodata.havochvatten.se": {
     "catalogue": [
@@ -332,7 +353,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021006420"
-    ]
+    ],
+    "title": ""
   },
   "geodata.naturvardsverket.se": {
     "catalogue": [
@@ -355,7 +377,8 @@
         "https://geodata.naturvardsverket.se/inspire/br/ows"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "geodata.sametinget.se": {
     "catalogue": [
@@ -369,7 +392,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021004573"
-    ]
+    ],
+    "title": "Renskötselområdets ungefärliga utbredning i Sverige Inspire nedladdningstjänst"
   },
   "geodata.scb.se": {
     "catalogue": [
@@ -388,7 +412,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021000837"
-    ]
+    ],
+    "title": ""
   },
   "geodata.socialstyrelsen.se": {
     "catalogue": [
@@ -405,7 +430,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021000555"
-    ]
+    ],
+    "title": ""
   },
   "geodpags.skogsstyrelsen.se": {
     "catalogue": [
@@ -424,7 +450,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021005612"
-    ]
+    ],
+    "title": ""
   },
   "geokatalog.sjofartsverket.se": {
     "catalogue": [
@@ -441,7 +468,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021000654"
-    ]
+    ],
+    "title": "AU.Maritima enheter - nedladdningstjänst"
   },
   "geonode.folkhalsomyndigheten.se": {
     "catalogue": [
@@ -452,7 +480,8 @@
         "https://geonode.folkhalsomyndigheten.se/geoserver/ows"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "gis.miljo.stockholm.se": {
     "catalogue": [
@@ -465,7 +494,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2120000142"
-    ]
+    ],
+    "title": ""
   },
   "gis.swedgeo.se": {
     "catalogue": [
@@ -476,7 +506,8 @@
         "https://gis.swedgeo.se/geoserver/inspire2022/wms"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "gisapp.msb.se": {
     "catalogue": [
@@ -487,7 +518,8 @@
         "https://gisapp.msb.se/arcgis/rest/services"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "gisportal.sametinget.se": {
     "catalogue": [
@@ -501,7 +533,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021004573"
-    ]
+    ],
+    "title": "Renskötselområdets ungefärliga utbredning i Sverige Inspire visningstjänst"
   },
   "historical.api.jobtechdev.se": {
     "catalogue": [
@@ -514,7 +547,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021002114"
-    ]
+    ],
+    "title": "Historiska platsannonser"
   },
   "inspire-raa.metria.se": {
     "catalogue": [
@@ -535,7 +569,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021001090"
-    ]
+    ],
+    "title": ""
   },
   "inspire-skn.metria.se": {
     "catalogue": [
@@ -552,7 +587,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021004284"
-    ]
+    ],
+    "title": "US.TransmissionsnätFörEl.WMS"
   },
   "inspire-skolverket.metria.se": {
     "catalogue": [
@@ -569,7 +605,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021004185"
-    ]
+    ],
+    "title": "US.Skolenheter.WMS"
   },
   "ivo.metria.se": {
     "catalogue": [
@@ -586,7 +623,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021006537"
-    ]
+    ],
+    "title": "US.AdministrativaOchSocialaOffentligaTjänster.IVO.WMS"
   },
   "jobad-enrichments-api.jobtechdev.se": {
     "catalogue": [
@@ -599,7 +637,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021002114"
-    ]
+    ],
+    "title": "JobAd Enrichments"
   },
   "jobed-connect-api.jobtechdev.se": {
     "catalogue": [
@@ -612,7 +651,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021002114"
-    ]
+    ],
+    "title": "JobEd Connect"
   },
   "karta.lidingo.se": {
     "catalogue": [
@@ -623,7 +663,8 @@
         "http://karta.lidingo.se/wms"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "kartor.stockholm.se": {
     "catalogue": [
@@ -638,7 +679,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2120000142"
-    ]
+    ],
+    "title": ""
   },
   "links.api.jobtechdev.se": {
     "catalogue": [
@@ -651,7 +693,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021002114"
-    ]
+    ],
+    "title": "JobAd Links"
   },
   "m4eu.sgu.se": {
     "catalogue": [
@@ -665,7 +708,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021002528"
-    ]
+    ],
+    "title": "MR.Mineralresurser (nedladdningstjänst för direktåtkomst)"
   },
   "maps.lantmateriet.se": {
     "catalogue": [
@@ -678,7 +722,8 @@
         "https://maps.lantmateriet.se/inspire/hy/wms/v1"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "mapsext.sgi.se": {
     "catalogue": [
@@ -694,7 +739,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021000712"
-    ]
+    ],
+    "title": ""
   },
   "nvgis.naturvardsverket.se": {
     "catalogue": [
@@ -705,7 +751,8 @@
         "https://nvgis.naturvardsverket.se/geoserver/lavinprognoser/ows"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "opendata-download-algae.smhi.se": {
     "catalogue": [
@@ -716,7 +763,8 @@
         "https://opendata-download-algae.smhi.se/api"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "opendata-download-hydrography.smhi.se": {
     "catalogue": [
@@ -735,7 +783,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021000696"
-    ]
+    ],
+    "title": "SE.HY Dammregistret, Del- och Huvudavrinningsområden: Nedladdningstjänst"
   },
   "opendata-download-hydroobs.smhi.se": {
     "catalogue": [
@@ -754,7 +803,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021000696"
-    ]
+    ],
+    "title": "SE.ACMF Hydrologiska observationer - Vattenföring: Nedladdningstjänst"
   },
   "opendata-download-icemap.smhi.se": {
     "catalogue": [
@@ -765,7 +815,8 @@
         "https://opendata-download-icemap.smhi.se/api"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "opendata-download-lightning.smhi.se": {
     "catalogue": [
@@ -776,7 +827,8 @@
         "https://opendata-download-lightning.smhi.se/api/version/latest.atom"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "opendata-download-metanalys.smhi.se": {
     "catalogue": [
@@ -789,7 +841,8 @@
         "https://opendata-download-metanalys.smhi.se/api/category/mesan2g/version/3/geotype/point/lon/16/lat/58/data.json"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "opendata-download-metfcst.smhi.se": {
     "catalogue": [
@@ -802,7 +855,8 @@
         "https://opendata-download-metfcst.smhi.se/api/category/snow1g/version/1/geotype/point/lon/16/lat/58/data.json"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "opendata-download-metobs.smhi.se": {
     "catalogue": [
@@ -823,7 +877,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021000696"
-    ]
+    ],
+    "title": "SE.ACMF Meteorologiska observationer: Nedladdningstjänst"
   },
   "opendata-download-ocobs.smhi.se": {
     "catalogue": [
@@ -844,7 +899,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021000696"
-    ]
+    ],
+    "title": "SE.OF Oceanografiska observationer: Nedladdningstjänst"
   },
   "opendata-download-radar.smhi.se": {
     "catalogue": [
@@ -855,7 +911,8 @@
         "https://opendata-download-radar.smhi.se/api"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "opendata-download-satellite.smhi.se": {
     "catalogue": [
@@ -866,7 +923,8 @@
         "https://opendata-download-satellite.smhi.se/api/category/firedetections/version/1/year/2026/month/02/data.json"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "opendata-download-warnings.smhi.se": {
     "catalogue": [
@@ -877,7 +935,8 @@
         "https://opendata-download-warnings.smhi.se/ibww/api/version/1"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "opendata-view.smhi.se": {
     "catalogue": [
@@ -898,7 +957,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021000696"
-    ]
+    ],
+    "title": ""
   },
   "opendata.smhi.se": {
     "catalogue": [
@@ -911,7 +971,8 @@
         "https://opendata.smhi.se/radar/api"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "openexpl.stockholm.se": {
     "catalogue": [
@@ -922,7 +983,8 @@
         "https://openexpl.stockholm.se/geoserver/geoarchive/wms"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "openstreetgs.stockholm.se": {
     "catalogue": [
@@ -938,7 +1000,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2120000142"
-    ]
+    ],
+    "title": ""
   },
   "oppnadata.tillvaxtverket.se": {
     "catalogue": [
@@ -951,7 +1014,8 @@
         "https://oppnadata.tillvaxtverket.se/api/api/query/inkvartering/data/GuestNights_Capacity_Year.cbase"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": "Exempel API"
   },
   "qdb-external-api.myh.se": {
     "catalogue": [
@@ -964,7 +1028,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021006230"
-    ]
+    ],
+    "title": "Kvalifikationer Sverige API"
   },
   "resource.sgu.se": {
     "catalogue": [
@@ -989,7 +1054,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021002528"
-    ]
+    ],
+    "title": ""
   },
   "skatteverket.entryscape.net": {
     "catalogue": [
@@ -1002,7 +1068,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021005448"
-    ]
+    ],
+    "title": ""
   },
   "static.minaombud.se": {
     "catalogue": [
@@ -1015,7 +1082,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021005489"
-    ]
+    ],
+    "title": ""
   },
   "stationsregister.miljodatasamverkan.se": {
     "catalogue": [
@@ -1035,7 +1103,8 @@
         "https://stationsregister.miljodatasamverkan.se/geoserver/stationsregistret/ows"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": ""
   },
   "statistik.csn.se": {
     "catalogue": [
@@ -1048,7 +1117,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021001819"
-    ]
+    ],
+    "title": ""
   },
   "statistikdatabasen.skolverket.se": {
     "catalogue": [
@@ -1059,7 +1129,8 @@
         "https://statistikdatabasen.skolverket.se/PxWeb/api/v1"
       ]
     },
-    "publisher": []
+    "publisher": [],
+    "title": "Skolverkets statistikdatabas"
   },
   "taxonomy.api.jobtechdev.se": {
     "catalogue": [
@@ -1072,7 +1143,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021002114"
-    ]
+    ],
+    "title": "Arbetsmarknadstaxonomi"
   },
   "wms.slu.se": {
     "catalogue": [
@@ -1090,7 +1162,8 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021002817"
-    ]
+    ],
+    "title": "EF.Riksskogstaxeringens statistikprodukter.WMS"
   },
   "www7.skatteverket.se": {
     "catalogue": [
@@ -1105,6 +1178,7 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021005448"
-    ]
+    ],
+    "title": ""
   }
 }

@@ -5,8 +5,9 @@ The hub files Swedish content under three catalogues (oppnadata = dataportal.se,
 geodata-se = Geodataportalen, nsip-se = the high-value-data single point). dataportal.se is
 already a register of its own, so its datasets are skipped here; its data services are
 not, since they name APIs and OGC services the federation itself does not. The reduced
-result is keyed by host: publisher URIs seen, the catalogues, and one entry per protocol
-with the endpoint base URLs the URLs collapse to.
+result is keyed by host: publisher URIs seen, the catalogues, the title when the host has
+exactly one data service, and one entry per protocol with the endpoint base URLs the URLs
+collapse to.
 """
 import json
 import os.path
@@ -95,15 +96,17 @@ def fetch(cache: Path):
     raw = json.loads(cached(cache, "data_europa_hub.json", _raw).read_text(encoding="utf-8"))
     hosts = {}
 
-    def note(url, publisher, catalogue, is_dataset):
+    def note(url, publisher, catalogue, title=None):
         found = classify(url)
         if not found:
             return
         protocol, base = found
         host = urlparse(base).hostname
-        entry = hosts.setdefault(host, {"publisher": [], "catalogue": [], "protocol": {}})
+        entry = hosts.setdefault(host, {"publisher": [], "catalogue": [], "protocol": {}, "title": []})
         if publisher and publisher not in entry["publisher"]:
             entry["publisher"].append(publisher)
+        if title and title not in entry["title"]:
+            entry["title"].append(title)
         if catalogue not in entry["catalogue"]:
             entry["catalogue"].append(catalogue)
         for proto in (("wms_1_3", "wfs_2") if protocol == "ows" else (protocol,)):
@@ -117,21 +120,27 @@ def fetch(cache: Path):
                     for key in ("access_url", "download_url"):
                         values = d.get(key) or []
                         for url in (values if isinstance(values, list) else [values]):
-                            note(url, publisher, catalogue, True)
+                            note(url, publisher, catalogue)
             except Exception as error:  # noqa: BLE001
                 skip("data_europa dataset", r.get("id"), error)
     for catalogue, rows in raw["dataservice"].items():
         for r in rows:
             try:
                 publisher = ((r.get("publisher") or {}).get("resource") or "")
+                title = r.get("title") or {}
+                title = (title.get("sv") or title.get("en") or next(iter(title.values()), "")) if isinstance(title, dict) else str(title)
                 for url in r.get("endpoint_url") or []:
-                    note(url, publisher, catalogue, False)
+                    note(url, publisher, catalogue, title.strip())
             except Exception as error:  # noqa: BLE001
                 skip("data_europa dataservice", r.get("id"), error)
 
     for entry in hosts.values():
         entry["publisher"].sort()
         entry["catalogue"].sort()
+        # A host with one data service carries that service's title as its name; several
+        # titles name services, not the install, and the build falls back to the owner.
+        titles = [t for t in entry["title"] if len(t) > 4 and t.upper() != t]  # "WMS" names the protocol, not the install
+        entry["title"] = titles[0] if len(titles) == 1 else ""
         for proto, bases in list(entry["protocol"].items()):
             bases = sorted(bases)
             if len(bases) > MAX_BASES:

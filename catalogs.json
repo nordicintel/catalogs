@@ -4480,7 +4480,7 @@
       ],
       "id": "cdn.jordbruksverket.se",
       "label": {
-        "sv": "Statens jordbruksverk geodatatjänster"
+        "sv": "Jordbruksverkets nedladdningstjänst ATOM Inspire"
       },
       "owner": "SE2021004151",
       "software": "custom",
@@ -5366,7 +5366,7 @@
       ],
       "id": "data.visitsweden.com",
       "label": {
-        "sv": "Visit Sweden"
+        "sv": "Nationellt API för svensk besöksnäring"
       },
       "owner": "SE5565007621",
       "software": "entryscape",
@@ -7908,7 +7908,7 @@
       ],
       "id": "ext-dokument.lansstyrelsen.se",
       "label": {
-        "sv": "Länsstyrelserna gemensamt geodatatjänster"
+        "sv": "SE.LST INSPIRE Nedladdningstjänst (ATOM)"
       },
       "owner": "SE2021002361-LST",
       "software": "custom",
@@ -7933,7 +7933,7 @@
       ],
       "id": "ext-geodata-applikationer.lansstyrelsen.se",
       "label": {
-        "sv": "Länsstyrelserna gemensamt geodatatjänster"
+        "sv": "LST (GI) Nationella Värdetrakter - Karttjänst"
       },
       "owner": "SE2021002361-LST",
       "software": "arcgis",
@@ -7984,12 +7984,14 @@
       ],
       "id": "ext-geodata-nationella.lansstyrelsen.se",
       "label": {
-        "sv": "ext-geodata-nationella.lansstyrelsen.se geodatatjänster"
+        "sv": "Länsstyrelserna gemensamt geodatatjänster"
       },
+      "owner": "SE2021002361-LST",
       "software": "arcgis",
       "source": [
         "check",
-        "data_europa"
+        "data_europa",
+        "edits"
       ],
       "status": "unreachable"
     },
@@ -8156,7 +8158,7 @@
       ],
       "id": "ext-geoserver.lansstyrelsen.se",
       "label": {
-        "sv": "Länsstyrelserna gemensamt geodatatjänster"
+        "sv": "SE.LST INSPIRE Nedladdningstjänst (WFS)"
       },
       "owner": "SE2021002361-LST",
       "software": "geoserver",
@@ -10692,7 +10694,7 @@
       ],
       "id": "geo-transfernode.trafikverket.se",
       "label": {
-        "sv": "Trafikverket geodatatjänster"
+        "sv": "Bytes- och stoppunkter - nedladdningstjänst"
       },
       "owner": "SE2021006297",
       "software": "custom",
@@ -10726,7 +10728,7 @@
       ],
       "id": "geo.hjartstartarregistret.se",
       "label": {
-        "sv": "MetaSolutions AB geodatatjänster"
+        "sv": "Sveriges Hjärtstartarregister API"
       },
       "owner": "SE5568540701",
       "software": "geoserver",
@@ -11196,7 +11198,7 @@
       ],
       "id": "geodata.sametinget.se",
       "label": {
-        "sv": "Sametinget geodatatjänster"
+        "sv": "Renskötselområdets ungefärliga utbredning i Sverige Inspire nedladdningstjänst"
       },
       "owner": "SE2021004573",
       "software": "custom",
@@ -11687,7 +11689,7 @@
       ],
       "id": "geokatalog.sjofartsverket.se",
       "label": {
-        "sv": "Sjöfartsverket geodatatjänster"
+        "sv": "AU.Maritima enheter - nedladdningstjänst"
       },
       "owner": "SE2021000654",
       "software": "custom",
@@ -12668,13 +12670,15 @@
       ],
       "id": "gisapp.msb.se",
       "label": {
-        "sv": "Myndigheten för tillgängliga medier geodatatjänster"
+        "sv": "Myndigheten för civilt försvar geodatatjänster"
       },
-      "owner": "SE2021003591",
+      "note": "msb.se is Myndigheten för civilt försvar's domain from its MSB years.",
+      "owner": "SE2021005984",
       "software": "arcgis",
       "source": [
         "check",
-        "data_europa"
+        "data_europa",
+        "edits"
       ],
       "status": "ok"
     },
@@ -12815,7 +12819,7 @@
       ],
       "id": "gisportal.sametinget.se",
       "label": {
-        "sv": "Sametinget geodatatjänster"
+        "sv": "Renskötselområdets ungefärliga utbredning i Sverige Inspire visningstjänst"
       },
       "owner": "SE2021004573",
       "software": "custom",
@@ -13895,7 +13899,7 @@
       ],
       "id": "historical.api.jobtechdev.se",
       "label": {
-        "sv": "Arbetsförmedlingen API"
+        "sv": "Historiska platsannonser"
       },
       "owner": "SE2021002114",
       "software": "custom",
@@ -14615,7 +14619,7 @@
       ],
       "id": "inspire-skn.metria.se",
       "label": {
-        "sv": "Affärsverket svenska kraftnät geodatatjänster"
+        "sv": "US.TransmissionsnätFörEl.WMS"
       },
       "operator": "SE5567992242",
       "owner": "SE2021004284",
@@ -14650,7 +14654,7 @@
       ],
       "id": "inspire-skolverket.metria.se",
       "label": {
-        "sv": "Statens skolverk geodatatjänster"
+        "sv": "US.Skolenheter.WMS"
       },
       "operator": "SE5567992242",
       "owner": "SE2021004185",
@@ -14795,7 +14799,7 @@
       ],
       "id": "ivo.metria.se",
       "label": {
-        "sv": "Inspektionen för vård och omsorg geodatatjänster"
+        "sv": "US.AdministrativaOchSocialaOffentligaTjänster.IVO.WMS"
       },
       "operator": "SE5567992242",
       "owner": "SE2021006537",
@@ -14931,7 +14935,7 @@
       ],
       "id": "jobad-enrichments-api.jobtechdev.se",
       "label": {
-        "sv": "Arbetsförmedlingen API"
+        "sv": "JobAd Enrichments"
       },
       "owner": "SE2021002114",
       "software": "custom",
@@ -14956,7 +14960,7 @@
       ],
       "id": "jobed-connect-api.jobtechdev.se",
       "label": {
-        "sv": "Arbetsförmedlingen API"
+        "sv": "JobEd Connect"
       },
       "owner": "SE2021002114",
       "software": "custom",
@@ -19900,7 +19904,7 @@
       ],
       "id": "links.api.jobtechdev.se",
       "label": {
-        "sv": "Arbetsförmedlingen API"
+        "sv": "JobAd Links"
       },
       "owner": "SE2021002114",
       "software": "custom",
@@ -20673,7 +20677,7 @@
       ],
       "id": "m4eu.sgu.se",
       "label": {
-        "sv": "Sveriges geologiska undersökning geodatatjänster"
+        "sv": "MR.Mineralresurser (nedladdningstjänst för direktåtkomst)"
       },
       "owner": "SE2021002528",
       "software": "custom",
@@ -23514,7 +23518,7 @@
       ],
       "id": "opendata-download-hydrography.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut geodatatjänster"
+        "sv": "SE.HY Dammregistret, Del- och Huvudavrinningsområden: Nedladdningstjänst"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -23566,7 +23570,7 @@
       ],
       "id": "opendata-download-hydroobs.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut geodatatjänster"
+        "sv": "SE.ACMF Hydrologiska observationer - Vattenföring: Nedladdningstjänst"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -23772,7 +23776,7 @@
       ],
       "id": "opendata-download-metobs.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut geodatatjänster"
+        "sv": "SE.ACMF Meteorologiska observationer: Nedladdningstjänst"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -23842,7 +23846,7 @@
       ],
       "id": "opendata-download-ocobs.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut geodatatjänster"
+        "sv": "SE.OF Oceanografiska observationer: Nedladdningstjänst"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -26110,7 +26114,7 @@
       ],
       "id": "qdb-external-api.myh.se",
       "label": {
-        "sv": "Myndigheten för yrkeshögskolan API"
+        "sv": "Kvalifikationer Sverige API"
       },
       "owner": "SE2021006230",
       "software": "custom",
@@ -30340,7 +30344,7 @@
       ],
       "id": "taxonomy.api.jobtechdev.se",
       "label": {
-        "sv": "Arbetsförmedlingen API"
+        "sv": "Arbetsmarknadstaxonomi"
       },
       "owner": "SE2021002114",
       "software": "custom",
@@ -32575,7 +32579,7 @@
       ],
       "id": "wms.slu.se",
       "label": {
-        "sv": "Sveriges lantbruksuniversitet geodatatjänster"
+        "sv": "EF.Riksskogstaxeringens statistikprodukter.WMS"
       },
       "owner": "SE2021002817",
       "software": "custom",

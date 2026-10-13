@@ -98,7 +98,7 @@ The only hand file for catalogs. Merged last, so it wins over every register.
 | register | gives |
 |---|---|
 | [organisations](https://github.com/nordicintel/organisations) | every organisation id with label, homepage and the URIs the portals use for it; owners and operators resolve against it by URI, then name, then registrable domain |
-| [data.europa.eu](https://data.europa.eu/api/hub/search/) | the hub search for the three Swedish catalogues (oppnadata, geodata-se, nsip-se): every service host that datasets and data services point at, classified by protocol from the URL, with the publisher URIs seen there. Mostly Geodataportalen's OGC services and Atom feeds, plus the APIs registered on dataportal.se |
+| [data.europa.eu](https://data.europa.eu/api/hub/search/) | the hub search for the three Swedish catalogues (oppnadata, geodata-se, nsip-se): every service host that datasets and data services point at, classified by protocol from the URL, with the publisher URIs seen there and, when the host carries exactly one data service, that service's title as the catalog's label. Mostly Geodataportalen's OGC services and Atom feeds, plus the APIs registered on dataportal.se |
 | [dataportal.se](https://admin.dataportal.se/store) | the federation: each registered catalog's title, publisher and homepage, the URL the portal harvests it from, and the latest harvest's status, date, dataset count and validation errors. That harvest outcome is written as the `dcat_ap` endpoint's `checked` |
 
 Every dataportal.se registration with a URL to harvest from is a catalog, also the

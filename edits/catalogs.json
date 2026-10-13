@@ -1569,6 +1569,9 @@
         "sv": "Länsstyrelsernas geodata"
       }
     },
+    "ext-geodata-nationella.lansstyrelsen.se": {
+      "owner": "SE2021002361-LST"
+    },
     "ext-geodata-raster.lansstyrelsen.se": {
       "owner": "SE2021002361-LST",
       "label": {
@@ -2840,6 +2843,10 @@
       ],
       "homepage": "https://gis1.vaxjo.se/arcgis/rest/services",
       "owner": "SE2120000662"
+    },
+    "gisapp.msb.se": {
+      "owner": "SE2021005984",
+      "note": "msb.se is Myndigheten för civilt försvar's domain from its MSB years."
     },
     "gisportal.boden.se": {
       "label": {

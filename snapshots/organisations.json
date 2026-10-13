@@ -298,8 +298,8 @@
     "motala.se": "SE2120002817",
     "mpf.se": "SE2021007014",
     "mrinstitutet.se": "SE2021007022",
-    "msb.se": "SE2021003591",
     "mtfa.se": "SE2021007055",
+    "mtm.se": "SE2021003591",
     "mucf.se": "SE2021001173",
     "mullsjo.se": "SE2120001603",
     "munkedal.se": "SE2120001330",
@@ -556,6 +556,10 @@
   "name": {
     "1:e statsgeolog": "SE2021002528",
     "academia conciliatrix": "SE2021003211",
+    "administrative court of appeal in gothenburg": "SE2021002742-KAMMARRATTEN-GOTEBORG",
+    "administrative court of appeal in jönköping": "SE2021002742-KAMMARRATTENIJONKOPING",
+    "administrative court of appeal in stockholm": "SE2021002742-KAMMARRATTENISTOCKHOLM",
+    "administrative court of appeal in sundsvall": "SE2021002742-KAMMARRATTENISUNDSVALL",
     "af": "SE2021002114",
     "affärsverket svenska kraftnät": "SE2021004284",
     "agency for digital government": "SE2021006883",
@@ -621,6 +625,7 @@
     "askersund kommun": "SE2120001983",
     "askersund municipality": "SE2120001983",
     "askersunds kommun": "SE2120001983",
+    "attunda district court": "SE2021002742-ATTUNDA-TINGSRATT",
     "attunda tingsrätt": "SE2021002742-ATTUNDA-TINGSRATT",
     "avesta": "SE2120002262",
     "avesta kommun": "SE2120002262",
@@ -650,6 +655,7 @@
     "bjuv municipality": "SE2120001041",
     "bjuvs kommun": "SE2120001041",
     "blekinge county administrative board": "SE2021002320",
+    "blekinge district court": "SE2021002742-BLEKINGE-TINGSRATT",
     "blekinge institute of technology": "SE2021004011",
     "blekinge läns landsting": "SE2321000081",
     "blekinge museum": "SE8350006113",
@@ -736,6 +742,9 @@
     "council for employee representation on boards of directors": "SE2021005786",
     "council for the promotion of municipal analyses": "SE8024305370",
     "council on legislation": "SE2021005315",
+    "court of appeal for northern norrland": "SE2021002742-HOVRATTEN-OVRENORRLAND",
+    "court of appeal for southern norrland": "SE2021002742-HOVRATTEN-NEDRENORRLAND",
+    "court of appeal for western sweden": "SE2021002742-HOVRATTEN-VASTRASVERIGE",
     "crime victim compensation and support authority": "SE2021003435",
     "csn": "SE2021001819",
     "dalarna county administrative board": "SE2021002429",
@@ -805,6 +814,7 @@
     "ekomatcentrum": "SE8024041769",
     "ekonomistyrningsverket": "SE2021005026",
     "eksjö": "SE2120000589",
+    "eksjö district court": "SE2021002742-EKSJO-TINGSRATT",
     "eksjö kommun": "SE2120000589",
     "eksjö municipality": "SE2120000589",
     "eksjö tingsrätt": "SE2021002742-EKSJO-TINGSRATT",
@@ -828,6 +838,7 @@
     "enskilda högskolan stockholm ab": "SE5569478968",
     "ersta sköndal bräcke högskola": "SE5566885280",
     "ersättningsnämnden": "SE2021006503",
+    "eskilstuna district court": "SE2021002742-ESKILSTUNA-TINGSRATT",
     "eskilstuna kommun": "SE2120000357",
     "eskilstuna kommuns öppna data": "SE2120000357",
     "eskilstuna municipality": "SE2120000357",
@@ -865,6 +876,7 @@
     "falköpings kommuns öppna data": "SE2120001744",
     "falu kommun": "SE2120002221",
     "falu tingsrätt": "SE2021002742-FALU-TINGSRATT",
+    "falun district court": "SE2021002742-FALU-TINGSRATT",
     "falun kommun": "SE2120002221",
     "falun municipality": "SE2120002221",
     "faluns kommun": "SE2120002221",
@@ -943,14 +955,17 @@
     "försvarsunderrättelsedomstolen": "SE2021006313",
     "försäkringskassan": "SE2021005521",
     "förvaltningsrätten i falun": "SE2021002742-FORVALTNINGSRATTENIFALUN",
+    "förvaltningsrätten i göteborg": "SE2021002742-FORVALTNINGSRATTENIGOTEBORG",
     "förvaltningsrätten i göteborg och migrationsdoms": "SE2021002742-FORVALTNINGSRATTENIGOTEBORG",
     "förvaltningsrätten i härnösand": "SE2021002742-FORVALTNINGSRATTENIHARNOSAND",
     "förvaltningsrätten i jönköping": "SE2021002742-FORVALTNINGSRATTENIJONKOPING",
     "förvaltningsrätten i karlstad": "SE2021002742-FORVALTNINGSRATTENIKARLSTAD",
     "förvaltningsrätten i linköping": "SE2021002742-FORVALTNINGSRATTENILINKOPING",
+    "förvaltningsrätten i luleå": "SE2021002742-FORVALTNINGSRATTENILULEA",
     "förvaltningsrätten i luleå och migrationsdomstol": "SE2021002742-FORVALTNINGSRATTENILULEA",
     "förvaltningsrätten i malmö": "SE2021002742-FORVALTNINGSRATTENIMALMO",
     "förvaltningsrätten i malmö och migrationsdomstol": "SE2021002742-FORVALTNINGSRATTENIMALMO",
+    "förvaltningsrätten i stockholm": "SE2021002742-FORVALTNINGSRATTENISTOCKHOLM",
     "förvaltningsrätten i stockholm och migrationsdom": "SE2021002742-FORVALTNINGSRATTENISTOCKHOLM",
     "förvaltningsrätten i umeå": "SE2021002742-FORVALTNINGSRATTENIUMEA",
     "förvaltningsrätten i uppsala": "SE2021002742-FORVALTNINGSRATTENIUPPSALA",
@@ -982,6 +997,7 @@
     "gothenburg municipality": "SE2120001355",
     "gotland": "SE2120000803",
     "gotland county administrative board": "SE2021002312",
+    "gotland district court": "SE2021002742-GOTLANDS-TINGSRATT",
     "gotlands handelskammare": "SE2620000295",
     "gotlands kommun": "SE2120000803",
     "gotlands tingsrätt": "SE2021002742-GOTLANDS-TINGSRATT",
@@ -1015,6 +1031,7 @@
     "gällivares kommun": "SE2120002726",
     "gästrike räddningstjänst": "SE2220000778",
     "gästrike återvinnare": "SE2220001339",
+    "gävle district court": "SE2021002742-GAVLE-TINGSRATT",
     "gävle högskola": "SE2021002890",
     "gävle kommun": "SE2120002338",
     "gävle kommuns öppna data": "SE2120002338",
@@ -1024,6 +1041,7 @@
     "gävleborgs läns landsting": "SE2321000198",
     "gävles kommun": "SE2120002338",
     "göliska it": "SE2220001602",
+    "göta court of appeal": "SE2021002742-GOTA-HOVRATT",
     "göta hovrätt": "SE2021002742-GOTA-HOVRATT",
     "göteborg energi": "SE5563626794",
     "göteborg energi ab": "SE5563626794",
@@ -1080,6 +1098,7 @@
     "haninge municipality": "SE2120000084",
     "haninges kommun": "SE2120000084",
     "haparanda": "SE2120002775",
+    "haparanda district court": "SE2021002742-HAPARANDA-TINGSRATT",
     "haparanda kommun": "SE2120002775",
     "haparanda municipality": "SE2120002775",
     "haparanda tingsrätt": "SE2021002742-HAPARANDA-TINGSRATT",
@@ -1088,6 +1107,7 @@
     "harpsundsnämnden": "SE2021004250",
     "hav": "SE2021006420",
     "havs- och vattenmyndigheten": "SE2021006420",
+    "hd": "SE2021002742-HOGSTA-DOMSTOLEN",
     "health and social care inspectorate": "SE2021006537",
     "heby": "SE2120002049",
     "heby kommun": "SE2120002049",
@@ -1164,6 +1184,7 @@
     "hällefors": "SE2120001942",
     "hällefors kommun": "SE2120001942",
     "hällefors municipality": "SE2120001942",
+    "hälsingland district court": "SE2021002742-HALSINGLANDS-TINGSRATT",
     "hälsinglands tingsrätt": "SE2021002742-HALSINGLANDS-TINGSRATT",
     "hälsinglands utbildningsförbund": "SE2220003111",
     "hälso- & sjukvårdens ansvarsnämnd": "SE2021003765",
@@ -1180,6 +1201,7 @@
     "härryda municipality": "SE2120001264",
     "härrydas kommun": "SE2120001264",
     "hässleholm": "SE2120000985",
+    "hässleholm district court": "SE2021002742-HASSLEHOLMS-TINGSRATT",
     "hässleholm kommun": "SE2120000985",
     "hässleholm municipality": "SE2120000985",
     "hässleholms kommun": "SE2120000985",
@@ -1292,6 +1314,7 @@
     "järfälla municipality": "SE2120000043",
     "järnvägsstyrelsen": "SE2021005505",
     "jönköping county administrative board": "SE2021002288",
+    "jönköping district court": "SE2021002742-JONKOPINGS-TINGSRATT",
     "jönköping kommun": "SE2120000530",
     "jönköping municipality": "SE2120000530",
     "jönköping university": "SE8260017333",
@@ -1302,6 +1325,7 @@
     "kalix kommun": "SE2120002692",
     "kalix municipality": "SE2120002692",
     "kalmar county administrative board": "SE2021002304",
+    "kalmar district court": "SE2021002742-KALMAR-TINGSRATT",
     "kalmar kommun": "SE2120000746",
     "kalmar läns landsting": "SE2321000073",
     "kalmar municipality": "SE2120000746",
@@ -1312,6 +1336,7 @@
     "kammarkollegiet": "SE2021000829",
     "kammarrätten i göteborg": "SE2021002742-KAMMARRATTEN-GOTEBORG",
     "kammarrätten i jönköping": "SE2021002742-KAMMARRATTENIJONKOPING",
+    "kammarrätten i stockholm": "SE2021002742-KAMMARRATTENISTOCKHOLM",
     "kammarrätten i stockholm och migrationsöverdomst": "SE2021002742-KAMMARRATTENISTOCKHOLM",
     "kammarrätten i sundsvall": "SE2021002742-KAMMARRATTENISUNDSVALL",
     "kanslihuset": "SE2021003831",
@@ -1457,6 +1482,7 @@
     "kungl.ingenjörsvetenskapsakademien iva": "SE2620001160",
     "kungliga biblioteket": "SE2021001710",
     "kungliga konsthögskolan": "SE2021002957",
+    "kungliga majestäts regeringsrätt": "SE2021002742-HOGSTAFORVALTNINGSDOMSTOLEN",
     "kungliga musikaliska akademiens undervisningsverk": "SE2021001215",
     "kungliga musikhögskolan": "SE2021001215",
     "kungliga musikkonservatoriet": "SE2021001215",
@@ -1560,6 +1586,7 @@
     "lindesberg kommun": "SE2120002015",
     "lindesberg municipality": "SE2120002015",
     "lindesbergs kommun": "SE2120002015",
+    "linköping district court": "SE2021002742-LINKOPINGS-TINGSRATT",
     "linköping kommun": "SE2120000449",
     "linköping municipality": "SE2120000449",
     "linköping university": "SE2021003096",
@@ -1602,6 +1629,7 @@
     "ludvikas kommun": "SE2120002270",
     "luftfartsstyrelsen": "SE2021005547",
     "luftfartsverket": "SE2021000795",
+    "luleå district court": "SE2021002742-LULEA-TINGSRATT",
     "luleå kommun": "SE2120002742",
     "luleå municipality": "SE2120002742",
     "luleå tekniska högskola": "SE2021002841",
@@ -1609,6 +1637,7 @@
     "luleå tingsrätt": "SE2021002742-LULEA-TINGSRATT",
     "luleå university of technology": "SE2021002841",
     "luleås kommun": "SE2120002742",
+    "lund district court": "SE2021002742-LUNDS-TINGSRATT",
     "lund kommun": "SE2120001132",
     "lund municipality": "SE2120001132",
     "lund university": "SE2021003211",
@@ -1619,6 +1648,7 @@
     "lunds universitet": "SE2021003211",
     "lv": "SE2021004078",
     "lycksele": "SE2120002635",
+    "lycksele district court": "SE2021002742-LYCKSELE-TINGSRATT",
     "lycksele kommun": "SE2120002635",
     "lycksele municipality": "SE2120002635",
     "lycksele tingsrätt": "SE2021002742-LYCKSELE-TINGSRATT",
@@ -1663,6 +1693,7 @@
     "macrobond financial": "SE5567409817",
     "macrobond financial ab": "SE5567409817",
     "mah": "SE2021004920",
+    "malmö district court": "SE2021002742-MALMO-TINGSRATT",
     "malmö högskola": "SE2021004920",
     "malmö kommun": "SE2120001124",
     "malmö municipality": "SE2120001124",
@@ -1732,6 +1763,7 @@
     "mjölby municipality": "SE2120000480",
     "mjölbys kommun": "SE2120000480",
     "moderna museet": "SE2021005091",
+    "mora district court": "SE2021002742-MORA-TINGSRATT",
     "mora kommun": "SE2120002213",
     "mora municipality": "SE2120002213",
     "mora tingsrätt": "SE2021002742-MORA-TINGSRATT",
@@ -1804,6 +1836,7 @@
     "mörbylånga municipality": "SE2120000704",
     "mörbylångas kommun": "SE2120000704",
     "nacka": "SE2120000167",
+    "nacka district court": "SE2021002742-NACKA-TINGSRATT",
     "nacka kommun": "SE2120000167",
     "nacka municipality": "SE2120000167",
     "nacka tingsrätt": "SE2021002742-NACKA-TINGSRATT",
@@ -1882,11 +1915,13 @@
     "norrbotten county administrative board": "SE2021002478",
     "norrbottens handelskammare": "SE2620001095",
     "norrbottens läns landsting": "SE2321000230",
+    "norrköping district court": "SE2021002742-NORRKOPINGS-TINGSRATT",
     "norrköping kommun": "SE2120000456",
     "norrköping municipality": "SE2120000456",
     "norrköpings kommun": "SE2120000456",
     "norrköpings tingsrätt": "SE2021002742-NORRKOPINGS-TINGSRATT",
     "norrtälje": "SE2120000217",
+    "norrtälje district court": "SE2021002742-NORRTALJE-TINGSRATT",
     "norrtälje kommun": "SE2120000217",
     "norrtälje municipality": "SE2120000217",
     "norrtälje tingsrätt": "SE2021002742-NORRTALJE-TINGSRATT",
@@ -1907,6 +1942,7 @@
     "nykvarn kommun": "SE2120002999",
     "nykvarn municipality": "SE2120002999",
     "nykvarns kommun": "SE2120002999",
+    "nyköping district court": "SE2021002742-NYKOPINGS-TINGSRATT",
     "nyköping kommun": "SE2120002940",
     "nyköping municipality": "SE2120002940",
     "nyköpings kommun": "SE2120002940",
@@ -2005,6 +2041,9 @@
     "refinitiv": "wikidata:Q60741469",
     "regelrådet": "SE2021006149",
     "regeringskansliet": "SE2021003831",
+    "regeringsrätt": "SE2021002742-HOGSTAFORVALTNINGSDOMSTOLEN",
+    "regeringsrätten": "SE2021002742-HOGSTAFORVALTNINGSDOMSTOLEN",
+    "regeringsrättens årsbok": "SE2021002742-HOGSTAFORVALTNINGSDOMSTOLEN",
     "regia academia carolina": "SE2021003211",
     "region blekinge": "SE2321000081",
     "region dalarna": "SE2321000180",
@@ -2184,6 +2223,7 @@
     "sbfc": "SE2021001041",
     "sbu": "SE2021004417",
     "scania aktiebolag": "SE5561848564",
+    "scania and blekinge court of appeal": "SE2021002742-HOVRATTEN-SKANEBLEKINGE",
     "scania cv ab": "SE5561848564",
     "scb": "SE2021000837",
     "scb\\n": "SE2021000837",
@@ -2225,6 +2265,7 @@
     "skara kommun": "SE2120001702",
     "skara kommuns öppna data": "SE2120001702",
     "skara municipality": "SE2120001702",
+    "skaraborg district court": "SE2021002742-SKARABORGS-TINGSRATT",
     "skaraborgs kommunalförbund": "SE2220002188",
     "skaraborgs tingsrätt": "SE2021002742-SKARABORGS-TINGSRATT",
     "skaras kommun": "SE2120001702",
@@ -2233,6 +2274,7 @@
     "skatterättsnämnden": "SE2021005901",
     "skatteverket": "SE2021005448",
     "skatteverkets öppna data": "SE2021005448",
+    "skellefteå district court": "SE2021002742-SKELLEFTEA-TINGSRATT",
     "skellefteå kommun": "SE2120002643",
     "skellefteå municipality": "SE2120002643",
     "skellefteå tingsrätt": "SE2021002742-SKELLEFTEA-TINGSRATT",
@@ -2294,6 +2336,7 @@
     "sollentuna kommun": "SE2120000134",
     "sollentuna municipality": "SE2120000134",
     "solna": "SE2120000183",
+    "solna district court": "SE2021002742-SOLNA-TINGSRATT",
     "solna kommun": "SE2120000183",
     "solna municipality": "SE2120000183",
     "solna stad": "SE2120000183",
@@ -2411,6 +2454,7 @@
     "stiftelsen stockholms internationella fredsforskningsinstitut (sipri)": "SE8020062660",
     "stiftelsen stockholms läns äldrecentrum": "SE8020120948",
     "stockholm county administrative board": "SE2021002247",
+    "stockholm district court": "SE2021002742-STOCKHOLMS-TINGSRATT",
     "stockholm gerontology research center foundation": "SE8020120948",
     "stockholm international peace research institute": "SE8020062660",
     "stockholm municipality": "SE2120000142",
@@ -2427,6 +2471,7 @@
     "stockholms musikhögskola": "SE2021001215",
     "stockholms musikkonservatorium": "SE2021001215",
     "stockholms stad": "SE2120000142",
+    "stockholms tingsrätt": "SE2021002742-STOCKHOLMS-TINGSRATT",
     "stockholms tingsrätt och patent och marknadsdom": "SE2021002742-STOCKHOLMS-TINGSRATT",
     "stockholms universitet": "SE2021003062",
     "storfors": "SE2120001785",
@@ -2463,6 +2508,7 @@
     "sundbyberg municipality": "SE2120000175",
     "sundbybergs kommun": "SE2120000175",
     "sundbybergs stad": "SE2120000175",
+    "sundsvall district court": "SE2021002742-SUNDSVALLS-TINGSRATT",
     "sundsvall kommun": "SE2120002411",
     "sundsvall municipality": "SE2120002411",
     "sundsvalls kommun": "SE2120002411",
@@ -2472,6 +2518,8 @@
     "sunne municipality": "SE2120001843",
     "sunnerbo samordningsförbund": "SE2220002147",
     "sunnes kommun": "SE2120001843",
+    "supreme administrative court of sweden": "SE2021002742-HOGSTAFORVALTNINGSDOMSTOLEN",
+    "supreme court of sweden": "SE2021002742-HOGSTA-DOMSTOLEN",
     "surahammar": "SE2120002031",
     "surahammar municipality": "SE2120002031",
     "surahammars kommun": "SE2120002031",
@@ -2479,6 +2527,7 @@
     "svalöv": "SE2120000993",
     "svalöv municipality": "SE2120000993",
     "svalövs kommun": "SE2120000993",
+    "svea court of appeal": "SE2021002742-SVEA-HOVRATT",
     "svea hovrätt": "SE2021002742-SVEA-HOVRATT",
     "svea hovrätt o mark o miljö och patent": "SE2021002742-SVEA-HOVRATT",
     "svedala": "SE2120001074",
@@ -2513,6 +2562,7 @@
     "sveriges författarfond": "SE2021003583",
     "sveriges geologiska undersökning": "SE2021002528",
     "sveriges geologiska undersökning (sgu)": "SE2021002528",
+    "sveriges högsta domstol": "SE2021002742-HOGSTA-DOMSTOLEN",
     "sveriges kommuner och regioner": "SE2220000315",
     "sveriges kommuner och regioner (skr)": "SE2220000315",
     "sveriges lantbruksuniversitet": "SE2021002817",
@@ -2587,6 +2637,7 @@
     "swedish export credits guarantee board": "SE2021002098",
     "swedish financial supervisory authority": "SE2021004235",
     "swedish fiscal policy council": "SE2021005687",
+    "swedish foreign intelligence court": "SE2021006313",
     "swedish forest agency": "SE2021005612",
     "swedish forest agency (skogsstyrelsen) and forestry research institute of sweden (skogforsk)": "SE2021005612",
     "swedish fund selection agency": "SE2021007030",
@@ -2674,11 +2725,13 @@
     "söderköpings kommun": "SE2120000464",
     "södermanland county administrative board": "SE2021002262",
     "södermanlands läns landsting": "SE2321000032",
+    "södertälje district court": "SE2021002742-SODERTALJE-TINGSRATT",
     "södertälje kommun": "SE2120000159",
     "södertälje kommuns öppna data": "SE2120000159",
     "södertälje municipality": "SE2120000159",
     "södertälje tingsrätt": "SE2021002742-SODERTALJE-TINGSRATT",
     "södertäljes kommun": "SE2120000159",
+    "södertörn district court": "SE2021002742-SODERTORNS-TINGSRATT",
     "södertörn university": "SE2021004896",
     "södertörns brandförsvarsförbund": "SE2220000737",
     "södertörns högskola": "SE2021004896",
@@ -2842,6 +2895,7 @@
     "töreboda kommun": "SE2120001678",
     "töreboda kommuns öppna data": "SE2120001678",
     "töreboda municipality": "SE2120001678",
+    "uddevalla district court": "SE2021002742-UDDEVALLA-TINGSRATT",
     "uddevalla kommun": "SE2120001397",
     "uddevalla municipality": "SE2120001397",
     "uddevalla tingsrätt": "SE2021002742-UDDEVALLA-TINGSRATT",
@@ -2852,6 +2906,7 @@
     "ulricehamn kommun": "SE2120001579",
     "ulricehamn municipality": "SE2120001579",
     "ulricehamns kommun": "SE2120001579",
+    "umeå district court": "SE2021002742-UMEA-TINGSRATT",
     "umeå kommun": "SE2120002627",
     "umeå municipality": "SE2120002627",
     "umeå tingsrätt": "SE2021002742-UMEA-TINGSRATT",
@@ -2885,6 +2940,7 @@
     "upplands-väsby kommun": "SE2120000019",
     "uppsala akademi": "SE2021002932",
     "uppsala county administrative board": "SE2021002254",
+    "uppsala district court": "SE2021002742-UPPSALA-TINGSRATT",
     "uppsala kommun": "SE2120003005",
     "uppsala läns landsting": "SE2321000024",
     "uppsala municipality": "SE2120003005",
@@ -2936,6 +2992,7 @@
     "vara municipality": "SE2120002924",
     "varas kommun": "SE2120002924",
     "varberg": "SE2120001249",
+    "varberg district court": "SE2021002742-VARBERGS-TINGSRATT",
     "varberg energi": "SE5594650037",
     "varberg energi ab": "SE5594650037",
     "varberg kommun": "SE2120001249",
@@ -2985,9 +3042,11 @@
     "vti": "SE2021000704",
     "vägverket": "SE2021000639",
     "vänersborg": "SE2120001538",
+    "vänersborg district court": "SE2021002742-VANERSBORGS-TINGSRATT",
     "vänersborg kommun": "SE2120001538",
     "vänersborg municipality": "SE2120001538",
     "vänersborgs kommun": "SE2120001538",
+    "vänersborgs tingsrätt": "SE2021002742-VANERSBORGS-TINGSRATT",
     "vänersborgs tingsrätt och mark och miljödomstol": "SE2021002742-VANERSBORGS-TINGSRATT",
     "vännäs": "SE2120002841",
     "vännäs kommun": "SE2120002841",
@@ -2999,6 +3058,7 @@
     "värmdö municipality": "SE2120000035",
     "värmdös kommun": "SE2120000035",
     "värmland county administrative board": "SE2021002395",
+    "värmland district court": "SE2021002742-VARMLANDS-TINGSRATT",
     "värmlands läns hushållningssällskap": "SE2620000170",
     "värmlands läns kalkningsförbund": "SE2220001404",
     "värmlands läns landsting": "SE2321000156",
@@ -3028,6 +3088,7 @@
     "västerås stad": "SE2120002080",
     "västerås stads öppna data": "SE2120002080",
     "västmanland county administrative board": "SE2021002411",
+    "västmanland district court": "SE2021002742-VASTMANLANDS-TINGSRATT",
     "västmanlands läns hushållningssällskap": "SE2620000196",
     "västmanlands läns landsting": "SE2321000172",
     "västmanlands tingsrätt": "SE2021002742-VASTMANLANDS-TINGSRATT",
@@ -3041,8 +3102,10 @@
     "västra värmlands och norra dalslands samordningsförbund": "SE2220001800",
     "västtrafik": "SE5565585873",
     "västtrafik ab": "SE5565585873",
+    "växjö district court": "SE2021002742-VAXJO-TINGSRATT",
     "växjö kommun": "SE2120000662",
     "växjö municipality": "SE2120000662",
+    "växjö tingsrätt": "SE2021002742-VAXJO-TINGSRATT",
     "växjö tingsrätt och mark och miljödomstol": "SE2021002742-VAXJO-TINGSRATT",
     "växjö universitet": "SE2021003187",
     "växjös kommun": "SE2120000662",
@@ -3062,10 +3125,12 @@
     "ydres kommun": "SE2120000381",
     "yh-myndigheten": "SE2021006230",
     "ystad": "SE2120001181",
+    "ystad district court": "SE2021002742-YSTADS-TINGSRATT",
     "ystad kommun": "SE2120001181",
     "ystad municipality": "SE2120001181",
     "ystad-österlenregionens miljöförbund": "SE2220002626",
     "ystads kommun": "SE2120001181",
+    "ystads tingshus": "SE2021002742-YSTADS-TINGSRATT",
     "ystads tingsrätt": "SE2021002742-YSTADS-TINGSRATT",
     "zornsamlingarna": "SE2620001582",
     "älmhult": "SE2120000647",
@@ -3096,6 +3161,7 @@
     "ånge": "SE2120002387",
     "ånge kommun": "SE2120002387",
     "ånge municipality": "SE2120002387",
+    "ångermanland district court": "SE2021002742-ANGERMANLANDS-TINGSRATT",
     "ångermanlands tingsrätt": "SE2021002742-ANGERMANLANDS-TINGSRATT",
     "ånges kommun": "SE2120002387",
     "åre": "SE2120002494",
@@ -3133,6 +3199,7 @@
     "örebro läns hushållningssällskap": "SE2620000188",
     "örebro läns landsting": "SE2321000164",
     "örebro municipality": "SE2120001967",
+    "örebro rättscentrum": "SE2021002742-OREBRO-TINGSRATT",
     "örebro tingsrätt": "SE2021002742-OREBRO-TINGSRATT",
     "örebro universitet": "SE2021002924",
     "örebro universitetsbibliotek": "SE2021002924",
@@ -3147,9 +3214,11 @@
     "örnsköldsviks kommun": "SE2120002445",
     "östergötland county administrative board": "SE2021002270",
     "östergötlands läns landsting": "SE2321000040",
+    "östersund district court": "SE2021002742-OSTERSUNDS-TINGSRATT",
     "östersund kommun": "SE2120002528",
     "östersund municipality": "SE2120002528",
     "östersunds kommun": "SE2120002528",
+    "östersunds tingsrätt": "SE2021002742-OSTERSUNDS-TINGSRATT",
     "östersunds tingsrätt och mark och miljödomstol": "SE2021002742-OSTERSUNDS-TINGSRATT",
     "österåker": "SE2120002890",
     "österåker kommun": "SE2120002890",
@@ -3620,42 +3689,42 @@
     },
     "SE2021002742-ALINGSAS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Alingsås Tingsrätt",
+      "label": "Alingsås tingsrätt",
       "status": "active"
     },
     "SE2021002742-ANGERMANLANDS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Ångermanlands Tingsrätt",
+      "label": "Ångermanlands tingsrätt",
       "status": "active"
     },
     "SE2021002742-ATTUNDA-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Attunda Tingsrätt",
+      "label": "Attunda tingsrätt",
       "status": "active"
     },
     "SE2021002742-BLEKINGE-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Blekinge Tingsrätt",
+      "label": "Blekinge tingsrätt",
       "status": "active"
     },
     "SE2021002742-BORAS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Borås Tingsrätt",
+      "label": "Borås tingsrätt",
       "status": "active"
     },
     "SE2021002742-EKSJO-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Eksjö Tingsrätt",
+      "label": "Eksjö tingsrätt",
       "status": "active"
     },
     "SE2021002742-ESKILSTUNA-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Eskilstuna Tingsrätt",
+      "label": "Eskilstuna tingsrätt",
       "status": "active"
     },
     "SE2021002742-FALU-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Falu Tingsrätt",
+      "label": "Falu tingsrätt",
       "status": "active"
     },
     "SE2021002742-FORVALTNINGSRATTENIFALUN": {
@@ -3665,7 +3734,7 @@
     },
     "SE2021002742-FORVALTNINGSRATTENIGOTEBORG": {
       "homepage": "https://www.domstol.se",
-      "label": "Förvaltningsrätten i Göteborg och Migrationsdoms",
+      "label": "Förvaltningsrätten i Göteborg",
       "status": "active"
     },
     "SE2021002742-FORVALTNINGSRATTENIHARNOSAND": {
@@ -3690,7 +3759,7 @@
     },
     "SE2021002742-FORVALTNINGSRATTENILULEA": {
       "homepage": "https://www.domstol.se",
-      "label": "Förvaltningsrätten i Luleå och Migrationsdomstol",
+      "label": "Förvaltningsrätten i Luleå",
       "status": "active"
     },
     "SE2021002742-FORVALTNINGSRATTENIMALMO": {
@@ -3700,7 +3769,7 @@
     },
     "SE2021002742-FORVALTNINGSRATTENISTOCKHOLM": {
       "homepage": "https://www.domstol.se",
-      "label": "Förvaltningsrätten i Stockholm och Migrationsdom",
+      "label": "Förvaltningsrätten i Stockholm",
       "status": "active"
     },
     "SE2021002742-FORVALTNINGSRATTENIUMEA": {
@@ -3720,52 +3789,52 @@
     },
     "SE2021002742-GALLIVARE-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Gällivare Tingsrätt",
+      "label": "Gällivare tingsrätt",
       "status": "active"
     },
     "SE2021002742-GAVLE-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Gävle Tingsrätt",
+      "label": "Gävle tingsrätt",
       "status": "active"
     },
     "SE2021002742-GBG-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Göteborgs Tingsrätt",
+      "label": "Göteborgs tingsrätt",
       "status": "active"
     },
     "SE2021002742-GOTA-HOVRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Göta Hovrätt",
+      "label": "Göta hovrätt",
       "status": "active"
     },
     "SE2021002742-GOTLANDS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Gotlands Tingsrätt",
+      "label": "Gotlands tingsrätt",
       "status": "active"
     },
     "SE2021002742-HALMSTADS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Halmstads Tingsrätt",
+      "label": "Halmstads tingsrätt",
       "status": "active"
     },
     "SE2021002742-HALSINGLANDS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Hälsinglands Tingsrätt",
+      "label": "Hälsinglands tingsrätt",
       "status": "active"
     },
     "SE2021002742-HAPARANDA-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Haparanda Tingsrätt",
+      "label": "Haparanda tingsrätt",
       "status": "active"
     },
     "SE2021002742-HASSLEHOLMS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Hässleholms Tingsrätt",
+      "label": "Hässleholms tingsrätt",
       "status": "active"
     },
     "SE2021002742-HELSINGBORGS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Helsingborgs Tingsrätt",
+      "label": "Helsingborgs tingsrätt",
       "status": "active"
     },
     "SE2021002742-HOGSTA-DOMSTOLEN": {
@@ -3840,12 +3909,12 @@
     },
     "SE2021002742-JONKOPINGS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Jönköpings Tingsrätt",
+      "label": "Jönköpings tingsrätt",
       "status": "active"
     },
     "SE2021002742-KALMAR-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Kalmar Tingsrätt",
+      "label": "Kalmar tingsrätt",
       "status": "active"
     },
     "SE2021002742-KAMMARRATTEN-GOTEBORG": {
@@ -3860,7 +3929,7 @@
     },
     "SE2021002742-KAMMARRATTENISTOCKHOLM": {
       "homepage": "https://www.domstol.se",
-      "label": "Kammarrätten i Stockholm och Migrationsöverdomst",
+      "label": "Kammarrätten i Stockholm",
       "status": "active"
     },
     "SE2021002742-KAMMARRATTENISUNDSVALL": {
@@ -3870,152 +3939,152 @@
     },
     "SE2021002742-KRISTIANSTADS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Kristianstads Tingsrätt",
+      "label": "Kristianstads tingsrätt",
       "status": "active"
     },
     "SE2021002742-LINKOPINGS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Linköpings Tingsrätt",
+      "label": "Linköpings tingsrätt",
       "status": "active"
     },
     "SE2021002742-LULEA-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Luleå Tingsrätt",
+      "label": "Luleå tingsrätt",
       "status": "active"
     },
     "SE2021002742-LUNDS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Lunds Tingsrätt",
+      "label": "Lunds tingsrätt",
       "status": "active"
     },
     "SE2021002742-LYCKSELE-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Lycksele Tingsrätt",
+      "label": "Lycksele tingsrätt",
       "status": "active"
     },
     "SE2021002742-MALMO-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Malmö Tingsrätt",
+      "label": "Malmö tingsrätt",
       "status": "active"
     },
     "SE2021002742-MORA-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Mora Tingsrätt",
+      "label": "Mora tingsrätt",
       "status": "active"
     },
     "SE2021002742-NACKA-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Nacka Tingsrätt",
+      "label": "Nacka tingsrätt",
       "status": "active"
     },
     "SE2021002742-NORRKOPINGS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Norrköpings Tingsrätt",
+      "label": "Norrköpings tingsrätt",
       "status": "active"
     },
     "SE2021002742-NORRTALJE-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Norrtälje Tingsrätt",
+      "label": "Norrtälje tingsrätt",
       "status": "active"
     },
     "SE2021002742-NYKOPINGS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Nyköpings Tingsrätt",
+      "label": "Nyköpings tingsrätt",
       "status": "active"
     },
     "SE2021002742-OREBRO-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Örebro Tingsrätt",
+      "label": "Örebro tingsrätt",
       "status": "active"
     },
     "SE2021002742-OSTERSUNDS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Östersunds Tingsrätt och Mark och Miljödomstol",
+      "label": "Östersunds tingsrätt",
       "status": "active"
     },
     "SE2021002742-SKARABORGS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Skaraborgs Tingsrätt",
+      "label": "Skaraborgs tingsrätt",
       "status": "active"
     },
     "SE2021002742-SKELLEFTEA-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Skellefteå Tingsrätt",
+      "label": "Skellefteå tingsrätt",
       "status": "active"
     },
     "SE2021002742-SODERTALJE-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Södertälje Tingsrätt",
+      "label": "Södertälje tingsrätt",
       "status": "active"
     },
     "SE2021002742-SODERTORNS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Södertörns Tingsrätt",
+      "label": "Södertörns tingsrätt",
       "status": "active"
     },
     "SE2021002742-SOLNA-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Solna Tingsrätt",
+      "label": "Solna tingsrätt",
       "status": "active"
     },
     "SE2021002742-STOCKHOLMS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Stockholms Tingsrätt och Patent och Marknadsdom",
+      "label": "Stockholms tingsrätt",
       "status": "active"
     },
     "SE2021002742-SUNDSVALLS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Sundsvalls Tingsrätt",
+      "label": "Sundsvalls tingsrätt",
       "status": "active"
     },
     "SE2021002742-SVEA-HOVRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Svea Hovrätt o Mark o Miljö och Patent",
+      "label": "Svea hovrätt",
       "status": "active"
     },
     "SE2021002742-UDDEVALLA-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Uddevalla Tingsrätt",
+      "label": "Uddevalla tingsrätt",
       "status": "active"
     },
     "SE2021002742-UMEA-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Umeå Tingsrätt",
+      "label": "Umeå tingsrätt",
       "status": "active"
     },
     "SE2021002742-UPPSALA-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Uppsala Tingsrätt",
+      "label": "Uppsala tingsrätt",
       "status": "active"
     },
     "SE2021002742-VANERSBORGS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Vänersborgs Tingsrätt och Mark och Miljödomstol",
+      "label": "Vänersborgs tingsrätt",
       "status": "active"
     },
     "SE2021002742-VARBERGS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Varbergs Tingsrätt",
+      "label": "Varbergs tingsrätt",
       "status": "active"
     },
     "SE2021002742-VARMLANDS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Värmlands Tingsrätt",
+      "label": "Värmlands tingsrätt",
       "status": "active"
     },
     "SE2021002742-VASTMANLANDS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Västmanlands Tingsrätt",
+      "label": "Västmanlands tingsrätt",
       "status": "active"
     },
     "SE2021002742-VAXJO-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Växjö Tingsrätt och Mark och Miljödomstol",
+      "label": "Växjö tingsrätt",
       "status": "active"
     },
     "SE2021002742-YSTADS-TINGSRATT": {
       "homepage": "https://www.domstol.se",
-      "label": "Ystads Tingsrätt",
+      "label": "Ystads tingsrätt",
       "status": "active"
     },
     "SE2021002817": {
@@ -4194,7 +4263,7 @@
       "status": "active"
     },
     "SE2021003591": {
-      "homepage": "https://www.msb.se",
+      "homepage": "https://www.mtm.se",
       "label": "Myndigheten för tillgängliga medier",
       "status": "active"
     },

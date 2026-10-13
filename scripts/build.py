@@ -171,7 +171,12 @@ def main():
                 record["operator"] = METASOLUTIONS
             if key in catalogs:
                 # Several contexts on one host: keep the first, add the rest as endpoints and identifiers.
+                # An owner any of them resolves to is the host's owner.
                 merge(catalogs[key], {"endpoint": endpoints, "same_as": [f"https://admin.dataportal.se/store/{context}"]})
+                if owner and "owner" not in catalogs[key]:
+                    catalogs[key]["owner"] = owner
+                if "owner" in catalogs[key]:
+                    unresolved = [u for u in unresolved if u["id"] != key]
             else:
                 catalogs[key] = record
         except Exception as error:  # noqa: BLE001 - one bad row must not cost the register
@@ -195,7 +200,8 @@ def main():
                 software = "geoserver" if "/geoserver" in bases else "arcgis" if "arcgis_rest" in spoken else "custom"
             else:
                 catalog_type, software = "api", "custom"
-            record = {"id": key, "label": {}, "catalog_type": catalog_type, "software": software, "endpoint": endpoints, "status": "unknown", "source": ["data_europa"]}
+            record = {"id": key, "label": {"sv": row["title"]} if row.get("title") else {}, "catalog_type": catalog_type, "software": software,
+                      "endpoint": endpoints, "status": "unknown", "source": ["data_europa"]}
             owner = owner_of("", *row["publisher"], f"https://{host}/")
             if owner:
                 record["owner"] = owner
