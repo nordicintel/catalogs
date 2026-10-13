@@ -10,6 +10,7 @@ keyed by context id.
 """
 import json
 import urllib.parse
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from .common import cached, http, skip
@@ -59,13 +60,19 @@ def _raw(previous):
     pipelines = _search("graphType:Pipeline")
     results = _search("graphType:PipelineResult AND tag.literal:latest")
     sources = {}
-    for e in pipelines:
+
+    def source(e):
         try:
-            sources[e["contextId"]] = _source_url(e["contextId"], e["entryId"])
+            return _source_url(e["contextId"], e["entryId"])
         except Exception as error:  # noqa: BLE001 - keep the URL the last build knew for this context
             skip("dataportal pipeline", e.get("contextId"), error)
-            if e.get("contextId") in previous:
-                sources[e["contextId"]] = previous[e["contextId"]]["source"]
+            return previous[e["contextId"]]["source"] if e.get("contextId") in previous else None
+
+    # One resource per pipeline, several hundred of them: read a few at a time, in order.
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        for e, url in zip(pipelines, pool.map(source, pipelines)):
+            if url is not None:
+                sources[e["contextId"]] = url
     return json.dumps({"catalogs": catalogs, "pipelines": pipelines, "results": results, "sources": sources},
                       ensure_ascii=False).encode()
 
