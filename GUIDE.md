@@ -82,12 +82,28 @@ The only hand file for catalogs. Merged last, so it wins over every register.
 - Owner and operator must exist in `organisations.json`. If one is missing, add
   it there first.
 
+## Registers
+
+| register | gives |
+|---|---|
+| [organisations](https://github.com/nordicintel/organisations) | every organisation id with label, homepage and the URIs the portals use for it; owners and operators resolve against it by URI, then name, then registrable domain |
+| [dataportal.se](https://admin.dataportal.se/store) | the federation: each registered catalog's title, publisher and homepage, the URL the portal harvests it from, and the latest harvest's status, date, dataset count and validation errors. That harvest outcome is written as the `dcat_ap` endpoint's `checked` |
+
+A dataportal.se registration becomes a catalog only once a harvest has succeeded
+with at least one dataset; the portal pre-registered a guessed URL for every public
+body and most of those have never answered. The report counts them as
+`registered_only`. A catalog that is already in the product stays and turns
+`inactive` when its harvest fails, so a bad week does not make it vanish. A
+context in a shared install (`free.entryscape.com`, `editera.dataportal.se`) is
+its own catalog, keyed by host and the context's number in that install, with
+MetaSolutions or Digg as operator and only the RDF export as endpoint.
+
 ## Derived
 
 | path | what |
 |---|---|
 | `snapshots/<register>.json` | the reduced result of the last successful fetch of each register, committed so a build still runs when a register is down |
-| `reports/<date>.json` | written by a build that changed a catalog or found a register with no snapshot: per register `fetched`, `stale` or `failed`, counts by type and protocol, added and removed ids. `generated` in `catalogs.json` is the date of the last content change |
+| `reports/<date>.json` | written by a build that changed a catalog or found a register with no snapshot: per register `fetched`, `stale` or `failed`, counts by type and protocol, added and removed ids, catalogs `without_owner` (the worklist for edits), registrations not yet counted as catalogs. `generated` in `catalogs.json` is the date of the last content change |
 
 ## Build and check
 

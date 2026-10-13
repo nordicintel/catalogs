@@ -68,7 +68,7 @@ protocols = read("protocols.json")["protocol"]
 software = read("software.json")["software"]
 catalogs = read("catalogs.json")["catalog"] if (ROOT / "catalogs.json").exists() else {}
 edits = read("edits/catalogs.json") if (ROOT / "edits/catalogs.json").exists() else {"catalog": {}, "ignore": []}
-orgs = read("snapshots/organisations.json") if (ROOT / "snapshots/organisations.json").exists() else {}
+orgs = read("snapshots/organisations.json").get("organisation", {}) if (ROOT / "snapshots/organisations.json").exists() else {}
 
 for key, p in protocols.items():
     if key != p.get("id"):

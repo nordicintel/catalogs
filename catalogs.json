@@ -19,6 +19,37 @@
       "status": "unknown",
       "type": "indicator_database"
     },
+    "api.researchdata.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 6618 datasets, 40 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://api.researchdata.se/dcat/catalogue"
+        }
+      ],
+      "homepage": "https://researchdata.se/catalogue/",
+      "id": "api.researchdata.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/818"
+      },
+      "label": {
+        "en": "Researchdata.se",
+        "sv": "Researchdata.se"
+      },
+      "note": "Svensk nationell datatjänst (SND), a consortium hosted by Göteborgs universitet.",
+      "owner": "SE2021003153",
+      "software": "custom",
+      "source": [
+        "dataportal",
+        "edits"
+      ],
+      "status": "active",
+      "type": "research_repository"
+    },
     "api.riksbank.se": {
       "endpoint": [
         {
@@ -37,6 +68,34 @@
       ],
       "status": "unknown",
       "type": "api"
+    },
+    "api.sundsvall.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 3 datasets, 3 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://api.sundsvall.se/datacatalog/1.0/datasets/dcat"
+        }
+      ],
+      "homepage": "https://utveckling.sundsvall.se/kallkod-och-data/oppna-data-och-oppna-apier",
+      "id": "api.sundsvall.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/61"
+      },
+      "label": {
+        "sv": "Publika API:er från Sundsvalls Kommun"
+      },
+      "owner": "SE2120002411",
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
     },
     "api.trafa.se": {
       "endpoint": [
@@ -57,650 +116,1703 @@
       "status": "unknown",
       "type": "statistics_database"
     },
+    "api.webperf.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://api.webperf.se/datasets/dcat"
+        }
+      ],
+      "homepage": "https://webperf.se",
+      "id": "api.webperf.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/811"
+      },
+      "label": {
+        "sv": "Webperfs katalog för öppna data"
+      },
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "api2.swedac.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 222 datasets, 3 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://api2.swedac.se/dcat.rdf"
+        }
+      ],
+      "id": "api2.swedac.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/114"
+      },
+      "label": {
+        "sv": "Swedacs öppna data"
+      },
+      "owner": "SE2021003815",
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "avropa.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 4 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://www.avropa.se/datasets/dcat"
+        }
+      ],
+      "homepage": "https://www.avropa.se/psidata",
+      "id": "avropa.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/762"
+      },
+      "label": {
+        "sv": "Avropa's öppna data"
+      },
+      "note": "Statens inköpscentral at Kammarkollegiet.",
+      "owner": "SE2021000829",
+      "software": "custom",
+      "source": [
+        "dataportal",
+        "edits"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "barnsakert.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://www.barnsakert.se/data/dcat-ap.rdf"
+        }
+      ],
+      "homepage": "https://www.barnsakert.se",
+      "id": "barnsakert.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/855"
+      },
+      "label": {
+        "sv": "Barnsakert.se — öppna data"
+      },
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
     "catalog.ale.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 9 datasets, 6 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.ale.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.ale.se"
         }
       ],
       "id": "catalog.ale.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/446"
+      },
       "label": {
         "sv": "Ale kommuns öppna data"
       },
       "owner": "SE2120001439",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "catalog.alingsas.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 2 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.alingsas.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.alingsas.se"
+        }
+      ],
+      "id": "catalog.alingsas.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/298"
+      },
+      "label": {
+        "sv": "Öppna Data Alingsås kommun"
+      },
+      "owner": "SE2120001553",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.boras.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 15 datasets, 3 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.boras.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://catalog.boras.se"
         }
       ],
+      "homepage": "https://www.boras.se/psidata",
       "id": "catalog.boras.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/610"
+      },
       "label": {
         "sv": "Borås stads öppna data"
       },
       "owner": "SE2120001561",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.digg.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 10 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.digg.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://catalog.digg.se"
         }
       ],
+      "homepage": "https://www.digg.se/",
       "id": "catalog.digg.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/760"
+      },
       "label": {
         "sv": "DIGG:s datakatalog"
       },
       "owner": "SE2021006883",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "catalog.ehalsomyndigheten.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 4 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.ehalsomyndigheten.se/store/106/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.ehalsomyndigheten.se"
+        }
+      ],
+      "id": "catalog.ehalsomyndigheten.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/175"
+      },
+      "label": {
+        "sv": "Ehälsomyndighetens datakatalog"
+      },
+      "owner": "SE2021006552",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.eslov.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 5 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.eslov.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://catalog.eslov.se"
         }
       ],
+      "homepage": "https://eslov.se/",
       "id": "catalog.eslov.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/294"
+      },
       "label": {
         "sv": "Eslövs kommuns öppna data"
       },
       "owner": "SE2120001173",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.essunga.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 5 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.essunga.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.essunga.se"
         }
       ],
       "id": "catalog.essunga.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/428"
+      },
       "label": {
         "sv": "Essunga kommuns öppna data"
       },
       "owner": "SE2120002916",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.falkoping.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.falkoping.se/store/2/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://catalog.falkoping.se"
         }
       ],
+      "homepage": "https://falkoping.se",
       "id": "catalog.falkoping.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/330"
+      },
       "label": {
         "sv": "Falköpings kommuns öppna data"
       },
       "owner": "SE2120001744",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "catalog.forsakringskassan.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 51 datasets, 119 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.forsakringskassan.se/store/9/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.forsakringskassan.se"
+        }
+      ],
+      "id": "catalog.forsakringskassan.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/547"
+      },
+      "label": {
+        "sv": "Försäkringskassans datamängder"
+      },
+      "owner": "SE2021005521",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.gavle.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 66 datasets, 4 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.gavle.se/store/1/metadata/2?recursive=dcat"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.gavle.se"
         }
       ],
       "id": "catalog.gavle.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/574"
+      },
       "label": {
         "sv": "Gävle kommuns öppna data"
       },
       "owner": "SE2120002338",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.goteborg.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 45 datasets, 7 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.goteborg.se/store/6/metadata/2?recursive=dcat"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.goteborg.se"
         }
       ],
       "id": "catalog.goteborg.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/66"
+      },
       "label": {
         "sv": "Göteborgs Stads öppna data"
       },
       "owner": "SE2120001355",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.gotene.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 3 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.gotene.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.gotene.se"
         }
       ],
       "id": "catalog.gotene.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/567"
+      },
       "label": {
         "sv": "Götene kommuns öppna data"
       },
       "owner": "SE2120001652",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.grastorp.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 2 datasets, 3 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.grastorp.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.grastorp.se"
         }
       ],
       "id": "catalog.grastorp.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/421"
+      },
       "label": {
         "sv": "Grästorps kommuns öppna data"
       },
       "owner": "SE2120001595",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.gullspang.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 5 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.gullspang.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://catalog.gullspang.se"
         }
       ],
+      "homepage": "https://www.gullspang.se",
       "id": "catalog.gullspang.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/420"
+      },
       "label": {
         "sv": "Gullspångs kommuns öppna data"
       },
       "owner": "SE2120001637",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.harryda.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 19 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.harryda.se/store/2/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://catalog.harryda.se"
         }
       ],
+      "homepage": "https://www.harryda.se/",
       "id": "catalog.harryda.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/413"
+      },
       "label": {
         "sv": "Härryda kommuns öppna data"
       },
       "owner": "SE2120001264",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.hjo.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.hjo.se/store/2/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://catalog.hjo.se"
         }
       ],
+      "homepage": "https://hjo.se/",
       "id": "catalog.hjo.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/326"
+      },
       "label": {
         "sv": "Hjo kommuns öppna data"
       },
       "owner": "SE2120001728",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.iaf.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 30 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.iaf.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.iaf.se"
         }
       ],
       "id": "catalog.iaf.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/545"
+      },
       "label": {
         "sv": "IAF:s öppna data"
       },
       "owner": "SE2021005414",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.karlsborg.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.karlsborg.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://catalog.karlsborg.se"
         }
       ],
+      "homepage": "https://karlsborg.se/",
       "id": "catalog.karlsborg.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/455"
+      },
       "label": {
         "sv": "Karlsborgs kommuns öppna data"
       },
       "owner": "SE2120001629",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.kungalv.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 15 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.kungalv.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.kungalv.se"
         }
       ],
       "id": "catalog.kungalv.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/397"
+      },
       "label": {
         "sv": "Kungälvs kommuns öppna data"
       },
       "owner": "SE2120001371",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "catalog.lakemedelsverket.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 19 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.lakemedelsverket.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.lakemedelsverket.se"
+        }
+      ],
+      "homepage": "https://www.lakemedelsverket.se/",
+      "id": "catalog.lakemedelsverket.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/140"
+      },
+      "label": {
+        "sv": "Läkemedelsverkets öppna data"
+      },
+      "owner": "SE2021004078",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.lansstyrelsen.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 16 datasets, 4 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.lansstyrelsen.se/store/2/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.lansstyrelsen.se"
         }
       ],
       "id": "catalog.lansstyrelsen.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/761"
+      },
       "label": {
         "sv": "Länsstyrelsernas datakatalog"
       },
       "owner": "SE2021002361-LST",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "catalog.lerum.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.lerum.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.lerum.se"
+        }
+      ],
+      "id": "catalog.lerum.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/240"
+      },
+      "label": {
+        "sv": "Öppna data Lerum"
+      },
+      "owner": "SE2120001447",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.lidkoping.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.lidkoping.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.lidkoping.se"
         }
       ],
       "id": "catalog.lidkoping.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/391"
+      },
       "label": {
         "sv": "Lidköpings kommuns öppna data"
       },
       "owner": "SE2120001694",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "catalog.lillaedet.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.lillaedet.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.lillaedet.se"
+        }
+      ],
+      "id": "catalog.lillaedet.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/318"
+      },
+      "label": {
+        "sv": "Öppna data Lilla Edet"
+      },
+      "owner": "SE2120001496",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "catalog.lomma.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 29 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.lomma.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.lomma.se"
+        }
+      ],
+      "id": "catalog.lomma.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/291"
+      },
+      "label": {
+        "sv": "Metadatakatalog för öppna data Lomma kommun"
+      },
+      "owner": "SE2120001066",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.mariestad.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 5 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.mariestad.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://catalog.mariestad.se"
         }
       ],
+      "homepage": "https://www.mariestad.se",
       "id": "catalog.mariestad.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/506"
+      },
       "label": {
         "sv": "Mariestads kommuns öppna data"
       },
       "owner": "SE2120001686",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "catalog.mellerud.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.mellerud.se/store/3/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.mellerud.se"
+        }
+      ],
+      "homepage": "https://mellerud.se",
+      "id": "catalog.mellerud.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/317"
+      },
+      "label": {
+        "sv": "Öppna data Melleruds kommun"
+      },
+      "owner": "SE2120001488",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.molndal.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 7 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.molndal.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.molndal.se"
         }
       ],
       "id": "catalog.molndal.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/68"
+      },
       "label": {
         "sv": "Mölndals stads öppna data"
       },
       "owner": "SE2120001363",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.raa.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 5 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.raa.se/store/1/metadata/2?recursive=dcat,foaf:page&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.raa.se"
         }
       ],
       "id": "catalog.raa.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/130"
+      },
       "label": {
         "sv": "Riksantikvarieämbetets öppna data"
       },
       "owner": "SE2021001090",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.skara.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 6 datasets, 6 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.skara.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://catalog.skara.se"
         }
       ],
+      "homepage": "https://www.skara.se",
       "id": "catalog.skara.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/83"
+      },
       "label": {
         "sv": "Skara kommuns öppna data"
       },
       "owner": "SE2120001702",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.skl.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 27 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.skl.se/store/1/metadata/2?recursive=dcat"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.skl.se"
         }
       ],
       "id": "catalog.skl.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/653"
+      },
       "label": {
         "sv": "SKR:s datakatalog"
       },
       "owner": "SE2220000315",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.sodertalje.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 115 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.sodertalje.se/store/1/metadata/2?recursive=dcat,dcat:downloadURL,dcterms:hasPart&repository"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://catalog.sodertalje.se"
         }
       ],
+      "homepage": "https://www.sodertalje.se/psidata",
       "id": "catalog.sodertalje.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/75"
+      },
       "label": {
         "sv": "Södertälje kommuns öppna data"
       },
       "owner": "SE2120000159",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.stenungsund.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 5 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.stenungsund.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://catalog.stenungsund.se"
         }
       ],
+      "homepage": "https://www.stenungsund.se/",
       "id": "catalog.stenungsund.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/353"
+      },
       "label": {
         "sv": "Stenungsunds kommuns öppna data"
       },
       "owner": "SE2120001298",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.tibro.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.tibro.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://catalog.tibro.se"
         }
       ],
+      "homepage": "https://tibro.se",
       "id": "catalog.tibro.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/349"
+      },
       "label": {
         "sv": "Tibro kommuns öppna data"
       },
       "owner": "SE2120001660",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.tidaholm.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 4 datasets, 3 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.tidaholm.se/store/2/metadata/2?recursive=dcat"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.tidaholm.se"
         }
       ],
       "id": "catalog.tidaholm.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/55"
+      },
       "label": {
         "sv": "Tidaholms kommuns öppna data"
       },
       "owner": "SE2120001736",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.tjorn.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 9 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.tjorn.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.tjorn.se"
         }
       ],
       "id": "catalog.tjorn.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/348"
+      },
       "label": {
         "sv": "Tjörns kommuns öppna data"
       },
       "owner": "SE2120001306",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.toreboda.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 4 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.toreboda.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://catalog.toreboda.se"
         }
       ],
+      "homepage": "https://www.toreboda.se",
       "id": "catalog.toreboda.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/309"
+      },
       "label": {
         "sv": "Töreboda kommuns öppna data"
       },
       "owner": "SE2120001678",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.trollhattan.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 16 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.trollhattan.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.trollhattan.se"
         }
       ],
       "id": "catalog.trollhattan.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/47"
+      },
       "label": {
         "sv": "Trollhättans Stads öppna data"
       },
       "owner": "SE2120001546",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "catalog.ulricehamn.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 3 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.ulricehamn.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.ulricehamn.se"
+        }
+      ],
+      "id": "catalog.ulricehamn.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/344"
+      },
+      "label": {
+        "sv": "Öppna data Ulricehamn"
+      },
+      "owner": "SE2120001579",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.upphandlingsmyndigheten.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 11 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.upphandlingsmyndigheten.se/store/1/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.upphandlingsmyndigheten.se"
         }
       ],
       "id": "catalog.upphandlingsmyndigheten.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/111"
+      },
       "label": {
         "sv": "Upphandlingsmyndighetens datakatalog"
       },
       "owner": "SE2021006610",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "catalog.vara.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 3 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://catalog.vara.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://catalog.vara.se"
         }
       ],
       "id": "catalog.vara.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/31"
+      },
       "label": {
         "sv": "Vara kommuns öppna data"
       },
       "owner": "SE2120002924",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "civictech.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 4 datasets, 4 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://civictech.se/dcat-ap.rdf"
+        }
+      ],
+      "homepage": "https://civictech.se",
+      "id": "civictech.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/812"
+      },
+      "label": {
+        "sv": "Civic Tech Swedens öppna data"
+      },
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "data.arbetsformedlingen.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 72 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://data.arbetsformedlingen.se/dcatotron/jobtech.dcat.xml"
+        }
+      ],
+      "homepage": "https://arbetsformedlingen.se/om-webbplatsen/apier-och-oppna-data",
+      "id": "data.arbetsformedlingen.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/180"
+      },
+      "label": {
+        "sv": "Arbetsförmedlingens öppna data"
+      },
+      "owner": "SE2021002114",
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "data.botkyrka.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 4 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://data.botkyrka.se/store/1/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://data.botkyrka.se"
         }
       ],
       "id": "data.botkyrka.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/271"
+      },
       "label": {
         "sv": "Botkyrka kommuns öppna data"
       },
       "owner": "SE2120002882",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "data.naturvardsverket.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 137 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://data.naturvardsverket.se/store/16/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://data.naturvardsverket.se"
+        }
+      ],
+      "homepage": "https://www.naturvardsverket.se",
+      "id": "data.naturvardsverket.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/635"
+      },
+      "label": {
+        "sv": "Naturvårdsverkets öppna data - Övriga handlingar"
+      },
+      "owner": "SE2021001975",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "data.nobelprize.org": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 3 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://data.nobelprize.org/store/7/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://data.nobelprize.org"
+        }
+      ],
+      "id": "data.nobelprize.org",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/804"
+      },
+      "label": {
+        "sv": "Nobel Prize outreach data catalog"
+      },
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "data.prv.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 16 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://data.prv.se/index.rdf"
+        }
+      ],
+      "homepage": "https://data.prv.se/",
+      "id": "data.prv.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/196"
+      },
+      "label": {
+        "sv": "Open and shared data from the Swedih intellectual property office (PRV)"
+      },
+      "owner": "SE2021002072",
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "data.sva.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 32 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://data.sva.se/dcat/sva_dcat.rdf"
+        }
+      ],
+      "id": "data.sva.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/59"
+      },
+      "label": {
+        "sv": "Statens veterinärmedicinska anstalt"
+      },
+      "owner": "SE2021001868",
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "data.svk.se": {
+      "endpoint": [
+        {
+          "protocol": "ckan_v3",
+          "url": "https://data.svk.se"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 10 datasets, 9 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://data.svk.se/catalog.rdf"
+        }
+      ],
+      "homepage": "https://data.svk.se",
+      "id": "data.svk.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/857"
+      },
+      "label": {
+        "sv": "Svenska Kraftnät Data Service"
+      },
+      "owner": "SE2021004284",
+      "software": "ckan",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "data.tomelilla.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 39 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://data.tomelilla.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://data.tomelilla.se"
         }
       ],
+      "homepage": "https://www.tomelilla.se/",
       "id": "data.tomelilla.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/347"
+      },
       "label": {
         "sv": "Tomelilla kommuns öppna data"
       },
       "owner": "SE2120000886",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "dataanalys.socialstyrelsen.se": {
@@ -722,14 +1834,630 @@
       "status": "unknown",
       "type": "statistics_database"
     },
+    "datakatalog.helsingborg.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 31 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://datakatalog.helsingborg.se/store/3/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://datakatalog.helsingborg.se"
+        }
+      ],
+      "id": "datakatalog.helsingborg.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/270"
+      },
+      "label": {
+        "sv": "Helsingborgs stads öppna data"
+      },
+      "owner": "SE2120001157",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "datakatalog.karlstad.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 14 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://datakatalog.karlstad.se/store/1/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://datakatalog.karlstad.se"
+        }
+      ],
+      "homepage": "https://karlstad.se/",
+      "id": "datakatalog.karlstad.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/453"
+      },
+      "label": {
+        "sv": "Karlstads kommun huvudkatalog"
+      },
+      "owner": "SE2120001850",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "dataportalen.stockholm.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 310 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://dataportalen.stockholm.se/dataportalen/Data/StockholmsStadOppnaDataDCAT.xml"
+        }
+      ],
+      "homepage": "https://dataportalen.stockholm.se",
+      "id": "dataportalen.stockholm.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/733"
+      },
+      "label": {
+        "sv": "Stockholms stads dataportal"
+      },
+      "owner": "SE2120000142",
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/162": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 10 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/162/metadata/1?recursive=dcat"
+        }
+      ],
+      "homepage": "https://www.skolverket.se/",
+      "id": "editera.dataportal.se/162",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/124"
+      },
+      "label": {
+        "sv": "Skolverket"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2021004185",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/163": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/163/metadata/1?recursive=dcat"
+        }
+      ],
+      "id": "editera.dataportal.se/163",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/110"
+      },
+      "label": {
+        "sv": "Universitets- och högskolerådet"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2021006487",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/166": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/166/metadata/1?recursive=dcat"
+        }
+      ],
+      "id": "editera.dataportal.se/166",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/499"
+      },
+      "label": {
+        "sv": "Myndigheten för yrkeshögskolan"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2021006230",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/167": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 12 datasets, 5 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/167/metadata/1?recursive=dcat"
+        }
+      ],
+      "homepage": "https://varberg.se",
+      "id": "editera.dataportal.se/167",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/264"
+      },
+      "label": {
+        "sv": "Varbergs kommun"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2120001249",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/168": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 5 datasets, 14 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/168/metadata/1?recursive=dcat"
+        }
+      ],
+      "homepage": "https://gislaved.se/",
+      "id": "editera.dataportal.se/168",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/329"
+      },
+      "label": {
+        "sv": "Gislaveds kommun"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2120000514",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/169": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/169/metadata/1?recursive=dcat"
+        }
+      ],
+      "homepage": "https://www.ange.se/",
+      "id": "editera.dataportal.se/169",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/627"
+      },
+      "label": {
+        "sv": "Ånge kommun"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2120002387",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/184": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 8 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/184/metadata/1?recursive=dcat"
+        }
+      ],
+      "id": "editera.dataportal.se/184",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/419"
+      },
+      "label": {
+        "sv": "Håbo kommun"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2120000241",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/192": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/192/metadata/1?recursive=dcat"
+        }
+      ],
+      "id": "editera.dataportal.se/192",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/280"
+      },
+      "label": {
+        "sv": "Tierps kommun"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2120000266",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/193": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/193/metadata/1?recursive=dcat"
+        }
+      ],
+      "id": "editera.dataportal.se/193",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/444"
+      },
+      "label": {
+        "sv": "Älvkarleby kommun"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2120000258",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/195": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 5 datasets, 5 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/195/metadata/1?recursive=dcat&format=application/rdf+xml"
+        }
+      ],
+      "id": "editera.dataportal.se/195",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/366"
+      },
+      "label": {
+        "sv": "Oxelösunds kommun"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2120000324",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/197": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 3 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/197/metadata/1?recursive=dcat"
+        }
+      ],
+      "homepage": "https://www.livsmedelsverket.se",
+      "id": "editera.dataportal.se/197",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/236"
+      },
+      "label": {
+        "sv": "Livsmedelsverket"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2021001850",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/199": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 5 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/199/metadata/1?recursive=dcat"
+        }
+      ],
+      "homepage": "https://www.heby.se",
+      "id": "editera.dataportal.se/199",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/481"
+      },
+      "label": {
+        "sv": "Heby kommun"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2120002049",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/233": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/233/metadata/1?recursive=dcat"
+        }
+      ],
+      "id": "editera.dataportal.se/233",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/359"
+      },
+      "label": {
+        "sv": "Sävsjö kommun"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2120000563",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/235": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/235/metadata/1?recursive=dcat&format=application/rdf+xml"
+        }
+      ],
+      "id": "editera.dataportal.se/235",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/394"
+      },
+      "label": {
+        "sv": "Landskrona stad"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2120001140",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/242": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 10 datasets, 15 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/242/metadata/1?recursive=dcat"
+        }
+      ],
+      "homepage": "https://www.riksdagen.se/sv/dokument-och-lagar/riksdagens-oppna-data/",
+      "id": "editera.dataportal.se/242",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/98"
+      },
+      "label": {
+        "sv": "Riksdagsförvaltningen"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2021002627",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/270": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 2 datasets, 4 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/270/metadata/1?recursive=dcat&format=application/rdf+xml"
+        }
+      ],
+      "homepage": "https://svedala.se",
+      "id": "editera.dataportal.se/270",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/311"
+      },
+      "label": {
+        "sv": "Svedala kommun"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2120001074",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/272": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/272/metadata/1?recursive=dcat&format=application/rdf+xml"
+        }
+      ],
+      "homepage": "https://corporate.visitsweden.com",
+      "id": "editera.dataportal.se/272",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/845"
+      },
+      "label": {
+        "sv": "Visit Sweden"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE5565007621",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "editera.dataportal.se/281": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 4 datasets, 7 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://editera.dataportal.se/store/281/metadata/1?recursive=dcat&repository&format=application/rdf+xml"
+        }
+      ],
+      "id": "editera.dataportal.se/281",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/51"
+      },
+      "label": {
+        "sv": "Trafikanalys"
+      },
+      "operator": "SE2021006883",
+      "owner": "SE2021006305",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
     "ei.entryscape.net": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 34 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://ei.entryscape.net/store/1/metadata/2?recursive=dcat"
+        },
         {
           "protocol": "entrystore",
           "url": "https://ei.entryscape.net"
         }
       ],
       "id": "ei.entryscape.net",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/174"
+      },
       "label": {
         "sv": "Energimarknadsinspektionens öppna data"
       },
@@ -737,19 +2465,60 @@
       "owner": "SE2021005695",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "elprisersverige.nu": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 10 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://elprisersverige.nu/dcat-ap-se.rdf"
+        }
+      ],
+      "homepage": "https://elprisersverige.nu/api",
+      "id": "elprisersverige.nu",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/862"
+      },
+      "label": {
+        "sv": "Elpriser Sverige – API för elpriser idag och imorgon"
+      },
+      "owner": "SE5590719547",
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "eskilstuna.entryscape.net": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 8 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://eskilstuna.entryscape.net/store/1/metadata/2?recursive=dcat"
+        },
         {
           "protocol": "entrystore",
           "url": "https://eskilstuna.entryscape.net"
         }
       ],
       "id": "eskilstuna.entryscape.net",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/597"
+      },
       "label": {
         "sv": "Eskilstuna kommuns öppna data"
       },
@@ -757,9 +2526,95 @@
       "owner": "SE2120000357",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "esv.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 4 datasets, 5 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "http://www.esv.se/datasets/dcat"
+        }
+      ],
+      "homepage": "https://www.statskontoret.se/psidata",
+      "id": "esv.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/170"
+      },
+      "label": {
+        "sv": "Statskontorets öppna data"
+      },
+      "note": "Harvested from esv.se: the catalog was set up when the body was Ekonomistyrningsverket.",
+      "owner": "SE2021005026",
+      "software": "custom",
+      "source": [
+        "dataportal",
+        "edits"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "filer.domstol.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 70 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://filer.domstol.se/oppnadata/dcat-ap-se-dv-PROD.xml"
+        }
+      ],
+      "homepage": "https://www.domstol.se/",
+      "id": "filer.domstol.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/601"
+      },
+      "label": {
+        "sv": "Domstolsverkets öppna data"
+      },
+      "owner": "SE2021002742",
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "fohm-app.folkhalsomyndigheten.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1668 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://fohm-app.folkhalsomyndigheten.se/Folkhalsodata/resources/px/databases/A_Folkhalsodata/dcat-ap.xml"
+        }
+      ],
+      "id": "fohm-app.folkhalsomyndigheten.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/525"
+      },
+      "label": {
+        "sv": "Folkhälsodata"
+      },
+      "owner": "SE2021006545",
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "fohm-app.folkhalsomyndigheten.se/folkhalsodata": {
@@ -786,6 +2641,38 @@
       "status": "unknown",
       "type": "statistics_database"
     },
+    "formas.entryscape.net": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 6 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://formas.entryscape.net/store/2/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://formas.entryscape.net"
+        }
+      ],
+      "id": "formas.entryscape.net",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/524"
+      },
+      "label": {
+        "sv": "Formas Öppna Data"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2021005232",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
     "forsakringskassan.se/sprstatistikrapportera": {
       "endpoint": [
         {
@@ -805,35 +2692,345 @@
       "status": "unknown",
       "type": "api"
     },
-    "free.entryscape.com": {
+    "free.entryscape.com/177": {
       "endpoint": [
         {
-          "protocol": "entrystore",
-          "url": "https://free.entryscape.com"
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://free.entryscape.com/store/177/metadata/2?recursive=dcat"
         }
       ],
-      "id": "free.entryscape.com",
-      "label": {
-        "en": "EntryScape Free",
-        "sv": "EntryScape Free"
+      "id": "free.entryscape.com/177",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/694"
       },
-      "note": "Shared hosting: many publishers in one install, each in its own context. The federated catalogs on dataportal.se say which.",
+      "label": {
+        "sv": "Luftdata"
+      },
+      "operator": "SE5568540701",
       "owner": "SE5568540701",
       "software": "entryscape",
       "source": [
-        "edits"
+        "dataportal"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "free.entryscape.com/302": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 5 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://free.entryscape.com/store/302/metadata/2?recursive=dcat&format=application/rdf+xml"
+        }
+      ],
+      "homepage": "https://handlingar.se/",
+      "id": "free.entryscape.com/302",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/805"
+      },
+      "label": {
+        "sv": "Handlingar.se"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE5568540701",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "free.entryscape.com/507": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://free.entryscape.com/store/507/metadata/2?recursive=dcat&"
+        }
+      ],
+      "homepage": "https://www.riksbank.se/",
+      "id": "free.entryscape.com/507",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/103"
+      },
+      "label": {
+        "sv": "Sveriges riksbank"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2021002684",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "free.entryscape.com/510": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 3 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://free.entryscape.com/store/510/metadata/2?recursive=dcat&format=application/rdf+xml"
+        }
+      ],
+      "homepage": "https://www.vingaker.se/",
+      "id": "free.entryscape.com/510",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/277"
+      },
+      "label": {
+        "sv": "Vingåkers kommun"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2120000308",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "free.entryscape.com/576": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://free.entryscape.com/store/576/metadata/2?recursive=dcat&format=application/rdf+xml"
+        }
+      ],
+      "homepage": "https://www.elprisetjustnu.se/",
+      "id": "free.entryscape.com/576",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/814"
+      },
+      "label": {
+        "sv": "Beneficial Apps AS"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE5568540701",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "free.entryscape.com/640": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 3 datasets, 14 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://free.entryscape.com/store/640/metadata/2?recursive=dcat&format=application/rdf+xml"
+        }
+      ],
+      "id": "free.entryscape.com/640",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/819"
+      },
+      "label": {
+        "sv": "Digidel"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE5568540701",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "free.entryscape.com/679": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://free.entryscape.com/store/679/metadata/2?recursive=dcat&format=application/rdf+xml"
+        }
+      ],
+      "homepage": "https://skjutsgruppen.se/",
+      "id": "free.entryscape.com/679",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/821"
+      },
+      "label": {
+        "sv": "Skjutsgruppen Öppna Data"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE5568540701",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "free.entryscape.com/688": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://free.entryscape.com/store/688/metadata/2?recursive=dcat&format=application/rdf+xml"
+        }
+      ],
+      "homepage": "https://pro.se/",
+      "id": "free.entryscape.com/688",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/823"
+      },
+      "label": {
+        "sv": "Öppna data PRO"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE5568540701",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "free.entryscape.com/727": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://free.entryscape.com/store/727/metadata/2?recursive=dcat&format=application/rdf+xml"
+        }
+      ],
+      "id": "free.entryscape.com/727",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/829"
+      },
+      "label": {
+        "sv": "Data från hjärtstartarregistret"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE5568540701",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "free.entryscape.com/730": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://free.entryscape.com/store/730/metadata/2?recursive=dcat&format=application/rdf+xml"
+        }
+      ],
+      "id": "free.entryscape.com/730",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/832"
+      },
+      "label": {
+        "sv": "Klimatbyråns metadatakatalog"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE5568540701",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "geodata.katrineholm.se": {
+      "endpoint": [
+        {
+          "protocol": "ckan_v3",
+          "url": "https://geodata.katrineholm.se"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 2 datasets, 11 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://geodata.katrineholm.se/catalog.rdf"
+        }
+      ],
+      "homepage": "https://geodata.katrineholm.se",
+      "id": "geodata.katrineholm.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/321"
+      },
+      "label": {
+        "sv": "Katrineholms geodata"
+      },
+      "owner": "SE2120000340",
+      "software": "ckan",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "haninge.entryscape.net": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 8 datasets, 10 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://haninge.entryscape.net/store/7/metadata/dcat?recursive=dcat"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://haninge.entryscape.net"
         }
       ],
+      "homepage": "http://haninge.se/psidata",
       "id": "haninge.entryscape.net",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/562"
+      },
       "label": {
         "sv": "Haninge kommuns öppna data"
       },
@@ -841,9 +3038,10 @@
       "owner": "SE2120000084",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "hvduppdrag.scb.se": {
@@ -872,49 +3070,87 @@
     "katalog.lund.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://katalog.lund.se/store/1/metadata/2?recursive=dcat"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://katalog.lund.se"
         }
       ],
       "id": "katalog.lund.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/233"
+      },
       "label": {
         "sv": "Lunds kommuns öppna data"
       },
       "owner": "SE2120001132",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "katalog.riksarkivet.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 36 datasets, 3 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://katalog.riksarkivet.se/store/1/metadata/2?recursive=dcat"
+        },
         {
           "protocol": "entrystore",
           "url": "https://katalog.riksarkivet.se"
         }
       ],
       "id": "katalog.riksarkivet.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/99"
+      },
       "label": {
         "sv": "Riksarkivets öppna data"
       },
       "owner": "SE2021001074",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "kronofogden.entryscape.net": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 20 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://kronofogden.entryscape.net/store/2/metadata/2?recursive=dcat"
+        },
         {
           "protocol": "entrystore",
           "url": "https://kronofogden.entryscape.net"
         }
       ],
       "id": "kronofogden.entryscape.net",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/265"
+      },
       "label": {
         "sv": "Kronofogdens öppna data"
       },
@@ -922,19 +3158,32 @@
       "owner": "SE2021005646",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "kungsbacka.entryscape.net": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 17 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://kungsbacka.entryscape.net/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://kungsbacka.entryscape.net"
         }
       ],
       "id": "kungsbacka.entryscape.net",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/396"
+      },
       "label": {
         "sv": "Kungsbacka kommuns öppna data"
       },
@@ -942,19 +3191,64 @@
       "owner": "SE2120001256",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "lantmateriet.entryscape.net": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 755 datasets, 193 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://lantmateriet.entryscape.net/store/1/metadata/5168?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://lantmateriet.entryscape.net"
+        }
+      ],
+      "id": "lantmateriet.entryscape.net",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/778"
+      },
+      "label": {
+        "sv": "Geodataportalen"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2021004888",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "linkoping.entryscape.net": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 10 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://linkoping.entryscape.net/store/1/metadata/2?recursive=dcat"
+        },
         {
           "protocol": "entrystore",
           "url": "https://linkoping.entryscape.net"
         }
       ],
       "id": "linkoping.entryscape.net",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/389"
+      },
       "label": {
         "sv": "Linköpings kommuns öppna data"
       },
@@ -962,9 +3256,10 @@
       "owner": "SE2120000449",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "m02-http-pxwebb.login.sundsvall.se": {
@@ -990,8 +3285,241 @@
       "status": "unknown",
       "type": "statistics_database"
     },
+    "metadata-ext.havochvatten.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 75 datasets, 381 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://metadata-ext.havochvatten.se/store/public/metadata/1?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://metadata-ext.havochvatten.se"
+        }
+      ],
+      "homepage": "https://www.havochvatten.se/",
+      "id": "metadata-ext.havochvatten.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/560"
+      },
+      "label": {
+        "sv": "HaVskatten"
+      },
+      "owner": "SE2021006420",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "metadata.bolagsverket.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 19 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://metadata.bolagsverket.se/store/2/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://metadata.bolagsverket.se"
+        }
+      ],
+      "homepage": "https://bolagsverket.se/",
+      "id": "metadata.bolagsverket.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/612"
+      },
+      "label": {
+        "sv": "Bolagsverkets öppna datamängder"
+      },
+      "owner": "SE2021005489",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "metadata.boverket.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 22 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://metadata.boverket.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://metadata.boverket.se"
+        }
+      ],
+      "homepage": "https://boverket.se",
+      "id": "metadata.boverket.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/101"
+      },
+      "label": {
+        "sv": "Boverket central metadatakatalog"
+      },
+      "owner": "SE2021003989",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "metadata.lidingo.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 67 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://metadata.lidingo.se/store/1/metadata/1?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://metadata.lidingo.se"
+        }
+      ],
+      "homepage": "https://lidingo.se",
+      "id": "metadata.lidingo.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/238"
+      },
+      "label": {
+        "sv": "Lidingö stad"
+      },
+      "owner": "SE2120000191",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "metadata.simrishamn.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 4 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://metadata.simrishamn.se/store/5/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://metadata.simrishamn.se"
+        }
+      ],
+      "homepage": "https://www.simrishamn.se/",
+      "id": "metadata.simrishamn.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/301"
+      },
+      "label": {
+        "sv": "Simrishamns kommun"
+      },
+      "owner": "SE2120000969",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "metadata.trafikverket.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 334 datasets, 2541 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://metadata.trafikverket.se/store/11/metadata/2?recursive=dcat,foaf:page,dcterms:hasPart&repository&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://metadata.trafikverket.se"
+        }
+      ],
+      "homepage": "https://www.trafikverket.se/",
+      "id": "metadata.trafikverket.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/50"
+      },
+      "label": {
+        "sv": "Swedish Transport Administration - Main Metadata Catalog"
+      },
+      "owner": "SE2021006297",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "metadatakatalog.huddinge.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 109 datasets, 181 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://metadatakatalog.huddinge.se/store/5/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://metadatakatalog.huddinge.se"
+        }
+      ],
+      "homepage": "https://www.huddinge.se/psi/geodata/",
+      "id": "metadatakatalog.huddinge.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/549"
+      },
+      "label": {
+        "sv": "Huddinge kommun datakatalog"
+      },
+      "owner": "SE2120000068",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
     "mi.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
+            "result": "error"
+          },
+          "protocol": "dcat_ap",
+          "url": "http://www.mi.se/datasets/dcat"
+        },
         {
           "language": [
             "sv"
@@ -1002,16 +3530,48 @@
       ],
       "homepage": "https://www.mi.se/PXWeb/pxweb",
       "id": "mi.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/502"
+      },
       "label": {
         "sv": "Medlingsinstitutets statistikdatabas"
       },
       "owner": "SE2021005174",
       "software": "pxweb",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "inactive",
       "type": "statistics_database"
+    },
+    "migrationsverket.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 15 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://www.migrationsverket.se/psidata/Migrationsverket_dcat_ap_PSIDATA.rdf"
+        }
+      ],
+      "homepage": "http://www.migrationsverket.se/psidata",
+      "id": "migrationsverket.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/227"
+      },
+      "label": {
+        "sv": "Migrationsverkets öppna data"
+      },
+      "owner": "SE2021002163",
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
     },
     "nationellaemissionsdatabasen.smhi.se": {
       "endpoint": [
@@ -1032,42 +3592,397 @@
       "status": "unknown",
       "type": "statistics_database"
     },
+    "ngs.ehalsomyndigheten.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 83 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://ngs.ehalsomyndigheten.se/reports/specs.rdf"
+        }
+      ],
+      "id": "ngs.ehalsomyndigheten.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/175_profDatasets_3071"
+      },
+      "label": {
+        "sv": "Sync (profDatasets) for \"Specifikationer för hälso- och sjukvård och socialtjänst\" in context 175"
+      },
+      "owner": "SE2021006552",
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "offwegooo.com": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 3 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://offwegooo.com/dcat.rdf"
+        }
+      ],
+      "homepage": "https://offwegooo.com/fr/donnees-ouvertes",
+      "id": "offwegooo.com",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/859"
+      },
+      "label": {
+        "sv": "Données ouvertes Off We Gooo"
+      },
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "opendata-api.malmo.se": {
+      "endpoint": [
+        {
+          "protocol": "ckan_v3",
+          "url": "https://opendata-api.malmo.se"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 175 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://opendata-api.malmo.se/catalog.rdf"
+        }
+      ],
+      "homepage": "https://opendata-api.malmo.se",
+      "id": "opendata-api.malmo.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/290"
+      },
+      "label": {
+        "sv": "Öppna data Malmö stad"
+      },
+      "owner": "SE2120001124",
+      "software": "ckan",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "opendata-catalog.smhi.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 138 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://opendata-catalog.smhi.se/catalog/rdf"
+        }
+      ],
+      "homepage": "https://www.smhi.se/data/utforskaren-oppna-data",
+      "id": "opendata-catalog.smhi.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/78"
+      },
+      "label": {
+        "sv": "SMHI - Öppna Data, metadatakatalog"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "opendata.bastad.se": {
+      "endpoint": [
+        {
+          "protocol": "ckan_v3",
+          "url": "https://opendata.bastad.se"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 2 datasets, 18 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://opendata.bastad.se/catalog.rdf"
+        }
+      ],
+      "homepage": "https://opendata.bastad.se",
+      "id": "opendata.bastad.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/618"
+      },
+      "label": {
+        "sv": "Båstads kommun"
+      },
+      "owner": "SE2120000944",
+      "software": "ckan",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "opendata.engelholm.se": {
+      "endpoint": [
+        {
+          "protocol": "ckan_v3",
+          "url": "https://opendata.engelholm.se"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 3 datasets, 19 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://opendata.engelholm.se/catalog.rdf"
+        }
+      ],
+      "homepage": "https://opendata.engelholm.se",
+      "id": "opendata.engelholm.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/853"
+      },
+      "label": {
+        "sv": "Ängelholms kommun"
+      },
+      "owner": "SE2120000977",
+      "software": "ckan",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "opendata.statenskonstrad.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://opendata.statenskonstrad.se/store/1/metadata/2?recursive=dcat"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://opendata.statenskonstrad.se"
+        }
+      ],
+      "id": "opendata.statenskonstrad.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/120"
+      },
+      "label": {
+        "sv": "Statens konstråds öppna data"
+      },
+      "owner": "SE2021001033",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "opendata.umea.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 334 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://opendata.umea.se/api/explore/v2.1/catalog/exports/dcat_ap_se"
+        }
+      ],
+      "homepage": "https://opendata.umea.se",
+      "id": "opendata.umea.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/43"
+      },
+      "label": {
+        "sv": "Öppna data för Umeå kommun"
+      },
+      "owner": "SE2120002627",
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "opendata.upplandsvasby.se": {
+      "endpoint": [
+        {
+          "protocol": "ckan_v3",
+          "url": "https://opendata.upplandsvasby.se"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 9 datasets, 65 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://opendata.upplandsvasby.se/catalog.rdf"
+        }
+      ],
+      "homepage": "https://opendata.upplandsvasby.se",
+      "id": "opendata.upplandsvasby.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/833"
+      },
+      "label": {
+        "sv": "Upplands Väsby kommun"
+      },
+      "owner": "SE2120000019",
+      "software": "ckan",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
     "opendata.vasteras.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 3 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://opendata.vasteras.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
         {
           "protocol": "entrystore",
           "url": "https://opendata.vasteras.se"
         }
       ],
       "id": "opendata.vasteras.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/482"
+      },
       "label": {
         "sv": "Västerås stads öppna data"
       },
       "owner": "SE2120002080",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "oppnadata.skane.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 12 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://oppnadata.skane.se/store/1/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://oppnadata.skane.se"
+        }
+      ],
+      "homepage": "https://skane.se",
+      "id": "oppnadata.skane.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/187"
+      },
+      "label": {
+        "sv": "Central metadatakatalog Region Skåne"
+      },
+      "owner": "SE2321000255",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "oppnadata.tillvaxtverket.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 12 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://oppnadata.tillvaxtverket.se/index.rdf"
+        },
+        {
           "protocol": "tillvaxtverket",
           "url": "https://oppnadata.tillvaxtverket.se"
         }
       ],
+      "homepage": "http://www.tillvaxtverket.se",
       "id": "oppnadata.tillvaxtverket.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/54"
+      },
       "label": {
         "sv": "Tillväxtverkets öppna data"
       },
       "owner": "SE2021006149",
       "software": "custom",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "pensionsmyndigheten.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 305 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://www.pensionsmyndigheten.se/statistik/publikationer/catalogR.xml"
+        }
+      ],
+      "id": "pensionsmyndigheten.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/131"
+      },
+      "label": {
+        "sv": "Pensionsmyndighetens metadatakatalog"
+      },
+      "owner": "SE2021006255",
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "prognos.konj.se": {
@@ -1094,8 +4009,50 @@
       "status": "unknown",
       "type": "statistics_database"
     },
+    "pts.entryscape.net": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 9 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://pts.entryscape.net/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://pts.entryscape.net"
+        }
+      ],
+      "homepage": "https://pts.se",
+      "id": "pts.entryscape.net",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/195"
+      },
+      "label": {
+        "sv": "Post- och telestyrelsen"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2021004359",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
     "pxexternal.energimyndigheten.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 335 datasets, 10 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://pxexternal.energimyndigheten.se/resources/px/Databases/Energimyndighetens_statistikdatabas/dcat-ap.xml"
+        },
         {
           "language": [
             "sv",
@@ -1107,15 +4064,19 @@
       ],
       "homepage": "https://pxexternal.energimyndigheten.se/pxweb",
       "id": "pxexternal.energimyndigheten.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/172"
+      },
       "label": {
         "sv": "Energimyndighetens statistikdatabas"
       },
       "owner": "SE2021005000",
       "software": "pxweb",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "pxweb.etjanst.domstol.se": {
@@ -1258,6 +4219,93 @@
       "status": "unknown",
       "type": "statistics_database"
     },
+    "raw.githubusercontent.com": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://raw.githubusercontent.com/MansMeg/SwedishPolls/master/dcat-ap.rdf"
+        }
+      ],
+      "id": "raw.githubusercontent.com",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/820"
+      },
+      "label": {
+        "sv": "Svenska Opinionsundersökningar"
+      },
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "riksantikvarieambetet.github.io": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 173 datasets, 522 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://riksantikvarieambetet.github.io/soch-dcat-ap/soch.rdf"
+        }
+      ],
+      "homepage": "https://www.raa.se/k-samsok/",
+      "id": "riksantikvarieambetet.github.io",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/697"
+      },
+      "label": {
+        "sv": "K-samsök"
+      },
+      "owner": "SE2021001090",
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "rka.entryscape.net": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 5849 datasets, 499 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://rka.entryscape.net/store/4/metadata/2?recursive=dcat,dcterms:hasPart&repository"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://rka.entryscape.net"
+        }
+      ],
+      "homepage": "https://rka.nu/",
+      "id": "rka.entryscape.net",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/677"
+      },
+      "label": {
+        "sv": "Kolada"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2220000315",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
     "sdb.socialstyrelsen.se": {
       "endpoint": [
         {
@@ -1280,11 +4328,24 @@
     "skatteverket.entryscape.net": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 195 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://skatteverket.entryscape.net/store/30/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://skatteverket.entryscape.net"
         }
       ],
+      "homepage": "https://skatteverket.se/",
       "id": "skatteverket.entryscape.net",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/6"
+      },
       "label": {
         "sv": "Skatteverkets öppna data"
       },
@@ -1292,13 +4353,23 @@
       "owner": "SE2021005448",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "skogsstatistik.slu.se": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 92 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://skogsstatistik.slu.se/dcat-ap.xml"
+        },
         {
           "language": [
             "sv",
@@ -1310,16 +4381,53 @@
       ],
       "homepage": "https://skogsstatistik.slu.se/pxweb",
       "id": "skogsstatistik.slu.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/834"
+      },
       "label": {
         "sv": "SLU Riksskogstaxeringen"
       },
       "owner": "SE2021002817",
       "software": "pxweb",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
+    },
+    "skovde.entryscape.net": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 14 datasets, 19 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://skovde.entryscape.net/store/1/metadata/2?recursive=dcat"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://skovde.entryscape.net"
+        }
+      ],
+      "homepage": "https://www.skovde.se/psidata",
+      "id": "skovde.entryscape.net",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/286"
+      },
+      "label": {
+        "sv": "Skövde kommuns datamängder"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2120001710",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
     },
     "statistik-api.uka.se": {
       "endpoint": [
@@ -1343,6 +4451,15 @@
     "statistik.csn.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 506 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://statistik.csn.se/datasets/dcat.xml"
+        },
+        {
           "language": [
             "sv"
           ],
@@ -1352,15 +4469,19 @@
       ],
       "homepage": "https://statistik.csn.se/PxWeb/pxweb",
       "id": "statistik.csn.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/177"
+      },
       "label": {
         "sv": "CSN:s statistikdatabas"
       },
       "owner": "SE2021001819",
       "software": "pxweb",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "statistik.ehalsomyndigheten.se": {
@@ -1621,20 +4742,33 @@
     "statistikdatabasen.scb.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 4292 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://www.statistikdatabasen.scb.se/Resources/PX/Databases/ssd/dcat-ap.xml"
+        },
+        {
           "protocol": "pxweb_v2",
           "url": "https://statistikdatabasen.scb.se/api/v2"
         }
       ],
       "id": "statistikdatabasen.scb.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/91"
+      },
       "label": {
         "sv": "Statistikdatabasen"
       },
       "owner": "SE2021000837",
       "software": "pxweb",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "statistikdatabasen.skolverket.se": {
@@ -1663,11 +4797,24 @@
     "transportstyrelsen.entryscape.net": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 24 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://transportstyrelsen.entryscape.net/store/7/metadata/2?recursive=dcat,foaf:page&format=application/rdf+xml"
+        },
+        {
           "protocol": "entrystore",
           "url": "https://transportstyrelsen.entryscape.net"
         }
       ],
+      "homepage": "https://transportstyrelsen.se/",
       "id": "transportstyrelsen.entryscape.net",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/272"
+      },
       "label": {
         "sv": "Transportstyrelsens öppna data"
       },
@@ -1675,19 +4822,59 @@
       "owner": "SE2021006099",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "vardbetyg.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 1 datasets, 6 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://vardbetyg.se/data/dcat.rdf"
+        }
+      ],
+      "homepage": "https://vardbetyg.se",
+      "id": "vardbetyg.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/858"
+      },
+      "label": {
+        "sv": "Vårdbetygs öppna datakatalog"
+      },
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     },
     "vgregion.entryscape.net": {
       "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 18 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://vgregion.entryscape.net/store/7/metadata/2?recursive=dcat"
+        },
         {
           "protocol": "entrystore",
           "url": "https://vgregion.entryscape.net"
         }
       ],
       "id": "vgregion.entryscape.net",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/197"
+      },
       "label": {
         "sv": "Västra Götalandsregionens öppna data"
       },
@@ -1695,12 +4882,105 @@
       "owner": "SE2321000131",
       "software": "entryscape",
       "source": [
+        "dataportal",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "vinnova.entryscape.net": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 10 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://vinnova.entryscape.net/store/1/metadata/2?recursive=dcat"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://vinnova.entryscape.net"
+        }
+      ],
+      "id": "vinnova.entryscape.net",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/14"
+      },
+      "label": {
+        "sv": "Vinnovas öppna data"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2021005216",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "www7.skatteverket.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 27 datasets, 0 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://www7.skatteverket.se/portal-wapi/open/apier-och-oppna-data/utvecklarportalen/v1/dcat"
+        }
+      ],
+      "homepage": "https://www7.skatteverket.se/portal/apier-och-oppna-data/utvecklarportalen",
+      "id": "www7.skatteverket.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/816"
+      },
+      "label": {
+        "sv": "Skatteverket partner-API:er"
+      },
+      "owner": "SE2021005448",
+      "software": "custom",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
+      "type": "open_data_portal"
+    },
+    "ystad.entryscape.net": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://ystad.entryscape.net/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
+        },
+        {
+          "protocol": "entrystore",
+          "url": "https://ystad.entryscape.net"
+        }
+      ],
+      "id": "ystad.entryscape.net",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/305"
+      },
+      "label": {
+        "sv": "Öppna data Ystad kommun"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2120001181",
+      "software": "entryscape",
+      "source": [
+        "dataportal"
+      ],
+      "status": "active",
       "type": "open_data_portal"
     }
   },
-  "count": 83,
+  "count": 170,
   "generated": "2026-10-13"
 }

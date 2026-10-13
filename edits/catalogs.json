@@ -14,6 +14,15 @@
       ],
       "owner": "SE8024305370"
     },
+    "api.researchdata.se": {
+      "owner": "SE2021003153",
+      "type": "research_repository",
+      "label": {
+        "sv": "Researchdata.se",
+        "en": "Researchdata.se"
+      },
+      "note": "Svensk nationell datatjänst (SND), a consortium hosted by Göteborgs universitet."
+    },
     "api.riksbank.se": {
       "label": {
         "sv": "Riksbankens API"
@@ -41,6 +50,10 @@
         }
       ],
       "owner": "SE2021006305"
+    },
+    "avropa.se": {
+      "owner": "SE2021000829",
+      "note": "Statens inköpscentral at Kammarkollegiet."
     },
     "catalog.ale.se": {
       "label": {
@@ -562,6 +575,10 @@
       "owner": "SE2120000357",
       "operator": "SE5568540701"
     },
+    "esv.se": {
+      "owner": "SE2021005026",
+      "note": "Harvested from esv.se: the catalog was set up when the body was Ekonomistyrningsverket."
+    },
     "fohm-app.folkhalsomyndigheten.se/folkhalsodata": {
       "label": {
         "sv": "Folkhälsodata"
@@ -594,22 +611,6 @@
         }
       ],
       "owner": "SE2021005521"
-    },
-    "free.entryscape.com": {
-      "label": {
-        "sv": "EntryScape Free",
-        "en": "EntryScape Free"
-      },
-      "type": "open_data_portal",
-      "software": "entryscape",
-      "endpoint": [
-        {
-          "protocol": "entrystore",
-          "url": "https://free.entryscape.com"
-        }
-      ],
-      "owner": "SE5568540701",
-      "note": "Shared hosting: many publishers in one install, each in its own context. The federated catalogs on dataportal.se say which."
     },
     "haninge.entryscape.net": {
       "label": {
