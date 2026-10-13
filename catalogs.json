@@ -66,7 +66,7 @@
       ],
       "id": "api.lantmateriet.se",
       "label": {
-        "sv": "Lantmäteriet"
+        "sv": "Lantmäteriet geodatatjänster"
       },
       "owner": "SE2021004888",
       "software": "custom",
@@ -139,24 +139,57 @@
         {
           "checked": {
             "date": "2026-10-13",
+            "detail": "gaierror: [Errno -2] Name or service not known",
+            "result": "unreachable"
+          },
+          "protocol": "api",
+          "support": "deferred",
+          "url": "https://api.skolverket.se/planned-educations"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
             "detail": "HTTP 404",
             "result": "error"
           },
           "protocol": "api",
           "url": "https://api.skolverket.se/planned-educations/swagger-ui"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 404",
+            "result": "error"
+          },
+          "note": "Skolenhetsregistret v2: school units, organisers, education providers, komvux contracts. Belongs to the units product.",
+          "protocol": "api",
+          "support": "deferred",
+          "url": "https://api.skolverket.se/skolenhetsregistret/v2"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "api",
+          "support": "undecided",
+          "url": "https://api.skolverket.se/susa-navet"
         }
       ],
       "id": "api.skolverket.se",
       "label": {
-        "sv": "Statens skolverk"
+        "en": "Skolverket APIs",
+        "sv": "Skolverkets API:er"
       },
       "owner": "SE2021004185",
       "software": "custom",
       "source": [
         "check",
-        "data_europa"
+        "data_europa",
+        "edits"
       ],
-      "status": "inactive",
+      "status": "active",
       "type": "api"
     },
     "api.sundsvall.se": {
@@ -302,7 +335,7 @@
       ],
       "id": "apigw.stockholm.se",
       "label": {
-        "sv": "Stockholms stad"
+        "sv": "Stockholms stad API"
       },
       "owner": "SE2120000142",
       "software": "custom",
@@ -371,6 +404,34 @@
       ],
       "status": "active",
       "type": "open_data_portal"
+    },
+    "bibstat.kb.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "kb_bibstat",
+          "url": "https://bibstat.kb.se/data"
+        }
+      ],
+      "homepage": "https://bibstat.kb.se/",
+      "id": "bibstat.kb.se",
+      "label": {
+        "en": "Library statistics",
+        "sv": "Biblioteksstatistik"
+      },
+      "note": "Per-library observations per year as an RDF Data Cube.",
+      "owner": "SE2021001710",
+      "software": "custom",
+      "source": [
+        "check",
+        "edits"
+      ],
+      "status": "active",
+      "type": "statistics_database"
     },
     "catalog.ale.se": {
       "endpoint": [
@@ -1951,7 +2012,7 @@
       ],
       "id": "cdn.jordbruksverket.se",
       "label": {
-        "sv": "Statens jordbruksverk"
+        "sv": "Statens jordbruksverk geodatatjänster"
       },
       "owner": "SE2021004151",
       "software": "custom",
@@ -2013,7 +2074,7 @@
       ],
       "id": "daim.lfv.se",
       "label": {
-        "sv": "Luftfartsverket"
+        "sv": "Luftfartsverket geodatatjänster"
       },
       "owner": "SE2021000795",
       "software": "geoserver",
@@ -2525,7 +2586,7 @@
       ],
       "id": "datavardluft.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut"
+        "sv": "Sveriges meteorologiska och hydrologiska institut geodatatjänster"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -3195,7 +3256,7 @@
       ],
       "id": "epub.sjv.se",
       "label": {
-        "sv": "Statens jordbruksverk"
+        "sv": "Statens jordbruksverk geodatatjänster"
       },
       "owner": "SE2021004151",
       "software": "custom",
@@ -3290,7 +3351,7 @@
       ],
       "id": "ext-dokument.lansstyrelsen.se",
       "label": {
-        "sv": "Länsstyrelserna gemensamt"
+        "sv": "Länsstyrelserna gemensamt geodatatjänster"
       },
       "owner": "SE2021002361-LST",
       "software": "custom",
@@ -3315,7 +3376,7 @@
       ],
       "id": "ext-geodata-applikationer.lansstyrelsen.se",
       "label": {
-        "sv": "Länsstyrelserna gemensamt"
+        "sv": "Länsstyrelserna gemensamt geodatatjänster"
       },
       "owner": "SE2021002361-LST",
       "software": "arcgis",
@@ -3357,7 +3418,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "arcgis_rest",
@@ -3366,7 +3427,7 @@
       ],
       "id": "ext-geodata-nationella.lansstyrelsen.se",
       "label": {
-        "sv": "ext-geodata-nationella.lansstyrelsen.se"
+        "sv": "ext-geodata-nationella.lansstyrelsen.se geodatatjänster"
       },
       "software": "arcgis",
       "source": [
@@ -3435,7 +3496,7 @@
       ],
       "id": "ext-geodata-ows.lansstyrelsen.se",
       "label": {
-        "sv": "Länsstyrelserna gemensamt"
+        "sv": "Länsstyrelserna gemensamt geodatatjänster"
       },
       "owner": "SE2021002361-LST",
       "software": "custom",
@@ -3477,7 +3538,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "wfs_2",
@@ -3486,7 +3547,7 @@
       ],
       "id": "ext-geoserver.lansstyrelsen.se",
       "label": {
-        "sv": "Länsstyrelserna gemensamt"
+        "sv": "Länsstyrelserna gemensamt geodatatjänster"
       },
       "owner": "SE2021002361-LST",
       "software": "geoserver",
@@ -3975,7 +4036,7 @@
       ],
       "id": "geo-inspire.trafikverket.se",
       "label": {
-        "sv": "Trafikverket"
+        "sv": "Trafikverket geodatatjänster"
       },
       "owner": "SE2021006297",
       "software": "custom",
@@ -3991,8 +4052,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
-            "result": "unreachable"
+            "detail": "HTTP 400",
+            "result": "error"
           },
           "protocol": "wfs_2",
           "url": "http://geo-transfernode.trafikverket.se/mapservice/wfs.axd/TN_TransferNode"
@@ -4000,7 +4061,7 @@
       ],
       "id": "geo-transfernode.trafikverket.se",
       "label": {
-        "sv": "Trafikverket"
+        "sv": "Trafikverket geodatatjänster"
       },
       "owner": "SE2021006297",
       "software": "custom",
@@ -4034,7 +4095,7 @@
       ],
       "id": "geo.hjartstartarregistret.se",
       "label": {
-        "sv": "MetaSolutions AB"
+        "sv": "MetaSolutions AB geodatatjänster"
       },
       "owner": "SE5568540701",
       "software": "geoserver",
@@ -4059,7 +4120,7 @@
       ],
       "id": "geodata-svoa-extern.stockholm.se",
       "label": {
-        "sv": "Stockholms stad"
+        "sv": "Stockholms stad geodatatjänster"
       },
       "owner": "SE2120000142",
       "software": "arcgis",
@@ -4156,7 +4217,7 @@
       ],
       "id": "geodata.havochvatten.se",
       "label": {
-        "sv": "Havs- och vattenmyndigheten"
+        "sv": "Havs- och vattenmyndigheten geodatatjänster"
       },
       "owner": "SE2021006420",
       "software": "custom",
@@ -4291,7 +4352,7 @@
       ],
       "id": "geodata.naturvardsverket.se",
       "label": {
-        "sv": "Naturvårdsverket"
+        "sv": "Naturvårdsverket geodatatjänster"
       },
       "owner": "SE2021001975",
       "software": "custom",
@@ -4316,7 +4377,7 @@
       ],
       "id": "geodata.sametinget.se",
       "label": {
-        "sv": "Sametinget"
+        "sv": "Sametinget geodatatjänster"
       },
       "owner": "SE2021004573",
       "software": "custom",
@@ -4368,7 +4429,7 @@
       ],
       "id": "geodata.scb.se",
       "label": {
-        "sv": "Statistiska centralbyrån"
+        "sv": "Statistiska centralbyrån geodatatjänster"
       },
       "owner": "SE2021000837",
       "software": "geoserver",
@@ -4433,7 +4494,7 @@
       ],
       "id": "geodata.socialstyrelsen.se",
       "label": {
-        "sv": "Socialstyrelsen"
+        "sv": "Socialstyrelsen geodatatjänster"
       },
       "owner": "SE2021000555",
       "software": "custom",
@@ -4485,7 +4546,7 @@
       ],
       "id": "geodpags.skogsstyrelsen.se",
       "label": {
-        "sv": "Skogsstyrelsen"
+        "sv": "Skogsstyrelsen geodatatjänster"
       },
       "owner": "SE2021005612",
       "software": "arcgis",
@@ -4519,7 +4580,7 @@
       ],
       "id": "geokatalog.sjofartsverket.se",
       "label": {
-        "sv": "Sjöfartsverket"
+        "sv": "Sjöfartsverket geodatatjänster"
       },
       "owner": "SE2021000654",
       "software": "custom",
@@ -4535,7 +4596,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "wfs_2",
@@ -4544,7 +4605,7 @@
       ],
       "id": "geonode.folkhalsomyndigheten.se",
       "label": {
-        "sv": "Folkhälsomyndigheten"
+        "sv": "Folkhälsomyndigheten geodatatjänster"
       },
       "owner": "SE2021006545",
       "software": "geoserver",
@@ -4569,7 +4630,7 @@
       ],
       "id": "gis.miljo.stockholm.se",
       "label": {
-        "sv": "Stockholms stad"
+        "sv": "Stockholms stad geodatatjänster"
       },
       "owner": "SE2120000142",
       "software": "custom",
@@ -4594,7 +4655,7 @@
       ],
       "id": "gis.swedgeo.se",
       "label": {
-        "sv": "Statens geotekniska institut"
+        "sv": "Statens geotekniska institut geodatatjänster"
       },
       "owner": "SE2021000712",
       "software": "geoserver",
@@ -4619,7 +4680,7 @@
       ],
       "id": "gisapp.msb.se",
       "label": {
-        "sv": "Myndigheten för tillgängliga medier"
+        "sv": "Myndigheten för tillgängliga medier geodatatjänster"
       },
       "owner": "SE2021003591",
       "software": "arcgis",
@@ -4644,7 +4705,7 @@
       ],
       "id": "gisportal.sametinget.se",
       "label": {
-        "sv": "Sametinget"
+        "sv": "Sametinget geodatatjänster"
       },
       "owner": "SE2021004573",
       "software": "custom",
@@ -4709,7 +4770,7 @@
       ],
       "id": "historical.api.jobtechdev.se",
       "label": {
-        "sv": "Arbetsförmedlingen"
+        "sv": "Arbetsförmedlingen API"
       },
       "owner": "SE2021002114",
       "software": "custom",
@@ -4808,7 +4869,7 @@
       ],
       "id": "inspire-raa.metria.se",
       "label": {
-        "sv": "Riksantikvarieämbetet"
+        "sv": "Riksantikvarieämbetet geodatatjänster"
       },
       "operator": "SE5567992242",
       "owner": "SE2021001090",
@@ -4843,7 +4904,7 @@
       ],
       "id": "inspire-skn.metria.se",
       "label": {
-        "sv": "Affärsverket svenska kraftnät"
+        "sv": "Affärsverket svenska kraftnät geodatatjänster"
       },
       "operator": "SE5567992242",
       "owner": "SE2021004284",
@@ -4878,7 +4939,7 @@
       ],
       "id": "inspire-skolverket.metria.se",
       "label": {
-        "sv": "Statens skolverk"
+        "sv": "Statens skolverk geodatatjänster"
       },
       "operator": "SE5567992242",
       "owner": "SE2021004185",
@@ -4913,7 +4974,7 @@
       ],
       "id": "ivo.metria.se",
       "label": {
-        "sv": "Inspektionen för vård och omsorg"
+        "sv": "Inspektionen för vård och omsorg geodatatjänster"
       },
       "operator": "SE5567992242",
       "owner": "SE2021006537",
@@ -4939,7 +5000,7 @@
       ],
       "id": "jobad-enrichments-api.jobtechdev.se",
       "label": {
-        "sv": "Arbetsförmedlingen"
+        "sv": "Arbetsförmedlingen API"
       },
       "owner": "SE2021002114",
       "software": "custom",
@@ -4964,7 +5025,7 @@
       ],
       "id": "jobed-connect-api.jobtechdev.se",
       "label": {
-        "sv": "Arbetsförmedlingen"
+        "sv": "Arbetsförmedlingen API"
       },
       "owner": "SE2021002114",
       "software": "custom",
@@ -4989,7 +5050,7 @@
       ],
       "id": "karta.lidingo.se",
       "label": {
-        "sv": "Lidingö stad"
+        "sv": "Lidingö stad geodatatjänster"
       },
       "owner": "SE2120000191",
       "software": "custom",
@@ -5033,7 +5094,7 @@
       ],
       "id": "kartor.stockholm.se",
       "label": {
-        "sv": "Stockholms stad"
+        "sv": "Stockholms stad geodatatjänster"
       },
       "owner": "SE2120000142",
       "software": "custom",
@@ -5236,6 +5297,33 @@
       "status": "active",
       "type": "open_data_portal"
     },
+    "lastkajen.trafikverket.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "web",
+          "url": "https://lastkajen.trafikverket.se/"
+        }
+      ],
+      "homepage": "https://lastkajen.trafikverket.se/",
+      "id": "lastkajen.trafikverket.se",
+      "label": {
+        "sv": "Lastkajen"
+      },
+      "note": "Trafikverket's download portal for road and rail network data; 528 of Geodataportalen's distribution links point here. Orders are placed through the web application.",
+      "owner": "SE2021006297",
+      "software": "custom",
+      "source": [
+        "check",
+        "edits"
+      ],
+      "status": "active",
+      "type": "file_collection"
+    },
     "linkoping.entryscape.net": {
       "endpoint": [
         {
@@ -5289,7 +5377,7 @@
       ],
       "id": "links.api.jobtechdev.se",
       "label": {
-        "sv": "Arbetsförmedlingen"
+        "sv": "Arbetsförmedlingen API"
       },
       "owner": "SE2021002114",
       "software": "custom",
@@ -5299,6 +5387,33 @@
       ],
       "status": "active",
       "type": "api"
+    },
+    "livsmedelsstatistik.jordbruksverket.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "pxweb_web",
+          "url": "https://livsmedelsstatistik.jordbruksverket.se/PxWeb/pxweb/sv/"
+        }
+      ],
+      "homepage": "https://livsmedelsstatistik.jordbruksverket.se/PxWeb/pxweb/sv/",
+      "id": "livsmedelsstatistik.jordbruksverket.se",
+      "label": {
+        "sv": "Jordbruksverkets livsmedelsstatistik (SILO)"
+      },
+      "note": "42 tables. No API: /PxWeb/api/v1 answers 404.",
+      "owner": "SE2021004151",
+      "software": "pxweb",
+      "source": [
+        "check",
+        "edits"
+      ],
+      "status": "active",
+      "type": "statistics_database"
     },
     "m02-http-pxwebb.login.sundsvall.se": {
       "endpoint": [
@@ -5343,7 +5458,7 @@
       ],
       "id": "m4eu.sgu.se",
       "label": {
-        "sv": "Sveriges geologiska undersökning"
+        "sv": "Sveriges geologiska undersökning geodatatjänster"
       },
       "owner": "SE2021002528",
       "software": "custom",
@@ -5386,7 +5501,7 @@
       ],
       "id": "maps.lantmateriet.se",
       "label": {
-        "sv": "Lantmäteriet"
+        "sv": "Lantmäteriet geodatatjänster"
       },
       "owner": "SE2021004888",
       "software": "custom",
@@ -5429,7 +5544,7 @@
       ],
       "id": "mapsext.sgi.se",
       "label": {
-        "sv": "Statens geotekniska institut"
+        "sv": "Statens geotekniska institut geodatatjänster"
       },
       "owner": "SE2021000712",
       "software": "geoserver",
@@ -5777,6 +5892,35 @@
       "status": "active",
       "type": "open_data_portal"
     },
+    "miljodata.slu.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 404",
+            "result": "error"
+          },
+          "note": "Token required on every call; a public token is free after registration.",
+          "protocol": "api",
+          "support": "deferred",
+          "url": "https://miljodata.slu.se/api"
+        }
+      ],
+      "homepage": "https://miljodata.slu.se/mvm/",
+      "id": "miljodata.slu.se",
+      "label": {
+        "sv": "Miljödata MVM"
+      },
+      "note": "National environmental monitoring measurements of water chemistry and biology, hosted by SLU.",
+      "owner": "SE2021002817",
+      "software": "custom",
+      "source": [
+        "check",
+        "edits"
+      ],
+      "status": "inactive",
+      "type": "api"
+    },
     "nationellaemissionsdatabasen.smhi.se": {
       "endpoint": [
         {
@@ -5844,7 +5988,7 @@
       ],
       "id": "nvgis.naturvardsverket.se",
       "label": {
-        "sv": "Naturvårdsverket"
+        "sv": "Naturvårdsverket geodatatjänster"
       },
       "owner": "SE2021001975",
       "software": "geoserver",
@@ -5964,7 +6108,7 @@
       ],
       "id": "opendata-download-algae.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut"
+        "sv": "Sveriges meteorologiska och hydrologiska institut API"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -6016,7 +6160,7 @@
       ],
       "id": "opendata-download-hydrography.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut"
+        "sv": "Sveriges meteorologiska och hydrologiska institut geodatatjänster"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -6068,7 +6212,7 @@
       ],
       "id": "opendata-download-hydroobs.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut"
+        "sv": "Sveriges meteorologiska och hydrologiska institut geodatatjänster"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -6093,7 +6237,7 @@
       ],
       "id": "opendata-download-icemap.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut"
+        "sv": "Sveriges meteorologiska och hydrologiska institut API"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -6118,7 +6262,7 @@
       ],
       "id": "opendata-download-lightning.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut"
+        "sv": "Sveriges meteorologiska och hydrologiska institut geodatatjänster"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -6161,7 +6305,7 @@
       ],
       "id": "opendata-download-metanalys.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut"
+        "sv": "Sveriges meteorologiska och hydrologiska institut API"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -6204,7 +6348,7 @@
       ],
       "id": "opendata-download-metfcst.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut"
+        "sv": "Sveriges meteorologiska och hydrologiska institut API"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -6274,7 +6418,7 @@
       ],
       "id": "opendata-download-metobs.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut"
+        "sv": "Sveriges meteorologiska och hydrologiska institut geodatatjänster"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -6344,7 +6488,7 @@
       ],
       "id": "opendata-download-ocobs.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut"
+        "sv": "Sveriges meteorologiska och hydrologiska institut geodatatjänster"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -6369,7 +6513,7 @@
       ],
       "id": "opendata-download-radar.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut"
+        "sv": "Sveriges meteorologiska och hydrologiska institut API"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -6394,7 +6538,7 @@
       ],
       "id": "opendata-download-satellite.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut"
+        "sv": "Sveriges meteorologiska och hydrologiska institut API"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -6419,7 +6563,7 @@
       ],
       "id": "opendata-download-warnings.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut"
+        "sv": "Sveriges meteorologiska och hydrologiska institut API"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -6489,7 +6633,7 @@
       ],
       "id": "opendata-view.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut"
+        "sv": "Sveriges meteorologiska och hydrologiska institut geodatatjänster"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -6608,7 +6752,7 @@
       ],
       "id": "opendata.smhi.se",
       "label": {
-        "sv": "Sveriges meteorologiska och hydrologiska institut"
+        "sv": "Sveriges meteorologiska och hydrologiska institut API"
       },
       "owner": "SE2021000696",
       "software": "custom",
@@ -6666,6 +6810,15 @@
           },
           "protocol": "dcat_ap",
           "url": "https://opendata.umea.se/api/explore/v2.1/catalog/exports/dcat_ap_se"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "huwise",
+          "url": "https://opendata.umea.se"
         }
       ],
       "homepage": "https://opendata.umea.se",
@@ -6676,11 +6829,13 @@
       "label": {
         "sv": "Öppna data för Umeå kommun"
       },
+      "note": "334 datasets: 205 Umeå Energi consumption series, geodata, copies of Kolada and SCB, and some 30 original tables.",
       "owner": "SE2120002627",
-      "software": "custom",
+      "software": "huwise",
       "source": [
         "check",
-        "dataportal"
+        "dataportal",
+        "edits"
       ],
       "status": "active",
       "type": "open_data_portal"
@@ -6775,7 +6930,7 @@
       ],
       "id": "openexpl.stockholm.se",
       "label": {
-        "sv": "Stockholms stad"
+        "sv": "Stockholms stad geodatatjänster"
       },
       "owner": "SE2120000142",
       "software": "geoserver",
@@ -6809,7 +6964,7 @@
       ],
       "id": "openstreetgs.stockholm.se",
       "label": {
-        "sv": "Stockholms stad"
+        "sv": "Stockholms stad geodatatjänster"
       },
       "owner": "SE2120000142",
       "software": "custom",
@@ -6925,6 +7080,33 @@
       "status": "active",
       "type": "open_data_portal"
     },
+    "patientenkat.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "web",
+          "url": "https://patientenkat.se/"
+        }
+      ],
+      "homepage": "https://patientenkat.se/",
+      "id": "patientenkat.se",
+      "label": {
+        "sv": "Nationell Patientenkät"
+      },
+      "note": "Results of the recurring national patient surveys by region and unit. Web interface only.",
+      "owner": "SE2220000315",
+      "software": "custom",
+      "source": [
+        "check",
+        "edits"
+      ],
+      "status": "active",
+      "type": "indicator_database"
+    },
     "pensionsmyndigheten.se": {
       "endpoint": [
         {
@@ -6952,6 +7134,33 @@
       ],
       "status": "active",
       "type": "open_data_portal"
+    },
+    "pensionsmyndigheten.se/statistik": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "web",
+          "url": "https://www.pensionsmyndigheten.se/statistik/pensionsstatistik/"
+        }
+      ],
+      "homepage": "https://www.pensionsmyndigheten.se/statistik/pensionsstatistik/",
+      "id": "pensionsmyndigheten.se/statistik",
+      "label": {
+        "sv": "Pensionsmyndighetens statistikdatabas"
+      },
+      "note": "A Shiny web application; no API.",
+      "owner": "SE2021006255",
+      "software": "custom",
+      "source": [
+        "check",
+        "edits"
+      ],
+      "status": "active",
+      "type": "statistics_database"
     },
     "prognos.konj.se": {
       "endpoint": [
@@ -7021,6 +7230,63 @@
       ],
       "status": "active",
       "type": "open_data_portal"
+    },
+    "pweb2.slu.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "support": "deferred",
+          "url": "https://pweb2.slu.se/api/v1"
+        }
+      ],
+      "id": "pweb2.slu.se",
+      "label": {
+        "sv": "SLU OffStat (pweb2)"
+      },
+      "note": "Lists the OffStat database, 95 tables, and appears to mirror skogsstatistik.slu.se (98 tables, same paths); the API answers 404 below the database root. Kept until the two are compared.",
+      "owner": "SE2021002817",
+      "software": "pxweb",
+      "source": [
+        "check",
+        "edits"
+      ],
+      "status": "active",
+      "type": "statistics_database"
+    },
+    "px.socialstyrelsen.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "pxweb_web",
+          "url": "https://px.socialstyrelsen.se/pxweb/sv/"
+        }
+      ],
+      "homepage": "https://px.socialstyrelsen.se/pxweb/sv/",
+      "id": "px.socialstyrelsen.se",
+      "label": {
+        "sv": "Socialstyrelsens PxWeb"
+      },
+      "note": "799 tables in two databases (E-hälsa och välfärdsteknik i kommunerna, Nationella indikatorer för hälso- och sjukvård). No reachable API: /api/v1 answers 404, /pxweb/api/v1 500.",
+      "owner": "SE2021000555",
+      "software": "pxweb",
+      "source": [
+        "check",
+        "edits"
+      ],
+      "status": "active",
+      "type": "statistics_database"
     },
     "pxexternal.energimyndigheten.se": {
       "endpoint": [
@@ -7154,6 +7420,46 @@
       "status": "active",
       "type": "statistics_database"
     },
+    "pxweb.umea.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "support": "deferred",
+          "url": "https://pxweb.umea.se/PXWeb/api/v1"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "pxweb_web",
+          "url": "https://pxweb.umea.se/PXWeb/pxweb/sv/"
+        }
+      ],
+      "homepage": "https://pxweb.umea.se/PXWeb/pxweb/sv/",
+      "id": "pxweb.umea.se",
+      "label": {
+        "sv": "Umeå kommuns statistikdatabas"
+      },
+      "note": "57 tables. The API lists the database and answers metadata, but the JSON-stat2 POST returns 404 (json-stat works) and the Befolkningsprognoser database is not exposed by the API at all.",
+      "owner": "SE2120002627",
+      "software": "pxweb",
+      "source": [
+        "check",
+        "edits"
+      ],
+      "status": "active",
+      "type": "statistics_database"
+    },
     "pxweb2.karlstad.se": {
       "endpoint": [
         {
@@ -7255,7 +7561,7 @@
       ],
       "id": "qdb-external-api.myh.se",
       "label": {
-        "sv": "Myndigheten för yrkeshögskolan"
+        "sv": "Myndigheten för yrkeshögskolan API"
       },
       "owner": "SE2021006230",
       "software": "custom",
@@ -7370,7 +7676,7 @@
       ],
       "id": "resource.sgu.se",
       "label": {
-        "sv": "Sveriges geologiska undersökning"
+        "sv": "Sveriges geologiska undersökning geodatatjänster"
       },
       "owner": "SE2021002528",
       "software": "custom",
@@ -7611,7 +7917,7 @@
       ],
       "id": "static.minaombud.se",
       "label": {
-        "sv": "Bolagsverket"
+        "sv": "Bolagsverket API"
       },
       "owner": "SE2021005489",
       "software": "custom",
@@ -7717,6 +8023,33 @@
         "edits"
       ],
       "status": "active",
+      "type": "statistics_database"
+    },
+    "statistik.bra.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certifi",
+            "result": "unreachable"
+          },
+          "protocol": "web",
+          "url": "https://statistik.bra.se/solwebb/"
+        }
+      ],
+      "homepage": "https://statistik.bra.se/solwebb/",
+      "id": "statistik.bra.se",
+      "label": {
+        "sv": "Brås statistikdatabas"
+      },
+      "note": "Reported offences by type, region and period through the SolWebb web application; no API.",
+      "owner": "SE2021000068",
+      "software": "custom",
+      "source": [
+        "check",
+        "edits"
+      ],
+      "status": "inactive",
       "type": "statistics_database"
     },
     "statistik.csn.se": {
@@ -7929,7 +8262,11 @@
       "label": {
         "sv": "MCF:s statistikdatabas"
       },
+      "note": "statistik.msb.se redirects here since MSB became MCF.",
       "owner": "SE2021005984",
+      "same_as": [
+        "https://statistik.msb.se"
+      ],
       "software": "pxweb",
       "source": [
         "check",
@@ -8016,7 +8353,11 @@
       "label": {
         "sv": "Jordbruksverkets statistikdatabas"
       },
+      "note": "statistik.jordbruksverket.se serves the same 598 tables.",
       "owner": "SE2021004151",
+      "same_as": [
+        "https://statistik.jordbruksverket.se/PXWeb"
+      ],
       "software": "pxweb",
       "source": [
         "check",
@@ -8046,6 +8387,73 @@
         "sv": "Tillväxtanalys statistikdatabas"
       },
       "owner": "SE2021006164",
+      "software": "pxweb",
+      "source": [
+        "check",
+        "edits"
+      ],
+      "status": "active",
+      "type": "statistics_database"
+    },
+    "statistik.uppsala.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "pxweb_web",
+          "url": "https://statistik.uppsala.se/PxWeb/pxweb/sv/"
+        }
+      ],
+      "homepage": "https://statistik.uppsala.se/PxWeb/pxweb/sv/",
+      "id": "statistik.uppsala.se",
+      "label": {
+        "sv": "Uppsala kommuns statistikdatabas"
+      },
+      "note": "API disabled: /api/v1/sv/ answers 400.",
+      "owner": "SE2120003005",
+      "software": "pxweb",
+      "source": [
+        "check",
+        "edits"
+      ],
+      "status": "active",
+      "type": "statistics_database"
+    },
+    "statistik.vasteras.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "support": "deferred",
+          "url": "https://statistik.vasteras.se/api/v1"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "pxweb_web",
+          "url": "https://statistik.vasteras.se/pxweb/sv/"
+        }
+      ],
+      "homepage": "https://statistik.vasteras.se/pxweb/sv/",
+      "id": "statistik.vasteras.se",
+      "label": {
+        "sv": "Västerås stads statistikdatabas"
+      },
+      "note": "Several databases. The API answers the database list and metadata, but the JSON-stat2 POST returns 404 while json-stat and json work.",
+      "owner": "SE2120002080",
       "software": "pxweb",
       "source": [
         "check",
@@ -8100,6 +8508,25 @@
             "detail": "HTTP 200",
             "result": "ok"
           },
+          "language": [
+            "sv",
+            "en"
+          ],
+          "note": "The older API to the same database; v2 is the one read.",
+          "protocol": "pxweb_v1",
+          "support": "deferred",
+          "url": "https://api.scb.se/OV0104/v1/doris"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "language": [
+            "sv",
+            "en"
+          ],
           "protocol": "pxweb_v2",
           "url": "https://statistikdatabasen.scb.se/api/v2"
         }
@@ -8165,7 +8592,7 @@
       ],
       "id": "taxonomy.api.jobtechdev.se",
       "label": {
-        "sv": "Arbetsförmedlingen"
+        "sv": "Arbetsförmedlingen API"
       },
       "owner": "SE2021002114",
       "software": "custom",
@@ -8216,6 +8643,60 @@
       "status": "active",
       "type": "open_data_portal"
     },
+    "utslappisiffror.naturvardsverket.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "web",
+          "url": "https://utslappisiffror.naturvardsverket.se/"
+        }
+      ],
+      "homepage": "https://utslappisiffror.naturvardsverket.se/",
+      "id": "utslappisiffror.naturvardsverket.se",
+      "label": {
+        "sv": "Utsläpp i siffror"
+      },
+      "note": "Emissions per facility and substance from the pollutant release register. Web interface only.",
+      "owner": "SE2021001975",
+      "software": "custom",
+      "source": [
+        "check",
+        "edits"
+      ],
+      "status": "active",
+      "type": "indicator_database"
+    },
+    "vantetider.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "web",
+          "url": "https://www.vantetider.se/"
+        }
+      ],
+      "homepage": "https://www.vantetider.se/",
+      "id": "vantetider.se",
+      "label": {
+        "sv": "Väntetider i vården"
+      },
+      "note": "SKR's waiting-time statistics for primary and specialised care, by region and unit. Web interface only, listed among SKR's data sources for knowledge management.",
+      "owner": "SE2220000315",
+      "software": "custom",
+      "source": [
+        "check",
+        "edits"
+      ],
+      "status": "active",
+      "type": "indicator_database"
+    },
     "vardbetyg.se": {
       "endpoint": [
         {
@@ -8243,6 +8724,34 @@
       ],
       "status": "active",
       "type": "open_data_portal"
+    },
+    "vardenisiffror.se": {
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "vardenisiffror",
+          "url": "https://vardenisiffror.se/api/workspace/vardenisiffror"
+        }
+      ],
+      "homepage": "https://vardenisiffror.se/",
+      "id": "vardenisiffror.se",
+      "label": {
+        "en": "Vården i siffror",
+        "sv": "Vården i siffror"
+      },
+      "note": "Health-care quality indicators from the national quality registries and other sources, published by SKR for the regions' knowledge management. The export API went public in 2026; 1,216 indicators.",
+      "owner": "SE2220000315",
+      "software": "custom",
+      "source": [
+        "check",
+        "edits"
+      ],
+      "status": "active",
+      "type": "indicator_database"
     },
     "vgregion.entryscape.net": {
       "endpoint": [
@@ -8353,7 +8862,7 @@
       ],
       "id": "wms.slu.se",
       "label": {
-        "sv": "Sveriges lantbruksuniversitet"
+        "sv": "Sveriges lantbruksuniversitet geodatatjänster"
       },
       "owner": "SE2021002817",
       "software": "custom",
@@ -8460,6 +8969,6 @@
       "type": "open_data_portal"
     }
   },
-  "count": 239,
+  "count": 254,
   "generated": "2026-10-13"
 }

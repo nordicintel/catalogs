@@ -51,6 +51,11 @@ catalog never needs code unless its protocol is new.
 | `support` | `supported` (an adapter exists), `planned`, `deferred`, `none`, `undecided` |
 | `check` | the request the liveness check appends to an endpoint URL and the substring a live answer contains |
 
+Every Swedish-owned PxWeb install is recorded, also those whose API is disabled or
+broken (`pxweb_web`), and sites that show tables without any API (`web`): a scraper
+for them may come, and the records are not to be lost meanwhile. Only duplicates,
+dead predecessors and demo installs go in `ignore`.
+
 The `support` column is the roadmap. The registry lists what exists in Sweden
 whether or not we read it yet.
 

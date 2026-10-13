@@ -178,6 +178,22 @@
       },
       "note": "Formerly Opendatasoft."
     },
+    "kb_bibstat": {
+      "id": "kb_bibstat",
+      "label": {
+        "sv": "KB Biblioteksstatistik",
+        "en": "KB library statistics"
+      },
+      "kind": [
+        "table"
+      ],
+      "support": "deferred",
+      "check": {
+        "path": "",
+        "expect": "@context"
+      },
+      "note": "JSON-LD RDF Data Cube, one observation per library and year; 793 terms. Deferred because aggregation to kommun or län is ours to do."
+    },
     "kolada_v3": {
       "id": "kolada_v3",
       "label": {
@@ -258,6 +274,23 @@
         "expect": "apiVersion"
       },
       "documentation": "https://github.com/PxWeb2/PxWebApi"
+    },
+    "pxweb_web": {
+      "id": "pxweb_web",
+      "label": {
+        "sv": "PxWeb webbgränssnitt",
+        "en": "PxWeb web interface"
+      },
+      "kind": [
+        "table"
+      ],
+      "support": "planned",
+      "check": {
+        "path": "",
+        "expect": "",
+        "accept": "text/html"
+      },
+      "note": "A PxWeb install whose API is disabled or broken. Recorded so no Swedish instance is lost; a scraping adapter for the web interface may come."
     },
     "riksbank": {
       "id": "riksbank",
@@ -380,6 +413,41 @@
         "path": "/indicators",
         "expect": "\"name\""
       }
+    },
+    "vardenisiffror": {
+      "id": "vardenisiffror",
+      "label": {
+        "sv": "Vården i siffror export-API",
+        "en": "Vården i siffror export API"
+      },
+      "kind": [
+        "indicator"
+      ],
+      "support": "planned",
+      "check": {
+        "path": "/options",
+        "expect": "\"indicators\""
+      },
+      "documentation": "https://vardenisiffror.se/dataexport/api",
+      "note": "GET /options lists 1,216 indicators with data source and unit, /units the regions, kommuner and hospitals, /export the values by indicator, unit, year and gender, paged up to 1,000,000 rows."
+    },
+    "web": {
+      "id": "web",
+      "label": {
+        "sv": "Webbgränssnitt utan API",
+        "en": "Web interface without an API"
+      },
+      "kind": [
+        "table",
+        "indicator"
+      ],
+      "support": "undecided",
+      "check": {
+        "path": "",
+        "expect": "",
+        "accept": "text/html"
+      },
+      "note": "Tables or indicators shown on a site with no machine interface. A site-specific scraper would be its own adapter."
     },
     "wfs_2": {
       "id": "wfs_2",

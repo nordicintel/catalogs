@@ -216,7 +216,8 @@ def main():
             if "checked" not in e and old and old.get("checked"):
                 e["checked"] = old["checked"]  # carried until the next check overwrites it
         if not r["label"]:
-            r["label"]["sv"] = orgs[r["owner"]]["label"] if r.get("owner") in orgs else r["id"]
+            owner = orgs[r["owner"]]["label"] if r.get("owner") in orgs else r["id"]
+            r["label"]["sv"] = {"geoportal": f"{owner} geodatatjänster", "api": f"{owner} API"}.get(r["type"], owner)
 
     catalogs = dict(sorted(catalogs.items()))
     if args.no_check:

@@ -37,6 +37,30 @@
       ],
       "owner": "SE2021002684"
     },
+    "api.skolverket.se": {
+      "label": {
+        "sv": "Skolverkets API:er",
+        "en": "Skolverket APIs"
+      },
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://api.skolverket.se/skolenhetsregistret/v2",
+          "support": "deferred",
+          "note": "Skolenhetsregistret v2: school units, organisers, education providers, komvux contracts. Belongs to the units product."
+        },
+        {
+          "protocol": "api",
+          "url": "https://api.skolverket.se/planned-educations",
+          "support": "deferred"
+        },
+        {
+          "protocol": "api",
+          "url": "https://api.skolverket.se/susa-navet",
+          "support": "undecided"
+        }
+      ]
+    },
     "api.trafa.se": {
       "label": {
         "sv": "Trafikanalys statistikdatabas"
@@ -54,6 +78,23 @@
     "avropa.se": {
       "owner": "SE2021000829",
       "note": "Statens inköpscentral at Kammarkollegiet."
+    },
+    "bibstat.kb.se": {
+      "label": {
+        "sv": "Biblioteksstatistik",
+        "en": "Library statistics"
+      },
+      "type": "statistics_database",
+      "software": "custom",
+      "owner": "SE2021001710",
+      "homepage": "https://bibstat.kb.se/",
+      "endpoint": [
+        {
+          "protocol": "kb_bibstat",
+          "url": "https://bibstat.kb.se/data"
+        }
+      ],
+      "note": "Per-library observations per year as an RDF Data Cube."
     },
     "catalog.ale.se": {
       "label": {
@@ -762,6 +803,22 @@
       "owner": "SE2120001256",
       "operator": "SE5568540701"
     },
+    "lastkajen.trafikverket.se": {
+      "label": {
+        "sv": "Lastkajen"
+      },
+      "type": "file_collection",
+      "software": "custom",
+      "owner": "SE2021006297",
+      "homepage": "https://lastkajen.trafikverket.se/",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://lastkajen.trafikverket.se/"
+        }
+      ],
+      "note": "Trafikverket's download portal for road and rail network data; 528 of Geodataportalen's distribution links point here. Orders are placed through the web application."
+    },
     "linkoping.entryscape.net": {
       "label": {
         "sv": "Linköpings kommuns öppna data"
@@ -776,6 +833,22 @@
       ],
       "owner": "SE2120000449",
       "operator": "SE5568540701"
+    },
+    "livsmedelsstatistik.jordbruksverket.se": {
+      "label": {
+        "sv": "Jordbruksverkets livsmedelsstatistik (SILO)"
+      },
+      "type": "statistics_database",
+      "software": "pxweb",
+      "owner": "SE2021004151",
+      "homepage": "https://livsmedelsstatistik.jordbruksverket.se/PxWeb/pxweb/sv/",
+      "endpoint": [
+        {
+          "protocol": "pxweb_web",
+          "url": "https://livsmedelsstatistik.jordbruksverket.se/PxWeb/pxweb/sv/"
+        }
+      ],
+      "note": "42 tables. No API: /PxWeb/api/v1 answers 404."
     },
     "m02-http-pxwebb.login.sundsvall.se": {
       "label": {
@@ -813,6 +886,24 @@
       "owner": "SE2021005174",
       "homepage": "https://www.mi.se/PXWeb/pxweb"
     },
+    "miljodata.slu.se": {
+      "label": {
+        "sv": "Miljödata MVM"
+      },
+      "type": "api",
+      "software": "custom",
+      "owner": "SE2021002817",
+      "homepage": "https://miljodata.slu.se/mvm/",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://miljodata.slu.se/api",
+          "support": "deferred",
+          "note": "Token required on every call; a public token is free after registration."
+        }
+      ],
+      "note": "National environmental monitoring measurements of water chemistry and biology, hosted by SLU."
+    },
     "nationellaemissionsdatabasen.smhi.se": {
       "label": {
         "sv": "Nationella emissionsdatabasen"
@@ -826,6 +917,16 @@
         }
       ],
       "owner": "SE2021000696"
+    },
+    "opendata.umea.se": {
+      "software": "huwise",
+      "endpoint": [
+        {
+          "protocol": "huwise",
+          "url": "https://opendata.umea.se"
+        }
+      ],
+      "note": "334 datasets: 205 Umeå Energi consumption series, geodata, copies of Kolada and SCB, and some 30 original tables."
     },
     "opendata.vasteras.se": {
       "label": {
@@ -855,6 +956,38 @@
       ],
       "owner": "SE2021006149"
     },
+    "patientenkat.se": {
+      "label": {
+        "sv": "Nationell Patientenkät"
+      },
+      "type": "indicator_database",
+      "software": "custom",
+      "owner": "SE2220000315",
+      "homepage": "https://patientenkat.se/",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://patientenkat.se/"
+        }
+      ],
+      "note": "Results of the recurring national patient surveys by region and unit. Web interface only."
+    },
+    "pensionsmyndigheten.se/statistik": {
+      "label": {
+        "sv": "Pensionsmyndighetens statistikdatabas"
+      },
+      "type": "statistics_database",
+      "software": "custom",
+      "owner": "SE2021006255",
+      "homepage": "https://www.pensionsmyndigheten.se/statistik/pensionsstatistik/",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://www.pensionsmyndigheten.se/statistik/pensionsstatistik/"
+        }
+      ],
+      "note": "A Shiny web application; no API."
+    },
     "prognos.konj.se": {
       "label": {
         "sv": "Prognosdatabasen"
@@ -873,6 +1006,41 @@
       ],
       "owner": "SE2021000845",
       "homepage": "https://prognos.konj.se/PxWeb/pxweb"
+    },
+    "pweb2.slu.se": {
+      "label": {
+        "sv": "SLU OffStat (pweb2)"
+      },
+      "type": "statistics_database",
+      "software": "pxweb",
+      "owner": "SE2021002817",
+      "endpoint": [
+        {
+          "protocol": "pxweb_v1",
+          "url": "https://pweb2.slu.se/api/v1",
+          "language": [
+            "sv"
+          ],
+          "support": "deferred"
+        }
+      ],
+      "note": "Lists the OffStat database, 95 tables, and appears to mirror skogsstatistik.slu.se (98 tables, same paths); the API answers 404 below the database root. Kept until the two are compared."
+    },
+    "px.socialstyrelsen.se": {
+      "label": {
+        "sv": "Socialstyrelsens PxWeb"
+      },
+      "type": "statistics_database",
+      "software": "pxweb",
+      "owner": "SE2021000555",
+      "homepage": "https://px.socialstyrelsen.se/pxweb/sv/",
+      "endpoint": [
+        {
+          "protocol": "pxweb_web",
+          "url": "https://px.socialstyrelsen.se/pxweb/sv/"
+        }
+      ],
+      "note": "799 tables in two databases (E-hälsa och välfärdsteknik i kommunerna, Nationella indikatorer för hälso- och sjukvård). No reachable API: /api/v1 answers 404, /pxweb/api/v1 500."
     },
     "pxexternal.energimyndigheten.se": {
       "label": {
@@ -948,6 +1116,30 @@
       ],
       "owner": "SE2021005612",
       "homepage": "https://pxweb.skogsstyrelsen.se/pxweb"
+    },
+    "pxweb.umea.se": {
+      "label": {
+        "sv": "Umeå kommuns statistikdatabas"
+      },
+      "type": "statistics_database",
+      "software": "pxweb",
+      "owner": "SE2120002627",
+      "homepage": "https://pxweb.umea.se/PXWeb/pxweb/sv/",
+      "endpoint": [
+        {
+          "protocol": "pxweb_v1",
+          "url": "https://pxweb.umea.se/PXWeb/api/v1",
+          "language": [
+            "sv"
+          ],
+          "support": "deferred"
+        },
+        {
+          "protocol": "pxweb_web",
+          "url": "https://pxweb.umea.se/PXWeb/pxweb/sv/"
+        }
+      ],
+      "note": "57 tables. The API lists the database and answers metadata, but the JSON-stat2 POST returns 404 (json-stat works) and the Befolkningsprognoser database is not exposed by the API at all."
     },
     "pxweb2.karlstad.se": {
       "label": {
@@ -1071,6 +1263,22 @@
         }
       ],
       "owner": "SE2021006495"
+    },
+    "statistik.bra.se": {
+      "label": {
+        "sv": "Brås statistikdatabas"
+      },
+      "type": "statistics_database",
+      "software": "custom",
+      "owner": "SE2021000068",
+      "homepage": "https://statistik.bra.se/solwebb/",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://statistik.bra.se/solwebb/"
+        }
+      ],
+      "note": "Reported offences by type, region and period through the SolWebb web application; no API."
     },
     "statistik.csn.se": {
       "label": {
@@ -1198,7 +1406,11 @@
         }
       ],
       "owner": "SE2021005984",
-      "homepage": "https://statistik.mcf.se/PXWeb/pxweb"
+      "homepage": "https://statistik.mcf.se/PXWeb/pxweb",
+      "same_as": [
+        "https://statistik.msb.se"
+      ],
+      "note": "statistik.msb.se redirects here since MSB became MCF."
     },
     "statistik.norrkoping.se": {
       "label": {
@@ -1252,7 +1464,11 @@
         }
       ],
       "owner": "SE2021004151",
-      "homepage": "https://statistik.sjv.se/PXWeb/pxweb"
+      "homepage": "https://statistik.sjv.se/PXWeb/pxweb",
+      "same_as": [
+        "https://statistik.jordbruksverket.se/PXWeb"
+      ],
+      "note": "statistik.jordbruksverket.se serves the same 598 tables."
     },
     "statistik.tillvaxtanalys.se": {
       "label": {
@@ -1271,6 +1487,46 @@
       ],
       "owner": "SE2021006164",
       "homepage": "https://statistik.tillvaxtanalys.se/PxWeb/pxweb"
+    },
+    "statistik.uppsala.se": {
+      "label": {
+        "sv": "Uppsala kommuns statistikdatabas"
+      },
+      "type": "statistics_database",
+      "software": "pxweb",
+      "owner": "SE2120003005",
+      "homepage": "https://statistik.uppsala.se/PxWeb/pxweb/sv/",
+      "endpoint": [
+        {
+          "protocol": "pxweb_web",
+          "url": "https://statistik.uppsala.se/PxWeb/pxweb/sv/"
+        }
+      ],
+      "note": "API disabled: /api/v1/sv/ answers 400."
+    },
+    "statistik.vasteras.se": {
+      "label": {
+        "sv": "Västerås stads statistikdatabas"
+      },
+      "type": "statistics_database",
+      "software": "pxweb",
+      "owner": "SE2120002080",
+      "homepage": "https://statistik.vasteras.se/pxweb/sv/",
+      "endpoint": [
+        {
+          "protocol": "pxweb_v1",
+          "url": "https://statistik.vasteras.se/api/v1",
+          "language": [
+            "sv"
+          ],
+          "support": "deferred"
+        },
+        {
+          "protocol": "pxweb_web",
+          "url": "https://statistik.vasteras.se/pxweb/sv/"
+        }
+      ],
+      "note": "Several databases. The API answers the database list and metadata, but the JSON-stat2 POST returns 404 while json-stat and json work."
     },
     "statistikdatabas.goteborg.se": {
       "label": {
@@ -1299,7 +1555,21 @@
       "endpoint": [
         {
           "protocol": "pxweb_v2",
-          "url": "https://statistikdatabasen.scb.se/api/v2"
+          "url": "https://statistikdatabasen.scb.se/api/v2",
+          "language": [
+            "sv",
+            "en"
+          ]
+        },
+        {
+          "protocol": "pxweb_v1",
+          "url": "https://api.scb.se/OV0104/v1/doris",
+          "language": [
+            "sv",
+            "en"
+          ],
+          "support": "deferred",
+          "note": "The older API to the same database; v2 is the one read."
         }
       ],
       "owner": "SE2021000837"
@@ -1337,6 +1607,55 @@
       "owner": "SE2021006099",
       "operator": "SE5568540701"
     },
+    "utslappisiffror.naturvardsverket.se": {
+      "label": {
+        "sv": "Utsläpp i siffror"
+      },
+      "type": "indicator_database",
+      "software": "custom",
+      "owner": "SE2021001975",
+      "homepage": "https://utslappisiffror.naturvardsverket.se/",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://utslappisiffror.naturvardsverket.se/"
+        }
+      ],
+      "note": "Emissions per facility and substance from the pollutant release register. Web interface only."
+    },
+    "vantetider.se": {
+      "label": {
+        "sv": "Väntetider i vården"
+      },
+      "type": "indicator_database",
+      "software": "custom",
+      "owner": "SE2220000315",
+      "homepage": "https://www.vantetider.se/",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://www.vantetider.se/"
+        }
+      ],
+      "note": "SKR's waiting-time statistics for primary and specialised care, by region and unit. Web interface only, listed among SKR's data sources for knowledge management."
+    },
+    "vardenisiffror.se": {
+      "label": {
+        "sv": "Vården i siffror",
+        "en": "Vården i siffror"
+      },
+      "type": "indicator_database",
+      "software": "custom",
+      "owner": "SE2220000315",
+      "homepage": "https://vardenisiffror.se/",
+      "endpoint": [
+        {
+          "protocol": "vardenisiffror",
+          "url": "https://vardenisiffror.se/api/workspace/vardenisiffror"
+        }
+      ],
+      "note": "Health-care quality indicators from the national quality registries and other sources, published by SKR for the regions' knowledge management. The export API went public in 2026; 1,216 indicators."
+    },
     "vgregion.entryscape.net": {
       "label": {
         "sv": "Västra Götalandsregionens öppna data"
@@ -1353,5 +1672,8 @@
       "operator": "SE5568540701"
     }
   },
-  "ignore": []
+  "ignore": [
+    "pxwebb2017.vgregion.se",
+    "pxwebdemo.scb.se"
+  ]
 }
