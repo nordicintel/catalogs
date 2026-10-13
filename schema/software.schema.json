@@ -3,12 +3,11 @@
   "title": "Software",
   "description": "A product a catalog runs on. A vocabulary entry, not a product model.",
   "type": "object",
-  "required": ["id", "label", "protocol"],
+  "required": ["id", "label"],
   "additionalProperties": false,
   "properties": {
     "id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
     "label": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "string"}},
-    "protocol": {"type": "array", "items": {"type": "string"}, "description": "Protocol ids an install of this software normally exposes. May be empty for one-off sites."},
     "vendor": {"type": "string", "description": "Organisation id of the maker, when it is a Swedish organisation in the registry."},
     "homepage": {"type": "string", "format": "uri"},
     "note": {"type": "string"}

@@ -34,9 +34,9 @@ Statistikdatabasen, one for hvduppdrag and will have one for its geodata.
 | `source` | which registers and edits contributed | build |
 | `note` | free text | edits |
 
-A catalog has protocols, never kinds. What kind of record an endpoint yields
-(table, indicator, layer, study, file …) is the protocol's business and is set
-by the collector that reads it.
+A catalog says how to talk to it, never what records come out. What an
+endpoint yields (tables, indicators, layers, studies, files …) is decided by the
+collector that reads the protocol, and is modelled there.
 
 ### `protocols.json`
 
@@ -47,7 +47,6 @@ catalog never needs code unless its protocol is new.
 | field | meaning |
 |---|---|
 | `id` | adapter name, e.g. `pxweb_v2`, `entrystore`, `wfs_2` |
-| `kind[]` | what a collector reading it produces: `table`, `indicator`, `timeseries`, `layer`, `study`, `file`, `collection`, `dataset` |
 | `support` | `supported` (an adapter exists), `planned`, `deferred`, `none`, `undecided` |
 | `check` | the request the liveness check appends to an endpoint URL and the substring a live answer contains |
 
@@ -62,9 +61,13 @@ whether or not we read it yet.
 ### `software.json`
 
 Hand-maintained vocabulary of products catalogs run on, following
-`schema/software.schema.json`: id, label, the protocols an install normally
-exposes, and the vendor's organisation id when it is a Swedish organisation.
-It is a lookup, not a product model.
+`schema/software.schema.json`: id, label, homepage, and the vendor's
+organisation id when it is a Swedish organisation. It answers "what does it run
+on"; the endpoints answer "how do we talk to it". The two are kept apart
+because one product speaks several protocols (PxWeb: API 1, API 2, the web
+tables) and one protocol is spoken by several products (WFS by GeoServer,
+ArcGIS and QGIS Server; DCAT-AP by everything). Which protocols a software
+speaks is read off `catalogs.json`, not declared here.
 
 ## The input you edit
 
@@ -130,12 +133,14 @@ check failed. `python scripts/build.py --no-check` skips it.
 | path | what |
 |---|---|
 | `snapshots/<register>.json` | the reduced result of the last successful fetch of each register, committed so a build still runs when a register is down |
+| `dist/<product>.json`, `dist/<product>.csv` | the three product files in every published format: a copy of the JSON and a CSV with one row per record, same name, only the extension differs. Nested fields are dotted columns (`label.sv`), lists are `\|`-joined, and a list of objects gives one column per field with the items aligned by position (`endpoint.protocol`, `endpoint.url`). Derived from the JSON, so it changes exactly when the product does |
 | `reports/<date>.json` | written by a build that changed a catalog or found a register with no snapshot: per register `fetched`, `stale` or `failed`, counts by type and protocol, added and removed ids, catalogs `without_owner` (the worklist for edits), registrations not yet counted as catalogs. `generated` in `catalogs.json` is the date of the last content change |
 
 ## Build and check
 
 ```sh
-python scripts/build.py     # fetch registers, rewrite catalogs.json, snapshots/, reports/
+python scripts/build.py     # fetch registers, rewrite catalogs.json, dist/, snapshots/, reports/
+python scripts/export.py catalogs.json protocols.json software.json  # rewrite dist/ alone
 python scripts/validate.py  # schemas and references across all files; run before committing
 ```
 

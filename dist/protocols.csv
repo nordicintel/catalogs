@@ -1,0 +1,33 @@
+id,check.accept,check.expect,check.path,documentation,label.en,label.sv,note,support
+api,,,,,Custom HTTP API,Egen HTTP-API,An API we have not classified under a shared protocol. Each one is its own adapter if it is ever read.,undecided
+arcgis_hub,,"""dataset""",/data.json,,ArcGIS Hub,ArcGIS Hub,,planned
+arcgis_rest,,currentVersion,?f=json,,ArcGIS REST services,ArcGIS REST services,,planned
+atom,,<feed,,,Atom feed (INSPIRE download service),Atom-flöde (INSPIRE nedladdningstjänst),"A feed of downloadable files per dataset, the INSPIRE pre-defined download service.",planned
+ckan_v3,,"""success"": true",/api/3/action/package_search?rows=0,,CKAN API v3,CKAN API v3,,planned
+csw_2,,Capabilities,?service=CSW&request=GetCapabilities,,OGC CSW 2.0.2,OGC CSW 2.0.2,Metadata catalog protocol; Geodataportalen speaks it.,planned
+dcat_ap,,dcat,,,DCAT-AP file,DCAT-AP-fil,"A published RDF file (RDF/XML, Turtle, JSON-LD). The URL is the file.",planned
+entrystore,,"""results""",/store/search?type=solr&limit=1&query=rdfType:http%5C://www.w3.org/ns/dcat%23Dataset,,EntryStore (EntryScape),EntryStore (EntryScape),Catalog metadata through the store's Solr search; tabular data through the install's RowStore where one exists.,supported
+file,,,,,File,Fil,"A downloadable file at a stable URL, for data reachable no other way.",planned
+forsakringskassan,,"""reports""",/reports,,Försäkringskassan statistics API,Försäkringskassans statistik-API,,supported
+huwise,,total_count,/api/explore/v2.1/catalog/datasets?limit=0,,Huwise Explore API v2,Huwise Explore API v2,Formerly Opendatasoft.,undecided
+kb_bibstat,,@context,,,KB library statistics,KB Biblioteksstatistik,"JSON-LD RDF Data Cube, one observation per library and year; 793 terms. Deferred because aggregation to kommun or län is ours to do.",deferred
+kolada_v3,,"""values""",/kpi?page_size=1,https://api.kolada.se/v3/openapi.json,Kolada API v3,Kolada API v3,,supported
+oai_pmh,,Identify,?verb=Identify,,OAI-PMH 2.0,OAI-PMH 2.0,researchdata.se and the DiVA installs. DDI where the repository offers it.,planned
+ogc_features,,"""collections""",/collections?f=json,,OGC API Features,OGC API Features,,planned
+ogc_records,,"""collections""",/collections?f=json,,OGC API Records,OGC API Records,The catalogue API ArcGIS Hub sites expose beside their DCAT feeds.,planned
+pxweb_v1,,dbid,/sv,https://www.scb.se/en/services/open-data-api/api-for-the-statistical-database/,PxWeb API v1,PxWeb API v1,Base URL ends with /api/v1; the language code follows.,supported
+pxweb_v2,,apiVersion,/config,https://github.com/PxWeb2/PxWebApi,PxWeb API 2,PxWeb API 2,,supported
+pxweb_web,text/html,,,,PxWeb web interface,PxWeb webbgränssnitt,A PxWeb install whose API is disabled or broken. Recorded so no Swedish instance is lost; a scraping adapter for the web interface may come.,planned
+riksbank,,"""groupId""",/swea/v1/Groups,https://developer.api.riksbank.se/,Riksbank API,Riksbankens API,,supported
+smhi_emissions,,"""sector""",/getfilteroptions/,,National emissions database API,Nationella emissionsdatabasen API,,supported
+socialstyrelsen_dataanalys,,"""count""",/chart/,,Socialstyrelsen data analysis API,Socialstyrelsens dataanalys API,,supported
+socialstyrelsen_sdb,,"""namn""",/sv,,Socialstyrelsen statistics database API,Socialstyrelsens statistikdatabas API,,supported
+sparql,,,?query=ASK%20%7B%3Fs%20%3Fp%20%3Fo%7D,,SPARQL,SPARQL,,undecided
+stac,,"""collections""",/collections,,STAC API,STAC API,SpatioTemporal Asset Catalog; Digital Earth Sweden runs one.,planned
+tillvaxtverket,,openapi,/api.yaml,,Tillväxtverket open data,Tillväxtverkets öppna data,,supported
+trafa,,,/structure,,Trafikanalys API,Trafikanalys API,Trafikanalys is wound up 2026-12-31 and goes into Tillväxtanalys; the endpoint may move.,supported
+uka_statistik,,"""name""",/indicators,,UKÄ statistics API,UKÄ statistik-API,,supported
+vardenisiffror,,"""indicators""",/options,https://vardenisiffror.se/dataexport/api,Vården i siffror export API,Vården i siffror export-API,"GET /options lists 1,216 indicators with data source and unit, /units the regions, kommuner and hospitals, /export the values by indicator, unit, year and gender, paged up to 1,000,000 rows.",planned
+web,text/html,,,,Web interface without an API,Webbgränssnitt utan API,Tables or indicators shown on a site with no machine interface. A site-specific scraper would be its own adapter.,undecided
+wfs_2,,Capabilities,?service=WFS&request=GetCapabilities,,OGC WFS 2.0,OGC WFS 2.0,,planned
+wms_1_3,,Capabilities,?service=WMS&request=GetCapabilities,,OGC WMS 1.3,OGC WMS 1.3,"Images, not data. Recorded so a geoportal's services are complete.",deferred

@@ -1,0 +1,58 @@
+{
+  "software": {
+    "pxweb": {
+      "id": "pxweb",
+      "label": {"sv": "PxWeb", "en": "PxWeb"},
+      "vendor": "SE2021000837",
+      "homepage": "https://www.scb.se/en/services/statistical-programs-for-px-files/px-web/"
+    },
+    "entryscape": {
+      "id": "entryscape",
+      "label": {"sv": "EntryScape", "en": "EntryScape"},
+      "vendor": "SE5568540701",
+      "homepage": "https://entryscape.com/"
+    },
+    "ckan": {
+      "id": "ckan",
+      "label": {"sv": "CKAN", "en": "CKAN"},
+      "homepage": "https://ckan.org/"
+    },
+    "huwise": {
+      "id": "huwise",
+      "label": {"sv": "Huwise", "en": "Huwise"},
+      "homepage": "https://huwise.com/",
+      "note": "Formerly Opendatasoft."
+    },
+    "arcgis": {
+      "id": "arcgis",
+      "label": {"sv": "ArcGIS", "en": "ArcGIS"},
+      "homepage": "https://www.esri.com/"
+    },
+    "geoserver": {
+      "id": "geoserver",
+      "label": {"sv": "GeoServer", "en": "GeoServer"},
+      "homepage": "https://geoserver.org/"
+    },
+    "geonetwork": {
+      "id": "geonetwork",
+      "label": {"sv": "GeoNetwork", "en": "GeoNetwork"},
+      "homepage": "https://geonetwork-opensource.org/"
+    },
+    "diva": {
+      "id": "diva",
+      "label": {"sv": "DiVA", "en": "DiVA"},
+      "vendor": "SE2021002932",
+      "homepage": "https://www.diva-portal.org/"
+    },
+    "figshare": {
+      "id": "figshare",
+      "label": {"sv": "Figshare", "en": "Figshare"},
+      "homepage": "https://figshare.com/"
+    },
+    "custom": {
+      "id": "custom",
+      "label": {"sv": "Egenutvecklad", "en": "Custom"},
+      "note": "A one-off site or API. The endpoints say what it speaks."
+    }
+  }
+}

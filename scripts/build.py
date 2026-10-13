@@ -19,6 +19,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import check  # noqa: E402
+import export  # noqa: E402
 from sources import data_europa, dataportal, organisations  # noqa: E402
 from sources.organisations import domain, name  # noqa: E402
 from sources.common import load_json  # noqa: E402
@@ -227,11 +228,11 @@ def main():
             r["status"] = "active" if {"ok", "restricted"} & set(outcomes) else "inactive" if outcomes else "unknown"
     else:
         registers["check"] = check.run(catalogs, protocols, previous, report["date"])
-        if "check" in registers:
-            for r in catalogs.values():
-                r["source"] = sorted(set(r["source"]) | ({"check"} if any(e.get("checked") for e in r["endpoint"]) else set()))
+    for r in catalogs.values():  # a carried result is still a result the check gave
+        r["source"] = sorted(set(r["source"]) | ({"check"} if any(e.get("checked") for e in r["endpoint"]) else set()))
     generated = previous_output.get("generated", report["date"]) if catalogs == previous else report["date"]
     dump(OUTPUT, {"generated": generated, "count": len(catalogs), "catalog": catalogs})
+    export.export(OUTPUT, ROOT / "protocols.json", ROOT / "software.json")
 
     added = sorted(set(catalogs) - set(previous))
     removed = sorted(set(previous) - set(catalogs))

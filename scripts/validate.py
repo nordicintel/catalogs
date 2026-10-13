@@ -78,9 +78,6 @@ for key, s in software.items():
     if key != s.get("id"):
         errors.append(f"software.json: key {key} != id {s.get('id')}")
     check(s, software_schema, f"software.json {key}")
-    for proto in s.get("protocol", []):
-        if proto not in protocols:
-            errors.append(f"software.json {key}: protocol {proto} not in protocols.json")
     if s.get("vendor") and orgs and s["vendor"] not in orgs:
         errors.append(f"software.json {key}: vendor {s['vendor']} not in organisations")
 

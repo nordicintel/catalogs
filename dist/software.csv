@@ -1,0 +1,11 @@
+id,homepage,label.en,label.sv,note,vendor
+pxweb,https://www.scb.se/en/services/statistical-programs-for-px-files/px-web/,PxWeb,PxWeb,,SE2021000837
+entryscape,https://entryscape.com/,EntryScape,EntryScape,,SE5568540701
+ckan,https://ckan.org/,CKAN,CKAN,,
+huwise,https://huwise.com/,Huwise,Huwise,Formerly Opendatasoft.,
+arcgis,https://www.esri.com/,ArcGIS,ArcGIS,,
+geoserver,https://geoserver.org/,GeoServer,GeoServer,,
+geonetwork,https://geonetwork-opensource.org/,GeoNetwork,GeoNetwork,,
+diva,https://www.diva-portal.org/,DiVA,DiVA,,SE2021002932
+figshare,https://figshare.com/,Figshare,Figshare,,
+custom,,Custom,Egenutvecklad,A one-off site or API. The endpoints say what it speaks.,

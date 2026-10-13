@@ -3,65 +3,55 @@
     "pxweb": {
       "id": "pxweb",
       "label": {"sv": "PxWeb", "en": "PxWeb"},
-      "protocol": ["pxweb_v1", "pxweb_v2"],
       "vendor": "SE2021000837",
       "homepage": "https://www.scb.se/en/services/statistical-programs-for-px-files/px-web/"
     },
     "entryscape": {
       "id": "entryscape",
       "label": {"sv": "EntryScape", "en": "EntryScape"},
-      "protocol": ["entrystore", "dcat_ap"],
       "vendor": "SE5568540701",
       "homepage": "https://entryscape.com/"
     },
     "ckan": {
       "id": "ckan",
       "label": {"sv": "CKAN", "en": "CKAN"},
-      "protocol": ["ckan_v3", "dcat_ap"],
       "homepage": "https://ckan.org/"
     },
     "huwise": {
       "id": "huwise",
       "label": {"sv": "Huwise", "en": "Huwise"},
-      "protocol": ["huwise", "dcat_ap"],
       "homepage": "https://huwise.com/",
       "note": "Formerly Opendatasoft."
     },
     "arcgis": {
       "id": "arcgis",
       "label": {"sv": "ArcGIS", "en": "ArcGIS"},
-      "protocol": ["arcgis_rest", "arcgis_hub", "wfs_2", "wms_1_3"],
       "homepage": "https://www.esri.com/"
     },
     "geoserver": {
       "id": "geoserver",
       "label": {"sv": "GeoServer", "en": "GeoServer"},
-      "protocol": ["wfs_2", "wms_1_3", "ogc_features"],
       "homepage": "https://geoserver.org/"
     },
     "geonetwork": {
       "id": "geonetwork",
       "label": {"sv": "GeoNetwork", "en": "GeoNetwork"},
-      "protocol": ["csw_2"],
       "homepage": "https://geonetwork-opensource.org/"
     },
     "diva": {
       "id": "diva",
       "label": {"sv": "DiVA", "en": "DiVA"},
-      "protocol": ["oai_pmh"],
       "vendor": "SE2021002932",
       "homepage": "https://www.diva-portal.org/"
     },
     "figshare": {
       "id": "figshare",
       "label": {"sv": "Figshare", "en": "Figshare"},
-      "protocol": ["oai_pmh"],
       "homepage": "https://figshare.com/"
     },
     "custom": {
       "id": "custom",
       "label": {"sv": "Egenutvecklad", "en": "Custom"},
-      "protocol": [],
       "note": "A one-off site or API. The endpoints say what it speaks."
     }
   }
