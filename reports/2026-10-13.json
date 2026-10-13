@@ -9,7 +9,7 @@
     "research_repository": 90,
     "statistics_database": 41
   },
-  "changed": 2,
+  "changed": 3,
   "count": 1057,
   "date": "2026-10-13",
   "protocol": {
@@ -47,11 +47,11 @@
   "register": {
     "check": {
       "endpoints": 734,
-      "error": 51,
-      "ok": 594,
+      "error": 52,
+      "ok": 596,
       "restricted": 13,
       "status": "fetched",
-      "unreachable": 76
+      "unreachable": 73
     },
     "data_europa": {
       "rows": 74,
@@ -69,9 +69,9 @@
   "removed": [],
   "status": {
     "error": 497,
-    "ok": 515,
+    "ok": 516,
     "restricted": 7,
-    "unreachable": 38
+    "unreachable": 37
   },
   "without_owner": [
     {

@@ -4641,8 +4641,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
-            "result": "unreachable"
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "arcgis_hub",
           "url": "https://data-jonkoping.opendata.arcgis.com"
@@ -4668,8 +4668,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: The read operation timed out",
-            "result": "unreachable"
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "dcat_ap",
           "url": "https://data-jonkoping.opendata.arcgis.com/data.json"
@@ -4721,8 +4721,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: The read operation timed out",
+            "result": "unreachable"
           },
           "protocol": "dcat_ap",
           "url": "https://data-kalmar.opendata.arcgis.com/api/feed/dcat-us/1.1.json"
@@ -7654,8 +7654,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: The read operation timed out",
-            "result": "unreachable"
+            "detail": "HTTP 500",
+            "result": "error"
           },
           "protocol": "api",
           "url": "https://esg-dn1.nsc.liu.se/esg-search/search"
@@ -7663,8 +7663,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: The read operation timed out",
-            "result": "unreachable"
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "api",
           "url": "https://esg-dn1.nsc.liu.se/thredds/catalog/catalog.xml"
@@ -7681,7 +7681,7 @@
         "check",
         "edits"
       ],
-      "status": "unreachable"
+      "status": "ok"
     },
     "esg-dn2.nsc.liu.se": {
       "catalog_type": "research_repository",
