@@ -1,26 +1,28 @@
 {
-  "added": [],
+  "added": [
+    "geodatakatalogen.naturvardsverket.se"
+  ],
   "catalog_type": {
     "api": 26,
     "file_collection": 2,
     "geoportal": 260,
     "indicator_database": 13,
-    "open_data_portal": 626,
+    "open_data_portal": 625,
     "research_repository": 90,
     "statistics_database": 41
   },
-  "changed": 5,
-  "count": 1058,
+  "changed": 82,
+  "count": 1057,
   "date": "2026-10-13",
   "protocol": {
-    "api": 68,
-    "arcgis_hub": 6,
-    "arcgis_rest": 57,
+    "api": 67,
+    "arcgis_hub": 7,
+    "arcgis_rest": 64,
     "atom": 31,
     "ckan_v3": 10,
-    "csw_2": 1,
+    "csw_2": 2,
     "dcat_ap": 675,
-    "entrystore": 97,
+    "entrystore": 98,
     "forsakringskassan": 1,
     "huwise": 1,
     "kb_bibstat": 1,
@@ -40,18 +42,18 @@
     "trafa": 1,
     "uka_statistik": 1,
     "vardenisiffror": 1,
-    "web": 201,
-    "wfs_2": 53,
-    "wms_1_3": 66
+    "web": 200,
+    "wfs_2": 54,
+    "wms_1_3": 67
   },
   "register": {
     "check": {
-      "endpoints": 724,
-      "error": 50,
-      "ok": 590,
-      "restricted": 12,
+      "endpoints": 734,
+      "error": 52,
+      "ok": 617,
+      "restricted": 13,
       "status": "fetched",
-      "unreachable": 72
+      "unreachable": 52
     },
     "data_europa": {
       "rows": 74,
@@ -66,12 +68,15 @@
       "status": "fetched"
     }
   },
-  "removed": [],
+  "removed": [
+    "metadatakatalogen.naturvardsverket.se",
+    "vgregion.se"
+  ],
   "status": {
-    "error": 497,
-    "ok": 514,
+    "error": 498,
+    "ok": 530,
     "restricted": 7,
-    "unreachable": 40
+    "unreachable": 22
   },
   "without_owner": [
     {
@@ -105,19 +110,9 @@
       "title": ""
     },
     {
-      "id": "forvaltningsrattenimalmo.domstol.se",
-      "publisher": "",
-      "title": "Förvaltningsrätten i Malmö och Migrationsdomstol"
-    },
-    {
       "id": "gymnasio.se",
       "publisher": "",
       "title": "Gymnasio — öppna data om svenska gymnasieskolor"
-    },
-    {
-      "id": "hudiksvallstingsratt.domstol.se",
-      "publisher": "",
-      "title": "Hudiksvalls tingsrätt"
     },
     {
       "id": "katalog.datahotell.se",
@@ -130,11 +125,6 @@
       "title": "Kommun Kartan"
     },
     {
-      "id": "landstingetsormland.se",
-      "publisher": "",
-      "title": "Landstinget Sörmland"
-    },
-    {
       "id": "offwegooo.com",
       "publisher": "https://offwegooo.com/#org",
       "title": "Données ouvertes Off We Gooo"
@@ -143,11 +133,6 @@
       "id": "raw.githubusercontent.com",
       "publisher": "",
       "title": "Svenska Opinionsundersökningar"
-    },
-    {
-      "id": "svea.se",
-      "publisher": "",
-      "title": "Svea Hovrätt"
     },
     {
       "id": "vardbetyg.se",
@@ -179,22 +164,7 @@
     "ext-webbgis.lansstyrelsen.se/ostgotakartan",
     "ext-webbgis.lansstyrelsen.se/planeringsunderlag_radgivning",
     "geo4.vic-metria.nu",
-    "geodata.ystad.se",
-    "geoportal.kiruna.se",
-    "geoportalen.lund.se",
-    "geoserver.gis.lu.se",
     "gis.skanetrafiken.se",
-    "gisportal.boden.se",
-    "gisportal.pitea.se",
-    "karta.atvidaberg.se",
-    "kartor.sfv.se",
-    "kartportal.helsingborg.se",
-    "metadata.havochvatten.se",
-    "metadatakatalogen.naturvardsverket.se",
-    "openarchive.ki.se",
-    "opendata.uppsala.se",
-    "oppnadata.naturvardsverket.se",
-    "su.figshare.com",
-    "vgregion.se"
+    "kartportal.helsingborg.se"
   ]
 }

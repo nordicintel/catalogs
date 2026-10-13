@@ -120,10 +120,12 @@
         "en": "Figshare"
       },
       "protocol": [
-        "oai_pmh"
+        "oai_pmh",
+        "api"
       ],
       "homepage": "https://figshare.com/",
-      "documentation": "https://docs.figshare.com/"
+      "documentation": "https://docs.figshare.com/",
+      "note": "Institutional portals expose their own REST and GraphQL API; OAI-PMH is served centrally by api.figshare.com."
     },
     "custom": {
       "id": "custom",

@@ -323,7 +323,8 @@
         }
       ],
       "homepage": "https://borlange.maps.arcgis.com/home/index.html",
-      "owner": "SE2120002239"
+      "owner": "SE2120002239",
+      "note": "Map viewer only; its services are not exposed on this host."
     },
     "bredbandskartan.pts.se": {
       "label": {
@@ -1544,7 +1545,8 @@
         }
       ],
       "homepage": "https://experience.arcgis.com/experience/bd33a3829b804d1ab3af4ba2843db4ed",
-      "owner": "SE2120001553"
+      "owner": "SE2120001553",
+      "note": "Map viewer only; its services are not exposed on this host."
     },
     "explorer.digitalearth.se": {
       "label": {
@@ -1616,7 +1618,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/5c335b22-8280-47d4-b6d1-53543fdc82e1/",
-      "owner": "SE2021002320"
+      "owner": "SE2021002320",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/6126a2ea-64b5-4e91-866e-841df8beb4aa": {
       "label": {
@@ -1631,7 +1634,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/6126a2ea-64b5-4e91-866e-841df8beb4aa/",
-      "owner": "SE2021002296"
+      "owner": "SE2021002296",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/7592d2f1-4532-4323-a924-00e5f57361de": {
       "label": {
@@ -1646,7 +1650,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/7592d2f1-4532-4323-a924-00e5f57361de/",
-      "owner": "SE2021002452"
+      "owner": "SE2021002452",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/77025c9e-2a61-43b6-8eaf-8d08272d9eee": {
       "label": {
@@ -1661,7 +1666,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/77025c9e-2a61-43b6-8eaf-8d08272d9eee/",
-      "owner": "SE2021002437"
+      "owner": "SE2021002437",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/7e956bfa-18d1-492c-8bab-5b9e5d3d088d": {
       "label": {
@@ -1676,7 +1682,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/7e956bfa-18d1-492c-8bab-5b9e5d3d088d/",
-      "owner": "SE2021002262"
+      "owner": "SE2021002262",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/ce71a317-f67f-4add-8fd0-1abeaf3707f9": {
       "label": {
@@ -1691,7 +1698,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/ce71a317-f67f-4add-8fd0-1abeaf3707f9/",
-      "owner": "SE2021002395"
+      "owner": "SE2021002395",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/halland_informationskarta": {
       "label": {
@@ -1706,7 +1714,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/halland_informationskarta/",
-      "owner": "SE2021002353"
+      "owner": "SE2021002353",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/lanskarta-norrbotten": {
       "label": {
@@ -1721,7 +1730,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/lanskarta-norrbotten/",
-      "owner": "SE2021002478"
+      "owner": "SE2021002478",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/lstab_lanskarta": {
       "label": {
@@ -1736,7 +1746,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/lstab_lanskarta/",
-      "owner": "SE2021002247"
+      "owner": "SE2021002247",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/lstac_vasterbotten_lanskarta": {
       "label": {
@@ -1751,7 +1762,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/lstac_vasterbotten_lanskarta/",
-      "owner": "SE2021002460"
+      "owner": "SE2021002460",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/lstc_mark_vattenanv_externt": {
       "label": {
@@ -1766,7 +1778,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/lstc_mark_vattenanv_externt/",
-      "owner": "SE2021002254"
+      "owner": "SE2021002254",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/lstf_publik_webbkarta": {
       "label": {
@@ -1781,7 +1794,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/lstf_publik_webbkarta/",
-      "owner": "SE2021002288"
+      "owner": "SE2021002288",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/lsti_gotlandskarta_extern": {
       "label": {
@@ -1796,7 +1810,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/lsti_gotlandskarta_extern/",
-      "owner": "SE2021002312"
+      "owner": "SE2021002312",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/lsto_informationskartan": {
       "label": {
@@ -1811,7 +1826,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/lsto_informationskartan/",
-      "owner": "SE2021002361"
+      "owner": "SE2021002361",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/lstt_informationskarta": {
       "label": {
@@ -1826,7 +1842,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/lstt_informationskarta/",
-      "owner": "SE2021002403"
+      "owner": "SE2021002403",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/lstu_lanskarta_vastmanland": {
       "label": {
@@ -1841,7 +1858,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/lstu_lanskarta_vastmanland/",
-      "owner": "SE2021002411"
+      "owner": "SE2021002411",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/lstw_kartvisare": {
       "label": {
@@ -1856,7 +1874,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/lstw_kartvisare/",
-      "owner": "SE2021002429"
+      "owner": "SE2021002429",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/lsty_externt_webbgis": {
       "label": {
@@ -1871,7 +1890,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/lsty_externt_webbgis/",
-      "owner": "SE2021002445"
+      "owner": "SE2021002445",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/ostgotakartan": {
       "label": {
@@ -1886,7 +1906,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/ostgotakartan/",
-      "owner": "SE2021002270"
+      "owner": "SE2021002270",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "ext-webbgis.lansstyrelsen.se/planeringsunderlag_radgivning": {
       "label": {
@@ -1901,7 +1922,8 @@
         }
       ],
       "homepage": "https://ext-webbgis.lansstyrelsen.se/planeringsunderlag_radgivning/",
-      "owner": "SE2021002346"
+      "owner": "SE2021002346",
+      "note": "ArcGIS web app over Länsstyrelsernas services (ext-geodata*.lansstyrelsen.se); no services of its own."
     },
     "facil.falkenberg.se": {
       "label": {
@@ -2075,7 +2097,8 @@
       ],
       "homepage": "http://geo4.vic-metria.nu:80/geoserver",
       "owner": "SE5567992242",
-      "operator": "SE5567992242"
+      "operator": "SE5567992242",
+      "note": "No GeoServer answers on the host since 2026-10-13; the services may have moved."
     },
     "geodata.almhult.se": {
       "label": {
@@ -2305,12 +2328,35 @@
       "software": "arcgis",
       "endpoint": [
         {
+          "protocol": "arcgis_rest",
+          "url": "https://geodata.ystad.se/arcgis/rest/services"
+        },
+        {
           "protocol": "web",
           "url": "https://geodata.ystad.se/portal/apps/webappviewer/index.html"
         }
       ],
       "homepage": "https://geodata.ystad.se/portal/apps/webappviewer/index.html?id=059f22c0a6614ccdb6158426a700230f",
       "owner": "SE2120001181"
+    },
+    "geodatakatalogen.naturvardsverket.se": {
+      "label": {
+        "sv": "Metadatakatalogen - Naturvårdsverket"
+      },
+      "catalog_type": "geoportal",
+      "software": "geonetwork",
+      "endpoint": [
+        {
+          "protocol": "csw_2",
+          "url": "https://geodatakatalogen.naturvardsverket.se/geonetwork/srv/eng/csw"
+        }
+      ],
+      "homepage": "https://geodatakatalogen.naturvardsverket.se/geonetwork/",
+      "owner": "SE2021001975",
+      "same_as": [
+        "https://metadatakatalogen.naturvardsverket.se/"
+      ],
+      "note": "metadatakatalogen.naturvardsverket.se redirects here since 2026."
     },
     "geoportal.goliska.se": {
       "label": {
@@ -2365,6 +2411,10 @@
       "software": "arcgis",
       "endpoint": [
         {
+          "protocol": "arcgis_rest",
+          "url": "https://geoportal.kiruna.se/arcgis/rest/services"
+        },
+        {
           "protocol": "web",
           "url": "https://geoportal.kiruna.se/portal/apps/webappviewer/index.html"
         }
@@ -2379,6 +2429,10 @@
       "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://geoportalen.lund.se/arcgis/rest/services"
+        },
         {
           "protocol": "web",
           "url": "https://geoportalen.lund.se/portal/apps/instant/filtergallery/index.html"
@@ -2431,6 +2485,14 @@
         {
           "protocol": "web",
           "url": "https://geoserver.gis.lu.se/geoserver/web"
+        },
+        {
+          "protocol": "wfs_2",
+          "url": "https://geoserver.gis.lu.se/geoserver/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://geoserver.gis.lu.se/geoserver/ows"
         }
       ],
       "homepage": "https://geoserver.gis.lu.se/geoserver/web/",
@@ -2787,6 +2849,10 @@
       "software": "arcgis",
       "endpoint": [
         {
+          "protocol": "arcgis_rest",
+          "url": "https://gisportal.boden.se/server/rest/services"
+        },
+        {
           "protocol": "web",
           "url": "https://gisportal.boden.se/portal/apps/experiencebuilder/experience"
         }
@@ -2831,6 +2897,10 @@
       "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gisportal.pitea.se/arcgis/rest/services"
+        },
         {
           "protocol": "web",
           "url": "https://gisportal.pitea.se/portal/apps/experiencebuilder/experience"
@@ -3142,6 +3212,10 @@
       "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://karta.atvidaberg.se/arcgis/rest/services"
+        },
         {
           "protocol": "web",
           "url": "https://karta.atvidaberg.se/portal/home"
@@ -4266,6 +4340,10 @@
       "software": "arcgis",
       "endpoint": [
         {
+          "protocol": "arcgis_rest",
+          "url": "https://kartor.sfv.se/server/rest/services"
+        },
+        {
           "protocol": "web",
           "url": "https://kartor.sfv.se/portal/home"
         }
@@ -4395,7 +4473,8 @@
         }
       ],
       "homepage": "https://kartportal.helsingborg.se/portal/home/",
-      "owner": "SE2120001157"
+      "owner": "SE2120001157",
+      "note": "Map viewer only; its services are not exposed on this host."
     },
     "kartportal.lulea.se": {
       "label": {
@@ -4909,6 +4988,10 @@
       "software": "entryscape",
       "endpoint": [
         {
+          "protocol": "entrystore",
+          "url": "https://metadata.havochvatten.se"
+        },
+        {
           "protocol": "web",
           "url": "https://metadata.havochvatten.se"
         }
@@ -4932,21 +5015,6 @@
       "homepage": "https://metadata.strangnas.se",
       "owner": "SE2120000365"
     },
-    "metadatakatalogen.naturvardsverket.se": {
-      "label": {
-        "sv": "Metadatakatalogen - Naturvårdsverket"
-      },
-      "catalog_type": "geoportal",
-      "software": "geonetwork",
-      "endpoint": [
-        {
-          "protocol": "api",
-          "url": "https://metadatakatalogen.naturvardsverket.se/metadatakatalogen/srv/api/records"
-        }
-      ],
-      "homepage": "https://metadatakatalogen.naturvardsverket.se/metadatakatalogen/",
-      "owner": "SE2021001975"
-    },
     "mi.se": {
       "label": {
         "sv": "Medlingsinstitutets statistikdatabas"
@@ -4964,6 +5032,10 @@
       ],
       "owner": "SE2021005174",
       "homepage": "https://www.mi.se/PXWeb/pxweb"
+    },
+    "mia.eu": {
+      "owner": "SE2021004169",
+      "note": "Registered on dataportal.se under a misspelt name and the predecessor's domain; the body is Myndigheten för familjerätt och föräldraskapsstöd."
     },
     "miljodata.slu.se": {
       "label": {
@@ -5244,6 +5316,10 @@
       "software": "arcgis",
       "endpoint": [
         {
+          "protocol": "arcgis_hub",
+          "url": "https://opendata.uppsala.se"
+        },
+        {
           "protocol": "dcat_ap",
           "url": "https://opendata.uppsala.se/api/feed/dcat-ap/2.0.1.json"
         },
@@ -5313,7 +5389,7 @@
         "sv": "Naturvårdsverkets öppna data"
       },
       "catalog_type": "open_data_portal",
-      "software": "entryscape",
+      "software": "custom",
       "endpoint": [
         {
           "protocol": "web",
@@ -5321,7 +5397,8 @@
         }
       ],
       "homepage": "https://oppnadata.naturvardsverket.se",
-      "owner": "SE2021001975"
+      "owner": "SE2021001975",
+      "note": "EntryScape Blocks page listing Naturvårdsverket's datasets from admin.dataportal.se; no store of its own."
     },
     "oppnadata.olofstrom.se": {
       "label": {
@@ -6893,21 +6970,6 @@
       "owner": "SE2321000131",
       "operator": "SE5568540701"
     },
-    "vgregion.se": {
-      "label": {
-        "sv": "Dataportal Väst"
-      },
-      "catalog_type": "open_data_portal",
-      "software": "entryscape",
-      "endpoint": [
-        {
-          "protocol": "web",
-          "url": "https://www.vgregion.se/dataportalvast"
-        }
-      ],
-      "homepage": "https://www.vgregion.se/dataportalvast",
-      "owner": "SE2321000131"
-    },
     "vti.diva-portal.org": {
       "label": {
         "sv": "Statens väg- och transportforskningsinstitut DiVA"
@@ -7046,21 +7108,18 @@
       ],
       "homepage": "https://webmap.vbenergi.se/bios/dpwebmap/dsg/contractor/cust_vbe/",
       "owner": "SE5565656864"
-    },
-    "mia.eu": {
-      "owner": "SE2021004169",
-      "note": "Registered on dataportal.se under a misspelt name and the predecessor's domain; the body is Myndigheten för familjerätt och föräldraskapsstöd."
     }
   },
   "ignore": [
     "beta.vardenisiffror.se",
     "ckan-malmo.dataplatform.se",
     "helsingborg.opendatasoft.com",
+    "my.org",
     "pxwebb2017.vgregion.se",
     "pxwebdemo.scb.se",
     "stationsregistertest.miljodatasamverkan.se",
     "test.ikartan.se",
     "tillvaxtdata.tillvaxtverket.se",
-    "my.org"
+    "vgregion.se"
   ]
 }
