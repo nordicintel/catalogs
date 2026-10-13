@@ -242,6 +242,22 @@
         "expect": "\"collections\""
       }
     },
+    "ogc_records": {
+      "id": "ogc_records",
+      "label": {
+        "sv": "OGC API Records",
+        "en": "OGC API Records"
+      },
+      "kind": [
+        "dataset"
+      ],
+      "support": "planned",
+      "check": {
+        "path": "/collections?f=json",
+        "expect": "\"collections\""
+      },
+      "note": "The catalogue API ArcGIS Hub sites expose beside their DCAT feeds."
+    },
     "pxweb_v1": {
       "id": "pxweb_v1",
       "label": {
@@ -367,6 +383,23 @@
         "path": "?query=ASK%20%7B%3Fs%20%3Fp%20%3Fo%7D",
         "expect": ""
       }
+    },
+    "stac": {
+      "id": "stac",
+      "label": {
+        "sv": "STAC API",
+        "en": "STAC API"
+      },
+      "kind": [
+        "layer",
+        "file"
+      ],
+      "support": "planned",
+      "check": {
+        "path": "/collections",
+        "expect": "\"collections\""
+      },
+      "note": "SpatioTemporal Asset Catalog; Digital Earth Sweden runs one."
     },
     "tillvaxtverket": {
       "id": "tillvaxtverket",

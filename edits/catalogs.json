@@ -1,5 +1,65 @@
 {
   "catalog": {
+    "agol.orust.se": {
+      "label": {
+        "sv": "Orust ArcGIS Services Geoportal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://agol.orust.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://agol.orust.se/arcgis/rest/services",
+      "owner": "SE2120001314"
+    },
+    "altermagnets.anyterial.se": {
+      "label": {
+        "sv": "Altermagnets Database"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://altermagnets.anyterial.se"
+        }
+      ],
+      "homepage": "https://altermagnets.anyterial.se/",
+      "owner": "SE2021003096"
+    },
+    "ansluta.kraftringen.se": {
+      "label": {
+        "sv": "Kraftringen Installweb"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ansluta.kraftringen.se"
+        }
+      ],
+      "homepage": "https://ansluta.kraftringen.se/",
+      "owner": "SE5561009852"
+    },
+    "api-portal.artdatabanken.se": {
+      "label": {
+        "sv": "SLU Artdatabanken API portal"
+      },
+      "type": "api",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://api-portal.artdatabanken.se"
+        }
+      ],
+      "homepage": "https://api-portal.artdatabanken.se/",
+      "owner": "SE2021002817"
+    },
     "api.kolada.se": {
       "label": {
         "sv": "Kolada"
@@ -75,6 +135,130 @@
       ],
       "owner": "SE2021006305"
     },
+    "apps.sgu.se": {
+      "label": {
+        "sv": "GeoLagret (Geological Survey of Sweden)"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://apps.sgu.se/geolagret/ResultJSONGNServlet"
+        }
+      ],
+      "homepage": "https://apps.sgu.se/geolagret/",
+      "owner": "SE2021002528"
+    },
+    "arcgis.burlov.se": {
+      "label": {
+        "sv": "Burlövs kartportal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://arcgis.burlov.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://arcgis.burlov.se/portal/home/",
+      "owner": "SE2120001025"
+    },
+    "archive.humlab.lu.se": {
+      "label": {
+        "sv": "Lund University Humanities Lab Archive"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://archive.humlab.lu.se/flat/oai2"
+        }
+      ],
+      "homepage": "https://archive.humlab.lu.se/flat/",
+      "owner": "SE2021003211"
+    },
+    "arcticsdi.lm.se": {
+      "label": {
+        "sv": "Arctic SDI Sverige"
+      },
+      "type": "geoportal",
+      "software": "geoserver",
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://arcticsdi.lm.se/geoserver/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://arcticsdi.lm.se/geoserver/ows"
+        }
+      ],
+      "homepage": "https://arcticsdi.lm.se/geoserver/web/",
+      "owner": "SE2021004888"
+    },
+    "argo.alvesta.se": {
+      "label": {
+        "sv": "Argo Data Catalog - Alvesta ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://argo.alvesta.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://argo.alvesta.se/arcgis/rest/services",
+      "owner": "SE2120000639"
+    },
+    "armstransfers.sipri.org": {
+      "label": {
+        "sv": "SIPRI Arms Transfers Database"
+      },
+      "type": "indicator_database",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://armstransfers.sipri.org"
+        }
+      ],
+      "homepage": "https://armstransfers.sipri.org/",
+      "owner": "SE8020062660"
+    },
+    "atlas.falkenberg.se": {
+      "label": {
+        "sv": "Falkenbergs karta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://atlas.falkenberg.se/smart"
+        }
+      ],
+      "homepage": "https://atlas.falkenberg.se/smart/?profile=Publik",
+      "owner": "SE2120001231"
+    },
+    "av.se": {
+      "label": {
+        "sv": "Arbetsmiljöverket arbetsskadestatistik"
+      },
+      "type": "indicator_database",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://www.av.se/arbetsmiljoarbete-och-inspektioner/arbetsmiljostatistik-officiell-arbetsskadestatstik/sok-arbetsmiljostatistik"
+        }
+      ],
+      "homepage": "https://www.av.se/arbetsmiljoarbete-och-inspektioner/arbetsmiljostatistik-officiell-arbetsskadestatstik/sok-arbetsmiljostatistik/",
+      "owner": "SE2021002148"
+    },
     "avropa.se": {
       "owner": "SE2021000829",
       "note": "Statens inköpscentral at Kammarkollegiet."
@@ -95,6 +279,81 @@
         }
       ],
       "note": "Per-library observations per year as an RDF Data Cube."
+    },
+    "biodiversitydata.se": {
+      "label": {
+        "sv": "Swedish Biodiversity Data Infrastructure"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://collections.biodiversitydata.se/ws/collection"
+        }
+      ],
+      "homepage": "https://www.biodiversitydata.se/",
+      "owner": "SE2021002817"
+    },
+    "bolin.su.se": {
+      "label": {
+        "sv": "Bolin Centre Database"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://bolin.su.se/data"
+        }
+      ],
+      "homepage": "https://bolin.su.se/data/",
+      "owner": "SE2021003062"
+    },
+    "borlange.maps.arcgis.com": {
+      "label": {
+        "sv": "Borlänge kommun publika kartor"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://borlange.maps.arcgis.com/home/index.html"
+        }
+      ],
+      "homepage": "https://borlange.maps.arcgis.com/home/index.html",
+      "owner": "SE2120002239"
+    },
+    "bredbandskartan.pts.se": {
+      "label": {
+        "sv": "PTS Bredbandskartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://bredbandskartan.pts.se"
+        }
+      ],
+      "homepage": "https://bredbandskartan.pts.se",
+      "owner": "SE2021004359"
+    },
+    "bth.diva-portal.org": {
+      "label": {
+        "sv": "Blekinge tekniska högskola DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://bth.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://bth.diva-portal.org",
+      "owner": "SE2021004011"
     },
     "catalog.ale.se": {
       "label": {
@@ -124,6 +383,38 @@
       ],
       "owner": "SE2120001561"
     },
+    "catalog.burlov.se": {
+      "label": {
+        "sv": "Burlövs kommuns öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://catalog.burlov.se"
+        }
+      ],
+      "homepage": "https://catalog.burlov.se",
+      "owner": "SE2120001025",
+      "note": "Listed as inactive when recorded."
+    },
+    "catalog.dalsed.se": {
+      "label": {
+        "sv": "Dals-Eds kommuns öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://catalog.dalsed.se"
+        }
+      ],
+      "homepage": "https://catalog.dalsed.se",
+      "owner": "SE2120001413",
+      "note": "Listed as inactive when recorded."
+    },
     "catalog.digg.se": {
       "label": {
         "sv": "DIGG:s datakatalog"
@@ -137,6 +428,21 @@
         }
       ],
       "owner": "SE2021006883"
+    },
+    "catalog.enkoping.se": {
+      "label": {
+        "sv": "Enköpings kommuns öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.enkoping.se"
+        }
+      ],
+      "homepage": "https://catalog.enkoping.se",
+      "owner": "SE2120000282"
     },
     "catalog.eslov.se": {
       "label": {
@@ -305,6 +611,22 @@
         }
       ],
       "owner": "SE2120001629"
+    },
+    "catalog.karlskrona.se": {
+      "label": {
+        "sv": "Karlskrona kommuns öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://catalog.karlskrona.se"
+        }
+      ],
+      "homepage": "https://catalog.karlskrona.se",
+      "owner": "SE2120000829",
+      "note": "Listed as inactive when recorded."
     },
     "catalog.kungalv.se": {
       "label": {
@@ -502,6 +824,37 @@
       ],
       "owner": "SE2120001678"
     },
+    "catalog.tranemo.se": {
+      "label": {
+        "sv": "Tranemo kommuns öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.tranemo.se"
+        }
+      ],
+      "homepage": "https://catalog.tranemo.se",
+      "owner": "SE2120001462"
+    },
+    "catalog.trelleborg.se": {
+      "label": {
+        "sv": "Trelleborgs kommuns öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://catalog.trelleborg.se"
+        }
+      ],
+      "homepage": "https://catalog.trelleborg.se",
+      "owner": "SE2120001199",
+      "note": "Listed as inactive when recorded."
+    },
     "catalog.trollhattan.se": {
       "label": {
         "sv": "Trollhättans Stads öppna data"
@@ -530,6 +883,37 @@
       ],
       "owner": "SE2021006610"
     },
+    "catalog.uppsala.se": {
+      "label": {
+        "sv": "Uppsala kommuns datakatalog"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://catalog.uppsala.se"
+        }
+      ],
+      "homepage": "https://catalog.uppsala.se",
+      "owner": "SE2120003005",
+      "note": "Listed as inactive when recorded."
+    },
+    "catalog.vanersborg.se": {
+      "label": {
+        "sv": "Vänersborgs kommuns öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.vanersborg.se"
+        }
+      ],
+      "homepage": "https://catalog.vanersborg.se",
+      "owner": "SE2120001538"
+    },
     "catalog.vara.se": {
       "label": {
         "sv": "Vara kommuns öppna data"
@@ -544,6 +928,144 @@
       ],
       "owner": "SE2120002924"
     },
+    "collections.biodiversitydata.se": {
+      "label": {
+        "sv": "Swedish Biodiversity Data Infrastructure datasets"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://collections.biodiversitydata.se/datasets"
+        }
+      ],
+      "homepage": "https://collections.biodiversitydata.se/datasets",
+      "owner": "SE2021002817"
+    },
+    "commons.wmu.se": {
+      "label": {
+        "sv": "Maritime Commons"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://commons.wmu.se/do/oai"
+        }
+      ],
+      "homepage": "https://commons.wmu.se",
+      "owner": "SE8460024832"
+    },
+    "data-jonkoping.opendata.arcgis.com": {
+      "label": {
+        "sv": "Jönköpings kommun - Öppna geodata"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_hub",
+          "url": "https://data-jonkoping.opendata.arcgis.com"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://data-jonkoping.opendata.arcgis.com/api/feed/dcat-ap/2.0.1.json"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://data-jonkoping.opendata.arcgis.com/api/feed/dcat-us/1.1.json"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://data-jonkoping.opendata.arcgis.com/data.json"
+        },
+        {
+          "protocol": "ogc_records",
+          "url": "https://data-jonkoping.opendata.arcgis.com/api/search/v1"
+        }
+      ],
+      "homepage": "https://data-jonkoping.opendata.arcgis.com/",
+      "owner": "SE2120000530"
+    },
+    "data-kalmar.opendata.arcgis.com": {
+      "label": {
+        "sv": "Öppna geodata Kalmar kommun"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_hub",
+          "url": "https://data-kalmar.opendata.arcgis.com"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://data-kalmar.opendata.arcgis.com/api/feed/dcat-ap/2.0.1.json"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://data-kalmar.opendata.arcgis.com/api/feed/dcat-us/1.1.json"
+        },
+        {
+          "protocol": "ogc_records",
+          "url": "https://data-kalmar.opendata.arcgis.com/api/search/v1"
+        }
+      ],
+      "homepage": "https://data-kalmar.opendata.arcgis.com",
+      "owner": "SE2120000746"
+    },
+    "data-skelleftea.opendata.arcgis.com": {
+      "label": {
+        "sv": "Skellefteå kommun öppna geodata"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_hub",
+          "url": "https://data-skelleftea.opendata.arcgis.com"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://data-skelleftea.opendata.arcgis.com/api/feed/dcat-ap/2.0.1.json"
+        },
+        {
+          "protocol": "ogc_records",
+          "url": "https://data-skelleftea.opendata.arcgis.com/api/search/v1"
+        }
+      ],
+      "homepage": "https://data-skelleftea.opendata.arcgis.com",
+      "owner": "SE2120002643"
+    },
+    "data-vaxjo.opendata.arcgis.com": {
+      "label": {
+        "sv": "Öppna geografiska data"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_hub",
+          "url": "https://data-vaxjo.opendata.arcgis.com"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://data-vaxjo.opendata.arcgis.com/api/feed/dcat-ap/2.0.1.json"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://data-vaxjo.opendata.arcgis.com/api/feed/dcat-us/1.1.json"
+        },
+        {
+          "protocol": "ogc_records",
+          "url": "https://data-vaxjo.opendata.arcgis.com/api/search/v1"
+        }
+      ],
+      "homepage": "https://data-vaxjo.opendata.arcgis.com",
+      "owner": "SE2120000662"
+    },
     "data.botkyrka.se": {
       "label": {
         "sv": "Botkyrka kommuns öppna data"
@@ -557,6 +1079,97 @@
         }
       ],
       "owner": "SE2120002882"
+    },
+    "data.fieldsites.se": {
+      "label": {
+        "sv": "SITES data portal"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://data.fieldsites.se/portal"
+        }
+      ],
+      "homepage": "https://data.fieldsites.se/portal/",
+      "owner": "SE2021002817"
+    },
+    "data.hammarbysjostad20.se": {
+      "label": {
+        "sv": "Öppna Data Hammarby Sjöstad"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://data.hammarbysjostad20.se"
+        }
+      ],
+      "homepage": "https://data.hammarbysjostad20.se",
+      "owner": "SE7696282735"
+    },
+    "data.jobtechdev.se": {
+      "label": {
+        "sv": "Öppna data från Arbetsförmedlingen"
+      },
+      "type": "open_data_portal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://data.jobtechdev.se"
+        }
+      ],
+      "homepage": "https://data.jobtechdev.se",
+      "owner": "SE2021002114"
+    },
+    "data.kb.se": {
+      "label": {
+        "sv": "National Library of Sweden Open Data Portal"
+      },
+      "type": "open_data_portal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://data.kb.se"
+        }
+      ],
+      "homepage": "https://data.kb.se",
+      "owner": "SE2021001710"
+    },
+    "data.kemi.se": {
+      "label": {
+        "sv": "Kemikalieinspektionens öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://data.kemi.se"
+        }
+      ],
+      "homepage": "https://data.kemi.se",
+      "owner": "SE2021003880",
+      "note": "Listed as inactive when recorded."
+    },
+    "data.riksdagen.se": {
+      "label": {
+        "sv": "Riksdagens öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://data.riksdagen.se"
+        }
+      ],
+      "homepage": "https://data.riksdagen.se",
+      "owner": "SE2021002627"
     },
     "data.tomelilla.se": {
       "label": {
@@ -586,6 +1199,67 @@
       ],
       "owner": "SE2021000555"
     },
+    "datafinder.qog.gu.se": {
+      "label": {
+        "sv": "QoG Data Finder"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://datafinder.qog.gu.se"
+        }
+      ],
+      "homepage": "https://datafinder.qog.gu.se",
+      "owner": "SE2021003153"
+    },
+    "dataguru.lu.se": {
+      "label": {
+        "sv": "DataGURU"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://dataguru.lu.se"
+        }
+      ],
+      "homepage": "https://dataguru.lu.se/",
+      "owner": "SE2021003211"
+    },
+    "dataportal-gotland.opendata.arcgis.com": {
+      "label": {
+        "sv": "Öppna data - Region Gotland"
+      },
+      "type": "open_data_portal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_hub",
+          "url": "https://dataportal-gotland.opendata.arcgis.com"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://dataportal-gotland.opendata.arcgis.com/api/feed/dcat-ap/2.0.1.json"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://dataportal-gotland.opendata.arcgis.com/api/feed/dcat-us/1.1.json"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://dataportal-gotland.opendata.arcgis.com/data.json"
+        },
+        {
+          "protocol": "ogc_records",
+          "url": "https://dataportal-gotland.opendata.arcgis.com/api/search/v1"
+        }
+      ],
+      "homepage": "https://dataportal-gotland.opendata.arcgis.com",
+      "owner": "SE2120000803"
+    },
     "dataportal.se": {
       "label": {
         "sv": "Sveriges dataportal",
@@ -610,6 +1284,145 @@
       ],
       "note": "The national portal: a federation of every registered catalog, each in its own context. The federated catalogs are their own records here."
     },
+    "datarepository.kth.se": {
+      "label": {
+        "sv": "KTH Data Repository"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://datarepository.kth.se/api/records"
+        },
+        {
+          "protocol": "oai_pmh",
+          "url": "https://datarepository.kth.se/oai2d"
+        }
+      ],
+      "homepage": "https://datarepository.kth.se",
+      "owner": "SE2021003054"
+    },
+    "defects.anyterial.se": {
+      "label": {
+        "sv": "ADAQ Defect Database"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://defects.anyterial.se"
+        }
+      ],
+      "homepage": "https://defects.anyterial.se/",
+      "owner": "SE2021003096"
+    },
+    "developer.api.riksbank.se": {
+      "label": {
+        "sv": "Riksbank API Portal"
+      },
+      "type": "api",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://developer.api.riksbank.se"
+        }
+      ],
+      "homepage": "https://developer.api.riksbank.se/",
+      "owner": "SE2021002684"
+    },
+    "devportal.skanetrafiken.se": {
+      "label": {
+        "sv": "Skånetrafiken developer portal"
+      },
+      "type": "api",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://devportal.skanetrafiken.se"
+        }
+      ],
+      "homepage": "https://devportal.skanetrafiken.se/",
+      "owner": "SE2321000255"
+    },
+    "diva-portal.org": {
+      "label": {
+        "sv": "Uppsala universitet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://www.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://www.diva-portal.org",
+      "owner": "SE2021002932"
+    },
+    "doi.ess.eu": {
+      "label": {
+        "sv": "ESS SciCat DOI landing pages"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://doi.ess.eu"
+        }
+      ],
+      "homepage": "https://doi.ess.eu/",
+      "owner": "SE7682000018"
+    },
+    "doi.maxiv.lu.se": {
+      "label": {
+        "sv": "MAX IV SciCat DOI landing pages"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://doi.maxiv.lu.se"
+        }
+      ],
+      "homepage": "https://doi.maxiv.lu.se/",
+      "owner": "SE2021003211"
+    },
+    "dpweb01.karlstad.se": {
+      "label": {
+        "sv": "Karlstad dpSpatial Webmap"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://dpweb01.karlstad.se"
+        }
+      ],
+      "homepage": "https://dpweb01.karlstad.se/",
+      "owner": "SE2120001850"
+    },
+    "du.diva-portal.org": {
+      "label": {
+        "sv": "Högskolan Dalarna DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://du.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://du.diva-portal.org",
+      "owner": "SE2021002908"
+    },
     "ei.entryscape.net": {
       "label": {
         "sv": "Energimarknadsinspektionens öppna data"
@@ -624,6 +1437,70 @@
       ],
       "owner": "SE2021005695",
       "operator": "SE5568540701"
+    },
+    "esamkarta.ornskoldsvik.se": {
+      "label": {
+        "sv": "Örnsköldsvik bygg- och exploateringskartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://esamkarta.ornskoldsvik.se/bxkarta"
+        }
+      ],
+      "homepage": "https://esamkarta.ornskoldsvik.se/bxkarta/",
+      "owner": "SE2120002445"
+    },
+    "esg-dn1.nsc.liu.se": {
+      "label": {
+        "sv": "ESGF LIU CoG"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://esg-dn1.nsc.liu.se/esg-search/search"
+        },
+        {
+          "protocol": "api",
+          "url": "https://esg-dn1.nsc.liu.se/thredds/catalog/catalog.xml"
+        }
+      ],
+      "homepage": "https://esg-dn1.nsc.liu.se/",
+      "owner": "SE2021003096"
+    },
+    "esg-dn2.nsc.liu.se": {
+      "label": {
+        "sv": "NSC/LIU ESGF Data Node 2 THREDDS"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://esg-dn2.nsc.liu.se/thredds/catalog/catalog.xml"
+        }
+      ],
+      "homepage": "https://esg-dn2.nsc.liu.se/thredds/catalog/catalog.html",
+      "owner": "SE2021003096"
+    },
+    "esg-dn3.nsc.liu.se": {
+      "label": {
+        "sv": "NSC/LIU ESGF Data Node 3 THREDDS"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://esg-dn3.nsc.liu.se/thredds/catalog/catalog.xml"
+        }
+      ],
+      "homepage": "https://esg-dn3.nsc.liu.se/thredds/catalog/catalog.html",
+      "owner": "SE2021003096"
     },
     "eskilstuna.entryscape.net": {
       "label": {
@@ -644,6 +1521,36 @@
       "owner": "SE2021005026",
       "note": "Harvested from esv.se: the catalog was set up when the body was Ekonomistyrningsverket."
     },
+    "experience.arcgis.com/bd33a3829b804d1ab3af4ba2843db4ed": {
+      "label": {
+        "sv": "Alingsås karta"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://experience.arcgis.com/experience/bd33a3829b804d1ab3af4ba2843db4ed"
+        }
+      ],
+      "homepage": "https://experience.arcgis.com/experience/bd33a3829b804d1ab3af4ba2843db4ed",
+      "owner": "SE2120001553"
+    },
+    "explorer.digitalearth.se": {
+      "label": {
+        "sv": "Digital Earth Sweden Explorer"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "stac",
+          "url": "https://explorer.digitalearth.se/stac"
+        }
+      ],
+      "homepage": "https://explorer.digitalearth.se",
+      "owner": "SE5564646874"
+    },
     "ext-geodata-nationella-visning.lansstyrelsen.se": {
       "owner": "SE2021002361-LST",
       "label": {
@@ -655,6 +1562,427 @@
       "label": {
         "sv": "Länsstyrelsernas geodata"
       }
+    },
+    "ext-geodatakatalog-forv.lansstyrelsen.se": {
+      "label": {
+        "sv": "PlaneringsKatalogen"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://ext-geodatakatalog-forv.lansstyrelsen.se/PlaneringsKatalogen/ResultJSONGNServlet"
+        }
+      ],
+      "homepage": "https://ext-geodatakatalog-forv.lansstyrelsen.se/PlaneringsKatalogen/",
+      "owner": "SE2021002361"
+    },
+    "ext-geodatakatalog.lansstyrelsen.se": {
+      "label": {
+        "sv": "Länsstyrelsernas Geodatakatalog"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://ext-geodatakatalog.lansstyrelsen.se/GeodataKatalogen/ResultJSONGNServlet"
+        }
+      ],
+      "homepage": "https://ext-geodatakatalog.lansstyrelsen.se/GeodataKatalogen/",
+      "owner": "SE2021002361-LST"
+    },
+    "ext-webbgis.lansstyrelsen.se/5c335b22-8280-47d4-b6d1-53543fdc82e1": {
+      "label": {
+        "sv": "Länsfakta Blekinge"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/5c335b22-8280-47d4-b6d1-53543fdc82e1"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/5c335b22-8280-47d4-b6d1-53543fdc82e1/",
+      "owner": "SE2021002320"
+    },
+    "ext-webbgis.lansstyrelsen.se/6126a2ea-64b5-4e91-866e-841df8beb4aa": {
+      "label": {
+        "sv": "WebbGIS Kronoberg"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/6126a2ea-64b5-4e91-866e-841df8beb4aa"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/6126a2ea-64b5-4e91-866e-841df8beb4aa/",
+      "owner": "SE2021002296"
+    },
+    "ext-webbgis.lansstyrelsen.se/7592d2f1-4532-4323-a924-00e5f57361de": {
+      "label": {
+        "sv": "Externa karttjänster Jämtlands län"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/7592d2f1-4532-4323-a924-00e5f57361de"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/7592d2f1-4532-4323-a924-00e5f57361de/",
+      "owner": "SE2021002452"
+    },
+    "ext-webbgis.lansstyrelsen.se/77025c9e-2a61-43b6-8eaf-8d08272d9eee": {
+      "label": {
+        "sv": "Länskarta Gävleborg"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/77025c9e-2a61-43b6-8eaf-8d08272d9eee"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/77025c9e-2a61-43b6-8eaf-8d08272d9eee/",
+      "owner": "SE2021002437"
+    },
+    "ext-webbgis.lansstyrelsen.se/7e956bfa-18d1-492c-8bab-5b9e5d3d088d": {
+      "label": {
+        "sv": "Södermanlands publika länskarta"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/7e956bfa-18d1-492c-8bab-5b9e5d3d088d"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/7e956bfa-18d1-492c-8bab-5b9e5d3d088d/",
+      "owner": "SE2021002262"
+    },
+    "ext-webbgis.lansstyrelsen.se/ce71a317-f67f-4add-8fd0-1abeaf3707f9": {
+      "label": {
+        "sv": "Externt webbGIS Värmland"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/ce71a317-f67f-4add-8fd0-1abeaf3707f9"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/ce71a317-f67f-4add-8fd0-1abeaf3707f9/",
+      "owner": "SE2021002395"
+    },
+    "ext-webbgis.lansstyrelsen.se/halland_informationskarta": {
+      "label": {
+        "sv": "Informationskarta Halland"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/halland_informationskarta"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/halland_informationskarta/",
+      "owner": "SE2021002353"
+    },
+    "ext-webbgis.lansstyrelsen.se/lanskarta-norrbotten": {
+      "label": {
+        "sv": "Länskarta Norrbotten"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/lanskarta-norrbotten"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/lanskarta-norrbotten/",
+      "owner": "SE2021002478"
+    },
+    "ext-webbgis.lansstyrelsen.se/lstab_lanskarta": {
+      "label": {
+        "sv": "Länskarta Stockholms län"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/lstab_lanskarta"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/lstab_lanskarta/",
+      "owner": "SE2021002247"
+    },
+    "ext-webbgis.lansstyrelsen.se/lstac_vasterbotten_lanskarta": {
+      "label": {
+        "sv": "Länskarta Västerbotten"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/lstac_vasterbotten_lanskarta"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/lstac_vasterbotten_lanskarta/",
+      "owner": "SE2021002460"
+    },
+    "ext-webbgis.lansstyrelsen.se/lstc_mark_vattenanv_externt": {
+      "label": {
+        "sv": "Mark- och vattenanvändning Uppsala län"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/lstc_mark_vattenanv_externt"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/lstc_mark_vattenanv_externt/",
+      "owner": "SE2021002254"
+    },
+    "ext-webbgis.lansstyrelsen.se/lstf_publik_webbkarta": {
+      "label": {
+        "sv": "Jönköpings läns publika webbkarta"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/lstf_publik_webbkarta"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/lstf_publik_webbkarta/",
+      "owner": "SE2021002288"
+    },
+    "ext-webbgis.lansstyrelsen.se/lsti_gotlandskarta_extern": {
+      "label": {
+        "sv": "Gotlandskarta"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/lsti_gotlandskarta_extern"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/lsti_gotlandskarta_extern/",
+      "owner": "SE2021002312"
+    },
+    "ext-webbgis.lansstyrelsen.se/lsto_informationskartan": {
+      "label": {
+        "sv": "Informationskartan Västra Götaland"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/lsto_informationskartan"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/lsto_informationskartan/",
+      "owner": "SE2021002361"
+    },
+    "ext-webbgis.lansstyrelsen.se/lstt_informationskarta": {
+      "label": {
+        "sv": "Informationskarta Örebro län"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/lstt_informationskarta"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/lstt_informationskarta/",
+      "owner": "SE2021002403"
+    },
+    "ext-webbgis.lansstyrelsen.se/lstu_lanskarta_vastmanland": {
+      "label": {
+        "sv": "Länskartan Västmanlands län"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/lstu_lanskarta_vastmanland"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/lstu_lanskarta_vastmanland/",
+      "owner": "SE2021002411"
+    },
+    "ext-webbgis.lansstyrelsen.se/lstw_kartvisare": {
+      "label": {
+        "sv": "Informationskarta Dalarnas län"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/lstw_kartvisare"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/lstw_kartvisare/",
+      "owner": "SE2021002429"
+    },
+    "ext-webbgis.lansstyrelsen.se/lsty_externt_webbgis": {
+      "label": {
+        "sv": "Länskarta Västernorrland"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/lsty_externt_webbgis"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/lsty_externt_webbgis/",
+      "owner": "SE2021002445"
+    },
+    "ext-webbgis.lansstyrelsen.se/ostgotakartan": {
+      "label": {
+        "sv": "Östgötakartan"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/ostgotakartan"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/ostgotakartan/",
+      "owner": "SE2021002270"
+    },
+    "ext-webbgis.lansstyrelsen.se/planeringsunderlag_radgivning": {
+      "label": {
+        "sv": "Planeringsunderlag rådgivning Skåne"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ext-webbgis.lansstyrelsen.se/planeringsunderlag_radgivning"
+        }
+      ],
+      "homepage": "https://ext-webbgis.lansstyrelsen.se/planeringsunderlag_radgivning/",
+      "owner": "SE2021002346"
+    },
+    "facil.falkenberg.se": {
+      "label": {
+        "sv": "Falkenberg Energi Installatörswebben"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://facil.falkenberg.se/bios/dpwebmap/dsg/contractor/cust_flk"
+        }
+      ],
+      "homepage": "https://facil.falkenberg.se/bios/dpwebmap/dsg/contractor/cust_flk",
+      "owner": "SE2120001231"
+    },
+    "falun.entryscape.net": {
+      "label": {
+        "sv": "Falu kommuns öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://falun.entryscape.net"
+        }
+      ],
+      "homepage": "https://falun.entryscape.net",
+      "owner": "SE2120002221",
+      "note": "Listed as inactive when recorded."
+    },
+    "fega.nbis.se": {
+      "label": {
+        "sv": "FEGA Sweden"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://fega.nbis.se/catalogue"
+        }
+      ],
+      "homepage": "https://fega.nbis.se/catalogue",
+      "owner": "SE2021002932"
+    },
+    "fhs.diva-portal.org": {
+      "label": {
+        "sv": "Försvarshögskolan DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://fhs.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://fhs.diva-portal.org",
+      "owner": "SE2021004730"
+    },
+    "flax.svenskakyrkan.se": {
+      "label": {
+        "sv": "geoserver web"
+      },
+      "type": "geoportal",
+      "software": "geoserver",
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://flax.svenskakyrkan.se/geoserver/ows"
+        }
+      ],
+      "homepage": "https://flax.svenskakyrkan.se/geoserver/web/",
+      "owner": "SE2520026135"
+    },
+    "fmv.diva-portal.org": {
+      "label": {
+        "sv": "Försvarets materielverk DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://fmv.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://fmv.diva-portal.org",
+      "owner": "SE2021000340"
     },
     "fohm-app.folkhalsomyndigheten.se/folkhalsodata": {
       "label": {
@@ -689,6 +2017,177 @@
       ],
       "owner": "SE2021005521"
     },
+    "gbif.se": {
+      "label": {
+        "sv": "IPT GBIF-Sweden"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://www.gbif.se/ipt/inventory/dataset"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://www.gbif.se/ipt/dcat"
+        }
+      ],
+      "homepage": "https://www.gbif.se/ipt",
+      "owner": "SE2021001124"
+    },
+    "gdphub.se": {
+      "label": {
+        "sv": "GDP Hub research funding APIs"
+      },
+      "type": "api",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://gdphub.se"
+        }
+      ],
+      "homepage": "https://gdphub.se/",
+      "owner": "SE2021005208"
+    },
+    "geo4.vic-metria.nu": {
+      "label": {
+        "sv": "Metria GeoServer (geo4.vic-metria.nu)"
+      },
+      "type": "geoportal",
+      "software": "geoserver",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "http://geo4.vic-metria.nu/geoserver"
+        }
+      ],
+      "homepage": "http://geo4.vic-metria.nu:80/geoserver",
+      "owner": "SE5567992242",
+      "operator": "SE5567992242"
+    },
+    "geodata.almhult.se": {
+      "label": {
+        "sv": "Älmhult ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://geodata.almhult.se/server/rest/services"
+        }
+      ],
+      "homepage": "https://geodata.almhult.se/server/rest/services",
+      "owner": "SE2120000647"
+    },
+    "geodata.arboga.se": {
+      "label": {
+        "sv": "Arboga ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://geodata.arboga.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://geodata.arboga.se/arcgis/rest/services",
+      "owner": "SE2120002122"
+    },
+    "geodata.hassleholm.se": {
+      "label": {
+        "sv": "Kartportal Hässleholm"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://geodata.hassleholm.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://geodata.hassleholm.se/portal/apps/sites/#/kartportal-hassleholm",
+      "owner": "SE2120000985"
+    },
+    "geodata.helsingborg.se": {
+      "label": {
+        "sv": "Helsingborg Geoportal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "http://geodata.helsingborg.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "http://geodata.helsingborg.se/arcgis/rest/services",
+      "owner": "SE2120001157"
+    },
+    "geodata.kungsor.se": {
+      "label": {
+        "sv": "Kungsör ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://geodata.kungsor.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://geodata.kungsor.se/arcgis/rest/services",
+      "owner": "SE2120002056"
+    },
+    "geodata.sala.se": {
+      "label": {
+        "sv": "Sala ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://geodata.sala.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://geodata.sala.se/arcgis/rest/services",
+      "owner": "SE2120002098"
+    },
+    "geodata.sandviken.se": {
+      "label": {
+        "sv": "Sandvikens kommun geodata"
+      },
+      "type": "open_data_portal",
+      "software": "ckan",
+      "endpoint": [
+        {
+          "protocol": "ckan_v3",
+          "url": "https://geodata.sandviken.se/api/3"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://geodata.sandviken.se/catalog.jsonld"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://geodata.sandviken.se/catalog.n3"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://geodata.sandviken.se/catalog.ttl"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://geodata.sandviken.se/catalog.xml"
+        }
+      ],
+      "homepage": "https://geodata.sandviken.se",
+      "owner": "SE2120002346"
+    },
     "geodata.se": {
       "label": {
         "sv": "Geodataportalen",
@@ -709,6 +2208,665 @@
       ],
       "note": "The national geodata catalog: metadata for the services and datasets of some 25 bodies, harvested by data.europa.eu as geodata-se."
     },
+    "geodata.sgi.se": {
+      "label": {
+        "sv": "SGI ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://geodata.sgi.se/server/rest/services"
+        }
+      ],
+      "homepage": "https://geodata.sgi.se/server/rest/services",
+      "owner": "SE2021000712"
+    },
+    "geodata.skelleftea.se": {
+      "label": {
+        "sv": "Skelleftea Municipality Geoportal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://geodata.skelleftea.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://geodata.skelleftea.se/arcgis/rest/services",
+      "owner": "SE2120002643"
+    },
+    "geodata.smedjebacken.se": {
+      "label": {
+        "sv": "Smedjebacken ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://geodata.smedjebacken.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://geodata.smedjebacken.se/arcgis/rest/services",
+      "owner": "SE2120002205"
+    },
+    "geodata.trelleborg.se": {
+      "label": {
+        "sv": "Trelleborg ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://geodata.trelleborg.se/arcgis/rest/services"
+        },
+        {
+          "protocol": "web",
+          "url": "https://geodata.trelleborg.se/portal/apps/experiencebuilder/experience"
+        }
+      ],
+      "homepage": "https://geodata.trelleborg.se/arcgis/rest/services",
+      "owner": "SE2120001199"
+    },
+    "geodata.vastervik.se": {
+      "label": {
+        "sv": "Västervik ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://geodata.vastervik.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://geodata.vastervik.se/arcgis/rest/services",
+      "owner": "SE2120000779"
+    },
+    "geodata.ystad.se": {
+      "label": {
+        "sv": "Ystadkartan"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://geodata.ystad.se/portal/apps/webappviewer/index.html"
+        }
+      ],
+      "homepage": "https://geodata.ystad.se/portal/apps/webappviewer/index.html?id=059f22c0a6614ccdb6158426a700230f",
+      "owner": "SE2120001181"
+    },
+    "geoportal.goliska.se": {
+      "label": {
+        "sv": "Göliska IT ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://geoportal.goliska.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://geoportal.goliska.se/arcgis/rest/services",
+      "owner": "SE2220001602"
+    },
+    "geoportal.jokkmokk.se": {
+      "label": {
+        "sv": "Jokkmokk ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://geoportal.jokkmokk.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://geoportal.jokkmokk.se/arcgis/rest/services",
+      "owner": "SE2120002676"
+    },
+    "geoportal.karlskrona.se": {
+      "label": {
+        "sv": "Karlskrona geoportal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://geoportal.karlskrona.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://geoportal.karlskrona.se/portal/home/",
+      "owner": "SE2120000829"
+    },
+    "geoportal.kiruna.se": {
+      "label": {
+        "sv": "Kiruna kommun karta"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://geoportal.kiruna.se/portal/apps/webappviewer/index.html"
+        }
+      ],
+      "homepage": "https://geoportal.kiruna.se/portal/apps/webappviewer/index.html?id=ae284a1f532d4233870f113d1a898931",
+      "owner": "SE2120002783"
+    },
+    "geoportalen.lund.se": {
+      "label": {
+        "sv": "Lunds kartportal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://geoportalen.lund.se/portal/apps/instant/filtergallery/index.html"
+        }
+      ],
+      "homepage": "https://geoportalen.lund.se/portal/apps/instant/filtergallery/index.html?appid=de77a36ce0384abaa40d1e2672ed2887",
+      "owner": "SE2120001132"
+    },
+    "geoportalen.vasttrafik.se": {
+      "label": {
+        "sv": "Västtrafik Geoportalen"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://geoportalen.vasttrafik.se"
+        }
+      ],
+      "homepage": "https://geoportalen.vasttrafik.se",
+      "owner": "SE5565585873"
+    },
+    "geoserver.analysportalnorr.se": {
+      "label": {
+        "sv": "Analysportal NORR"
+      },
+      "type": "geoportal",
+      "software": "geoserver",
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://geoserver.analysportalnorr.se/geoserver/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://geoserver.analysportalnorr.se/geoserver/ows"
+        }
+      ],
+      "homepage": "https://geoserver.analysportalnorr.se/geoserver",
+      "owner": "SE2321000206"
+    },
+    "geoserver.gis.lu.se": {
+      "label": {
+        "sv": "Lund University GIS Centre GeoServer"
+      },
+      "type": "geoportal",
+      "software": "geoserver",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://geoserver.gis.lu.se/geoserver/web"
+        }
+      ],
+      "homepage": "https://geoserver.gis.lu.se/geoserver/web/",
+      "owner": "SE2021003211"
+    },
+    "geoserver.greensway-digital.se": {
+      "label": {
+        "sv": "Greensway Digital Web Map Service"
+      },
+      "type": "geoportal",
+      "software": "geoserver",
+      "endpoint": [
+        {
+          "protocol": "wms_1_3",
+          "url": "https://geoserver.greensway-digital.se/geoserver/ows"
+        }
+      ],
+      "homepage": "https://geoserver.greensway-digital.se/geoserver",
+      "owner": "SE5592526700"
+    },
+    "geoserver.greensway.se": {
+      "label": {
+        "sv": "Greensway Web Map Service"
+      },
+      "type": "geoportal",
+      "software": "geoserver",
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://geoserver.greensway.se/geoserver/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://geoserver.greensway.se/geoserver/ows"
+        }
+      ],
+      "homepage": "https://geoserver.greensway.se/geoserver",
+      "owner": "SE5569905747"
+    },
+    "geotorget.lantmateriet.se": {
+      "label": {
+        "sv": "Geotorget"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://geotorget.lantmateriet.se"
+        }
+      ],
+      "homepage": "https://geotorget.lantmateriet.se/",
+      "owner": "SE2021004888"
+    },
+    "gi.karlstad.se": {
+      "label": {
+        "sv": "Karlstadskartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://gi.karlstad.se"
+        },
+        {
+          "protocol": "wfs_2",
+          "url": "http://gi.karlstad.se/geoserver/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "http://gi.karlstad.se/geoserver/ows"
+        }
+      ],
+      "homepage": "https://gi.karlstad.se/",
+      "owner": "SE2120001850"
+    },
+    "gih.diva-portal.org": {
+      "label": {
+        "sv": "Gymnastik- och idrottshögskolan DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://gih.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://gih.diva-portal.org",
+      "owner": "SE2021004334"
+    },
+    "gis-services.metria.se": {
+      "label": {
+        "sv": "Metria ArcGIS Services Geoportal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gis-services.metria.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://gis-services.metria.se/arcgis/rest/services",
+      "owner": "SE5567992242",
+      "operator": "SE5567992242"
+    },
+    "gis.ange.se": {
+      "label": {
+        "sv": "Ånge GIS ArcGIS Server"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gis.ange.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://gis.ange.se/arcgis/rest/services",
+      "owner": "SE2120002387"
+    },
+    "gis.arvika.se": {
+      "label": {
+        "sv": "Arvika ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gis.arvika.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://gis.arvika.se/arcgis/rest/services",
+      "owner": "SE2120001892"
+    },
+    "gis.falun.se": {
+      "label": {
+        "sv": "Falun GIS ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gis.falun.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://gis.falun.se/arcgis/rest/services",
+      "owner": "SE2120002221"
+    },
+    "gis.gavle.se": {
+      "label": {
+        "sv": "Gävle GIS ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gis.gavle.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://gis.gavle.se/arcgis/rest/services",
+      "owner": "SE2120002338"
+    },
+    "gis.historiska.se": {
+      "label": {
+        "sv": "Historiska museet GIS"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gis.historiska.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://gis.historiska.se/arcgis/rest/services",
+      "owner": "SE2021004953"
+    },
+    "gis.malmo.se": {
+      "label": {
+        "sv": "Malmö GIS ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gis.malmo.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://gis.malmo.se/arcgis/rest/services",
+      "owner": "SE2120001124"
+    },
+    "gis.regionstockholm.se": {
+      "label": {
+        "sv": "Region Stockholm GIS-portal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gis.regionstockholm.se/server/rest/services"
+        }
+      ],
+      "homepage": "https://gis.regionstockholm.se/portal/home/",
+      "owner": "SE2321000016"
+    },
+    "gis.sandviken.se": {
+      "label": {
+        "sv": "Sandviken Karthubben"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gis.sandviken.se/server/rest/services"
+        }
+      ],
+      "homepage": "https://gis.sandviken.se/portal/apps/sites/#/karthubben",
+      "owner": "SE2120002346"
+    },
+    "gis.sgi.se": {
+      "label": {
+        "sv": "SGI Kartor"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://gis.sgi.se/hajk"
+        }
+      ],
+      "homepage": "https://gis.sgi.se/hajk/",
+      "owner": "SE2021000712"
+    },
+    "gis.sjobo.se": {
+      "label": {
+        "sv": "Sjöbo ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gis.sjobo.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://gis.sjobo.se/arcgis/rest/services",
+      "owner": "SE2120001090"
+    },
+    "gis.skanetrafiken.se": {
+      "label": {
+        "sv": "Skånetrafiken GeoServer"
+      },
+      "type": "geoportal",
+      "software": "geoserver",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://gis.skanetrafiken.se/geoserver"
+        }
+      ],
+      "homepage": "https://gis.skanetrafiken.se/geoserver",
+      "owner": "SE2321000255"
+    },
+    "gis.skelleftea.se": {
+      "label": {
+        "sv": "Skellefteå GIS ArcGIS Server"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gis.skelleftea.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://gis.skelleftea.se/arcgis/rest/services",
+      "owner": "SE2120002643"
+    },
+    "gis.surahammar.se": {
+      "label": {
+        "sv": "Surahammar ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gis.surahammar.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://gis.surahammar.se/arcgis/rest/services",
+      "owner": "SE2120002031"
+    },
+    "gis.torsas.se": {
+      "label": {
+        "sv": "Arcgis REST Services Directory"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gis.torsas.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://gis.torsas.se/arcgis/rest/services",
+      "owner": "SE2120000696"
+    },
+    "gis.vindeln.se": {
+      "label": {
+        "sv": "Vindeln ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gis.vindeln.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://gis.vindeln.se/arcgis/rest/services",
+      "owner": "SE2120002544"
+    },
+    "gis1.vaxjo.se": {
+      "label": {
+        "sv": "Växjö Kommun GIS Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gis1.vaxjo.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://gis1.vaxjo.se/arcgis/rest/services",
+      "owner": "SE2120000662"
+    },
+    "gisportal.boden.se": {
+      "label": {
+        "sv": "Boden kartportal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://gisportal.boden.se/portal/apps/experiencebuilder/experience"
+        }
+      ],
+      "homepage": "https://gisportal.boden.se/portal/apps/experiencebuilder/experience/?id=8e6928656bba4c108953d59b6fb38523",
+      "owner": "SE2120002767"
+    },
+    "gisportal.jonkoping.se": {
+      "label": {
+        "sv": "Jönköpings kommun GIS-portal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gisportal.jonkoping.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://gisportal.jonkoping.se/portal/home/",
+      "owner": "SE2120000530"
+    },
+    "gisportal.overtornea.se": {
+      "label": {
+        "sv": "Övertorneå GIS-portal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gisportal.overtornea.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://gisportal.overtornea.se/portal/home/",
+      "owner": "SE2120002700"
+    },
+    "gisportal.pitea.se": {
+      "label": {
+        "sv": "Piteå kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://gisportal.pitea.se/portal/apps/experiencebuilder/experience"
+        }
+      ],
+      "homepage": "https://gisportal.pitea.se/portal/apps/experiencebuilder/experience/?id=607d6952afce4815a15d06a633914278",
+      "owner": "SE2120002759"
+    },
+    "gupea.ub.gu.se": {
+      "label": {
+        "sv": "GUPEA - University of Gothenburg Publications Electronic Archive"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://gupea.ub.gu.se/server/api/discover/search/objects"
+        },
+        {
+          "protocol": "oai_pmh",
+          "url": "https://gupea.ub.gu.se/oai/request"
+        },
+        {
+          "protocol": "oai_pmh",
+          "url": "https://gupea.ub.gu.se/server/oai/request"
+        }
+      ],
+      "homepage": "https://gupea.ub.gu.se",
+      "owner": "SE2021003153"
+    },
+    "hadb.funmat-ii.se": {
+      "label": {
+        "sv": "Hard coating Alloys Database"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://hadb.funmat-ii.se"
+        }
+      ],
+      "homepage": "https://hadb.funmat-ii.se/",
+      "owner": "SE2021003096"
+    },
     "haninge.entryscape.net": {
       "label": {
         "sv": "Haninge kommuns öppna data"
@@ -723,6 +2881,96 @@
       ],
       "owner": "SE2120000084",
       "operator": "SE5568540701"
+    },
+    "havochvatten.diva-portal.org": {
+      "label": {
+        "sv": "Havs- och vattenmyndigheten DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://havochvatten.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://havochvatten.diva-portal.org",
+      "owner": "SE2021006420"
+    },
+    "hb.diva-portal.org": {
+      "label": {
+        "sv": "Högskolan i Borås DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://hb.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://hb.diva-portal.org",
+      "owner": "SE2021003138"
+    },
+    "hh.diva-portal.org": {
+      "label": {
+        "sv": "Högskolan i Halmstad DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://hh.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://hh.diva-portal.org",
+      "owner": "SE2021003203"
+    },
+    "hig.diva-portal.org": {
+      "label": {
+        "sv": "Högskolan i Gävle DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://hig.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://hig.diva-portal.org",
+      "owner": "SE2021002890"
+    },
+    "his.diva-portal.org": {
+      "label": {
+        "sv": "Högskolan i Skövde DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://his.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://his.diva-portal.org",
+      "owner": "SE2021003146"
+    },
+    "hv.diva-portal.org": {
+      "label": {
+        "sv": "Högskolan Väst DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://hv.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://hv.diva-portal.org",
+      "owner": "SE2021004052"
     },
     "hvduppdrag.scb.se": {
       "label": {
@@ -742,8 +2990,1477 @@
       "owner": "SE2021000837",
       "homepage": "https://hvduppdrag.scb.se/pxweb"
     },
+    "ivl.diva-portal.org": {
+      "label": {
+        "sv": "IVL Svenska Miljöinstitutet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://ivl.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://ivl.diva-portal.org",
+      "owner": "SE5561162446"
+    },
+    "jarfallakartan.jarfalla.se": {
+      "label": {
+        "sv": "Järfällakartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://jarfallakartan.jarfalla.se/spatialmap"
+        }
+      ],
+      "homepage": "https://jarfallakartan.jarfalla.se/spatialmap",
+      "owner": "SE2120000043"
+    },
+    "ju.diva-portal.org": {
+      "label": {
+        "sv": "Jönköping University DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://ju.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://ju.diva-portal.org",
+      "owner": "SE8260017333"
+    },
+    "karlskogakartan.karlskoga.se": {
+      "label": {
+        "sv": "Karlskogakartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karlskogakartan.karlskoga.se/webmap"
+        }
+      ],
+      "homepage": "https://karlskogakartan.karlskoga.se/webmap/",
+      "owner": "SE2120001991"
+    },
+    "karta-ext.ornskoldsvik.se": {
+      "label": {
+        "sv": "Örnkartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta-ext.ornskoldsvik.se/ornkartan"
+        }
+      ],
+      "homepage": "https://karta-ext.ornskoldsvik.se/ornkartan/",
+      "owner": "SE2120002445"
+    },
+    "karta.ale.se": {
+      "label": {
+        "sv": "Ale webbkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.ale.se"
+        }
+      ],
+      "homepage": "https://karta.ale.se",
+      "owner": "SE2120001439"
+    },
+    "karta.almhult.se": {
+      "label": {
+        "sv": "Älmhults kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.almhult.se"
+        }
+      ],
+      "homepage": "https://karta.almhult.se",
+      "owner": "SE2120000647"
+    },
+    "karta.ange.se": {
+      "label": {
+        "sv": "Webbkartor för Ånge kommun"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.ange.se/ange"
+        }
+      ],
+      "homepage": "https://karta.ange.se/ange/",
+      "owner": "SE2120002387"
+    },
+    "karta.askersund.se": {
+      "label": {
+        "sv": "Askersunds kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.askersund.se"
+        }
+      ],
+      "homepage": "https://karta.askersund.se",
+      "owner": "SE2120001983"
+    },
+    "karta.atvidaberg.se": {
+      "label": {
+        "sv": "Åtvidaberg GIS-portal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.atvidaberg.se/portal/home"
+        }
+      ],
+      "homepage": "https://karta.atvidaberg.se/portal/home/",
+      "owner": "SE2120000415"
+    },
+    "karta.bastad.se": {
+      "label": {
+        "sv": "Båstads kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.bastad.se/spatialmap"
+        }
+      ],
+      "homepage": "https://karta.bastad.se/spatialmap",
+      "owner": "SE2120000944"
+    },
+    "karta.botkyrka.se": {
+      "label": {
+        "sv": "Botkyrka kommun Webbkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.botkyrka.se/spatialmap"
+        }
+      ],
+      "homepage": "https://karta.botkyrka.se/spatialmap",
+      "owner": "SE2120002882"
+    },
+    "karta.ekero.se": {
+      "label": {
+        "sv": "Ekerökartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.ekero.se/spatialmap"
+        }
+      ],
+      "homepage": "https://karta.ekero.se/spatialmap",
+      "owner": "SE2120000050"
+    },
+    "karta.engelholm.se": {
+      "label": {
+        "sv": "Ängelholmskartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.engelholm.se/Angelholmskartan"
+        }
+      ],
+      "homepage": "https://karta.engelholm.se/Angelholmskartan",
+      "owner": "SE2120000977"
+    },
+    "karta.enkoping.se": {
+      "label": {
+        "sv": "Enköpings kommun GeoServer"
+      },
+      "type": "geoportal",
+      "software": "geoserver",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.enkoping.se"
+        },
+        {
+          "protocol": "wfs_2",
+          "url": "https://karta.enkoping.se/geoserver/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://karta.enkoping.se/geoserver/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://karta.enkoping.se/geoserver/wms"
+        }
+      ],
+      "homepage": "https://karta.enkoping.se/geoserver",
+      "owner": "SE2120000282"
+    },
+    "karta.eskilstuna.se": {
+      "label": {
+        "sv": "Eskilstunakartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.eskilstuna.se/webb"
+        }
+      ],
+      "homepage": "https://karta.eskilstuna.se/webb/",
+      "owner": "SE2120000357"
+    },
+    "karta.forshaga.se": {
+      "label": {
+        "sv": "Forshaga webbkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.forshaga.se"
+        }
+      ],
+      "homepage": "https://karta.forshaga.se",
+      "owner": "SE2120001819"
+    },
+    "karta.gnesta.se": {
+      "label": {
+        "sv": "Gnesta webbkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.gnesta.se/spatialmap"
+        }
+      ],
+      "homepage": "https://karta.gnesta.se/spatialmap",
+      "owner": "SE2120002965"
+    },
+    "karta.goteborg.se": {
+      "label": {
+        "sv": "Göteborgs Stad karta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.goteborg.se"
+        }
+      ],
+      "homepage": "https://karta.goteborg.se",
+      "owner": "SE2120001355"
+    },
+    "karta.goteborgsregionen.se": {
+      "label": {
+        "sv": "Göteborgsregionens karttjänst"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.goteborgsregionen.se"
+        }
+      ],
+      "homepage": "https://karta.goteborgsregionen.se",
+      "owner": "SE2220000265"
+    },
+    "karta.grums.se": {
+      "label": {
+        "sv": "Grums webbkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.grums.se"
+        }
+      ],
+      "homepage": "https://karta.grums.se",
+      "owner": "SE2120001827"
+    },
+    "karta.hallstahammar.se": {
+      "label": {
+        "sv": "Karta Hallstahammar GeoServer Web"
+      },
+      "type": "geoportal",
+      "software": "geoserver",
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://karta.hallstahammar.se/geoserver/ows"
+        },
+        {
+          "protocol": "wfs_2",
+          "url": "https://karta.hallstahammar.se/geoserver/wfs"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://karta.hallstahammar.se/geoserver/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://karta.hallstahammar.se/geoserver/wms"
+        }
+      ],
+      "homepage": "https://karta.hallstahammar.se/geoserver/web/",
+      "owner": "SE2120002064"
+    },
+    "karta.halmstad.se": {
+      "label": {
+        "sv": "Halmstadkartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.halmstad.se"
+        }
+      ],
+      "homepage": "https://karta.halmstad.se",
+      "owner": "SE2120001215"
+    },
+    "karta.haninge.se": {
+      "label": {
+        "sv": "Karta Haninge kommun"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.haninge.se"
+        }
+      ],
+      "homepage": "https://karta.haninge.se",
+      "owner": "SE2120000084"
+    },
+    "karta.harnosand.se": {
+      "label": {
+        "sv": "Härnösand bygg- och exploateringskartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.harnosand.se/bxkarta/index.html"
+        }
+      ],
+      "homepage": "https://karta.harnosand.se/bxkarta/index.html",
+      "owner": "SE2120002403"
+    },
+    "karta.huddinge.se": {
+      "label": {
+        "sv": "Huddinge webbkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.huddinge.se/spatialmap"
+        }
+      ],
+      "homepage": "https://karta.huddinge.se/spatialmap",
+      "owner": "SE2120000068"
+    },
+    "karta.jonkoping.se": {
+      "label": {
+        "sv": "Jönköpings kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.jonkoping.se"
+        }
+      ],
+      "homepage": "https://karta.jonkoping.se",
+      "owner": "SE2120000530"
+    },
+    "karta.kalmar.se": {
+      "label": {
+        "sv": "Kalmar Municipality Geoportal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://karta.kalmar.se/ags/rest/services"
+        }
+      ],
+      "homepage": "https://karta.kalmar.se/ags/rest/services",
+      "owner": "SE2120000746"
+    },
+    "karta.karlsborg.se": {
+      "label": {
+        "sv": "Karlsborgs kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.karlsborg.se"
+        }
+      ],
+      "homepage": "https://karta.karlsborg.se",
+      "owner": "SE2120001629"
+    },
+    "karta.koping.se": {
+      "label": {
+        "sv": "Köpingskartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.koping.se"
+        }
+      ],
+      "homepage": "https://karta.koping.se/",
+      "owner": "SE2120002114"
+    },
+    "karta.kumla.se": {
+      "label": {
+        "sv": "Kumla ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://karta.kumla.se/arcgis/rest/services"
+        },
+        {
+          "protocol": "web",
+          "url": "https://karta.kumla.se/portal/apps/webappviewer/index.html"
+        }
+      ],
+      "homepage": "https://karta.kumla.se/arcgis/rest/services",
+      "owner": "SE2120001975"
+    },
+    "karta.kungsbacka.se": {
+      "label": {
+        "sv": "Kungsbackas karta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.kungsbacka.se/publik"
+        }
+      ],
+      "homepage": "https://karta.kungsbacka.se/publik/",
+      "owner": "SE2120001256"
+    },
+    "karta.laxa.se": {
+      "label": {
+        "sv": "Laxå kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.laxa.se"
+        }
+      ],
+      "homepage": "https://karta.laxa.se",
+      "owner": "SE2120001918"
+    },
+    "karta.lekeberg.se": {
+      "label": {
+        "sv": "Lekebergs kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.lekeberg.se"
+        }
+      ],
+      "homepage": "https://karta.lekeberg.se",
+      "owner": "SE2120002981"
+    },
+    "karta.leksand.se": {
+      "label": {
+        "sv": "Leksand Karta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.leksand.se"
+        }
+      ],
+      "homepage": "https://karta.leksand.se/",
+      "owner": "SE2120002163"
+    },
     "karta.lidingo.se": {
       "owner": "SE2120000191"
+    },
+    "karta.ludvika.se": {
+      "label": {
+        "sv": "Ludvikakartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.ludvika.se/ludvikakarta"
+        }
+      ],
+      "homepage": "https://karta.ludvika.se/ludvikakarta/",
+      "owner": "SE2120002270"
+    },
+    "karta.mariestad.se": {
+      "label": {
+        "sv": "Mariestads kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.mariestad.se/myCartaWebMapAdmin"
+        }
+      ],
+      "homepage": "https://karta.mariestad.se/myCartaWebMapAdmin/",
+      "owner": "SE2120001686"
+    },
+    "karta.markaryd.se": {
+      "label": {
+        "sv": "Markaryds kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.markaryd.se"
+        }
+      ],
+      "homepage": "https://karta.markaryd.se",
+      "owner": "SE2120000654"
+    },
+    "karta.miljoforvaltningen.goteborg.se": {
+      "label": {
+        "sv": "Gothenburg Environmental Administration Geoportal"
+      },
+      "type": "geoportal",
+      "software": "geoserver",
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://karta.miljoforvaltningen.goteborg.se/geoserver/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://karta.miljoforvaltningen.goteborg.se/geoserver/ows"
+        }
+      ],
+      "homepage": "https://karta.miljoforvaltningen.goteborg.se/geoserver/web/",
+      "owner": "SE2120001355"
+    },
+    "karta.molndal.se": {
+      "label": {
+        "sv": "Mölndals kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.molndal.se/spatialmap"
+        }
+      ],
+      "homepage": "https://karta.molndal.se/spatialmap",
+      "owner": "SE2120001363"
+    },
+    "karta.morakommun.se": {
+      "label": {
+        "sv": "Mora kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.morakommun.se"
+        }
+      ],
+      "homepage": "https://karta.morakommun.se",
+      "owner": "SE2120002213"
+    },
+    "karta.nacka.se": {
+      "label": {
+        "sv": "Nacka kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.nacka.se"
+        }
+      ],
+      "homepage": "https://karta.nacka.se",
+      "owner": "SE2120000167"
+    },
+    "karta.nassjo.se": {
+      "label": {
+        "sv": "Nässjö kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.nassjo.se/spatialmap"
+        }
+      ],
+      "homepage": "https://karta.nassjo.se/spatialmap",
+      "owner": "SE2120000548"
+    },
+    "karta.norsjo.se": {
+      "label": {
+        "sv": "Norsjö kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.norsjo.se/webmap"
+        }
+      ],
+      "homepage": "https://karta.norsjo.se/webmap/",
+      "owner": "SE2120002858"
+    },
+    "karta.nykvarn.se": {
+      "label": {
+        "sv": "Nykvarns kommuns digitala karta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.nykvarn.se"
+        }
+      ],
+      "homepage": "https://karta.nykvarn.se/",
+      "owner": "SE2120002999"
+    },
+    "karta.ockero.se": {
+      "label": {
+        "sv": "Öckerö karta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.ockero.se"
+        }
+      ],
+      "homepage": "https://karta.ockero.se/",
+      "owner": "SE2120001280"
+    },
+    "karta.orebro.se": {
+      "label": {
+        "sv": "Karta Örebro kommun"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.orebro.se"
+        }
+      ],
+      "homepage": "https://karta.orebro.se",
+      "owner": "SE2120001967"
+    },
+    "karta.osthammar.se": {
+      "label": {
+        "sv": "Östhammars kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.osthammar.se/spatialmap"
+        }
+      ],
+      "homepage": "https://karta.osthammar.se/spatialmap",
+      "owner": "SE2120000290"
+    },
+    "karta.regiondalarna.se": {
+      "label": {
+        "sv": "Region Dalarna"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "http://karta.regiondalarna.se"
+        }
+      ],
+      "homepage": "http://karta.regiondalarna.se/",
+      "owner": "SE2321000180"
+    },
+    "karta.regionorebrolan.se": {
+      "label": {
+        "sv": "Region Örebro länskarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.regionorebrolan.se"
+        }
+      ],
+      "homepage": "https://karta.regionorebrolan.se/",
+      "owner": "SE2321000164"
+    },
+    "karta.salem.se": {
+      "label": {
+        "sv": "Salems kommun Webbkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.salem.se"
+        }
+      ],
+      "homepage": "https://karta.salem.se/",
+      "owner": "SE2120002874"
+    },
+    "karta.savsjo.se": {
+      "label": {
+        "sv": "Sävsjö karta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.savsjo.se"
+        }
+      ],
+      "homepage": "https://karta.savsjo.se/",
+      "owner": "SE2120000563"
+    },
+    "karta.sigtuna.se": {
+      "label": {
+        "sv": "Sigtunakartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.sigtuna.se"
+        },
+        {
+          "protocol": "wfs_2",
+          "url": "https://karta.sigtuna.se/geoserver/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://karta.sigtuna.se/geoserver/ows"
+        }
+      ],
+      "homepage": "https://karta.sigtuna.se",
+      "owner": "SE2120000225"
+    },
+    "karta.skinnskatteberg.se": {
+      "label": {
+        "sv": "Skinnskattebergskartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.skinnskatteberg.se"
+        }
+      ],
+      "homepage": "https://karta.skinnskatteberg.se/",
+      "owner": "SE2120002023"
+    },
+    "karta.skovde.se": {
+      "label": {
+        "sv": "Skövde kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.skovde.se/mycartawebmap"
+        }
+      ],
+      "homepage": "https://karta.skovde.se/mycartawebmap/",
+      "owner": "SE2120001710"
+    },
+    "karta.sodertalje.se": {
+      "label": {
+        "sv": "Södertälje webbkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.sodertalje.se"
+        }
+      ],
+      "homepage": "https://karta.sodertalje.se/",
+      "owner": "SE2120000159"
+    },
+    "karta.solleftea.se": {
+      "label": {
+        "sv": "Sollefteå bygg- och exploateringskartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.solleftea.se/bxkarta/index.html"
+        }
+      ],
+      "homepage": "https://karta.solleftea.se/bxkarta/index.html",
+      "owner": "SE2120002437"
+    },
+    "karta.solna.se": {
+      "label": {
+        "sv": "Solna stad karta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.solna.se/spatialmap"
+        }
+      ],
+      "homepage": "https://karta.solna.se/spatialmap",
+      "owner": "SE2120000183"
+    },
+    "karta.sundsvall.se": {
+      "label": {
+        "sv": "Webbkartor för Sundsvalls kommun"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.sundsvall.se"
+        }
+      ],
+      "homepage": "https://karta.sundsvall.se",
+      "owner": "SE2120002411"
+    },
+    "karta.taby.se": {
+      "label": {
+        "sv": "Täbykartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.taby.se"
+        }
+      ],
+      "homepage": "https://karta.taby.se",
+      "owner": "SE2120000118"
+    },
+    "karta.timra.se": {
+      "label": {
+        "sv": "Timrå bygg- och exploateringskartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.timra.se/bxkarta/index.html"
+        }
+      ],
+      "homepage": "https://karta.timra.se/bxkarta/index.html",
+      "owner": "SE2120002395"
+    },
+    "karta.tyreso.se": {
+      "label": {
+        "sv": "Tyresö kommuns webbkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.tyreso.se/spatialmap"
+        }
+      ],
+      "homepage": "https://karta.tyreso.se/spatialmap",
+      "owner": "SE2120000092"
+    },
+    "karta.uddevalla.se": {
+      "label": {
+        "sv": "Uddevalla kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.uddevalla.se"
+        }
+      ],
+      "homepage": "https://karta.uddevalla.se",
+      "owner": "SE2120001397"
+    },
+    "karta.vanersborg.se": {
+      "label": {
+        "sv": "Vänersborgs webbkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.vanersborg.se"
+        }
+      ],
+      "homepage": "https://karta.vanersborg.se",
+      "owner": "SE2120001538"
+    },
+    "karta.varberg.se": {
+      "label": {
+        "sv": "Varbergskartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.varberg.se"
+        }
+      ],
+      "homepage": "https://karta.varberg.se",
+      "owner": "SE2120001249"
+    },
+    "karta.varmdo.se": {
+      "label": {
+        "sv": "Värmdökartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.varmdo.se"
+        }
+      ],
+      "homepage": "https://karta.varmdo.se",
+      "owner": "SE2120000035"
+    },
+    "karta.vaxholm.se": {
+      "label": {
+        "sv": "Vaxholm karta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.vaxholm.se"
+        }
+      ],
+      "homepage": "https://karta.vaxholm.se/",
+      "owner": "SE2120002908"
+    },
+    "karta.vellinge.se": {
+      "label": {
+        "sv": "Vellinge ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://karta.vellinge.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://karta.vellinge.se/arcgis/rest/services",
+      "owner": "SE2120001033"
+    },
+    "karta.vetlanda.se": {
+      "label": {
+        "sv": "Vetlanda kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://karta.vetlanda.se/spatialmap"
+        }
+      ],
+      "homepage": "https://karta.vetlanda.se/spatialmap",
+      "owner": "SE2120000571"
+    },
+    "kartor.gislaved.se": {
+      "label": {
+        "sv": "Gislaved GIS ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://kartor.gislaved.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://kartor.gislaved.se/arcgis/rest/services",
+      "owner": "SE2120000514"
+    },
+    "kartor.gotland.se": {
+      "label": {
+        "sv": "Gotland GIS ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://kartor.gotland.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://kartor.gotland.se/arcgis/rest/services",
+      "owner": "SE2120000803"
+    },
+    "kartor.hudiksvall.se": {
+      "label": {
+        "sv": "Hudikkartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://kartor.hudiksvall.se/hudikkartan"
+        }
+      ],
+      "homepage": "https://kartor.hudiksvall.se/hudikkartan/",
+      "owner": "SE2120002379"
+    },
+    "kartor.knivsta.se": {
+      "label": {
+        "sv": "Knivsta ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://kartor.knivsta.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://kartor.knivsta.se/arcgis/rest/services",
+      "owner": "SE2120003013"
+    },
+    "kartor.kristianstad.se": {
+      "label": {
+        "sv": "Kristianstadskartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://kartor.kristianstad.se/kristianstadskartan"
+        }
+      ],
+      "homepage": "https://kartor.kristianstad.se/kristianstadskartan/",
+      "owner": "SE2120000951"
+    },
+    "kartor.kungalv.se": {
+      "label": {
+        "sv": "Kungälvskartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://kartor.kungalv.se/spatialmap"
+        }
+      ],
+      "homepage": "https://kartor.kungalv.se/spatialmap",
+      "owner": "SE2120001371"
+    },
+    "kartor.laholm.se": {
+      "label": {
+        "sv": "LAHOLM GIS REST services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://kartor.laholm.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://kartor.laholm.se/arcgis/rest/services",
+      "owner": "SE2120001223"
+    },
+    "kartor.linkoping.se": {
+      "label": {
+        "sv": "Linköping ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://kartor.linkoping.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://kartor.linkoping.se/arcgis/rest/services",
+      "owner": "SE2120000449"
+    },
+    "kartor.mark.se": {
+      "label": {
+        "sv": "Mark ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://kartor.mark.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://kartor.mark.se/arcgis/rest/services",
+      "owner": "SE2120001504"
+    },
+    "kartor.norrkoping.se": {
+      "label": {
+        "sv": "Norrköpings karta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://kartor.norrkoping.se/spatialmap"
+        }
+      ],
+      "homepage": "https://kartor.norrkoping.se/spatialmap",
+      "owner": "SE2120000456"
+    },
+    "kartor.nykoping.se": {
+      "label": {
+        "sv": "Nyköpingskartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://kartor.nykoping.se/spatialmap"
+        }
+      ],
+      "homepage": "https://kartor.nykoping.se/spatialmap",
+      "owner": "SE2120002940"
+    },
+    "kartor.ostersund.se": {
+      "label": {
+        "sv": "Östersundskartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://kartor.ostersund.se/spatialmap"
+        }
+      ],
+      "homepage": "https://kartor.ostersund.se/spatialmap",
+      "owner": "SE2120002528"
+    },
+    "kartor.sfv.se": {
+      "label": {
+        "sv": "Statens fastighetsverk kartportal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://kartor.sfv.se/portal/home"
+        }
+      ],
+      "homepage": "https://kartor.sfv.se/portal/home/",
+      "owner": "SE2021004474"
+    },
+    "kartor.skogsstyrelsen.se": {
+      "label": {
+        "sv": "Skogsstyrelsen Kartor"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://kartor.skogsstyrelsen.se/Kartor"
+        }
+      ],
+      "homepage": "https://kartor.skogsstyrelsen.se/Kartor/",
+      "owner": "SE2021005612"
+    },
+    "kartor.sollentuna.se": {
+      "label": {
+        "sv": "Sollentuna digitala karta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://kartor.sollentuna.se/bios/dpwebmap/cust_sol/extern"
+        }
+      ],
+      "homepage": "https://kartor.sollentuna.se/bios/dpwebmap/cust_sol/extern/",
+      "owner": "SE2120000134"
+    },
+    "kartor.strangnas.se": {
+      "label": {
+        "sv": "Strängnäskartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://kartor.strangnas.se"
+        }
+      ],
+      "homepage": "https://kartor.strangnas.se",
+      "owner": "SE2120000365"
+    },
+    "kartor.tomelilla.se": {
+      "label": {
+        "sv": "Tomelilla kommunkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://kartor.tomelilla.se"
+        }
+      ],
+      "homepage": "https://kartor.tomelilla.se",
+      "owner": "SE2120000886"
+    },
+    "kartor.vasteras.se": {
+      "label": {
+        "sv": "Västerås samlingskarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://kartor.vasteras.se/arcgis/rest/services"
+        },
+        {
+          "protocol": "web",
+          "url": "https://kartor.vasteras.se/sam"
+        }
+      ],
+      "homepage": "https://kartor.vasteras.se/sam/",
+      "owner": "SE2120002080"
+    },
+    "kartor1.umea.se": {
+      "label": {
+        "sv": "Umeåkartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://kartor1.umea.se/karta/GI/Umekartan/Umekartan_Extern"
+        }
+      ],
+      "homepage": "https://kartor1.umea.se/karta/GI/Umekartan/Umekartan_Extern",
+      "owner": "SE2120002627"
+    },
+    "kartportal.eslov.se": {
+      "label": {
+        "sv": "ArcGIS server of the Eslov community (Sweden)"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://kartportal.eslov.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://kartportal.eslov.se/arcgis/rest/services",
+      "owner": "SE2120001173"
+    },
+    "kartportal.helsingborg.se": {
+      "label": {
+        "sv": "Helsingborg kartportal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://kartportal.helsingborg.se/portal/home"
+        }
+      ],
+      "homepage": "https://kartportal.helsingborg.se/portal/home/",
+      "owner": "SE2120001157"
+    },
+    "kartportal.lulea.se": {
+      "label": {
+        "sv": "Luleå kartportal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://kartportal.lulea.se/server/rest/services"
+        }
+      ],
+      "homepage": "https://kartportal.lulea.se/portal/home/",
+      "owner": "SE2120002742"
+    },
+    "kartportal.unikom.se": {
+      "label": {
+        "sv": "Unikom ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://kartportal.unikom.se/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://kartportal.unikom.se/arcgis/rest/services",
+      "owner": "SE5590672142"
+    },
+    "kartportal.uppsala.se": {
+      "label": {
+        "sv": "Uppsala kommun ArcGIS REST Services"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://kartportal.uppsala.se/geosecma_fce/rest/services"
+        }
+      ],
+      "homepage": "https://kartportal.uppsala.se/geosecma_fce/rest/services",
+      "owner": "SE2120003005"
+    },
+    "kartportalen.boras.se": {
+      "label": {
+        "sv": "Boråskartan"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://kartportalen.boras.se/server/rest/services"
+        }
+      ],
+      "homepage": "https://kartportalen.boras.se/portal/apps/webappviewer/index.html?id=9d980b709fc2475a87f14e81d0a06efb",
+      "owner": "SE2120001561"
+    },
+    "kartportalen.trollhattan.se": {
+      "label": {
+        "sv": "Trollhättans kartportal"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://kartportalen.trollhattan.se"
+        }
+      ],
+      "homepage": "https://kartportalen.trollhattan.se/",
+      "owner": "SE2120001546"
     },
     "katalog.lund.se": {
       "label": {
@@ -773,6 +4490,111 @@
       ],
       "owner": "SE2021001074"
     },
+    "kau.diva-portal.org": {
+      "label": {
+        "sv": "Karlstads universitet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://kau.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://kau.diva-portal.org",
+      "owner": "SE2021003120"
+    },
+    "kib.ki.se": {
+      "label": {
+        "sv": "Karolinska Institutet Data Repository"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://kib.ki.se/en/kidr"
+        }
+      ],
+      "homepage": "https://kib.ki.se/en/kidr",
+      "owner": "SE2021002973"
+    },
+    "kkh.diva-portal.org": {
+      "label": {
+        "sv": "Kungl. Konsthögskolan DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://kkh.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://kkh.diva-portal.org",
+      "owner": "SE2021002957"
+    },
+    "kmh.diva-portal.org": {
+      "label": {
+        "sv": "Kungl. Musikhögskolan i Stockholm DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://kmh.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://kmh.diva-portal.org",
+      "owner": "SE2021001215"
+    },
+    "konstfack.diva-portal.org": {
+      "label": {
+        "sv": "Konstfack DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://konstfack.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://konstfack.diva-portal.org",
+      "owner": "SE2021001199"
+    },
+    "konsumentverket.entryscape.net": {
+      "label": {
+        "sv": "Konsumentverkets öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://konsumentverket.entryscape.net"
+        }
+      ],
+      "homepage": "https://konsumentverket.entryscape.net",
+      "owner": "SE2021002064"
+    },
+    "kringla.nu": {
+      "label": {
+        "sv": "Kringla"
+      },
+      "type": "api",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://www.kringla.nu/kringla"
+        }
+      ],
+      "homepage": "https://www.kringla.nu/kringla/",
+      "owner": "SE2021001090"
+    },
     "kronofogden.entryscape.net": {
       "label": {
         "sv": "Kronofogdens öppna data"
@@ -787,6 +4609,36 @@
       ],
       "owner": "SE2021005646",
       "operator": "SE5568540701"
+    },
+    "kth.diva-portal.org": {
+      "label": {
+        "sv": "Kungl. Tekniska högskolan DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://kth.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://kth.diva-portal.org",
+      "owner": "SE2021003054"
+    },
+    "kulturgeneratorn.se": {
+      "label": {
+        "sv": "Kulturgeneratorn"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://kulturgeneratorn.se"
+        }
+      ],
+      "homepage": "https://kulturgeneratorn.se",
+      "owner": "SE2220000265"
     },
     "kungsbacka.entryscape.net": {
       "label": {
@@ -834,6 +4686,21 @@
       "owner": "SE2120000449",
       "operator": "SE5568540701"
     },
+    "liu.diva-portal.org": {
+      "label": {
+        "sv": "Linköpings universitet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://liu.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://liu.diva-portal.org",
+      "owner": "SE2021003096"
+    },
     "livsmedelsstatistik.jordbruksverket.se": {
       "label": {
         "sv": "Jordbruksverkets livsmedelsstatistik (SILO)"
@@ -849,6 +4716,51 @@
         }
       ],
       "note": "42 tables. No API: /PxWeb/api/v1 answers 404."
+    },
+    "lnu.diva-portal.org": {
+      "label": {
+        "sv": "Linnéuniversitetet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://lnu.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://lnu.diva-portal.org",
+      "owner": "SE2021006271"
+    },
+    "ltu.diva-portal.org": {
+      "label": {
+        "sv": "Luleå tekniska universitet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://ltu.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://ltu.diva-portal.org",
+      "owner": "SE2021002841"
+    },
+    "lup.lub.lu.se": {
+      "label": {
+        "sv": "Lund University Publications"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://lup.lub.lu.se/oai"
+        }
+      ],
+      "homepage": "https://lup.lub.lu.se/search/",
+      "owner": "SE2021003211"
     },
     "m02-http-pxwebb.login.sundsvall.se": {
       "label": {
@@ -867,6 +4779,163 @@
       ],
       "owner": "SE2120002411",
       "homepage": "https://m02-http-pxwebb.login.sundsvall.se/PXWeb_Ext/pxweb"
+    },
+    "maps.digitalearth.se": {
+      "label": {
+        "sv": "Digital Earth Sweden Map Portal"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://maps.digitalearth.se"
+        }
+      ],
+      "homepage": "https://maps.digitalearth.se",
+      "owner": "SE5564646874"
+    },
+    "maps.torsby.se": {
+      "label": {
+        "sv": "Torsbykartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://maps.torsby.se"
+        }
+      ],
+      "homepage": "https://maps.torsby.se/",
+      "owner": "SE2120001777"
+    },
+    "maps3.sgu.se": {
+      "label": {
+        "sv": "SGU WMS"
+      },
+      "type": "geoportal",
+      "software": "geoserver",
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://maps3.sgu.se/geoserver/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://maps3.sgu.se/geoserver/ows"
+        }
+      ],
+      "homepage": "https://maps3.sgu.se/geoserver",
+      "owner": "SE2021002528"
+    },
+    "mau.diva-portal.org": {
+      "label": {
+        "sv": "Malmö universitet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://mau.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://mau.diva-portal.org",
+      "owner": "SE2021004920"
+    },
+    "mchs.diva-portal.org": {
+      "label": {
+        "sv": "Marie Cederschiöld högskola DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://mchs.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://mchs.diva-portal.org",
+      "owner": "SE5566885280"
+    },
+    "mdp.vic-metria.nu": {
+      "label": {
+        "sv": "Miljödataportalen"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "http://mdp.vic-metria.nu/miljodataportalen"
+        }
+      ],
+      "homepage": "http://mdp.vic-metria.nu/miljodataportalen/",
+      "owner": "SE2021001975",
+      "operator": "SE5567992242",
+      "note": "Listed as inactive when recorded."
+    },
+    "mdu.diva-portal.org": {
+      "label": {
+        "sv": "Mälardalens universitet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://mdu.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://mdu.diva-portal.org",
+      "owner": "SE2021002916"
+    },
+    "metadata.havochvatten.se": {
+      "label": {
+        "sv": "Havs- och vattenmyndighetens öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://metadata.havochvatten.se"
+        }
+      ],
+      "homepage": "https://metadata.havochvatten.se",
+      "owner": "SE2021006420",
+      "note": "Listed as inactive when recorded."
+    },
+    "metadata.strangnas.se": {
+      "label": {
+        "sv": "Strängnäs kommuns öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://metadata.strangnas.se"
+        }
+      ],
+      "homepage": "https://metadata.strangnas.se",
+      "owner": "SE2120000365"
+    },
+    "metadatakatalogen.naturvardsverket.se": {
+      "label": {
+        "sv": "Metadatakatalogen - Naturvårdsverket"
+      },
+      "type": "geoportal",
+      "software": "geonetwork",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://metadatakatalogen.naturvardsverket.se/metadatakatalogen/srv/api/records"
+        }
+      ],
+      "homepage": "https://metadatakatalogen.naturvardsverket.se/metadatakatalogen/",
+      "owner": "SE2021001975"
     },
     "mi.se": {
       "label": {
@@ -904,6 +4973,96 @@
       ],
       "note": "National environmental monitoring measurements of water chemistry and biology, hosted by SLU."
     },
+    "minkarta.lantmateriet.se": {
+      "label": {
+        "sv": "Lantmäteriet MinKarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://minkarta.lantmateriet.se"
+        }
+      ],
+      "homepage": "https://minkarta.lantmateriet.se/",
+      "owner": "SE2021004888"
+    },
+    "miun.diva-portal.org": {
+      "label": {
+        "sv": "Mittuniversitetet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://miun.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://miun.diva-portal.org",
+      "owner": "SE2021004524"
+    },
+    "mt.research.ltu.se": {
+      "label": {
+        "sv": "LTU Magnetotelluric / EPOS-MT"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://mt.research.ltu.se/EPOS-MT.html"
+        }
+      ],
+      "homepage": "https://mt.research.ltu.se/EPOS-MT.html",
+      "owner": "SE2021002841"
+    },
+    "mycarta.hammaro.se": {
+      "label": {
+        "sv": "Hammarö webbkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://mycarta.hammaro.se"
+        }
+      ],
+      "homepage": "https://mycarta.hammaro.se/",
+      "owner": "SE2120001793"
+    },
+    "nai.diva-portal.org": {
+      "label": {
+        "sv": "Nordiska Afrikainstitutet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://nai.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://nai.diva-portal.org",
+      "owner": "SE2021002726"
+    },
+    "nationalmuseum.diva-portal.org": {
+      "label": {
+        "sv": "Nationalmuseum DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://nationalmuseum.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://nationalmuseum.diva-portal.org",
+      "owner": "SE2021001108"
+    },
     "nationellaemissionsdatabasen.smhi.se": {
       "label": {
         "sv": "Nationella emissionsdatabasen"
@@ -918,6 +5077,145 @@
       ],
       "owner": "SE2021000696"
     },
+    "naturvardsverket.diva-portal.org": {
+      "label": {
+        "sv": "Naturvårdsverket DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://naturvardsverket.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://naturvardsverket.diva-portal.org",
+      "owner": "SE2021001975"
+    },
+    "nordiskamuseet.diva-portal.org": {
+      "label": {
+        "sv": "Nordiska museet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://nordiskamuseet.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://nordiskamuseet.diva-portal.org",
+      "owner": "SE8020024686"
+    },
+    "norrtaljekarta.norrtalje.se": {
+      "label": {
+        "sv": "Norrtälje kommuns karta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://norrtaljekarta.norrtalje.se"
+        }
+      ],
+      "homepage": "https://norrtaljekarta.norrtalje.se/",
+      "owner": "SE2120000217"
+    },
+    "novac.chalmers.se": {
+      "label": {
+        "sv": "NOVAC Database"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://novac.chalmers.se"
+        }
+      ],
+      "homepage": "https://novac.chalmers.se/",
+      "owner": "SE5564795598"
+    },
+    "nrm.diva-portal.org": {
+      "label": {
+        "sv": "Naturhistoriska riksmuseet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://nrm.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://nrm.diva-portal.org",
+      "owner": "SE2021001124"
+    },
+    "omdb.mathub.io": {
+      "label": {
+        "sv": "Organic Materials Database"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://omdb.mathub.io"
+        }
+      ],
+      "homepage": "https://omdb.mathub.io",
+      "owner": "SE2021003062"
+    },
+    "open-data-lommakommun.hub.arcgis.com": {
+      "label": {
+        "sv": "Lomma kommun kartportal"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_hub",
+          "url": "https://open-data-lommakommun.hub.arcgis.com"
+        },
+        {
+          "protocol": "ogc_records",
+          "url": "https://open-data-lommakommun.hub.arcgis.com/api/search/v1"
+        }
+      ],
+      "homepage": "https://open-data-lommakommun.hub.arcgis.com/",
+      "owner": "SE2120001066"
+    },
+    "openarchive.ki.se": {
+      "label": {
+        "sv": "Karolinska Institutet Open Archive"
+      },
+      "type": "research_repository",
+      "software": "figshare",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://openarchive.ki.se/api/graphql"
+        }
+      ],
+      "homepage": "https://openarchive.ki.se",
+      "owner": "SE2021002973"
+    },
+    "opendata.malmo.se": {
+      "label": {
+        "sv": "Malmö stads öppna dataportal"
+      },
+      "type": "open_data_portal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://opendata.malmo.se"
+        }
+      ],
+      "homepage": "https://opendata.malmo.se/",
+      "owner": "SE2120001124"
+    },
     "opendata.umea.se": {
       "software": "huwise",
       "endpoint": [
@@ -927,6 +5225,33 @@
         }
       ],
       "note": "334 datasets: 205 Umeå Energi consumption series, geodata, copies of Kolada and SCB, and some 30 original tables."
+    },
+    "opendata.uppsala.se": {
+      "label": {
+        "sv": "Öppna geodata Uppsala kommun"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "dcat_ap",
+          "url": "https://opendata.uppsala.se/api/feed/dcat-ap/2.0.1.json"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://opendata.uppsala.se/api/feed/dcat-us/1.1.json"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://opendata.uppsala.se/data.json"
+        },
+        {
+          "protocol": "ogc_records",
+          "url": "https://opendata.uppsala.se/api/search/v1"
+        }
+      ],
+      "homepage": "https://opendata.uppsala.se",
+      "owner": "SE2120003005"
     },
     "opendata.vasteras.se": {
       "label": {
@@ -942,6 +5267,100 @@
       ],
       "owner": "SE2120002080"
     },
+    "openmaterialsdb.se": {
+      "label": {
+        "sv": "Open Materials Database"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://openmaterialsdb.se"
+        }
+      ],
+      "homepage": "https://openmaterialsdb.se",
+      "owner": "SE2021003096"
+    },
+    "oppnadata.karlshamn.se": {
+      "label": {
+        "sv": "Karlshamns kommuns öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://oppnadata.karlshamn.se"
+        }
+      ],
+      "homepage": "https://oppnadata.karlshamn.se",
+      "owner": "SE2120000845",
+      "note": "Listed as inactive when recorded."
+    },
+    "oppnadata.naturvardsverket.se": {
+      "label": {
+        "sv": "Naturvårdsverkets öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://oppnadata.naturvardsverket.se"
+        }
+      ],
+      "homepage": "https://oppnadata.naturvardsverket.se",
+      "owner": "SE2021001975"
+    },
+    "oppnadata.olofstrom.se": {
+      "label": {
+        "sv": "Olofströms kommuns öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://oppnadata.olofstrom.se"
+        }
+      ],
+      "homepage": "https://oppnadata.olofstrom.se",
+      "owner": "SE2120000811",
+      "note": "Listed as inactive when recorded."
+    },
+    "oppnadata.regionblekinge.se": {
+      "label": {
+        "sv": "Region Blekinges öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://oppnadata.regionblekinge.se"
+        }
+      ],
+      "homepage": "https://oppnadata.regionblekinge.se",
+      "owner": "SE2321000081",
+      "note": "Listed as inactive when recorded."
+    },
+    "oppnadata.solvesborg.se": {
+      "label": {
+        "sv": "Sölvesborgs kommuns öppna data"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://oppnadata.solvesborg.se"
+        }
+      ],
+      "homepage": "https://oppnadata.solvesborg.se",
+      "owner": "SE2120000852",
+      "note": "Listed as inactive when recorded."
+    },
     "oppnadata.tillvaxtverket.se": {
       "label": {
         "sv": "Tillväxtverkets öppna data"
@@ -955,6 +5374,66 @@
         }
       ],
       "owner": "SE2021006149"
+    },
+    "oru.diva-portal.org": {
+      "label": {
+        "sv": "Örebro universitet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://oru.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://oru.diva-portal.org",
+      "owner": "SE2021002924"
+    },
+    "oversiktsplan.botkyrka.se": {
+      "label": {
+        "sv": "Botkyrka översiktsplan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://oversiktsplan.botkyrka.se"
+        }
+      ],
+      "homepage": "https://oversiktsplan.botkyrka.se",
+      "owner": "SE2120002882"
+    },
+    "ows.digitalearth.se": {
+      "label": {
+        "sv": "Digital Earth Sweden OGC Web Services"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "wms_1_3",
+          "url": "https://ows.digitalearth.se"
+        }
+      ],
+      "homepage": "https://ows.digitalearth.se",
+      "owner": "SE5564646874"
+    },
+    "parkmap.parkochnatur.goteborg.se": {
+      "label": {
+        "sv": "Göteborg park- och naturkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://parkmap.parkochnatur.goteborg.se"
+        }
+      ],
+      "homepage": "https://parkmap.parkochnatur.goteborg.se",
+      "owner": "SE2120001355"
     },
     "patientenkat.se": {
       "label": {
@@ -988,6 +5467,36 @@
       ],
       "note": "A Shiny web application; no API."
     },
+    "polar.diva-portal.org": {
+      "label": {
+        "sv": "Polarforskningssekretariatet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://polar.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://polar.diva-portal.org",
+      "owner": "SE2021004060"
+    },
+    "portal.research.lu.se": {
+      "label": {
+        "sv": "Lund University Research Portal"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://portal.research.lu.se"
+        }
+      ],
+      "homepage": "https://portal.research.lu.se",
+      "owner": "SE2021003211"
+    },
     "prognos.konj.se": {
       "label": {
         "sv": "Prognosdatabasen"
@@ -1006,6 +5515,25 @@
       ],
       "owner": "SE2021000845",
       "homepage": "https://prognos.konj.se/PxWeb/pxweb"
+    },
+    "publications.ess.eu": {
+      "label": {
+        "sv": "ESS Publications"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://publications.ess.eu/api/records"
+        },
+        {
+          "protocol": "oai_pmh",
+          "url": "https://publications.ess.eu/oai2d"
+        }
+      ],
+      "homepage": "https://publications.ess.eu",
+      "owner": "SE7682000018"
     },
     "pweb2.slu.se": {
       "label": {
@@ -1195,6 +5723,149 @@
       "owner": "SE2021005612",
       "homepage": "https://pxwebska.skogsstyrelsen.se/pxweb"
     },
+    "raa.diva-portal.org": {
+      "label": {
+        "sv": "Riksantikvarieämbetet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://raa.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://raa.diva-portal.org",
+      "owner": "SE2021001090"
+    },
+    "research.hhs.se": {
+      "label": {
+        "sv": "Swedish House of Finance National Research Data Center"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://research.hhs.se/esplorows/rest/research/simpleSearch"
+        }
+      ],
+      "homepage": "https://research.hhs.se",
+      "owner": "SE8020062074"
+    },
+    "research.slu.se": {
+      "label": {
+        "sv": "SLU Research Portal"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://research.slu.se/ws/oai"
+        }
+      ],
+      "homepage": "https://research.slu.se",
+      "owner": "SE2021002817"
+    },
+    "researchportal.hkr.se": {
+      "label": {
+        "sv": "Högskolan Kristianstads forskningsportal"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://researchportal.hkr.se/ws/oai"
+        }
+      ],
+      "homepage": "https://researchportal.hkr.se",
+      "owner": "SE2021003195"
+    },
+    "ri.diva-portal.org": {
+      "label": {
+        "sv": "RISE DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://ri.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://ri.diva-portal.org",
+      "owner": "SE5564646874"
+    },
+    "riksarkivet.diva-portal.org": {
+      "label": {
+        "sv": "Riksarkivet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://riksarkivet.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://riksarkivet.diva-portal.org",
+      "owner": "SE2021001074"
+    },
+    "scb.se": {
+      "label": {
+        "sv": "Sweden National Summary Data Page"
+      },
+      "type": "indicator_database",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://www.scb.se/en/finding-statistics/thematic-areas/economic-statistics/sdds-plus-economic-and-financial-data"
+        }
+      ],
+      "homepage": "https://www.scb.se/en/finding-statistics/thematic-areas/economic-statistics/sdds-plus-economic-and-financial-data/",
+      "owner": "SE2021000837"
+    },
+    "scicat.ess.eu": {
+      "label": {
+        "sv": "ESS SciCat"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://scicat.ess.eu/api/v3/Datasets"
+        },
+        {
+          "protocol": "api",
+          "url": "https://scicat.ess.eu/api/v3/datasets"
+        }
+      ],
+      "homepage": "https://scicat.ess.eu/",
+      "owner": "SE7682000018"
+    },
+    "scicat.maxiv.lu.se": {
+      "label": {
+        "sv": "MAX IV SciCat"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://scicat.maxiv.lu.se/api/v3/Datasets"
+        },
+        {
+          "protocol": "api",
+          "url": "https://scicat.maxiv.lu.se/api/v3/datasets"
+        }
+      ],
+      "homepage": "https://scicat.maxiv.lu.se/",
+      "owner": "SE2021003211"
+    },
     "sdb.socialstyrelsen.se": {
       "label": {
         "sv": "Socialstyrelsens statistikdatabas"
@@ -1208,6 +5879,36 @@
         }
       ],
       "owner": "SE2021000555"
+    },
+    "sh.diva-portal.org": {
+      "label": {
+        "sv": "Södertörns högskola DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://sh.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://sh.diva-portal.org",
+      "owner": "SE2021004896"
+    },
+    "shh.diva-portal.org": {
+      "label": {
+        "sv": "Sophiahemmet högskola DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://shh.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://shh.diva-portal.org",
+      "owner": "SE8020068741"
     },
     "skatteverket.entryscape.net": {
       "label": {
@@ -1223,6 +5924,22 @@
       ],
       "owner": "SE2021005448",
       "operator": "SE5568540701"
+    },
+    "skogsdataportalen.skogsstyrelsen.se": {
+      "label": {
+        "sv": "Skogsdataportalen"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "http://skogsdataportalen.skogsstyrelsen.se/Skogsdataportalen"
+        }
+      ],
+      "homepage": "http://skogsdataportalen.skogsstyrelsen.se/Skogsdataportalen/",
+      "owner": "SE2021005612",
+      "note": "Listed as inactive when recorded."
     },
     "skogsstatistik.slu.se": {
       "label": {
@@ -1243,6 +5960,145 @@
       "owner": "SE2021002817",
       "homepage": "https://skogsstatistik.slu.se/pxweb"
     },
+    "slwgeo.artdata.slu.se": {
+      "label": {
+        "sv": "SLW GeoServer Catalog (Sveriges Lantbruksuniversitet)"
+      },
+      "type": "geoportal",
+      "software": "geoserver",
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://slwgeo.artdata.slu.se/geoserver/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://slwgeo.artdata.slu.se/geoserver/ows"
+        }
+      ],
+      "homepage": "https://slwgeo.artdata.slu.se/geoserver/web/",
+      "owner": "SE2021002817"
+    },
+    "smhi.diva-portal.org": {
+      "label": {
+        "sv": "Sveriges meteorologiska och hydrologiska institut DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://smhi.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://smhi.diva-portal.org",
+      "owner": "SE2021000696"
+    },
+    "smhi.se": {
+      "label": {
+        "sv": "SMHI Open Data Portal"
+      },
+      "type": "file_collection",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://www.smhi.se/data"
+        }
+      ],
+      "homepage": "https://www.smhi.se/data",
+      "owner": "SE2021000696"
+    },
+    "sok.riksarkivet.se": {
+      "label": {
+        "sv": "TORA — Topografiskt register på Riksarkivet"
+      },
+      "type": "research_repository",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://tora.entryscape.net"
+        }
+      ],
+      "homepage": "https://sok.riksarkivet.se/topografier/",
+      "owner": "SE2021001074"
+    },
+    "sosgeo.artdata.slu.se": {
+      "label": {
+        "sv": "SLU Species Observation GeoServer"
+      },
+      "type": "geoportal",
+      "software": "geoserver",
+      "endpoint": [
+        {
+          "protocol": "wms_1_3",
+          "url": "https://sosgeo.artdata.slu.se/geoserver/ows"
+        }
+      ],
+      "homepage": "https://sosgeo.artdata.slu.se/geoserver",
+      "owner": "SE2021002817"
+    },
+    "spin2000.net": {
+      "label": {
+        "sv": "Substances in Preparations in Nordic Countries (SPIN)"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "http://spin2000.net"
+        }
+      ],
+      "homepage": "http://spin2000.net/",
+      "owner": "SE2021003880"
+    },
+    "spraakbanken.gu.se": {
+      "label": {
+        "sv": "Korp (Språkbanken Text)"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://spraakbanken.gu.se/korp"
+        }
+      ],
+      "homepage": "https://spraakbanken.gu.se/korp/",
+      "owner": "SE2021003153"
+    },
+    "sprakochfolkminnen.diva-portal.org": {
+      "label": {
+        "sv": "Institutet för språk och folkminnen DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://sprakochfolkminnen.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://sprakochfolkminnen.diva-portal.org",
+      "owner": "SE2021001082"
+    },
+    "stadsatlas.malmo.se": {
+      "label": {
+        "sv": "Malmö Stadsatlas"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://stadsatlas.malmo.se/stadsatlas"
+        }
+      ],
+      "homepage": "https://stadsatlas.malmo.se/stadsatlas/",
+      "owner": "SE2120001124"
+    },
     "stationsregister.miljodatasamverkan.se": {
       "owner": "SE2021001975",
       "label": {
@@ -1262,6 +6118,21 @@
           "url": "https://statistik-api.uka.se/api"
         }
       ],
+      "owner": "SE2021006495"
+    },
+    "statistik-www.uka.se": {
+      "label": {
+        "sv": "Högskolan i siffror"
+      },
+      "type": "indicator_database",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://statistik-www.uka.se"
+        }
+      ],
+      "homepage": "https://statistik-www.uka.se/",
       "owner": "SE2021006495"
     },
     "statistik.bra.se": {
@@ -1315,6 +6186,21 @@
       ],
       "owner": "SE2021006552",
       "homepage": "https://statistik.ehalsomyndigheten.se/pxweb"
+    },
+    "statistik.etikprovningsansokan.se": {
+      "label": {
+        "sv": "Etikprövningsmyndigheten statistik"
+      },
+      "type": "indicator_database",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://statistik.etikprovningsansokan.se"
+        }
+      ],
+      "homepage": "https://statistik.etikprovningsansokan.se/",
+      "owner": "SE2021006925"
     },
     "statistik.helsingborg.se": {
       "label": {
@@ -1592,6 +6478,242 @@
       "owner": "SE2021004185",
       "homepage": "https://statistikdatabasen.skolverket.se/PxWeb/pxweb"
     },
+    "structure.bmc.lu.se": {
+      "label": {
+        "sv": "KinMutBase"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://structure.bmc.lu.se/idbase/KinMutBase"
+        }
+      ],
+      "homepage": "https://structure.bmc.lu.se/idbase/KinMutBase/",
+      "owner": "SE2021003211"
+    },
+    "stuns.entryscape.net": {
+      "label": {
+        "sv": "STUNS Energi datakatalog"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://stuns.entryscape.net"
+        }
+      ],
+      "homepage": "https://stuns.entryscape.net",
+      "owner": "SE8176021825",
+      "note": "Listed as inactive when recorded."
+    },
+    "su.diva-portal.org": {
+      "label": {
+        "sv": "Stockholms universitet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://su.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://su.diva-portal.org",
+      "owner": "SE2021003062"
+    },
+    "su.figshare.com": {
+      "label": {
+        "sv": "Stockholm University research repository"
+      },
+      "type": "research_repository",
+      "software": "figshare",
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://su.figshare.com/api/graphql"
+        }
+      ],
+      "homepage": "https://su.figshare.com",
+      "owner": "SE2021003062"
+    },
+    "sunnekartan.sunne.se": {
+      "label": {
+        "sv": "Sunnekartan"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://sunnekartan.sunne.se"
+        }
+      ],
+      "homepage": "https://sunnekartan.sunne.se",
+      "owner": "SE2120001843"
+    },
+    "sverigesmiljomal.se": {
+      "label": {
+        "sv": "Sveriges miljömål"
+      },
+      "type": "indicator_database",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://www.sverigesmiljomal.se"
+        }
+      ],
+      "homepage": "https://www.sverigesmiljomal.se/",
+      "owner": "SE2021001975"
+    },
+    "svk.se": {
+      "label": {
+        "sv": "Svenska kraftnät Kontrollrummet"
+      },
+      "type": "indicator_database",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://www.svk.se/om-kraftsystemet/kontrollrummet"
+        }
+      ],
+      "homepage": "https://www.svk.se/om-kraftsystemet/kontrollrummet/",
+      "owner": "SE2021004284"
+    },
+    "sweden.goaltracker.org": {
+      "label": {
+        "sv": "Goal Tracker Sweden"
+      },
+      "type": "indicator_database",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://sweden.goaltracker.org/platform/sweden"
+        }
+      ],
+      "homepage": "https://sweden.goaltracker.org/platform/sweden",
+      "owner": "SE2021000837"
+    },
+    "swedgeo.diva-portal.org": {
+      "label": {
+        "sv": "Statens geotekniska institut DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://swedgeo.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://swedgeo.diva-portal.org",
+      "owner": "SE2021000712"
+    },
+    "ths.diva-portal.org": {
+      "label": {
+        "sv": "Enskilda Högskolan Stockholm DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://ths.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://ths.diva-portal.org",
+      "owner": "SE5569478968"
+    },
+    "tingsryd.vic-metria.nu": {
+      "label": {
+        "sv": "Tingsryds kommun GIS (GEOSECMA)"
+      },
+      "type": "geoportal",
+      "software": "arcgis",
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://tingsryd.vic-metria.nu/arcgis/rest/services"
+        }
+      ],
+      "homepage": "https://tingsryd.vic-metria.nu/arcgis/rest/services",
+      "owner": "SE2120000621",
+      "operator": "SE5567992242",
+      "note": "Listed as inactive when recorded."
+    },
+    "tndpw.telge.se": {
+      "label": {
+        "sv": "Telge Nät dpWebmap"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://tndpw.telge.se/bios/dpwebmap/dsg/projektstatus/cust_tge"
+        }
+      ],
+      "homepage": "https://tndpw.telge.se/bios/dpwebmap/dsg/projektstatus/cust_tge/",
+      "owner": "SE5565581757"
+    },
+    "trafficdata.se": {
+      "label": {
+        "sv": "Swedish Traffic Data Portal"
+      },
+      "type": "open_data_portal",
+      "software": "ckan",
+      "endpoint": [
+        {
+          "protocol": "ckan_v3",
+          "url": "https://trafficdata.se/api/3"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://trafficdata.se/catalog.jsonld"
+        },
+        {
+          "protocol": "dcat_ap",
+          "url": "https://trafficdata.se/catalog.xml"
+        }
+      ],
+      "homepage": "https://trafficdata.se",
+      "owner": "SE2021006297"
+    },
+    "trafiklab.se": {
+      "label": {
+        "sv": "Trafiklab"
+      },
+      "type": "api",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://www.trafiklab.se"
+        }
+      ],
+      "homepage": "https://www.trafiklab.se",
+      "owner": "SE5564677598"
+    },
+    "trafikverket.diva-portal.org": {
+      "label": {
+        "sv": "Trafikverket DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://trafikverket.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://trafikverket.diva-portal.org",
+      "owner": "SE2021006297"
+    },
     "transportstyrelsen.entryscape.net": {
       "label": {
         "sv": "Transportstyrelsens öppna data"
@@ -1606,6 +6728,66 @@
       ],
       "owner": "SE2021006099",
       "operator": "SE5568540701"
+    },
+    "ucdp.uu.se": {
+      "label": {
+        "sv": "Uppsala Conflict Data Program"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://ucdp.uu.se"
+        }
+      ],
+      "homepage": "https://ucdp.uu.se/",
+      "owner": "SE2021002932"
+    },
+    "umu.diva-portal.org": {
+      "label": {
+        "sv": "Umeå universitet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://umu.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://umu.diva-portal.org",
+      "owner": "SE2021002874"
+    },
+    "umu.se": {
+      "label": {
+        "sv": "Demographic Data Base (DDB)"
+      },
+      "type": "research_repository",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://www.umu.se/enheten-for-demografi-och-aldrandeforskning"
+        }
+      ],
+      "homepage": "https://www.umu.se/enheten-for-demografi-och-aldrandeforskning/",
+      "owner": "SE2021002874"
+    },
+    "uniarts.diva-portal.org": {
+      "label": {
+        "sv": "Stockholms konstnärliga högskola DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://uniarts.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://uniarts.diva-portal.org",
+      "owner": "SE2021006560"
     },
     "utslappisiffror.naturvardsverket.se": {
       "label": {
@@ -1622,6 +6804,21 @@
         }
       ],
       "note": "Emissions per facility and substance from the pollutant release register. Web interface only."
+    },
+    "uu.diva-portal.org": {
+      "label": {
+        "sv": "Uppsala universitet DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://uu.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://uu.diva-portal.org",
+      "owner": "SE2021002932"
     },
     "vantetider.se": {
       "label": {
@@ -1656,6 +6853,21 @@
       ],
       "note": "Health-care quality indicators from the national quality registries and other sources, published by SKR for the regions' knowledge management. The export API went public in 2026; 1,216 indicators."
     },
+    "vgpv.vgregion.se": {
+      "label": {
+        "sv": "VGR karta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://vgpv.vgregion.se"
+        }
+      ],
+      "homepage": "https://vgpv.vgregion.se",
+      "owner": "SE2321000131"
+    },
     "vgregion.entryscape.net": {
       "label": {
         "sv": "Västra Götalandsregionens öppna data"
@@ -1670,10 +6882,170 @@
       ],
       "owner": "SE2321000131",
       "operator": "SE5568540701"
+    },
+    "vgregion.se": {
+      "label": {
+        "sv": "Dataportal Väst"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://www.vgregion.se/dataportalvast"
+        }
+      ],
+      "homepage": "https://www.vgregion.se/dataportalvast",
+      "owner": "SE2321000131"
+    },
+    "vti.diva-portal.org": {
+      "label": {
+        "sv": "Statens väg- och transportforskningsinstitut DiVA"
+      },
+      "type": "research_repository",
+      "software": "diva",
+      "endpoint": [
+        {
+          "protocol": "oai_pmh",
+          "url": "https://vti.diva-portal.org/dice/oai"
+        }
+      ],
+      "homepage": "https://vti.diva-portal.org",
+      "owner": "SE2021000704"
+    },
+    "webbkarta.gagnef.se": {
+      "label": {
+        "sv": "Gagnefs kommuns externa karta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://webbkarta.gagnef.se/spatialmap"
+        }
+      ],
+      "homepage": "https://webbkarta.gagnef.se/spatialmap",
+      "owner": "SE2120002155"
+    },
+    "webbkartor.vgregion.se": {
+      "label": {
+        "sv": "Västra Götalandsregionen Webbkartor"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://webbkartor.vgregion.se/geoserver/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://webbkartor.vgregion.se/geoserver/ows"
+        }
+      ],
+      "homepage": "https://webbkartor.vgregion.se/mapstore/",
+      "owner": "SE2321000131"
+    },
+    "webmap.eon.se": {
+      "label": {
+        "sv": "E.ON dpWebmap"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://webmap.eon.se/bios"
+        }
+      ],
+      "homepage": "https://webmap.eon.se/bios/",
+      "owner": "SE5560706060"
+    },
+    "webmap.goteborgenergi.se": {
+      "label": {
+        "sv": "Göteborg Energi dpWebmap"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://webmap.goteborgenergi.se/bios"
+        }
+      ],
+      "homepage": "https://webmap.goteborgenergi.se/bios/",
+      "owner": "SE5563626794"
+    },
+    "webmap.saffle.se": {
+      "label": {
+        "sv": "Säffle webbkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://webmap.saffle.se"
+        }
+      ],
+      "homepage": "https://webmap.saffle.se/",
+      "owner": "SE2120001900"
+    },
+    "webmap.uppvidinge.se": {
+      "label": {
+        "sv": "Uppvidinge webbkarta"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://webmap.uppvidinge.se"
+        }
+      ],
+      "homepage": "https://webmap.uppvidinge.se/",
+      "owner": "SE2120000605"
+    },
+    "webmap.varbergenergi.se": {
+      "label": {
+        "sv": "Varberg Energi Installatörswebben"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://webmap.varbergenergi.se/bios/dpwebmap/dsg/contractor/cust_var"
+        }
+      ],
+      "homepage": "https://webmap.varbergenergi.se/bios/dpwebmap/dsg/contractor/cust_var",
+      "owner": "SE5594650037"
+    },
+    "webmap.vbenergi.se": {
+      "label": {
+        "sv": "VB Energi Installatörswebben"
+      },
+      "type": "geoportal",
+      "software": "custom",
+      "endpoint": [
+        {
+          "protocol": "web",
+          "url": "https://webmap.vbenergi.se/bios/dpwebmap/dsg/contractor/cust_vbe"
+        }
+      ],
+      "homepage": "https://webmap.vbenergi.se/bios/dpwebmap/dsg/contractor/cust_vbe/",
+      "owner": "SE5565656864"
     }
   },
   "ignore": [
+    "beta.vardenisiffror.se",
+    "ckan-malmo.dataplatform.se",
+    "helsingborg.opendatasoft.com",
     "pxwebb2017.vgregion.se",
-    "pxwebdemo.scb.se"
+    "pxwebdemo.scb.se",
+    "stationsregistertest.miljodatasamverkan.se",
+    "test.ikartan.se",
+    "tillvaxtdata.tillvaxtverket.se"
   ]
 }

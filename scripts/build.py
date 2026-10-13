@@ -210,7 +210,8 @@ def main():
 
     for r in catalogs.values():
         r["source"] = sorted(set(r["source"]))
-        r["endpoint"] = sorted(r["endpoint"], key=lambda e: (e["protocol"], e["url"]))
+        unique = {(e["protocol"], e["url"].rstrip("/").lower()): e for e in sorted(r["endpoint"], key=lambda e: (e["protocol"], e["url"]))}
+        r["endpoint"] = sorted(unique.values(), key=lambda e: (e["protocol"], e["url"]))
         for e in r["endpoint"]:
             old = next((o for o in previous.get(r["id"], {}).get("endpoint", []) if (o["protocol"], o["url"]) == (e["protocol"], e["url"])), None)
             if "checked" not in e and old and old.get("checked"):
