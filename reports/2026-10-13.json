@@ -9,7 +9,7 @@
     "research_repository": 90,
     "statistics_database": 41
   },
-  "changed": 3,
+  "changed": 1,
   "count": 1057,
   "date": "2026-10-13",
   "protocol": {
@@ -48,10 +48,10 @@
     "check": {
       "endpoints": 734,
       "error": 52,
-      "ok": 596,
+      "ok": 597,
       "restricted": 13,
       "status": "fetched",
-      "unreachable": 73
+      "unreachable": 72
     },
     "data_europa": {
       "rows": 74,
