@@ -1,7 +1,6 @@
 """The organisations registry, read from nordicintel/organisations on GitHub.
 
-Reduced to what this build needs: every id with its Swedish label, status and homepage,
-plus a map from every URI the portals use for an organisation (its dataportal.se agent
+Every organisation record as published, plus a map from every URI the portals use for an organisation (its dataportal.se agent
 URI, same_as URIs and the links/ file) to its id, so publishers resolve to owners.
 """
 import json
@@ -28,12 +27,11 @@ def name(value):
 def fetch(cache: Path):
     data = json.loads(cached(cache, "organisations.json", lambda: http(BASE + "organisations.json")).read_text(encoding="utf-8"))
     links = json.loads(cached(cache, "organisations_links_dataportal.json", lambda: http(BASE + "links/dataportal.json")).read_text(encoding="utf-8"))
-    out = {"organisation": {}, "uri": {}, "domain": {}, "name": {}}
+    out = {"generated": data.get("generated", ""), "organisation": {}, "uri": {}, "domain": {}, "name": {}}
     domains, names = {}, {}
     for k, r in data["organisation"].items():
         try:
-            out["organisation"][k] = {"label": r["label"].get("sv") or next(iter(r["label"].values())), "status": r["status"],
-                                      "homepage": r.get("homepage", "")}
+            out["organisation"][k] = r  # the whole record: the build ships the referenced ones in dist/
             for uri in [r.get("identifier", {}).get("dataportal", "")] + r.get("same_as", []):
                 if uri:
                     out["uri"][uri] = k
