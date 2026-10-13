@@ -4553,8 +4553,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "HTTP 502",
+            "result": "error"
           },
           "protocol": "oai_pmh",
           "url": "https://commons.wmu.se/do/oai"
@@ -4571,7 +4571,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "error"
     },
     "daim.lfv.se": {
       "catalog_type": "geoportal",

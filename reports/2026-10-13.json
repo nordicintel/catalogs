@@ -47,8 +47,8 @@
   "register": {
     "check": {
       "endpoints": 734,
-      "error": 52,
-      "ok": 597,
+      "error": 53,
+      "ok": 596,
       "restricted": 13,
       "status": "fetched",
       "unreachable": 72
@@ -68,8 +68,8 @@
   },
   "removed": [],
   "status": {
-    "error": 497,
-    "ok": 516,
+    "error": 498,
+    "ok": 515,
     "restricted": 7,
     "unreachable": 37
   },
