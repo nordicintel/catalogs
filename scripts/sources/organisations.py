@@ -9,7 +9,7 @@ import re
 from pathlib import Path
 from urllib.parse import urlparse
 
-from .common import cached, http
+from .common import cached, http, skip
 
 BASE = "https://raw.githubusercontent.com/nordicintel/organisations/main/"
 
@@ -31,16 +31,19 @@ def fetch(cache: Path):
     out = {"organisation": {}, "uri": {}, "domain": {}, "name": {}}
     domains, names = {}, {}
     for k, r in data["organisation"].items():
-        out["organisation"][k] = {"label": r["label"].get("sv") or next(iter(r["label"].values())), "status": r["status"],
-                                  "homepage": r.get("homepage", "")}
-        for uri in [r.get("identifier", {}).get("dataportal", "")] + r.get("same_as", []):
-            if uri:
-                out["uri"][uri] = k
-        if r.get("homepage"):
-            domains.setdefault(domain(r["homepage"]), set()).add(k)
-        for value in list(r["label"].values()) + r.get("alias", []) + [r.get("registered_label", "")]:
-            if value:
-                names.setdefault(name(value), set()).add(k)
+        try:
+            out["organisation"][k] = {"label": r["label"].get("sv") or next(iter(r["label"].values())), "status": r["status"],
+                                      "homepage": r.get("homepage", "")}
+            for uri in [r.get("identifier", {}).get("dataportal", "")] + r.get("same_as", []):
+                if uri:
+                    out["uri"][uri] = k
+            if r.get("homepage"):
+                domains.setdefault(domain(r["homepage"]), set()).add(k)
+            for value in list(r["label"].values()) + r.get("alias", []) + [r.get("registered_label", "")]:
+                if value:
+                    names.setdefault(name(value), set()).add(k)
+        except Exception as error:  # noqa: BLE001
+            skip("organisations", k, error)
     for uri, k in links.items():
         if k:
             out["uri"].setdefault(uri, k)

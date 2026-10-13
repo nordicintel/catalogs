@@ -88,7 +88,7 @@ def main():
 
     registry = fetch("organisations", lambda: organisations.fetch(cache), registers)
     orgs, by_uri, by_domain, by_name = (registry.get(k, {}) for k in ("organisation", "uri", "domain", "name"))
-    federation = fetch("dataportal", lambda: dataportal.fetch(cache), registers)
+    federation = fetch("dataportal", lambda: dataportal.fetch(cache, load_json(SNAPSHOTS / "dataportal.json", {})), registers)
     hub = fetch("data_europa", lambda: data_europa.fetch(cache), registers)
 
     def owner_of(title, *uris):
@@ -110,119 +110,136 @@ def main():
 
     catalogs = {}
     unresolved = []
+    skipped = Counter()
+
+    def skip(register, key, error):
+        skipped[register] += 1
+        print(f"{register} {key}: skipped, {type(error).__name__}: {error}", file=sys.stderr)
     for context, row in federation.items():
-        source = row["source"].strip()
-        if not source.startswith("http") or " " in source:
-            continue  # no URL to harvest from, so nothing to check or read
-        parsed = urlparse(source)
-        host = (parsed.hostname or "").lower().removeprefix("www.")
-        if host in SHARED_HOSTS:
-            # One context in a shared install: its number in that install's store, read from the harvested URL.
-            own = re.search(r"/store/(\d+)/", parsed.path)
-            key = f"{host}/{own.group(1) if own else context}"
-        else:
-            key = host
-        if key in edits["ignore"] or source in edits["ignore"]:
-            continue
-        # Every registration is a record, also the guessed URLs dataportal.se pre-registered for
-        # every public body: the harvest outcome, or our own probe when there is none, is the status.
-        e = {"protocol": "dcat_ap", "url": source}
-        if row["run"]:
-            ok = row["run"]["status"] == "Success" and row["run"]["datasets"] > 0
-            e["checked"] = {"date": row["run"]["date"], "result": "ok" if ok else "error",
-                            "detail": f"dataportal.se harvest {row['run']['status']}, {row['run']['datasets']} datasets, {row['run']['errors']} validation errors"}
-        endpoints = [e]
-        software = "custom"
-        root = f"{parsed.scheme}://{parsed.hostname}"
-        if host in SHARED_HOSTS:
-            software = "entryscape"  # one context in somebody else's install; the RDF export is its only endpoint
-        elif "/store/" in parsed.path or host.endswith(".entryscape.net"):
-            software = "entryscape"
-            endpoints.append({"protocol": "entrystore", "url": root})
-        elif "/api/3/" in parsed.path or parsed.path.endswith("catalog.rdf"):
-            software = "ckan"
-            endpoints.append({"protocol": "ckan_v3", "url": root})
-        elif host.endswith("hub.arcgis.com") or parsed.path.endswith("data.json"):
-            software = "arcgis"
-            endpoints.append({"protocol": "arcgis_hub", "url": root})
-        record = {"id": key, "label": {"sv": row["title"]} if row["title"] else {}, "catalog_type": "open_data_portal", "software": software,
-                  "endpoint": endpoints, "status": "unknown", "source": ["dataportal"],
-                  "identifier": {"dataportal": f"https://admin.dataportal.se/store/{context}"}}
-        if row["homepage"]:
-            record["homepage"] = row["homepage"]
-        if row.get("description"):
-            record["description"] = {"sv": row["description"]}
-        if row.get("license", "").startswith("http"):
-            record["license"] = row["license"]
-        owner = owner_of(row["title"], row["publisher"], row["homepage"], source if host not in SHARED_HOSTS else "")
-        if owner:
-            record["owner"] = owner
-        else:
-            unresolved.append({"id": key, "title": row["title"], "publisher": row["publisher"]})
-        if host in SHARED_HOSTS:
-            record["operator"] = SHARED_HOSTS[host]
-        elif host.endswith(".entryscape.net"):
-            record["operator"] = METASOLUTIONS
-        if key in catalogs:
-            # Several contexts on one host: keep the first, add the rest as endpoints and identifiers.
-            merge(catalogs[key], {"endpoint": endpoints, "same_as": [f"https://admin.dataportal.se/store/{context}"]})
-        else:
-            catalogs[key] = record
+        try:
+            source = row["source"].strip()
+            if not source.startswith("http") or " " in source:
+                continue  # no URL to harvest from, so nothing to check or read
+            parsed = urlparse(source)
+            host = (parsed.hostname or "").lower().removeprefix("www.")
+            if host in SHARED_HOSTS:
+                # One context in a shared install: its number in that install's store, read from the harvested URL.
+                own = re.search(r"/store/(\d+)/", parsed.path)
+                key = f"{host}/{own.group(1) if own else context}"
+            else:
+                key = host
+            if key in edits["ignore"] or source in edits["ignore"]:
+                continue
+            # Every registration is a record, also the guessed URLs dataportal.se pre-registered for
+            # every public body: the harvest outcome, or our own probe when there is none, is the status.
+            e = {"protocol": "dcat_ap", "url": source}
+            if row["run"]:
+                ok = row["run"]["status"] == "Success" and row["run"]["datasets"] > 0
+                e["checked"] = {"date": row["run"]["date"], "result": "ok" if ok else "error",
+                                "detail": f"dataportal.se harvest {row['run']['status']}, {row['run']['datasets']} datasets, {row['run']['errors']} validation errors"}
+            endpoints = [e]
+            software = "custom"
+            root = f"{parsed.scheme}://{parsed.hostname}"
+            if host in SHARED_HOSTS:
+                software = "entryscape"  # one context in somebody else's install; the RDF export is its only endpoint
+            elif "/store/" in parsed.path or host.endswith(".entryscape.net"):
+                software = "entryscape"
+                endpoints.append({"protocol": "entrystore", "url": root})
+            elif "/api/3/" in parsed.path or parsed.path.endswith("catalog.rdf"):
+                software = "ckan"
+                endpoints.append({"protocol": "ckan_v3", "url": root})
+            elif host.endswith("hub.arcgis.com") or parsed.path.endswith("data.json"):
+                software = "arcgis"
+                endpoints.append({"protocol": "arcgis_hub", "url": root})
+            record = {"id": key, "label": {"sv": row["title"]} if row["title"] else {}, "catalog_type": "open_data_portal", "software": software,
+                      "endpoint": endpoints, "status": "unknown", "source": ["dataportal"],
+                      "identifier": {"dataportal": f"https://admin.dataportal.se/store/{context}"}}
+            if row["homepage"]:
+                record["homepage"] = row["homepage"]
+            if row.get("description"):
+                record["description"] = {"sv": row["description"]}
+            if row.get("license", "").startswith("http"):
+                record["license"] = row["license"]
+            owner = owner_of(row["title"], row["publisher"], row["homepage"], source if host not in SHARED_HOSTS else "")
+            if owner:
+                record["owner"] = owner
+            else:
+                unresolved.append({"id": key, "title": row["title"], "publisher": row["publisher"]})
+            if host in SHARED_HOSTS:
+                record["operator"] = SHARED_HOSTS[host]
+            elif host.endswith(".entryscape.net"):
+                record["operator"] = METASOLUTIONS
+            if key in catalogs:
+                # Several contexts on one host: keep the first, add the rest as endpoints and identifiers.
+                merge(catalogs[key], {"endpoint": endpoints, "same_as": [f"https://admin.dataportal.se/store/{context}"]})
+            else:
+                catalogs[key] = record
+        except Exception as error:  # noqa: BLE001 - one bad row must not cost the register
+            skip("dataportal", context, error)
     # data.europa.eu: service hosts behind the Swedish catalogues' datasets and data services.
     GEO = {"wms_1_3", "wfs_2", "arcgis_rest", "atom", "csw_2", "ogc_features"}
     for host, row in hub.items():
-        key = host.removeprefix("www.")
-        if key in edits["ignore"]:
-            continue
-        endpoints = [{"protocol": proto, "url": url} for proto, urls in row["protocol"].items() for url in urls]
-        spoken = set(row["protocol"])
-        bases = " ".join(url for urls in row["protocol"].values() for url in urls)
-        if spoken & {"pxweb_v1", "pxweb_v2"}:
-            catalog_type, software = "statistics_database", "pxweb"
-        elif "entrystore" in spoken:
-            catalog_type, software = "open_data_portal", "entryscape"
-        elif spoken & GEO:
-            catalog_type = "geoportal"
-            software = "geoserver" if "/geoserver" in bases else "arcgis" if "arcgis_rest" in spoken else "custom"
-        else:
-            catalog_type, software = "api", "custom"
-        record = {"id": key, "label": {}, "catalog_type": catalog_type, "software": software, "endpoint": endpoints, "status": "unknown", "source": ["data_europa"]}
-        owner = owner_of("", *row["publisher"], f"https://{host}/")
-        if owner:
-            record["owner"] = owner
-        elif key not in catalogs and key not in edits["catalog"]:
-            unresolved.append({"id": key, "title": "", "publisher": ", ".join(row["publisher"])})
-        if key.endswith(".metria.se"):
-            record["operator"] = METRIA
-        if key in catalogs:
-            patch = {"endpoint": endpoints}
-            if "owner" not in catalogs[key] and owner:
-                patch["owner"] = owner
-            merge(catalogs[key], patch)
-            catalogs[key]["source"].append("data_europa")
-        else:
-            catalogs[key] = record
+        try:
+            key = host.removeprefix("www.")
+            if key in edits["ignore"]:
+                continue
+            endpoints = [{"protocol": proto, "url": url} for proto, urls in row["protocol"].items() for url in urls]
+            spoken = set(row["protocol"])
+            bases = " ".join(url for urls in row["protocol"].values() for url in urls)
+            if spoken & {"pxweb_v1", "pxweb_v2"}:
+                catalog_type, software = "statistics_database", "pxweb"
+            elif "entrystore" in spoken:
+                catalog_type, software = "open_data_portal", "entryscape"
+            elif spoken & GEO:
+                catalog_type = "geoportal"
+                software = "geoserver" if "/geoserver" in bases else "arcgis" if "arcgis_rest" in spoken else "custom"
+            else:
+                catalog_type, software = "api", "custom"
+            record = {"id": key, "label": {}, "catalog_type": catalog_type, "software": software, "endpoint": endpoints, "status": "unknown", "source": ["data_europa"]}
+            owner = owner_of("", *row["publisher"], f"https://{host}/")
+            if owner:
+                record["owner"] = owner
+            elif key not in catalogs and key not in edits["catalog"]:
+                unresolved.append({"id": key, "title": "", "publisher": ", ".join(row["publisher"])})
+            if key.endswith(".metria.se"):
+                record["operator"] = METRIA
+            if key in catalogs:
+                patch = {"endpoint": endpoints}
+                if "owner" not in catalogs[key] and owner:
+                    patch["owner"] = owner
+                merge(catalogs[key], patch)
+                catalogs[key]["source"].append("data_europa")
+            else:
+                catalogs[key] = record
+        except Exception as error:  # noqa: BLE001 - one bad row must not cost the register
+            skip("data_europa", host, error)
 
     for key, patch in edits["catalog"].items():
-        if key in edits["ignore"]:
-            continue
-        record = catalogs.setdefault(key, {"id": key, "label": {}, "endpoint": [], "status": "unknown", "source": []})
-        merge(record, patch)
-        record["source"].append("edits")
-        if "owner" in record:
-            unresolved = [u for u in unresolved if u["id"] != key]
+        try:
+            if key in edits["ignore"]:
+                continue
+            record = catalogs.setdefault(key, {"id": key, "label": {}, "endpoint": [], "status": "unknown", "source": []})
+            merge(record, patch)
+            record["source"].append("edits")
+            if "owner" in record:
+                unresolved = [u for u in unresolved if u["id"] != key]
+        except Exception as error:  # noqa: BLE001 - one bad row must not cost the register
+            skip("edits", key, error)
 
     for r in catalogs.values():
-        r["source"] = sorted(set(r["source"]))
-        unique = {(e["protocol"], e["url"].rstrip("/").lower()): e for e in sorted(r["endpoint"], key=lambda e: (e["protocol"], e["url"]))}
-        r["endpoint"] = sorted(unique.values(), key=lambda e: (e["protocol"], e["url"]))
-        for e in r["endpoint"]:
-            old = next((o for o in previous.get(r["id"], {}).get("endpoint", []) if (o["protocol"], o["url"]) == (e["protocol"], e["url"])), None)
-            if "checked" not in e and old and old.get("checked"):
-                e["checked"] = old["checked"]  # carried until the next check overwrites it
-        if not r["label"]:
-            owner = orgs[r["owner"]]["label"] if r.get("owner") in orgs else r["id"]
-            r["label"]["sv"] = {"geoportal": f"{owner} geodatatjänster", "api": f"{owner} API"}.get(r["catalog_type"], owner)
+        try:
+            r["source"] = sorted(set(r["source"]))
+            unique = {(e["protocol"], e["url"].rstrip("/").lower()): e for e in sorted(r["endpoint"], key=lambda e: (e["protocol"], e["url"]))}
+            r["endpoint"] = sorted(unique.values(), key=lambda e: (e["protocol"], e["url"]))
+            for e in r["endpoint"]:
+                old = next((o for o in previous.get(r["id"], {}).get("endpoint", []) if (o["protocol"], o["url"]) == (e["protocol"], e["url"])), None)
+                if "checked" not in e and old and old.get("checked"):
+                    e["checked"] = old["checked"]  # carried until the next check overwrites it
+            if not r["label"]:
+                owner = orgs[r["owner"]]["label"] if r.get("owner") in orgs else r["id"]
+                r["label"]["sv"] = {"geoportal": f"{owner} geodatatjänster", "api": f"{owner} API"}.get(r["catalog_type"], owner)
+        except Exception as error:  # noqa: BLE001 - one bad row must not cost the register
+            skip("build", r, error)
 
     catalogs = dict(sorted(catalogs.items()))
     if args.no_check:
@@ -234,11 +251,17 @@ def main():
         r["source"] = sorted(set(r["source"]) | ({"check"} if any(e.get("checked") for e in r["endpoint"]) else set()))
     generated = previous_output.get("generated", report["date"]) if catalogs == previous else report["date"]
     dump(OUTPUT, {"generated": generated, "count": len(catalogs), "catalog": catalogs})
-    export.export(OUTPUT, ROOT / "protocols.json", ROOT / "software.json")
+    try:
+        export.export(OUTPUT, ROOT / "protocols.json", ROOT / "software.json")
+    except Exception as error:  # noqa: BLE001 - dist/ is derived; the product is already written
+        print(f"export: {error}", file=sys.stderr)
+        report["export"] = f"failed: {str(error)[:200]}"
 
     added = sorted(set(catalogs) - set(previous))
     removed = sorted(set(previous) - set(catalogs))
     changed = sorted(k for k in set(catalogs) & set(previous) if catalogs[k] != previous[k])
+    for register, n in skipped.items():
+        registers.setdefault(register, {})["skipped"] = n
     report.update({"count": len(catalogs), "added": added, "removed": removed, "changed": len(changed),
                    "catalog_type": dict(Counter(r.get("catalog_type", "none") for r in catalogs.values())),
                    "protocol": dict(Counter(e["protocol"] for r in catalogs.values() for e in r["endpoint"])),
@@ -246,11 +269,12 @@ def main():
                    "without_owner": sorted(unresolved, key=lambda u: u["id"]),
                    "without_software_protocol": sorted(k for k, r in catalogs.items() if products[r["software"]].get("protocol")
                                                        and not {e["protocol"] for e in r["endpoint"]} & set(products[r["software"]]["protocol"]))})
-    if added or removed or changed or any(v["status"] == "failed" for v in registers.values()):
+    if added or removed or changed or any(v.get("status") == "failed" or v.get("skipped") for v in registers.values()) or "export" in report:
         dump(ROOT / "reports" / f"{report['date']}.json", report)
     print(f"{len(catalogs)} catalogs: +{len(added)} -{len(removed)} ~{len(changed)}; "
           + ", ".join(f"{k} {v['status']}" for k, v in registers.items()), file=sys.stderr)
-    sys.exit(2 if registers and all(v["status"] == "failed" for v in registers.values()) else 0)
+    fetched = [v for v in registers.values() if "status" in v]
+    sys.exit(2 if fetched and all(v["status"] == "failed" for v in fetched) else 0)
 
 
 if __name__ == "__main__":

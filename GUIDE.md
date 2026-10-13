@@ -150,7 +150,13 @@ python scripts/export.py catalogs.json protocols.json software.json  # rewrite d
 python scripts/validate.py  # schemas and references across all files; run before committing
 ```
 
-A register that cannot be fetched is replaced by its snapshot and reported as
-`stale`; only when every register fails does the build exit non-zero. Builds are
-deterministic, so a diff means a register or an edit changed. The workflow runs
-weekly and commits only when something changed.
+Failures are contained at three levels. A request that gets a rate limit, a gateway
+error or a network failure is retried a few times with a growing pause. A row a
+register cannot read, or that the build cannot apply, is skipped and logged, counted
+as `skipped` under that register in the report, and the other rows go through; a
+dataportal.se pipeline whose resource cannot be read keeps the URL the last snapshot
+had. A register that still cannot be fetched is replaced by its snapshot and reported
+as `stale`; only when every register fails does the build exit non-zero. The `dist/`
+export failing never fails the build; the report says so. Builds are deterministic,
+so a diff means a register or an edit changed. The workflow runs weekly and commits
+only when something changed.

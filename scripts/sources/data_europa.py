@@ -15,7 +15,7 @@ import urllib.parse
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse, urlunparse
 
-from .common import cached, http
+from .common import cached, http, skip
 
 SEARCH = "https://data.europa.eu/api/hub/search/search?"
 CATALOGUES = ("oppnadata", "geodata-se", "nsip-se")
@@ -111,17 +111,23 @@ def fetch(cache: Path):
 
     for catalogue, rows in raw["dataset"].items():
         for r in rows:
-            publisher = ((r.get("publisher") or {}).get("resource") or "")
-            for d in r.get("distributions") or []:
-                for key in ("access_url", "download_url"):
-                    values = d.get(key) or []
-                    for url in (values if isinstance(values, list) else [values]):
-                        note(url, publisher, catalogue, True)
+            try:
+                publisher = ((r.get("publisher") or {}).get("resource") or "")
+                for d in r.get("distributions") or []:
+                    for key in ("access_url", "download_url"):
+                        values = d.get(key) or []
+                        for url in (values if isinstance(values, list) else [values]):
+                            note(url, publisher, catalogue, True)
+            except Exception as error:  # noqa: BLE001
+                skip("data_europa dataset", r.get("id"), error)
     for catalogue, rows in raw["dataservice"].items():
         for r in rows:
-            publisher = ((r.get("publisher") or {}).get("resource") or "")
-            for url in r.get("endpoint_url") or []:
-                note(url, publisher, catalogue, False)
+            try:
+                publisher = ((r.get("publisher") or {}).get("resource") or "")
+                for url in r.get("endpoint_url") or []:
+                    note(url, publisher, catalogue, False)
+            except Exception as error:  # noqa: BLE001
+                skip("data_europa dataservice", r.get("id"), error)
 
     for entry in hosts.values():
         entry["publisher"].sort()

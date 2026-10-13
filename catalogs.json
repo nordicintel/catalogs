@@ -20289,6 +20289,7 @@
       "label": {
         "sv": "Landstinget i Uppsala län"
       },
+      "owner": "SE2321000024",
       "software": "custom",
       "source": [
         "check",
@@ -27885,6 +27886,7 @@
       "label": {
         "sv": "Stockholms läns landsting"
       },
+      "owner": "SE2321000016",
       "software": "custom",
       "source": [
         "check",
