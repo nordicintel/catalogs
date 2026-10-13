@@ -5,7 +5,7 @@ The hub files Swedish content under three catalogues (oppnadata = dataportal.se,
 geodata-se = Geodataportalen, nsip-se = the high-value-data single point). dataportal.se is
 already a register of its own, so its datasets are skipped here; its data services are
 not, since they name APIs and OGC services the federation itself does not. The reduced
-result is keyed by host: publisher URIs seen, dataset count, and one entry per protocol
+result is keyed by host: publisher URIs seen, the catalogues, and one entry per protocol
 with the endpoint base URLs the URLs collapse to.
 """
 import json
@@ -27,7 +27,9 @@ MAX_BASES = 3  # more distinct service bases than this on one host collapse to t
 def _search(filter_, catalogue):
     out, page = [], 0
     while True:
-        url = SEARCH + urllib.parse.urlencode({"filter": filter_, "facets": json.dumps({"catalog": [catalogue]}), "limit": PAGE, "page": page})
+        # Without a sort the hub's pages shift between calls and rows go missing; sorting by id makes paging stable.
+        url = SEARCH + urllib.parse.urlencode({"filter": filter_, "facets": json.dumps({"catalog": [catalogue]}), "limit": PAGE, "page": page,
+                                               "sort": "id+asc"})
         rows = json.loads(http(url, timeout=300))["result"]["results"]
         out += rows
         if len(rows) < PAGE:
@@ -99,12 +101,11 @@ def fetch(cache: Path):
             return
         protocol, base = found
         host = urlparse(base).hostname
-        entry = hosts.setdefault(host, {"publisher": [], "catalogue": [], "datasets": 0, "services": 0, "protocol": {}})
+        entry = hosts.setdefault(host, {"publisher": [], "catalogue": [], "protocol": {}})
         if publisher and publisher not in entry["publisher"]:
             entry["publisher"].append(publisher)
         if catalogue not in entry["catalogue"]:
             entry["catalogue"].append(catalogue)
-        entry["datasets" if is_dataset else "services"] += 1
         for proto in (("wms_1_3", "wfs_2") if protocol == "ows" else (protocol,)):
             entry["protocol"].setdefault(proto, set()).add(base)
 
