@@ -545,6 +545,30 @@
       ],
       "owner": "SE2021000555"
     },
+    "dataportal.se": {
+      "label": {
+        "sv": "Sveriges dataportal",
+        "en": "Sweden's data portal"
+      },
+      "type": "open_data_portal",
+      "software": "entryscape",
+      "owner": "SE2021006883",
+      "homepage": "https://www.dataportal.se",
+      "identifier": {
+        "data_europa": "oppnadata"
+      },
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://admin.dataportal.se"
+        },
+        {
+          "protocol": "sparql",
+          "url": "https://admin.dataportal.se/sparql"
+        }
+      ],
+      "note": "The national portal: a federation of every registered catalog, each in its own context. The federated catalogs are their own records here."
+    },
     "ei.entryscape.net": {
       "label": {
         "sv": "Energimarknadsinspektionens öppna data"
@@ -579,6 +603,18 @@
       "owner": "SE2021005026",
       "note": "Harvested from esv.se: the catalog was set up when the body was Ekonomistyrningsverket."
     },
+    "ext-geodata-nationella-visning.lansstyrelsen.se": {
+      "owner": "SE2021002361-LST",
+      "label": {
+        "sv": "Länsstyrelsernas geodata"
+      }
+    },
+    "ext-geodata-raster.lansstyrelsen.se": {
+      "owner": "SE2021002361-LST",
+      "label": {
+        "sv": "Länsstyrelsernas geodata"
+      }
+    },
     "fohm-app.folkhalsomyndigheten.se/folkhalsodata": {
       "label": {
         "sv": "Folkhälsodata"
@@ -612,6 +648,26 @@
       ],
       "owner": "SE2021005521"
     },
+    "geodata.se": {
+      "label": {
+        "sv": "Geodataportalen",
+        "en": "Geodata Portal Sweden"
+      },
+      "type": "geoportal",
+      "software": "geonetwork",
+      "owner": "SE2021004888",
+      "homepage": "https://www.geodata.se/geodataportalen/",
+      "identifier": {
+        "data_europa": "geodata-se"
+      },
+      "endpoint": [
+        {
+          "protocol": "csw_2",
+          "url": "https://www.geodata.se/geodataportalen/srv/swe/csw"
+        }
+      ],
+      "note": "The national geodata catalog: metadata for the services and datasets of some 25 bodies, harvested by data.europa.eu as geodata-se."
+    },
     "haninge.entryscape.net": {
       "label": {
         "sv": "Haninge kommuns öppna data"
@@ -644,6 +700,9 @@
       ],
       "owner": "SE2021000837",
       "homepage": "https://hvduppdrag.scb.se/pxweb"
+    },
+    "karta.lidingo.se": {
+      "owner": "SE2120000191"
     },
     "katalog.lund.se": {
       "label": {
@@ -991,6 +1050,13 @@
       ],
       "owner": "SE2021002817",
       "homepage": "https://skogsstatistik.slu.se/pxweb"
+    },
+    "stationsregister.miljodatasamverkan.se": {
+      "owner": "SE2021001975",
+      "label": {
+        "sv": "Stationsregistret (Miljödatasamverkan)"
+      },
+      "note": "Run by Naturvårdsverket for the environmental monitoring bodies."
     },
     "statistik-api.uka.se": {
       "label": {

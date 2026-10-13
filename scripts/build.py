@@ -18,13 +18,14 @@ from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from sources import dataportal, organisations  # noqa: E402
+from sources import data_europa, dataportal, organisations  # noqa: E402
 from sources.organisations import domain, name  # noqa: E402
 from sources.common import load_json  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 # Installs many publishers share; each publisher's context is its own catalog there.
 METASOLUTIONS = "SE5568540701"
+METRIA = "SE5567992242"
 DIGG = "SE2021006883"
 SHARED_HOSTS = {"free.entryscape.com": METASOLUTIONS, "editera.dataportal.se": DIGG, "admin.dataportal.se": DIGG,
                 "registrera.oppnadata.se": DIGG}
@@ -83,6 +84,7 @@ def main():
     registry = fetch("organisations", lambda: organisations.fetch(cache), registers)
     orgs, by_uri, by_domain, by_name = (registry.get(k, {}) for k in ("organisation", "uri", "domain", "name"))
     federation = fetch("dataportal", lambda: dataportal.fetch(cache), registers)
+    hub = fetch("data_europa", lambda: data_europa.fetch(cache), registers)
 
     def owner_of(title, *uris):
         for uri in uris:
@@ -160,6 +162,41 @@ def main():
             merge(catalogs[key], {"endpoint": endpoints, "same_as": [f"https://admin.dataportal.se/store/{context}"]})
         else:
             catalogs[key] = record
+    # data.europa.eu: service hosts behind the Swedish catalogues' datasets and data services.
+    GEO = {"wms_1_3", "wfs_2", "arcgis_rest", "atom", "csw_2", "ogc_features"}
+    for host, row in hub.items():
+        key = host.removeprefix("www.")
+        if key in edits["ignore"]:
+            continue
+        endpoints = [{"protocol": proto, "url": url} for proto, urls in row["protocol"].items() for url in urls]
+        protocols = set(row["protocol"])
+        bases = " ".join(url for urls in row["protocol"].values() for url in urls)
+        if protocols & {"pxweb_v1", "pxweb_v2"}:
+            kind, software = "statistics_database", "pxweb"
+        elif "entrystore" in protocols:
+            kind, software = "open_data_portal", "entryscape"
+        elif protocols & GEO:
+            kind = "geoportal"
+            software = "geoserver" if "/geoserver" in bases else "arcgis" if "arcgis_rest" in protocols else "custom"
+        else:
+            kind, software = "api", "custom"
+        record = {"id": key, "label": {}, "type": kind, "software": software, "endpoint": endpoints, "status": "unknown", "source": ["data_europa"]}
+        owner = owner_of("", *row["publisher"], f"https://{host}/")
+        if owner:
+            record["owner"] = owner
+        elif key not in catalogs and key not in edits["catalog"]:
+            unresolved.append({"id": key, "title": "", "publisher": ", ".join(row["publisher"])})
+        if key.endswith(".metria.se"):
+            record["operator"] = METRIA
+        if key in catalogs:
+            patch = {"endpoint": endpoints}
+            if "owner" not in catalogs[key] and owner:
+                patch["owner"] = owner
+            merge(catalogs[key], patch)
+            catalogs[key]["source"].append("data_europa")
+        else:
+            catalogs[key] = record
+
     for key, patch in edits["catalog"].items():
         if key in edits["ignore"]:
             continue

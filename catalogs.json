@@ -19,6 +19,29 @@
       "status": "unknown",
       "type": "indicator_database"
     },
+    "api.lantmateriet.se": {
+      "endpoint": [
+        {
+          "protocol": "atom",
+          "url": "https://api.lantmateriet.se"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://api.lantmateriet.se/distribution/geodatakatalog/visning/v1/detaljplan/v1/wms"
+        }
+      ],
+      "id": "api.lantmateriet.se",
+      "label": {
+        "sv": "Lantmäteriet"
+      },
+      "owner": "SE2021004888",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
     "api.researchdata.se": {
       "endpoint": [
         {
@@ -65,6 +88,25 @@
       "software": "custom",
       "source": [
         "edits"
+      ],
+      "status": "unknown",
+      "type": "api"
+    },
+    "api.skolverket.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://api.skolverket.se/planned-educations/swagger-ui"
+        }
+      ],
+      "id": "api.skolverket.se",
+      "label": {
+        "sv": "Statens skolverk"
+      },
+      "owner": "SE2021004185",
+      "software": "custom",
+      "source": [
+        "data_europa"
       ],
       "status": "unknown",
       "type": "api"
@@ -169,6 +211,25 @@
       ],
       "status": "active",
       "type": "open_data_portal"
+    },
+    "apigw.stockholm.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://apigw.stockholm.se/api/PublicHittaCMS/api/serviceunits"
+        }
+      ],
+      "id": "apigw.stockholm.se",
+      "label": {
+        "sv": "Stockholms stad"
+      },
+      "owner": "SE2120000142",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "api"
     },
     "avropa.se": {
       "endpoint": [
@@ -1546,6 +1607,25 @@
       "status": "active",
       "type": "open_data_portal"
     },
+    "cdn.jordbruksverket.se": {
+      "endpoint": [
+        {
+          "protocol": "atom",
+          "url": "https://cdn.jordbruksverket.se/inspire/atom/atom-topfeed.xml"
+        }
+      ],
+      "id": "cdn.jordbruksverket.se",
+      "label": {
+        "sv": "Statens jordbruksverk"
+      },
+      "owner": "SE2021004151",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
     "civictech.se": {
       "endpoint": [
         {
@@ -1572,6 +1652,29 @@
       ],
       "status": "active",
       "type": "open_data_portal"
+    },
+    "daim.lfv.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://daim.lfv.se/geoserver/mais/wfs"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://daim.lfv.se/geoserver/mais/wms"
+        }
+      ],
+      "id": "daim.lfv.se",
+      "label": {
+        "sv": "Luftfartsverket"
+      },
+      "owner": "SE2021000795",
+      "software": "geoserver",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
     },
     "data.arbetsformedlingen.se": {
       "endpoint": [
@@ -1815,6 +1918,25 @@
       "status": "active",
       "type": "open_data_portal"
     },
+    "data.visitsweden.com": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://data.visitsweden.com"
+        }
+      ],
+      "id": "data.visitsweden.com",
+      "label": {
+        "sv": "Visit Sweden"
+      },
+      "owner": "SE5565007621",
+      "software": "entryscape",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
     "dataanalys.socialstyrelsen.se": {
       "endpoint": [
         {
@@ -1895,6 +2017,35 @@
         "dataportal"
       ],
       "status": "active",
+      "type": "open_data_portal"
+    },
+    "dataportal.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://admin.dataportal.se"
+        },
+        {
+          "protocol": "sparql",
+          "url": "https://admin.dataportal.se/sparql"
+        }
+      ],
+      "homepage": "https://www.dataportal.se",
+      "id": "dataportal.se",
+      "identifier": {
+        "data_europa": "oppnadata"
+      },
+      "label": {
+        "en": "Sweden's data portal",
+        "sv": "Sveriges dataportal"
+      },
+      "note": "The national portal: a federation of every registered catalog, each in its own context. The federated catalogs are their own records here.",
+      "owner": "SE2021006883",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
       "type": "open_data_portal"
     },
     "dataportalen.stockholm.se": {
@@ -2474,6 +2625,14 @@
     "elprisersverige.nu": {
       "endpoint": [
         {
+          "protocol": "api",
+          "url": "https://elprisersverige.nu/api/v1/prices"
+        },
+        {
+          "protocol": "api",
+          "url": "https://elprisersverige.nu/api/v1/system"
+        },
+        {
           "checked": {
             "date": "2026-10-13",
             "detail": "dataportal.se harvest Success, 10 datasets, 0 validation errors",
@@ -2494,10 +2653,42 @@
       "owner": "SE5590719547",
       "software": "custom",
       "source": [
+        "data_europa",
         "dataportal"
       ],
       "status": "active",
       "type": "open_data_portal"
+    },
+    "epub.sjv.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "http://epub.sjv.se/inspire/inspire/ows"
+        },
+        {
+          "protocol": "wfs_2",
+          "url": "https://epub.sjv.se/inspire/wfs"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "http://epub.sjv.se/inspire/inspire/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://epub.sjv.se/inspire/wms"
+        }
+      ],
+      "id": "epub.sjv.se",
+      "label": {
+        "sv": "Statens jordbruksverk"
+      },
+      "owner": "SE2021004151",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
     },
     "eskilstuna.entryscape.net": {
       "endpoint": [
@@ -2561,6 +2752,142 @@
       ],
       "status": "active",
       "type": "open_data_portal"
+    },
+    "ext-dokument.lansstyrelsen.se": {
+      "endpoint": [
+        {
+          "protocol": "atom",
+          "url": "https://ext-dokument.lansstyrelsen.se/gemensamt/Geodata/Inspire/ATOM/lst_topfeed.xml"
+        }
+      ],
+      "id": "ext-dokument.lansstyrelsen.se",
+      "label": {
+        "sv": "Länsstyrelserna gemensamt"
+      },
+      "owner": "SE2021002361-LST",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "ext-geodata-applikationer.lansstyrelsen.se": {
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://ext-geodata-applikationer.lansstyrelsen.se/arcgis/rest/services"
+        }
+      ],
+      "id": "ext-geodata-applikationer.lansstyrelsen.se",
+      "label": {
+        "sv": "Länsstyrelserna gemensamt"
+      },
+      "owner": "SE2021002361-LST",
+      "software": "arcgis",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "ext-geodata-nationella-visning.lansstyrelsen.se": {
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://ext-geodata-nationella-visning.lansstyrelsen.se/arcgis/rest/services"
+        }
+      ],
+      "id": "ext-geodata-nationella-visning.lansstyrelsen.se",
+      "label": {
+        "sv": "Länsstyrelsernas geodata"
+      },
+      "owner": "SE2021002361-LST",
+      "software": "arcgis",
+      "source": [
+        "data_europa",
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "ext-geodata-ows.lansstyrelsen.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_am/ows"
+        },
+        {
+          "protocol": "wfs_2",
+          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_er/ows"
+        },
+        {
+          "protocol": "wfs_2",
+          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_us/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_am/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_er/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_us/ows"
+        }
+      ],
+      "id": "ext-geodata-ows.lansstyrelsen.se",
+      "label": {
+        "sv": "Länsstyrelserna gemensamt"
+      },
+      "owner": "SE2021002361-LST",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "ext-geodata-raster.lansstyrelsen.se": {
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://ext-geodata-raster.lansstyrelsen.se/arcgis/rest/services"
+        }
+      ],
+      "id": "ext-geodata-raster.lansstyrelsen.se",
+      "label": {
+        "sv": "Länsstyrelsernas geodata"
+      },
+      "owner": "SE2021002361-LST",
+      "software": "arcgis",
+      "source": [
+        "data_europa",
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "ext-geoserver.lansstyrelsen.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://ext-geoserver.lansstyrelsen.se/geoserver/inspire_am/wfs"
+        }
+      ],
+      "id": "ext-geoserver.lansstyrelsen.se",
+      "label": {
+        "sv": "Länsstyrelserna gemensamt"
+      },
+      "owner": "SE2021002361-LST",
+      "software": "geoserver",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
     },
     "filer.domstol.se": {
       "endpoint": [
@@ -2978,6 +3305,121 @@
       "status": "active",
       "type": "open_data_portal"
     },
+    "geo-inspire.trafikverket.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "http://geo-inspire.trafikverket.se/MapService/wfs.axd/TN_RailTransportNetwork"
+        },
+        {
+          "protocol": "wfs_2",
+          "url": "http://geo-inspire.trafikverket.se/MapService/wfs.axd/TN_RoadTransportNetwork"
+        },
+        {
+          "protocol": "wfs_2",
+          "url": "http://geo-inspire.trafikverket.se/MapService/wfs.axd/TN_WaterTransportNetwork"
+        }
+      ],
+      "id": "geo-inspire.trafikverket.se",
+      "label": {
+        "sv": "Trafikverket"
+      },
+      "owner": "SE2021006297",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "geo-transfernode.trafikverket.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "http://geo-transfernode.trafikverket.se/mapservice/wfs.axd/TN_TransferNode"
+        }
+      ],
+      "id": "geo-transfernode.trafikverket.se",
+      "label": {
+        "sv": "Trafikverket"
+      },
+      "owner": "SE2021006297",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "geo.hjartstartarregistret.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://geo.hjartstartarregistret.se/geoserver/base_heart/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://geo.hjartstartarregistret.se/geoserver/base_heart/ows"
+        }
+      ],
+      "id": "geo.hjartstartarregistret.se",
+      "label": {
+        "sv": "MetaSolutions AB"
+      },
+      "owner": "SE5568540701",
+      "software": "geoserver",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "geodata-svoa-extern.stockholm.se": {
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://geodata-svoa-extern.stockholm.se/Geodata/arcgis/rest/services"
+        }
+      ],
+      "id": "geodata-svoa-extern.stockholm.se",
+      "label": {
+        "sv": "Stockholms stad"
+      },
+      "owner": "SE2120000142",
+      "software": "arcgis",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "geodata.havochvatten.se": {
+      "endpoint": [
+        {
+          "protocol": "atom",
+          "url": "https://geodata.havochvatten.se/download"
+        },
+        {
+          "protocol": "wfs_2",
+          "url": "https://geodata.havochvatten.se/geoservices"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://geodata.havochvatten.se/geoservices"
+        }
+      ],
+      "id": "geodata.havochvatten.se",
+      "label": {
+        "sv": "Havs- och vattenmyndigheten"
+      },
+      "owner": "SE2021006420",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
     "geodata.katrineholm.se": {
       "endpoint": [
         {
@@ -3009,6 +3451,264 @@
       ],
       "status": "active",
       "type": "open_data_portal"
+    },
+    "geodata.naturvardsverket.se": {
+      "endpoint": [
+        {
+          "protocol": "atom",
+          "url": "https://geodata.naturvardsverket.se/atom/inspire"
+        },
+        {
+          "protocol": "wfs_2",
+          "url": "https://geodata.naturvardsverket.se/inspire"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "http://geodata.naturvardsverket.se"
+        }
+      ],
+      "id": "geodata.naturvardsverket.se",
+      "label": {
+        "sv": "Naturvårdsverket"
+      },
+      "owner": "SE2021001975",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "geodata.sametinget.se": {
+      "endpoint": [
+        {
+          "protocol": "atom",
+          "url": "https://geodata.sametinget.se/INSPIRE/atom/atom-topfeed.xml"
+        }
+      ],
+      "id": "geodata.sametinget.se",
+      "label": {
+        "sv": "Sametinget"
+      },
+      "owner": "SE2021004573",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "geodata.scb.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://geodata.scb.se/geoserver/stat/wfs"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://geodata.scb.se/geoserver/ows"
+        }
+      ],
+      "id": "geodata.scb.se",
+      "label": {
+        "sv": "Statistiska centralbyrån"
+      },
+      "owner": "SE2021000837",
+      "software": "geoserver",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "geodata.se": {
+      "endpoint": [
+        {
+          "protocol": "csw_2",
+          "url": "https://www.geodata.se/geodataportalen/srv/swe/csw"
+        }
+      ],
+      "homepage": "https://www.geodata.se/geodataportalen/",
+      "id": "geodata.se",
+      "identifier": {
+        "data_europa": "geodata-se"
+      },
+      "label": {
+        "en": "Geodata Portal Sweden",
+        "sv": "Geodataportalen"
+      },
+      "note": "The national geodata catalog: metadata for the services and datasets of some 25 bodies, harvested by data.europa.eu as geodata-se.",
+      "owner": "SE2021004888",
+      "software": "geonetwork",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "geodata.socialstyrelsen.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://geodata.socialstyrelsen.se/cgi/mapserv.exe"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://geodata.socialstyrelsen.se/cgi/mapserv.exe"
+        }
+      ],
+      "id": "geodata.socialstyrelsen.se",
+      "label": {
+        "sv": "Socialstyrelsen"
+      },
+      "owner": "SE2021000555",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "geodpags.skogsstyrelsen.se": {
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://geodpags.skogsstyrelsen.se/arcgis/rest/services"
+        },
+        {
+          "protocol": "atom",
+          "url": "https://geodpags.skogsstyrelsen.se/geodataport/feeds"
+        }
+      ],
+      "id": "geodpags.skogsstyrelsen.se",
+      "label": {
+        "sv": "Skogsstyrelsen"
+      },
+      "owner": "SE2021005612",
+      "software": "arcgis",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "geokatalog.sjofartsverket.se": {
+      "endpoint": [
+        {
+          "protocol": "atom",
+          "url": "https://geokatalog.sjofartsverket.se/inspire/atom.xml"
+        },
+        {
+          "protocol": "wfs_2",
+          "url": "https://geokatalog.sjofartsverket.se/MapService/wfs.axd/InspireAu"
+        }
+      ],
+      "id": "geokatalog.sjofartsverket.se",
+      "label": {
+        "sv": "Sjöfartsverket"
+      },
+      "owner": "SE2021000654",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "geonode.folkhalsomyndigheten.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://geonode.folkhalsomyndigheten.se/geoserver/ows"
+        }
+      ],
+      "id": "geonode.folkhalsomyndigheten.se",
+      "label": {
+        "sv": "Folkhälsomyndigheten"
+      },
+      "owner": "SE2021006545",
+      "software": "geoserver",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "gis.miljo.stockholm.se": {
+      "endpoint": [
+        {
+          "protocol": "wms_1_3",
+          "url": "https://gis.miljo.stockholm.se/server/services/Solinstr%C3%A5lning/MapServer/WMSServer"
+        }
+      ],
+      "id": "gis.miljo.stockholm.se",
+      "label": {
+        "sv": "Stockholms stad"
+      },
+      "owner": "SE2120000142",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "gis.swedgeo.se": {
+      "endpoint": [
+        {
+          "protocol": "wms_1_3",
+          "url": "https://gis.swedgeo.se/geoserver/inspire2022/wms"
+        }
+      ],
+      "id": "gis.swedgeo.se",
+      "label": {
+        "sv": "Statens geotekniska institut"
+      },
+      "owner": "SE2021000712",
+      "software": "geoserver",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "gisapp.msb.se": {
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://gisapp.msb.se/arcgis/rest/services"
+        }
+      ],
+      "id": "gisapp.msb.se",
+      "label": {
+        "sv": "Myndigheten för tillgängliga medier"
+      },
+      "owner": "SE2021003591",
+      "software": "arcgis",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "gisportal.sametinget.se": {
+      "endpoint": [
+        {
+          "protocol": "wms_1_3",
+          "url": "https://gisportal.sametinget.se/server/services/INSPIRE/Renskotselomr/MapServer/WMSServer"
+        }
+      ],
+      "id": "gisportal.sametinget.se",
+      "label": {
+        "sv": "Sametinget"
+      },
+      "owner": "SE2021004573",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
     },
     "haninge.entryscape.net": {
       "endpoint": [
@@ -3044,6 +3744,25 @@
       "status": "active",
       "type": "open_data_portal"
     },
+    "historical.api.jobtechdev.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://historical.api.jobtechdev.se/swagger.json"
+        }
+      ],
+      "id": "historical.api.jobtechdev.se",
+      "label": {
+        "sv": "Arbetsförmedlingen"
+      },
+      "owner": "SE2021002114",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "api"
+    },
     "hvduppdrag.scb.se": {
       "endpoint": [
         {
@@ -3066,6 +3785,178 @@
       ],
       "status": "unknown",
       "type": "statistics_database"
+    },
+    "inspire-raa.metria.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://inspire-raa.metria.se/geoserver/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://inspire-raa.metria.se/geoserver/ows"
+        }
+      ],
+      "id": "inspire-raa.metria.se",
+      "label": {
+        "sv": "Riksantikvarieämbetet"
+      },
+      "operator": "SE5567992242",
+      "owner": "SE2021001090",
+      "software": "geoserver",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "inspire-skn.metria.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://inspire-skn.metria.se/geoserver/skn/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://inspire-skn.metria.se/geoserver/skn/ows"
+        }
+      ],
+      "id": "inspire-skn.metria.se",
+      "label": {
+        "sv": "inspire-skn.metria.se"
+      },
+      "operator": "SE5567992242",
+      "software": "geoserver",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "inspire-skolverket.metria.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://inspire-skolverket.metria.se/geoserver/skolverket/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://inspire-skolverket.metria.se/geoserver/skolverket/ows"
+        }
+      ],
+      "id": "inspire-skolverket.metria.se",
+      "label": {
+        "sv": "Statens skolverk"
+      },
+      "operator": "SE5567992242",
+      "owner": "SE2021004185",
+      "software": "geoserver",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "ivo.metria.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://ivo.metria.se/geoserver/ivo/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://ivo.metria.se/geoserver/ivo/ows"
+        }
+      ],
+      "id": "ivo.metria.se",
+      "label": {
+        "sv": "Inspektionen för vård och omsorg"
+      },
+      "operator": "SE5567992242",
+      "owner": "SE2021006537",
+      "software": "geoserver",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "jobad-enrichments-api.jobtechdev.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://jobad-enrichments-api.jobtechdev.se/swagger.json"
+        }
+      ],
+      "id": "jobad-enrichments-api.jobtechdev.se",
+      "label": {
+        "sv": "Arbetsförmedlingen"
+      },
+      "owner": "SE2021002114",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "api"
+    },
+    "jobed-connect-api.jobtechdev.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://jobed-connect-api.jobtechdev.se/swagger.json"
+        }
+      ],
+      "id": "jobed-connect-api.jobtechdev.se",
+      "label": {
+        "sv": "Arbetsförmedlingen"
+      },
+      "owner": "SE2021002114",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "api"
+    },
+    "karta.lidingo.se": {
+      "endpoint": [
+        {
+          "protocol": "wms_1_3",
+          "url": "http://karta.lidingo.se/wms"
+        }
+      ],
+      "id": "karta.lidingo.se",
+      "label": {
+        "sv": "Lidingö stad"
+      },
+      "owner": "SE2120000191",
+      "software": "custom",
+      "source": [
+        "data_europa",
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "kartor.stockholm.se": {
+      "endpoint": [
+        {
+          "protocol": "wms_1_3",
+          "url": "http://kartor.stockholm.se"
+        }
+      ],
+      "id": "kartor.stockholm.se",
+      "label": {
+        "sv": "Stockholms stad"
+      },
+      "owner": "SE2120000142",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
     },
     "katalog.lund.se": {
       "endpoint": [
@@ -3262,6 +4153,25 @@
       "status": "active",
       "type": "open_data_portal"
     },
+    "links.api.jobtechdev.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://links.api.jobtechdev.se/swagger.json"
+        }
+      ],
+      "id": "links.api.jobtechdev.se",
+      "label": {
+        "sv": "Arbetsförmedlingen"
+      },
+      "owner": "SE2021002114",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "api"
+    },
     "m02-http-pxwebb.login.sundsvall.se": {
       "endpoint": [
         {
@@ -3284,6 +4194,71 @@
       ],
       "status": "unknown",
       "type": "statistics_database"
+    },
+    "m4eu.sgu.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://m4eu.sgu.se/m4eu/services/m4eu_v2020.8"
+        }
+      ],
+      "id": "m4eu.sgu.se",
+      "label": {
+        "sv": "Sveriges geologiska undersökning"
+      },
+      "owner": "SE2021002528",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "maps.lantmateriet.se": {
+      "endpoint": [
+        {
+          "protocol": "wms_1_3",
+          "url": "https://maps.lantmateriet.se"
+        }
+      ],
+      "id": "maps.lantmateriet.se",
+      "label": {
+        "sv": "Lantmäteriet"
+      },
+      "owner": "SE2021004888",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "mapsext.sgi.se": {
+      "endpoint": [
+        {
+          "protocol": "wms_1_3",
+          "url": "https://mapsext.sgi.se/geoserver/inspire_gotaalv/wms"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://mapsext.sgi.se/geoserver/inspire_ovrigaalvar/wms"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://mapsext.sgi.se/geoserver/wms"
+        }
+      ],
+      "id": "mapsext.sgi.se",
+      "label": {
+        "sv": "Statens geotekniska institut"
+      },
+      "owner": "SE2021000712",
+      "software": "geoserver",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
     },
     "metadata-ext.havochvatten.se": {
       "endpoint": [
@@ -3706,6 +4681,155 @@
       "status": "active",
       "type": "open_data_portal"
     },
+    "opendata-download-algae.smhi.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://opendata-download-algae.smhi.se/api"
+        }
+      ],
+      "id": "opendata-download-algae.smhi.se",
+      "label": {
+        "sv": "Sveriges meteorologiska och hydrologiska institut"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "api"
+    },
+    "opendata-download-hydrography.smhi.se": {
+      "endpoint": [
+        {
+          "protocol": "atom",
+          "url": "https://opendata-download-hydrography.smhi.se/api/version/2.0/spec/inspire-hyp.atom"
+        }
+      ],
+      "id": "opendata-download-hydrography.smhi.se",
+      "label": {
+        "sv": "Sveriges meteorologiska och hydrologiska institut"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "opendata-download-hydroobs.smhi.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter"
+        },
+        {
+          "protocol": "atom",
+          "url": "https://opendata-download-hydroobs.smhi.se/api/inspire/hydroobs.atom"
+        }
+      ],
+      "id": "opendata-download-hydroobs.smhi.se",
+      "label": {
+        "sv": "Sveriges meteorologiska och hydrologiska institut"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "opendata-download-metanalys.smhi.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://opendata-download-metanalys.smhi.se/api/category/strang1g/version/1/geotype/point/lon/16/lat/58/parameter/116/data.json"
+        }
+      ],
+      "id": "opendata-download-metanalys.smhi.se",
+      "label": {
+        "sv": "Sveriges meteorologiska och hydrologiska institut"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "api"
+    },
+    "opendata-download-metobs.smhi.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://opendata-download-metobs.smhi.se/api"
+        },
+        {
+          "protocol": "atom",
+          "url": "https://opendata-download-metobs.smhi.se/api/inspire"
+        }
+      ],
+      "id": "opendata-download-metobs.smhi.se",
+      "label": {
+        "sv": "Sveriges meteorologiska och hydrologiska institut"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "opendata-download-ocobs.smhi.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://opendata-download-ocobs.smhi.se/api/version/latest/parameter"
+        },
+        {
+          "protocol": "atom",
+          "url": "https://opendata-download-ocobs.smhi.se/api/inspire"
+        }
+      ],
+      "id": "opendata-download-ocobs.smhi.se",
+      "label": {
+        "sv": "Sveriges meteorologiska och hydrologiska institut"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "opendata-view.smhi.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://opendata-view.smhi.se"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://opendata-view.smhi.se"
+        }
+      ],
+      "id": "opendata-view.smhi.se",
+      "label": {
+        "sv": "Sveriges meteorologiska och hydrologiska institut"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
     "opendata.bastad.se": {
       "endpoint": [
         {
@@ -3769,6 +4893,25 @@
       ],
       "status": "active",
       "type": "open_data_portal"
+    },
+    "opendata.smhi.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://opendata.smhi.se"
+        }
+      ],
+      "id": "opendata.smhi.se",
+      "label": {
+        "sv": "Sveriges meteorologiska och hydrologiska institut"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "api"
     },
     "opendata.statenskonstrad.se": {
       "endpoint": [
@@ -3893,6 +5036,48 @@
       "status": "active",
       "type": "open_data_portal"
     },
+    "openexpl.stockholm.se": {
+      "endpoint": [
+        {
+          "protocol": "wms_1_3",
+          "url": "https://openexpl.stockholm.se/geoserver/geoarchive/wms"
+        }
+      ],
+      "id": "openexpl.stockholm.se",
+      "label": {
+        "sv": "Stockholms stad"
+      },
+      "owner": "SE2120000142",
+      "software": "geoserver",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
+    "openstreetgs.stockholm.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://openstreetgs.stockholm.se/geoservice/api/DIN+API-NYCKEL/wfs"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://openstreetgs.stockholm.se/geoservice/api/DIN+API-NYCKEL/wms"
+        }
+      ],
+      "id": "openstreetgs.stockholm.se",
+      "label": {
+        "sv": "Stockholms stad"
+      },
+      "owner": "SE2120000142",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
     "oppnadata.skane.se": {
       "endpoint": [
         {
@@ -3928,6 +5113,10 @@
     "oppnadata.tillvaxtverket.se": {
       "endpoint": [
         {
+          "protocol": "api",
+          "url": "https://oppnadata.tillvaxtverket.se/api/api/query/inkvartering/data"
+        },
+        {
           "checked": {
             "date": "2026-10-13",
             "detail": "dataportal.se harvest Success, 12 datasets, 0 validation errors",
@@ -3952,6 +5141,7 @@
       "owner": "SE2021006149",
       "software": "custom",
       "source": [
+        "data_europa",
         "dataportal",
         "edits"
       ],
@@ -4219,6 +5409,25 @@
       "status": "unknown",
       "type": "statistics_database"
     },
+    "qdb-external-api.myh.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://qdb-external-api.myh.se/api/v1"
+        }
+      ],
+      "id": "qdb-external-api.myh.se",
+      "label": {
+        "sv": "Myndigheten för yrkeshögskolan"
+      },
+      "owner": "SE2021006230",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "api"
+    },
     "raw.githubusercontent.com": {
       "endpoint": [
         {
@@ -4244,6 +5453,33 @@
       ],
       "status": "active",
       "type": "open_data_portal"
+    },
+    "resource.sgu.se": {
+      "endpoint": [
+        {
+          "protocol": "atom",
+          "url": "https://resource.sgu.se/service/atom/inspire"
+        },
+        {
+          "protocol": "wfs_2",
+          "url": "https://resource.sgu.se/service/bedrock1m_gsml_gu/wfs"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://resource.sgu.se"
+        }
+      ],
+      "id": "resource.sgu.se",
+      "label": {
+        "sv": "Sveriges geologiska undersökning"
+      },
+      "owner": "SE2021002528",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
     },
     "riksantikvarieambetet.github.io": {
       "endpoint": [
@@ -4353,6 +5589,7 @@
       "owner": "SE2021005448",
       "software": "entryscape",
       "source": [
+        "data_europa",
         "dataportal",
         "edits"
       ],
@@ -4429,6 +5666,50 @@
       "status": "active",
       "type": "open_data_portal"
     },
+    "static.minaombud.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://static.minaombud.se/openapi/dfm_konsument_v2.yaml"
+        }
+      ],
+      "id": "static.minaombud.se",
+      "label": {
+        "sv": "Bolagsverket"
+      },
+      "owner": "SE2021005489",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "api"
+    },
+    "stationsregister.miljodatasamverkan.se": {
+      "endpoint": [
+        {
+          "protocol": "atom",
+          "url": "https://stationsregister.miljodatasamverkan.se/docs/atom"
+        },
+        {
+          "protocol": "wfs_2",
+          "url": "https://stationsregister.miljodatasamverkan.se/geoserver/stationsregistret/wfs"
+        }
+      ],
+      "id": "stationsregister.miljodatasamverkan.se",
+      "label": {
+        "sv": "Stationsregistret (Miljödatasamverkan)"
+      },
+      "note": "Run by Naturvårdsverket for the environmental monitoring bodies.",
+      "owner": "SE2021001975",
+      "software": "geoserver",
+      "source": [
+        "data_europa",
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
     "statistik-api.uka.se": {
       "endpoint": [
         {
@@ -4478,6 +5759,7 @@
       "owner": "SE2021001819",
       "software": "pxweb",
       "source": [
+        "data_europa",
         "dataportal",
         "edits"
       ],
@@ -4789,6 +6071,7 @@
       "owner": "SE2021004185",
       "software": "pxweb",
       "source": [
+        "data_europa",
         "edits"
       ],
       "status": "unknown",
@@ -4920,8 +6203,39 @@
       "status": "active",
       "type": "open_data_portal"
     },
+    "wms.slu.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://wms.slu.se/inspire/ows"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://wms.slu.se/erosion/va/wms"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://wms.slu.se/inspire/ows"
+        }
+      ],
+      "id": "wms.slu.se",
+      "label": {
+        "sv": "Sveriges lantbruksuniversitet"
+      },
+      "owner": "SE2021002817",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
     "www7.skatteverket.se": {
       "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://www7.skatteverket.se/portal/apier-och-oppna-data/utvecklarportalen/api"
+        },
         {
           "checked": {
             "date": "2026-10-13",
@@ -4943,6 +6257,7 @@
       "owner": "SE2021005448",
       "software": "custom",
       "source": [
+        "data_europa",
         "dataportal"
       ],
       "status": "active",
@@ -4981,6 +6296,6 @@
       "type": "open_data_portal"
     }
   },
-  "count": 170,
+  "count": 229,
   "generated": "2026-10-13"
 }
