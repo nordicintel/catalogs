@@ -1,6 +1,6 @@
 {
   "added": [],
-  "changed": 596,
+  "changed": 91,
   "count": 596,
   "date": "2026-10-13",
   "protocol": {
@@ -38,11 +38,11 @@
   "register": {
     "check": {
       "endpoints": 722,
-      "error": 51,
-      "ok": 589,
+      "error": 52,
+      "ok": 544,
       "restricted": 12,
       "status": "fetched",
-      "unreachable": 70
+      "unreachable": 114
     },
     "data_europa": {
       "rows": 74,

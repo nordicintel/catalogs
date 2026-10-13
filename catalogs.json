@@ -533,7 +533,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "wfs_2",
@@ -542,7 +542,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "wms_1_3",
@@ -798,8 +798,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: The read operation timed out",
-            "result": "unreachable"
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "web",
           "url": "https://bolin.su.se/data"
@@ -816,7 +816,7 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
+      "status": "active",
       "type": "research_repository"
     },
     "borlange.maps.arcgis.com": {
@@ -876,8 +876,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://bth.diva-portal.org/dice/oai"
@@ -894,7 +894,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "catalog.ale.se": {
@@ -1025,7 +1025,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -1034,7 +1034,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -1074,7 +1074,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -1083,7 +1083,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -1737,7 +1737,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -1746,7 +1746,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -2550,7 +2550,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -2559,7 +2559,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -2712,7 +2712,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -2721,7 +2721,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -3039,8 +3039,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: The read operation timed out",
-            "result": "unreachable"
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "dcat_ap",
           "url": "https://data-kalmar.opendata.arcgis.com/api/feed/dcat-ap/2.0.1.json"
@@ -3048,8 +3048,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: The read operation timed out",
-            "result": "unreachable"
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "dcat_ap",
           "url": "https://data-kalmar.opendata.arcgis.com/api/feed/dcat-us/1.1.json"
@@ -3373,7 +3373,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -3382,7 +3382,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -4089,7 +4089,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -4115,8 +4115,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://www.diva-portal.org/dice/oai"
@@ -4133,7 +4133,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "doi.ess.eu": {
@@ -4219,8 +4219,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://du.diva-portal.org/dice/oai"
@@ -4237,7 +4237,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "editera.dataportal.se/162": {
@@ -5226,7 +5226,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "arcgis_rest",
@@ -5398,7 +5398,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "wfs_2",
@@ -5978,7 +5978,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -5987,7 +5987,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -6045,8 +6045,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://fhs.diva-portal.org/dice/oai"
@@ -6063,7 +6063,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "filer.domstol.se": {
@@ -6126,8 +6126,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://fmv.diva-portal.org/dice/oai"
@@ -6144,7 +6144,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "fohm-app.folkhalsomyndigheten.se": {
@@ -7197,8 +7197,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
-            "result": "unreachable"
+            "detail": "HTTP 503",
+            "result": "error"
           },
           "protocol": "ckan_v3",
           "url": "http://geodata.sandviken.se"
@@ -7537,7 +7537,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -7649,7 +7649,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "wfs_2",
@@ -7778,7 +7778,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -8022,8 +8022,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://gih.diva-portal.org/dice/oai"
@@ -8040,7 +8040,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "gis-services.metria.se": {
@@ -8127,8 +8127,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: The read operation timed out",
+            "result": "unreachable"
           },
           "protocol": "arcgis_rest",
           "url": "https://gis.falun.se/arcgis/rest/services"
@@ -8145,7 +8145,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "geoportal"
     },
     "gis.gavle.se": {
@@ -8463,7 +8463,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "arcgis_rest",
@@ -8644,7 +8644,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -8805,8 +8805,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://havochvatten.diva-portal.org/dice/oai"
@@ -8823,7 +8823,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "hb.diva-portal.org": {
@@ -8831,8 +8831,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://hb.diva-portal.org/dice/oai"
@@ -8849,7 +8849,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "hh.diva-portal.org": {
@@ -8857,8 +8857,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://hh.diva-portal.org/dice/oai"
@@ -8875,7 +8875,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "hig.diva-portal.org": {
@@ -8883,8 +8883,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://hig.diva-portal.org/dice/oai"
@@ -8901,7 +8901,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "his.diva-portal.org": {
@@ -8909,8 +8909,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://his.diva-portal.org/dice/oai"
@@ -8927,7 +8927,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "historical.api.jobtechdev.se": {
@@ -8960,8 +8960,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://hv.diva-portal.org/dice/oai"
@@ -8978,7 +8978,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "hvduppdrag.scb.se": {
@@ -9156,8 +9156,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://ivl.diva-portal.org/dice/oai"
@@ -9174,7 +9174,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "ivo.metria.se": {
@@ -9293,8 +9293,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://ju.diva-portal.org/dice/oai"
@@ -9311,7 +9311,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "karlskogakartan.karlskoga.se": {
@@ -9319,7 +9319,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -9449,7 +9449,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -9475,7 +9475,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -9658,7 +9658,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -10110,7 +10110,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "ConnectionRefusedError: [Errno 111] Connection refused",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -10136,7 +10136,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -10162,7 +10162,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -10509,7 +10509,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -10691,7 +10691,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -10700,7 +10700,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "wfs_2",
@@ -10709,7 +10709,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "wms_1_3",
@@ -10969,7 +10969,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -11021,7 +11021,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -11203,7 +11203,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -11584,7 +11584,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "OSError: [Errno 101] Network is unreachable",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -11610,7 +11610,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -11955,8 +11955,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://kau.diva-portal.org/dice/oai"
@@ -11973,7 +11973,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "kib.ki.se": {
@@ -12007,8 +12007,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://kkh.diva-portal.org/dice/oai"
@@ -12025,7 +12025,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "kmh.diva-portal.org": {
@@ -12033,8 +12033,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://kmh.diva-portal.org/dice/oai"
@@ -12051,7 +12051,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "konstfack.diva-portal.org": {
@@ -12059,8 +12059,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://konstfack.diva-portal.org/dice/oai"
@@ -12077,7 +12077,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "konsumentverket.entryscape.net": {
@@ -12190,8 +12190,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://kth.diva-portal.org/dice/oai"
@@ -12208,7 +12208,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "kulturgeneratorn.se": {
@@ -12410,8 +12410,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://liu.diva-portal.org/dice/oai"
@@ -12428,7 +12428,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "livsmedelsstatistik.jordbruksverket.se": {
@@ -12463,8 +12463,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://lnu.diva-portal.org/dice/oai"
@@ -12481,7 +12481,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "ltu.diva-portal.org": {
@@ -12489,8 +12489,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://ltu.diva-portal.org/dice/oai"
@@ -12507,7 +12507,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "lup.lub.lu.se": {
@@ -12664,7 +12664,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -12768,8 +12768,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://mau.diva-portal.org/dice/oai"
@@ -12786,7 +12786,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "mchs.diva-portal.org": {
@@ -12794,8 +12794,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://mchs.diva-portal.org/dice/oai"
@@ -12812,7 +12812,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "mdp.vic-metria.nu": {
@@ -12848,8 +12848,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://mdu.diva-portal.org/dice/oai"
@@ -12866,7 +12866,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "metadata-ext.havochvatten.se": {
@@ -13358,8 +13358,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://miun.diva-portal.org/dice/oai"
@@ -13376,7 +13376,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "mt.research.ltu.se": {
@@ -13410,7 +13410,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -13436,8 +13436,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://nai.diva-portal.org/dice/oai"
@@ -13454,7 +13454,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "nationalmuseum.diva-portal.org": {
@@ -13462,8 +13462,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://nationalmuseum.diva-portal.org/dice/oai"
@@ -13480,7 +13480,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "nationellaemissionsdatabasen.smhi.se": {
@@ -13513,8 +13513,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://naturvardsverket.diva-portal.org/dice/oai"
@@ -13531,7 +13531,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "ngs.ehalsomyndigheten.se": {
@@ -13593,7 +13593,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -13645,8 +13645,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://nrm.diva-portal.org/dice/oai"
@@ -13663,7 +13663,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "nvgis.naturvardsverket.se": {
@@ -14873,7 +14873,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -14882,7 +14882,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -14948,7 +14948,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -14957,7 +14957,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -14997,7 +14997,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -15006,7 +15006,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -15084,7 +15084,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -15093,7 +15093,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -15191,8 +15191,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://oru.diva-portal.org/dice/oai"
@@ -15209,7 +15209,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "oversiktsplan.botkyrka.se": {
@@ -15377,8 +15377,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://polar.diva-portal.org/dice/oai"
@@ -15395,7 +15395,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "portal.research.lu.se": {
@@ -15874,8 +15874,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://raa.diva-portal.org/dice/oai"
@@ -15892,7 +15892,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "raw.githubusercontent.com": {
@@ -16093,8 +16093,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://ri.diva-portal.org/dice/oai"
@@ -16111,7 +16111,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "riksantikvarieambetet.github.io": {
@@ -16148,8 +16148,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://riksarkivet.diva-portal.org/dice/oai"
@@ -16166,7 +16166,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "rka.entryscape.net": {
@@ -16316,8 +16316,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://sh.diva-portal.org/dice/oai"
@@ -16334,7 +16334,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "shh.diva-portal.org": {
@@ -16342,8 +16342,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://shh.diva-portal.org/dice/oai"
@@ -16360,7 +16360,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "skatteverket.entryscape.net": {
@@ -16518,7 +16518,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "ConnectionRefusedError: [Errno 111] Connection refused",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "wfs_2",
@@ -16527,7 +16527,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "ConnectionRefusedError: [Errno 111] Connection refused",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "wms_1_3",
@@ -16553,8 +16553,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://smhi.diva-portal.org/dice/oai"
@@ -16571,7 +16571,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "smhi.se": {
@@ -16709,8 +16709,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://sprakochfolkminnen.diva-portal.org/dice/oai"
@@ -16727,7 +16727,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "stadsatlas.malmo.se": {
@@ -17523,7 +17523,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "entrystore",
@@ -17532,7 +17532,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "web",
@@ -17564,8 +17564,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://su.diva-portal.org/dice/oai"
@@ -17582,7 +17582,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "su.figshare.com": {
@@ -17733,8 +17733,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://swedgeo.diva-portal.org/dice/oai"
@@ -17751,7 +17751,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "taxonomy.api.jobtechdev.se": {
@@ -17784,8 +17784,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://ths.diva-portal.org/dice/oai"
@@ -17802,7 +17802,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "tingsryd.vic-metria.nu": {
@@ -17810,7 +17810,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "gaierror: [Errno -2] Name or service not known",
+            "detail": "OSError: Tunnel connection failed: 502 Bad Gateway",
             "result": "unreachable"
           },
           "protocol": "arcgis_rest",
@@ -17947,8 +17947,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://trafikverket.diva-portal.org/dice/oai"
@@ -17965,7 +17965,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "transportstyrelsen.entryscape.net": {
@@ -18039,8 +18039,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://umu.diva-portal.org/dice/oai"
@@ -18057,7 +18057,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "umu.se": {
@@ -18104,8 +18104,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://uniarts.diva-portal.org/dice/oai"
@@ -18122,7 +18122,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "utslappisiffror.naturvardsverket.se": {
@@ -18157,8 +18157,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://uu.diva-portal.org/dice/oai"
@@ -18175,7 +18175,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "vantetider.se": {
@@ -18395,8 +18395,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "oai_pmh",
           "url": "https://vti.diva-portal.org/dice/oai"
@@ -18413,7 +18413,7 @@
         "check",
         "edits"
       ],
-      "status": "active",
+      "status": "inactive",
       "type": "research_repository"
     },
     "webbkarta.gagnef.se": {
