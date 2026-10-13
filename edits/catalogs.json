@@ -1133,12 +1133,19 @@
       "software": "custom",
       "endpoint": [
         {
+          "protocol": "dcat_ap",
+          "url": "https://data.kb.se/index.rdf"
+        },
+        {
           "protocol": "web",
           "url": "https://data.kb.se"
         }
       ],
       "homepage": "https://data.kb.se",
-      "owner": "SE2021001710"
+      "owner": "SE2021001710",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/254"
+      }
     },
     "data.kemi.se": {
       "label": {
@@ -1258,7 +1265,10 @@
         }
       ],
       "homepage": "https://dataportal-gotland.opendata.arcgis.com",
-      "owner": "SE2120000803"
+      "owner": "SE2120000803",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/183"
+      }
     },
     "dataportal.se": {
       "label": {
