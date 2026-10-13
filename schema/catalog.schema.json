@@ -13,7 +13,9 @@
     "owner": {"type": "string", "description": "Organisation id the data belongs to. Missing only while unresolved; the report lists those."},
     "operator": {"type": "string", "description": "Organisation id that runs the install, when it is not the owner."},
     "endpoint": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/endpoint"}},
-    "status": {"type": "string", "enum": ["active", "inactive", "unknown"], "description": "Whether the install answers. Set by the liveness check."},
+    "status": {"type": "string", "enum": ["ok", "restricted", "error", "unreachable", "unchecked"], "description": "The best result among the endpoints, as the liveness check or dataportal.se's harvest found it. Set by the build."},
+    "description": {"type": "object", "additionalProperties": {"type": "string"}, "description": "Short text by language, as the registers give it."},
+    "license": {"type": "string", "format": "uri", "description": "Licence URI the catalog declares for its contents as a whole."},
     "homepage": {"type": "string", "format": "uri"},
     "identifier": {"type": "object", "additionalProperties": false, "properties": {
       "dataportal": {"type": "string", "description": "dataportal.se catalog context, e.g. https://admin.dataportal.se/store/116"},

@@ -27,7 +27,9 @@ Statistikdatabasen, one for hvduppdrag and will have one for its geodata.
 | `owner` | organisation id the data belongs to | registers, edits |
 | `operator` | organisation id that runs the install when it is not the owner (MetaSolutions for `*.entryscape.net`) | edits |
 | `endpoint[]` | how to talk to it: `protocol` (id in `protocols.json`), `url`, `language[]`, optional `support` override, `checked {date, result, detail}` | registers, edits, check |
-| `status` | `active`, `inactive`, `unknown`; set by the liveness check below | check |
+| `status` | the best result among the endpoints: `ok`, `restricted`, `error`, `unreachable`, `unchecked`; set by the build from the check and dataportal.se's harvest | check, dataportal |
+| `description` | short text by language, as the registers give it | registers, edits |
+| `license` | licence URI the catalog declares for its contents as a whole | registers, edits |
 | `homepage` | the human page | registers, edits |
 | `identifier` | `dataportal` (the catalog's context on admin.dataportal.se), `data_europa` (catalogue id) | registers |
 | `same_as` | other URIs that denote the same install | registers, edits |
@@ -48,7 +50,6 @@ catalog never needs code unless its protocol is new.
 |---|---|
 | `id` | adapter name, e.g. `pxweb_v2`, `entrystore`, `wfs_2` |
 | `support` | `supported` (an adapter exists), `planned`, `deferred`, `none`, `undecided` |
-| `check` | the request the liveness check appends to an endpoint URL and the substring a live answer contains |
 
 Every Swedish-owned PxWeb install is recorded, also those whose API is disabled or
 broken (`pxweb_web`), and sites that show tables without any API (`web`): a scraper
@@ -61,13 +62,15 @@ whether or not we read it yet.
 ### `software.json`
 
 Hand-maintained vocabulary of products catalogs run on, following
-`schema/software.schema.json`: id, label, homepage, and the vendor's
-organisation id when it is a Swedish organisation. It answers "what does it run
-on"; the endpoints answer "how do we talk to it". The two are kept apart
-because one product speaks several protocols (PxWeb: API 1, API 2, the web
-tables) and one protocol is spoken by several products (WFS by GeoServer,
-ArcGIS and QGIS Server; DCAT-AP by everything). Which protocols a software
-speaks is read off `catalogs.json`, not declared here.
+`schema/software.schema.json`: id, label, the protocols an install of it exposes,
+the vendor's organisation id when it is a Swedish organisation, homepage, source
+repository and API documentation. It answers "what does it run on"; the endpoints
+answer "how do we talk to it". The two are kept apart because one product speaks
+several protocols (PxWeb: API 1, API 2, the web tables) and one protocol is spoken
+by several products (WFS by GeoServer, ArcGIS and QGIS Server; DCAT-AP by
+everything). The report lists every install that carries none of its software's
+protocols (`without_software_protocol`): a map viewer whose services are not yet
+recorded, or a misclassified install.
 
 ## The input you edit
 
@@ -98,20 +101,23 @@ The only hand file for catalogs. Merged last, so it wins over every register.
 | [data.europa.eu](https://data.europa.eu/api/hub/search/) | the hub search for the three Swedish catalogues (oppnadata, geodata-se, nsip-se): every service host that datasets and data services point at, classified by protocol from the URL, with the publisher URIs seen there. Mostly Geodataportalen's OGC services and Atom feeds, plus the APIs registered on dataportal.se |
 | [dataportal.se](https://admin.dataportal.se/store) | the federation: each registered catalog's title, publisher and homepage, the URL the portal harvests it from, and the latest harvest's status, date, dataset count and validation errors. That harvest outcome is written as the `dcat_ap` endpoint's `checked` |
 
-A dataportal.se registration becomes a catalog only once a harvest has succeeded
-with at least one dataset; the portal pre-registered a guessed URL for every public
-body and most of those have never answered. The report counts them as
-`registered_only`. A catalog that is already in the product stays and turns
-`inactive` when its harvest fails, so a bad week does not make it vanish. A
-context in a shared install (`free.entryscape.com`, `editera.dataportal.se`) is
-its own catalog, keyed by host and the context's number in that install, with
-MetaSolutions or Digg as operator and only the RDF export as endpoint.
+Every dataportal.se registration with a URL to harvest from is a catalog, also the
+guessed `www.<body>.se/datasets/dcat` URLs the portal pre-registered for every
+public body: what the registration is worth shows in its status. The harvest
+outcome is the `dcat_ap` endpoint's `checked` (`ok` only when a harvest succeeded
+with at least one dataset, `error` with the run's counts otherwise); a
+registration the portal never ran is probed by the liveness check like any other
+endpoint. A context in a shared install (`free.entryscape.com`,
+`editera.dataportal.se`) is its own catalog, keyed by host and the context's number
+in that install, with MetaSolutions or Digg as operator and only the RDF export as
+endpoint. Only test registrations and duplicates go in `ignore`.
 
 ## The liveness check
 
 After the registers and edits are merged, the build asks every endpoint the question
-its protocol defines (`check.path` appended to the URL, `check.expect` in the first
-64 KB of the answer) and writes the outcome as the endpoint's `checked`:
+its protocol defines (`CHECK` in `scripts/check.py`: a path appended to the URL and a
+substring expected in the first 64 KB of the answer; a protocol without an entry is
+fetched as is) and writes the outcome as the endpoint's `checked`:
 
 | result | meaning |
 |---|---|
@@ -122,11 +128,11 @@ its protocol defines (`check.path` appended to the URL, `check.expect` in the fi
 
 `checked.date` is when the current result was first observed, so a weekly run that
 finds nothing changed rewrites nothing. A `dcat_ap` endpoint harvested by
-dataportal.se keeps the portal's own harvest outcome instead. A catalog is `active`
-when any endpoint is `ok` or `restricted`, `inactive` when every checked endpoint
-failed, `unknown` when nothing could be checked. When most endpoints are unreachable
-the network is judged broken: previous results are kept and the report says the
-check failed. `python scripts/build.py --no-check` skips it.
+dataportal.se keeps the portal's own harvest outcome instead. The catalog's `status`
+is the best result among its endpoints in the order above, or `unchecked`. When most
+endpoints are unreachable the network is judged broken: previous results are kept
+and the report says the check failed. `python scripts/build.py --no-check` skips it
+and keeps the previous results.
 
 ## Derived
 
@@ -134,7 +140,7 @@ check failed. `python scripts/build.py --no-check` skips it.
 |---|---|
 | `snapshots/<register>.json` | the reduced result of the last successful fetch of each register, committed so a build still runs when a register is down |
 | `dist/<product>.json`, `dist/<product>.csv` | the three product files in every published format: a copy of the JSON and a CSV with one row per record, same name, only the extension differs. Nested fields are dotted columns (`label.sv`), lists are `\|`-joined, and a list of objects gives one column per field with the items aligned by position (`endpoint.protocol`, `endpoint.url`). Derived from the JSON, so it changes exactly when the product does |
-| `reports/<date>.json` | written by a build that changed a catalog or found a register with no snapshot: per register `fetched`, `stale` or `failed`, counts by catalog type and protocol, added and removed ids, catalogs `without_owner` (the worklist for edits), registrations not yet counted as catalogs. `generated` in `catalogs.json` is the date of the last content change |
+| `reports/<date>.json` | written by a build that changed a catalog or found a register with no snapshot: per register `fetched`, `stale` or `failed`, counts by catalog type, protocol and status, added and removed ids, catalogs `without_owner` and `without_software_protocol` (the worklists for edits). `generated` in `catalogs.json` is the date of the last content change |
 
 ## Build and check
 

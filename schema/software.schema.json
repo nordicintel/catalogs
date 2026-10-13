@@ -3,13 +3,16 @@
   "title": "Software",
   "description": "A product a catalog runs on. A vocabulary entry, not a product model.",
   "type": "object",
-  "required": ["id", "label"],
+  "required": ["id", "label", "protocol"],
   "additionalProperties": false,
   "properties": {
     "id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
     "label": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "string"}},
+    "protocol": {"type": "array", "items": {"type": "string"}, "description": "Protocol ids an install of this product exposes. An install with none of them is reported as incomplete or misclassified. Empty for one-off sites."},
     "vendor": {"type": "string", "description": "Organisation id of the maker, when it is a Swedish organisation in the registry."},
     "homepage": {"type": "string", "format": "uri"},
+    "repository": {"type": "string", "format": "uri", "description": "Source code, when the product is open source."},
+    "documentation": {"type": "string", "format": "uri", "description": "API documentation."},
     "note": {"type": "string"}
   }
 }

@@ -1,11 +1,11 @@
-id,homepage,label.en,label.sv,note,vendor
-pxweb,https://www.scb.se/en/services/statistical-programs-for-px-files/px-web/,PxWeb,PxWeb,,SE2021000837
-entryscape,https://entryscape.com/,EntryScape,EntryScape,,SE5568540701
-ckan,https://ckan.org/,CKAN,CKAN,,
-huwise,https://huwise.com/,Huwise,Huwise,Formerly Opendatasoft.,
-arcgis,https://www.esri.com/,ArcGIS,ArcGIS,,
-geoserver,https://geoserver.org/,GeoServer,GeoServer,,
-geonetwork,https://geonetwork-opensource.org/,GeoNetwork,GeoNetwork,,
-diva,https://www.diva-portal.org/,DiVA,DiVA,,SE2021002932
-figshare,https://figshare.com/,Figshare,Figshare,,
-custom,,Custom,Egenutvecklad,A one-off site or API. The endpoints say what it speaks.,
+id,documentation,homepage,label.en,label.sv,note,protocol,repository,vendor
+pxweb,https://www.scb.se/en/services/open-data-api/api-for-the-statistical-database/,https://www.scb.se/en/services/statistical-programs-for-px-files/px-web/,PxWeb,PxWeb,,pxweb_v1|pxweb_v2|pxweb_web,https://github.com/statisticssweden/PxWeb,SE2021000837
+entryscape,https://docs.entryscape.com/,https://entryscape.com/,EntryScape,EntryScape,,entrystore|dcat_ap,https://github.com/MetaSolutions/entrystore,SE5568540701
+ckan,https://docs.ckan.org/,https://ckan.org/,CKAN,CKAN,,ckan_v3|dcat_ap,https://github.com/ckan/ckan,
+huwise,,https://huwise.com/,Huwise,Huwise,Formerly Opendatasoft.,huwise|dcat_ap,,
+arcgis,https://developers.arcgis.com/rest/,https://www.esri.com/,ArcGIS,ArcGIS,,arcgis_rest|arcgis_hub|wfs_2|wms_1_3,,
+geoserver,https://docs.geoserver.org/,https://geoserver.org/,GeoServer,GeoServer,,wfs_2|wms_1_3|ogc_features,https://github.com/geoserver/geoserver,
+geonetwork,https://docs.geonetwork-opensource.org/,https://geonetwork-opensource.org/,GeoNetwork,GeoNetwork,,csw_2,https://github.com/geonetwork/core-geonetwork,
+diva,,https://www.diva-portal.org/,DiVA,DiVA,,oai_pmh,,SE2021002932
+figshare,https://docs.figshare.com/,https://figshare.com/,Figshare,Figshare,,oai_pmh,,
+custom,,,Custom,Egenutvecklad,A one-off site or API. The endpoints say what it speaks.,,,

@@ -7,10 +7,6 @@
         "en": "Custom HTTP API"
       },
       "support": "undecided",
-      "check": {
-        "path": "",
-        "expect": ""
-      },
       "note": "An API we have not classified under a shared protocol. Each one is its own adapter if it is ever read."
     },
     "arcgis_hub": {
@@ -19,11 +15,7 @@
         "sv": "ArcGIS Hub",
         "en": "ArcGIS Hub"
       },
-      "support": "planned",
-      "check": {
-        "path": "/data.json",
-        "expect": "\"dataset\""
-      }
+      "support": "planned"
     },
     "arcgis_rest": {
       "id": "arcgis_rest",
@@ -31,11 +23,7 @@
         "sv": "ArcGIS REST services",
         "en": "ArcGIS REST services"
       },
-      "support": "planned",
-      "check": {
-        "path": "?f=json",
-        "expect": "currentVersion"
-      }
+      "support": "planned"
     },
     "atom": {
       "id": "atom",
@@ -44,10 +32,6 @@
         "en": "Atom feed (INSPIRE download service)"
       },
       "support": "planned",
-      "check": {
-        "path": "",
-        "expect": "<feed"
-      },
       "note": "A feed of downloadable files per dataset, the INSPIRE pre-defined download service."
     },
     "ckan_v3": {
@@ -56,11 +40,7 @@
         "sv": "CKAN API v3",
         "en": "CKAN API v3"
       },
-      "support": "planned",
-      "check": {
-        "path": "/api/3/action/package_search?rows=0",
-        "expect": "\"success\": true"
-      }
+      "support": "planned"
     },
     "csw_2": {
       "id": "csw_2",
@@ -69,10 +49,6 @@
         "en": "OGC CSW 2.0.2"
       },
       "support": "planned",
-      "check": {
-        "path": "?service=CSW&request=GetCapabilities",
-        "expect": "Capabilities"
-      },
       "note": "Metadata catalog protocol; Geodataportalen speaks it."
     },
     "dcat_ap": {
@@ -82,10 +58,6 @@
         "en": "DCAT-AP file"
       },
       "support": "planned",
-      "check": {
-        "path": "",
-        "expect": "dcat"
-      },
       "note": "A published RDF file (RDF/XML, Turtle, JSON-LD). The URL is the file."
     },
     "entrystore": {
@@ -95,10 +67,6 @@
         "en": "EntryStore (EntryScape)"
       },
       "support": "supported",
-      "check": {
-        "path": "/store/search?type=solr&limit=1&query=rdfType:http%5C://www.w3.org/ns/dcat%23Dataset",
-        "expect": "\"results\""
-      },
       "note": "Catalog metadata through the store's Solr search; tabular data through the install's RowStore where one exists."
     },
     "file": {
@@ -108,10 +76,6 @@
         "en": "File"
       },
       "support": "planned",
-      "check": {
-        "path": "",
-        "expect": ""
-      },
       "note": "A downloadable file at a stable URL, for data reachable no other way."
     },
     "forsakringskassan": {
@@ -120,11 +84,7 @@
         "sv": "Försäkringskassans statistik-API",
         "en": "Försäkringskassan statistics API"
       },
-      "support": "supported",
-      "check": {
-        "path": "/reports",
-        "expect": "\"reports\""
-      }
+      "support": "supported"
     },
     "huwise": {
       "id": "huwise",
@@ -133,10 +93,6 @@
         "en": "Huwise Explore API v2"
       },
       "support": "undecided",
-      "check": {
-        "path": "/api/explore/v2.1/catalog/datasets?limit=0",
-        "expect": "total_count"
-      },
       "note": "Formerly Opendatasoft."
     },
     "kb_bibstat": {
@@ -146,10 +102,6 @@
         "en": "KB library statistics"
       },
       "support": "deferred",
-      "check": {
-        "path": "",
-        "expect": "@context"
-      },
       "note": "JSON-LD RDF Data Cube, one observation per library and year; 793 terms. Deferred because aggregation to kommun or län is ours to do."
     },
     "kolada_v3": {
@@ -159,10 +111,6 @@
         "en": "Kolada API v3"
       },
       "support": "supported",
-      "check": {
-        "path": "/kpi?page_size=1",
-        "expect": "\"values\""
-      },
       "documentation": "https://api.kolada.se/v3/openapi.json"
     },
     "oai_pmh": {
@@ -172,10 +120,6 @@
         "en": "OAI-PMH 2.0"
       },
       "support": "planned",
-      "check": {
-        "path": "?verb=Identify",
-        "expect": "Identify"
-      },
       "note": "researchdata.se and the DiVA installs. DDI where the repository offers it."
     },
     "ogc_features": {
@@ -184,11 +128,7 @@
         "sv": "OGC API Features",
         "en": "OGC API Features"
       },
-      "support": "planned",
-      "check": {
-        "path": "/collections?f=json",
-        "expect": "\"collections\""
-      }
+      "support": "planned"
     },
     "ogc_records": {
       "id": "ogc_records",
@@ -197,10 +137,6 @@
         "en": "OGC API Records"
       },
       "support": "planned",
-      "check": {
-        "path": "/collections?f=json",
-        "expect": "\"collections\""
-      },
       "note": "The catalogue API ArcGIS Hub sites expose beside their DCAT feeds."
     },
     "pxweb_v1": {
@@ -210,10 +146,6 @@
         "en": "PxWeb API v1"
       },
       "support": "supported",
-      "check": {
-        "path": "/sv",
-        "expect": "dbid"
-      },
       "documentation": "https://www.scb.se/en/services/open-data-api/api-for-the-statistical-database/",
       "note": "Base URL ends with /api/v1; the language code follows."
     },
@@ -224,10 +156,6 @@
         "en": "PxWeb API 2"
       },
       "support": "supported",
-      "check": {
-        "path": "/config",
-        "expect": "apiVersion"
-      },
       "documentation": "https://github.com/PxWeb2/PxWebApi"
     },
     "pxweb_web": {
@@ -237,11 +165,6 @@
         "en": "PxWeb web interface"
       },
       "support": "planned",
-      "check": {
-        "path": "",
-        "expect": "",
-        "accept": "text/html"
-      },
       "note": "A PxWeb install whose API is disabled or broken. Recorded so no Swedish instance is lost; a scraping adapter for the web interface may come."
     },
     "riksbank": {
@@ -251,10 +174,6 @@
         "en": "Riksbank API"
       },
       "support": "supported",
-      "check": {
-        "path": "/swea/v1/Groups",
-        "expect": "\"groupId\""
-      },
       "documentation": "https://developer.api.riksbank.se/"
     },
     "smhi_emissions": {
@@ -263,11 +182,7 @@
         "sv": "Nationella emissionsdatabasen API",
         "en": "National emissions database API"
       },
-      "support": "supported",
-      "check": {
-        "path": "/getfilteroptions/",
-        "expect": "\"sector\""
-      }
+      "support": "supported"
     },
     "socialstyrelsen_dataanalys": {
       "id": "socialstyrelsen_dataanalys",
@@ -275,11 +190,7 @@
         "sv": "Socialstyrelsens dataanalys API",
         "en": "Socialstyrelsen data analysis API"
       },
-      "support": "supported",
-      "check": {
-        "path": "/chart/",
-        "expect": "\"count\""
-      }
+      "support": "supported"
     },
     "socialstyrelsen_sdb": {
       "id": "socialstyrelsen_sdb",
@@ -287,11 +198,7 @@
         "sv": "Socialstyrelsens statistikdatabas API",
         "en": "Socialstyrelsen statistics database API"
       },
-      "support": "supported",
-      "check": {
-        "path": "/sv",
-        "expect": "\"namn\""
-      }
+      "support": "supported"
     },
     "sparql": {
       "id": "sparql",
@@ -299,11 +206,7 @@
         "sv": "SPARQL",
         "en": "SPARQL"
       },
-      "support": "undecided",
-      "check": {
-        "path": "?query=ASK%20%7B%3Fs%20%3Fp%20%3Fo%7D",
-        "expect": ""
-      }
+      "support": "undecided"
     },
     "stac": {
       "id": "stac",
@@ -312,10 +215,6 @@
         "en": "STAC API"
       },
       "support": "planned",
-      "check": {
-        "path": "/collections",
-        "expect": "\"collections\""
-      },
       "note": "SpatioTemporal Asset Catalog; Digital Earth Sweden runs one."
     },
     "tillvaxtverket": {
@@ -324,11 +223,7 @@
         "sv": "Tillväxtverkets öppna data",
         "en": "Tillväxtverket open data"
       },
-      "support": "supported",
-      "check": {
-        "path": "/api.yaml",
-        "expect": "openapi"
-      }
+      "support": "supported"
     },
     "trafa": {
       "id": "trafa",
@@ -337,10 +232,6 @@
         "en": "Trafikanalys API"
       },
       "support": "supported",
-      "check": {
-        "path": "/structure",
-        "expect": ""
-      },
       "note": "Trafikanalys is wound up 2026-12-31 and goes into Tillväxtanalys; the endpoint may move."
     },
     "uka_statistik": {
@@ -349,11 +240,7 @@
         "sv": "UKÄ statistik-API",
         "en": "UKÄ statistics API"
       },
-      "support": "supported",
-      "check": {
-        "path": "/indicators",
-        "expect": "\"name\""
-      }
+      "support": "supported"
     },
     "vardenisiffror": {
       "id": "vardenisiffror",
@@ -362,10 +249,6 @@
         "en": "Vården i siffror export API"
       },
       "support": "planned",
-      "check": {
-        "path": "/options",
-        "expect": "\"indicators\""
-      },
       "documentation": "https://vardenisiffror.se/dataexport/api",
       "note": "GET /options lists 1,216 indicators with data source and unit, /units the regions, kommuner and hospitals, /export the values by indicator, unit, year and gender, paged up to 1,000,000 rows."
     },
@@ -376,11 +259,6 @@
         "en": "Web interface without an API"
       },
       "support": "undecided",
-      "check": {
-        "path": "",
-        "expect": "",
-        "accept": "text/html"
-      },
       "note": "Tables or indicators shown on a site with no machine interface. A site-specific scraper would be its own adapter."
     },
     "wfs_2": {
@@ -389,11 +267,7 @@
         "sv": "OGC WFS 2.0",
         "en": "OGC WFS 2.0"
       },
-      "support": "planned",
-      "check": {
-        "path": "?service=WFS&request=GetCapabilities",
-        "expect": "Capabilities"
-      }
+      "support": "planned"
     },
     "wms_1_3": {
       "id": "wms_1_3",
@@ -402,10 +276,6 @@
         "en": "OGC WMS 1.3"
       },
       "support": "deferred",
-      "check": {
-        "path": "?service=WMS&request=GetCapabilities",
-        "expect": "Capabilities"
-      },
       "note": "Images, not data. Recorded so a geoportal's services are complete."
     }
   }

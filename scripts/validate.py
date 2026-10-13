@@ -10,6 +10,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+import check as check_mod  # noqa: E402
 errors = []
 
 
@@ -71,6 +73,8 @@ edits = read("edits/catalogs.json") if (ROOT / "edits/catalogs.json").exists() e
 orgs = read("snapshots/organisations.json").get("organisation", {}) if (ROOT / "snapshots/organisations.json").exists() else {}
 
 for key, p in protocols.items():
+    if key not in check_mod.CHECK:
+        errors.append(f"protocols.json {key}: no entry in scripts/check.py CHECK")
     if key != p.get("id"):
         errors.append(f"protocols.json: key {key} != id {p.get('id')}")
     check(p, protocol_schema, f"protocols.json {key}")
@@ -78,6 +82,9 @@ for key, s in software.items():
     if key != s.get("id"):
         errors.append(f"software.json: key {key} != id {s.get('id')}")
     check(s, software_schema, f"software.json {key}")
+    for proto in s.get("protocol", []):
+        if proto not in protocols:
+            errors.append(f"software.json {key}: protocol {proto} not in protocols.json")
     if s.get("vendor") and orgs and s["vendor"] not in orgs:
         errors.append(f"software.json {key}: vendor {s['vendor']} not in organisations")
 

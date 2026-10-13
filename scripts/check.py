@@ -1,10 +1,10 @@
 """Liveness check: ask every endpoint the question its protocol defines and record the answer.
 
-Each protocol in protocols.json carries a ``check``: a path appended to the endpoint URL
-and a substring a live answer contains. The first 64 KB of the response are enough to
-tell. Results land on the endpoint as ``checked`` and decide the catalog's ``status``:
-active when any endpoint answers (also with 401 or 403: alive but behind a key), inactive when every checked endpoint fails, unknown
-when nothing could be checked.
+``CHECK`` holds the question per protocol: a path appended to the endpoint URL and a
+substring a live answer contains. A protocol without an entry is fetched as is. The first
+64 KB of the response are enough to tell. Results land on the endpoint as ``checked`` and
+the catalog's ``status`` is the best result among its endpoints: ok, restricted (401 or
+403: alive but behind a key), error, unreachable, or unchecked when nothing was checked.
 
 ``checked.date`` is the date the current result was first observed, so a weekly run that
 finds nothing changed rewrites nothing. The report carries the run date.
@@ -26,6 +26,42 @@ WORKERS = 16
 READ = 65536
 HARVEST = "dataportal.se harvest"
 FAILED_RUN = 0.8  # share of unreachable endpoints above which the run itself is judged broken
+ORDER = ("ok", "restricted", "error", "unreachable")
+
+CHECK = {  # per protocol: path appended to the endpoint URL, substring a live answer contains, Accept header
+    "api": {"path": "", "expect": ""},
+    "arcgis_hub": {"path": "/data.json", "expect": "\"dataset\""},
+    "arcgis_rest": {"path": "?f=json", "expect": "currentVersion"},
+    "atom": {"path": "", "expect": "<feed"},
+    "ckan_v3": {"path": "/api/3/action/package_search?rows=0", "expect": "\"success\": true"},
+    "csw_2": {"path": "?service=CSW&request=GetCapabilities", "expect": "Capabilities"},
+    "dcat_ap": {"path": "", "expect": "dcat"},
+    "entrystore": {"path": "/store/search?type=solr&limit=1&query=rdfType:http%5C://www.w3.org/ns/dcat%23Dataset", "expect": "\"results\""},
+    "file": {"path": "", "expect": ""},
+    "forsakringskassan": {"path": "/reports", "expect": "\"reports\""},
+    "huwise": {"path": "/api/explore/v2.1/catalog/datasets?limit=0", "expect": "total_count"},
+    "kb_bibstat": {"path": "", "expect": "@context"},
+    "kolada_v3": {"path": "/kpi?page_size=1", "expect": "\"values\""},
+    "oai_pmh": {"path": "?verb=Identify", "expect": "Identify"},
+    "ogc_features": {"path": "/collections?f=json", "expect": "\"collections\""},
+    "ogc_records": {"path": "/collections?f=json", "expect": "\"collections\""},
+    "pxweb_v1": {"path": "/sv", "expect": "dbid"},
+    "pxweb_v2": {"path": "/config", "expect": "apiVersion"},
+    "pxweb_web": {"path": "", "expect": "", "accept": "text/html"},
+    "riksbank": {"path": "/swea/v1/Groups", "expect": "\"groupId\""},
+    "smhi_emissions": {"path": "/getfilteroptions/", "expect": "\"sector\""},
+    "socialstyrelsen_dataanalys": {"path": "/chart/", "expect": "\"count\""},
+    "socialstyrelsen_sdb": {"path": "/sv", "expect": "\"namn\""},
+    "sparql": {"path": "?query=ASK%20%7B%3Fs%20%3Fp%20%3Fo%7D", "expect": ""},
+    "stac": {"path": "/collections", "expect": "\"collections\""},
+    "tillvaxtverket": {"path": "/api.yaml", "expect": "openapi"},
+    "trafa": {"path": "/structure", "expect": ""},
+    "uka_statistik": {"path": "/indicators", "expect": "\"name\""},
+    "vardenisiffror": {"path": "/options", "expect": "\"indicators\""},
+    "web": {"path": "", "expect": "", "accept": "text/html"},
+    "wfs_2": {"path": "?service=WFS&request=GetCapabilities", "expect": "Capabilities"},
+    "wms_1_3": {"path": "?service=WMS&request=GetCapabilities", "expect": "Capabilities"},
+}
 
 
 def probe(url, check):
@@ -47,13 +83,19 @@ def probe(url, check):
         return "unreachable", f"{type(reason).__name__}: {reason}"[:120]
 
 
-def run(catalogs, protocols, previous, today):
+def status(record):
+    """The catalog's status: the best result among its endpoints, or unchecked."""
+    outcomes = {e["checked"]["result"] for e in record["endpoint"] if e.get("checked")}
+    return next((o for o in ORDER if o in outcomes), "unchecked")
+
+
+def run(catalogs, previous, today):
     """Check every endpoint in place. Returns a summary for the report."""
     before = {(k, e["protocol"], e["url"]): e.get("checked") for k, r in previous.items() for e in r.get("endpoint", [])}
     work = [(key, e) for key, r in catalogs.items() for e in r["endpoint"]
             if not (e.get("checked") or {}).get("detail", "").startswith(HARVEST)]
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
-        results = list(pool.map(lambda item: probe(item[1]["url"], protocols[item[1]["protocol"]].get("check", {})), work))
+        results = list(pool.map(lambda item: probe(item[1]["url"], CHECK.get(item[1]["protocol"], {})), work))
 
     unreachable = sum(1 for result, _ in results if result == "unreachable")
     if work and unreachable / len(work) > FAILED_RUN:
@@ -72,7 +114,6 @@ def run(catalogs, protocols, previous, today):
                    "unreachable": unreachable}
 
     for r in catalogs.values():
-        outcomes = [e["checked"]["result"] for e in r["endpoint"] if e.get("checked")]
-        r["status"] = "active" if {"ok", "restricted"} & set(outcomes) else "inactive" if outcomes else "unknown"
+        r["status"] = status(r)
     print(f"check: {summary}", file=sys.stderr)
     return summary

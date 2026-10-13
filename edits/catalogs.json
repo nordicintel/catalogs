@@ -7046,6 +7046,10 @@
       ],
       "homepage": "https://webmap.vbenergi.se/bios/dpwebmap/dsg/contractor/cust_vbe/",
       "owner": "SE5565656864"
+    },
+    "mia.eu": {
+      "owner": "SE2021004169",
+      "note": "Registered on dataportal.se under a misspelt name and the predecessor's domain; the body is Myndigheten för familjerätt och föräldraskapsstöd."
     }
   },
   "ignore": [
@@ -7056,6 +7060,7 @@
     "pxwebdemo.scb.se",
     "stationsregistertest.miljodatasamverkan.se",
     "test.ikartan.se",
-    "tillvaxtdata.tillvaxtverket.se"
+    "tillvaxtdata.tillvaxtverket.se",
+    "my.org"
   ]
 }

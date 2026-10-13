@@ -9,11 +9,6 @@
     "id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
     "label": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "string"}},
     "support": {"type": "string", "enum": ["supported", "planned", "deferred", "none", "undecided"]},
-    "check": {"type": "object", "required": ["path"], "additionalProperties": false, "description": "Request the liveness check appends to an endpoint URL, and what a live answer contains.", "properties": {
-      "path": {"type": "string"},
-      "expect": {"type": "string", "description": "Substring that must appear in a live answer. Empty means any 200."},
-      "accept": {"type": "string"}
-    }},
     "documentation": {"type": "string", "format": "uri"},
     "note": {"type": "string"}
   }

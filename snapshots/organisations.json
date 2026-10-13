@@ -559,8 +559,6 @@
     "1984-2007: västfolket. från 2008 och framåt:scb": "SE2021000837",
     "1985-2008: västfolket. från 2009 och framåt:scb": "SE2021000837",
     "<ul> <li>hälsoräkenskaperna (hc.0 - hc.7 ”totala löpande hälso- och sjukvårdsutgifter” samt ”hc.3adl - därav adl”), statistiska centralbyrån.</li> <li>folkmängd per 31 december per år, statistiska centralbyrån.</li> <li>ett konsumtionsprisindex för hälso- och sjukvård för regioner, statistiska centralbyrån.</li> </ul>": "SE2021000837",
-    "advanced vocational education": "SE2021005299",
-    "affärsverket statens järnvägar": "SE2021000787",
     "affärsverket svenska kraftnät": "SE2021004284",
     "agency for digital government": "SE2021006883",
     "ajtte, svenskt fjäll- & samemuseum": "SE8985005183",
@@ -568,11 +566,10 @@
     "ale kommun": "SE2120001439",
     "ale kommuns öppna data": "SE2120001439",
     "ale municipality": "SE2120001439",
-    "aliens appeals board": "SE2021004292",
     "alingsås kommun": "SE2120001553",
     "alingsås municipality": "SE2120001553",
     "alingsås och vårgårda räddningstjänstförbund": "SE2220002535",
-    "alkoholinspektionen": "SE2021004748",
+    "alingsås tingsrätt": "SE2021002742-ALINGSAS-TINGSRATT",
     "alkoholsortimentsnämnden": "SE2021005943",
     "allmänna reklamationsnämnden": "SE2021003625",
     "alvesta kommun": "SE2120000639",
@@ -583,13 +580,10 @@
     "ansvarsnämnden för djurens hälso- och sjukvård": "SE2021006834",
     "apoteket": "SE5561386532",
     "apoteket ab": "SE5561386532",
-    "appeals bord for the total defence": "SE2021004623",
-    "arbetarskyddsstyrelsen": "SE2021002148",
     "arbetsdomstolen": "SE2021002122",
     "arbetsförmedlingen": "SE2021002114",
     "arbetsgivarverket": "SE2021003476",
-    "arbetsmarknadsstyrelsen": "SE2021002114",
-    "arbetsmarknadsverket": "SE2021002114",
+    "arbetsmarknadsstyrelsen/arbetsmarknadsverket": "SE2021002114",
     "arbetsmiljöverket": "SE2021002148",
     "arbetsmiljöverket (av)": "SE2021002148",
     "arbetsmiljöverket, anmälda arbetsskador": "SE2021002148",
@@ -600,7 +594,7 @@
     "arjeplogs kommun": "SE2120002668",
     "arkeologikonsult": "SE5563108942",
     "arkeologikonsult sverige ab": "SE5563108942",
-    "arkivet för ljud och bild": "SE2021003492",
+    "arkitekturmuseet": "SE2021003427",
     "arkivnämnden f v götalandsregionen och göteborg": "SE2220001172",
     "artdatabanken": "SE2021002817",
     "arvfondsdelegationen": "SE2021005950",
@@ -610,26 +604,13 @@
     "arvika municipality": "SE2120001892",
     "askersund municipality": "SE2120001983",
     "askersunds kommun": "SE2120001983",
+    "attunda tingsrätt": "SE2021002742-ATTUNDA-TINGSRATT",
     "avesta kommun": "SE2120002262",
     "avesta municipality": "SE2120002262",
     "avfall sverige": "SE8460010161",
-    "avvecklingsmyndigheten för arbetslivsinstitutet": "SE2021005661",
-    "avvecklingsmyndigheten för fiskeriverket": "SE2021006446",
-    "avvecklingsmyndigheten för integrationsverket": "SE2021005679",
-    "avvecklingsmyndigheten för myndigheten för utländska investeringar i sverige m.m": "SE2021006529",
-    "avvecklingsmyndigheten för nätverk och samarbete inom högre utbildning": "SE2021005323",
-    "avvecklingsmyndigheten för ombudsmännen mot diskriminering": "SE2021006107",
-    "avvecklingsmyndigheten för ppm och delar av fk": "SE2021006289",
-    "avvecklingsmyndigheten för rrv": "SE2021005430",
-    "avvecklingsmyndigheten för skolmyndigheter m.m.": "SE2021005794",
-    "avvecklingsmyndigheten för srv, kbm och spf": "SE2021005968",
-    "avvecklingsmyndigheten för statens kvalitets- och kompetensråd": "SE2021005042",
-    "avvecklingsmyndigheten för statens strålskyddsinstitut och kärnkraftsinspektion": "SE2021005760",
-    "avvecklingsmyndigheten för utbildningsmyndigheter": "SE2021006511",
-    "avvecklingsmyndigheten för verket för förvaltningsutveckling": "SE2021006123",
-    "avvecklingsmyndigheten för vissa myndigheter inom vård- och omsorgsområdet": "SE2021006578",
     "avverkningsanmälningar, grotuttag och askåterföring: skogsstyrelsen. övrigt beräkningar av lunds universitet.": "SE2021003211",
     "bank for international settlements": "wikidata:Q309195",
+    "banverket": "SE2021004003",
     "barnombudsmannen": "SE2021003690",
     "bengtsfors kommun": "SE2120001470",
     "bengtsfors municipality": "SE2120001470",
@@ -648,7 +629,6 @@
     "biometria ek. för.": "SE7696046924",
     "biometria och skogsstyrelsen": "SE2021005612",
     "biometria och skogsstyrelsen 2019-2024. skogsstyrelsen 2025-": "SE2021005612",
-    "birgittaskolan, örebro": "SE2022001487",
     "bjurholm municipality": "SE2120002833",
     "bjurholms kommun": "SE2120002833",
     "bjuv municipality": "SE2120001041",
@@ -658,6 +638,7 @@
     "blekinge museum": "SE8350006113",
     "blekinge nation": "SE2620000907",
     "blekinge tekniska högskola": "SE2021004011",
+    "blekinge tingsrätt": "SE2021002742-BLEKINGE-TINGSRATT",
     "bo": "SE2021003690",
     "boden municipality": "SE2120002767",
     "bodens kommun": "SE2120002767",
@@ -675,6 +656,7 @@
     "borås kommun": "SE2120001561",
     "borås municipality": "SE2120001561",
     "borås stad": "SE2120001561",
+    "borås tingsrätt": "SE2021002742-BORAS-TINGSRATT",
     "botkyrka kommun": "SE2120002882",
     "botkyrka kommuns öppna data": "SE2120002882",
     "botkyrka municipality": "SE2120002882",
@@ -709,15 +691,11 @@
     "centralförbundet för alkohol- och narkotikaupplysning (can)": "SE8020005461",
     "centralförbundet för alkohol- och narkotikaupplysning, can": "SE8020005461",
     "centrum för idrottsforskning (cif)": "SE2021004334",
-    "centrum för kunskap om ekologisk hållbarhet": "SE2021005067",
     "chalmers tekniska högskola": "SE5564795598",
     "chalmers tekniska högskola aktiebolag": "SE5564795598",
     "chalmers university of technology": "SE5564795598",
     "chancellor of justice": "SE2021000035",
     "church of sweden": "SE2520026135",
-    "civilbefälhavaren i mellersta civilområdet": "SE2022001404",
-    "civilbefälhavaren i norra civilområdet": "SE2022001420",
-    "civilbefälhavaren i södra civilområdet": "SE2022001107",
     "council for employee representation on boards of directors": "SE2021005786",
     "council for the promotion of municipal analyses": "SE8024305370",
     "council on legislation": "SE2021005315",
@@ -730,36 +708,30 @@
     "dalsland miljö- och energiförbund": "SE2220000877",
     "danderyd municipality": "SE2120000126",
     "danderyds kommun": "SE2120000126",
+    "dans- och cirkushögskolan": "SE2021001298",
+    "danshögskolan": "SE2021001298",
     "datainspektionen": "SE2021000050",
     "defence materiel administration": "SE2021000340",
     "degerfors kommun": "SE2120001934",
     "degerfors municipality": "SE2120001934",
     "delegation for the international legal review of weapons projects": "SE2021006842",
     "delegationen för folkrättslig granskning av vapenprojekt": "SE2021006842",
-    "delegationen för investeringar i sverige (isa)": "SE2021004862",
-    "delegationen för it i skolan": "SE2021005133",
-    "delegationen för utländska investeringar i sverige": "SE2021004862",
-    "delegationen för utländska investeringar i sverige.": "SE2021004862",
-    "delegationen för utländska investeringar i sverige. (invest in sveden agency)": "SE2021004862",
     "delegationen mot segregation": "SE2021006701",
     "demoskop": "SE5592038961",
     "demoskop ab": "SE5592038961",
     "dental and pharmaceutical benefits agency": "SE2021005364",
-    "deposit guarantee board": "SE2021004516",
-    "dictionary of swedish national biography": "SE2021001165",
     "digg": "SE2021006883",
     "digg:s datakatalog": "SE2021006883",
     "dimios. sammanställningt: statistikgruppen, analys & utredning, linköpings kommun.": "SE2120000449",
     "discrimination ombudsman": "SE2021006073",
     "diskrimineringsombudsmannen": "SE2021006073",
-    "distansutbildningsmyndigheten": "SE2021005125",
-    "distum avvecklingsmyndighet": "SE2021005125",
+    "djurskyddsmyndigheten": "SE2021005455",
     "do": "SE2021006073",
     "domarnämnden": "SE2021006081",
     "domstolsverket": "SE2021002742",
-    "domstolsväsendet": "SE2021002742",
     "dorotea kommun": "SE2120002809",
     "dorotea municipality": "SE2120002809",
+    "dramatiska institutet": "SE2021001306",
     "dödsorsaksregistret och läkemedelsregistret, socialstyrelsen": "SE2021000555",
     "dödsorsaksregistret, socialstyrelsen": "SE2021000555",
     "dödsorsaksregistret, socialstyrelsen.": "SE2021000555",
@@ -778,13 +750,13 @@
     "ehälsomyndighetens databas concise via folkhälsomyndigheten": "SE2021006545",
     "ekerö kommun": "SE2120000050",
     "ekerö municipality": "SE2120000050",
-    "ekeskolan, örebro": "SE2022001479",
     "ekn": "SE2021002098",
     "ekobrottsmyndigheten": "SE2021004979",
     "ekomatcentrum": "SE8024041769",
     "ekonomistyrningsverket": "SE2021005026",
     "eksjö kommun": "SE2120000589",
     "eksjö municipality": "SE2120000589",
+    "eksjö tingsrätt": "SE2021002742-EKSJO-TINGSRATT",
     "electricity": "SE7696282735",
     "electricity innovation": "SE7696282735",
     "electricity innovation ekonomisk förening": "SE7696282735",
@@ -806,6 +778,7 @@
     "eskilstuna kommun": "SE2120000357",
     "eskilstuna kommuns öppna data": "SE2120000357",
     "eskilstuna municipality": "SE2120000357",
+    "eskilstuna tingsrätt": "SE2021002742-ESKILSTUNA-TINGSRATT",
     "eslöv municipality": "SE2120001173",
     "eslövs kommun": "SE2120001173",
     "eslövs kommuns öppna data": "SE2120001173",
@@ -817,8 +790,6 @@
     "european central bank": "wikidata:Q8901",
     "european spallation source eric": "SE7682000018",
     "eurostat": "wikidata:Q217659",
-    "expertgruppen för eu frågor": "SE2021005331",
-    "expertgruppen för eu-frågor": "SE2021005331",
     "exportkreditnämnden": "SE2021002098",
     "fagersta kommun": "SE2120002106",
     "fagersta municipality": "SE2120002106",
@@ -828,6 +799,7 @@
     "falköpings kommun": "SE2120001744",
     "falköpings kommuns öppna data": "SE2120001744",
     "falu kommun": "SE2120002221",
+    "falu tingsrätt": "SE2021002742-FALU-TINGSRATT",
     "falun municipality": "SE2120002221",
     "fastighetskontoret göteborgs stad": "SE2120001355",
     "fastighetsmäklarinspektionen": "SE2021004870",
@@ -913,6 +885,18 @@
     "försäkringskassan": "SE2021005521",
     "försäkringskassan, statistikenheten": "SE2021005521",
     "försäkringskassans tandvårdsregister": "SE2021005521",
+    "förvaltningsrätten i falun": "SE2021002742-FORVALTNINGSRATTENIFALUN",
+    "förvaltningsrätten i göteborg och migrationsdoms": "SE2021002742-FORVALTNINGSRATTENIGOTEBORG",
+    "förvaltningsrätten i härnösand": "SE2021002742-FORVALTNINGSRATTENIHARNOSAND",
+    "förvaltningsrätten i jönköping": "SE2021002742-FORVALTNINGSRATTENIJONKOPING",
+    "förvaltningsrätten i karlstad": "SE2021002742-FORVALTNINGSRATTENIKARLSTAD",
+    "förvaltningsrätten i linköping": "SE2021002742-FORVALTNINGSRATTENILINKOPING",
+    "förvaltningsrätten i luleå och migrationsdomstol": "SE2021002742-FORVALTNINGSRATTENILULEA",
+    "förvaltningsrätten i malmö": "SE2021002742-FORVALTNINGSRATTENIMALMO",
+    "förvaltningsrätten i stockholm och migrationsdom": "SE2021002742-FORVALTNINGSRATTENISTOCKHOLM",
+    "förvaltningsrätten i umeå": "SE2021002742-FORVALTNINGSRATTENIUMEA",
+    "förvaltningsrätten i uppsala": "SE2021002742-FORVALTNINGSRATTENIUPPSALA",
+    "förvaltningsrätten i växjö": "SE2021002742-FORVALTNINGSRATTENIVAXJO",
     "gagnef municipality": "SE2120002155",
     "gagnefs kommun": "SE2120002155",
     "gbif sweden": "SE2021001124",
@@ -930,9 +914,11 @@
     "gothenburg municipality": "SE2120001355",
     "gotland county administrative board": "SE2021002312",
     "gotlands handelskammare": "SE2620000295",
+    "gotlands tingsrätt": "SE2021002742-GOTLANDS-TINGSRATT",
     "government offices of sweden": "SE2021003831",
     "gr": "SE2220000265",
     "granskningsnämnden för försvarsuppfinningar": "SE2021006859",
+    "granskningsnämnden för radio och tv": "SE2021004714",
     "greensway ab": "SE5569905747",
     "greensway digital ab": "SE5592526700",
     "grums kommun": "SE2120001827",
@@ -944,24 +930,27 @@
     "gullspång municipality": "SE2120001637",
     "gullspångs kommun": "SE2120001637",
     "gullspångs kommuns öppna data": "SE2120001637",
-    "gymnastik och idrottshögskolan": "SE2021004334",
     "gymnastik- och idrottshögskolan": "SE2021004334",
     "gymnastik- och idrottshögskolan (gih)": "SE2021004334",
     "gällivare kommun": "SE2120002726",
     "gällivare municipality": "SE2120002726",
+    "gällivare tingsrätt": "SE2021002742-GALLIVARE-TINGSRATT",
     "gästrike räddningstjänst": "SE2220000778",
     "gästrike återvinnare": "SE2220001339",
     "gävle kommun": "SE2120002338",
     "gävle kommuns öppna data": "SE2120002338",
     "gävle municipality": "SE2120002338",
+    "gävle tingsrätt": "SE2021002742-GAVLE-TINGSRATT",
     "gävleborg county administrative board": "SE2021002437",
     "göliska it": "SE2220001602",
+    "göta hovrätt": "SE2021002742-GOTA-HOVRATT",
     "göteborg energi": "SE5563626794",
     "göteborg energi ab": "SE5563626794",
     "göteborg energi aktiebolag": "SE5563626794",
     "göteborgs kommun": "SE2120001355",
     "göteborgs stad": "SE2120001355",
     "göteborgs stads öppna data": "SE2120001355",
+    "göteborgs tingsrätt": "SE2021002742-GBG-TINGSRATT",
     "göteborgs universitet": "SE2021003153",
     "göteborgsregionen": "SE2220000265",
     "göteborgsregionens kommunalförbund": "SE2220000265",
@@ -980,9 +969,9 @@
     "halmstad municipality": "SE2120001215",
     "halmstad university college": "SE2021003203",
     "halmstads kommun": "SE2120001215",
+    "halmstads tingsrätt": "SE2021002742-HALMSTADS-TINGSRATT",
     "hammarö kommun": "SE2120001793",
     "hammarö municipality": "SE2120001793",
-    "handelsflottans kultur- och fritidsråd": "SE2021000670",
     "handelshögskolan i stockholm": "SE8020062074",
     "handelskammareföreningen i västerbotten": "SE2620001103",
     "handelskammaren mälardalen för örebro och västma": "SE2620000337",
@@ -993,6 +982,7 @@
     "haninge municipality": "SE2120000084",
     "haparanda kommun": "SE2120002775",
     "haparanda municipality": "SE2120002775",
+    "haparanda tingsrätt": "SE2021002742-HAPARANDA-TINGSRATT",
     "harpsund committee": "SE2021004250",
     "harpsundsnämnden": "SE2021004250",
     "hav": "SE2021006420",
@@ -1006,6 +996,7 @@
     "helsingborgs kommun": "SE2120001157",
     "helsingborgs stad": "SE2120001157",
     "helsingborgs stad, uttag genom helsingborgs stads statistikdatabas": "SE2120001157",
+    "helsingborgs tingsrätt": "SE2021002742-HELSINGBORGS-TINGSRATT",
     "herrljunga kommun": "SE2120001520",
     "herrljunga municipality": "SE2120001520",
     "hjo kommun": "SE2120001728",
@@ -1013,6 +1004,10 @@
     "hjo municipality": "SE2120001728",
     "hofors kommun": "SE2120002296",
     "hofors municipality": "SE2120002296",
+    "hovrätten för nedre norrland": "SE2021002742-HOVRATTEN-NEDRENORRLAND",
+    "hovrätten för västra sverige": "SE2021002742-HOVRATTEN-VASTRASVERIGE",
+    "hovrätten för övre norrland": "SE2021002742-HOVRATTEN-OVRENORRLAND",
+    "hovrätten över skåne och blekinge": "SE2021002742-HOVRATTEN-SKANEBLEKINGE",
     "hovstaterna": "SE2021003484",
     "huddinge kommun": "SE2120000068",
     "huddinge municipality": "SE2120000068",
@@ -1037,9 +1032,17 @@
     "hushållningssällskapet västra": "SE2620000162",
     "hylte kommun": "SE2120001207",
     "hylte municipality": "SE2120001207",
+    "hyres och arrendenämnden i göteborg": "SE2021002742-HYRESNAMNDENIGOTEBORG",
+    "hyres och arrendenämnden i jönköping": "SE2021002742-HYRESNAMNDENIJONKOPING",
+    "hyres och arrendenämnden i linköping": "SE2021002742-HYRESNAMNDENILINKOPING",
+    "hyres och arrendenämnden i stockholm": "SE2021002742-HYRESNAMNDENISTOCKHOLM",
+    "hyres och arrendenämnden i sundsvall": "SE2021002742-HYRESNAMNDENISUNDSVALL",
+    "hyres och arrendenämnden i umeå": "SE2021002742-HYRESNAMNDENIUMEA",
+    "hyres och arrendenämnden i västerås": "SE2021002742-HYRESNAMNDENIVASTERAS",
+    "hyres och arrendenämnen i malmö": "SE2021002742-HYRESNAMNDENIMALMO",
     "hällefors kommun": "SE2120001942",
     "hällefors municipality": "SE2120001942",
-    "hällsboskolan, sigtuna": "SE2022001495",
+    "hälsinglands tingsrätt": "SE2021002742-HALSINGLANDS-TINGSRATT",
     "hälsinglands utbildningsförbund": "SE2220003111",
     "hälso- & sjukvårdens ansvarsnämnd": "SE2021003765",
     "hälso- och sjukvårdbarometern, sveriges kommuner och regioner": "SE2220000315",
@@ -1054,6 +1057,7 @@
     "härryda municipality": "SE2120001264",
     "hässleholm municipality": "SE2120000985",
     "hässleholms kommun": "SE2120000985",
+    "hässleholms tingsrätt": "SE2021002742-HASSLEHOLMS-TINGSRATT",
     "håbo kommun": "SE2120000241",
     "håbo municipality": "SE2120000241",
     "höganäs kommun": "SE2120001165",
@@ -1064,17 +1068,19 @@
     "högsby kommun": "SE2120000688",
     "högsby municipality": "SE2120000688",
     "högskolan dalarna": "SE2021002908",
-    "högskolan gävle/sandviken": "SE2021002890",
     "högskolan i borås": "SE2021003138",
     "högskolan i gävle": "SE2021002890",
     "högskolan i halmstad": "SE2021003203",
-    "högskolan i karlskrona/ronneby": "SE2021004011",
+    "högskolan i kalmar": "SE2021003179",
     "högskolan i kristianstad": "SE2021003195",
     "högskolan i skövde": "SE2021003146",
-    "högskolan i trollhättan/uddevalla": "SE2021004052",
     "högskolan kristianstad": "SE2021003195",
+    "högskolan på gotland": "SE2021004987",
     "högskolan väst": "SE2021004052",
     "högskolans avskiljandenämnd": "SE2021006867",
+    "högskoleverket": "SE2021004797",
+    "högsta domstolen": "SE2021002742-HOGSTA-DOMSTOLEN",
+    "högsta förvaltningsdomstolen": "SE2021002742-HOGSTAFORVALTNINGSDOMSTOLEN",
     "hörby kommun": "SE2120001108",
     "hörby municipality": "SE2120001108",
     "höör municipality": "SE2120001116",
@@ -1101,6 +1107,7 @@
     "institutet för arbetsmarknadspolitisk utvärdering": "SE2021004946",
     "institutet för framtidsstudier": "SE8020133198",
     "institutet för mänskliga rättigheter": "SE2021007022",
+    "institutet för psykosocial medicin": "SE2021003641",
     "institutet för rymdfysik": "SE2021003567",
     "institutet för språk och folkminnen": "SE2021001082",
     "institutet för tillväxtpolitiska studier": "SE2021005190",
@@ -1109,6 +1116,7 @@
     "integrationsverket": "SE2021005018",
     "integritetsskyddsmyndigheten": "SE2021000050",
     "international monetary fund": "wikidata:Q7804",
+    "internationella programkontoret för utbildningsområdet": "SE2021004854",
     "internetstiftelsen": "SE8024050190",
     "interreg- projekt kusk, ssb, scb": "SE2021000837",
     "interreg-projekt kusk, ssb, scb": "SE2021000837",
@@ -1131,7 +1139,7 @@
     "justitiekanslern": "SE2021000035",
     "jämförelsetal - skolverket": "SE2021004185",
     "jämställdhetsmyndigheten": "SE2021006693",
-    "jämställdhetsombudsmannen": "SE2021003617",
+    "jämställdhetsombudsmannen": "SE2021006073",
     "jämtland county administrative board": "SE2021002452",
     "jämtlands gymnasieförbund": "SE2220001636",
     "jämtlands räddningstjänstförbund": "SE2220001560",
@@ -1142,14 +1150,20 @@
     "jönköping municipality": "SE2120000530",
     "jönköping university": "SE8260017333",
     "jönköpings kommun": "SE2120000530",
+    "jönköpings tingsrätt": "SE2021002742-JONKOPINGS-TINGSRATT",
     "kalix kommun": "SE2120002692",
     "kalix municipality": "SE2120002692",
     "kalmar county administrative board": "SE2021002304",
     "kalmar kommun": "SE2120000746",
     "kalmar municipality": "SE2120000746",
     "kalmar nation": "SE2620000931",
+    "kalmar tingsrätt": "SE2021002742-KALMAR-TINGSRATT",
     "kalmarsunds gymnasieförbund": "SE8324016453",
     "kammarkollegiet": "SE2021000829",
+    "kammarrätten i göteborg": "SE2021002742-KAMMARRATTEN-GOTEBORG",
+    "kammarrätten i jönköping": "SE2021002742-KAMMARRATTENIJONKOPING",
+    "kammarrätten i stockholm och migrationsöverdomst": "SE2021002742-KAMMARRATTENISTOCKHOLM",
+    "kammarrätten i sundsvall": "SE2021002742-KAMMARRATTENISUNDSVALL",
     "karlsborg municipality": "SE2120001629",
     "karlsborgs kommun": "SE2120001629",
     "karlsborgs kommuns öppna data": "SE2120001629",
@@ -1189,7 +1203,6 @@
     "kolbäcksådalens pensionsförbund": "SE2220000745",
     "kollektivavtalstiftelsen handelsrådet": "SE8024076468",
     "kommerskollegium": "SE2021002007",
-    "kommittén för avveckling av överstyrelsen för civil beredskap": "SE2021002080",
     "kommunalförb.räddningstjänsten östra kronoberg": "SE2220001479",
     "kommunalförbundet av media skåne": "SE2220000943",
     "kommunalförbundet avfall & återvinning skaraborg": "SE2220001206",
@@ -1214,6 +1227,7 @@
     "kommunalförbundet västmanlands teater": "SE2220001057",
     "kommunalförbundet västra sörmlands räddningstjän": "SE2220001131",
     "kommunsamverkan cura individutveckling": "SE2220000711",
+    "kompetensrådet för utveckling i staten": "SE2021006115",
     "konjunkturinstitutet": "SE2021000845",
     "konkurrensverket": "SE2021004342",
     "konstfack": "SE2021001199",
@@ -1228,12 +1242,11 @@
     "kretslopp sydost": "SE2220001883",
     "krigsförsäkringsnämnden": "SE2021005810",
     "kriminalvården": "SE2021000225",
-    "kriminalvårdsstyrelsen": "SE2021000225",
     "krisberedskapsmyndigheten": "SE2021005349",
     "kristianstad municipality": "SE2120000951",
     "kristianstad university": "SE2021003195",
     "kristianstads kommun": "SE2120000951",
-    "kristinaskolan, härnösand": "SE2022001446",
+    "kristianstads tingsrätt": "SE2021002742-KRISTIANSTADS-TINGSRATT",
     "kristinehamn municipality": "SE2120001868",
     "kristinehamns kommun": "SE2120001868",
     "krokom municipality": "SE2120002478",
@@ -1256,15 +1269,11 @@
     "kungl. konsthögskolan": "SE2021002957",
     "kungl. maj:ts staats contoir": "SE2021005026",
     "kungl. musikhögskolan i stockholm": "SE2021001215",
-    "kungl. slottsstaten": "SE2021003484",
     "kungl. tekniska högskolan": "SE2021003054",
     "kungl.ingenjörsvetenskapsakademien iva": "SE2620001160",
     "kungliga biblioteket": "SE2021001710",
-    "kungliga hov- och slottsstaten": "SE2021003484",
     "kungliga konsthögskolan": "SE2021002957",
     "kungliga musikhögskolan": "SE2021001215",
-    "kungliga musikhögskolan i stockholm": "SE2021001215",
-    "kungliga slottsstaten": "SE2021003484",
     "kungliga tekniska högskolan": "SE2021003054",
     "kungliga vetenskapsakademien": "SE2620001129",
     "kungsbacka kommun": "SE2120001256",
@@ -1285,6 +1294,9 @@
     "källa: scb uppdaterad och sammanställd av statistik & utredningar": "SE2021000837",
     "källa: scb, sammanställning statistik & utredningar": "SE2021000837",
     "källa: socialstyrelsens kommunenkät öj socialtjänst": "SE2021000555",
+    "källa: valmyndigheten, sammanställd av ao statistik & utredningar": "SE2021005281",
+    "källa: valmyndigheten, sammanställd av statistik & utredningar": "SE2021005281",
+    "källa: valmyndigheten; sammanställd av ao statistik & utredningar": "SE2021005281",
     "källa: östgötadatabasen (scb) sammanställning: statistikgruppen, linköpings kommun": "SE2120000449",
     "käppalaförbundet": "SE2220000117",
     "kärnavfallsfonden": "SE2021004904",
@@ -1294,7 +1306,6 @@
     "käöstgötadatabasen (scb). sammanställning: statistikgruppen, analys & utredning, linköpings kommun.": "SE2120000449",
     "köping municipality": "SE2120002114",
     "köpings kommun": "SE2120002114",
-    "labour court": "SE2021002122",
     "lagrådet": "SE2021005315",
     "laholm municipality": "SE2120001223",
     "laholms kommun": "SE2120001223",
@@ -1302,7 +1313,6 @@
     "landskrona municipality": "SE2120001140",
     "landskrona stad": "SE2120001140",
     "lantmäteriet": "SE2021004888",
-    "lantmäteriverket": "SE2021004888",
     "lapplands kommunalförbund": "SE2220000760",
     "law clerks board": "SE2021006032",
     "laxå kommun": "SE2120001918",
@@ -1332,12 +1342,12 @@
     "linköping university": "SE2021003096",
     "linköpings kommun": "SE2120000449",
     "linköpings kommuns öppna data": "SE2120000449",
+    "linköpings tingsrätt": "SE2021002742-LINKOPINGS-TINGSRATT",
     "linköpings universitet": "SE2021003096",
     "linnaeus university": "SE2021006271",
     "linnéuniversitetet": "SE2021006271",
     "livrustkammaren och skoklosters slott med stiftelsen hallwylska museet": "SE2021003732",
-    "livrustkammaren, skoklosters slott och hallwylska museet": "SE2021003732",
-    "livrustkammaren/skoklosters slott/ hallwylska museet": "SE2021003732",
+    "livsmedelsekonomiska institutet": "SE2021005117",
     "livsmedelsverket": "SE2021001850",
     "ljungby kommun": "SE2120000670",
     "ljungby municipality": "SE2120000670",
@@ -1357,20 +1367,22 @@
     "ludvika municipality": "SE2120002270",
     "luftfartsstyrelsen": "SE2021005547",
     "luftfartsverket": "SE2021000795",
-    "luftfartsverket, affärsverk": "SE2021000795",
     "luleå kommun": "SE2120002742",
     "luleå municipality": "SE2120002742",
     "luleå tekniska universitet": "SE2021002841",
+    "luleå tingsrätt": "SE2021002742-LULEA-TINGSRATT",
     "luleå university of technology": "SE2021002841",
     "lund municipality": "SE2120001132",
     "lund university": "SE2021003211",
     "lunds kommun": "SE2120001132",
     "lunds kommuns öppna data": "SE2120001132",
     "lunds samordningsförbund": "SE2220002766",
+    "lunds tingsrätt": "SE2021002742-LUNDS-TINGSRATT",
     "lunds universitet": "SE2021003211",
     "lv": "SE2021004078",
     "lycksele kommun": "SE2120002635",
     "lycksele municipality": "SE2120002635",
+    "lycksele tingsrätt": "SE2021002742-LYCKSELE-TINGSRATT",
     "lysekil municipality": "SE2120001389",
     "lysekils kommun": "SE2120001389",
     "lystkom": "SE2220003277",
@@ -1383,7 +1395,6 @@
     "läkemedelsregistret, socialstyrelsen": "SE2021000555",
     "läkemedelsverket": "SE2021004078",
     "länsstyrelsen i blekinge län": "SE2021002320",
-    "länsstyrelsen i dalarna": "SE2021002429",
     "länsstyrelsen i dalarnas län": "SE2021002429",
     "länsstyrelsen i gotlands län": "SE2021002312",
     "länsstyrelsen i gävleborgs län": "SE2021002437",
@@ -1399,31 +1410,30 @@
     "länsstyrelsen i uppsala län": "SE2021002254",
     "länsstyrelsen i värmlands län": "SE2021002395",
     "länsstyrelsen i västerbottens län": "SE2021002460",
-    "länsstyrelsen i västernorrland": "SE2021002445",
     "länsstyrelsen i västernorrlands län": "SE2021002445",
     "länsstyrelsen i västmanlands län": "SE2021002411",
     "länsstyrelsen i västra götalands län": "SE2021002361",
     "länsstyrelsen i örebro län": "SE2021002403",
     "länsstyrelsen i östergötland": "SE2021002270",
     "länsstyrelsen i östergötlands län": "SE2021002270",
-    "länsstyrelsen västra götalands län": "SE2021002361",
     "länsstyrelser": "SE2021002361-LST",
     "länsstyrelserna": "SE2021002361",
     "länsstyrelserna gemensamt": "SE2021002361-LST",
     "länsstyrelsernas datakatalog": "SE2021002361",
+    "lärarhögskolan i stockholm": "SE2021003005",
     "macrobond financial": "SE5567409817",
     "macrobond financial ab": "SE5567409817",
     "malmö högskola": "SE2021004920",
     "malmö kommun": "SE2120001124",
     "malmö municipality": "SE2120001124",
     "malmö stad": "SE2120001124",
+    "malmö tingsrätt": "SE2021002742-MALMO-TINGSRATT",
     "malmö universitet": "SE2021004920",
     "malmö university": "SE2021004920",
     "malung-sälen municipality": "SE2120002148",
     "malung-sälens kommun": "SE2120002148",
     "malå kommun": "SE2120002866",
     "malå municipality": "SE2120002866",
-    "manillaskolan, stockholm": "SE2022001511",
     "marie cederschiöld högskola": "SE5566885280",
     "marie cederschiöld högskola ab": "SE5566885280",
     "marie cederschiöld university": "SE5566885280",
@@ -1433,6 +1443,7 @@
     "mark municipality": "SE2120001504",
     "markaryd municipality": "SE2120000654",
     "markaryds kommun": "SE2120000654",
+    "marknadsdomstolen": "SE2021002015",
     "marks kommun": "SE2120001504",
     "mcf": "SE2021005984",
     "mcf (myndigheten för civil beredskap)": "SE2021005984",
@@ -1462,13 +1473,13 @@
     "miljöförbundet blekinge väst": "SE2220001644",
     "miljösamverkan östra skaraborg": "SE2220002865",
     "ministry of finance": "SE2021003831",
-    "mitthögskolan": "SE2021004524",
     "mittuniversitetet": "SE2021004524",
     "mjölby kommun": "SE2120000480",
     "mjölby municipality": "SE2120000480",
     "moderna museet": "SE2021005091",
     "mora kommun": "SE2120002213",
     "mora municipality": "SE2120002213",
+    "mora tingsrätt": "SE2021002742-MORA-TINGSRATT",
     "motala kommun": "SE2120002817",
     "motala municipality": "SE2120002817",
     "msb": "SE2021005984",
@@ -1481,14 +1492,13 @@
     "munkfors municipality": "SE2120001801",
     "musikverket": "SE2021003666",
     "myh": "SE2021006230",
+    "myndigheten för arbetsmiljökunskap": "SE2021006875",
     "myndigheten för civilt försvar": "SE2021005984",
     "myndigheten för delaktighet": "SE2021005588",
     "myndigheten för digital förvaltning": "SE2021006883",
     "myndigheten för familjerätt och föräldraskapsstöd": "SE2021004169",
     "myndigheten för handikappolitisk samordning": "SE2021005588",
-    "myndigheten för internationella adoptionsfrågor": "SE2021004169",
     "myndigheten för kulturanalys": "SE2021006404",
-    "myndigheten för kvalificerad yrkesutbildning": "SE2021005299",
     "myndigheten för nätverk och samarbete inom högre utbildning": "SE2021005323",
     "myndigheten för press, radio och tv": "SE2021006347",
     "myndigheten för psykologiskt försvar": "SE2021007014",
@@ -1496,7 +1506,7 @@
     "myndigheten för samhällsskydd och beredskap": "SE2021005984",
     "myndigheten för samhällsskydd och beredskap (msb)": "SE2021005984",
     "myndigheten för skolutveckling": "SE2021005406",
-    "myndigheten för sveriges nätuniversitet": "SE2021005323",
+    "myndigheten för stöd till trossamfund": "SE2021005141",
     "myndigheten för säkerhet och integritetsskydd": "SE2021005703",
     "myndigheten för tillgängliga medier": "SE2021003591",
     "myndigheten för tillväxtpolitiska utvärderingar och analyser": "SE2021006164",
@@ -1505,7 +1515,6 @@
     "myndigheten för ungdoms- och civilsamhällesfrågor (mucf)": "SE2021001173",
     "myndigheten för ungdoms-och civilsamhällesfrågor": "SE2021001173",
     "myndigheten för utländska investeringar i sverige": "SE2021004862",
-    "myndigheten för utländska investeringar i sverige (isa)": "SE2021004862",
     "myndigheten för vård- och omsorgsanalys": "SE2021006412",
     "myndigheten för vårdanalys": "SE2021006412",
     "myndigheten för yrkeshögskolan": "SE2021006230",
@@ -1522,25 +1531,22 @@
     "mörbylånga municipality": "SE2120000704",
     "nacka kommun": "SE2120000167",
     "nacka municipality": "SE2120000167",
+    "nacka tingsrätt": "SE2021002742-NACKA-TINGSRATT",
     "nasdaq, inc.": "wikidata:Q1472929",
     "nasdaq; sveriges riksbank": "SE2021002684",
     "national advisory board on patent rights and compensation settlements for inventions at work": "SE2021005778",
-    "national agency for special educational support": "SE2021004177",
+    "national agency for education": "SE2021004185",
     "national archives of sweden": "SE2021001074",
     "national bioinformatics infrastructure sweden (nbis)": "SE2021002932",
     "national board for youth affairs": "SE2021001173",
-    "national board of fisheries": "SE2021001843",
     "national board of forensic medicine": "SE2021004227",
     "national board of health and welfare": "SE2021000555",
     "national board of housing, building and planning": "SE2021003989",
     "national board of institutional care": "SE2021004508",
-    "national board of psychological defence": "SE2021000498",
     "national board of trade": "SE2021002007",
     "national bureau of statistics of china": "wikidata:Q1509446",
     "national claims adjustment board": "SE2021005828",
     "national collections of music, theatre and dance": "SE2021003666",
-    "national courts administration": "SE2021002742",
-    "national defence college": "SE2021004730",
     "national defence radio establishment": "SE2021000365",
     "national electrical safety board": "SE2021004466",
     "national food agency": "SE2021001850",
@@ -1548,18 +1554,17 @@
     "national government employee pensions board": "SE2021000928",
     "national government service centre": "SE2021006453",
     "national historical museums of sweden": "SE2021004953",
-    "national institute for working life": "SE2021003963",
     "national institute of economic research": "SE2021000845",
     "national legal aid authority": "SE2021006016",
     "national library of sweden": "SE2021001710",
     "national mediation office": "SE2021005174",
     "national museums of world culture": "SE2021005075",
     "national property board of sweden": "SE2021004474",
-    "national social insurance board": "SE2021000548",
+    "national public art council": "SE2021001033",
+    "national swedish museums of military history": "SE2021001132",
     "national veterinary institute": "SE2021001868",
     "nationalmuseum": "SE2021001108",
     "nationalmuseum med prins eugens waldemarsudde": "SE2021001108",
-    "nationel rural development agency": "SE2021004128",
     "nationell patientenkät, skr": "SE2220000315",
     "nationell patientenkät, skr\\n": "SE2220000315",
     "nationell patientenkät, sveriges kommuner och regioner": "SE2220000315",
@@ -1601,14 +1606,15 @@
     "norrbottens handelskammare": "SE2620001095",
     "norrköping municipality": "SE2120000456",
     "norrköpings kommun": "SE2120000456",
+    "norrköpings tingsrätt": "SE2021002742-NORRKOPINGS-TINGSRATT",
     "norrtälje kommun": "SE2120000217",
     "norrtälje municipality": "SE2120000217",
+    "norrtälje tingsrätt": "SE2021002742-NORRTALJE-TINGSRATT",
     "norsjö kommun": "SE2120002858",
     "norsjö municipality": "SE2120002858",
     "notarienämnden": "SE2021006032",
     "novf": "SE2220000182",
     "nuclear waste fund": "SE2021004904",
-    "nutek,swedish agency for economic and regional growth": "SE2021004219",
     "nvdb och scb": "SE2021000837",
     "nybro kommun": "SE2120000753",
     "nybro municipality": "SE2120000753",
@@ -1616,29 +1622,29 @@
     "nykvarns kommun": "SE2120002999",
     "nyköping municipality": "SE2120002940",
     "nyköpings kommun": "SE2120002940",
+    "nyköpings tingsrätt": "SE2021002742-NYKOPINGS-TINGSRATT",
     "nynäshamn municipality": "SE2120000233",
     "nynäshamns kommun": "SE2120000233",
     "nämnden f utg av förvalt.rättsliga publikationer": "SE2620001467",
     "nämnden för hemslöjdsfrågor": "SE2021004144",
+    "nämnden för offentlig upphandling": "SE2021004482",
     "nämnden för prövning av oredlighet i forskning": "SE2021006933",
+    "nämnden för statligt stöd till trossamfund": "SE2021005141",
     "nämnden för styrelserepresentationsfrågor": "SE2021005786",
     "nämnden mot diskriminering": "SE2021006206",
-    "närings- och teknikutvecklingsverket": "SE2021004219",
     "nässjö kommun": "SE2120000548",
     "nässjö municipality": "SE2120000548",
     "ockelbo kommun": "SE2120002288",
     "ockelbo municipality": "SE2120002288",
     "oecd": "wikidata:Q41550",
     "office of psychological defense": "SE2021007014",
-    "office of the equal opportunities ombudsman": "SE2021003617",
-    "office of the swedish disability ombudsman": "SE2021004672",
     "oljekrisnämnden": "SE2021006776",
     "olofström municipality": "SE2120000811",
     "olofströms kommun": "SE2120000811",
     "ombudsman for children in sweden": "SE2021003690",
     "ombudsmannen mot diskriminering på grund av sexuell läggning": "SE2021005083",
     "ombudsmannen mot etnisk diskriminering": "SE2021003948",
-    "ombudsmannen mot etnisk diskriminering och nämnden mot etnisk diskriminering": "SE2021003948",
+    "operahögskolan i stockholm": "SE2021002965",
     "orsa kommun": "SE2120002189",
     "orsa municipality": "SE2120002189",
     "orust kommun": "SE2120001314",
@@ -1657,6 +1663,7 @@
     "partille municipality": "SE2120001272",
     "patent attorneys board": "SE2021006370",
     "patent- och registreringsverket": "SE2021002072",
+    "patentbesvärsrätten": "SE2021003971",
     "patentombudsnämnden": "SE2021006370",
     "patientregistret (par) och dödsorsaksregistret, socialstyrelsen. befolkningsstatistik från statistiska centralbyrån (scb).": "SE2021000837",
     "patientregistret (par), socialstyrelsen. befolkningsstatistik från statistiska centralbyrån (scb).": "SE2021000837",
@@ -1678,16 +1685,15 @@
     "plikt- och prövningsverket": "SE2021004771",
     "polarforskningssekretariatet": "SE2021004060",
     "polismyndigheten": "SE2021000076",
-    "polisorganisationen": "SE2021000076",
-    "polisväsendet": "SE2021000076",
-    "post och telestyrelsen": "SE2021004359",
     "post- och telestyrelsen": "SE2021004359",
     "post- och telestyrelsen, pts bredbandskartläggning": "SE2021004359",
+    "presstödsnämnden": "SE2021003294",
     "projekt kusk, scb, ssb": "SE2021000837",
     "prv": "SE2021002072",
     "pts": "SE2021004359",
     "public health agency of sweden": "SE2021006545",
     "radio sweden": "SE5564193232",
+    "radio- och tv-verket": "SE2021004680",
     "ragunda kommun": "SE2120002452",
     "ragunda municipality": "SE2120002452",
     "refinitiv": "wikidata:Q60741469",
@@ -1732,24 +1738,18 @@
     "riksbanken": "SE2021002684",
     "riksdagen": "SE2021002627",
     "riksdagens arvodesnämnd": "SE2021006461",
-    "riksdagens förvaltningskontor": "SE2021002627",
     "riksdagens ombudsmän": "SE2021002650",
-    "riksdagens ombudsmän jo": "SE2021002650",
-    "riksdagens revisorer": "SE2021002668",
     "riksdagsförvaltningen": "SE2021002627",
-    "riksförsäkringsverket": "SE2021000548",
     "riksgälden": "SE2021002635",
     "riksgäldskontoret": "SE2021002635",
     "riksidrottsförbundet": "SE8020028166",
     "riksidrottsförbundet och scb": "SE2021000837",
-    "rikspolisstyrelsen": "SE2021000076",
-    "rikspolisväsendet": "SE2021000076",
     "riksrevisionen": "SE2021005422",
-    "riksrevisionsverket": "SE2021000878",
     "riksskogstaxeringen, sveriges lantbruksuniversitet.##framtaget för länsstyrelsernas delprogram miljötillståndet i skogslandskapet inom den regionala miljöövervakningen.": "SE2021002817",
     "riksteatern": "SE8020061365",
+    "rikstrafiken": "SE2021005059",
+    "riksutställningar": "SE2021004995",
     "riksvärderingsnämnden": "SE2021006784",
-    "riksåklagaren": "SE2021000084",
     "rise": "SE5564646874",
     "rise research institutes of sweden": "SE5564646874",
     "rise research institutes of sweden ab": "SE5564646874",
@@ -1774,7 +1774,6 @@
     "robertsfors municipality": "SE2120002551",
     "ronneby kommun": "SE2120000837",
     "ronneby municipality": "SE2120000837",
-    "royal armoury and skokloster castle with foundation of hallwyl mu": "SE2021003732",
     "royal college of music in stockholm": "SE2021001215",
     "royal institute of art": "SE2021002957",
     "royal institute of technology": "SE2021003054",
@@ -1799,9 +1798,6 @@
     "rättvik municipality": "SE2120002171",
     "rättviks kommun": "SE2120002171",
     "rådet för europeiska socialfonden i sverige": "SE2021005224",
-    "rådet för forsknings och utvecklingssamarbete inom eu": "SE2021004599",
-    "rådet för forsknings och utvecklingssamarbete mellan sverige och eu": "SE2021004599",
-    "rådet för forsknings- och utvecklingssamarbete inom eu": "SE2021004599",
     "sala kommun": "SE2120002098",
     "sala municipality": "SE2120002098",
     "salem municipality": "SE2120002874",
@@ -1948,6 +1944,7 @@
     "sis": "SE2021004508",
     "sites": "SE2021002817",
     "siun": "SE2021006214",
+    "sj ab": "SE5561961599",
     "sjuhärads kommunalförbund": "SE2220001008",
     "sjuhärads samordningsförbund": "SE2220002105",
     "sjunde ap-fonden": "SE8024062302",
@@ -1956,16 +1953,17 @@
     "sjöbo kommun": "SE2120001090",
     "sjöbo municipality": "SE2120001090",
     "sjöfartsverket": "SE2021000654",
-    "sjöfartsverket, affärsverk": "SE2021000654",
     "skara kommun": "SE2120001702",
     "skara kommuns öppna data": "SE2120001702",
     "skara municipality": "SE2120001702",
     "skaraborgs kommunalförbund": "SE2220002188",
+    "skaraborgs tingsrätt": "SE2021002742-SKARABORGS-TINGSRATT",
     "skatterättsnämnden": "SE2021005901",
     "skatteverket": "SE2021005448",
     "skatteverkets öppna data": "SE2021005448",
     "skellefteå kommun": "SE2120002643",
     "skellefteå municipality": "SE2120002643",
+    "skellefteå tingsrätt": "SE2021002742-SKELLEFTEA-TINGSRATT",
     "skiljenämnden i vissa trygghetsfrågor": "SE2021005869",
     "skinnskatteberg municipality": "SE2120002023",
     "skinnskattebergs kommun": "SE2120002023",
@@ -2040,6 +2038,7 @@
     "smedjebackens kommun": "SE2120002205",
     "smhi": "SE2021000696",
     "smhi, nationella emissionsdatabasen": "SE2021000696",
+    "smittskyddsinstitutet": "SE2021004532",
     "smmtf": "SE2021001132",
     "snd": "SE2021003153",
     "socialstyrelsen": "SE2021000555",
@@ -2079,6 +2078,7 @@
     "solna kommun": "SE2120000183",
     "solna municipality": "SE2120000183",
     "solna stad": "SE2120000183",
+    "solna tingsrätt": "SE2021002742-SOLNA-TINGSRATT",
     "sophiahemmet": "SE8020068741",
     "sophiahemmet högskola": "SE8020068741",
     "sophiahemmet ideell förening": "SE8020068741",
@@ -2089,9 +2089,10 @@
     "sos alarm sverige ab": "SE5561595819",
     "sotenäs kommun": "SE2120001322",
     "sotenäs municipality": "SE2120001322",
+    "specialpedagogiska institutet": "SE2021005265",
     "specialpedagogiska skolmyndigheten": "SE2021005745",
+    "specialskolemyndigheten": "SE2021005166",
     "spelinspektionen": "SE2021003310",
-    "språk- och folkminnesinstitutet": "SE2021001082",
     "spsm": "SE2021005745",
     "ssb & scb.": "SE2021000837",
     "ssb,scb": "SE2021000837",
@@ -2103,45 +2104,41 @@
     "statens ansvarsnämnd": "SE2021005836",
     "statens beredning för medicinsk och social utvärdering": "SE2021004417",
     "statens beredning för medicinsk utvärdering": "SE2021004417",
-    "statens beredning för utvärdering av medicinsk metodik": "SE2021004417",
+    "statens biografbyrå": "SE2021001041",
+    "statens bostadskreditnämnd": "SE2021004276",
+    "statens centrum för arkitektur och design": "SE2021003427",
     "statens energimyndighet": "SE2021005000",
     "statens fastighetsverk": "SE2021004474",
+    "statens folkhälsoinstitut": "SE2021004383",
+    "statens försvarshistoriska museer": "SE2021001132",
     "statens geotekniska institut": "SE2021000712",
     "statens haverikommission": "SE2021003260",
     "statens historiska museer": "SE2021004953",
     "statens inspektion för försvarsunderrättelseverksamheten": "SE2021006214",
     "statens inspektion för försvarsunderrättelseverksamheten (siun)": "SE2021006214",
-    "statens institut för ekologisk hållbarhet": "SE2021005067",
-    "statens institut för handikappfrågor i skolan": "SE2021004193",
-    "statens institut för särskilt utbildningsstöd": "SE2021004177",
+    "statens institut för kommunikationsanalys": "SE2021004847",
     "statens institutionsstyrelse": "SE2021004508",
-    "statens invandrarverk": "SE2021002163",
     "statens jordbruksverk": "SE2021004151",
-    "statens järnvägar": "SE2021000787",
-    "statens järnvägar, affärsverk": "SE2021000787",
+    "statens järnvägar": "SE5561961599",
+    "statens konstråd": "SE2021001033",
     "statens kulturråd": "SE2021001280",
-    "statens kvalitets- och kompetensråd": "SE2021005042",
-    "statens livsmedelsverk": "SE2021001850",
-    "statens ljud -och bildarkiv": "SE2021003492",
-    "statens ljud- och bildarkiv": "SE2021003492",
+    "statens kärnkraftinspektion": "SE2021002544",
     "statens maritima museer": "SE2021001132",
     "statens maritima och transporthistoriska museer": "SE2021001132",
+    "statens medieråd": "SE2021006396",
     "statens museer för maritim, transport- och försvarshistoria": "SE2021001132",
     "statens museer för maritim-, transport- och försvarshistoria": "SE2021001132",
     "statens museer för världskultur": "SE2021005075",
     "statens musiksamlingar": "SE2021003666",
     "statens musikverk": "SE2021003666",
     "statens nämnd för arbetstagares uppfinningar": "SE2021005778",
-    "statens nämnd för internationella adoptionsfrågor": "SE2021004169",
     "statens pensionsverk": "SE2021000928",
     "statens räddningsverk": "SE2021003914",
     "statens servicecenter": "SE2021006453",
-    "statens sjöhistoriska museer": "SE2021001132",
     "statens skaderegleringsnämnd": "SE2021005828",
-    "statens skola för vuxna i härnösand": "SE2021004649",
-    "statens skola för vuxna i norrköping": "SE2021004656",
     "statens skolinspektion": "SE2021006065",
     "statens skolverk": "SE2021004185",
+    "statens strålskyddsinstitut": "SE2021000571",
     "statens tjänstepensions- och grupplivnämnd": "SE2021005851",
     "statens tjänstepensionsverk": "SE2021000928",
     "statens va-nämnd": "SE2021004029",
@@ -2175,7 +2172,6 @@
     "stenungsund municipality": "SE2120001298",
     "stenungsunds kommun": "SE2120001298",
     "stenungsunds kommuns öppna data": "SE2120001298",
-    "steriliseringsersättningsnämnden": "SE2021005109",
     "stift skogsbrukets forskningsinstitut, skogforsk": "SE8176029786",
     "stiftelsen blekinge läns museum": "SE8350006113",
     "stiftelsen för internetinfrastruktur": "SE8024050190",
@@ -2192,11 +2188,13 @@
     "stockholm municipality": "SE2120000142",
     "stockholm university": "SE2021003062",
     "stockholm university of the arts": "SE2021006560",
+    "stockholms dramatiska högskola": "SE2021006388",
     "stockholms handelskammare": "SE2620000261",
     "stockholms internationella fredsforskningsinstitut": "SE8020062660",
     "stockholms kommun": "SE2120000142",
     "stockholms konstnärliga högskola": "SE2021006560",
     "stockholms stad": "SE2120000142",
+    "stockholms tingsrätt och patent och marknadsdom": "SE2021002742-STOCKHOLMS-TINGSRATT",
     "stockholms universitet": "SE2021003062",
     "storfors kommun": "SE2120001785",
     "storfors municipality": "SE2120001785",
@@ -2225,6 +2223,7 @@
     "sundbybergs stad": "SE2120000175",
     "sundsvall municipality": "SE2120002411",
     "sundsvalls kommun": "SE2120002411",
+    "sundsvalls tingsrätt": "SE2021002742-SUNDSVALLS-TINGSRATT",
     "sunne kommun": "SE2120001843",
     "sunne municipality": "SE2120001843",
     "sunnerbo samordningsförbund": "SE2220002147",
@@ -2233,6 +2232,7 @@
     "sva": "SE2021001868",
     "svalöv municipality": "SE2120000993",
     "svalövs kommun": "SE2120000993",
+    "svea hovrätt o mark o miljö och patent": "SE2021002742-SVEA-HOVRATT",
     "svedala kommun": "SE2120001074",
     "svedala municipality": "SE2120001074",
     "svenljunga kommun": "SE2120001512",
@@ -2247,7 +2247,6 @@
     "svenska institutet": "SE2021004961",
     "svenska institutet för europapolitiska studier": "SE2021005331",
     "svenska kraftnät": "SE2021004284",
-    "svenska kraftnät, affärsverk": "SE2021004284",
     "svenska kyrkan": "SE2520026135",
     "svenska kyrkan (church of sweden)": "SE2520026135",
     "svenska skeppshypotekskassan": "SE2620001046",
@@ -2279,18 +2278,14 @@
     "sweco sverige ab": "SE5567679849",
     "swedac": "SE2021003815",
     "sweden energy agency": "SE2021005000",
-    "swedisch rail agency": "SE2021005505",
     "swedish accident investigation authority": "SE2021003260",
     "swedish accounting standards board": "SE2021003278",
-    "swedish administrative development agency": "SE2021005596",
     "swedish agency for accessible media": "SE2021003591",
     "swedish agency for cultural policy analysis": "SE2021006404",
     "swedish agency for defence analysis": "SE2021007055",
-    "swedish agency for development evaluation": "SE2021005604",
     "swedish agency for economic and regional growth": "SE2021006149",
     "swedish agency for financial and public management": "SE2021005026",
     "swedish agency for financial and public management and national institute of economic research": "SE2021000845",
-    "swedish agency for flexible learning": "SE2021005307",
     "swedish agency for government employers": "SE2021003476",
     "swedish agency for growth policy analysis": "SE2021006164",
     "swedish agency for health and care services analysis": "SE2021006412",
@@ -2298,8 +2293,9 @@
     "swedish agency for marine and water management": "SE2021006420",
     "swedish agency for non-proliferation and export controls": "SE2021004912",
     "swedish agency for public management": "SE2021005026",
+    "swedish agency for support to faith communities": "SE2021005141",
     "swedish agency for the media": "SE2021006347",
-    "swedish airports and air navigation services": "SE2021000795",
+    "swedish agency for work environment expertise": "SE2021006875",
     "swedish alcohol retail monopoly": "SE5560599473",
     "swedish alcohol retail monopoly, the public health agency of sweden, statistics sweden (scb)": "SE2021000837",
     "swedish armed forces": "SE2021004615",
@@ -2312,8 +2308,8 @@
     "swedish board for accreditation and conformity assessment": "SE2021003815",
     "swedish board for study support": "SE2021001819",
     "swedish board of agriculture": "SE2021004151",
+    "swedish centre for architecture and design": "SE2021003427",
     "swedish chemicals agency": "SE2021003880",
-    "swedish civil aviation authority": "SE2021005547",
     "swedish civil defence and resilience agency": "SE2021005984",
     "swedish climate policy council": "SE2021006719",
     "swedish coast guard": "SE2021003997",
@@ -2323,13 +2319,12 @@
     "swedish consumer agency": "SE2021002064",
     "swedish council for higher education": "SE2021006487",
     "swedish customs": "SE2021000969",
-    "swedish defence and security export agency": "SE2021006339",
     "swedish defence recruitment agency": "SE2021004771",
     "swedish defence research agency": "SE2021005182",
     "swedish defence university": "SE2021004730",
     "swedish economic crime authority": "SE2021004979",
     "swedish ehealth agency": "SE2021006552",
-    "swedish emergency management agency": "SE2021005349",
+    "swedish election authority": "SE2021005281",
     "swedish energy administration": "SE2021005000",
     "swedish energy agency": "SE2021005000",
     "swedish energy markets inspectorate": "SE2021005695",
@@ -2353,14 +2348,12 @@
     "swedish gender equality agency": "SE2021006693",
     "swedish gene technology advisory board": "SE2021004813",
     "swedish geotechnical institute": "SE2021000712",
-    "swedish government seamen´s service": "SE2021000670",
     "swedish governmental agency for innovation systems": "SE2021005216",
     "swedish higher education authority": "SE2021006495",
     "swedish ilo committee": "SE2021005877",
     "swedish infrastructure for ecosystem science": "SE2021002817",
     "swedish inspectorate of auditors": "SE2021004805",
     "swedish institute": "SE2021004961",
-    "swedish institute for ecological sustainability": "SE2021005067",
     "swedish institute for educational research": "SE2021006602",
     "swedish institute for language and folklore": "SE2021001082",
     "swedish institute of space physics": "SE2021003567",
@@ -2368,7 +2361,7 @@
     "swedish international development cooperation agency": "SE2021004789",
     "swedish mapping, cadastral and land registration authority": "SE2021004888",
     "swedish mapping, cadastral and land registration authority (hosted in arctic sdi cloud environment by norwegian mapping authority)": "SE2021004888",
-    "swedish maritime administration": "SE2021000654",
+    "swedish media council": "SE2021006396",
     "swedish medical products agency": "SE2021004078",
     "swedish meteorological and hydrological institute": "SE2021000696",
     "swedish migration agency": "SE2021002163",
@@ -2380,14 +2373,12 @@
     "swedish national data service (snd)": "SE2021003153",
     "swedish national debt office": "SE2021002635",
     "swedish national forest inventory and the swedish environmental protection agency (protected areas)": "SE2021001975",
-    "swedish national grid": "SE2021004284",
     "swedish national heritage board": "SE2021001090",
     "swedish national maritime, transport and military museums": "SE2021001132",
     "swedish national mediation office": "SE2021005174",
     "swedish national road and transport research institute": "SE2021000704",
     "swedish national space agency": "SE2021002585",
     "swedish patent and registration office": "SE2021002072",
-    "swedish payments agency": "SE2021007071",
     "swedish pensions agency": "SE2021006255",
     "swedish pensions agency and national institute of economic research": "SE2021000845",
     "swedish polar research secretariat": "SE2021004060",
@@ -2397,7 +2388,6 @@
     "swedish prosecution authority": "SE2021000084",
     "swedish public employment service": "SE2021002114",
     "swedish radiation safety authority": "SE2021005737",
-    "swedish rescue services agency": "SE2021003914",
     "swedish research council for health working life and welfare": "SE2021005240",
     "swedish school inspectorate": "SE2021006065",
     "swedish school of sport and health sciences": "SE2021004334",
@@ -2405,9 +2395,7 @@
     "swedish social insurance agency": "SE2021005521",
     "swedish social insurance inspectorate": "SE2021006248",
     "swedish sports confederation": "SE8020028166",
-    "swedish state railways": "SE2021000787",
     "swedish tax agency": "SE2021005448",
-    "swedish tourist authority": "SE2021004425",
     "swedish transport administration": "SE2021006297",
     "swedish transport agency": "SE2021006099",
     "swedish university of agricultural sciences": "SE2021002817",
@@ -2436,10 +2424,12 @@
     "södertälje kommun": "SE2120000159",
     "södertälje kommuns öppna data": "SE2120000159",
     "södertälje municipality": "SE2120000159",
+    "södertälje tingsrätt": "SE2021002742-SODERTALJE-TINGSRATT",
     "södertörn university": "SE2021004896",
     "södertörns brandförsvarsförbund": "SE2220000737",
     "södertörns högskola": "SE2021004896",
     "södertörns miljö-och hälsoskyddsförbund": "SE2220002444",
+    "södertörns tingsrätt": "SE2021002742-SODERTORNS-TINGSRATT",
     "söderåsens miljöförbund": "SE2220002675",
     "söderåsens samordningsförbund": "SE2220002642",
     "södra dalarnas räddningstjänstförbund": "SE2220001065",
@@ -2454,6 +2444,7 @@
     "tandvårds-och läkemedelsförmånsverket, tlv": "SE2021005364",
     "tanum municipality": "SE2120001348",
     "tanums kommun": "SE2120001348",
+    "teaterhögskolan i stockholm": "SE2021001249",
     "telge nät": "SE5565581757",
     "telge nät ab": "SE5565581757",
     "the board of appeal for education": "SE2021005729",
@@ -2464,43 +2455,33 @@
     "the higher education expulsions board": "SE2021006867",
     "the national agency for public procurement": "SE2021006610",
     "the national agency for special needs education and schools": "SE2021005745",
-    "the national archive of recorded sound and moving images": "SE2021003492",
     "the national board for consumer disputes": "SE2021003625",
     "the national board of appeal for student aid": "SE2021005273",
+    "the national board of film classification": "SE2021001041",
     "the national board of health and welfare": "SE2021000555",
     "the national board of health and welfare, the national board of health and welfare": "SE2021000555",
-    "the national council for quality and development": "SE2021005042",
     "the national museums of world culture": "SE2021005075",
     "the national swedish handicraft council": "SE2021004144",
-    "the office of the ombudsman against discrimination because of sexual orientation": "SE2021005083",
-    "the ombudsman against ethnic discrimination": "SE2021003948",
-    "the parliamentary ombudsman": "SE2021002650",
     "the public health agency of sweden": "SE2021006545",
     "the riksbank": "SE2021002684",
     "the sami foundation board": "SE2021006800",
     "the swedish agency for participation": "SE2021005588",
     "the swedish council for information on alcohol and other drugs": "SE8020005461",
     "the swedish council for information on alcohol and other drugs (can)": "SE8020005461",
-    "the swedish eu-r&d council": "SE2021004599",
     "the swedish fao committee": "SE2021006818",
     "the swedish foreign intelligence inspectorate": "SE2021006214",
     "the swedish institute for european policy studies": "SE2021005331",
-    "the swedish institute for growth policy studies": "SE2021005190",
     "the swedish institute for human rights": "SE2021007022",
     "the swedish internet foundation": "SE8024050190",
-    "the swedish national audit office": "SE2021005422",
     "the swedish national board for assessment of research misconduct": "SE2021006933",
     "the swedish national council for crime prevention (brå)": "SE2021000068",
     "the swedish national court administration": "SE2021002742",
     "the swedish national courts administration": "SE2021002742",
     "the swedish research council": "SE2021005208",
-    "the swedish riksdag administration": "SE2021002627",
     "the swedish transport agency": "SE2021006099",
     "the swedish unemployment insurance inspectorate": "SE2021005414",
-    "the swedish water supply and sewage tribunal": "SE2021004029",
     "the swedish work environment authority": "SE2021002148",
     "the taxation of research workers board": "SE2021005893",
-    "the winding-up authority for the national institute for working l": "SE2021005661",
     "the world maritime university": "SE8460024832",
     "tibro kommun": "SE2120001660",
     "tibro kommuns öppna data": "SE2120001660",
@@ -2526,13 +2507,11 @@
     "tomelilla kommun": "SE2120000886",
     "tomelilla kommuns öppna data": "SE2120000886",
     "tomelilla municipality": "SE2120000886",
-    "tomtebodaskolans resurscenter": "SE2022001438",
     "tornedalsrådet": "SE2220000786",
     "torsby kommun": "SE2120001777",
     "torsby municipality": "SE2120001777",
     "torsås kommun": "SE2120000696",
     "torsås municipality": "SE2120000696",
-    "totalförsvarets chefsnämnd": "SE2021004722",
     "totalförsvarets forskningsinstitut": "SE2021005182",
     "totalförsvarets forskningsinstitut, foi": "SE2021005182",
     "totalförsvarets plikt- och prövningsverk": "SE2021004771",
@@ -2564,7 +2543,6 @@
     "trosa municipality": "SE2120002957",
     "trossamfundet svenska kyrkan": "SE2520026135",
     "tullverket": "SE2021000969",
-    "turistdelegationen": "SE2021004425",
     "tyresö kommun": "SE2120000092",
     "tyresö municipality": "SE2120000092",
     "täby kommun": "SE2120000118",
@@ -2574,18 +2552,19 @@
     "töreboda municipality": "SE2120001678",
     "uddevalla kommun": "SE2120001397",
     "uddevalla municipality": "SE2120001397",
+    "uddevalla tingsrätt": "SE2021002742-UDDEVALLA-TINGSRATT",
     "uhr": "SE2021006487",
     "ukä": "SE2021006495",
     "ulricehamn municipality": "SE2120001579",
     "ulricehamns kommun": "SE2120001579",
     "umeå kommun": "SE2120002627",
     "umeå municipality": "SE2120002627",
+    "umeå tingsrätt": "SE2021002742-UMEA-TINGSRATT",
     "umeå universitet": "SE2021002874",
     "umeå university": "SE2021002874",
     "undersökningen av äldres uppfattning om kvaliteten i hemtjänst och äldreboenden, socialstyrelsen": "SE2021000555",
     "ungdomsstyrelsen": "SE2021001173",
     "unikom": "SE5590672142",
-    "universitetet i karlstad": "SE2021003120",
     "universitets- och högskolerådet": "SE2021006487",
     "universitetskanslersämbetet": "SE2021006495",
     "university college stockholm": "SE5569478968",
@@ -2603,16 +2582,13 @@
     "uppsala county administrative board": "SE2021002254",
     "uppsala kommun": "SE2120003005",
     "uppsala municipality": "SE2120003005",
+    "uppsala tingsrätt": "SE2021002742-UPPSALA-TINGSRATT",
     "uppsala universitet": "SE2021002932",
     "uppsala university": "SE2021002932",
     "uppsala university library": "SE2021002932",
     "uppvidinge kommun": "SE2120000605",
     "uppvidinge municipality": "SE2120000605",
     "utbildningsförbundet solna/sundbyberg": "SE2220001024",
-    "utlänningsnämnden": "SE2021004292",
-    "utlänningsnämndens avvecklingsorganisation": "SE2021004292",
-    "utredningen för avveckling av itps, glesbygdsverket och nutek": "SE2021006222",
-    "utrikesdepartementet": "SE2021000233",
     "utrikesförvaltningens antagningsnämnd": "SE2021006826",
     "v.s. visitsweden ab": "SE5565007621",
     "va syd": "SE2220002378",
@@ -2624,8 +2600,10 @@
     "vaggeryds kommun": "SE2120000522",
     "valdemarsvik municipality": "SE2120000431",
     "valdemarsviks kommun": "SE2120000431",
+    "valideringsdelegationen": "SE2021005471",
     "vallentuna kommun": "SE2120000027",
     "vallentuna municipality": "SE2120000027",
+    "valmyndigheten": "SE2021005281",
     "vansbro kommun": "SE2120002130",
     "vansbro municipality": "SE2120002130",
     "vara kommun": "SE2120002924",
@@ -2635,6 +2613,7 @@
     "varberg energi ab": "SE5594650037",
     "varberg municipality": "SE2120001249",
     "varbergs kommun": "SE2120001249",
+    "varbergs tingsrätt": "SE2021002742-VARBERGS-TINGSRATT",
     "vaxholm municipality": "SE2120002908",
     "vaxholms kommun": "SE2120002908",
     "vaxholms stad": "SE2120002908",
@@ -2642,6 +2621,7 @@
     "vellinge kommun": "SE2120001033",
     "vellinge municipality": "SE2120001033",
     "verket för förvaltningsutveckling": "SE2021005596",
+    "verket för högskoleservice": "SE2021004367",
     "verket för innovationssystem": "SE2021005216",
     "verket för näringslivsutveckling": "SE2021004219",
     "vetenskapsrådet": "SE2021005208",
@@ -2660,9 +2640,10 @@
     "viss, länsstyrelserna": "SE2021002361",
     "vob kronoberg": "SE2220000687",
     "vti": "SE2021000704",
+    "vägverket": "SE2021000639",
     "vänersborg municipality": "SE2120001538",
     "vänersborgs kommun": "SE2120001538",
-    "vänerskolan, vänersborg": "SE2022001503",
+    "vänersborgs tingsrätt och mark och miljödomstol": "SE2021002742-VANERSBORGS-TINGSRATT",
     "vännäs kommun": "SE2120002841",
     "vännäs municipality": "SE2120002841",
     "väntetider i vården och scb": "SE2021000837",
@@ -2678,6 +2659,7 @@
     "värmlands läns kalkningsförbund": "SE2220001404",
     "värmlands läns vårdförbund": "SE2220000406",
     "värmlands nation": "SE2620000782",
+    "värmlands tingsrätt": "SE2021002742-VARMLANDS-TINGSRATT",
     "värnamo kommun": "SE2120000555",
     "värnamo municipality": "SE2120000555",
     "västerbergslagens elnät": "SE5565656864",
@@ -2697,6 +2679,7 @@
     "västerås stads öppna data": "SE2120002080",
     "västmanland county administrative board": "SE2021002411",
     "västmanlands läns hushållningssällskap": "SE2620000196",
+    "västmanlands tingsrätt": "SE2021002742-VASTMANLANDS-TINGSRATT",
     "västmanlandsmusiken": "SE2220001073",
     "västra götaland county administrative board": "SE2021002361",
     "västra götalandsregionen": "SE2321000131",
@@ -2708,6 +2691,8 @@
     "västtrafik ab": "SE5565585873",
     "växjö kommun": "SE2120000662",
     "växjö municipality": "SE2120000662",
+    "växjö tingsrätt och mark och miljödomstol": "SE2021002742-VAXJO-TINGSRATT",
+    "växjö universitet": "SE2021003187",
     "vårdanalys": "SE2021006412",
     "vårdförbundet sörmland": "SE2220000323",
     "vårdförloppsuppföljning vid cancer, skr via vården i siffror": "SE2220000315",
@@ -2721,6 +2706,7 @@
     "ystad municipality": "SE2120001181",
     "ystad-österlenregionens miljöförbund": "SE2220002626",
     "ystads kommun": "SE2120001181",
+    "ystads tingsrätt": "SE2021002742-YSTADS-TINGSRATT",
     "zornsamlingarna": "SE2620001582",
     "älmhult municipality": "SE2120000647",
     "älmhults kommun": "SE2120000647",
@@ -2737,11 +2723,11 @@
     "åmåls kommun": "SE2120001587",
     "ånge kommun": "SE2120002387",
     "ånge municipality": "SE2120002387",
+    "ångermanlands tingsrätt": "SE2021002742-ANGERMANLANDS-TINGSRATT",
     "åre kommun": "SE2120002494",
     "åre municipality": "SE2120002494",
     "årjäng municipality": "SE2120001835",
     "årjängs kommun": "SE2120001835",
-    "åsbackaskolan, gnesta": "SE2022001453",
     "åsele kommun": "SE2120002791",
     "åsele municipality": "SE2120002791",
     "åstorp municipality": "SE2120000936",
@@ -2757,6 +2743,7 @@
     "örebro kommun": "SE2120001967",
     "örebro läns hushållningssällskap": "SE2620000188",
     "örebro municipality": "SE2120001967",
+    "örebro tingsrätt": "SE2021002742-OREBRO-TINGSRATT",
     "örebro universitet": "SE2021002924",
     "örebro university": "SE2021002924",
     "örkelljunga kommun": "SE2120000878",
@@ -2766,8 +2753,7 @@
     "östergötland county administrative board": "SE2021002270",
     "östersund municipality": "SE2120002528",
     "östersunds kommun": "SE2120002528",
-    "östersunds tingsrätt och mark och miljödomstol": "SE2021002742",
-    "östervångsskolan, lund": "SE2022001461",
+    "östersunds tingsrätt och mark och miljödomstol": "SE2021002742-OSTERSUNDS-TINGSRATT",
     "österåker municipality": "SE2120002890",
     "österåkers kommun": "SE2120002890",
     "östgötadatabasen (scb) raks / bas. sammanställning: statistikgruppen, analys & utredning, linköpings kommun.": "SE2120000449",
@@ -2789,8 +2775,6 @@
     "överklagandenämnden för högskolan": "SE2021004375",
     "överklagandenämnden för nämndemannauppdrag": "SE2021006024",
     "överklagandenämnden för studiestöd": "SE2021005273",
-    "överklagandenämnden för totalförsvaret": "SE2021004623",
-    "överstyrelsen för civil beredskap": "SE2021002080",
     "övertorneå kommun": "SE2120002700",
     "övertorneå municipality": "SE2120002700"
   },
@@ -2835,20 +2819,10 @@
       "label": "Kriminalvården",
       "status": "active"
     },
-    "SE2021000233": {
-      "homepage": "",
-      "label": "Utrikesdepartementet",
-      "status": "unknown"
-    },
     "SE2021000340": {
       "homepage": "https://www.fmv.se",
       "label": "Försvarets materielverk",
       "status": "active"
-    },
-    "SE2021000357": {
-      "homepage": "",
-      "label": "Försvarets forskningsanstalt",
-      "status": "unknown"
     },
     "SE2021000365": {
       "homepage": "https://www.fra.se",
@@ -2863,16 +2837,6 @@
     "SE2021000498": {
       "homepage": "",
       "label": "Styrelsen för psykologiskt försvar",
-      "status": "unknown"
-    },
-    "SE2021000506": {
-      "homepage": "",
-      "label": "Flygtekniska försöksanstalten",
-      "status": "unknown"
-    },
-    "SE2021000548": {
-      "homepage": "",
-      "label": "Riksförsäkringsverket",
       "status": "unknown"
     },
     "SE2021000555": {
@@ -2895,11 +2859,6 @@
       "label": "Sjöfartsverket",
       "status": "active"
     },
-    "SE2021000670": {
-      "homepage": "",
-      "label": "Handelsflottans kultur- och fritidsråd",
-      "status": "unknown"
-    },
     "SE2021000696": {
       "homepage": "https://www.smhi.se",
       "label": "Sveriges meteorologiska och hydrologiska institut",
@@ -2914,11 +2873,6 @@
       "homepage": "https://www.swedgeo.se",
       "label": "Statens geotekniska institut",
       "status": "active"
-    },
-    "SE2021000787": {
-      "homepage": "",
-      "label": "Statens järnvägar",
-      "status": "unknown"
     },
     "SE2021000795": {
       "homepage": "https://www.lfv.se",
@@ -2945,11 +2899,6 @@
       "label": "Statskontoret",
       "status": "deregistered"
     },
-    "SE2021000878": {
-      "homepage": "",
-      "label": "Riksrevisionsverket",
-      "status": "unknown"
-    },
     "SE2021000928": {
       "homepage": "https://www.spv.se/privatperson/statlig-tjanstepension",
       "label": "Statens tjänstepensionsverk",
@@ -2959,11 +2908,6 @@
       "homepage": "https://www.tullverket.se",
       "label": "Tullverket",
       "status": "active"
-    },
-    "SE2021000985": {
-      "homepage": "",
-      "label": "Riksskatteverket",
-      "status": "unknown"
     },
     "SE2021001033": {
       "homepage": "https://www.statenskonstrad.se",
@@ -3045,30 +2989,15 @@
       "label": "Dramatiska institutet",
       "status": "unknown"
     },
-    "SE2021001454": {
-      "homepage": "",
-      "label": "Talboks- och punktskriftsbiblioteket",
-      "status": "unknown"
-    },
     "SE2021001710": {
       "homepage": "https://www.kb.se",
       "label": "Kungl. Biblioteket",
       "status": "active"
     },
-    "SE2021001736": {
-      "homepage": "",
-      "label": "Medicinska forskningsrådet",
-      "status": "unknown"
-    },
     "SE2021001819": {
       "homepage": "https://www.csn.se",
       "label": "Centrala studiestödsnämnden",
       "status": "active"
-    },
-    "SE2021001835": {
-      "homepage": "",
-      "label": "Skogsstyrelsen",
-      "status": "unknown"
     },
     "SE2021001843": {
       "homepage": "",
@@ -3084,21 +3013,6 @@
       "homepage": "https://www.sva.se",
       "label": "Statens veterinärmedicinska anstalt",
       "status": "active"
-    },
-    "SE2021001876": {
-      "homepage": "",
-      "label": "Statens utsädeskontroll",
-      "status": "unknown"
-    },
-    "SE2021001918": {
-      "homepage": "",
-      "label": "Statens växtsortnämnd",
-      "status": "unknown"
-    },
-    "SE2021001959": {
-      "homepage": "",
-      "label": "Skogs- och jordbrukets forskningsråd",
-      "status": "unknown"
     },
     "SE2021001975": {
       "homepage": "https://www.naturvardsverket.se",
@@ -3125,11 +3039,6 @@
       "label": "Patent- och registreringsverket",
       "status": "active"
     },
-    "SE2021002080": {
-      "homepage": "",
-      "label": "Kommittén för avveckling av Överstyrelsen för civil beredskap",
-      "status": "unknown"
-    },
     "SE2021002098": {
       "homepage": "https://www.ekn.se",
       "label": "Exportkreditnämnden",
@@ -3154,11 +3063,6 @@
       "homepage": "https://www.migrationsverket.se",
       "label": "Migrationsverket",
       "status": "active"
-    },
-    "SE2021002205": {
-      "homepage": "",
-      "label": "Byggforskningsrådet",
-      "status": "unknown"
     },
     "SE2021002247": {
       "homepage": "https://www.lansstyrelsen.se/stockholm",
@@ -3297,13 +3201,8 @@
     },
     "SE2021002650": {
       "homepage": "https://www.jo.se",
-      "label": "Riksdagens ombudsmän JO",
+      "label": "Riksdagens ombudsmän",
       "status": "active"
-    },
-    "SE2021002668": {
-      "homepage": "",
-      "label": "Riksdagens revisorer",
-      "status": "unknown"
     },
     "SE2021002684": {
       "homepage": "https://www.riksbank.se",
@@ -3312,7 +3211,7 @@
     },
     "SE2021002726": {
       "homepage": "https://www.nai.uu.se",
-      "label": "Nordiska Afrikainstitutet",
+      "label": "Nordiska afrikainstitutet",
       "status": "active"
     },
     "SE2021002742": {
@@ -3320,15 +3219,405 @@
       "label": "Domstolsverket",
       "status": "active"
     },
-    "SE2021002783": {
-      "homepage": "",
-      "label": "Rådet för arbetslivsforskning",
-      "status": "unknown"
+    "SE2021002742-ALINGSAS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Alingsås Tingsrätt",
+      "status": "active"
     },
-    "SE2021002791": {
-      "homepage": "",
-      "label": "Humanistisk-samhällsvetenskapliga forskningsrådet",
-      "status": "unknown"
+    "SE2021002742-ANGERMANLANDS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Ångermanlands Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-ATTUNDA-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Attunda Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-BLEKINGE-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Blekinge Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-BORAS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Borås Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-EKSJO-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Eksjö Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-ESKILSTUNA-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Eskilstuna Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-FALU-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Falu Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-FORVALTNINGSRATTENIFALUN": {
+      "homepage": "https://www.domstol.se",
+      "label": "Förvaltningsrätten i Falun",
+      "status": "active"
+    },
+    "SE2021002742-FORVALTNINGSRATTENIGOTEBORG": {
+      "homepage": "https://www.domstol.se",
+      "label": "Förvaltningsrätten i Göteborg och Migrationsdoms",
+      "status": "active"
+    },
+    "SE2021002742-FORVALTNINGSRATTENIHARNOSAND": {
+      "homepage": "https://www.domstol.se",
+      "label": "Förvaltningsrätten i Härnösand",
+      "status": "active"
+    },
+    "SE2021002742-FORVALTNINGSRATTENIJONKOPING": {
+      "homepage": "https://www.domstol.se",
+      "label": "Förvaltningsrätten i Jönköping",
+      "status": "active"
+    },
+    "SE2021002742-FORVALTNINGSRATTENIKARLSTAD": {
+      "homepage": "https://www.domstol.se",
+      "label": "Förvaltningsrätten i Karlstad",
+      "status": "active"
+    },
+    "SE2021002742-FORVALTNINGSRATTENILINKOPING": {
+      "homepage": "https://www.domstol.se",
+      "label": "Förvaltningsrätten i Linköping",
+      "status": "active"
+    },
+    "SE2021002742-FORVALTNINGSRATTENILULEA": {
+      "homepage": "https://www.domstol.se",
+      "label": "Förvaltningsrätten i Luleå och Migrationsdomstol",
+      "status": "active"
+    },
+    "SE2021002742-FORVALTNINGSRATTENIMALMO": {
+      "homepage": "https://www.domstol.se",
+      "label": "Förvaltningsrätten i Malmö",
+      "status": "active"
+    },
+    "SE2021002742-FORVALTNINGSRATTENISTOCKHOLM": {
+      "homepage": "https://www.domstol.se",
+      "label": "Förvaltningsrätten i Stockholm och Migrationsdom",
+      "status": "active"
+    },
+    "SE2021002742-FORVALTNINGSRATTENIUMEA": {
+      "homepage": "https://www.domstol.se",
+      "label": "Förvaltningsrätten i Umeå",
+      "status": "active"
+    },
+    "SE2021002742-FORVALTNINGSRATTENIUPPSALA": {
+      "homepage": "https://www.domstol.se",
+      "label": "Förvaltningsrätten i Uppsala",
+      "status": "active"
+    },
+    "SE2021002742-FORVALTNINGSRATTENIVAXJO": {
+      "homepage": "https://www.domstol.se",
+      "label": "Förvaltningsrätten i Växjö",
+      "status": "active"
+    },
+    "SE2021002742-GALLIVARE-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Gällivare Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-GAVLE-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Gävle Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-GBG-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Göteborgs Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-GOTA-HOVRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Göta Hovrätt",
+      "status": "active"
+    },
+    "SE2021002742-GOTLANDS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Gotlands Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-HALMSTADS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Halmstads Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-HALSINGLANDS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Hälsinglands Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-HAPARANDA-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Haparanda Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-HASSLEHOLMS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Hässleholms Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-HELSINGBORGS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Helsingborgs Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-HOGSTA-DOMSTOLEN": {
+      "homepage": "https://www.domstol.se",
+      "label": "Högsta domstolen",
+      "status": "active"
+    },
+    "SE2021002742-HOGSTAFORVALTNINGSDOMSTOLEN": {
+      "homepage": "https://www.domstol.se",
+      "label": "Högsta förvaltningsdomstolen",
+      "status": "active"
+    },
+    "SE2021002742-HOVRATTEN-NEDRENORRLAND": {
+      "homepage": "https://www.domstol.se",
+      "label": "Hovrätten för Nedre Norrland",
+      "status": "active"
+    },
+    "SE2021002742-HOVRATTEN-OVRENORRLAND": {
+      "homepage": "https://www.domstol.se",
+      "label": "Hovrätten för Övre Norrland",
+      "status": "active"
+    },
+    "SE2021002742-HOVRATTEN-SKANEBLEKINGE": {
+      "homepage": "https://www.domstol.se",
+      "label": "Hovrätten över Skåne och Blekinge",
+      "status": "active"
+    },
+    "SE2021002742-HOVRATTEN-VASTRASVERIGE": {
+      "homepage": "https://www.domstol.se",
+      "label": "Hovrätten för Västra Sverige",
+      "status": "active"
+    },
+    "SE2021002742-HYRESNAMNDENIGOTEBORG": {
+      "homepage": "https://www.domstol.se",
+      "label": "Hyres och Arrendenämnden i Göteborg",
+      "status": "active"
+    },
+    "SE2021002742-HYRESNAMNDENIJONKOPING": {
+      "homepage": "https://www.domstol.se",
+      "label": "Hyres och Arrendenämnden i Jönköping",
+      "status": "active"
+    },
+    "SE2021002742-HYRESNAMNDENILINKOPING": {
+      "homepage": "https://www.domstol.se",
+      "label": "Hyres och Arrendenämnden i Linköping",
+      "status": "active"
+    },
+    "SE2021002742-HYRESNAMNDENIMALMO": {
+      "homepage": "https://www.domstol.se",
+      "label": "Hyres och Arrendenämnen i Malmö",
+      "status": "active"
+    },
+    "SE2021002742-HYRESNAMNDENISTOCKHOLM": {
+      "homepage": "https://www.domstol.se",
+      "label": "Hyres och Arrendenämnden i Stockholm",
+      "status": "active"
+    },
+    "SE2021002742-HYRESNAMNDENISUNDSVALL": {
+      "homepage": "https://www.domstol.se",
+      "label": "Hyres och Arrendenämnden i Sundsvall",
+      "status": "active"
+    },
+    "SE2021002742-HYRESNAMNDENIUMEA": {
+      "homepage": "https://www.domstol.se",
+      "label": "Hyres och Arrendenämnden i Umeå",
+      "status": "active"
+    },
+    "SE2021002742-HYRESNAMNDENIVASTERAS": {
+      "homepage": "https://www.domstol.se",
+      "label": "Hyres och Arrendenämnden i Västerås",
+      "status": "active"
+    },
+    "SE2021002742-JONKOPINGS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Jönköpings Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-KALMAR-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Kalmar Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-KAMMARRATTEN-GOTEBORG": {
+      "homepage": "https://www.domstol.se",
+      "label": "Kammarrätten i Göteborg",
+      "status": "active"
+    },
+    "SE2021002742-KAMMARRATTENIJONKOPING": {
+      "homepage": "https://www.domstol.se",
+      "label": "Kammarrätten i Jönköping",
+      "status": "active"
+    },
+    "SE2021002742-KAMMARRATTENISTOCKHOLM": {
+      "homepage": "https://www.domstol.se",
+      "label": "Kammarrätten i Stockholm och Migrationsöverdomst",
+      "status": "active"
+    },
+    "SE2021002742-KAMMARRATTENISUNDSVALL": {
+      "homepage": "https://www.domstol.se",
+      "label": "Kammarrätten i Sundsvall",
+      "status": "active"
+    },
+    "SE2021002742-KRISTIANSTADS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Kristianstads Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-LINKOPINGS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Linköpings Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-LULEA-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Luleå Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-LUNDS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Lunds Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-LYCKSELE-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Lycksele Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-MALMO-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Malmö Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-MORA-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Mora Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-NACKA-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Nacka Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-NORRKOPINGS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Norrköpings Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-NORRTALJE-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Norrtälje Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-NYKOPINGS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Nyköpings Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-OREBRO-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Örebro Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-OSTERSUNDS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Östersunds Tingsrätt och Mark och Miljödomstol",
+      "status": "active"
+    },
+    "SE2021002742-SKARABORGS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Skaraborgs Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-SKELLEFTEA-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Skellefteå Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-SODERTALJE-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Södertälje Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-SODERTORNS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Södertörns Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-SOLNA-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Solna Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-STOCKHOLMS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Stockholms Tingsrätt och Patent och Marknadsdom",
+      "status": "active"
+    },
+    "SE2021002742-SUNDSVALLS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Sundsvalls Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-SVEA-HOVRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Svea Hovrätt o Mark o Miljö och Patent",
+      "status": "active"
+    },
+    "SE2021002742-UDDEVALLA-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Uddevalla Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-UMEA-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Umeå Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-UPPSALA-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Uppsala Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-VANERSBORGS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Vänersborgs Tingsrätt och Mark och Miljödomstol",
+      "status": "active"
+    },
+    "SE2021002742-VARBERGS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Varbergs Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-VARMLANDS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Värmlands Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-VASTMANLANDS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Västmanlands Tingsrätt",
+      "status": "active"
+    },
+    "SE2021002742-VAXJO-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Växjö Tingsrätt och Mark och Miljödomstol",
+      "status": "active"
+    },
+    "SE2021002742-YSTADS-TINGSRATT": {
+      "homepage": "https://www.domstol.se",
+      "label": "Ystads Tingsrätt",
+      "status": "active"
     },
     "SE2021002817": {
       "homepage": "https://www.slu.se",
@@ -3450,16 +3739,6 @@
       "label": "Lunds universitet",
       "status": "active"
     },
-    "SE2021003229": {
-      "homepage": "",
-      "label": "Forskningsrådsnämnden",
-      "status": "unknown"
-    },
-    "SE2021003237": {
-      "homepage": "",
-      "label": "Naturvetenskapliga forskningsrådet",
-      "status": "unknown"
-    },
     "SE2021003252": {
       "homepage": "https://www.konstnarsnamnden.se",
       "label": "Konstnärsnämnden",
@@ -3502,13 +3781,8 @@
     },
     "SE2021003484": {
       "homepage": "",
-      "label": "Kungliga hov- och slottsstaten",
+      "label": "Hovstaterna",
       "status": "active"
-    },
-    "SE2021003492": {
-      "homepage": "",
-      "label": "Statens ljud- och bildarkiv",
-      "status": "unknown"
     },
     "SE2021003567": {
       "homepage": "https://www.irf.se",
@@ -3525,11 +3799,6 @@
       "label": "Myndigheten för tillgängliga medier",
       "status": "active"
     },
-    "SE2021003617": {
-      "homepage": "",
-      "label": "Jämställdhetsombudsmannen",
-      "status": "unknown"
-    },
     "SE2021003625": {
       "homepage": "https://www.arn.se",
       "label": "Allmänna reklamationsnämnden",
@@ -3538,11 +3807,6 @@
     "SE2021003641": {
       "homepage": "",
       "label": "Institutet för psykosocial medicin",
-      "status": "unknown"
-    },
-    "SE2021003658": {
-      "homepage": "",
-      "label": "Sprängämnesinspektionen",
       "status": "unknown"
     },
     "SE2021003666": {
@@ -3574,11 +3838,6 @@
       "homepage": "https://www.regeringen.se",
       "label": "Regeringskansliet",
       "status": "active"
-    },
-    "SE2021003864": {
-      "homepage": "",
-      "label": "Kommunikationsforskningsberedningen",
-      "status": "unknown"
     },
     "SE2021003880": {
       "homepage": "https://www.kemi.se",
@@ -3645,16 +3904,6 @@
       "label": "Läkemedelsverket",
       "status": "active"
     },
-    "SE2021004086": {
-      "homepage": "",
-      "label": "Socialvetenskapliga forskningsrådet",
-      "status": "unknown"
-    },
-    "SE2021004094": {
-      "homepage": "",
-      "label": "Teknikvetenskapliga forskningsrådet",
-      "status": "unknown"
-    },
     "SE2021004128": {
       "homepage": "",
       "label": "Glesbygdsverket",
@@ -3675,20 +3924,10 @@
       "label": "Myndigheten för familjerätt och föräldraskapsstöd",
       "status": "active"
     },
-    "SE2021004177": {
-      "homepage": "",
-      "label": "Statens institut för särskilt utbildningsstöd",
-      "status": "unknown"
-    },
     "SE2021004185": {
       "homepage": "https://www.skolverket.se",
       "label": "Statens skolverk",
       "status": "active"
-    },
-    "SE2021004193": {
-      "homepage": "",
-      "label": "Statens institut för handikappfrågor i skolan",
-      "status": "unknown"
     },
     "SE2021004219": {
       "homepage": "",
@@ -3719,11 +3958,6 @@
       "homepage": "https://www.svk.se",
       "label": "Affärsverket svenska kraftnät",
       "status": "active"
-    },
-    "SE2021004292": {
-      "homepage": "",
-      "label": "Utlänningsnämndens avvecklingsorganisation",
-      "status": "unknown"
     },
     "SE2021004334": {
       "homepage": "https://www.gih.se",
@@ -3760,11 +3994,6 @@
       "label": "Statens beredning för medicinsk och social utvärdering",
       "status": "active"
     },
-    "SE2021004425": {
-      "homepage": "",
-      "label": "Turistdelegationen",
-      "status": "unknown"
-    },
     "SE2021004466": {
       "homepage": "https://www.elsakerhetsverket.se",
       "label": "Elsäkerhetsverket",
@@ -3800,25 +4029,10 @@
       "label": "Smittskyddsinstitutet",
       "status": "unknown"
     },
-    "SE2021004540": {
-      "homepage": "",
-      "label": "Statens institut för regional forskning",
-      "status": "unknown"
-    },
-    "SE2021004557": {
-      "homepage": "",
-      "label": "Avvecklingsmyndigheten för Centrala försöksdjursnämnden",
-      "status": "unknown"
-    },
     "SE2021004573": {
       "homepage": "https://www.sametinget.se",
       "label": "Sametinget",
       "status": "active"
-    },
-    "SE2021004599": {
-      "homepage": "",
-      "label": "Rådet för forsknings- och utvecklingssamarbete inom EU",
-      "status": "unknown"
     },
     "SE2021004607": {
       "homepage": "https://www.fortifikationsverket.se",
@@ -3830,25 +4044,10 @@
       "label": "Försvarsmakten",
       "status": "active"
     },
-    "SE2021004623": {
-      "homepage": "",
-      "label": "Överklagandenämnden för totalförsvaret",
-      "status": "unknown"
-    },
     "SE2021004631": {
       "homepage": "https://www.sameskolstyrelsen.se",
       "label": "Sameskolstyrelsen",
       "status": "active"
-    },
-    "SE2021004649": {
-      "homepage": "",
-      "label": "Statens skola för vuxna i Härnösand",
-      "status": "unknown"
-    },
-    "SE2021004656": {
-      "homepage": "",
-      "label": "Statens skola för vuxna i Norrköping",
-      "status": "unknown"
     },
     "SE2021004672": {
       "homepage": "",
@@ -3862,23 +4061,13 @@
     },
     "SE2021004714": {
       "homepage": "",
-      "label": "Granskningsnämnden för radio och TV",
-      "status": "unknown"
-    },
-    "SE2021004722": {
-      "homepage": "",
-      "label": "Totalförsvarets chefsnämnd",
+      "label": "Granskningsnämnden för radio och tv",
       "status": "unknown"
     },
     "SE2021004730": {
       "homepage": "https://www.fra.se",
       "label": "Försvarshögskolan",
       "status": "active"
-    },
-    "SE2021004748": {
-      "homepage": "",
-      "label": "Alkoholinspektionen",
-      "status": "unknown"
     },
     "SE2021004763": {
       "homepage": "",
@@ -3942,7 +4131,7 @@
     },
     "SE2021004904": {
       "homepage": "https://www.karnavfallsfonden.se",
-      "label": "Kärnavfallsfonden",
+      "label": "Kärnavfallsfondens styrelse",
       "status": "active"
     },
     "SE2021004912": {
@@ -4000,24 +4189,9 @@
       "label": "Statskontoret",
       "status": "active"
     },
-    "SE2021005034": {
-      "homepage": "",
-      "label": "Premiepensionsmyndigheten",
-      "status": "unknown"
-    },
-    "SE2021005042": {
-      "homepage": "",
-      "label": "Avvecklingsmyndigheten för Statens kvalitets- och kompetensråd",
-      "status": "unknown"
-    },
     "SE2021005059": {
       "homepage": "",
       "label": "Rikstrafiken",
-      "status": "unknown"
-    },
-    "SE2021005067": {
-      "homepage": "",
-      "label": "Statens institut för ekologisk hållbarhet",
       "status": "unknown"
     },
     "SE2021005075": {
@@ -4035,24 +4209,9 @@
       "label": "Moderna museet",
       "status": "active"
     },
-    "SE2021005109": {
-      "homepage": "",
-      "label": "Steriliseringsersättningsnämnden",
-      "status": "unknown"
-    },
     "SE2021005117": {
       "homepage": "",
       "label": "Livsmedelsekonomiska institutet",
-      "status": "unknown"
-    },
-    "SE2021005125": {
-      "homepage": "",
-      "label": "Distum avvecklingsmyndighet",
-      "status": "unknown"
-    },
-    "SE2021005133": {
-      "homepage": "",
-      "label": "Delegationen för IT i skolan",
       "status": "unknown"
     },
     "SE2021005141": {
@@ -4092,7 +4251,7 @@
     },
     "SE2021005224": {
       "homepage": "https://www.esf.se",
-      "label": "Rådet för Europeiska socialfonden i Sverige",
+      "label": "Rådet för europeiska socialfonden i Sverige",
       "status": "active"
     },
     "SE2021005232": {
@@ -4120,11 +4279,6 @@
       "label": "Valmyndigheten",
       "status": "deregistered"
     },
-    "SE2021005299": {
-      "homepage": "",
-      "label": "Myndigheten för kvalificerad yrkesutbildning",
-      "status": "unknown"
-    },
     "SE2021005307": {
       "homepage": "",
       "label": "Nationellt centrum för flexibelt lärande",
@@ -4137,7 +4291,7 @@
     },
     "SE2021005323": {
       "homepage": "",
-      "label": "Avvecklingsmyndigheten för nätverk och samarbete inom högre utbildning",
+      "label": "Myndigheten för nätverk och samarbete inom högre utbildning",
       "status": "unknown"
     },
     "SE2021005331": {
@@ -4160,11 +4314,6 @@
       "label": "Tandvårds- och Läkemedelsförmånsverket",
       "status": "active"
     },
-    "SE2021005372": {
-      "homepage": "",
-      "label": "Statens bostadsnämnd",
-      "status": "unknown"
-    },
     "SE2021005380": {
       "homepage": "https://www.fba.se",
       "label": "Folke Bernadotteakademin",
@@ -4185,11 +4334,6 @@
       "label": "Riksrevisionen",
       "status": "active"
     },
-    "SE2021005430": {
-      "homepage": "",
-      "label": "Avvecklingsmyndigheten för RRV",
-      "status": "unknown"
-    },
     "SE2021005448": {
       "homepage": "https://www.skatteverket.se",
       "label": "Skatteverket",
@@ -4202,7 +4346,7 @@
     },
     "SE2021005463": {
       "homepage": "https://www.onep.se",
-      "label": "Överklagandenämnden för etikprövning",
+      "label": "Centrala etikprövningsnämnden",
       "status": "deregistered"
     },
     "SE2021005471": {
@@ -4255,16 +4399,6 @@
       "label": "Kronofogdemyndigheten",
       "status": "active"
     },
-    "SE2021005661": {
-      "homepage": "",
-      "label": "Avvecklingsmyndigheten för Arbetslivsinstitutet",
-      "status": "unknown"
-    },
-    "SE2021005679": {
-      "homepage": "",
-      "label": "Avvecklingsmyndigheten för Integrationsverket",
-      "status": "unknown"
-    },
     "SE2021005687": {
       "homepage": "https://www.fpr.se",
       "label": "Finanspolitiska rådet",
@@ -4295,25 +4429,15 @@
       "label": "Specialpedagogiska skolmyndigheten",
       "status": "active"
     },
-    "SE2021005760": {
-      "homepage": "",
-      "label": "Avvecklingsmyndigheten för Statens strålskyddsinstitut och kärnkraftsinspektion",
-      "status": "unknown"
-    },
     "SE2021005778": {
       "homepage": "",
-      "label": "Statens Nämnd För Arbetstagares Uppfinningar",
+      "label": "Statens Nämnd för Arbetstagares Uppfinningar",
       "status": "active"
     },
     "SE2021005786": {
       "homepage": "",
-      "label": "Nämnden För Styrelserepresentationsfrågor",
+      "label": "Nämnden för Styrelserepresentationsfrågor",
       "status": "active"
-    },
-    "SE2021005794": {
-      "homepage": "",
-      "label": "Avvecklingsmyndigheten för skolmyndigheter m.m.",
-      "status": "unknown"
     },
     "SE2021005810": {
       "homepage": "https://www.regeringen.se/myndigheter-med-flera/krigsforsakringsnamnden/",
@@ -4365,11 +4489,6 @@
       "label": "Arvfondsdelegationen",
       "status": "active"
     },
-    "SE2021005968": {
-      "homepage": "",
-      "label": "Avvecklingsmyndigheten för SRV, KBM och SPF",
-      "status": "unknown"
-    },
     "SE2021005984": {
       "homepage": "https://www.mcf.se",
       "label": "Myndigheten för civilt försvar",
@@ -4415,19 +4534,9 @@
       "label": "Transportstyrelsen",
       "status": "active"
     },
-    "SE2021006107": {
-      "homepage": "",
-      "label": "Avvecklingsmyndigheten för ombudsmännen mot diskriminering",
-      "status": "unknown"
-    },
     "SE2021006115": {
       "homepage": "",
       "label": "Kompetensrådet för utveckling i staten",
-      "status": "unknown"
-    },
-    "SE2021006123": {
-      "homepage": "",
-      "label": "Avvecklingsmyndigheten för Verket för förvaltningsutveckling",
       "status": "unknown"
     },
     "SE2021006131": {
@@ -4455,11 +4564,6 @@
       "label": "Statens inspektion för försvarsunderrättelseverksamheten",
       "status": "active"
     },
-    "SE2021006222": {
-      "homepage": "",
-      "label": "Utredningen för avveckling av ITPS, Glesbygdsverket och Nutek",
-      "status": "unknown"
-    },
     "SE2021006230": {
       "homepage": "https://www.myh.se",
       "label": "Myndigheten för yrkeshögskolan",
@@ -4479,11 +4583,6 @@
       "homepage": "https://www.lnu.se",
       "label": "Linnéuniversitetet",
       "status": "active"
-    },
-    "SE2021006289": {
-      "homepage": "",
-      "label": "Avvecklingsmyndigheten för PPM och delar av FK",
-      "status": "unknown"
     },
     "SE2021006297": {
       "homepage": "https://www.trafikverket.se",
@@ -4545,11 +4644,6 @@
       "label": "E-Legitimationsnämnden",
       "status": "unknown"
     },
-    "SE2021006446": {
-      "homepage": "",
-      "label": "Avvecklingsmyndigheten för Fiskeriverket",
-      "status": "unknown"
-    },
     "SE2021006453": {
       "homepage": "https://www.statenssc.se",
       "label": "Statens servicecenter",
@@ -4575,16 +4669,6 @@
       "label": "Ersättningsnämnden",
       "status": "unknown"
     },
-    "SE2021006511": {
-      "homepage": "",
-      "label": "Avvecklingsmyndigheten för utbildningsmyndigheter",
-      "status": "unknown"
-    },
-    "SE2021006529": {
-      "homepage": "",
-      "label": "Avvecklingsmyndigheten för Myndigheten för utländska investeringar i Sverige m.m",
-      "status": "unknown"
-    },
     "SE2021006537": {
       "homepage": "https://www.ivo.se",
       "label": "Inspektionen för vård och omsorg",
@@ -4604,11 +4688,6 @@
       "homepage": "https://www.uniarts.se",
       "label": "Stockholms konstnärliga högskola",
       "status": "active"
-    },
-    "SE2021006578": {
-      "homepage": "",
-      "label": "Avvecklingsmyndigheten för vissa myndigheter inom vård- och omsorgsområdet",
-      "status": "unknown"
     },
     "SE2021006594": {
       "homepage": "https://www.sakerhetspolisen.se",
@@ -4759,71 +4838,6 @@
       "homepage": "https://www.ubm.se",
       "label": "Utbetalningsmyndigheten",
       "status": "active"
-    },
-    "SE2022001107": {
-      "homepage": "",
-      "label": "Civilbefälhavaren i Södra civilområdet",
-      "status": "unknown"
-    },
-    "SE2022001404": {
-      "homepage": "",
-      "label": "Civilbefälhavaren i Mellersta civilområdet",
-      "status": "unknown"
-    },
-    "SE2022001420": {
-      "homepage": "",
-      "label": "Civilbefälhavaren i Norra Civilområdet",
-      "status": "unknown"
-    },
-    "SE2022001438": {
-      "homepage": "",
-      "label": "Tomtebodaskolans resurscenter",
-      "status": "unknown"
-    },
-    "SE2022001446": {
-      "homepage": "",
-      "label": "Kristinaskolan, Härnösand",
-      "status": "unknown"
-    },
-    "SE2022001453": {
-      "homepage": "",
-      "label": "Åsbackaskolan, Gnesta",
-      "status": "unknown"
-    },
-    "SE2022001461": {
-      "homepage": "",
-      "label": "Östervångsskolan, Lund",
-      "status": "unknown"
-    },
-    "SE2022001479": {
-      "homepage": "",
-      "label": "Ekeskolan, Örebro",
-      "status": "unknown"
-    },
-    "SE2022001487": {
-      "homepage": "",
-      "label": "Birgittaskolan, Örebro",
-      "status": "unknown"
-    },
-    "SE2022001495": {
-      "homepage": "",
-      "label": "Hällsboskolan, Sigtuna",
-      "status": "unknown"
-    },
-    "SE2022001503": {
-      "homepage": "",
-      "label": "Vänerskolan, Vänersborg",
-      "status": "unknown"
-    },
-    "SE2022001511": {
-      "homepage": "",
-      "label": "Manillaskolan, Stockholm",
-      "status": "unknown"
-    },
-    "SE2022001537": {
-      "homepage": "",
-      "label": "Delegationen för stöd till vissa kommuner med bostadsåtaganden",
-      "status": "unknown"
     },
     "SE2022001545": {
       "homepage": "https://www.epn.se/goeteborg/om-naemnden/",
@@ -6442,7 +6456,7 @@
     },
     "SE2220000943": {
       "homepage": "",
-      "label": "Kommunalförbundet Av Media Skåne",
+      "label": "Kommunalförbundet av Media Skåne",
       "status": "active"
     },
     "SE2220000950": {
@@ -6507,7 +6521,7 @@
     },
     "SE2220001172": {
       "homepage": "",
-      "label": "Arkivnämnden F V Götalandsregionen Och Göteborg",
+      "label": "Arkivnämnden F V Götalandsregionen och Göteborg",
       "status": "active"
     },
     "SE2220001180": {
@@ -6542,7 +6556,7 @@
     },
     "SE2220001313": {
       "homepage": "",
-      "label": "Kommunalförbundet Norrlands Nätverk För Musikteater Och Dans (Nmd)",
+      "label": "Kommunalförbundet Norrlands Nätverk för Musikteater och Dans (Nmd)",
       "status": "active"
     },
     "SE2220001339": {
@@ -6657,7 +6671,7 @@
     },
     "SE2220001743": {
       "homepage": "",
-      "label": "Samordningsförbundet I Kramfors",
+      "label": "Samordningsförbundet i Kramfors",
       "status": "active"
     },
     "SE2220001750": {
@@ -6667,7 +6681,7 @@
     },
     "SE2220001768": {
       "homepage": "",
-      "label": "Samordningsförbundet I Sundsvall",
+      "label": "Samordningsförbundet i Sundsvall",
       "status": "active"
     },
     "SE2220001776": {
@@ -6687,12 +6701,12 @@
     },
     "SE2220001800": {
       "homepage": "",
-      "label": "Västra Värmlands Och Norra Dalslands Samordningsförbund",
+      "label": "Västra Värmlands och Norra Dalslands Samordningsförbund",
       "status": "deregistered"
     },
     "SE2220001818": {
       "homepage": "",
-      "label": "Samordningsförbundet I Norra Örebro Län, Sofint",
+      "label": "Samordningsförbundet i Norra Örebro Län, Sofint",
       "status": "active"
     },
     "SE2220001826": {
@@ -6707,7 +6721,7 @@
     },
     "SE2220001859": {
       "homepage": "",
-      "label": "Samordningsförbundet I Kalmar Län",
+      "label": "Samordningsförbundet i Kalmar Län",
       "status": "active"
     },
     "SE2220001883": {
@@ -6727,7 +6741,7 @@
     },
     "SE2220001925": {
       "homepage": "",
-      "label": "Samordningsförbund För Rehabilitering I Södertälje",
+      "label": "Samordningsförbund för Rehabilitering i Södertälje",
       "status": "active"
     },
     "SE2220001933": {
@@ -6752,12 +6766,12 @@
     },
     "SE2220001982": {
       "homepage": "",
-      "label": "Samordningsförbundet I Sollefteå",
+      "label": "Samordningsförbundet i Sollefteå",
       "status": "active"
     },
     "SE2220001990": {
       "homepage": "",
-      "label": "Samordningsförbundet I Jämtlands Län",
+      "label": "Samordningsförbundet i Jämtlands Län",
       "status": "active"
     },
     "SE2220002030": {
@@ -6772,7 +6786,7 @@
     },
     "SE2220002063": {
       "homepage": "",
-      "label": "Samordningsförbundet I Örnsköldsvik",
+      "label": "Samordningsförbundet i Örnsköldsvik",
       "status": "active"
     },
     "SE2220002071": {
@@ -6892,7 +6906,7 @@
     },
     "SE2220002493": {
       "homepage": "",
-      "label": "Finsam Lekeberg Och Örebro",
+      "label": "Finsam Lekeberg och Örebro",
       "status": "active"
     },
     "SE2220002535": {
@@ -6952,7 +6966,7 @@
     },
     "SE2220002667": {
       "homepage": "",
-      "label": "Samordningsförbundet I Svedala",
+      "label": "Samordningsförbundet i Svedala",
       "status": "active"
     },
     "SE2220002675": {
@@ -6967,7 +6981,7 @@
     },
     "SE2220002709": {
       "homepage": "",
-      "label": "Kommunalförbundet För Fastigheten St Retered",
+      "label": "Kommunalförbundet för Fastigheten St Retered",
       "status": "deregistered"
     },
     "SE2220002717": {
@@ -7307,17 +7321,17 @@
     },
     "SE2620000022": {
       "homepage": "",
-      "label": "Hushållningssällskapet I Sth:S O Uppsala Län",
+      "label": "Hushållningssällskapet i Sth:S o Uppsala Län",
       "status": "active"
     },
     "SE2620000048": {
       "homepage": "",
-      "label": "Hushållningssällskapet I Östergötlands Län",
+      "label": "Hushållningssällskapet i Östergötlands Län",
       "status": "active"
     },
     "SE2620000055": {
       "homepage": "",
-      "label": "Hushållningssällskapet I Jkpgs Län",
+      "label": "Hushållningssällskapet i Jkpgs Län",
       "status": "active"
     },
     "SE2620000071": {
@@ -7342,7 +7356,7 @@
     },
     "SE2620000121": {
       "homepage": "",
-      "label": "Hushållningssällskapet I Hallands Län",
+      "label": "Hushållningssällskapet i Hallands Län",
       "status": "active"
     },
     "SE2620000147": {
@@ -7382,17 +7396,17 @@
     },
     "SE2620000220": {
       "homepage": "",
-      "label": "Hushållningssällskapet I Västernorrlands Län",
+      "label": "Hushållningssällskapet i Västernorrlands Län",
       "status": "active"
     },
     "SE2620000238": {
       "homepage": "",
-      "label": "Hushållningssällskapet I Jämtlands Län",
+      "label": "Hushållningssällskapet i Jämtlands Län",
       "status": "active"
     },
     "SE2620000253": {
       "homepage": "",
-      "label": "Hushållningssällskapet I Norrbotten-Västerbotten",
+      "label": "Hushållningssällskapet i Norrbotten-Västerbotten",
       "status": "active"
     },
     "SE2620000261": {
@@ -7412,7 +7426,7 @@
     },
     "SE2620000303": {
       "homepage": "",
-      "label": "Sydsvenska Industri- Och Handelskammaren",
+      "label": "Sydsvenska Industri- och Handelskammaren",
       "status": "active"
     },
     "SE2620000311": {
@@ -7422,7 +7436,7 @@
     },
     "SE2620000337": {
       "homepage": "",
-      "label": "Handelskammaren Mälardalen För Örebro Och Västma",
+      "label": "Handelskammaren Mälardalen för Örebro och Västma",
       "status": "active"
     },
     "SE2620000345": {
@@ -7432,7 +7446,7 @@
     },
     "SE2620000352": {
       "homepage": "",
-      "label": "Fören. Av Mittsv:S Industri- O Handelskammare",
+      "label": "Fören. av Mittsv:S Industri- o Handelskammare",
       "status": "active"
     },
     "SE2620000675": {
@@ -7467,7 +7481,7 @@
     },
     "SE2620001103": {
       "homepage": "",
-      "label": "Handelskammareföreningen I Västerbotten",
+      "label": "Handelskammareföreningen i Västerbotten",
       "status": "deregistered"
     },
     "SE2620001111": {
@@ -7482,7 +7496,7 @@
     },
     "SE2620001145": {
       "homepage": "",
-      "label": "Kungl Skogs- Och Lantbruksakademien",
+      "label": "Kungl Skogs- och Lantbruksakademien",
       "status": "active"
     },
     "SE2620001152": {
@@ -7507,12 +7521,12 @@
     },
     "SE2620001194": {
       "homepage": "",
-      "label": "Sveriges Export- Och Investeringsråd",
+      "label": "Sveriges Export- och Investeringsråd",
       "status": "active"
     },
     "SE2620001467": {
       "homepage": "",
-      "label": "Nämnden F Utg Av Förvalt.Rättsliga Publikationer",
+      "label": "Nämnden F Utg av Förvalt.Rättsliga Publikationer",
       "status": "active"
     },
     "SE2620001566": {
@@ -7589,6 +7603,11 @@
       "homepage": "https://www.scania.com",
       "label": "Scania CV AB",
       "status": "deregistered"
+    },
+    "SE5561961599": {
+      "homepage": "",
+      "label": "Statens järnvägar",
+      "status": "active"
     },
     "SE5563108942": {
       "homepage": "https://www.arkeologikonsult.se/",
@@ -7757,7 +7776,7 @@
     },
     "SE8020057538": {
       "homepage": "https://www.ap1.se",
-      "label": "Första ap-fonden",
+      "label": "Första AP-fonden",
       "status": "active"
     },
     "SE8020060912": {
@@ -7882,7 +7901,7 @@
     },
     "SE8551040721": {
       "homepage": "https://www.apfond6.se",
-      "label": "Sjätte ap-fonden",
+      "label": "Sjätte AP-fonden",
       "status": "active"
     },
     "SE8572090606": {

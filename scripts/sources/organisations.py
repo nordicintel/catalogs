@@ -46,8 +46,18 @@ def fetch(cache: Path):
             out["uri"].setdefault(uri, k)
     # Only unambiguous domains and names resolve; a body and its same-named predecessor count as one when one succeeded the other.
     out["domain"] = {d: next(iter(ks)) for d, ks in domains.items() if len(ks) == 1}
+    def successor(k, depth=0):
+        """The body a wound-up one became, followed to the end; None when it split or the chain is unknown."""
+        nxt = data["organisation"][k].get("succeeded_by", [])
+        if not nxt:
+            return k
+        return successor(nxt[0], depth + 1) if len(nxt) == 1 and nxt[0] in data["organisation"] and depth < 5 else None
+
     for n, ks in names.items():
         current = [k for k in ks if not data["organisation"][k].get("succeeded_by")]
         if len(current) == 1:
             out["name"][n] = current[0]
+        elif not current and len(ks) == 1 and successor(next(iter(ks))):
+            # A registration under a wound-up body's name (Stockholms läns landsting) belongs to its successor.
+            out["name"][n] = successor(next(iter(ks)))
     return out

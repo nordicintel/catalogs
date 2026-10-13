@@ -4,7 +4,8 @@ and how the last harvest went.
 dataportal.se is an EntryScape install. Each registered catalog has its own context in
 the store with a dcat:Catalog entry (title, publisher, homepage), a Pipeline whose fetch
 step carries the harvested URL, and PipelineResult entries, the latest tagged "latest",
-with the run's status, date, dataset count and validation errors. The reduced result is
+with the run's status, date, dataset count and validation errors. The catalog entry also
+gives description, language, license and spatial coverage; description and license are kept. The reduced result is
 keyed by context id.
 """
 import json
@@ -70,11 +71,12 @@ def fetch(cache: Path):
         types = [v["value"] for po in md.values() for v in po.get("http://www.w3.org/1999/02/22-rdf-syntax-ns#type", [])]
         if "http://www.w3.org/ns/dcat#Catalog" not in types:
             continue
-        out[e["contextId"]] = {"title": _first(md, "dc/terms/title"), "publisher": _first(md, "dc/terms/publisher"),
-                               "homepage": _first(md, "foaf/0.1/homepage"), "source": "", "run": None}
+        out[e["contextId"]] = {"title": _first(md, "dc/terms/title"), "description": _first(md, "dc/terms/description"),
+                               "publisher": _first(md, "dc/terms/publisher"), "homepage": _first(md, "foaf/0.1/homepage"),
+                               "license": _first(md, "dc/terms/license"), "source": "", "run": None}
     for e in raw["pipelines"]:
-        entry = out.setdefault(e["contextId"], {"title": _first(e.get("metadata") or {}, "dc/terms/title"), "publisher": "",
-                                                "homepage": "", "source": "", "run": None})
+        entry = out.setdefault(e["contextId"], {"title": _first(e.get("metadata") or {}, "dc/terms/title"), "description": "",
+                                                "publisher": "", "homepage": "", "license": "", "source": "", "run": None})
         entry["source"] = entry["source"] or raw["sources"].get(e["contextId"], "")
     for e in raw["results"]:
         info, md = e.get("info") or {}, e.get("metadata") or {}

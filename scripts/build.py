@@ -78,7 +78,7 @@ def main():
     ap.add_argument("--no-check", action="store_true", help="skip the liveness check (keeps previous results)")
     args = ap.parse_args()
     cache = Path(args.cache)
-    protocols = load_json(ROOT / "protocols.json", {"protocol": {}})["protocol"]
+    products = load_json(ROOT / "software.json", {"software": {}})["software"]
 
     edits = load_json(ROOT / "edits" / "catalogs.json", {"catalog": {}, "ignore": []})
     previous_output = load_json(OUTPUT, {})
@@ -97,17 +97,23 @@ def main():
                 return by_uri[uri]
         if name(title) in by_name:
             return by_name[name(title)]
+        # Myndighetsregistret cuts names at 48 characters: a title that is the start of exactly one
+        # long label ("Förvaltningsrätten i Stockholm" / "… och Migrationsdom") names that body.
+        if len(name(title)) >= 20:
+            starts = {k for n, k in by_name.items() if n.startswith(name(title))}
+            if len(starts) == 1:
+                return next(iter(starts))
         for uri in uris:
             if uri and domain(uri) in by_domain:
                 return by_domain[domain(uri)]
         return None
 
     catalogs = {}
-    unresolved, registered_only = [], []
+    unresolved = []
     for context, row in federation.items():
         source = row["source"].strip()
         if not source.startswith("http") or " " in source:
-            continue  # registered but never harvested, or a URL that cannot be fetched
+            continue  # no URL to harvest from, so nothing to check or read
         parsed = urlparse(source)
         host = (parsed.hostname or "").lower().removeprefix("www.")
         if host in SHARED_HOSTS:
@@ -118,21 +124,14 @@ def main():
             key = host
         if key in edits["ignore"] or source in edits["ignore"]:
             continue
-        harvested = bool(row["run"]) and row["run"]["status"] == "Success" and row["run"]["datasets"] > 0
-        if not harvested and key not in previous and key not in edits["catalog"]:
-            # A registration whose harvest has never succeeded is not a catalog yet; dataportal.se
-            # pre-registered a guessed URL for every public body. Listed in the report, not the product.
-            registered_only.append({"id": key, "title": row["title"], "source": source,
-                                    "run": (row["run"] or {}).get("status", "never")})
-            continue
-        endpoints = []
-        if source:
-            e = {"protocol": "dcat_ap", "url": source}
-            if row["run"]:
-                ok = row["run"]["status"] == "Success"
-                e["checked"] = {"date": row["run"]["date"], "result": "ok" if ok else "error",
-                                "detail": f"dataportal.se harvest {row['run']['status']}, {row['run']['datasets']} datasets, {row['run']['errors']} validation errors"}
-            endpoints.append(e)
+        # Every registration is a record, also the guessed URLs dataportal.se pre-registered for
+        # every public body: the harvest outcome, or our own probe when there is none, is the status.
+        e = {"protocol": "dcat_ap", "url": source}
+        if row["run"]:
+            ok = row["run"]["status"] == "Success" and row["run"]["datasets"] > 0
+            e["checked"] = {"date": row["run"]["date"], "result": "ok" if ok else "error",
+                            "detail": f"dataportal.se harvest {row['run']['status']}, {row['run']['datasets']} datasets, {row['run']['errors']} validation errors"}
+        endpoints = [e]
         software = "custom"
         root = f"{parsed.scheme}://{parsed.hostname}"
         if host in SHARED_HOSTS:
@@ -151,6 +150,10 @@ def main():
                   "identifier": {"dataportal": f"https://admin.dataportal.se/store/{context}"}}
         if row["homepage"]:
             record["homepage"] = row["homepage"]
+        if row.get("description"):
+            record["description"] = {"sv": row["description"]}
+        if row.get("license", "").startswith("http"):
+            record["license"] = row["license"]
         owner = owner_of(row["title"], row["publisher"], row["homepage"], source if host not in SHARED_HOSTS else "")
         if owner:
             record["owner"] = owner
@@ -224,10 +227,9 @@ def main():
     catalogs = dict(sorted(catalogs.items()))
     if args.no_check:
         for r in catalogs.values():
-            outcomes = [e["checked"]["result"] for e in r["endpoint"] if e.get("checked")]
-            r["status"] = "active" if {"ok", "restricted"} & set(outcomes) else "inactive" if outcomes else "unknown"
+            r["status"] = check.status(r)
     else:
-        registers["check"] = check.run(catalogs, protocols, previous, report["date"])
+        registers["check"] = check.run(catalogs, previous, report["date"])
     for r in catalogs.values():  # a carried result is still a result the check gave
         r["source"] = sorted(set(r["source"]) | ({"check"} if any(e.get("checked") for e in r["endpoint"]) else set()))
     generated = previous_output.get("generated", report["date"]) if catalogs == previous else report["date"]
@@ -240,8 +242,10 @@ def main():
     report.update({"count": len(catalogs), "added": added, "removed": removed, "changed": len(changed),
                    "catalog_type": dict(Counter(r.get("catalog_type", "none") for r in catalogs.values())),
                    "protocol": dict(Counter(e["protocol"] for r in catalogs.values() for e in r["endpoint"])),
+                   "status": dict(Counter(r["status"] for r in catalogs.values())),
                    "without_owner": sorted(unresolved, key=lambda u: u["id"]),
-                   "registered_only": len(registered_only)})
+                   "without_software_protocol": sorted(k for k, r in catalogs.items() if products[r["software"]].get("protocol")
+                                                       and not {e["protocol"] for e in r["endpoint"]} & set(products[r["software"]]["protocol"]))})
     if added or removed or changed or any(v["status"] == "failed" for v in registers.values()):
         dump(ROOT / "reports" / f"{report['date']}.json", report)
     print(f"{len(catalogs)} catalogs: +{len(added)} -{len(removed)} ~{len(changed)}; "
