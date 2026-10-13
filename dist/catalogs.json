@@ -4641,7 +4641,7 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: The read operation timed out",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
             "result": "unreachable"
           },
           "protocol": "arcgis_hub",
@@ -4668,8 +4668,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: The read operation timed out",
+            "result": "unreachable"
           },
           "protocol": "dcat_ap",
           "url": "https://data-jonkoping.opendata.arcgis.com/data.json"
@@ -25785,8 +25785,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "HTTP 404",
+            "result": "error"
           },
           "language": [
             "sv"
@@ -25807,7 +25807,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "error"
     },
     "px.socialstyrelsen.se": {
       "catalog_type": "statistics_database",
