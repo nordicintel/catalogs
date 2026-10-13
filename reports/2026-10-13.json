@@ -1,15 +1,6 @@
 {
   "added": [],
-  "catalog_type": {
-    "api": 26,
-    "file_collection": 2,
-    "geoportal": 260,
-    "indicator_database": 13,
-    "open_data_portal": 625,
-    "research_repository": 90,
-    "statistics_database": 41
-  },
-  "changed": 1,
+  "changed": 1057,
   "count": 1057,
   "date": "2026-10-13",
   "protocol": {
@@ -45,14 +36,6 @@
     "wms_1_3": 67
   },
   "register": {
-    "check": {
-      "endpoints": 734,
-      "error": 53,
-      "ok": 596,
-      "restricted": 13,
-      "status": "fetched",
-      "unreachable": 72
-    },
     "data_europa": {
       "rows": 74,
       "status": "fetched"
@@ -67,6 +50,18 @@
     }
   },
   "removed": [],
+  "software": {
+    "arcgis": 93,
+    "ckan": 9,
+    "custom": 698,
+    "diva": 48,
+    "entryscape": 143,
+    "figshare": 2,
+    "geonetwork": 2,
+    "geoserver": 28,
+    "huwise": 1,
+    "pxweb": 33
+  },
   "status": {
     "error": 498,
     "ok": 515,

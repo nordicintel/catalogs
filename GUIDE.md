@@ -22,7 +22,6 @@ Statistikdatabasen, one for hvduppdrag and will have one for its geodata.
 |---|---|---|
 | `id` | host of the canonical URL, plus the first path segment when one host carries several installs; lower case, no scheme, no `www.` | derived |
 | `label` | name by language | registers, edits |
-| `catalog_type` | `statistics_database`, `indicator_database`, `open_data_portal`, `geoportal`, `research_repository`, `api`, `file_collection`, `other` | edits, registers |
 | `software` | id in `software.json` | edits, check |
 | `owner` | organisation id the data belongs to | registers, edits |
 | `operator` | organisation id that runs the install when it is not the owner (MetaSolutions for `*.entryscape.net`) | edits |
@@ -36,9 +35,12 @@ Statistikdatabasen, one for hvduppdrag and will have one for its geodata.
 | `source` | which registers and edits contributed | build |
 | `note` | free text | edits |
 
-A catalog says how to talk to it, never what records come out. What an
-endpoint yields (tables, indicators, layers, studies, files …) is decided by the
-collector that reads the protocol, and is modelled there.
+A catalog says what it runs on and how to talk to it, never what it is or what
+records come out. There is no type field: what an endpoint yields (tables,
+indicators, layers, studies, files …) is decided by the collector that reads the
+protocol, and is modelled there. "Every PxWeb" is `software`, "every WFS" is
+`endpoint.protocol`; a classification beyond those two would be this repo asserting
+something about content it cannot see.
 
 ### `protocols.json`
 
@@ -79,8 +81,7 @@ recorded, or a misclassified install.
 The only hand file for catalogs. Merged last, so it wins over every register.
 
 ```json
-{"catalog": {"statistik.csn.se": {"label": {"sv": "CSN:s statistikdatabas"}, "catalog_type": "statistics_database",
-                                   "software": "pxweb", "owner": "SE2021001819",
+{"catalog": {"statistik.csn.se": {"label": {"sv": "CSN:s statistikdatabas"}, "software": "pxweb", "owner": "SE2021001819",
                                    "endpoint": [{"protocol": "pxweb_v1", "url": "https://statistik.csn.se/PXWeb/api/v1", "language": ["sv"]}]}},
  "ignore": ["https://example.se/dead-registration"]}
 ```
@@ -140,7 +141,7 @@ and keeps the previous results.
 |---|---|
 | `snapshots/<register>.json` | the reduced result of the last successful fetch of each register, committed so a build still runs when a register is down |
 | `dist/<product>.json`, `dist/<product>.csv` | the three product files in every published format: a copy of the JSON and a CSV with one row per record, same name, only the extension differs. Nested fields are dotted columns (`label.sv`), lists are `\|`-joined, and a list of objects gives one column per field with the items aligned by position (`endpoint.protocol`, `endpoint.url`). Derived from the JSON, so it changes exactly when the product does |
-| `reports/<date>.json` | written by a build that changed a catalog or found a register with no snapshot: per register `fetched`, `stale` or `failed`, counts by catalog type, protocol and status, added and removed ids, catalogs `without_owner` and `without_software_protocol` (the worklists for edits). `generated` in `catalogs.json` is the date of the last content change |
+| `reports/<date>.json` | written by a build that changed a catalog or found a register with no snapshot: per register `fetched`, `stale` or `failed`, counts by software, protocol and status, added and removed ids, catalogs `without_owner` and `without_software_protocol` (the worklists for edits). `generated` in `catalogs.json` is the date of the last content change |
 
 ## Build and check
 

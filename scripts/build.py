@@ -151,7 +151,7 @@ def main():
             elif host.endswith("hub.arcgis.com") or parsed.path.endswith("data.json"):
                 software = "arcgis"
                 endpoints.append({"protocol": "arcgis_hub", "url": root})
-            record = {"id": key, "label": {"sv": row["title"]} if row["title"] else {}, "catalog_type": "open_data_portal", "software": software,
+            record = {"id": key, "label": {"sv": row["title"]} if row["title"] else {}, "software": software,
                       "endpoint": endpoints, "status": "unknown", "source": ["dataportal"],
                       "identifier": {"dataportal": f"https://admin.dataportal.se/store/{context}"}}
             if row["homepage"]:
@@ -192,15 +192,14 @@ def main():
             spoken = set(row["protocol"])
             bases = " ".join(url for urls in row["protocol"].values() for url in urls)
             if spoken & {"pxweb_v1", "pxweb_v2"}:
-                catalog_type, software = "statistics_database", "pxweb"
+                software = "pxweb"
             elif "entrystore" in spoken:
-                catalog_type, software = "open_data_portal", "entryscape"
+                software = "entryscape"
             elif spoken & GEO:
-                catalog_type = "geoportal"
                 software = "geoserver" if "/geoserver" in bases else "arcgis" if "arcgis_rest" in spoken else "custom"
             else:
-                catalog_type, software = "api", "custom"
-            record = {"id": key, "label": {"sv": row["title"]} if row.get("title") else {}, "catalog_type": catalog_type, "software": software,
+                software = "custom"
+            record = {"id": key, "label": {"sv": row["title"]} if row.get("title") else {}, "software": software,
                       "endpoint": endpoints, "status": "unknown", "source": ["data_europa"]}
             owner = owner_of("", *row["publisher"], f"https://{host}/")
             if owner:
@@ -243,7 +242,7 @@ def main():
                     e["checked"] = old["checked"]  # carried until the next check overwrites it
             if not r["label"]:
                 owner = orgs[r["owner"]]["label"] if r.get("owner") in orgs else r["id"]
-                r["label"]["sv"] = {"geoportal": f"{owner} geodatatjänster", "api": f"{owner} API"}.get(r["catalog_type"], owner)
+                r["label"]["sv"] = f"{owner} ({r['id']})"  # the owner and the host, until a register or an edit names it
         except Exception as error:  # noqa: BLE001 - one bad row must not cost the register
             skip("build", r, error)
 
@@ -269,7 +268,7 @@ def main():
     for register, n in skipped.items():
         registers.setdefault(register, {})["skipped"] = n
     report.update({"count": len(catalogs), "added": added, "removed": removed, "changed": len(changed),
-                   "catalog_type": dict(Counter(r.get("catalog_type", "none") for r in catalogs.values())),
+                   "software": dict(Counter(r["software"] for r in catalogs.values())),
                    "protocol": dict(Counter(e["protocol"] for r in catalogs.values() for e in r["endpoint"])),
                    "status": dict(Counter(r["status"] for r in catalogs.values())),
                    "without_owner": sorted(unresolved, key=lambda u: u["id"]),
