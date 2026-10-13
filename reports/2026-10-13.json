@@ -1,6 +1,6 @@
 {
   "added": [],
-  "changed": 3,
+  "changed": 5,
   "count": 1057,
   "date": "2026-10-13",
   "protocol": {
@@ -38,11 +38,11 @@
   "register": {
     "check": {
       "endpoints": 734,
-      "error": 52,
-      "ok": 597,
+      "error": 51,
+      "ok": 595,
       "restricted": 13,
       "status": "fetched",
-      "unreachable": 72
+      "unreachable": 75
     },
     "data_europa": {
       "rows": 74,
@@ -53,7 +53,7 @@
       "status": "fetched"
     },
     "organisations": {
-      "rows": 4,
+      "rows": 5,
       "status": "fetched"
     }
   },
@@ -72,10 +72,10 @@
     "pxweb": 33
   },
   "status": {
-    "error": 498,
+    "error": 497,
     "ok": 515,
     "restricted": 7,
-    "unreachable": 37
+    "unreachable": 38
   },
   "without_label": [
     "api.lantmateriet.se",
