@@ -1,5 +1,14 @@
 {
   "added": [],
+  "catalog_type": {
+    "api": 26,
+    "file_collection": 2,
+    "geoportal": 260,
+    "indicator_database": 13,
+    "open_data_portal": 164,
+    "research_repository": 90,
+    "statistics_database": 41
+  },
   "changed": 596,
   "count": 596,
   "date": "2026-10-13",
@@ -59,15 +68,6 @@
   },
   "registered_only": 492,
   "removed": [],
-  "type": {
-    "api": 26,
-    "file_collection": 2,
-    "geoportal": 260,
-    "indicator_database": 13,
-    "open_data_portal": 164,
-    "research_repository": 90,
-    "statistics_database": 41
-  },
   "without_owner": [
     {
       "id": "api.webperf.se",

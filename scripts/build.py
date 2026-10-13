@@ -146,7 +146,7 @@ def main():
         elif host.endswith("hub.arcgis.com") or parsed.path.endswith("data.json"):
             software = "arcgis"
             endpoints.append({"protocol": "arcgis_hub", "url": root})
-        record = {"id": key, "label": {"sv": row["title"]} if row["title"] else {}, "type": "open_data_portal", "software": software,
+        record = {"id": key, "label": {"sv": row["title"]} if row["title"] else {}, "catalog_type": "open_data_portal", "software": software,
                   "endpoint": endpoints, "status": "unknown", "source": ["dataportal"],
                   "identifier": {"dataportal": f"https://admin.dataportal.se/store/{context}"}}
         if row["homepage"]:
@@ -175,15 +175,15 @@ def main():
         spoken = set(row["protocol"])
         bases = " ".join(url for urls in row["protocol"].values() for url in urls)
         if spoken & {"pxweb_v1", "pxweb_v2"}:
-            kind, software = "statistics_database", "pxweb"
+            catalog_type, software = "statistics_database", "pxweb"
         elif "entrystore" in spoken:
-            kind, software = "open_data_portal", "entryscape"
+            catalog_type, software = "open_data_portal", "entryscape"
         elif spoken & GEO:
-            kind = "geoportal"
+            catalog_type = "geoportal"
             software = "geoserver" if "/geoserver" in bases else "arcgis" if "arcgis_rest" in spoken else "custom"
         else:
-            kind, software = "api", "custom"
-        record = {"id": key, "label": {}, "type": kind, "software": software, "endpoint": endpoints, "status": "unknown", "source": ["data_europa"]}
+            catalog_type, software = "api", "custom"
+        record = {"id": key, "label": {}, "catalog_type": catalog_type, "software": software, "endpoint": endpoints, "status": "unknown", "source": ["data_europa"]}
         owner = owner_of("", *row["publisher"], f"https://{host}/")
         if owner:
             record["owner"] = owner
@@ -219,7 +219,7 @@ def main():
                 e["checked"] = old["checked"]  # carried until the next check overwrites it
         if not r["label"]:
             owner = orgs[r["owner"]]["label"] if r.get("owner") in orgs else r["id"]
-            r["label"]["sv"] = {"geoportal": f"{owner} geodatatjänster", "api": f"{owner} API"}.get(r["type"], owner)
+            r["label"]["sv"] = {"geoportal": f"{owner} geodatatjänster", "api": f"{owner} API"}.get(r["catalog_type"], owner)
 
     catalogs = dict(sorted(catalogs.items()))
     if args.no_check:
@@ -238,7 +238,7 @@ def main():
     removed = sorted(set(previous) - set(catalogs))
     changed = sorted(k for k in set(catalogs) & set(previous) if catalogs[k] != previous[k])
     report.update({"count": len(catalogs), "added": added, "removed": removed, "changed": len(changed),
-                   "type": dict(Counter(r.get("type", "none") for r in catalogs.values())),
+                   "catalog_type": dict(Counter(r.get("catalog_type", "none") for r in catalogs.values())),
                    "protocol": dict(Counter(e["protocol"] for r in catalogs.values() for e in r["endpoint"])),
                    "without_owner": sorted(unresolved, key=lambda u: u["id"]),
                    "registered_only": len(registered_only)})

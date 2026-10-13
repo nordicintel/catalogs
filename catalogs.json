@@ -1,6 +1,7 @@
 {
   "catalog": {
     "agol.orust.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -23,10 +24,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "altermagnets.anyterial.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -49,10 +50,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "ansluta.kraftringen.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -75,10 +76,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "api-portal.artdatabanken.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -101,10 +102,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "api.kolada.se": {
+      "catalog_type": "indicator_database",
       "endpoint": [
         {
           "checked": {
@@ -126,10 +127,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "indicator_database"
+      "status": "active"
     },
     "api.lantmateriet.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -178,10 +179,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "api.researchdata.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -210,10 +211,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "api.riksbank.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -235,10 +236,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "api.skolverket.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -293,10 +294,10 @@
         "data_europa",
         "edits"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "api.sundsvall.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -322,10 +323,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "api.trafa.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -366,10 +367,10 @@
         "data_europa",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "api.webperf.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -394,10 +395,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "api2.swedac.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -422,10 +423,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "apigw.stockholm.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -447,10 +448,10 @@
         "check",
         "data_europa"
       ],
-      "status": "inactive",
-      "type": "api"
+      "status": "inactive"
     },
     "apps.sgu.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -473,10 +474,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "arcgis.burlov.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -499,10 +500,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "archive.humlab.lu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -525,10 +526,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "arcticsdi.lm.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -560,10 +561,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "argo.alvesta.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -586,10 +587,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "armstransfers.sipri.org": {
+      "catalog_type": "indicator_database",
       "endpoint": [
         {
           "checked": {
@@ -612,10 +613,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "indicator_database"
+      "status": "active"
     },
     "atlas.falkenberg.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -638,10 +639,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "av.se": {
+      "catalog_type": "indicator_database",
       "endpoint": [
         {
           "checked": {
@@ -677,10 +678,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "indicator_database"
+      "status": "active"
     },
     "avropa.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -708,10 +709,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "barnsakert.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -736,10 +737,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "bibstat.kb.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -764,10 +765,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "biodiversitydata.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -790,10 +791,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "bolin.su.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -816,10 +817,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "borlange.maps.arcgis.com": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -842,10 +843,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "bredbandskartan.pts.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -868,10 +869,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "bth.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -894,10 +895,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "catalog.ale.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -932,10 +933,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.alingsas.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -969,10 +970,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.boras.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1008,10 +1009,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.burlov.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1057,10 +1058,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.dalsed.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1106,10 +1107,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "inactive",
-      "type": "open_data_portal"
+      "status": "inactive"
     },
     "catalog.digg.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1145,10 +1146,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.ehalsomyndigheten.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1182,10 +1183,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.enkoping.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1221,10 +1222,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.eslov.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1260,10 +1261,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.essunga.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1298,10 +1299,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.falkoping.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1337,10 +1338,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.forsakringskassan.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1374,10 +1375,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.gavle.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1412,10 +1413,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.goteborg.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1450,10 +1451,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.gotene.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1488,10 +1489,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.grastorp.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1526,10 +1527,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.gullspang.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1565,10 +1566,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.harryda.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1604,10 +1605,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.hjo.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1643,10 +1644,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.iaf.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1681,10 +1682,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.karlsborg.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1720,10 +1721,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.karlskrona.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1769,10 +1770,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "inactive",
-      "type": "open_data_portal"
+      "status": "inactive"
     },
     "catalog.kungalv.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1807,10 +1808,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.lakemedelsverket.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1845,10 +1846,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.lansstyrelsen.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1883,10 +1884,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.lerum.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1920,10 +1921,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.lidkoping.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1958,10 +1959,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.lillaedet.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -1995,10 +1996,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.lomma.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2032,10 +2033,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.mariestad.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2071,10 +2072,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.mellerud.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2109,10 +2110,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.molndal.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2147,10 +2148,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.raa.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2185,10 +2186,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.skara.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2224,10 +2225,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.skl.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2262,10 +2263,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.sodertalje.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2301,10 +2302,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.stenungsund.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2340,10 +2341,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.tibro.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2379,10 +2380,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.tidaholm.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2417,10 +2418,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.tjorn.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2455,10 +2456,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.toreboda.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2494,10 +2495,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.tranemo.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2533,10 +2534,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.trelleborg.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2582,10 +2583,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.trollhattan.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2620,10 +2621,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.ulricehamn.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2657,10 +2658,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.upphandlingsmyndigheten.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2695,10 +2696,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.uppsala.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2744,10 +2745,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "inactive",
-      "type": "open_data_portal"
+      "status": "inactive"
     },
     "catalog.vanersborg.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2783,10 +2784,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "catalog.vara.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2821,10 +2822,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "cdn.jordbruksverket.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -2846,10 +2847,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "civictech.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -2874,10 +2875,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "collections.biodiversitydata.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -2900,10 +2901,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "commons.wmu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -2926,10 +2927,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "daim.lfv.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -2960,10 +2961,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "data-jonkoping.opendata.arcgis.com": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -3022,10 +3023,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "data-kalmar.opendata.arcgis.com": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -3075,10 +3076,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "data-skelleftea.opendata.arcgis.com": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -3119,10 +3120,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "data-vaxjo.opendata.arcgis.com": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -3172,10 +3173,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "data.arbetsformedlingen.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3201,10 +3202,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "data.botkyrka.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3239,10 +3240,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "data.fieldsites.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -3265,10 +3266,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "data.hammarbysjostad20.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3291,10 +3292,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "data.jobtechdev.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3317,10 +3318,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "data.kb.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3356,10 +3357,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "data.kemi.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3405,10 +3406,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "inactive",
-      "type": "open_data_portal"
+      "status": "inactive"
     },
     "data.naturvardsverket.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3443,10 +3444,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "data.nobelprize.org": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3479,10 +3480,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "data.prv.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3508,10 +3509,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "data.riksdagen.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3534,10 +3535,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "data.sva.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3562,10 +3563,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "data.svk.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3600,10 +3601,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "data.tomelilla.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3639,10 +3640,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "data.visitsweden.com": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3664,10 +3665,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "dataanalys.socialstyrelsen.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -3689,10 +3690,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "datafinder.qog.gu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -3715,10 +3716,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "dataguru.lu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -3741,10 +3742,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "datakatalog.helsingborg.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3778,10 +3779,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "datakatalog.karlstad.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3816,10 +3817,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "dataportal-gotland.opendata.arcgis.com": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3882,10 +3883,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "dataportal.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3922,10 +3923,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "dataportalen.stockholm.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -3951,10 +3952,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "datarepository.kth.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -3986,10 +3987,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "datavardluft.smhi.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -4029,10 +4030,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "defects.anyterial.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -4055,10 +4056,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "developer.api.riksbank.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -4081,10 +4082,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "devportal.skanetrafiken.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -4107,10 +4108,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "api"
+      "status": "inactive"
     },
     "diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -4133,10 +4134,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "doi.ess.eu": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -4159,10 +4160,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "doi.maxiv.lu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -4185,10 +4186,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "dpweb01.karlstad.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -4211,10 +4212,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "du.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -4237,10 +4238,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "editera.dataportal.se/162": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4267,10 +4268,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/163": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4296,10 +4297,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/166": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4325,10 +4326,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/167": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4355,10 +4356,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/168": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4385,10 +4386,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/169": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4415,10 +4416,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/184": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4444,10 +4445,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/192": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4473,10 +4474,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/193": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4502,10 +4503,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/195": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4531,10 +4532,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/197": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4561,10 +4562,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/199": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4591,10 +4592,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/233": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4620,10 +4621,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/235": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4649,10 +4650,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/242": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4679,10 +4680,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/270": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4709,10 +4710,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/272": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4739,10 +4740,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "editera.dataportal.se/281": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4768,10 +4769,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "ei.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4807,10 +4808,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "elprisersverige.nu": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -4855,10 +4856,10 @@
         "data_europa",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "epub.sjv.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -4907,10 +4908,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "esamkarta.ornskoldsvik.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -4933,10 +4934,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "esg-dn1.nsc.liu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -4968,10 +4969,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "esg-dn2.nsc.liu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -4994,10 +4995,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "esg-dn3.nsc.liu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -5020,10 +5021,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "eskilstuna.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -5059,10 +5060,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "esv.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -5090,10 +5091,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "experience.arcgis.com/bd33a3829b804d1ab3af4ba2843db4ed": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5116,10 +5117,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "explorer.digitalearth.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5142,10 +5143,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-dokument.lansstyrelsen.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5167,10 +5168,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-geodata-applikationer.lansstyrelsen.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5192,10 +5193,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-geodata-nationella-visning.lansstyrelsen.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5218,10 +5219,10 @@
         "data_europa",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-geodata-nationella.lansstyrelsen.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5242,10 +5243,10 @@
         "check",
         "data_europa"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "ext-geodata-ows.lansstyrelsen.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5312,10 +5313,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-geodata-raster.lansstyrelsen.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5338,10 +5339,10 @@
         "data_europa",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-geodatakatalog-forv.lansstyrelsen.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5364,10 +5365,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "ext-geodatakatalog.lansstyrelsen.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5390,10 +5391,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "ext-geoserver.lansstyrelsen.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5415,10 +5416,10 @@
         "check",
         "data_europa"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "ext-webbgis.lansstyrelsen.se/5c335b22-8280-47d4-b6d1-53543fdc82e1": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5441,10 +5442,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/6126a2ea-64b5-4e91-866e-841df8beb4aa": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5467,10 +5468,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/7592d2f1-4532-4323-a924-00e5f57361de": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5493,10 +5494,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/77025c9e-2a61-43b6-8eaf-8d08272d9eee": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5519,10 +5520,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/7e956bfa-18d1-492c-8bab-5b9e5d3d088d": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5545,10 +5546,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/ce71a317-f67f-4add-8fd0-1abeaf3707f9": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5571,10 +5572,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/halland_informationskarta": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5597,10 +5598,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/lanskarta-norrbotten": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5623,10 +5624,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/lstab_lanskarta": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5649,10 +5650,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/lstac_vasterbotten_lanskarta": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5675,10 +5676,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/lstc_mark_vattenanv_externt": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5701,10 +5702,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/lstf_publik_webbkarta": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5727,10 +5728,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/lsti_gotlandskarta_extern": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5753,10 +5754,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/lsto_informationskartan": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5779,10 +5780,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/lstt_informationskarta": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5805,10 +5806,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/lstu_lanskarta_vastmanland": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5831,10 +5832,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/lstw_kartvisare": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5857,10 +5858,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/lsty_externt_webbgis": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5883,10 +5884,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/ostgotakartan": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5909,10 +5910,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ext-webbgis.lansstyrelsen.se/planeringsunderlag_radgivning": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5935,10 +5936,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "facil.falkenberg.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -5961,10 +5962,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "falun.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -6011,10 +6012,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "inactive",
-      "type": "open_data_portal"
+      "status": "inactive"
     },
     "fega.nbis.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -6037,10 +6038,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "fhs.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -6063,10 +6064,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "filer.domstol.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -6092,10 +6093,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "flax.svenskakyrkan.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -6118,10 +6119,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "fmv.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -6144,10 +6145,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "fohm-app.folkhalsomyndigheten.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -6172,10 +6173,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "fohm-app.folkhalsomyndigheten.se/folkhalsodata": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -6202,10 +6203,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "formas.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -6240,10 +6241,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "forsakringskassan.se/sprstatistikrapportera": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -6265,10 +6266,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "free.entryscape.com/177": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -6294,10 +6295,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "free.entryscape.com/302": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -6324,10 +6325,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "free.entryscape.com/507": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -6354,10 +6355,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "free.entryscape.com/510": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -6384,10 +6385,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "free.entryscape.com/576": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -6414,10 +6415,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "free.entryscape.com/640": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -6443,10 +6444,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "free.entryscape.com/679": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -6473,10 +6474,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "free.entryscape.com/688": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -6503,10 +6504,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "free.entryscape.com/727": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -6532,10 +6533,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "free.entryscape.com/730": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -6561,10 +6562,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "gbif.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -6596,10 +6597,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "gdphub.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -6622,10 +6623,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "geo-inspire.trafikverket.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -6665,10 +6666,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geo-transfernode.trafikverket.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -6690,10 +6691,10 @@
         "check",
         "data_europa"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "geo.hjartstartarregistret.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -6724,10 +6725,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geo4.vic-metria.nu": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -6751,10 +6752,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "geodata-svoa-extern.stockholm.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -6776,10 +6777,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.almhult.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -6802,10 +6803,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.arboga.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -6828,10 +6829,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.hassleholm.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -6854,10 +6855,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.havochvatten.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -6951,10 +6952,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.helsingborg.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -6977,10 +6978,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.katrineholm.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -7015,10 +7016,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "geodata.kungsor.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7041,10 +7042,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.naturvardsverket.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7138,10 +7139,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.sala.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7164,10 +7165,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.sametinget.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7189,10 +7190,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.sandviken.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -7273,10 +7274,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "geodata.scb.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7325,10 +7326,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7356,10 +7357,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.sgi.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7382,10 +7383,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.skelleftea.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7408,10 +7409,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.smedjebacken.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7434,10 +7435,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.socialstyrelsen.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7468,10 +7469,10 @@
         "check",
         "data_europa"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "geodata.trelleborg.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7503,10 +7504,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.vastervik.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7529,10 +7530,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geodata.ystad.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7555,10 +7556,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "geodpags.skogsstyrelsen.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7607,10 +7608,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geokatalog.sjofartsverket.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7641,10 +7642,10 @@
         "check",
         "data_europa"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "geonode.folkhalsomyndigheten.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7666,10 +7667,10 @@
         "check",
         "data_europa"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "geoportal.goliska.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7692,10 +7693,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geoportal.jokkmokk.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7718,10 +7719,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geoportal.karlskrona.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7744,10 +7745,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geoportal.kiruna.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7770,10 +7771,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geoportalen.lund.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7796,10 +7797,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "geoportalen.vasttrafik.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7822,10 +7823,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geoserver.analysportalnorr.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7857,10 +7858,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geoserver.gis.lu.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7883,10 +7884,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "geoserver.greensway-digital.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7909,10 +7910,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geoserver.greensway.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7944,10 +7945,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "geotorget.lantmateriet.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -7970,10 +7971,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gi.karlstad.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8014,10 +8015,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gih.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -8040,10 +8041,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "gis-services.metria.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8067,10 +8068,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "gis.ange.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8093,10 +8094,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gis.arvika.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8119,10 +8120,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gis.falun.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8145,10 +8146,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gis.gavle.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8171,10 +8172,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gis.historiska.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8197,10 +8198,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gis.malmo.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8223,10 +8224,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gis.miljo.stockholm.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8248,10 +8249,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gis.regionstockholm.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8274,10 +8275,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gis.sandviken.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8300,10 +8301,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gis.sgi.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8326,10 +8327,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "gis.sjobo.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8352,10 +8353,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gis.skanetrafiken.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8378,10 +8379,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "gis.skelleftea.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8404,10 +8405,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gis.surahammar.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8430,10 +8431,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gis.swedgeo.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8455,10 +8456,10 @@
         "check",
         "data_europa"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "gis.torsas.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8481,10 +8482,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "gis.vindeln.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8507,10 +8508,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gis1.vaxjo.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8533,10 +8534,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gisapp.msb.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8558,10 +8559,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gisportal.boden.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8584,10 +8585,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gisportal.jonkoping.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8610,10 +8611,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gisportal.overtornea.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8636,10 +8637,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gisportal.pitea.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8662,10 +8663,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "gisportal.sametinget.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -8687,10 +8688,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "gupea.ub.gu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -8731,10 +8732,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "hadb.funmat-ii.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -8757,10 +8758,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "haninge.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -8797,10 +8798,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "havochvatten.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -8823,10 +8824,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "hb.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -8849,10 +8850,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "hh.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -8875,10 +8876,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "hig.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -8901,10 +8902,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "his.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -8927,10 +8928,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "historical.api.jobtechdev.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -8952,10 +8953,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "hv.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -8978,10 +8979,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "hvduppdrag.scb.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -9007,10 +9008,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "inspire-raa.metria.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9078,10 +9079,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "inspire-skn.metria.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9113,10 +9114,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "inspire-skolverket.metria.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9148,10 +9149,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ivl.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -9174,10 +9175,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "ivo.metria.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9209,10 +9210,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "jarfallakartan.jarfalla.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9235,10 +9236,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "jobad-enrichments-api.jobtechdev.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -9260,10 +9261,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "jobed-connect-api.jobtechdev.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -9285,10 +9286,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "ju.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -9311,10 +9312,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "karlskogakartan.karlskoga.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9337,10 +9338,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "karta-ext.ornskoldsvik.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9363,10 +9364,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.ale.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9389,10 +9390,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.almhult.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9415,10 +9416,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.ange.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9441,10 +9442,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.askersund.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9467,10 +9468,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "karta.atvidaberg.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9493,10 +9494,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "karta.bastad.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9519,10 +9520,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.botkyrka.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9545,10 +9546,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.ekero.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9571,10 +9572,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.engelholm.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9597,10 +9598,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.enkoping.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9650,10 +9651,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.eskilstuna.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9676,10 +9677,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "karta.forshaga.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9702,10 +9703,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.gnesta.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9728,10 +9729,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.goteborg.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9754,10 +9755,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.goteborgsregionen.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9780,10 +9781,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.grums.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9806,10 +9807,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.hallstahammar.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9859,10 +9860,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.halmstad.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9885,10 +9886,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.haninge.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9911,10 +9912,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.harnosand.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9937,10 +9938,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.huddinge.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9963,10 +9964,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.jonkoping.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -9989,10 +9990,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.kalmar.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10015,10 +10016,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.karlsborg.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10041,10 +10042,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.koping.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10067,10 +10068,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.kumla.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10102,10 +10103,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.kungsbacka.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10128,10 +10129,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "karta.laxa.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10154,10 +10155,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "karta.lekeberg.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10180,10 +10181,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "karta.leksand.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10206,10 +10207,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.lidingo.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10232,10 +10233,10 @@
         "data_europa",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "karta.ludvika.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10258,10 +10259,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.mariestad.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10284,10 +10285,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.markaryd.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10310,10 +10311,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.miljoforvaltningen.goteborg.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10345,10 +10346,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "karta.molndal.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10371,10 +10372,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.morakommun.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10397,10 +10398,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "karta.nacka.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10423,10 +10424,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.nassjo.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10449,10 +10450,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.norsjo.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10475,10 +10476,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.nykvarn.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10501,10 +10502,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.ockero.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10527,10 +10528,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "karta.orebro.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10553,10 +10554,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.osthammar.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10579,10 +10580,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.regiondalarna.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10605,10 +10606,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.regionorebrolan.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10631,10 +10632,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.salem.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10657,10 +10658,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.savsjo.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10683,10 +10684,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.sigtuna.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10727,10 +10728,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "karta.skinnskatteberg.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10753,10 +10754,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.skovde.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10779,10 +10780,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.sodertalje.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10805,10 +10806,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.solleftea.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10831,10 +10832,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.solna.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10857,10 +10858,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.sundsvall.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10883,10 +10884,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.taby.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10909,10 +10910,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.timra.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10935,10 +10936,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "karta.tyreso.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10961,10 +10962,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.uddevalla.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -10987,10 +10988,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "karta.vanersborg.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11013,10 +11014,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.varberg.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11039,10 +11040,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "karta.varmdo.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11065,10 +11066,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.vaxholm.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11091,10 +11092,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.vellinge.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11117,10 +11118,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "karta.vetlanda.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11143,10 +11144,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartor.gislaved.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11169,10 +11170,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartor.gotland.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11195,10 +11196,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartor.hudiksvall.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11221,10 +11222,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "kartor.knivsta.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11247,10 +11248,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartor.kristianstad.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11273,10 +11274,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartor.kungalv.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11299,10 +11300,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartor.laholm.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11325,10 +11326,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartor.linkoping.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11351,10 +11352,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartor.mark.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11377,10 +11378,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartor.norrkoping.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11403,10 +11404,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartor.nykoping.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11429,10 +11430,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartor.ostersund.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11455,10 +11456,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartor.sfv.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11481,10 +11482,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartor.skogsstyrelsen.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11507,10 +11508,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartor.sollentuna.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11533,10 +11534,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "kartor.stockholm.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11576,10 +11577,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartor.strangnas.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11602,10 +11603,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "kartor.tomelilla.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11628,10 +11629,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "kartor.vasteras.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11663,10 +11664,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartor1.umea.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11689,10 +11690,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartportal.eslov.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11715,10 +11716,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartportal.helsingborg.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11741,10 +11742,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartportal.lulea.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11767,10 +11768,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartportal.unikom.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11793,10 +11794,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartportal.uppsala.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11819,10 +11820,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartportalen.boras.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11845,10 +11846,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kartportalen.trollhattan.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -11871,10 +11872,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "katalog.lund.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -11909,10 +11910,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "katalog.riksarkivet.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -11947,10 +11948,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "kau.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -11973,10 +11974,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "kib.ki.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -11999,10 +12000,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "kkh.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -12025,10 +12026,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "kmh.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -12051,10 +12052,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "konstfack.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -12077,10 +12078,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "konsumentverket.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -12117,10 +12118,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "kringla.nu": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -12143,10 +12144,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "kronofogden.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -12182,10 +12183,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "kth.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -12208,10 +12209,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "kulturgeneratorn.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -12234,10 +12235,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "kungsbacka.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -12273,10 +12274,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "lantmateriet.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -12311,10 +12312,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "lastkajen.trafikverket.se": {
+      "catalog_type": "file_collection",
       "endpoint": [
         {
           "checked": {
@@ -12338,10 +12339,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "file_collection"
+      "status": "active"
     },
     "linkoping.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -12377,10 +12378,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "links.api.jobtechdev.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -12402,10 +12403,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "liu.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -12428,10 +12429,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "livsmedelsstatistik.jordbruksverket.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -12455,10 +12456,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "lnu.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -12481,10 +12482,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "ltu.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -12507,10 +12508,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "lup.lub.lu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -12533,10 +12534,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "m02-http-pxwebb.login.sundsvall.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -12562,10 +12563,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "statistics_database"
+      "status": "inactive"
     },
     "m4eu.sgu.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -12587,10 +12588,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "maps.digitalearth.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -12613,10 +12614,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "maps.lantmateriet.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -12656,10 +12657,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "maps.torsby.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -12682,10 +12683,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "maps3.sgu.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -12717,10 +12718,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "mapsext.sgi.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -12760,10 +12761,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "mau.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -12786,10 +12787,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "mchs.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -12812,10 +12813,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "mdp.vic-metria.nu": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -12840,10 +12841,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "mdu.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -12866,10 +12867,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "metadata-ext.havochvatten.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -12904,10 +12905,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "metadata.bolagsverket.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -12942,10 +12943,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "metadata.boverket.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -12980,10 +12981,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "metadata.havochvatten.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -13007,10 +13008,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "metadata.lidingo.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -13045,10 +13046,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "metadata.simrishamn.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -13083,10 +13084,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "metadata.strangnas.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -13122,10 +13123,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "metadata.trafikverket.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -13160,10 +13161,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "metadatakatalog.huddinge.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -13198,10 +13199,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "metadatakatalogen.naturvardsverket.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -13224,10 +13225,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "mi.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -13266,10 +13267,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "migrationsverket.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -13295,10 +13296,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "miljodata.slu.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -13324,10 +13325,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "api"
+      "status": "inactive"
     },
     "minkarta.lantmateriet.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -13350,10 +13351,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "miun.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -13376,10 +13377,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "mt.research.ltu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -13402,10 +13403,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "mycarta.hammaro.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -13428,10 +13429,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "nai.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -13454,10 +13455,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "nationalmuseum.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -13480,10 +13481,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "nationellaemissionsdatabasen.smhi.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -13505,10 +13506,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "naturvardsverket.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -13531,10 +13532,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "ngs.ehalsomyndigheten.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -13559,10 +13560,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "nordiskamuseet.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -13585,10 +13586,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "research_repository"
+      "status": "inactive"
     },
     "norrtaljekarta.norrtalje.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -13611,10 +13612,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "novac.chalmers.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -13637,10 +13638,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "nrm.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -13663,10 +13664,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "nvgis.naturvardsverket.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -13688,10 +13689,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "offwegooo.com": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -13716,10 +13717,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "omdb.mathub.io": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -13742,10 +13743,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "open-data-lommakommun.hub.arcgis.com": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -13777,10 +13778,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "openarchive.ki.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -13803,10 +13804,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "opendata-api.malmo.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -13841,10 +13842,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "opendata-catalog.smhi.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -13870,10 +13871,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "opendata-download-algae.smhi.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -13895,10 +13896,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "opendata-download-hydrography.smhi.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -13947,10 +13948,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "opendata-download-hydroobs.smhi.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -13999,10 +14000,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "opendata-download-icemap.smhi.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -14024,10 +14025,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "opendata-download-lightning.smhi.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -14049,10 +14050,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "opendata-download-metanalys.smhi.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -14092,10 +14093,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "opendata-download-metfcst.smhi.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -14135,10 +14136,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "opendata-download-metobs.smhi.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -14205,10 +14206,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "opendata-download-ocobs.smhi.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -14275,10 +14276,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "opendata-download-radar.smhi.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -14300,10 +14301,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "opendata-download-satellite.smhi.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -14325,10 +14326,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "opendata-download-warnings.smhi.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -14350,10 +14351,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "opendata-view.smhi.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -14420,10 +14421,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "opendata.bastad.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -14458,10 +14459,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "opendata.engelholm.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -14496,10 +14497,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "opendata.malmo.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -14522,10 +14523,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "opendata.smhi.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -14565,10 +14566,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "opendata.statenskonstrad.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -14602,10 +14603,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "opendata.umea.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -14642,10 +14643,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "opendata.upplandsvasby.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -14680,10 +14681,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "opendata.uppsala.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -14733,10 +14734,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "opendata.vasteras.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -14771,10 +14772,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "openexpl.stockholm.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -14796,10 +14797,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "openmaterialsdb.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -14822,10 +14823,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "openstreetgs.stockholm.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -14856,10 +14857,10 @@
         "check",
         "data_europa"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "oppnadata.karlshamn.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -14905,10 +14906,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "oppnadata.naturvardsverket.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -14931,10 +14932,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "oppnadata.olofstrom.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -14980,10 +14981,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "oppnadata.regionblekinge.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -15029,10 +15030,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "oppnadata.skane.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -15067,10 +15068,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "oppnadata.solvesborg.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -15116,10 +15117,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "oppnadata.tillvaxtverket.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -15183,10 +15184,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "oru.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -15209,10 +15210,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "oversiktsplan.botkyrka.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -15235,10 +15236,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "ows.digitalearth.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -15261,10 +15262,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "parkmap.parkochnatur.goteborg.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -15287,10 +15288,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "patientenkat.se": {
+      "catalog_type": "indicator_database",
       "endpoint": [
         {
           "checked": {
@@ -15314,10 +15315,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "indicator_database"
+      "status": "inactive"
     },
     "pensionsmyndigheten.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -15342,10 +15343,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "pensionsmyndigheten.se/statistik": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -15369,10 +15370,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "polar.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -15395,10 +15396,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "portal.research.lu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -15421,10 +15422,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "prognos.konj.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -15451,10 +15452,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "pts.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -15490,10 +15491,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "publications.ess.eu": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -15525,10 +15526,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "pweb2.slu.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -15555,10 +15556,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "statistics_database"
+      "status": "inactive"
     },
     "px.socialstyrelsen.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -15582,10 +15583,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "pxexternal.energimyndigheten.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -15625,10 +15626,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "pxweb.etjanst.domstol.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -15655,10 +15656,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "pxweb.lansstyrelsen.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -15684,10 +15685,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "pxweb.skogsstyrelsen.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -15714,10 +15715,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "pxweb.umea.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -15754,10 +15755,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "pxweb2.karlstad.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -15783,10 +15784,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "pxweb2022.vgregion.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -15812,10 +15813,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "pxwebska.skogsstyrelsen.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -15841,10 +15842,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "qdb-external-api.myh.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -15866,10 +15867,10 @@
         "check",
         "data_europa"
       ],
-      "status": "inactive",
-      "type": "api"
+      "status": "inactive"
     },
     "raa.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -15892,10 +15893,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "raw.githubusercontent.com": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -15919,10 +15920,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "research.hhs.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -15945,10 +15946,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "research_repository"
+      "status": "inactive"
     },
     "research.slu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -15971,10 +15972,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "researchportal.hkr.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -15997,10 +15998,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "resource.sgu.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -16085,10 +16086,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "ri.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -16111,10 +16112,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "riksantikvarieambetet.github.io": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -16140,10 +16141,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "riksarkivet.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -16166,10 +16167,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "rka.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -16205,10 +16206,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "scb.se": {
+      "catalog_type": "indicator_database",
       "endpoint": [
         {
           "checked": {
@@ -16231,10 +16232,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "indicator_database"
+      "status": "active"
     },
     "scicat.ess.eu": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -16257,10 +16258,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "scicat.maxiv.lu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -16283,10 +16284,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "sdb.socialstyrelsen.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -16308,10 +16309,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "sh.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -16334,10 +16335,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "shh.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -16360,10 +16361,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "skatteverket.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -16401,10 +16402,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "skogsdataportalen.skogsstyrelsen.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -16428,10 +16429,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "skogsstatistik.slu.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -16471,10 +16472,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "skovde.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -16510,10 +16511,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "slwgeo.artdata.slu.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -16545,10 +16546,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "smhi.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -16571,10 +16572,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "smhi.se": {
+      "catalog_type": "file_collection",
       "endpoint": [
         {
           "checked": {
@@ -16597,10 +16598,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "file_collection"
+      "status": "active"
     },
     "sok.riksarkivet.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -16623,10 +16624,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "sosgeo.artdata.slu.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -16649,10 +16650,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "spin2000.net": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -16675,10 +16676,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "spraakbanken.gu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -16701,10 +16702,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "sprakochfolkminnen.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -16727,10 +16728,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "stadsatlas.malmo.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -16753,10 +16754,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "static.minaombud.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -16778,10 +16779,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "stationsregister.miljodatasamverkan.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -16850,10 +16851,10 @@
         "data_europa",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "statistik-api.uka.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -16875,10 +16876,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "statistik-www.uka.se": {
+      "catalog_type": "indicator_database",
       "endpoint": [
         {
           "checked": {
@@ -16901,10 +16902,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "indicator_database"
+      "status": "active"
     },
     "statistik.bra.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -16928,10 +16929,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "statistics_database"
+      "status": "inactive"
     },
     "statistik.csn.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -16971,10 +16972,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "statistik.ehalsomyndigheten.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -17000,10 +17001,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "statistik.etikprovningsansokan.se": {
+      "catalog_type": "indicator_database",
       "endpoint": [
         {
           "checked": {
@@ -17026,10 +17027,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "indicator_database"
+      "status": "active"
     },
     "statistik.helsingborg.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -17055,10 +17056,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "statistik.konj.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -17085,10 +17086,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "statistik.kulturanalys.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -17114,10 +17115,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "statistik.linkoping.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -17143,10 +17144,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "statistik.mcf.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -17177,10 +17178,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "statistik.norrkoping.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -17206,10 +17207,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "statistik.orebro.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -17235,10 +17236,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "statistik.sjv.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -17268,10 +17269,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "statistik.tillvaxtanalys.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -17297,10 +17298,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "statistik.uppsala.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -17324,10 +17325,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "statistik.vasteras.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -17364,10 +17365,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "statistikdatabas.goteborg.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -17393,10 +17394,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "statistikdatabasen.scb.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -17450,10 +17451,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "statistikdatabasen.skolverket.se": {
+      "catalog_type": "statistics_database",
       "endpoint": [
         {
           "checked": {
@@ -17480,10 +17481,10 @@
         "data_europa",
         "edits"
       ],
-      "status": "active",
-      "type": "statistics_database"
+      "status": "active"
     },
     "structure.bmc.lu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -17506,10 +17507,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "stuns.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -17556,10 +17557,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "inactive",
-      "type": "open_data_portal"
+      "status": "inactive"
     },
     "su.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -17582,10 +17583,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "su.figshare.com": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -17608,10 +17609,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "sunnekartan.sunne.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -17634,10 +17635,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "sverigesmiljomal.se": {
+      "catalog_type": "indicator_database",
       "endpoint": [
         {
           "checked": {
@@ -17660,10 +17661,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "indicator_database"
+      "status": "active"
     },
     "svk.se": {
+      "catalog_type": "indicator_database",
       "endpoint": [
         {
           "checked": {
@@ -17699,10 +17700,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "indicator_database"
+      "status": "active"
     },
     "sweden.goaltracker.org": {
+      "catalog_type": "indicator_database",
       "endpoint": [
         {
           "checked": {
@@ -17725,10 +17726,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "indicator_database"
+      "status": "active"
     },
     "swedgeo.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -17751,10 +17752,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "taxonomy.api.jobtechdev.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -17776,10 +17777,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "ths.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -17802,10 +17803,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "tingsryd.vic-metria.nu": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -17830,10 +17831,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "tndpw.telge.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -17856,10 +17857,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "trafficdata.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -17900,10 +17901,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "trafiklab.se": {
+      "catalog_type": "api",
       "endpoint": [
         {
           "checked": {
@@ -17939,10 +17940,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "api"
+      "status": "active"
     },
     "trafikverket.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -17965,10 +17966,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "transportstyrelsen.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -18005,10 +18006,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "ucdp.uu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -18031,10 +18032,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "umu.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -18057,10 +18058,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "umu.se": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -18096,10 +18097,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "uniarts.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -18122,10 +18123,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "utslappisiffror.naturvardsverket.se": {
+      "catalog_type": "indicator_database",
       "endpoint": [
         {
           "checked": {
@@ -18149,10 +18150,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "indicator_database"
+      "status": "active"
     },
     "uu.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -18175,10 +18176,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "vantetider.se": {
+      "catalog_type": "indicator_database",
       "endpoint": [
         {
           "checked": {
@@ -18202,10 +18203,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "indicator_database"
+      "status": "inactive"
     },
     "vardbetyg.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -18230,10 +18231,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "vardenisiffror.se": {
+      "catalog_type": "indicator_database",
       "endpoint": [
         {
           "checked": {
@@ -18258,10 +18259,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "indicator_database"
+      "status": "active"
     },
     "vgpv.vgregion.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -18284,10 +18285,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "vgregion.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -18323,10 +18324,10 @@
         "dataportal",
         "edits"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "vgregion.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -18349,10 +18350,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "open_data_portal"
+      "status": "inactive"
     },
     "vinnova.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -18387,10 +18388,10 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "vti.diva-portal.org": {
+      "catalog_type": "research_repository",
       "endpoint": [
         {
           "checked": {
@@ -18413,10 +18414,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "research_repository"
+      "status": "active"
     },
     "webbkarta.gagnef.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -18439,10 +18440,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "webbkartor.vgregion.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -18474,10 +18475,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "webmap.eon.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -18500,10 +18501,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "webmap.goteborgenergi.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -18526,10 +18527,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "webmap.saffle.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -18552,10 +18553,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "webmap.uppvidinge.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -18578,10 +18579,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "webmap.varbergenergi.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -18604,10 +18605,10 @@
         "check",
         "edits"
       ],
-      "status": "inactive",
-      "type": "geoportal"
+      "status": "inactive"
     },
     "webmap.vbenergi.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -18630,10 +18631,10 @@
         "check",
         "edits"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "wms.slu.se": {
+      "catalog_type": "geoportal",
       "endpoint": [
         {
           "checked": {
@@ -18673,10 +18674,10 @@
         "check",
         "data_europa"
       ],
-      "status": "active",
-      "type": "geoportal"
+      "status": "active"
     },
     "www7.skatteverket.se": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -18730,10 +18731,10 @@
         "data_europa",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     },
     "ystad.entryscape.net": {
+      "catalog_type": "open_data_portal",
       "endpoint": [
         {
           "checked": {
@@ -18768,8 +18769,7 @@
         "check",
         "dataportal"
       ],
-      "status": "active",
-      "type": "open_data_portal"
+      "status": "active"
     }
   },
   "count": 596,

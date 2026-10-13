@@ -4,7 +4,7 @@
       "label": {
         "sv": "Orust ArcGIS Services Geoportal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -19,7 +19,7 @@
       "label": {
         "sv": "Altermagnets Database"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -34,7 +34,7 @@
       "label": {
         "sv": "Kraftringen Installweb"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -49,7 +49,7 @@
       "label": {
         "sv": "SLU Artdatabanken API portal"
       },
-      "type": "api",
+      "catalog_type": "api",
       "software": "custom",
       "endpoint": [
         {
@@ -64,7 +64,7 @@
       "label": {
         "sv": "Kolada"
       },
-      "type": "indicator_database",
+      "catalog_type": "indicator_database",
       "software": "custom",
       "endpoint": [
         {
@@ -76,7 +76,7 @@
     },
     "api.researchdata.se": {
       "owner": "SE2021003153",
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "label": {
         "sv": "Researchdata.se",
         "en": "Researchdata.se"
@@ -87,7 +87,7 @@
       "label": {
         "sv": "Riksbankens API"
       },
-      "type": "api",
+      "catalog_type": "api",
       "software": "custom",
       "endpoint": [
         {
@@ -125,7 +125,7 @@
       "label": {
         "sv": "Trafikanalys statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "custom",
       "endpoint": [
         {
@@ -139,7 +139,7 @@
       "label": {
         "sv": "GeoLagret (Geological Survey of Sweden)"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -154,7 +154,7 @@
       "label": {
         "sv": "Burlövs kartportal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -169,7 +169,7 @@
       "label": {
         "sv": "Lund University Humanities Lab Archive"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -184,7 +184,7 @@
       "label": {
         "sv": "Arctic SDI Sverige"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "geoserver",
       "endpoint": [
         {
@@ -203,7 +203,7 @@
       "label": {
         "sv": "Argo Data Catalog - Alvesta ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -218,7 +218,7 @@
       "label": {
         "sv": "SIPRI Arms Transfers Database"
       },
-      "type": "indicator_database",
+      "catalog_type": "indicator_database",
       "software": "custom",
       "endpoint": [
         {
@@ -233,7 +233,7 @@
       "label": {
         "sv": "Falkenbergs karta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -248,7 +248,7 @@
       "label": {
         "sv": "Arbetsmiljöverket arbetsskadestatistik"
       },
-      "type": "indicator_database",
+      "catalog_type": "indicator_database",
       "software": "custom",
       "endpoint": [
         {
@@ -268,7 +268,7 @@
         "sv": "Biblioteksstatistik",
         "en": "Library statistics"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "custom",
       "owner": "SE2021001710",
       "homepage": "https://bibstat.kb.se/",
@@ -284,7 +284,7 @@
       "label": {
         "sv": "Swedish Biodiversity Data Infrastructure"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -299,7 +299,7 @@
       "label": {
         "sv": "Bolin Centre Database"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -314,7 +314,7 @@
       "label": {
         "sv": "Borlänge kommun publika kartor"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -329,7 +329,7 @@
       "label": {
         "sv": "PTS Bredbandskartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -344,7 +344,7 @@
       "label": {
         "sv": "Blekinge tekniska högskola DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -359,7 +359,7 @@
       "label": {
         "sv": "Ale kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -373,7 +373,7 @@
       "label": {
         "sv": "Borås stads öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -387,7 +387,7 @@
       "label": {
         "sv": "Burlövs kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -403,7 +403,7 @@
       "label": {
         "sv": "Dals-Eds kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -419,7 +419,7 @@
       "label": {
         "sv": "DIGG:s datakatalog"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -433,7 +433,7 @@
       "label": {
         "sv": "Enköpings kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -448,7 +448,7 @@
       "label": {
         "sv": "Eslövs kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -462,7 +462,7 @@
       "label": {
         "sv": "Essunga kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -476,7 +476,7 @@
       "label": {
         "sv": "Falköpings kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -490,7 +490,7 @@
       "label": {
         "sv": "Gävle kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -504,7 +504,7 @@
       "label": {
         "sv": "Göteborgs Stads öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -518,7 +518,7 @@
       "label": {
         "sv": "Götene kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -532,7 +532,7 @@
       "label": {
         "sv": "Grästorps kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -546,7 +546,7 @@
       "label": {
         "sv": "Gullspångs kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -560,7 +560,7 @@
       "label": {
         "sv": "Härryda kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -574,7 +574,7 @@
       "label": {
         "sv": "Hjo kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -588,7 +588,7 @@
       "label": {
         "sv": "IAF:s öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -602,7 +602,7 @@
       "label": {
         "sv": "Karlsborgs kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -616,7 +616,7 @@
       "label": {
         "sv": "Karlskrona kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -632,7 +632,7 @@
       "label": {
         "sv": "Kungälvs kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -646,7 +646,7 @@
       "label": {
         "sv": "Länsstyrelsernas datakatalog"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -660,7 +660,7 @@
       "label": {
         "sv": "Lidköpings kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -674,7 +674,7 @@
       "label": {
         "sv": "Mariestads kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -688,7 +688,7 @@
       "label": {
         "sv": "Mölndals stads öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -702,7 +702,7 @@
       "label": {
         "sv": "Riksantikvarieämbetets öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -716,7 +716,7 @@
       "label": {
         "sv": "Skara kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -730,7 +730,7 @@
       "label": {
         "sv": "SKR:s datakatalog"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -744,7 +744,7 @@
       "label": {
         "sv": "Södertälje kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -758,7 +758,7 @@
       "label": {
         "sv": "Stenungsunds kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -772,7 +772,7 @@
       "label": {
         "sv": "Tibro kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -786,7 +786,7 @@
       "label": {
         "sv": "Tidaholms kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -800,7 +800,7 @@
       "label": {
         "sv": "Tjörns kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -814,7 +814,7 @@
       "label": {
         "sv": "Töreboda kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -828,7 +828,7 @@
       "label": {
         "sv": "Tranemo kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -843,7 +843,7 @@
       "label": {
         "sv": "Trelleborgs kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -859,7 +859,7 @@
       "label": {
         "sv": "Trollhättans Stads öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -873,7 +873,7 @@
       "label": {
         "sv": "Upphandlingsmyndighetens datakatalog"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -887,7 +887,7 @@
       "label": {
         "sv": "Uppsala kommuns datakatalog"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -903,7 +903,7 @@
       "label": {
         "sv": "Vänersborgs kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -918,7 +918,7 @@
       "label": {
         "sv": "Vara kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -932,7 +932,7 @@
       "label": {
         "sv": "Swedish Biodiversity Data Infrastructure datasets"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -947,7 +947,7 @@
       "label": {
         "sv": "Maritime Commons"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -962,7 +962,7 @@
       "label": {
         "sv": "Jönköpings kommun - Öppna geodata"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -993,7 +993,7 @@
       "label": {
         "sv": "Öppna geodata Kalmar kommun"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1020,7 +1020,7 @@
       "label": {
         "sv": "Skellefteå kommun öppna geodata"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1043,7 +1043,7 @@
       "label": {
         "sv": "Öppna geografiska data"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1070,7 +1070,7 @@
       "label": {
         "sv": "Botkyrka kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -1084,7 +1084,7 @@
       "label": {
         "sv": "SITES data portal"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -1099,7 +1099,7 @@
       "label": {
         "sv": "Öppna Data Hammarby Sjöstad"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -1114,7 +1114,7 @@
       "label": {
         "sv": "Öppna data från Arbetsförmedlingen"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "custom",
       "endpoint": [
         {
@@ -1129,7 +1129,7 @@
       "label": {
         "sv": "National Library of Sweden Open Data Portal"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "custom",
       "endpoint": [
         {
@@ -1151,7 +1151,7 @@
       "label": {
         "sv": "Kemikalieinspektionens öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -1167,7 +1167,7 @@
       "label": {
         "sv": "Riksdagens öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "custom",
       "endpoint": [
         {
@@ -1182,7 +1182,7 @@
       "label": {
         "sv": "Tomelilla kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -1196,7 +1196,7 @@
       "label": {
         "sv": "Socialstyrelsen"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "custom",
       "endpoint": [
         {
@@ -1210,7 +1210,7 @@
       "label": {
         "sv": "QoG Data Finder"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -1225,7 +1225,7 @@
       "label": {
         "sv": "DataGURU"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -1240,7 +1240,7 @@
       "label": {
         "sv": "Öppna data - Region Gotland"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1275,7 +1275,7 @@
         "sv": "Sveriges dataportal",
         "en": "Sweden's data portal"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "owner": "SE2021006883",
       "homepage": "https://www.dataportal.se",
@@ -1298,7 +1298,7 @@
       "label": {
         "sv": "KTH Data Repository"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -1317,7 +1317,7 @@
       "label": {
         "sv": "ADAQ Defect Database"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -1332,7 +1332,7 @@
       "label": {
         "sv": "Riksbank API Portal"
       },
-      "type": "api",
+      "catalog_type": "api",
       "software": "custom",
       "endpoint": [
         {
@@ -1347,7 +1347,7 @@
       "label": {
         "sv": "Skånetrafiken developer portal"
       },
-      "type": "api",
+      "catalog_type": "api",
       "software": "custom",
       "endpoint": [
         {
@@ -1362,7 +1362,7 @@
       "label": {
         "sv": "Uppsala universitet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -1377,7 +1377,7 @@
       "label": {
         "sv": "ESS SciCat DOI landing pages"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -1392,7 +1392,7 @@
       "label": {
         "sv": "MAX IV SciCat DOI landing pages"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -1407,7 +1407,7 @@
       "label": {
         "sv": "Karlstad dpSpatial Webmap"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -1422,7 +1422,7 @@
       "label": {
         "sv": "Högskolan Dalarna DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -1437,7 +1437,7 @@
       "label": {
         "sv": "Energimarknadsinspektionens öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -1452,7 +1452,7 @@
       "label": {
         "sv": "Örnsköldsvik bygg- och exploateringskartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -1467,7 +1467,7 @@
       "label": {
         "sv": "ESGF LIU CoG"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -1486,7 +1486,7 @@
       "label": {
         "sv": "NSC/LIU ESGF Data Node 2 THREDDS"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -1501,7 +1501,7 @@
       "label": {
         "sv": "NSC/LIU ESGF Data Node 3 THREDDS"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -1516,7 +1516,7 @@
       "label": {
         "sv": "Eskilstuna kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -1535,7 +1535,7 @@
       "label": {
         "sv": "Alingsås karta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1550,7 +1550,7 @@
       "label": {
         "sv": "Digital Earth Sweden Explorer"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -1577,7 +1577,7 @@
       "label": {
         "sv": "PlaneringsKatalogen"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -1592,7 +1592,7 @@
       "label": {
         "sv": "Länsstyrelsernas Geodatakatalog"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -1607,7 +1607,7 @@
       "label": {
         "sv": "Länsfakta Blekinge"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1622,7 +1622,7 @@
       "label": {
         "sv": "WebbGIS Kronoberg"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1637,7 +1637,7 @@
       "label": {
         "sv": "Externa karttjänster Jämtlands län"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1652,7 +1652,7 @@
       "label": {
         "sv": "Länskarta Gävleborg"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1667,7 +1667,7 @@
       "label": {
         "sv": "Södermanlands publika länskarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1682,7 +1682,7 @@
       "label": {
         "sv": "Externt webbGIS Värmland"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1697,7 +1697,7 @@
       "label": {
         "sv": "Informationskarta Halland"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1712,7 +1712,7 @@
       "label": {
         "sv": "Länskarta Norrbotten"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1727,7 +1727,7 @@
       "label": {
         "sv": "Länskarta Stockholms län"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1742,7 +1742,7 @@
       "label": {
         "sv": "Länskarta Västerbotten"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1757,7 +1757,7 @@
       "label": {
         "sv": "Mark- och vattenanvändning Uppsala län"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1772,7 +1772,7 @@
       "label": {
         "sv": "Jönköpings läns publika webbkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1787,7 +1787,7 @@
       "label": {
         "sv": "Gotlandskarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1802,7 +1802,7 @@
       "label": {
         "sv": "Informationskartan Västra Götaland"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1817,7 +1817,7 @@
       "label": {
         "sv": "Informationskarta Örebro län"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1832,7 +1832,7 @@
       "label": {
         "sv": "Länskartan Västmanlands län"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1847,7 +1847,7 @@
       "label": {
         "sv": "Informationskarta Dalarnas län"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1862,7 +1862,7 @@
       "label": {
         "sv": "Länskarta Västernorrland"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1877,7 +1877,7 @@
       "label": {
         "sv": "Östgötakartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1892,7 +1892,7 @@
       "label": {
         "sv": "Planeringsunderlag rådgivning Skåne"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -1907,7 +1907,7 @@
       "label": {
         "sv": "Falkenberg Energi Installatörswebben"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -1922,7 +1922,7 @@
       "label": {
         "sv": "Falu kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -1938,7 +1938,7 @@
       "label": {
         "sv": "FEGA Sweden"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -1953,7 +1953,7 @@
       "label": {
         "sv": "Försvarshögskolan DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -1968,7 +1968,7 @@
       "label": {
         "sv": "geoserver web"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "geoserver",
       "endpoint": [
         {
@@ -1983,7 +1983,7 @@
       "label": {
         "sv": "Försvarets materielverk DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -1998,7 +1998,7 @@
       "label": {
         "sv": "Folkhälsodata"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -2017,7 +2017,7 @@
       "label": {
         "sv": "Försäkringskassans statistik-API"
       },
-      "type": "api",
+      "catalog_type": "api",
       "software": "custom",
       "endpoint": [
         {
@@ -2031,7 +2031,7 @@
       "label": {
         "sv": "IPT GBIF-Sweden"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -2050,7 +2050,7 @@
       "label": {
         "sv": "GDP Hub research funding APIs"
       },
-      "type": "api",
+      "catalog_type": "api",
       "software": "custom",
       "endpoint": [
         {
@@ -2065,7 +2065,7 @@
       "label": {
         "sv": "Metria GeoServer (geo4.vic-metria.nu)"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "geoserver",
       "endpoint": [
         {
@@ -2081,7 +2081,7 @@
       "label": {
         "sv": "Älmhult ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2096,7 +2096,7 @@
       "label": {
         "sv": "Arboga ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2111,7 +2111,7 @@
       "label": {
         "sv": "Kartportal Hässleholm"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2126,7 +2126,7 @@
       "label": {
         "sv": "Helsingborg Geoportal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2141,7 +2141,7 @@
       "label": {
         "sv": "Kungsör ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2156,7 +2156,7 @@
       "label": {
         "sv": "Sala ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2171,7 +2171,7 @@
       "label": {
         "sv": "Sandvikens kommun geodata"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "ckan",
       "endpoint": [
         {
@@ -2203,7 +2203,7 @@
         "sv": "Geodataportalen",
         "en": "Geodata Portal Sweden"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "geonetwork",
       "owner": "SE2021004888",
       "homepage": "https://www.geodata.se/geodataportalen/",
@@ -2222,7 +2222,7 @@
       "label": {
         "sv": "SGI ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2237,7 +2237,7 @@
       "label": {
         "sv": "Skelleftea Municipality Geoportal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2252,7 +2252,7 @@
       "label": {
         "sv": "Smedjebacken ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2267,7 +2267,7 @@
       "label": {
         "sv": "Trelleborg ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2286,7 +2286,7 @@
       "label": {
         "sv": "Västervik ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2301,7 +2301,7 @@
       "label": {
         "sv": "Ystadkartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2316,7 +2316,7 @@
       "label": {
         "sv": "Göliska IT ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2331,7 +2331,7 @@
       "label": {
         "sv": "Jokkmokk ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2346,7 +2346,7 @@
       "label": {
         "sv": "Karlskrona geoportal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2361,7 +2361,7 @@
       "label": {
         "sv": "Kiruna kommun karta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2376,7 +2376,7 @@
       "label": {
         "sv": "Lunds kartportal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2391,7 +2391,7 @@
       "label": {
         "sv": "Västtrafik Geoportalen"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -2406,7 +2406,7 @@
       "label": {
         "sv": "Analysportal NORR"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "geoserver",
       "endpoint": [
         {
@@ -2425,7 +2425,7 @@
       "label": {
         "sv": "Lund University GIS Centre GeoServer"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "geoserver",
       "endpoint": [
         {
@@ -2440,7 +2440,7 @@
       "label": {
         "sv": "Greensway Digital Web Map Service"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "geoserver",
       "endpoint": [
         {
@@ -2455,7 +2455,7 @@
       "label": {
         "sv": "Greensway Web Map Service"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "geoserver",
       "endpoint": [
         {
@@ -2474,7 +2474,7 @@
       "label": {
         "sv": "Geotorget"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -2489,7 +2489,7 @@
       "label": {
         "sv": "Karlstadskartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -2512,7 +2512,7 @@
       "label": {
         "sv": "Gymnastik- och idrottshögskolan DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -2527,7 +2527,7 @@
       "label": {
         "sv": "Metria ArcGIS Services Geoportal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2543,7 +2543,7 @@
       "label": {
         "sv": "Ånge GIS ArcGIS Server"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2558,7 +2558,7 @@
       "label": {
         "sv": "Arvika ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2573,7 +2573,7 @@
       "label": {
         "sv": "Falun GIS ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2588,7 +2588,7 @@
       "label": {
         "sv": "Gävle GIS ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2603,7 +2603,7 @@
       "label": {
         "sv": "Historiska museet GIS"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2618,7 +2618,7 @@
       "label": {
         "sv": "Malmö GIS ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2633,7 +2633,7 @@
       "label": {
         "sv": "Region Stockholm GIS-portal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2648,7 +2648,7 @@
       "label": {
         "sv": "Sandviken Karthubben"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2663,7 +2663,7 @@
       "label": {
         "sv": "SGI Kartor"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -2678,7 +2678,7 @@
       "label": {
         "sv": "Sjöbo ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2693,7 +2693,7 @@
       "label": {
         "sv": "Skånetrafiken GeoServer"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "geoserver",
       "endpoint": [
         {
@@ -2708,7 +2708,7 @@
       "label": {
         "sv": "Skellefteå GIS ArcGIS Server"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2723,7 +2723,7 @@
       "label": {
         "sv": "Surahammar ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2738,7 +2738,7 @@
       "label": {
         "sv": "Arcgis REST Services Directory"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2753,7 +2753,7 @@
       "label": {
         "sv": "Vindeln ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2768,7 +2768,7 @@
       "label": {
         "sv": "Växjö Kommun GIS Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2783,7 +2783,7 @@
       "label": {
         "sv": "Boden kartportal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2798,7 +2798,7 @@
       "label": {
         "sv": "Jönköpings kommun GIS-portal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2813,7 +2813,7 @@
       "label": {
         "sv": "Övertorneå GIS-portal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2828,7 +2828,7 @@
       "label": {
         "sv": "Piteå kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -2843,7 +2843,7 @@
       "label": {
         "sv": "GUPEA - University of Gothenburg Publications Electronic Archive"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -2866,7 +2866,7 @@
       "label": {
         "sv": "Hard coating Alloys Database"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -2881,7 +2881,7 @@
       "label": {
         "sv": "Haninge kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -2896,7 +2896,7 @@
       "label": {
         "sv": "Havs- och vattenmyndigheten DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -2911,7 +2911,7 @@
       "label": {
         "sv": "Högskolan i Borås DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -2926,7 +2926,7 @@
       "label": {
         "sv": "Högskolan i Halmstad DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -2941,7 +2941,7 @@
       "label": {
         "sv": "Högskolan i Gävle DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -2956,7 +2956,7 @@
       "label": {
         "sv": "Högskolan i Skövde DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -2971,7 +2971,7 @@
       "label": {
         "sv": "Högskolan Väst DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -2986,7 +2986,7 @@
       "label": {
         "sv": "SCB HVD-uppdrag"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -3004,7 +3004,7 @@
       "label": {
         "sv": "IVL Svenska Miljöinstitutet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -3019,7 +3019,7 @@
       "label": {
         "sv": "Järfällakartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3034,7 +3034,7 @@
       "label": {
         "sv": "Jönköping University DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -3049,7 +3049,7 @@
       "label": {
         "sv": "Karlskogakartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3064,7 +3064,7 @@
       "label": {
         "sv": "Örnkartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3079,7 +3079,7 @@
       "label": {
         "sv": "Ale webbkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3094,7 +3094,7 @@
       "label": {
         "sv": "Älmhults kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3109,7 +3109,7 @@
       "label": {
         "sv": "Webbkartor för Ånge kommun"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3124,7 +3124,7 @@
       "label": {
         "sv": "Askersunds kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3139,7 +3139,7 @@
       "label": {
         "sv": "Åtvidaberg GIS-portal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -3154,7 +3154,7 @@
       "label": {
         "sv": "Båstads kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3169,7 +3169,7 @@
       "label": {
         "sv": "Botkyrka kommun Webbkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3184,7 +3184,7 @@
       "label": {
         "sv": "Ekerökartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3199,7 +3199,7 @@
       "label": {
         "sv": "Ängelholmskartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3214,7 +3214,7 @@
       "label": {
         "sv": "Enköpings kommun GeoServer"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "geoserver",
       "endpoint": [
         {
@@ -3241,7 +3241,7 @@
       "label": {
         "sv": "Eskilstunakartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3256,7 +3256,7 @@
       "label": {
         "sv": "Forshaga webbkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3271,7 +3271,7 @@
       "label": {
         "sv": "Gnesta webbkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3286,7 +3286,7 @@
       "label": {
         "sv": "Göteborgs Stad karta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3301,7 +3301,7 @@
       "label": {
         "sv": "Göteborgsregionens karttjänst"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3316,7 +3316,7 @@
       "label": {
         "sv": "Grums webbkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3331,7 +3331,7 @@
       "label": {
         "sv": "Karta Hallstahammar GeoServer Web"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "geoserver",
       "endpoint": [
         {
@@ -3358,7 +3358,7 @@
       "label": {
         "sv": "Halmstadkartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3373,7 +3373,7 @@
       "label": {
         "sv": "Karta Haninge kommun"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3388,7 +3388,7 @@
       "label": {
         "sv": "Härnösand bygg- och exploateringskartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3403,7 +3403,7 @@
       "label": {
         "sv": "Huddinge webbkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3418,7 +3418,7 @@
       "label": {
         "sv": "Jönköpings kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3433,7 +3433,7 @@
       "label": {
         "sv": "Kalmar Municipality Geoportal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -3448,7 +3448,7 @@
       "label": {
         "sv": "Karlsborgs kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3463,7 +3463,7 @@
       "label": {
         "sv": "Köpingskartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3478,7 +3478,7 @@
       "label": {
         "sv": "Kumla ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -3497,7 +3497,7 @@
       "label": {
         "sv": "Kungsbackas karta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3512,7 +3512,7 @@
       "label": {
         "sv": "Laxå kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3527,7 +3527,7 @@
       "label": {
         "sv": "Lekebergs kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3542,7 +3542,7 @@
       "label": {
         "sv": "Leksand Karta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3560,7 +3560,7 @@
       "label": {
         "sv": "Ludvikakartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3575,7 +3575,7 @@
       "label": {
         "sv": "Mariestads kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3590,7 +3590,7 @@
       "label": {
         "sv": "Markaryds kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3605,7 +3605,7 @@
       "label": {
         "sv": "Gothenburg Environmental Administration Geoportal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "geoserver",
       "endpoint": [
         {
@@ -3624,7 +3624,7 @@
       "label": {
         "sv": "Mölndals kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3639,7 +3639,7 @@
       "label": {
         "sv": "Mora kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3654,7 +3654,7 @@
       "label": {
         "sv": "Nacka kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3669,7 +3669,7 @@
       "label": {
         "sv": "Nässjö kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3684,7 +3684,7 @@
       "label": {
         "sv": "Norsjö kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3699,7 +3699,7 @@
       "label": {
         "sv": "Nykvarns kommuns digitala karta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3714,7 +3714,7 @@
       "label": {
         "sv": "Öckerö karta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3729,7 +3729,7 @@
       "label": {
         "sv": "Karta Örebro kommun"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3744,7 +3744,7 @@
       "label": {
         "sv": "Östhammars kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3759,7 +3759,7 @@
       "label": {
         "sv": "Region Dalarna"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3774,7 +3774,7 @@
       "label": {
         "sv": "Region Örebro länskarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3789,7 +3789,7 @@
       "label": {
         "sv": "Salems kommun Webbkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3804,7 +3804,7 @@
       "label": {
         "sv": "Sävsjö karta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3819,7 +3819,7 @@
       "label": {
         "sv": "Sigtunakartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3842,7 +3842,7 @@
       "label": {
         "sv": "Skinnskattebergskartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3857,7 +3857,7 @@
       "label": {
         "sv": "Skövde kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3872,7 +3872,7 @@
       "label": {
         "sv": "Södertälje webbkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3887,7 +3887,7 @@
       "label": {
         "sv": "Sollefteå bygg- och exploateringskartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3902,7 +3902,7 @@
       "label": {
         "sv": "Solna stad karta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3917,7 +3917,7 @@
       "label": {
         "sv": "Webbkartor för Sundsvalls kommun"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3932,7 +3932,7 @@
       "label": {
         "sv": "Täbykartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3947,7 +3947,7 @@
       "label": {
         "sv": "Timrå bygg- och exploateringskartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3962,7 +3962,7 @@
       "label": {
         "sv": "Tyresö kommuns webbkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3977,7 +3977,7 @@
       "label": {
         "sv": "Uddevalla kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -3992,7 +3992,7 @@
       "label": {
         "sv": "Vänersborgs webbkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4007,7 +4007,7 @@
       "label": {
         "sv": "Varbergskartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4022,7 +4022,7 @@
       "label": {
         "sv": "Värmdökartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4037,7 +4037,7 @@
       "label": {
         "sv": "Vaxholm karta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4052,7 +4052,7 @@
       "label": {
         "sv": "Vellinge ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -4067,7 +4067,7 @@
       "label": {
         "sv": "Vetlanda kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4082,7 +4082,7 @@
       "label": {
         "sv": "Gislaved GIS ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -4097,7 +4097,7 @@
       "label": {
         "sv": "Gotland GIS ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -4112,7 +4112,7 @@
       "label": {
         "sv": "Hudikkartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4127,7 +4127,7 @@
       "label": {
         "sv": "Knivsta ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -4142,7 +4142,7 @@
       "label": {
         "sv": "Kristianstadskartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4157,7 +4157,7 @@
       "label": {
         "sv": "Kungälvskartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4172,7 +4172,7 @@
       "label": {
         "sv": "LAHOLM GIS REST services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -4187,7 +4187,7 @@
       "label": {
         "sv": "Linköping ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -4202,7 +4202,7 @@
       "label": {
         "sv": "Mark ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -4217,7 +4217,7 @@
       "label": {
         "sv": "Norrköpings karta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4232,7 +4232,7 @@
       "label": {
         "sv": "Nyköpingskartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4247,7 +4247,7 @@
       "label": {
         "sv": "Östersundskartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4262,7 +4262,7 @@
       "label": {
         "sv": "Statens fastighetsverk kartportal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -4277,7 +4277,7 @@
       "label": {
         "sv": "Skogsstyrelsen Kartor"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4292,7 +4292,7 @@
       "label": {
         "sv": "Sollentuna digitala karta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4307,7 +4307,7 @@
       "label": {
         "sv": "Strängnäskartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4322,7 +4322,7 @@
       "label": {
         "sv": "Tomelilla kommunkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4337,7 +4337,7 @@
       "label": {
         "sv": "Västerås samlingskarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4356,7 +4356,7 @@
       "label": {
         "sv": "Umeåkartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4371,7 +4371,7 @@
       "label": {
         "sv": "ArcGIS server of the Eslov community (Sweden)"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -4386,7 +4386,7 @@
       "label": {
         "sv": "Helsingborg kartportal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -4401,7 +4401,7 @@
       "label": {
         "sv": "Luleå kartportal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -4416,7 +4416,7 @@
       "label": {
         "sv": "Unikom ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -4431,7 +4431,7 @@
       "label": {
         "sv": "Uppsala kommun ArcGIS REST Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -4446,7 +4446,7 @@
       "label": {
         "sv": "Boråskartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -4461,7 +4461,7 @@
       "label": {
         "sv": "Trollhättans kartportal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4476,7 +4476,7 @@
       "label": {
         "sv": "Lunds kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -4490,7 +4490,7 @@
       "label": {
         "sv": "Riksarkivets öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -4504,7 +4504,7 @@
       "label": {
         "sv": "Karlstads universitet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -4519,7 +4519,7 @@
       "label": {
         "sv": "Karolinska Institutet Data Repository"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -4534,7 +4534,7 @@
       "label": {
         "sv": "Kungl. Konsthögskolan DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -4549,7 +4549,7 @@
       "label": {
         "sv": "Kungl. Musikhögskolan i Stockholm DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -4564,7 +4564,7 @@
       "label": {
         "sv": "Konstfack DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -4579,7 +4579,7 @@
       "label": {
         "sv": "Konsumentverkets öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -4594,7 +4594,7 @@
       "label": {
         "sv": "Kringla"
       },
-      "type": "api",
+      "catalog_type": "api",
       "software": "custom",
       "endpoint": [
         {
@@ -4609,7 +4609,7 @@
       "label": {
         "sv": "Kronofogdens öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -4624,7 +4624,7 @@
       "label": {
         "sv": "Kungl. Tekniska högskolan DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -4639,7 +4639,7 @@
       "label": {
         "sv": "Kulturgeneratorn"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4654,7 +4654,7 @@
       "label": {
         "sv": "Kungsbacka kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -4669,7 +4669,7 @@
       "label": {
         "sv": "Lastkajen"
       },
-      "type": "file_collection",
+      "catalog_type": "file_collection",
       "software": "custom",
       "owner": "SE2021006297",
       "homepage": "https://lastkajen.trafikverket.se/",
@@ -4685,7 +4685,7 @@
       "label": {
         "sv": "Linköpings kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -4700,7 +4700,7 @@
       "label": {
         "sv": "Linköpings universitet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -4715,7 +4715,7 @@
       "label": {
         "sv": "Jordbruksverkets livsmedelsstatistik (SILO)"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "owner": "SE2021004151",
       "homepage": "https://livsmedelsstatistik.jordbruksverket.se/PxWeb/pxweb/sv/",
@@ -4731,7 +4731,7 @@
       "label": {
         "sv": "Linnéuniversitetet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -4746,7 +4746,7 @@
       "label": {
         "sv": "Luleå tekniska universitet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -4761,7 +4761,7 @@
       "label": {
         "sv": "Lund University Publications"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -4776,7 +4776,7 @@
       "label": {
         "sv": "Sundsvalls statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -4794,7 +4794,7 @@
       "label": {
         "sv": "Digital Earth Sweden Map Portal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4809,7 +4809,7 @@
       "label": {
         "sv": "Torsbykartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4824,7 +4824,7 @@
       "label": {
         "sv": "SGU WMS"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "geoserver",
       "endpoint": [
         {
@@ -4843,7 +4843,7 @@
       "label": {
         "sv": "Malmö universitet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -4858,7 +4858,7 @@
       "label": {
         "sv": "Marie Cederschiöld högskola DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -4873,7 +4873,7 @@
       "label": {
         "sv": "Miljödataportalen"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -4890,7 +4890,7 @@
       "label": {
         "sv": "Mälardalens universitet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -4905,7 +4905,7 @@
       "label": {
         "sv": "Havs- och vattenmyndighetens öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -4921,7 +4921,7 @@
       "label": {
         "sv": "Strängnäs kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -4936,7 +4936,7 @@
       "label": {
         "sv": "Metadatakatalogen - Naturvårdsverket"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "geonetwork",
       "endpoint": [
         {
@@ -4951,7 +4951,7 @@
       "label": {
         "sv": "Medlingsinstitutets statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -4969,7 +4969,7 @@
       "label": {
         "sv": "Miljödata MVM"
       },
-      "type": "api",
+      "catalog_type": "api",
       "software": "custom",
       "owner": "SE2021002817",
       "homepage": "https://miljodata.slu.se/mvm/",
@@ -4987,7 +4987,7 @@
       "label": {
         "sv": "Lantmäteriet MinKarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -5002,7 +5002,7 @@
       "label": {
         "sv": "Mittuniversitetet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -5017,7 +5017,7 @@
       "label": {
         "sv": "LTU Magnetotelluric / EPOS-MT"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -5032,7 +5032,7 @@
       "label": {
         "sv": "Hammarö webbkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -5047,7 +5047,7 @@
       "label": {
         "sv": "Nordiska Afrikainstitutet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -5062,7 +5062,7 @@
       "label": {
         "sv": "Nationalmuseum DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -5077,7 +5077,7 @@
       "label": {
         "sv": "Nationella emissionsdatabasen"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "custom",
       "endpoint": [
         {
@@ -5091,7 +5091,7 @@
       "label": {
         "sv": "Naturvårdsverket DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -5106,7 +5106,7 @@
       "label": {
         "sv": "Nordiska museet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -5121,7 +5121,7 @@
       "label": {
         "sv": "Norrtälje kommuns karta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -5136,7 +5136,7 @@
       "label": {
         "sv": "NOVAC Database"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -5151,7 +5151,7 @@
       "label": {
         "sv": "Naturhistoriska riksmuseet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -5166,7 +5166,7 @@
       "label": {
         "sv": "Organic Materials Database"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -5181,7 +5181,7 @@
       "label": {
         "sv": "Lomma kommun kartportal"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -5200,7 +5200,7 @@
       "label": {
         "sv": "Karolinska Institutet Open Archive"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "figshare",
       "endpoint": [
         {
@@ -5215,7 +5215,7 @@
       "label": {
         "sv": "Malmö stads öppna dataportal"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "custom",
       "endpoint": [
         {
@@ -5240,7 +5240,7 @@
       "label": {
         "sv": "Öppna geodata Uppsala kommun"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -5267,7 +5267,7 @@
       "label": {
         "sv": "Västerås stads öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -5281,7 +5281,7 @@
       "label": {
         "sv": "Open Materials Database"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -5296,7 +5296,7 @@
       "label": {
         "sv": "Karlshamns kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -5312,7 +5312,7 @@
       "label": {
         "sv": "Naturvårdsverkets öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -5327,7 +5327,7 @@
       "label": {
         "sv": "Olofströms kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -5343,7 +5343,7 @@
       "label": {
         "sv": "Region Blekinges öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -5359,7 +5359,7 @@
       "label": {
         "sv": "Sölvesborgs kommuns öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -5375,7 +5375,7 @@
       "label": {
         "sv": "Tillväxtverkets öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "custom",
       "endpoint": [
         {
@@ -5389,7 +5389,7 @@
       "label": {
         "sv": "Örebro universitet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -5404,7 +5404,7 @@
       "label": {
         "sv": "Botkyrka översiktsplan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -5419,7 +5419,7 @@
       "label": {
         "sv": "Digital Earth Sweden OGC Web Services"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -5434,7 +5434,7 @@
       "label": {
         "sv": "Göteborg park- och naturkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -5449,7 +5449,7 @@
       "label": {
         "sv": "Nationell Patientenkät"
       },
-      "type": "indicator_database",
+      "catalog_type": "indicator_database",
       "software": "custom",
       "owner": "SE2220000315",
       "homepage": "https://patientenkat.se/",
@@ -5465,7 +5465,7 @@
       "label": {
         "sv": "Pensionsmyndighetens statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "custom",
       "owner": "SE2021006255",
       "homepage": "https://www.pensionsmyndigheten.se/statistik/pensionsstatistik/",
@@ -5481,7 +5481,7 @@
       "label": {
         "sv": "Polarforskningssekretariatet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -5496,7 +5496,7 @@
       "label": {
         "sv": "Lund University Research Portal"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -5511,7 +5511,7 @@
       "label": {
         "sv": "Prognosdatabasen"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -5530,7 +5530,7 @@
       "label": {
         "sv": "ESS Publications"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -5549,7 +5549,7 @@
       "label": {
         "sv": "SLU OffStat (pweb2)"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "owner": "SE2021002817",
       "endpoint": [
@@ -5568,7 +5568,7 @@
       "label": {
         "sv": "Socialstyrelsens PxWeb"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "owner": "SE2021000555",
       "homepage": "https://px.socialstyrelsen.se/pxweb/sv/",
@@ -5584,7 +5584,7 @@
       "label": {
         "sv": "Energimyndighetens statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -5603,7 +5603,7 @@
       "label": {
         "sv": "Domstolsstatistik"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -5622,7 +5622,7 @@
       "label": {
         "sv": "Länsstyrelsernas statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -5640,7 +5640,7 @@
       "label": {
         "sv": "Skogsstyrelsens statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -5659,7 +5659,7 @@
       "label": {
         "sv": "Umeå kommuns statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "owner": "SE2120002627",
       "homepage": "https://pxweb.umea.se/PXWeb/pxweb/sv/",
@@ -5683,7 +5683,7 @@
       "label": {
         "sv": "Karlstads kommuns statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -5701,7 +5701,7 @@
       "label": {
         "sv": "Västra Götalandsregionens statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -5719,7 +5719,7 @@
       "label": {
         "sv": "Skogsstyrelsen SKA22"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -5737,7 +5737,7 @@
       "label": {
         "sv": "Riksantikvarieämbetet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -5752,7 +5752,7 @@
       "label": {
         "sv": "Swedish House of Finance National Research Data Center"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -5767,7 +5767,7 @@
       "label": {
         "sv": "SLU Research Portal"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -5782,7 +5782,7 @@
       "label": {
         "sv": "Högskolan Kristianstads forskningsportal"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -5797,7 +5797,7 @@
       "label": {
         "sv": "RISE DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -5812,7 +5812,7 @@
       "label": {
         "sv": "Riksarkivet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -5827,7 +5827,7 @@
       "label": {
         "sv": "Sweden National Summary Data Page"
       },
-      "type": "indicator_database",
+      "catalog_type": "indicator_database",
       "software": "custom",
       "endpoint": [
         {
@@ -5842,7 +5842,7 @@
       "label": {
         "sv": "ESS SciCat"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -5861,7 +5861,7 @@
       "label": {
         "sv": "MAX IV SciCat"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -5880,7 +5880,7 @@
       "label": {
         "sv": "Socialstyrelsens statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "custom",
       "endpoint": [
         {
@@ -5894,7 +5894,7 @@
       "label": {
         "sv": "Södertörns högskola DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -5909,7 +5909,7 @@
       "label": {
         "sv": "Sophiahemmet högskola DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -5924,7 +5924,7 @@
       "label": {
         "sv": "Skatteverkets öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -5939,7 +5939,7 @@
       "label": {
         "sv": "Skogsdataportalen"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -5955,7 +5955,7 @@
       "label": {
         "sv": "SLU Riksskogstaxeringen"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -5974,7 +5974,7 @@
       "label": {
         "sv": "SLW GeoServer Catalog (Sveriges Lantbruksuniversitet)"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "geoserver",
       "endpoint": [
         {
@@ -5993,7 +5993,7 @@
       "label": {
         "sv": "Sveriges meteorologiska och hydrologiska institut DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -6008,7 +6008,7 @@
       "label": {
         "sv": "SMHI Open Data Portal"
       },
-      "type": "file_collection",
+      "catalog_type": "file_collection",
       "software": "custom",
       "endpoint": [
         {
@@ -6023,7 +6023,7 @@
       "label": {
         "sv": "TORA — Topografiskt register på Riksarkivet"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "entryscape",
       "endpoint": [
         {
@@ -6038,7 +6038,7 @@
       "label": {
         "sv": "SLU Species Observation GeoServer"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "geoserver",
       "endpoint": [
         {
@@ -6053,7 +6053,7 @@
       "label": {
         "sv": "Substances in Preparations in Nordic Countries (SPIN)"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -6068,7 +6068,7 @@
       "label": {
         "sv": "Korp (Språkbanken Text)"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -6083,7 +6083,7 @@
       "label": {
         "sv": "Institutet för språk och folkminnen DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -6098,7 +6098,7 @@
       "label": {
         "sv": "Malmö Stadsatlas"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -6120,7 +6120,7 @@
       "label": {
         "sv": "UKÄ:s statistik-API"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "custom",
       "endpoint": [
         {
@@ -6134,7 +6134,7 @@
       "label": {
         "sv": "Högskolan i siffror"
       },
-      "type": "indicator_database",
+      "catalog_type": "indicator_database",
       "software": "custom",
       "endpoint": [
         {
@@ -6149,7 +6149,7 @@
       "label": {
         "sv": "Brås statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "custom",
       "owner": "SE2021000068",
       "homepage": "https://statistik.bra.se/solwebb/",
@@ -6165,7 +6165,7 @@
       "label": {
         "sv": "CSN:s statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -6183,7 +6183,7 @@
       "label": {
         "sv": "E-hälsomyndighetens statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -6201,7 +6201,7 @@
       "label": {
         "sv": "Etikprövningsmyndigheten statistik"
       },
-      "type": "indicator_database",
+      "catalog_type": "indicator_database",
       "software": "custom",
       "endpoint": [
         {
@@ -6216,7 +6216,7 @@
       "label": {
         "sv": "Helsingborgs stads statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -6234,7 +6234,7 @@
       "label": {
         "sv": "Konjunkturbarometern"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -6253,7 +6253,7 @@
       "label": {
         "sv": "Kulturanalys statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -6271,7 +6271,7 @@
       "label": {
         "sv": "Linköpings kommuns statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -6289,7 +6289,7 @@
       "label": {
         "sv": "MCF:s statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -6312,7 +6312,7 @@
       "label": {
         "sv": "Norrköpings kommuns statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -6330,7 +6330,7 @@
       "label": {
         "sv": "Örebro kommuns statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -6348,7 +6348,7 @@
       "label": {
         "sv": "Jordbruksverkets statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -6370,7 +6370,7 @@
       "label": {
         "sv": "Tillväxtanalys statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -6388,7 +6388,7 @@
       "label": {
         "sv": "Uppsala kommuns statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "owner": "SE2120003005",
       "homepage": "https://statistik.uppsala.se/PxWeb/pxweb/sv/",
@@ -6404,7 +6404,7 @@
       "label": {
         "sv": "Västerås stads statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "owner": "SE2120002080",
       "homepage": "https://statistik.vasteras.se/pxweb/sv/",
@@ -6428,7 +6428,7 @@
       "label": {
         "sv": "Göteborgs Stads statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -6446,7 +6446,7 @@
       "label": {
         "sv": "Statistikdatabasen"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -6474,7 +6474,7 @@
       "label": {
         "sv": "Skolverkets statistikdatabas"
       },
-      "type": "statistics_database",
+      "catalog_type": "statistics_database",
       "software": "pxweb",
       "endpoint": [
         {
@@ -6492,7 +6492,7 @@
       "label": {
         "sv": "KinMutBase"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -6507,7 +6507,7 @@
       "label": {
         "sv": "STUNS Energi datakatalog"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -6523,7 +6523,7 @@
       "label": {
         "sv": "Stockholms universitet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -6538,7 +6538,7 @@
       "label": {
         "sv": "Stockholm University research repository"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "figshare",
       "endpoint": [
         {
@@ -6553,7 +6553,7 @@
       "label": {
         "sv": "Sunnekartan"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -6568,7 +6568,7 @@
       "label": {
         "sv": "Sveriges miljömål"
       },
-      "type": "indicator_database",
+      "catalog_type": "indicator_database",
       "software": "custom",
       "endpoint": [
         {
@@ -6583,7 +6583,7 @@
       "label": {
         "sv": "Svenska kraftnät Kontrollrummet"
       },
-      "type": "indicator_database",
+      "catalog_type": "indicator_database",
       "software": "custom",
       "endpoint": [
         {
@@ -6598,7 +6598,7 @@
       "label": {
         "sv": "Goal Tracker Sweden"
       },
-      "type": "indicator_database",
+      "catalog_type": "indicator_database",
       "software": "custom",
       "endpoint": [
         {
@@ -6613,7 +6613,7 @@
       "label": {
         "sv": "Statens geotekniska institut DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -6628,7 +6628,7 @@
       "label": {
         "sv": "Enskilda Högskolan Stockholm DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -6643,7 +6643,7 @@
       "label": {
         "sv": "Tingsryds kommun GIS (GEOSECMA)"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "arcgis",
       "endpoint": [
         {
@@ -6660,7 +6660,7 @@
       "label": {
         "sv": "Telge Nät dpWebmap"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -6675,7 +6675,7 @@
       "label": {
         "sv": "Swedish Traffic Data Portal"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "ckan",
       "endpoint": [
         {
@@ -6698,7 +6698,7 @@
       "label": {
         "sv": "Trafiklab"
       },
-      "type": "api",
+      "catalog_type": "api",
       "software": "custom",
       "endpoint": [
         {
@@ -6713,7 +6713,7 @@
       "label": {
         "sv": "Trafikverket DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -6728,7 +6728,7 @@
       "label": {
         "sv": "Transportstyrelsens öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -6743,7 +6743,7 @@
       "label": {
         "sv": "Uppsala Conflict Data Program"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -6758,7 +6758,7 @@
       "label": {
         "sv": "Umeå universitet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -6773,7 +6773,7 @@
       "label": {
         "sv": "Demographic Data Base (DDB)"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "custom",
       "endpoint": [
         {
@@ -6788,7 +6788,7 @@
       "label": {
         "sv": "Stockholms konstnärliga högskola DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -6803,7 +6803,7 @@
       "label": {
         "sv": "Utsläpp i siffror"
       },
-      "type": "indicator_database",
+      "catalog_type": "indicator_database",
       "software": "custom",
       "owner": "SE2021001975",
       "homepage": "https://utslappisiffror.naturvardsverket.se/",
@@ -6819,7 +6819,7 @@
       "label": {
         "sv": "Uppsala universitet DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -6834,7 +6834,7 @@
       "label": {
         "sv": "Väntetider i vården"
       },
-      "type": "indicator_database",
+      "catalog_type": "indicator_database",
       "software": "custom",
       "owner": "SE2220000315",
       "homepage": "https://www.vantetider.se/",
@@ -6851,7 +6851,7 @@
         "sv": "Vården i siffror",
         "en": "Vården i siffror"
       },
-      "type": "indicator_database",
+      "catalog_type": "indicator_database",
       "software": "custom",
       "owner": "SE2220000315",
       "homepage": "https://vardenisiffror.se/",
@@ -6867,7 +6867,7 @@
       "label": {
         "sv": "VGR karta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -6882,7 +6882,7 @@
       "label": {
         "sv": "Västra Götalandsregionens öppna data"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -6897,7 +6897,7 @@
       "label": {
         "sv": "Dataportal Väst"
       },
-      "type": "open_data_portal",
+      "catalog_type": "open_data_portal",
       "software": "entryscape",
       "endpoint": [
         {
@@ -6912,7 +6912,7 @@
       "label": {
         "sv": "Statens väg- och transportforskningsinstitut DiVA"
       },
-      "type": "research_repository",
+      "catalog_type": "research_repository",
       "software": "diva",
       "endpoint": [
         {
@@ -6927,7 +6927,7 @@
       "label": {
         "sv": "Gagnefs kommuns externa karta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -6942,7 +6942,7 @@
       "label": {
         "sv": "Västra Götalandsregionen Webbkartor"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -6961,7 +6961,7 @@
       "label": {
         "sv": "E.ON dpWebmap"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -6976,7 +6976,7 @@
       "label": {
         "sv": "Göteborg Energi dpWebmap"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -6991,7 +6991,7 @@
       "label": {
         "sv": "Säffle webbkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -7006,7 +7006,7 @@
       "label": {
         "sv": "Uppvidinge webbkarta"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -7021,7 +7021,7 @@
       "label": {
         "sv": "Varberg Energi Installatörswebben"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
@@ -7036,7 +7036,7 @@
       "label": {
         "sv": "VB Energi Installatörswebben"
       },
-      "type": "geoportal",
+      "catalog_type": "geoportal",
       "software": "custom",
       "endpoint": [
         {
