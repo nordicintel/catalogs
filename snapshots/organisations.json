@@ -1,0 +1,5152 @@
+{
+  "SE0123456789": {
+    "label": "Utbetalningsmyndigheten",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021000035": {
+    "label": "Justitiekanslern",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021000043": {
+    "label": "Fideikommissnämnden",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021000050": {
+    "label": "Integritetsskyddsmyndigheten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021000068": {
+    "label": "Brottsförebyggande rådet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021000076": {
+    "label": "Polismyndigheten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021000084": {
+    "label": "Åklagarmyndigheten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021000225": {
+    "label": "Kriminalvården",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021000233": {
+    "label": "Utrikesdepartementet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021000340": {
+    "label": "Försvarets materielverk",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021000357": {
+    "label": "Försvarets forskningsanstalt",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021000365": {
+    "label": "Försvarets radioanstalt",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021000464": {
+    "label": "Statens försvarshistoriska museer",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021000498": {
+    "label": "Styrelsen för psykologiskt försvar",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021000506": {
+    "label": "Flygtekniska försöksanstalten",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021000548": {
+    "label": "Riksförsäkringsverket",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021000555": {
+    "label": "Socialstyrelsen",
+    "slug": "socialstyrelsen",
+    "status": "active"
+  },
+  "SE2021000571": {
+    "label": "Statens strålskyddsinstitut",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021000639": {
+    "label": "Vägverket",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021000654": {
+    "label": "Sjöfartsverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021000670": {
+    "label": "Handelsflottans kultur- och fritidsråd",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021000696": {
+    "label": "Sveriges meteorologiska och hydrologiska institut",
+    "slug": "smhi",
+    "status": "active"
+  },
+  "SE2021000704": {
+    "label": "Statens väg- och transportforskningsinstitut",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021000712": {
+    "label": "Statens geotekniska institut",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021000787": {
+    "label": "Statens järnvägar",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021000795": {
+    "label": "Luftfartsverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021000829": {
+    "label": "Kammarkollegiet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021000837": {
+    "label": "Statistiska centralbyrån",
+    "slug": "scb",
+    "status": "active"
+  },
+  "SE2021000845": {
+    "label": "Konjunkturinstitutet",
+    "slug": "konj",
+    "status": "active"
+  },
+  "SE2021000852": {
+    "label": "Statskontoret",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021000878": {
+    "label": "Riksrevisionsverket",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021000928": {
+    "label": "Statens tjänstepensionsverk",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021000969": {
+    "label": "Tullverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021000985": {
+    "label": "Riksskatteverket",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021001033": {
+    "label": "Statens konstråd",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021001041": {
+    "label": "Statens biografbyrå",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021001074": {
+    "label": "Riksarkivet",
+    "slug": "riksarkivet",
+    "status": "active"
+  },
+  "SE2021001082": {
+    "label": "Institutet för språk och folkminnen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021001090": {
+    "label": "Riksantikvarieämbetet",
+    "slug": "raa",
+    "status": "active"
+  },
+  "SE2021001108": {
+    "label": "Nationalmuseum",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021001124": {
+    "label": "Naturhistoriska riksmuseet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021001132": {
+    "label": "Statens museer för maritim-, transport- och försvarshistoria",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021001165": {
+    "label": "Svenskt biografiskt lexikon",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021001173": {
+    "label": "Myndigheten för ungdoms- och civilsamhällesfrågor",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021001199": {
+    "label": "Konstfack",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021001215": {
+    "label": "Kungl. Musikhögskolan i Stockholm",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021001249": {
+    "label": "Teaterhögskolan i Stockholm",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021001280": {
+    "label": "Statens kulturråd",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021001298": {
+    "label": "Dans- och cirkushögskolan",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021001306": {
+    "label": "Dramatiska institutet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021001454": {
+    "label": "Talboks- och punktskriftsbiblioteket",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021001710": {
+    "label": "Kungl. Biblioteket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021001736": {
+    "label": "Medicinska forskningsrådet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021001819": {
+    "label": "Centrala studiestödsnämnden",
+    "slug": "csn",
+    "status": "active"
+  },
+  "SE2021001835": {
+    "label": "Skogsstyrelsen",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021001843": {
+    "label": "Fiskeriverket",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021001850": {
+    "label": "Livsmedelsverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021001868": {
+    "label": "Statens veterinärmedicinska anstalt",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021001876": {
+    "label": "Statens utsädeskontroll",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021001918": {
+    "label": "Statens växtsortnämnd",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021001959": {
+    "label": "Skogs- och jordbrukets forskningsråd",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021001975": {
+    "label": "Naturvårdsverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002007": {
+    "label": "Kommerskollegium",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002015": {
+    "label": "Marknadsdomstolen",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021002064": {
+    "label": "Konsumentverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002072": {
+    "label": "Patent- och registreringsverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002080": {
+    "label": "Kommittén för avveckling av Överstyrelsen för civil beredskap",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021002098": {
+    "label": "Exportkreditnämnden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002114": {
+    "label": "Arbetsförmedlingen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002122": {
+    "label": "Arbetsdomstolen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002148": {
+    "label": "Arbetsmiljöverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002163": {
+    "label": "Migrationsverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002205": {
+    "label": "Byggforskningsrådet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021002247": {
+    "label": "Länsstyrelsen i Stockholms län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002254": {
+    "label": "Länsstyrelsen i Uppsala län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002262": {
+    "label": "Länsstyrelsen i Södermanlands län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002270": {
+    "label": "Länsstyrelsen i Östergötlands län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002288": {
+    "label": "Länsstyrelsen i Jönköpings län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002296": {
+    "label": "Länsstyrelsen i Kronobergs län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002304": {
+    "label": "Länsstyrelsen i Kalmar län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002312": {
+    "label": "Länsstyrelsen i Gotlands län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002320": {
+    "label": "Länsstyrelsen i Blekinge län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002346": {
+    "label": "Länsstyrelsen i Skåne län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002353": {
+    "label": "Länsstyrelsen i Hallands län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002361": {
+    "label": "Länsstyrelsen i Västra Götalands län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002361-LST": {
+    "label": "Länsstyrelserna gemensamt",
+    "slug": "lansstyr",
+    "status": "unknown"
+  },
+  "SE2021002395": {
+    "label": "Länsstyrelsen i Värmlands län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002403": {
+    "label": "Länsstyrelsen i Örebro län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002411": {
+    "label": "Länsstyrelsen i Västmanlands län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002429": {
+    "label": "Länsstyrelsen i Dalarnas län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002437": {
+    "label": "Länsstyrelsen i Gävleborgs län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002445": {
+    "label": "Länsstyrelsen i Västernorrlands län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002452": {
+    "label": "Länsstyrelsen i Jämtlands län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002460": {
+    "label": "Länsstyrelsen i Västerbottens län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002478": {
+    "label": "Länsstyrelsen i Norrbottens län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002528": {
+    "label": "Sveriges geologiska undersökning",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002544": {
+    "label": "Statens kärnkraftinspektion",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021002585": {
+    "label": "Rymdstyrelsen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002627": {
+    "label": "Riksdagsförvaltningen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002635": {
+    "label": "Riksgäldskontoret",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002650": {
+    "label": "Riksdagens ombudsmän JO",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002668": {
+    "label": "Riksdagens revisorer",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021002684": {
+    "label": "Sveriges riksbank",
+    "slug": "riksbank",
+    "status": "active"
+  },
+  "SE2021002726": {
+    "label": "Nordiska Afrikainstitutet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002742": {
+    "label": "Domstolsverket",
+    "slug": "domstol",
+    "status": "active"
+  },
+  "SE2021002783": {
+    "label": "Rådet för arbetslivsforskning",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021002791": {
+    "label": "Humanistisk-samhällsvetenskapliga forskningsrådet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021002817": {
+    "label": "Sveriges lantbruksuniversitet",
+    "slug": "slu",
+    "status": "active"
+  },
+  "SE2021002841": {
+    "label": "Luleå tekniska universitet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002874": {
+    "label": "Umeå universitet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002890": {
+    "label": "Högskolan i Gävle",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002908": {
+    "label": "Högskolan Dalarna",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002916": {
+    "label": "Mälardalens universitet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002924": {
+    "label": "Örebro universitet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002932": {
+    "label": "Uppsala universitet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002957": {
+    "label": "Kungl. Konsthögskolan",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021002965": {
+    "label": "Operahögskolan i Stockholm",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021002973": {
+    "label": "Karolinska institutet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003005": {
+    "label": "Lärarhögskolan i Stockholm",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021003054": {
+    "label": "Kungl. Tekniska högskolan",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003062": {
+    "label": "Stockholms universitet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003096": {
+    "label": "Linköpings universitet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003120": {
+    "label": "Karlstads universitet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003138": {
+    "label": "Högskolan i Borås",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003146": {
+    "label": "Högskolan i Skövde",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003153": {
+    "label": "Göteborgs universitet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003179": {
+    "label": "Högskolan i Kalmar",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021003187": {
+    "label": "Växjö universitet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021003195": {
+    "label": "Högskolan Kristianstad",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003203": {
+    "label": "Högskolan i Halmstad",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003211": {
+    "label": "Lunds universitet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003229": {
+    "label": "Forskningsrådsnämnden",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021003237": {
+    "label": "Naturvetenskapliga forskningsrådet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021003252": {
+    "label": "Konstnärsnämnden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003260": {
+    "label": "Statens haverikommission",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003278": {
+    "label": "Bokföringsnämnden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003294": {
+    "label": "Presstödsnämnden",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021003310": {
+    "label": "Spelinspektionen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003427": {
+    "label": "Statens centrum för arkitektur och design",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021003435": {
+    "label": "Brottsoffermyndigheten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003476": {
+    "label": "Arbetsgivarverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003484": {
+    "label": "Kungliga hov- och slottsstaten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003492": {
+    "label": "Statens ljud- och bildarkiv",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021003567": {
+    "label": "Institutet för rymdfysik",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003583": {
+    "label": "Sveriges författarfond",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003591": {
+    "label": "Myndigheten för tillgängliga medier",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003617": {
+    "label": "Jämställdhetsombudsmannen",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021003625": {
+    "label": "Allmänna reklamationsnämnden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003641": {
+    "label": "Institutet för psykosocial medicin",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021003658": {
+    "label": "Sprängämnesinspektionen",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021003666": {
+    "label": "Statens musikverk",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003690": {
+    "label": "Barnombudsmannen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003732": {
+    "label": "Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021003765": {
+    "label": "Hälso- och sjukvårdens ansvarsnämnd",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021003815": {
+    "label": "Styrelsen för ackreditering och teknisk kontroll",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003831": {
+    "label": "Regeringskansliet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003864": {
+    "label": "Kommunikationsforskningsberedningen",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021003880": {
+    "label": "Kemikalieinspektionen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003914": {
+    "label": "Statens räddningsverk",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021003948": {
+    "label": "Ombudsmannen mot etnisk diskriminering",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021003963": {
+    "label": "Arbetslivsinstitutet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021003971": {
+    "label": "Patentbesvärsrätten",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021003989": {
+    "label": "Boverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021003997": {
+    "label": "Kustbevakningen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004003": {
+    "label": "Banverket",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004011": {
+    "label": "Blekinge tekniska högskola",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004029": {
+    "label": "Statens va-nämnd",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004052": {
+    "label": "Högskolan Väst",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004060": {
+    "label": "Polarforskningssekretariatet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004078": {
+    "label": "Läkemedelsverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004086": {
+    "label": "Socialvetenskapliga forskningsrådet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004094": {
+    "label": "Teknikvetenskapliga forskningsrådet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004128": {
+    "label": "Glesbygdsverket",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004144": {
+    "label": "Nämnden för hemslöjdsfrågor",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004151": {
+    "label": "Statens jordbruksverk",
+    "slug": "sjv",
+    "status": "active"
+  },
+  "SE2021004169": {
+    "label": "Myndigheten för familjerätt och föräldraskapsstöd",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004177": {
+    "label": "Statens institut för särskilt utbildningsstöd",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004185": {
+    "label": "Statens skolverk",
+    "slug": "skolverket",
+    "status": "active"
+  },
+  "SE2021004193": {
+    "label": "Statens institut för handikappfrågor i skolan",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004219": {
+    "label": "Verket för näringslivsutveckling",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004227": {
+    "label": "Rättsmedicinalverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004235": {
+    "label": "Finansinspektionen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004250": {
+    "label": "Harpsundsnämnden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004276": {
+    "label": "Statens bostadskreditnämnd",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004284": {
+    "label": "Affärsverket svenska kraftnät",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004292": {
+    "label": "Utlänningsnämndens avvecklingsorganisation",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004334": {
+    "label": "Gymnastik- och idrottshögskolan",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004342": {
+    "label": "Konkurrensverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004359": {
+    "label": "Post- och telestyrelsen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004367": {
+    "label": "Verket för högskoleservice",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004375": {
+    "label": "Överklagandenämnden för högskolan",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021004383": {
+    "label": "Statens folkhälsoinstitut",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004417": {
+    "label": "Statens beredning för medicinsk och social utvärdering",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004425": {
+    "label": "Turistdelegationen",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004466": {
+    "label": "Elsäkerhetsverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004474": {
+    "label": "Statens fastighetsverk",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004482": {
+    "label": "Nämnden för offentlig upphandling",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004508": {
+    "label": "Statens institutionsstyrelse",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004516": {
+    "label": "Insättningsgarantinämnden",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004524": {
+    "label": "Mittuniversitetet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004532": {
+    "label": "Smittskyddsinstitutet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004540": {
+    "label": "Statens institut för regional forskning",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004557": {
+    "label": "Avvecklingsmyndigheten för Centrala försöksdjursnämnden",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004573": {
+    "label": "Sametinget",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004599": {
+    "label": "Rådet för forsknings- och utvecklingssamarbete inom EU",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004607": {
+    "label": "Fortifikationsverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004615": {
+    "label": "Försvarsmakten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004623": {
+    "label": "Överklagandenämnden för totalförsvaret",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004631": {
+    "label": "Sameskolstyrelsen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004649": {
+    "label": "Statens skola för vuxna i Härnösand",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004656": {
+    "label": "Statens skola för vuxna i Norrköping",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004672": {
+    "label": "Handikappombudsmannen",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004680": {
+    "label": "Radio- och TV-verket",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004714": {
+    "label": "Granskningsnämnden för radio och TV",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004722": {
+    "label": "Totalförsvarets chefsnämnd",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004730": {
+    "label": "Försvarshögskolan",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004748": {
+    "label": "Alkoholinspektionen",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004763": {
+    "label": "Statens överklagandenämnd",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021004771": {
+    "label": "Totalförsvarets plikt- och prövningsverk",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004789": {
+    "label": "Styrelsen för internationellt utvecklingssamarbete",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004797": {
+    "label": "Högskoleverket",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004805": {
+    "label": "Revisorsinspektionen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004813": {
+    "label": "Gentekniknämnden",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021004847": {
+    "label": "Statens institut för kommunikationsanalys",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004854": {
+    "label": "Internationella programkontoret för utbildningsområdet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004862": {
+    "label": "Myndigheten för utländska investeringar i Sverige",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021004870": {
+    "label": "Fastighetsmäklarinspektionen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004888": {
+    "label": "Lantmäteriet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004896": {
+    "label": "Södertörns högskola",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004904": {
+    "label": "Kärnavfallsfonden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004912": {
+    "label": "Inspektionen för strategiska produkter",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004920": {
+    "label": "Malmö universitet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004946": {
+    "label": "Institutet för arbetsmarknads- och utbildningspolitisk utvärdering",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004953": {
+    "label": "Statens historiska museer",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004961": {
+    "label": "Svenska institutet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004979": {
+    "label": "Ekobrottsmyndigheten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021004987": {
+    "label": "Högskolan på Gotland",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021004995": {
+    "label": "Riksutställningar",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005000": {
+    "label": "Statens energimyndighet",
+    "slug": "energi",
+    "status": "active"
+  },
+  "SE2021005018": {
+    "label": "Integrationsverket",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005026": {
+    "label": "Statskontoret",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005034": {
+    "label": "Premiepensionsmyndigheten",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005042": {
+    "label": "Avvecklingsmyndigheten för Statens kvalitets- och kompetensråd",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005059": {
+    "label": "Rikstrafiken",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005067": {
+    "label": "Statens institut för ekologisk hållbarhet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005075": {
+    "label": "Statens museer för världskultur",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005083": {
+    "label": "Ombudsmannen mot diskriminering på grund av sexuell läggning",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005091": {
+    "label": "Moderna museet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005109": {
+    "label": "Steriliseringsersättningsnämnden",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005117": {
+    "label": "Livsmedelsekonomiska institutet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005125": {
+    "label": "Distum avvecklingsmyndighet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005133": {
+    "label": "Delegationen för IT i skolan",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005141": {
+    "label": "Myndigheten för stöd till trossamfund",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021005166": {
+    "label": "Specialskolemyndigheten",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005174": {
+    "label": "Medlingsinstitutet",
+    "slug": "mi",
+    "status": "active"
+  },
+  "SE2021005182": {
+    "label": "Totalförsvarets forskningsinstitut",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005190": {
+    "label": "Institutet för tillväxtpolitiska studier",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005208": {
+    "label": "Vetenskapsrådet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005216": {
+    "label": "Verket för innovationssystem",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005224": {
+    "label": "Rådet för Europeiska socialfonden i Sverige",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005232": {
+    "label": "Forskningsrådet för miljö, areella näringar och samhällsbyggande",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005240": {
+    "label": "Forskningsrådet för hälsa, arbetsliv och välfärd",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005265": {
+    "label": "Specialpedagogiska institutet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005273": {
+    "label": "Överklagandenämnden för studiestöd",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005281": {
+    "label": "Valmyndigheten",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021005299": {
+    "label": "Myndigheten för kvalificerad yrkesutbildning",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005307": {
+    "label": "Nationellt centrum för flexibelt lärande",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005315": {
+    "label": "Lagrådet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005323": {
+    "label": "Avvecklingsmyndigheten för nätverk och samarbete inom högre utbildning",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005331": {
+    "label": "Svenska institutet för europapolitiska studier",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005349": {
+    "label": "Krisberedskapsmyndigheten",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005356": {
+    "label": "Forum för levande historia",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005364": {
+    "label": "Tandvårds- och Läkemedelsförmånsverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005372": {
+    "label": "Statens bostadsnämnd",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005380": {
+    "label": "Folke Bernadotteakademin",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005406": {
+    "label": "Myndigheten för skolutveckling",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005414": {
+    "label": "Inspektionen för arbetslöshetsförsäkringen",
+    "slug": "iaf",
+    "status": "active"
+  },
+  "SE2021005422": {
+    "label": "Riksrevisionen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005430": {
+    "label": "Avvecklingsmyndigheten för RRV",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005448": {
+    "label": "Skatteverket",
+    "slug": "skatteverket",
+    "status": "active"
+  },
+  "SE2021005455": {
+    "label": "Djurskyddsmyndigheten",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005463": {
+    "label": "Överklagandenämnden för etikprövning",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021005471": {
+    "label": "Valideringsdelegationen",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005489": {
+    "label": "Bolagsverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005505": {
+    "label": "Järnvägsstyrelsen",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005521": {
+    "label": "Försäkringskassan",
+    "slug": "forsakringskassan",
+    "status": "active"
+  },
+  "SE2021005547": {
+    "label": "Luftfartsstyrelsen",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005588": {
+    "label": "Myndigheten för delaktighet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005596": {
+    "label": "Verket för förvaltningsutveckling",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005604": {
+    "label": "Institutet för utvärdering av internationellt utvecklingssamarbete",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005612": {
+    "label": "Skogsstyrelsen",
+    "slug": "skog",
+    "status": "active"
+  },
+  "SE2021005646": {
+    "label": "Kronofogdemyndigheten",
+    "slug": "kronofogden",
+    "status": "active"
+  },
+  "SE2021005661": {
+    "label": "Avvecklingsmyndigheten för Arbetslivsinstitutet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005679": {
+    "label": "Avvecklingsmyndigheten för Integrationsverket",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005687": {
+    "label": "Finanspolitiska rådet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005695": {
+    "label": "Energimarknadsinspektionen",
+    "slug": "ei",
+    "status": "active"
+  },
+  "SE2021005703": {
+    "label": "Myndigheten för säkerhet och integritetsskydd",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005729": {
+    "label": "Skolväsendets överklagandenämnd",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005737": {
+    "label": "Strålsäkerhetsmyndigheten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005745": {
+    "label": "Specialpedagogiska skolmyndigheten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005760": {
+    "label": "Avvecklingsmyndigheten för Statens strålskyddsinstitut och kärnkraftsinspektion",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005778": {
+    "label": "Statens Nämnd För Arbetstagares Uppfinningar",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005786": {
+    "label": "Nämnden För Styrelserepresentationsfrågor",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005794": {
+    "label": "Avvecklingsmyndigheten för skolmyndigheter m.m.",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005810": {
+    "label": "Krigsförsäkringsnämnden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005828": {
+    "label": "Statens skaderegleringsnämnd",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005836": {
+    "label": "Statens ansvarsnämnd",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005851": {
+    "label": "Statens tjänstepensions- och grupplivnämnd",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005869": {
+    "label": "Skiljenämnden i vissa trygghetsfrågor",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005877": {
+    "label": "Ilo-Kommittén",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005893": {
+    "label": "Forskarskattenämnden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005901": {
+    "label": "Skatterättsnämnden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005943": {
+    "label": "Alkoholsortimentsnämnden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005950": {
+    "label": "Arvfondsdelegationen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021005968": {
+    "label": "Avvecklingsmyndigheten för SRV, KBM och SPF",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021005984": {
+    "label": "Myndigheten för civilt försvar",
+    "slug": "mcf",
+    "status": "active"
+  },
+  "SE2021006008": {
+    "label": "Rättshjälpnämnden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006016": {
+    "label": "Rättshjälpsmyndigheten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006024": {
+    "label": "Överklagandenämnden för nämndemannauppdrag",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006032": {
+    "label": "Notarienämnden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006065": {
+    "label": "Statens skolinspektion",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006073": {
+    "label": "Diskrimineringsombudsmannen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006081": {
+    "label": "Domarnämnden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006099": {
+    "label": "Transportstyrelsen",
+    "slug": "transportstyrelsen",
+    "status": "active"
+  },
+  "SE2021006107": {
+    "label": "Avvecklingsmyndigheten för ombudsmännen mot diskriminering",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021006115": {
+    "label": "Kompetensrådet för utveckling i staten",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021006123": {
+    "label": "Avvecklingsmyndigheten för Verket för förvaltningsutveckling",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021006131": {
+    "label": "Signalspaningsnämnden",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021006149": {
+    "label": "Tillväxtverket",
+    "slug": "tillvaxtverket",
+    "status": "active"
+  },
+  "SE2021006164": {
+    "label": "Myndigheten för tillväxtpolitiska utvärderingar och analyser",
+    "slug": "tillvaxtanalys",
+    "status": "active"
+  },
+  "SE2021006206": {
+    "label": "Nämnden mot diskriminering",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006214": {
+    "label": "Statens inspektion för försvarsunderrättelseverksamheten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006222": {
+    "label": "Utredningen för avveckling av ITPS, Glesbygdsverket och Nutek",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021006230": {
+    "label": "Myndigheten för yrkeshögskolan",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006248": {
+    "label": "Inspektionen för socialförsäkringen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006255": {
+    "label": "Pensionsmyndigheten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006271": {
+    "label": "Linnéuniversitetet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006289": {
+    "label": "Avvecklingsmyndigheten för PPM och delar av FK",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021006297": {
+    "label": "Trafikverket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006305": {
+    "label": "Trafikanalys",
+    "slug": "trafa",
+    "status": "active"
+  },
+  "SE2021006313": {
+    "label": "Försvarsunderrättelsedomstolen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006339": {
+    "label": "Försvarsexportmyndigheten",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021006347": {
+    "label": "Mediemyndigheten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006370": {
+    "label": "Patentombudsnämnden",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021006388": {
+    "label": "Stockholms dramatiska högskola",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021006396": {
+    "label": "Statens medieråd",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021006404": {
+    "label": "Myndigheten för kulturanalys",
+    "slug": "kulturanalys",
+    "status": "active"
+  },
+  "SE2021006412": {
+    "label": "Myndigheten för vård- och omsorgsanalys",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006420": {
+    "label": "Havs- och vattenmyndigheten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006438": {
+    "label": "E-Legitimationsnämnden",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021006446": {
+    "label": "Avvecklingsmyndigheten för Fiskeriverket",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021006453": {
+    "label": "Statens servicecenter",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006461": {
+    "label": "Riksdagens arvodesnämnd",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006487": {
+    "label": "Universitets- och högskolerådet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006495": {
+    "label": "Universitetskanslersämbetet",
+    "slug": "uka",
+    "status": "active"
+  },
+  "SE2021006503": {
+    "label": "Ersättningsnämnden",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021006511": {
+    "label": "Avvecklingsmyndigheten för utbildningsmyndigheter",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021006529": {
+    "label": "Avvecklingsmyndigheten för Myndigheten för utländska investeringar i Sverige m.m",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021006537": {
+    "label": "Inspektionen för vård och omsorg",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006545": {
+    "label": "Folkhälsomyndigheten",
+    "slug": "fohm",
+    "status": "active"
+  },
+  "SE2021006552": {
+    "label": "E-hälsomyndigheten",
+    "slug": "ehm",
+    "status": "active"
+  },
+  "SE2021006560": {
+    "label": "Stockholms konstnärliga högskola",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006578": {
+    "label": "Avvecklingsmyndigheten för vissa myndigheter inom vård- och omsorgsområdet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021006594": {
+    "label": "Säkerhetspolisen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006602": {
+    "label": "Skolforskningsinstitutet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006610": {
+    "label": "Upphandlingsmyndigheten",
+    "slug": "upphandlingsmyndigheten",
+    "status": "active"
+  },
+  "SE2021006693": {
+    "label": "Jämställdhetsmyndigheten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006701": {
+    "label": "Delegationen mot segregation",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021006719": {
+    "label": "Klimatpolitiska rådet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006727": {
+    "label": "Lokala säkerhetsnämnden vid Barsebäck",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2021006735": {
+    "label": "Lokala säkerhetsnämnden vid Forsmark",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006743": {
+    "label": "Lokala säkerhetsnämnden vid Oskarshamn",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006750": {
+    "label": "Lokala säkerhetsnämnden vid Ringhals",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006768": {
+    "label": "Lokala säkerhetsnämnden vid Studsvik",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021006776": {
+    "label": "Oljekrisnämnden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006784": {
+    "label": "Riksvärderingsnämnden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006800": {
+    "label": "Styrelsen För Samefonden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006818": {
+    "label": "Svenska FAO-kommittén",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006826": {
+    "label": "Utrikesförvaltningens antagningsnämnd",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006834": {
+    "label": "Ansvarsnämnden för djurens hälso- och sjukvård",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006842": {
+    "label": "Delegationen för folkrättslig granskning av vapenprojekt",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006859": {
+    "label": "Granskningsnämnden för försvarsuppfinningar",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006867": {
+    "label": "Högskolans avskiljandenämnd",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006875": {
+    "label": "Myndigheten för arbetsmiljökunskap",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2021006883": {
+    "label": "Myndigheten för digital förvaltning",
+    "slug": "digg",
+    "status": "active"
+  },
+  "SE2021006909": {
+    "label": "Centrala Djurförsöksetiska Nämnden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006925": {
+    "label": "Etikprövningsmyndigheten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021006933": {
+    "label": "Nämnden för prövning av oredlighet i forskning",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021007014": {
+    "label": "Myndigheten för psykologiskt försvar",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021007022": {
+    "label": "Institutet för mänskliga rättigheter",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021007030": {
+    "label": "Fondtorgsnämnden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021007055": {
+    "label": "Myndigheten för totalförsvarsanalys",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2021007071": {
+    "label": "Utbetalningsmyndigheten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2022001107": {
+    "label": "Civilbefälhavaren i Södra civilområdet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001404": {
+    "label": "Civilbefälhavaren i Mellersta civilområdet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001420": {
+    "label": "Civilbefälhavaren i Norra Civilområdet",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001438": {
+    "label": "Tomtebodaskolans resurscenter",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001446": {
+    "label": "Kristinaskolan, Härnösand",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001453": {
+    "label": "Åsbackaskolan, Gnesta",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001461": {
+    "label": "Östervångsskolan, Lund",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001479": {
+    "label": "Ekeskolan, Örebro",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001487": {
+    "label": "Birgittaskolan, Örebro",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001495": {
+    "label": "Hällsboskolan, Sigtuna",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001503": {
+    "label": "Vänerskolan, Vänersborg",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001511": {
+    "label": "Manillaskolan, Stockholm",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001537": {
+    "label": "Delegationen för stöd till vissa kommuner med bostadsåtaganden",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001545": {
+    "label": "Regionala etikprövningsnämnden i Göteborg",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001552": {
+    "label": "Regionala etikprövningsnämnden i Linköping",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001560": {
+    "label": "Regionala etikprövningsnämnden i Lund",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001578": {
+    "label": "Regionala etikprövningsnämnden i Stockholm",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001586": {
+    "label": "Regionala etikprövningsnämnden i Umeå",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2022001594": {
+    "label": "Regionala etikprövningsnämnden i Uppsala",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE2120000019": {
+    "label": "Upplands Väsby kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000027": {
+    "label": "Vallentuna kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000035": {
+    "label": "Värmdö kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000043": {
+    "label": "Järfälla kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000050": {
+    "label": "Ekerö kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000068": {
+    "label": "Huddinge kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000084": {
+    "label": "Haninge kommun",
+    "slug": "haninge",
+    "status": "active"
+  },
+  "SE2120000092": {
+    "label": "Tyresö kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000100": {
+    "label": "Upplands-Bro kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000118": {
+    "label": "Täby kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000126": {
+    "label": "Danderyds kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000134": {
+    "label": "Sollentuna kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000142": {
+    "label": "Stockholms stad",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000159": {
+    "label": "Södertälje kommun",
+    "slug": "sodertalje",
+    "status": "active"
+  },
+  "SE2120000167": {
+    "label": "Nacka kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000175": {
+    "label": "Sundbybergs stad",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000183": {
+    "label": "Solna stad",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000191": {
+    "label": "Lidingö stad",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000217": {
+    "label": "Norrtälje kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000225": {
+    "label": "Sigtuna kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000233": {
+    "label": "Nynäshamns kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000241": {
+    "label": "Håbo kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000258": {
+    "label": "Älvkarleby kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000266": {
+    "label": "Tierps kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000282": {
+    "label": "Enköpings kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000290": {
+    "label": "Östhammars kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000308": {
+    "label": "Vingåkers kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000324": {
+    "label": "Oxelösunds kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000332": {
+    "label": "Flens kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000340": {
+    "label": "Katrineholms kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000357": {
+    "label": "Eskilstuna kommun",
+    "slug": "eskilstuna",
+    "status": "active"
+  },
+  "SE2120000365": {
+    "label": "Strängnäs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000373": {
+    "label": "Ödeshögs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000381": {
+    "label": "Ydre kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000399": {
+    "label": "Kinda kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000407": {
+    "label": "Boxholms kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000415": {
+    "label": "Åtvidabergs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000423": {
+    "label": "Finspångs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000431": {
+    "label": "Valdemarsviks kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000449": {
+    "label": "Linköpings kommun",
+    "slug": "linkoping",
+    "status": "active"
+  },
+  "SE2120000456": {
+    "label": "Norrköpings kommun",
+    "slug": "norrkoping",
+    "status": "active"
+  },
+  "SE2120000464": {
+    "label": "Söderköpings kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000480": {
+    "label": "Mjölby kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000498": {
+    "label": "Aneby kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000506": {
+    "label": "Gnosjö kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000514": {
+    "label": "Gislaveds kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000522": {
+    "label": "Vaggeryds kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000530": {
+    "label": "Jönköpings kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000548": {
+    "label": "Nässjö kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000555": {
+    "label": "Värnamo kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000563": {
+    "label": "Sävsjö kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000571": {
+    "label": "Vetlanda kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000589": {
+    "label": "Eksjö kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000597": {
+    "label": "Tranås kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000605": {
+    "label": "Uppvidinge kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000613": {
+    "label": "Lessebo kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000621": {
+    "label": "Tingsryds kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000639": {
+    "label": "Alvesta kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000647": {
+    "label": "Älmhults kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000654": {
+    "label": "Markaryds kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000662": {
+    "label": "Växjö kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000670": {
+    "label": "Ljungby kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000688": {
+    "label": "Högsby kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000696": {
+    "label": "Torsås kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000704": {
+    "label": "Mörbylånga kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000712": {
+    "label": "Hultsfreds kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000720": {
+    "label": "Mönsterås kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000738": {
+    "label": "Emmaboda kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000746": {
+    "label": "Kalmar kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000753": {
+    "label": "Nybro kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000761": {
+    "label": "Oskarshamns kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000779": {
+    "label": "Västerviks kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000787": {
+    "label": "Vimmerby kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000795": {
+    "label": "Borgholms kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000803": {
+    "label": "Region Gotland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000811": {
+    "label": "Olofströms kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000829": {
+    "label": "Karlskrona kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000837": {
+    "label": "Ronneby kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000845": {
+    "label": "Karlshamns kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000852": {
+    "label": "Sölvesborgs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000860": {
+    "label": "Östra Göinge kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000878": {
+    "label": "Örkelljunga kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000886": {
+    "label": "Tomelilla kommun",
+    "slug": "tomelilla",
+    "status": "active"
+  },
+  "SE2120000894": {
+    "label": "Bromölla kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000902": {
+    "label": "Osby kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000910": {
+    "label": "Perstorps kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000928": {
+    "label": "Klippans kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000936": {
+    "label": "Åstorps kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000944": {
+    "label": "Båstads kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000951": {
+    "label": "Kristianstads kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000969": {
+    "label": "Simrishamns kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000977": {
+    "label": "Ängelholms kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000985": {
+    "label": "Hässleholms kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120000993": {
+    "label": "Svalövs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001017": {
+    "label": "Staffanstorps kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001025": {
+    "label": "Burlövs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001033": {
+    "label": "Vellinge kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001041": {
+    "label": "Bjuvs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001058": {
+    "label": "Kävlinge kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001066": {
+    "label": "Lomma kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001074": {
+    "label": "Svedala kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001082": {
+    "label": "Skurups kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001090": {
+    "label": "Sjöbo kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001108": {
+    "label": "Hörby kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001116": {
+    "label": "Höörs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001124": {
+    "label": "Malmö stad",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001132": {
+    "label": "Lunds kommun",
+    "slug": "lund",
+    "status": "active"
+  },
+  "SE2120001140": {
+    "label": "Landskrona stad",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001157": {
+    "label": "Helsingborgs stad",
+    "slug": "helsingborg",
+    "status": "active"
+  },
+  "SE2120001165": {
+    "label": "Höganäs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001173": {
+    "label": "Eslövs kommun",
+    "slug": "eslov",
+    "status": "active"
+  },
+  "SE2120001181": {
+    "label": "Ystads kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001199": {
+    "label": "Trelleborgs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001207": {
+    "label": "Hylte kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001215": {
+    "label": "Halmstads kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001223": {
+    "label": "Laholms kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001231": {
+    "label": "Falkenbergs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001249": {
+    "label": "Varbergs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001256": {
+    "label": "Kungsbacka kommun",
+    "slug": "kungsbacka",
+    "status": "active"
+  },
+  "SE2120001264": {
+    "label": "Härryda kommun",
+    "slug": "harryda",
+    "status": "active"
+  },
+  "SE2120001272": {
+    "label": "Partille kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001280": {
+    "label": "Öckerö kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001298": {
+    "label": "Stenungsunds kommun",
+    "slug": "stenungsund",
+    "status": "active"
+  },
+  "SE2120001306": {
+    "label": "Tjörns kommun",
+    "slug": "tjorn",
+    "status": "active"
+  },
+  "SE2120001314": {
+    "label": "Orust kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001322": {
+    "label": "Sotenäs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001330": {
+    "label": "Munkedals kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001348": {
+    "label": "Tanums kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001355": {
+    "label": "Göteborgs stad",
+    "slug": "goteborg",
+    "status": "active"
+  },
+  "SE2120001363": {
+    "label": "Mölndals stad",
+    "slug": "molndal",
+    "status": "active"
+  },
+  "SE2120001371": {
+    "label": "Kungälvs kommun",
+    "slug": "kungalv",
+    "status": "active"
+  },
+  "SE2120001389": {
+    "label": "Lysekils kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001397": {
+    "label": "Uddevalla kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001405": {
+    "label": "Strömstads kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001413": {
+    "label": "Dals-Eds kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001421": {
+    "label": "Färgelanda kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001439": {
+    "label": "Ale kommun",
+    "slug": "ale",
+    "status": "active"
+  },
+  "SE2120001447": {
+    "label": "Lerums kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001454": {
+    "label": "Vårgårda kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001462": {
+    "label": "Tranemo kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001470": {
+    "label": "Bengtsfors kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001488": {
+    "label": "Melleruds kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001496": {
+    "label": "Lilla Edets kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001504": {
+    "label": "Marks kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001512": {
+    "label": "Svenljunga kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001520": {
+    "label": "Herrljunga kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001538": {
+    "label": "Vänersborgs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001546": {
+    "label": "Trollhättans stad",
+    "slug": "trollhattan",
+    "status": "active"
+  },
+  "SE2120001553": {
+    "label": "Alingsås kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001561": {
+    "label": "Borås stad",
+    "slug": "boras",
+    "status": "active"
+  },
+  "SE2120001579": {
+    "label": "Ulricehamns kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001587": {
+    "label": "Åmåls kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001595": {
+    "label": "Grästorps kommun",
+    "slug": "grastorp",
+    "status": "active"
+  },
+  "SE2120001603": {
+    "label": "Mullsjö kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001611": {
+    "label": "Habo Kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001629": {
+    "label": "Karlsborgs kommun",
+    "slug": "karlsborg",
+    "status": "active"
+  },
+  "SE2120001637": {
+    "label": "Gullspångs kommun",
+    "slug": "gullspang",
+    "status": "active"
+  },
+  "SE2120001652": {
+    "label": "Götene kommun",
+    "slug": "gotene",
+    "status": "active"
+  },
+  "SE2120001660": {
+    "label": "Tibro kommun",
+    "slug": "tibro",
+    "status": "active"
+  },
+  "SE2120001678": {
+    "label": "Töreboda kommun",
+    "slug": "toreboda",
+    "status": "active"
+  },
+  "SE2120001686": {
+    "label": "Mariestads kommun",
+    "slug": "mariestad",
+    "status": "active"
+  },
+  "SE2120001694": {
+    "label": "Lidköpings kommun",
+    "slug": "lidkoping",
+    "status": "active"
+  },
+  "SE2120001702": {
+    "label": "Skara kommun",
+    "slug": "skara",
+    "status": "active"
+  },
+  "SE2120001710": {
+    "label": "Skövde kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001728": {
+    "label": "Hjo kommun",
+    "slug": "hjo",
+    "status": "active"
+  },
+  "SE2120001736": {
+    "label": "Tidaholms kommun",
+    "slug": "tidaholm",
+    "status": "active"
+  },
+  "SE2120001744": {
+    "label": "Falköpings kommun",
+    "slug": "falkoping",
+    "status": "active"
+  },
+  "SE2120001751": {
+    "label": "Kils kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001769": {
+    "label": "Eda kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001777": {
+    "label": "Torsby kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001785": {
+    "label": "Storfors kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001793": {
+    "label": "Hammarö kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001801": {
+    "label": "Munkfors kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001819": {
+    "label": "Forshaga kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001827": {
+    "label": "Grums kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001835": {
+    "label": "Årjängs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001843": {
+    "label": "Sunne kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001850": {
+    "label": "Karlstads Kommun",
+    "slug": "karlstad",
+    "status": "active"
+  },
+  "SE2120001868": {
+    "label": "Kristinehamns kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001876": {
+    "label": "Filipstads kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001884": {
+    "label": "Hagfors kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001892": {
+    "label": "Arvika kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001900": {
+    "label": "Säffle kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001918": {
+    "label": "Laxå kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001926": {
+    "label": "Hallsbergs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001934": {
+    "label": "Degerfors kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001942": {
+    "label": "Hällefors kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001959": {
+    "label": "Ljusnarsbergs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001967": {
+    "label": "Örebro kommun",
+    "slug": "orebro",
+    "status": "active"
+  },
+  "SE2120001975": {
+    "label": "Kumla kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001983": {
+    "label": "Askersunds kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120001991": {
+    "label": "Karlskoga kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002007": {
+    "label": "Nora kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002015": {
+    "label": "Lindesbergs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002023": {
+    "label": "Skinnskattebergs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002031": {
+    "label": "Surahammars kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002049": {
+    "label": "Heby kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002056": {
+    "label": "Kungsörs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002064": {
+    "label": "Hallstahammars kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002072": {
+    "label": "Norbergs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002080": {
+    "label": "Västerås stad",
+    "slug": "vasteras",
+    "status": "active"
+  },
+  "SE2120002098": {
+    "label": "Sala kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002106": {
+    "label": "Fagersta kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002114": {
+    "label": "Köpings kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002122": {
+    "label": "Arboga kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002130": {
+    "label": "Vansbro kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002148": {
+    "label": "Malung-Sälens kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002155": {
+    "label": "Gagnefs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002163": {
+    "label": "Leksands kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002171": {
+    "label": "Rättviks kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002189": {
+    "label": "Orsa kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002197": {
+    "label": "Älvdalens kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002205": {
+    "label": "Smedjebackens kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002213": {
+    "label": "Mora kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002221": {
+    "label": "Falu kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002239": {
+    "label": "Borlänge kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002247": {
+    "label": "Säters kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002254": {
+    "label": "Hedemora kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002262": {
+    "label": "Avesta kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002270": {
+    "label": "Ludvika kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002288": {
+    "label": "Ockelbo kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002296": {
+    "label": "Hofors kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002304": {
+    "label": "Ovanåkers kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002312": {
+    "label": "Nordanstigs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002320": {
+    "label": "Ljusdals kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002338": {
+    "label": "Gävle kommun",
+    "slug": "gavle",
+    "status": "active"
+  },
+  "SE2120002346": {
+    "label": "Sandvikens kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002353": {
+    "label": "Söderhamns kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002361": {
+    "label": "Bollnäs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002379": {
+    "label": "Hudiksvalls kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002387": {
+    "label": "Ånge kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002395": {
+    "label": "Timrå kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002403": {
+    "label": "Härnösands kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002411": {
+    "label": "Sundsvalls kommun",
+    "slug": "sundsvall",
+    "status": "active"
+  },
+  "SE2120002429": {
+    "label": "Kramfors kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002437": {
+    "label": "Sollefteå kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002445": {
+    "label": "Örnsköldsviks kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002452": {
+    "label": "Ragunda kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002460": {
+    "label": "Bräcke kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002478": {
+    "label": "Krokoms kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002486": {
+    "label": "Strömsunds kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002494": {
+    "label": "Åre kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002502": {
+    "label": "Bergs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002510": {
+    "label": "Härjedalens kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002528": {
+    "label": "Östersunds kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002536": {
+    "label": "Nordmalings kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002544": {
+    "label": "Vindelns kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002551": {
+    "label": "Robertsfors kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002577": {
+    "label": "Storumans kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002585": {
+    "label": "Sorsele kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002601": {
+    "label": "Vilhelmina kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002627": {
+    "label": "Umeå kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002635": {
+    "label": "Lycksele kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002643": {
+    "label": "Skellefteå kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002650": {
+    "label": "Arvidsjaurs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002668": {
+    "label": "Arjeplogs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002676": {
+    "label": "Jokkmokks kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002684": {
+    "label": "Överkalix kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002692": {
+    "label": "Kalix kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002700": {
+    "label": "Övertorneå kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002718": {
+    "label": "Pajala kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002726": {
+    "label": "Gällivare kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002734": {
+    "label": "Älvsbyns kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002742": {
+    "label": "Luleå kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002759": {
+    "label": "Piteå kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002767": {
+    "label": "Bodens kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002775": {
+    "label": "Haparanda kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002783": {
+    "label": "Kiruna kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002791": {
+    "label": "Åsele kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002809": {
+    "label": "Dorotea kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002817": {
+    "label": "Motala kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002825": {
+    "label": "Vadstena kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002833": {
+    "label": "Bjurholms kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002841": {
+    "label": "Vännäs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002858": {
+    "label": "Norsjö kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002866": {
+    "label": "Malå kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002874": {
+    "label": "Salems kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002882": {
+    "label": "Botkyrka kommun",
+    "slug": "botkyrka",
+    "status": "active"
+  },
+  "SE2120002890": {
+    "label": "Österåkers kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002908": {
+    "label": "Vaxholms stad",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002916": {
+    "label": "Essunga kommun",
+    "slug": "essunga",
+    "status": "active"
+  },
+  "SE2120002924": {
+    "label": "Vara kommun",
+    "slug": "vara",
+    "status": "active"
+  },
+  "SE2120002940": {
+    "label": "Nyköpings kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002957": {
+    "label": "Trosa kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002965": {
+    "label": "Gnesta kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002973": {
+    "label": "Bollebygds kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002981": {
+    "label": "Lekebergs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120002999": {
+    "label": "Nykvarns kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120003005": {
+    "label": "Uppsala kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2120003013": {
+    "label": "Knivsta kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000117": {
+    "label": "Käppalaförbundet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000158": {
+    "label": "Kommunalförbundet Norrvatten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000182": {
+    "label": "Novf",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000224": {
+    "label": "Nordvästra Skånes Kommunalförbund",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2220000265": {
+    "label": "Göteborgsregionens Kommunalförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000281": {
+    "label": "Kommunalförbundet Skaraborgsvatten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000299": {
+    "label": "Karlstad-Grums Vattenverksförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000315": {
+    "label": "Sveriges Kommuner och Regioner",
+    "slug": "skr",
+    "status": "active"
+  },
+  "SE2220000323": {
+    "label": "Vårdförbundet Sörmland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000331": {
+    "label": "Västerbottens Vårdförbund",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2220000356": {
+    "label": "Storstockholms Brandförsvar",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000406": {
+    "label": "Värmlands Läns Vårdförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000422": {
+    "label": "Medelpads Räddningstjänstförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000448": {
+    "label": "Storsthlm",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000687": {
+    "label": "Vob Kronoberg",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000711": {
+    "label": "Kommunsamverkan Cura Individutveckling",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000737": {
+    "label": "Södertörns Brandförsvarsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000745": {
+    "label": "Kolbäcksådalens Pensionsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000752": {
+    "label": "Räddningstjänstförbundet Storgöteborg",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000760": {
+    "label": "Lapplands Kommunalförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000778": {
+    "label": "Gästrike Räddningstjänst",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000786": {
+    "label": "Tornedalsrådet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000802": {
+    "label": "Västerbergslagens Utbildningsförbund,Vbu",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000810": {
+    "label": "Södra Älvsborgs Räddningstjänstförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000877": {
+    "label": "Dalsland Miljö- och energiförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000919": {
+    "label": "Bergslagens Räddningstjänst",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000935": {
+    "label": "Räddningstjänsten Västra Blekinge",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000943": {
+    "label": "Kommunalförbundet Av Media Skåne",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000950": {
+    "label": "Räddningstjänsten Fyrbodal",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220000976": {
+    "label": "Brandkåren Attunda",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001008": {
+    "label": "Sjuhärads Kommunalförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001016": {
+    "label": "Nerikes Brandkår",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001024": {
+    "label": "Utbildningsförbundet Solna/Sundbyberg",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2220001057": {
+    "label": "Kommunalförbundet Västmanlands Teater",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001065": {
+    "label": "Södra Dalarnas Räddningstjänstförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001073": {
+    "label": "Västmanlandsmusiken",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001099": {
+    "label": "Räddningstjänsten Dala Mitt",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001115": {
+    "label": "Räddningstjänsten Skaraborg",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001131": {
+    "label": "Kommunalförbundet Västra Sörmlands Räddningstjän",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001149": {
+    "label": "Sydöstra Skånes Räddningstjänstförbund-Sörf",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001172": {
+    "label": "Arkivnämnden F V Götalandsregionen Och Göteborg",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001180": {
+    "label": "Sydnärkes Utbildningsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001206": {
+    "label": "Kommunalförbundet Avfall & Återvinning Skaraborg",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001230": {
+    "label": "Karlstadsregionens Räddningstjänstförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001255": {
+    "label": "Kommunalförbundet Räddningstjänsten Ö Blekinge",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001271": {
+    "label": "Räddningstjänsten Mälardalen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001289": {
+    "label": "Kommunalförbundet Partnerskap Inland-Akademi N",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001313": {
+    "label": "Kommunalförbundet Norrlands Nätverk För Musikteater Och Dans (Nmd)",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001339": {
+    "label": "Gästrike Återvinnare",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001354": {
+    "label": "Räddningstjänsten Höga Kusten-Ådalen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001388": {
+    "label": "Höglandets Räddningstjänstförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001396": {
+    "label": "Värends Räddningstjänstförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001404": {
+    "label": "Värmlands Läns Kalkningsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001412": {
+    "label": "Höglandsförbundet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001420": {
+    "label": "Region Halland",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2220001479": {
+    "label": "Kommunalförb.Räddningstjänsten Östra Kronoberg",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001487": {
+    "label": "Samhällsbyggnadsförbundet Bergslagen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001529": {
+    "label": "Region Siljan",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2220001552": {
+    "label": "Norra Västmanlands Kommunalteknikförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001560": {
+    "label": "Jämtlands Räddningstjänstförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001578": {
+    "label": "Västra Mälardalens Kommunalförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001594": {
+    "label": "Kommunalförbundet Medelpunkten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001602": {
+    "label": "Göliska It",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001636": {
+    "label": "Jämtlands Gymnasieförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001644": {
+    "label": "Miljöförbundet Blekinge Väst",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001651": {
+    "label": "Norra Sjukvårdsregionförbundet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001701": {
+    "label": "Samordningsförbundet Östra Östergötland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001719": {
+    "label": "Samordningsförbundet Södra Vänern",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001727": {
+    "label": "Södra Dalarnas Samordningsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001735": {
+    "label": "Västerbergslagens Samordningsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001743": {
+    "label": "Samordningsförbundet I Kramfors",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001750": {
+    "label": "Samordningsförbundet Västra Östergötland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001768": {
+    "label": "Samordningsförbundet I Sundsvall",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001776": {
+    "label": "Fyrbodals Kommunalförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001784": {
+    "label": "Samordningsförbundet Lycksele",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001792": {
+    "label": "Samordningsförbundet Sörmland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001800": {
+    "label": "Västra Värmlands Och Norra Dalslands Samordningsförbund",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2220001818": {
+    "label": "Samordningsförbundet I Norra Örebro Län, Sofint",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001826": {
+    "label": "Mediacenter Jönköpings län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001834": {
+    "label": "Samordningsförbundet Umeåregionen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001859": {
+    "label": "Samordningsförbundet I Kalmar Län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001883": {
+    "label": "Kretslopp Sydost",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001891": {
+    "label": "Kommunalförbundet Sjukvård och Omsorg i Norrtälje",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001909": {
+    "label": "Räddningstjänsten Syd",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001925": {
+    "label": "Samordningsförbund För Rehabilitering I Södertälje",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001933": {
+    "label": "Samordningsförbundet Skellefteå",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001941": {
+    "label": "Samordningsförbundet Älv & Kust",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001966": {
+    "label": "Samordningsförbundet Berg",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2220001974": {
+    "label": "Samordningsförbundet Västmanland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001982": {
+    "label": "Samordningsförbundet I Sollefteå",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220001990": {
+    "label": "Samordningsförbundet I Jämtlands Län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002030": {
+    "label": "Samordningsförbundet Väst",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002055": {
+    "label": "Samordningsförbundet Härnösand-Timrå",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002063": {
+    "label": "Samordningsförbundet I Örnsköldsvik",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002071": {
+    "label": "Samordningsförbundet Insjöriket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002097": {
+    "label": "Kommunalförbundet Skandionkliniken",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002105": {
+    "label": "Sjuhärads Samordningsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002113": {
+    "label": "Samordningsförbundet Åre Kommun",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2220002139": {
+    "label": "Samordningsförbundet Finsam-Falun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002147": {
+    "label": "Sunnerbo Samordningsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002154": {
+    "label": "Samordningsförbundet Skaraborg",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002162": {
+    "label": "Samordningsförbundet Östra Södertörn",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002188": {
+    "label": "Skaraborgs Kommunalförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002204": {
+    "label": "Samordningsförbundet Södra Norrbotten",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2220002279": {
+    "label": "Samordningsförbundet Karlskoga/Degerfors i Örebro län",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2220002295": {
+    "label": "Samordningsförbundet FINSAM i Malmö",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002329": {
+    "label": "NedanSiljans Samordningsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002337": {
+    "label": "Klarälvdalens Samordningsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002352": {
+    "label": "Samordningsförbundet Östra Värmland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002378": {
+    "label": "Va Syd",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002394": {
+    "label": "Samordningsförbundet Gotland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002410": {
+    "label": "Räddningstjänsten Enköping-Håbo",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002428": {
+    "label": "Samordningsförbundet Södra Vätterbygden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002444": {
+    "label": "Södertörns Miljö-Och Hälsoskyddsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002451": {
+    "label": "Samordningsförbundet i Blekinge län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002477": {
+    "label": "Samordningsförbundet Samspelet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002485": {
+    "label": "Samordningsförbundet Centrala Östergötland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002493": {
+    "label": "Finsam Lekeberg Och Örebro",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002535": {
+    "label": "Alingsås och Vårgårda räddningstjänstförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002543": {
+    "label": "Kommunalförbundet Hälsingland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002550": {
+    "label": "Fryksdalens samordningsförbund",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2220002568": {
+    "label": "Finsam Västerdalarna",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002576": {
+    "label": "Samordningsförbundet Uppsala Län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002584": {
+    "label": "Kommunalförbundet ITSAM",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002600": {
+    "label": "Samordningsförbundet Sydnärke",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2220002618": {
+    "label": "Sydöstra Skånes Samordningsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002626": {
+    "label": "Ystad-Österlenregionens Miljöförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002634": {
+    "label": "Samordningsförbundet Värend",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002642": {
+    "label": "Söderåsens Samordningsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002667": {
+    "label": "Samordningsförbundet I Svedala",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002675": {
+    "label": "Söderåsens Miljöförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002683": {
+    "label": "Samordningsförbundet VärNa",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002709": {
+    "label": "Kommunalförbundet För Fastigheten St Retered",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2220002717": {
+    "label": "Samordningsförbundet Helsingborg",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002725": {
+    "label": "Samordningsförbundet i Trelleborgs kommun",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002733": {
+    "label": "Samordningsförbundet Landskrona - Svalöv",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002758": {
+    "label": "Kommunalförbundet Räddningstjänsten Östra Götaland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002766": {
+    "label": "Lunds Samordningsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002790": {
+    "label": "Samordningsförbundet Skåne Nordost",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002857": {
+    "label": "Samordningsförbundet i Halland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002865": {
+    "label": "Miljösamverkan Östra Skaraborg",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002873": {
+    "label": "Finnvedens Samordningsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002881": {
+    "label": "Västra Mälardalens Myndighetsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002907": {
+    "label": "Höglandets Samordningsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002915": {
+    "label": "Samordningsförbundet MittSkåne",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002923": {
+    "label": "Kommunalförbundet Kollektivtrafikmyndigheten i Västernorrlands län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002949": {
+    "label": "Kommunalförbundet Norrbottens läns kollektivtrafikmyndighet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002956": {
+    "label": "Finsam Sydväst",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002964": {
+    "label": "Räddningstjänsten Väst",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002972": {
+    "label": "Tolkförmedling Väst",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220002998": {
+    "label": "Kunskapsförbundet Väst",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003004": {
+    "label": "Bohus Räddningstjänstförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003020": {
+    "label": "Samordningsförbundet Botkyrka, Huddinge och Salem",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003038": {
+    "label": "Norra Dalarnas Finsamförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003046": {
+    "label": "Norra Mälaren kulturintegration Kommunalförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003053": {
+    "label": "Skärgårdsutveckling Kommunalförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003061": {
+    "label": "Svensk Luftambulans",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003079": {
+    "label": "Samordningsförbundet Roslagen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003087": {
+    "label": "Räddningstjänsten Skåne Nordväst",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003095": {
+    "label": "Sydnärkes kommunalförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003103": {
+    "label": "Kommunalförbundet SYDARKIVERA",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003111": {
+    "label": "Hälsinglands Utbildningsförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003129": {
+    "label": "Vafabmiljö kommunalförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003137": {
+    "label": "Samordningsförbundet Gävleborg",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003152": {
+    "label": "Kommunalförbundet Svenskt Ambulansflyg",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003178": {
+    "label": "Samordningsförbundet Stockholms Stad",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003186": {
+    "label": "Samordningsförbundet Ånge",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003202": {
+    "label": "Konstmuseet i Norr",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003228": {
+    "label": "Samverkan Återvinning och Miljö",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003236": {
+    "label": "Samordningsförbundet Sollentuna- Upplands Väsby-Sigtuna",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003244": {
+    "label": "Samordningsförbundet NNV Skåne",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003251": {
+    "label": "Samordningsförbundet Samsund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003269": {
+    "label": "Brandkåren Norra Dalarna",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003277": {
+    "label": "Lystkom",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003285": {
+    "label": "Samordningsförbundet Göteborg",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003293": {
+    "label": "Södra Lapplands Gymnasieförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003301": {
+    "label": "Räddningstjänsten Sydost",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003319": {
+    "label": "Kommunalförbundet Swearkivera",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2220003327": {
+    "label": "Kommunalförbundet Räddningstjänsten Blekinge",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000016": {
+    "label": "Region Stockholm",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000024": {
+    "label": "Region Uppsala",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000032": {
+    "label": "Region Sörmland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000040": {
+    "label": "Region Östergötland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000057": {
+    "label": "Region Jönköpings län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000065": {
+    "label": "Region Kronoberg",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000073": {
+    "label": "Region Kalmar län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000081": {
+    "label": "Region Blekinge",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000115": {
+    "label": "Region Halland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000131": {
+    "label": "Västra Götalandsregionen",
+    "slug": "vgregion",
+    "status": "active"
+  },
+  "SE2321000156": {
+    "label": "Region Värmland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000164": {
+    "label": "Region Örebro län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000172": {
+    "label": "Region Västmanland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000180": {
+    "label": "Region Dalarna",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000198": {
+    "label": "Region Gävleborg",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000206": {
+    "label": "Region Västernorrland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000214": {
+    "label": "Region Jämtland Härjedalen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000222": {
+    "label": "Västerbottens läns landsting",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000230": {
+    "label": "Region Norrbotten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2321000255": {
+    "label": "Region Skåne",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2520026135": {
+    "label": "Svenska kyrkan",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000022": {
+    "label": "Hushållningssällskapet I Sth:S O Uppsala Län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000048": {
+    "label": "Hushållningssällskapet I Östergötlands Län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000055": {
+    "label": "Hushållningssällskapet I Jkpgs Län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000071": {
+    "label": "Hushållningssällskapet Kalmar-Kronoberg-Blekinge",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000089": {
+    "label": "Hushållningssällskapet Gotland",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000105": {
+    "label": "Hushållningssällskapet Skåne",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000113": {
+    "label": "Hushållningssällskapet Malmöhus",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2620000121": {
+    "label": "Hushållningssällskapet I Hallands Län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000147": {
+    "label": "Hushållningssällskapet Väst",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000154": {
+    "label": "Hushållningssällskapet Sjuhärad",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000162": {
+    "label": "Hushållningssällskapet Västra",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000170": {
+    "label": "Värmlands Läns Hushållningssällskap",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2620000188": {
+    "label": "Örebro Läns Hushållningssällskap",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000196": {
+    "label": "Västmanlands Läns Hushållningssällskap",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000212": {
+    "label": "Hushållningssällskapet Dalarna Gävleborg",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000220": {
+    "label": "Hushållningssällskapet I Västernorrlands Län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000238": {
+    "label": "Hushållningssällskapet I Jämtlands Län",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000253": {
+    "label": "Hushållningssällskapet I Norrbotten-Västerbotten",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000261": {
+    "label": "Stockholms Handelskammare",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000279": {
+    "label": "Östsvenska Handelskammaren",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000295": {
+    "label": "Gotlands Handelskammare",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2620000303": {
+    "label": "Sydsvenska Industri- Och Handelskammaren",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000311": {
+    "label": "Föreningen Västsvenska Handelskammaren",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000337": {
+    "label": "Handelskammaren Mälardalen För Örebro Och Västma",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000345": {
+    "label": "Mellansvenska Handelskammaren",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000352": {
+    "label": "Fören. Av Mittsv:S Industri- O Handelskammare",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000675": {
+    "label": "Sveriges Advokatsamfund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000782": {
+    "label": "Värmlands Nation",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2620000907": {
+    "label": "Blekinge Nation",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620000931": {
+    "label": "Kalmar Nation",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620001046": {
+    "label": "Svenska Skeppshypotekskassan",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620001095": {
+    "label": "Norrbottens Handelskammare",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2620001103": {
+    "label": "Handelskammareföreningen I Västerbotten",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2620001111": {
+    "label": "Svenska Akademien",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620001129": {
+    "label": "Kungliga Vetenskapsakademien",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620001145": {
+    "label": "Kungl Skogs- Och Lantbruksakademien",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620001152": {
+    "label": "Kungl Krigsvetenskapsakademien Kkrva",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620001160": {
+    "label": "Kungl.Ingenjörsvetenskapsakademien Iva",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620001178": {
+    "label": "Kungl Gustav Adolfs Akademien",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620001186": {
+    "label": "Kungl. Akademien för de fria konsterna",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620001194": {
+    "label": "Sveriges Export- Och Investeringsråd",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620001467": {
+    "label": "Nämnden F Utg Av Förvalt.Rättsliga Publikationer",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620001566": {
+    "label": "Nordiska Musikkommittén",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE2620001582": {
+    "label": "Zornsamlingarna",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620001590": {
+    "label": "Nordregio",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620001608": {
+    "label": "Nordens välfärdscenter",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620001673": {
+    "label": "Nordiskt Genresurscenter",
+    "slug": "",
+    "status": "active"
+  },
+  "SE2620001681": {
+    "label": "Finsk-svenska gränsälvskommissionen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5560334285": {
+    "label": "Sveriges Television AB",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5560599473": {
+    "label": "Systembolaget",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5560706060": {
+    "label": "E.ON Energidistribution AB",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5561009852": {
+    "label": "Kraftringen Energi AB (publ)",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5561162446": {
+    "label": "IVL Svenska Miljöinstitutet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5561213066": {
+    "label": "IMU-Testologen AB",
+    "slug": "",
+    "status": "unknown"
+  },
+  "SE5561386532": {
+    "label": "Apoteket",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5561595819": {
+    "label": "SOS Alarm",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5561848564": {
+    "label": "Scania CV AB",
+    "slug": "",
+    "status": "deregistered"
+  },
+  "SE5563108942": {
+    "label": "Arkeologikonsult",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5563626794": {
+    "label": "Göteborg Energi AB",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5564193232": {
+    "label": "Sveriges Radio",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5564646874": {
+    "label": "RISE",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5564677598": {
+    "label": "Samtrafiken i Sverige AB",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5564795598": {
+    "label": "Chalmers tekniska högskola",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5565007621": {
+    "label": "Visit Sweden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5565506309": {
+    "label": "Sokigo AB",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5565581757": {
+    "label": "Telge Nät AB",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5565582185": {
+    "label": "Statisticon",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5565585873": {
+    "label": "Västtrafik AB",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5565656864": {
+    "label": "Västerbergslagens Elnät AB",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5566885280": {
+    "label": "Marie Cederschiöld högskola",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5567409817": {
+    "label": "Macrobond Financial",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5567679849": {
+    "label": "Sweco Sverige",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5567992242": {
+    "label": "Metria AB",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5568540701": {
+    "label": "MetaSolutions AB",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5569478968": {
+    "label": "Enskilda Högskolan Stockholm",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5569905747": {
+    "label": "Greensway AB",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5590672142": {
+    "label": "IT kommuner i Skåne AB",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5590719547": {
+    "label": "RVSMR AB",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5592038961": {
+    "label": "Demoskop",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5592526700": {
+    "label": "Greensway Digital AB",
+    "slug": "",
+    "status": "active"
+  },
+  "SE5594650037": {
+    "label": "Varberg Energi AB",
+    "slug": "",
+    "status": "active"
+  },
+  "SE7682000018": {
+    "label": "European Spallation Source ERIC",
+    "slug": "",
+    "status": "active"
+  },
+  "SE7696046924": {
+    "label": "Biometria",
+    "slug": "",
+    "status": "active"
+  },
+  "SE7696081087": {
+    "label": "Miljöfordon Sverige",
+    "slug": "",
+    "status": "active"
+  },
+  "SE7696282735": {
+    "label": "ElectriCITY Innovation ekonomisk förening",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8020005461": {
+    "label": "Centralförbundet för alkohol- och narkotikaupplysning (CAN)",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8020021500": {
+    "label": "Svensk Kollektivtrafik",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8020024686": {
+    "label": "Nordiska museet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8020028166": {
+    "label": "Riksidrottsförbundet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8020051952": {
+    "label": "Fjärde AP-fonden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8020057538": {
+    "label": "Första ap-fonden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8020060912": {
+    "label": "Nordiska Skattevetenskapliga Forskningsrådet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8020061365": {
+    "label": "Riksteatern",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8020062074": {
+    "label": "Handelshögskolan i Stockholm",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8020062660": {
+    "label": "Stockholms internationella fredsforskningsinstitut",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8020068741": {
+    "label": "Sophiahemmet högskola",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8020120948": {
+    "label": "Stiftelsen Stockholms läns Äldrecentrum",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8020133198": {
+    "label": "Institutet för framtidsstudier",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8020144120": {
+    "label": "Tredje AP-fonden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8024041769": {
+    "label": "Ekomatcentrum",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8024050190": {
+    "label": "Internetstiftelsen",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8024062302": {
+    "label": "Sjunde AP-fonden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8024076468": {
+    "label": "Handelsrådet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8024195029": {
+    "label": "Arbetslivsinstitutet",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8024256052": {
+    "label": "FoU Spenshult",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8024282785": {
+    "label": "Sambruk",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8024305370": {
+    "label": "Rådet för främjande av kommunala analyser",
+    "slug": "rka",
+    "status": "active"
+  },
+  "SE8176021825": {
+    "label": "STUNS",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8176029786": {
+    "label": "Skogforsk",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8176053182": {
+    "label": "Societas Archaeologica Upsaliensis",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8260017333": {
+    "label": "Jönköping University",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8324016453": {
+    "label": "Kalmarsunds Gymnasieförbund",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8350006113": {
+    "label": "Blekinge museum",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8460010161": {
+    "label": "Avfall Sverige",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8460024832": {
+    "label": "World Maritime University",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8551040721": {
+    "label": "Sjätte ap-fonden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8572090606": {
+    "label": "Andra AP-fonden",
+    "slug": "",
+    "status": "active"
+  },
+  "SE8985005183": {
+    "label": "Svenskt Fjäll- och Samemuseum",
+    "slug": "",
+    "status": "active"
+  },
+  "wikidata:Q1472929": {
+    "label": "Nasdaq, Inc.",
+    "slug": "",
+    "status": "active"
+  },
+  "wikidata:Q1509446": {
+    "label": "National Bureau of Statistics of China",
+    "slug": "",
+    "status": "active"
+  },
+  "wikidata:Q217659": {
+    "label": "Eurostat",
+    "slug": "",
+    "status": "active"
+  },
+  "wikidata:Q2367019": {
+    "label": "Statistisk sentralbyrå",
+    "slug": "",
+    "status": "active"
+  },
+  "wikidata:Q309195": {
+    "label": "Bank for International Settlements",
+    "slug": "",
+    "status": "active"
+  },
+  "wikidata:Q41550": {
+    "label": "OECD",
+    "slug": "",
+    "status": "active"
+  },
+  "wikidata:Q53536": {
+    "label": "Federal Reserve System",
+    "slug": "",
+    "status": "active"
+  },
+  "wikidata:Q60741469": {
+    "label": "Refinitiv",
+    "slug": "",
+    "status": "active"
+  },
+  "wikidata:Q7804": {
+    "label": "International Monetary Fund",
+    "slug": "",
+    "status": "active"
+  },
+  "wikidata:Q8901": {
+    "label": "European Central Bank",
+    "slug": "",
+    "status": "active"
+  }
+}

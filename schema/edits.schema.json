@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Edits",
+  "description": "The one hand file. Catalog records no register gives, and patches to records a register gives.",
+  "type": "object",
+  "required": ["catalog"],
+  "additionalProperties": false,
+  "properties": {
+    "catalog": {"type": "object", "additionalProperties": {"type": "object", "description": "A full record or a patch, keyed by catalog id. May set any catalog field except id, source and status. label and identifier merge per key; endpoint merges per (protocol, url); same_as is a union; other fields override."}},
+    "ignore": {"type": "array", "items": {"type": "string"}, "description": "Catalog ids or URLs a register offers that are not catalogs: dead registrations, duplicates, test installs."}
+  }
+}

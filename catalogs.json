@@ -1,0 +1,1706 @@
+{
+  "catalog": {
+    "api.kolada.se": {
+      "endpoint": [
+        {
+          "protocol": "kolada_v3",
+          "url": "https://api.kolada.se/v3"
+        }
+      ],
+      "id": "api.kolada.se",
+      "label": {
+        "sv": "Kolada"
+      },
+      "owner": "SE8024305370",
+      "software": "custom",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "indicator_database"
+    },
+    "api.riksbank.se": {
+      "endpoint": [
+        {
+          "protocol": "riksbank",
+          "url": "https://api.riksbank.se"
+        }
+      ],
+      "id": "api.riksbank.se",
+      "label": {
+        "sv": "Riksbankens API"
+      },
+      "owner": "SE2021002684",
+      "software": "custom",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "api"
+    },
+    "api.trafa.se": {
+      "endpoint": [
+        {
+          "protocol": "trafa",
+          "url": "https://api.trafa.se/api"
+        }
+      ],
+      "id": "api.trafa.se",
+      "label": {
+        "sv": "Trafikanalys statistikdatabas"
+      },
+      "owner": "SE2021006305",
+      "software": "custom",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "catalog.ale.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.ale.se"
+        }
+      ],
+      "id": "catalog.ale.se",
+      "label": {
+        "sv": "Ale kommuns öppna data"
+      },
+      "owner": "SE2120001439",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.boras.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.boras.se"
+        }
+      ],
+      "id": "catalog.boras.se",
+      "label": {
+        "sv": "Borås stads öppna data"
+      },
+      "owner": "SE2120001561",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.digg.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.digg.se"
+        }
+      ],
+      "id": "catalog.digg.se",
+      "label": {
+        "sv": "DIGG:s datakatalog"
+      },
+      "owner": "SE2021006883",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.eslov.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.eslov.se"
+        }
+      ],
+      "id": "catalog.eslov.se",
+      "label": {
+        "sv": "Eslövs kommuns öppna data"
+      },
+      "owner": "SE2120001173",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.essunga.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.essunga.se"
+        }
+      ],
+      "id": "catalog.essunga.se",
+      "label": {
+        "sv": "Essunga kommuns öppna data"
+      },
+      "owner": "SE2120002916",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.falkoping.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.falkoping.se"
+        }
+      ],
+      "id": "catalog.falkoping.se",
+      "label": {
+        "sv": "Falköpings kommuns öppna data"
+      },
+      "owner": "SE2120001744",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.gavle.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.gavle.se"
+        }
+      ],
+      "id": "catalog.gavle.se",
+      "label": {
+        "sv": "Gävle kommuns öppna data"
+      },
+      "owner": "SE2120002338",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.goteborg.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.goteborg.se"
+        }
+      ],
+      "id": "catalog.goteborg.se",
+      "label": {
+        "sv": "Göteborgs Stads öppna data"
+      },
+      "owner": "SE2120001355",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.gotene.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.gotene.se"
+        }
+      ],
+      "id": "catalog.gotene.se",
+      "label": {
+        "sv": "Götene kommuns öppna data"
+      },
+      "owner": "SE2120001652",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.grastorp.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.grastorp.se"
+        }
+      ],
+      "id": "catalog.grastorp.se",
+      "label": {
+        "sv": "Grästorps kommuns öppna data"
+      },
+      "owner": "SE2120001595",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.gullspang.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.gullspang.se"
+        }
+      ],
+      "id": "catalog.gullspang.se",
+      "label": {
+        "sv": "Gullspångs kommuns öppna data"
+      },
+      "owner": "SE2120001637",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.harryda.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.harryda.se"
+        }
+      ],
+      "id": "catalog.harryda.se",
+      "label": {
+        "sv": "Härryda kommuns öppna data"
+      },
+      "owner": "SE2120001264",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.hjo.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.hjo.se"
+        }
+      ],
+      "id": "catalog.hjo.se",
+      "label": {
+        "sv": "Hjo kommuns öppna data"
+      },
+      "owner": "SE2120001728",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.iaf.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.iaf.se"
+        }
+      ],
+      "id": "catalog.iaf.se",
+      "label": {
+        "sv": "IAF:s öppna data"
+      },
+      "owner": "SE2021005414",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.karlsborg.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.karlsborg.se"
+        }
+      ],
+      "id": "catalog.karlsborg.se",
+      "label": {
+        "sv": "Karlsborgs kommuns öppna data"
+      },
+      "owner": "SE2120001629",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.kungalv.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.kungalv.se"
+        }
+      ],
+      "id": "catalog.kungalv.se",
+      "label": {
+        "sv": "Kungälvs kommuns öppna data"
+      },
+      "owner": "SE2120001371",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.lansstyrelsen.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.lansstyrelsen.se"
+        }
+      ],
+      "id": "catalog.lansstyrelsen.se",
+      "label": {
+        "sv": "Länsstyrelsernas datakatalog"
+      },
+      "owner": "SE2021002361-LST",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.lidkoping.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.lidkoping.se"
+        }
+      ],
+      "id": "catalog.lidkoping.se",
+      "label": {
+        "sv": "Lidköpings kommuns öppna data"
+      },
+      "owner": "SE2120001694",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.mariestad.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.mariestad.se"
+        }
+      ],
+      "id": "catalog.mariestad.se",
+      "label": {
+        "sv": "Mariestads kommuns öppna data"
+      },
+      "owner": "SE2120001686",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.molndal.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.molndal.se"
+        }
+      ],
+      "id": "catalog.molndal.se",
+      "label": {
+        "sv": "Mölndals stads öppna data"
+      },
+      "owner": "SE2120001363",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.raa.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.raa.se"
+        }
+      ],
+      "id": "catalog.raa.se",
+      "label": {
+        "sv": "Riksantikvarieämbetets öppna data"
+      },
+      "owner": "SE2021001090",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.skara.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.skara.se"
+        }
+      ],
+      "id": "catalog.skara.se",
+      "label": {
+        "sv": "Skara kommuns öppna data"
+      },
+      "owner": "SE2120001702",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.skl.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.skl.se"
+        }
+      ],
+      "id": "catalog.skl.se",
+      "label": {
+        "sv": "SKR:s datakatalog"
+      },
+      "owner": "SE2220000315",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.sodertalje.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.sodertalje.se"
+        }
+      ],
+      "id": "catalog.sodertalje.se",
+      "label": {
+        "sv": "Södertälje kommuns öppna data"
+      },
+      "owner": "SE2120000159",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.stenungsund.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.stenungsund.se"
+        }
+      ],
+      "id": "catalog.stenungsund.se",
+      "label": {
+        "sv": "Stenungsunds kommuns öppna data"
+      },
+      "owner": "SE2120001298",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.tibro.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.tibro.se"
+        }
+      ],
+      "id": "catalog.tibro.se",
+      "label": {
+        "sv": "Tibro kommuns öppna data"
+      },
+      "owner": "SE2120001660",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.tidaholm.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.tidaholm.se"
+        }
+      ],
+      "id": "catalog.tidaholm.se",
+      "label": {
+        "sv": "Tidaholms kommuns öppna data"
+      },
+      "owner": "SE2120001736",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.tjorn.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.tjorn.se"
+        }
+      ],
+      "id": "catalog.tjorn.se",
+      "label": {
+        "sv": "Tjörns kommuns öppna data"
+      },
+      "owner": "SE2120001306",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.toreboda.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.toreboda.se"
+        }
+      ],
+      "id": "catalog.toreboda.se",
+      "label": {
+        "sv": "Töreboda kommuns öppna data"
+      },
+      "owner": "SE2120001678",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.trollhattan.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.trollhattan.se"
+        }
+      ],
+      "id": "catalog.trollhattan.se",
+      "label": {
+        "sv": "Trollhättans Stads öppna data"
+      },
+      "owner": "SE2120001546",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.upphandlingsmyndigheten.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.upphandlingsmyndigheten.se"
+        }
+      ],
+      "id": "catalog.upphandlingsmyndigheten.se",
+      "label": {
+        "sv": "Upphandlingsmyndighetens datakatalog"
+      },
+      "owner": "SE2021006610",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "catalog.vara.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://catalog.vara.se"
+        }
+      ],
+      "id": "catalog.vara.se",
+      "label": {
+        "sv": "Vara kommuns öppna data"
+      },
+      "owner": "SE2120002924",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "data.botkyrka.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://data.botkyrka.se"
+        }
+      ],
+      "id": "data.botkyrka.se",
+      "label": {
+        "sv": "Botkyrka kommuns öppna data"
+      },
+      "owner": "SE2120002882",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "data.tomelilla.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://data.tomelilla.se"
+        }
+      ],
+      "id": "data.tomelilla.se",
+      "label": {
+        "sv": "Tomelilla kommuns öppna data"
+      },
+      "owner": "SE2120000886",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "dataanalys.socialstyrelsen.se": {
+      "endpoint": [
+        {
+          "protocol": "socialstyrelsen_dataanalys",
+          "url": "https://dataanalys.socialstyrelsen.se/api/v1"
+        }
+      ],
+      "id": "dataanalys.socialstyrelsen.se",
+      "label": {
+        "sv": "Socialstyrelsen"
+      },
+      "owner": "SE2021000555",
+      "software": "custom",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "ei.entryscape.net": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://ei.entryscape.net"
+        }
+      ],
+      "id": "ei.entryscape.net",
+      "label": {
+        "sv": "Energimarknadsinspektionens öppna data"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2021005695",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "eskilstuna.entryscape.net": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://eskilstuna.entryscape.net"
+        }
+      ],
+      "id": "eskilstuna.entryscape.net",
+      "label": {
+        "sv": "Eskilstuna kommuns öppna data"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2120000357",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "fohm-app.folkhalsomyndigheten.se/folkhalsodata": {
+      "endpoint": [
+        {
+          "language": [
+            "sv",
+            "en"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://fohm-app.folkhalsomyndigheten.se/Folkhalsodata/api/v1"
+        }
+      ],
+      "homepage": "https://fohm-app.folkhalsomyndigheten.se/Folkhalsodata/pxweb",
+      "id": "fohm-app.folkhalsomyndigheten.se/folkhalsodata",
+      "label": {
+        "sv": "Folkhälsodata"
+      },
+      "owner": "SE2021006545",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "forsakringskassan.se/sprstatistikrapportera": {
+      "endpoint": [
+        {
+          "protocol": "forsakringskassan",
+          "url": "https://www.forsakringskassan.se/api/sprstatistikrapportera/public/v1"
+        }
+      ],
+      "id": "forsakringskassan.se/sprstatistikrapportera",
+      "label": {
+        "sv": "Försäkringskassans statistik-API"
+      },
+      "owner": "SE2021005521",
+      "software": "custom",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "api"
+    },
+    "free.entryscape.com": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://free.entryscape.com"
+        }
+      ],
+      "id": "free.entryscape.com",
+      "label": {
+        "en": "EntryScape Free",
+        "sv": "EntryScape Free"
+      },
+      "note": "Shared hosting: many publishers in one install, each in its own context. The federated catalogs on dataportal.se say which.",
+      "owner": "SE5568540701",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "haninge.entryscape.net": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://haninge.entryscape.net"
+        }
+      ],
+      "id": "haninge.entryscape.net",
+      "label": {
+        "sv": "Haninge kommuns öppna data"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2120000084",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "hvduppdrag.scb.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://hvduppdrag.scb.se/api/v1"
+        }
+      ],
+      "homepage": "https://hvduppdrag.scb.se/pxweb",
+      "id": "hvduppdrag.scb.se",
+      "label": {
+        "sv": "SCB HVD-uppdrag"
+      },
+      "owner": "SE2021000837",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "katalog.lund.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://katalog.lund.se"
+        }
+      ],
+      "id": "katalog.lund.se",
+      "label": {
+        "sv": "Lunds kommuns öppna data"
+      },
+      "owner": "SE2120001132",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "katalog.riksarkivet.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://katalog.riksarkivet.se"
+        }
+      ],
+      "id": "katalog.riksarkivet.se",
+      "label": {
+        "sv": "Riksarkivets öppna data"
+      },
+      "owner": "SE2021001074",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "kronofogden.entryscape.net": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://kronofogden.entryscape.net"
+        }
+      ],
+      "id": "kronofogden.entryscape.net",
+      "label": {
+        "sv": "Kronofogdens öppna data"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2021005646",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "kungsbacka.entryscape.net": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://kungsbacka.entryscape.net"
+        }
+      ],
+      "id": "kungsbacka.entryscape.net",
+      "label": {
+        "sv": "Kungsbacka kommuns öppna data"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2120001256",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "linkoping.entryscape.net": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://linkoping.entryscape.net"
+        }
+      ],
+      "id": "linkoping.entryscape.net",
+      "label": {
+        "sv": "Linköpings kommuns öppna data"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2120000449",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "m02-http-pxwebb.login.sundsvall.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://m02-http-pxwebb.login.sundsvall.se/PXWeb_Ext/api/v1"
+        }
+      ],
+      "homepage": "https://m02-http-pxwebb.login.sundsvall.se/PXWeb_Ext/pxweb",
+      "id": "m02-http-pxwebb.login.sundsvall.se",
+      "label": {
+        "sv": "Sundsvalls statistikdatabas"
+      },
+      "owner": "SE2120002411",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "mi.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://www.mi.se/PXWeb/api/v1"
+        }
+      ],
+      "homepage": "https://www.mi.se/PXWeb/pxweb",
+      "id": "mi.se",
+      "label": {
+        "sv": "Medlingsinstitutets statistikdatabas"
+      },
+      "owner": "SE2021005174",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "nationellaemissionsdatabasen.smhi.se": {
+      "endpoint": [
+        {
+          "protocol": "smhi_emissions",
+          "url": "https://nationellaemissionsdatabasen.smhi.se/api"
+        }
+      ],
+      "id": "nationellaemissionsdatabasen.smhi.se",
+      "label": {
+        "sv": "Nationella emissionsdatabasen"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "opendata.vasteras.se": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://opendata.vasteras.se"
+        }
+      ],
+      "id": "opendata.vasteras.se",
+      "label": {
+        "sv": "Västerås stads öppna data"
+      },
+      "owner": "SE2120002080",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "oppnadata.tillvaxtverket.se": {
+      "endpoint": [
+        {
+          "protocol": "tillvaxtverket",
+          "url": "https://oppnadata.tillvaxtverket.se"
+        }
+      ],
+      "id": "oppnadata.tillvaxtverket.se",
+      "label": {
+        "sv": "Tillväxtverkets öppna data"
+      },
+      "owner": "SE2021006149",
+      "software": "custom",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "prognos.konj.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv",
+            "en"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://prognos.konj.se/PxWeb/api/v1"
+        }
+      ],
+      "homepage": "https://prognos.konj.se/PxWeb/pxweb",
+      "id": "prognos.konj.se",
+      "label": {
+        "sv": "Prognosdatabasen"
+      },
+      "owner": "SE2021000845",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "pxexternal.energimyndigheten.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv",
+            "en"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://pxexternal.energimyndigheten.se/api/v1"
+        }
+      ],
+      "homepage": "https://pxexternal.energimyndigheten.se/pxweb",
+      "id": "pxexternal.energimyndigheten.se",
+      "label": {
+        "sv": "Energimyndighetens statistikdatabas"
+      },
+      "owner": "SE2021005000",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "pxweb.etjanst.domstol.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv",
+            "en"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://pxweb.etjanst.domstol.se/PxWeb/api/v1"
+        }
+      ],
+      "homepage": "https://pxweb.etjanst.domstol.se/PxWeb/pxweb",
+      "id": "pxweb.etjanst.domstol.se",
+      "label": {
+        "sv": "Domstolsstatistik"
+      },
+      "owner": "SE2021002742",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "pxweb.lansstyrelsen.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://pxweb.lansstyrelsen.se/api/v1"
+        }
+      ],
+      "homepage": "https://pxweb.lansstyrelsen.se/pxweb",
+      "id": "pxweb.lansstyrelsen.se",
+      "label": {
+        "sv": "Länsstyrelsernas statistikdatabas"
+      },
+      "owner": "SE2021002361-LST",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "pxweb.skogsstyrelsen.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv",
+            "en"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://pxweb.skogsstyrelsen.se/api/v1"
+        }
+      ],
+      "homepage": "https://pxweb.skogsstyrelsen.se/pxweb",
+      "id": "pxweb.skogsstyrelsen.se",
+      "label": {
+        "sv": "Skogsstyrelsens statistikdatabas"
+      },
+      "owner": "SE2021005612",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "pxweb2.karlstad.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://pxweb2.karlstad.se/api/v1"
+        }
+      ],
+      "homepage": "https://pxweb2.karlstad.se/pxweb",
+      "id": "pxweb2.karlstad.se",
+      "label": {
+        "sv": "Karlstads kommuns statistikdatabas"
+      },
+      "owner": "SE2120001850",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "pxweb2022.vgregion.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://pxweb2022.vgregion.se/Pxwebb/api/v1"
+        }
+      ],
+      "homepage": "https://pxweb2022.vgregion.se/Pxwebb/pxweb",
+      "id": "pxweb2022.vgregion.se",
+      "label": {
+        "sv": "Västra Götalandsregionens statistikdatabas"
+      },
+      "owner": "SE2321000131",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "pxwebska.skogsstyrelsen.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://pxwebska.skogsstyrelsen.se/api/v1"
+        }
+      ],
+      "homepage": "https://pxwebska.skogsstyrelsen.se/pxweb",
+      "id": "pxwebska.skogsstyrelsen.se",
+      "label": {
+        "sv": "Skogsstyrelsen SKA22"
+      },
+      "owner": "SE2021005612",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "sdb.socialstyrelsen.se": {
+      "endpoint": [
+        {
+          "protocol": "socialstyrelsen_sdb",
+          "url": "https://sdb.socialstyrelsen.se/api/v1"
+        }
+      ],
+      "id": "sdb.socialstyrelsen.se",
+      "label": {
+        "sv": "Socialstyrelsens statistikdatabas"
+      },
+      "owner": "SE2021000555",
+      "software": "custom",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "skatteverket.entryscape.net": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://skatteverket.entryscape.net"
+        }
+      ],
+      "id": "skatteverket.entryscape.net",
+      "label": {
+        "sv": "Skatteverkets öppna data"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2021005448",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "skogsstatistik.slu.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv",
+            "en"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://skogsstatistik.slu.se/api/v1"
+        }
+      ],
+      "homepage": "https://skogsstatistik.slu.se/pxweb",
+      "id": "skogsstatistik.slu.se",
+      "label": {
+        "sv": "SLU Riksskogstaxeringen"
+      },
+      "owner": "SE2021002817",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "statistik-api.uka.se": {
+      "endpoint": [
+        {
+          "protocol": "uka_statistik",
+          "url": "https://statistik-api.uka.se/api"
+        }
+      ],
+      "id": "statistik-api.uka.se",
+      "label": {
+        "sv": "UKÄ:s statistik-API"
+      },
+      "owner": "SE2021006495",
+      "software": "custom",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "statistik.csn.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://statistik.csn.se/PXWeb/api/v1"
+        }
+      ],
+      "homepage": "https://statistik.csn.se/PxWeb/pxweb",
+      "id": "statistik.csn.se",
+      "label": {
+        "sv": "CSN:s statistikdatabas"
+      },
+      "owner": "SE2021001819",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "statistik.ehalsomyndigheten.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://statistik.ehalsomyndigheten.se/api/v1"
+        }
+      ],
+      "homepage": "https://statistik.ehalsomyndigheten.se/pxweb",
+      "id": "statistik.ehalsomyndigheten.se",
+      "label": {
+        "sv": "E-hälsomyndighetens statistikdatabas"
+      },
+      "owner": "SE2021006552",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "statistik.helsingborg.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://statistik.helsingborg.se/PxWeb/api/v1"
+        }
+      ],
+      "homepage": "https://statistik.helsingborg.se/PxWeb/pxweb",
+      "id": "statistik.helsingborg.se",
+      "label": {
+        "sv": "Helsingborgs stads statistikdatabas"
+      },
+      "owner": "SE2120001157",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "statistik.konj.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv",
+            "en"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://statistik.konj.se/PxWeb/api/v1"
+        }
+      ],
+      "homepage": "https://statistik.konj.se/PxWeb/pxweb",
+      "id": "statistik.konj.se",
+      "label": {
+        "sv": "Konjunkturbarometern"
+      },
+      "owner": "SE2021000845",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "statistik.kulturanalys.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://statistik.kulturanalys.se/api/v1"
+        }
+      ],
+      "homepage": "https://statistik.kulturanalys.se/pxweb",
+      "id": "statistik.kulturanalys.se",
+      "label": {
+        "sv": "Kulturanalys statistikdatabas"
+      },
+      "owner": "SE2021006404",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "statistik.linkoping.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://statistik.linkoping.se/pxweb/api/v1"
+        }
+      ],
+      "homepage": "https://statistik.linkoping.se/pxweb/pxweb",
+      "id": "statistik.linkoping.se",
+      "label": {
+        "sv": "Linköpings kommuns statistikdatabas"
+      },
+      "owner": "SE2120000449",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "statistik.mcf.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv",
+            "en"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://statistik.mcf.se/PXWeb/api/v1"
+        }
+      ],
+      "homepage": "https://statistik.mcf.se/PXWeb/pxweb",
+      "id": "statistik.mcf.se",
+      "label": {
+        "sv": "MCF:s statistikdatabas"
+      },
+      "owner": "SE2021005984",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "statistik.norrkoping.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://statistik.norrkoping.se/PxWeb/api/v1"
+        }
+      ],
+      "homepage": "https://statistik.norrkoping.se/PxWeb/pxweb",
+      "id": "statistik.norrkoping.se",
+      "label": {
+        "sv": "Norrköpings kommuns statistikdatabas"
+      },
+      "owner": "SE2120000456",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "statistik.orebro.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://statistik.orebro.se/api/v1"
+        }
+      ],
+      "homepage": "https://statistik.orebro.se/pxweb",
+      "id": "statistik.orebro.se",
+      "label": {
+        "sv": "Örebro kommuns statistikdatabas"
+      },
+      "owner": "SE2120001967",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "statistik.sjv.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://statistik.sjv.se/PXWeb/api/v1"
+        }
+      ],
+      "homepage": "https://statistik.sjv.se/PXWeb/pxweb",
+      "id": "statistik.sjv.se",
+      "label": {
+        "sv": "Jordbruksverkets statistikdatabas"
+      },
+      "owner": "SE2021004151",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "statistik.tillvaxtanalys.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://statistik.tillvaxtanalys.se/PxWeb/api/v1"
+        }
+      ],
+      "homepage": "https://statistik.tillvaxtanalys.se/PxWeb/pxweb",
+      "id": "statistik.tillvaxtanalys.se",
+      "label": {
+        "sv": "Tillväxtanalys statistikdatabas"
+      },
+      "owner": "SE2021006164",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "statistikdatabas.goteborg.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://statistikdatabas.goteborg.se/api/v1"
+        }
+      ],
+      "homepage": "https://statistikdatabas.goteborg.se/pxweb",
+      "id": "statistikdatabas.goteborg.se",
+      "label": {
+        "sv": "Göteborgs Stads statistikdatabas"
+      },
+      "owner": "SE2120001355",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "statistikdatabasen.scb.se": {
+      "endpoint": [
+        {
+          "protocol": "pxweb_v2",
+          "url": "https://statistikdatabasen.scb.se/api/v2"
+        }
+      ],
+      "id": "statistikdatabasen.scb.se",
+      "label": {
+        "sv": "Statistikdatabasen"
+      },
+      "owner": "SE2021000837",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "statistikdatabasen.skolverket.se": {
+      "endpoint": [
+        {
+          "language": [
+            "sv"
+          ],
+          "protocol": "pxweb_v1",
+          "url": "https://statistikdatabasen.skolverket.se/PxWeb/api/v1"
+        }
+      ],
+      "homepage": "https://statistikdatabasen.skolverket.se/PxWeb/pxweb",
+      "id": "statistikdatabasen.skolverket.se",
+      "label": {
+        "sv": "Skolverkets statistikdatabas"
+      },
+      "owner": "SE2021004185",
+      "software": "pxweb",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "statistics_database"
+    },
+    "transportstyrelsen.entryscape.net": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://transportstyrelsen.entryscape.net"
+        }
+      ],
+      "id": "transportstyrelsen.entryscape.net",
+      "label": {
+        "sv": "Transportstyrelsens öppna data"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2021006099",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    },
+    "vgregion.entryscape.net": {
+      "endpoint": [
+        {
+          "protocol": "entrystore",
+          "url": "https://vgregion.entryscape.net"
+        }
+      ],
+      "id": "vgregion.entryscape.net",
+      "label": {
+        "sv": "Västra Götalandsregionens öppna data"
+      },
+      "operator": "SE5568540701",
+      "owner": "SE2321000131",
+      "software": "entryscape",
+      "source": [
+        "edits"
+      ],
+      "status": "unknown",
+      "type": "open_data_portal"
+    }
+  },
+  "count": 83,
+  "generated": "2026-10-13"
+}

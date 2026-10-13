@@ -1,0 +1,185 @@
+{
+  "protocol": {
+    "pxweb_v1": {
+      "id": "pxweb_v1",
+      "label": {"sv": "PxWeb API v1", "en": "PxWeb API v1"},
+      "kind": ["table"],
+      "support": "supported",
+      "check": {"path": "/sv", "expect": "dbid"},
+      "documentation": "https://www.scb.se/en/services/open-data-api/api-for-the-statistical-database/",
+      "note": "Base URL ends with /api/v1; the language code follows."
+    },
+    "pxweb_v2": {
+      "id": "pxweb_v2",
+      "label": {"sv": "PxWeb API 2", "en": "PxWeb API 2"},
+      "kind": ["table"],
+      "support": "supported",
+      "check": {"path": "/config", "expect": "apiVersion"},
+      "documentation": "https://github.com/PxWeb2/PxWebApi"
+    },
+    "entrystore": {
+      "id": "entrystore",
+      "label": {"sv": "EntryStore (EntryScape)", "en": "EntryStore (EntryScape)"},
+      "kind": ["dataset", "file"],
+      "support": "supported",
+      "check": {"path": "/store/search?type=solr&limit=1&query=rdfType:http%5C://www.w3.org/ns/dcat%23Dataset", "expect": "\"results\""},
+      "note": "Catalog metadata through the store's Solr search; tabular data through the install's RowStore where one exists."
+    },
+    "kolada_v3": {
+      "id": "kolada_v3",
+      "label": {"sv": "Kolada API v3", "en": "Kolada API v3"},
+      "kind": ["indicator"],
+      "support": "supported",
+      "check": {"path": "/kpi?page_size=1", "expect": "\"values\""},
+      "documentation": "https://api.kolada.se/v3/openapi.json"
+    },
+    "uka_statistik": {
+      "id": "uka_statistik",
+      "label": {"sv": "UKÄ statistik-API", "en": "UKÄ statistics API"},
+      "kind": ["table"],
+      "support": "supported",
+      "check": {"path": "", "expect": ""}
+    },
+    "socialstyrelsen_sdb": {
+      "id": "socialstyrelsen_sdb",
+      "label": {"sv": "Socialstyrelsens statistikdatabas API", "en": "Socialstyrelsen statistics database API"},
+      "kind": ["table"],
+      "support": "supported",
+      "check": {"path": "", "expect": ""}
+    },
+    "socialstyrelsen_dataanalys": {
+      "id": "socialstyrelsen_dataanalys",
+      "label": {"sv": "Socialstyrelsens dataanalys API", "en": "Socialstyrelsen data analysis API"},
+      "kind": ["table"],
+      "support": "supported",
+      "check": {"path": "", "expect": ""}
+    },
+    "trafa": {
+      "id": "trafa",
+      "label": {"sv": "Trafikanalys API", "en": "Trafikanalys API"},
+      "kind": ["table"],
+      "support": "supported",
+      "check": {"path": "", "expect": ""},
+      "note": "Trafikanalys is wound up 2026-12-31 and goes into Tillväxtanalys; the endpoint may move."
+    },
+    "smhi_emissions": {
+      "id": "smhi_emissions",
+      "label": {"sv": "Nationella emissionsdatabasen API", "en": "National emissions database API"},
+      "kind": ["table"],
+      "support": "supported",
+      "check": {"path": "", "expect": ""}
+    },
+    "forsakringskassan": {
+      "id": "forsakringskassan",
+      "label": {"sv": "Försäkringskassans statistik-API", "en": "Försäkringskassan statistics API"},
+      "kind": ["table"],
+      "support": "supported",
+      "check": {"path": "", "expect": ""}
+    },
+    "riksbank": {
+      "id": "riksbank",
+      "label": {"sv": "Riksbankens API", "en": "Riksbank API"},
+      "kind": ["timeseries"],
+      "support": "supported",
+      "check": {"path": "", "expect": ""},
+      "documentation": "https://developer.api.riksbank.se/"
+    },
+    "tillvaxtverket": {
+      "id": "tillvaxtverket",
+      "label": {"sv": "Tillväxtverkets öppna data", "en": "Tillväxtverket open data"},
+      "kind": ["table"],
+      "support": "supported",
+      "check": {"path": "", "expect": ""}
+    },
+    "ckan_v3": {
+      "id": "ckan_v3",
+      "label": {"sv": "CKAN API v3", "en": "CKAN API v3"},
+      "kind": ["dataset", "file"],
+      "support": "planned",
+      "check": {"path": "/api/3/action/package_search?rows=0", "expect": "\"success\": true"}
+    },
+    "dcat_ap": {
+      "id": "dcat_ap",
+      "label": {"sv": "DCAT-AP-fil", "en": "DCAT-AP file"},
+      "kind": ["dataset", "file"],
+      "support": "planned",
+      "check": {"path": "", "expect": "dcat"},
+      "note": "A published RDF file (RDF/XML, Turtle, JSON-LD). The URL is the file."
+    },
+    "huwise": {
+      "id": "huwise",
+      "label": {"sv": "Huwise Explore API v2", "en": "Huwise Explore API v2"},
+      "kind": ["dataset", "file"],
+      "support": "undecided",
+      "check": {"path": "/api/explore/v2.1/catalog/datasets?limit=0", "expect": "total_count"},
+      "note": "Formerly Opendatasoft."
+    },
+    "arcgis_hub": {
+      "id": "arcgis_hub",
+      "label": {"sv": "ArcGIS Hub", "en": "ArcGIS Hub"},
+      "kind": ["dataset", "layer", "file"],
+      "support": "planned",
+      "check": {"path": "/data.json", "expect": "\"dataset\""}
+    },
+    "arcgis_rest": {
+      "id": "arcgis_rest",
+      "label": {"sv": "ArcGIS REST services", "en": "ArcGIS REST services"},
+      "kind": ["layer"],
+      "support": "planned",
+      "check": {"path": "?f=json", "expect": "currentVersion"}
+    },
+    "wfs_2": {
+      "id": "wfs_2",
+      "label": {"sv": "OGC WFS 2.0", "en": "OGC WFS 2.0"},
+      "kind": ["layer"],
+      "support": "planned",
+      "check": {"path": "?service=WFS&request=GetCapabilities", "expect": "WFS_Capabilities"}
+    },
+    "ogc_features": {
+      "id": "ogc_features",
+      "label": {"sv": "OGC API Features", "en": "OGC API Features"},
+      "kind": ["layer"],
+      "support": "planned",
+      "check": {"path": "/collections?f=json", "expect": "\"collections\""}
+    },
+    "wms_1_3": {
+      "id": "wms_1_3",
+      "label": {"sv": "OGC WMS 1.3", "en": "OGC WMS 1.3"},
+      "kind": ["layer"],
+      "support": "deferred",
+      "check": {"path": "?service=WMS&request=GetCapabilities", "expect": "WMS_Capabilities"},
+      "note": "Images, not data. Recorded so a geoportal's services are complete."
+    },
+    "csw_2": {
+      "id": "csw_2",
+      "label": {"sv": "OGC CSW 2.0.2", "en": "OGC CSW 2.0.2"},
+      "kind": ["dataset"],
+      "support": "planned",
+      "check": {"path": "?service=CSW&request=GetCapabilities", "expect": "Capabilities"},
+      "note": "Metadata catalog protocol; Geodataportalen speaks it."
+    },
+    "oai_pmh": {
+      "id": "oai_pmh",
+      "label": {"sv": "OAI-PMH 2.0", "en": "OAI-PMH 2.0"},
+      "kind": ["study", "dataset"],
+      "support": "planned",
+      "check": {"path": "?verb=Identify", "expect": "Identify"},
+      "note": "researchdata.se and the DiVA installs. DDI where the repository offers it."
+    },
+    "sparql": {
+      "id": "sparql",
+      "label": {"sv": "SPARQL", "en": "SPARQL"},
+      "kind": ["dataset"],
+      "support": "undecided",
+      "check": {"path": "?query=ASK%20%7B%3Fs%20%3Fp%20%3Fo%7D", "expect": ""}
+    },
+    "file": {
+      "id": "file",
+      "label": {"sv": "Fil", "en": "File"},
+      "kind": ["file"],
+      "support": "planned",
+      "check": {"path": "", "expect": ""},
+      "note": "A downloadable file at a stable URL, for data reachable no other way."
+    }
+  }
+}
