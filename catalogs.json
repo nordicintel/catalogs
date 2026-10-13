@@ -4640,8 +4640,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: The read operation timed out",
+            "result": "unreachable"
           },
           "protocol": "arcgis_hub",
           "url": "https://data-jonkoping.opendata.arcgis.com"
@@ -10660,8 +10660,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 400",
-            "result": "error"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "wfs_2",
           "url": "http://geo-transfernode.trafikverket.se/mapservice/wfs.axd/TN_TransferNode"
@@ -10677,7 +10677,7 @@
         "check",
         "data_europa"
       ],
-      "status": "error"
+      "status": "unreachable"
     },
     "geo.hjartstartarregistret.se": {
       "catalog_type": "geoportal",
@@ -10719,8 +10719,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 404",
-            "result": "error"
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "http://geo4.vic-metria.nu/geoserver"
@@ -10738,7 +10738,7 @@
         "check",
         "edits"
       ],
-      "status": "error"
+      "status": "unreachable"
     },
     "geodata-svoa-extern.stockholm.se": {
       "catalog_type": "geoportal",
@@ -21903,8 +21903,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "gaierror: [Errno -3] Temporary failure in name resolution",
+            "result": "unreachable"
           },
           "protocol": "web",
           "url": "https://mt.research.ltu.se/EPOS-MT.html"
@@ -21921,7 +21921,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "mtm.se": {
       "catalog_type": "open_data_portal",
@@ -25650,8 +25650,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "HTTP 404",
+            "result": "error"
           },
           "language": [
             "sv"
@@ -25672,7 +25672,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "error"
     },
     "px.socialstyrelsen.se": {
       "catalog_type": "statistics_database",

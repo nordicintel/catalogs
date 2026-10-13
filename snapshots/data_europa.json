@@ -237,7 +237,6 @@
   },
   "ext-geoserver.lansstyrelsen.se": {
     "catalogue": [
-      "geodata-se",
       "oppnadata"
     ],
     "protocol": {

@@ -9,7 +9,7 @@
     "research_repository": 90,
     "statistics_database": 41
   },
-  "changed": 2,
+  "changed": 5,
   "count": 1058,
   "date": "2026-10-13",
   "protocol": {
@@ -45,6 +45,14 @@
     "wms_1_3": 66
   },
   "register": {
+    "check": {
+      "endpoints": 724,
+      "error": 50,
+      "ok": 590,
+      "restricted": 12,
+      "status": "fetched",
+      "unreachable": 72
+    },
     "data_europa": {
       "rows": 74,
       "status": "fetched"
@@ -60,10 +68,10 @@
   },
   "removed": [],
   "status": {
-    "error": 498,
-    "ok": 516,
+    "error": 497,
+    "ok": 514,
     "restricted": 7,
-    "unreachable": 37
+    "unreachable": 40
   },
   "without_owner": [
     {
