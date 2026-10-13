@@ -18,6 +18,7 @@ from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+import check  # noqa: E402
 from sources import data_europa, dataportal, organisations  # noqa: E402
 from sources.organisations import domain, name  # noqa: E402
 from sources.common import load_json  # noqa: E402
@@ -73,7 +74,10 @@ def merge(record, patch):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--cache", default=str(ROOT / ".cache"))
-    cache = Path(ap.parse_args().cache)
+    ap.add_argument("--no-check", action="store_true", help="skip the liveness check (keeps previous results)")
+    args = ap.parse_args()
+    cache = Path(args.cache)
+    protocols = load_json(ROOT / "protocols.json", {"protocol": {}})["protocol"]
 
     edits = load_json(ROOT / "edits" / "catalogs.json", {"catalog": {}, "ignore": []})
     previous_output = load_json(OUTPUT, {})
@@ -144,8 +148,6 @@ def main():
         record = {"id": key, "label": {"sv": row["title"]} if row["title"] else {}, "type": "open_data_portal", "software": software,
                   "endpoint": endpoints, "status": "unknown", "source": ["dataportal"],
                   "identifier": {"dataportal": f"https://admin.dataportal.se/store/{context}"}}
-        if row["run"]:
-            record["status"] = "active" if row["run"]["status"] == "Success" else "inactive"
         if row["homepage"]:
             record["homepage"] = row["homepage"]
         owner = owner_of(row["title"], row["publisher"], row["homepage"], source if host not in SHARED_HOSTS else "")
@@ -169,15 +171,15 @@ def main():
         if key in edits["ignore"]:
             continue
         endpoints = [{"protocol": proto, "url": url} for proto, urls in row["protocol"].items() for url in urls]
-        protocols = set(row["protocol"])
+        spoken = set(row["protocol"])
         bases = " ".join(url for urls in row["protocol"].values() for url in urls)
-        if protocols & {"pxweb_v1", "pxweb_v2"}:
+        if spoken & {"pxweb_v1", "pxweb_v2"}:
             kind, software = "statistics_database", "pxweb"
-        elif "entrystore" in protocols:
+        elif "entrystore" in spoken:
             kind, software = "open_data_portal", "entryscape"
-        elif protocols & GEO:
+        elif spoken & GEO:
             kind = "geoportal"
-            software = "geoserver" if "/geoserver" in bases else "arcgis" if "arcgis_rest" in protocols else "custom"
+            software = "geoserver" if "/geoserver" in bases else "arcgis" if "arcgis_rest" in spoken else "custom"
         else:
             kind, software = "api", "custom"
         record = {"id": key, "label": {}, "type": kind, "software": software, "endpoint": endpoints, "status": "unknown", "source": ["data_europa"]}
@@ -209,10 +211,23 @@ def main():
     for r in catalogs.values():
         r["source"] = sorted(set(r["source"]))
         r["endpoint"] = sorted(r["endpoint"], key=lambda e: (e["protocol"], e["url"]))
+        for e in r["endpoint"]:
+            old = next((o for o in previous.get(r["id"], {}).get("endpoint", []) if (o["protocol"], o["url"]) == (e["protocol"], e["url"])), None)
+            if "checked" not in e and old and old.get("checked"):
+                e["checked"] = old["checked"]  # carried until the next check overwrites it
         if not r["label"]:
             r["label"]["sv"] = orgs[r["owner"]]["label"] if r.get("owner") in orgs else r["id"]
 
     catalogs = dict(sorted(catalogs.items()))
+    if args.no_check:
+        for r in catalogs.values():
+            outcomes = [e["checked"]["result"] for e in r["endpoint"] if e.get("checked")]
+            r["status"] = "active" if {"ok", "restricted"} & set(outcomes) else "inactive" if outcomes else "unknown"
+    else:
+        registers["check"] = check.run(catalogs, protocols, previous, report["date"])
+        if "check" in registers:
+            for r in catalogs.values():
+                r["source"] = sorted(set(r["source"]) | ({"check"} if any(e.get("checked") for e in r["endpoint"]) else set()))
     generated = previous_output.get("generated", report["date"]) if catalogs == previous else report["date"]
     dump(OUTPUT, {"generated": generated, "count": len(catalogs), "catalog": catalogs})
 

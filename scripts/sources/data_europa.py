@@ -128,8 +128,14 @@ def fetch(cache: Path):
         entry["catalogue"].sort()
         for proto, bases in list(entry["protocol"].items()):
             bases = sorted(bases)
-            bases = bases if len(bases) <= MAX_BASES else [common_prefix(bases)]
-            # GeoServer answers every OGC service at /ows; a collapsed base needs that to be checkable.
-            entry["protocol"][proto] = [b + "/ows" if b.endswith("/geoserver") and proto in ("wms_1_3", "wfs_2") else b for b in bases]
+            if len(bases) > MAX_BASES:
+                prefix = common_prefix(bases)
+                # A collapsed base is kept only when it is itself a service; otherwise the shortest
+                # few real bases stand for the host. GeoServer's global endpoints are often disabled.
+                if re.search(r"/(ows|wms|wfs)$", prefix):
+                    bases = [prefix]
+                else:
+                    bases = sorted(bases, key=lambda b: (len(b), b))[:MAX_BASES]
+            entry["protocol"][proto] = bases
         entry["protocol"] = dict(sorted(entry["protocol"].items()))
     return dict(sorted(hosts.items()))

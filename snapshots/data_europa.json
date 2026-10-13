@@ -6,7 +6,9 @@
     ],
     "protocol": {
       "atom": [
-        "https://api.lantmateriet.se"
+        "https://api.lantmateriet.se/byggnad/atom/v1.1/inspire/bu",
+        "https://api.lantmateriet.se/marktacke/atom/v1.1/inspire/lc",
+        "https://api.lantmateriet.se/tyngdkraft-nedladdning/atom/v1"
       ],
       "wms_1_3": [
         "https://api.lantmateriet.se/distribution/geodatakatalog/visning/v1/detaljplan/v1/wms"
@@ -208,10 +210,14 @@
     ],
     "protocol": {
       "wfs_2": [
-        "https://ext-geodata-ows.lansstyrelsen.se"
+        "https://ext-geodata-ows.lansstyrelsen.se/inspire_am/ows",
+        "https://ext-geodata-ows.lansstyrelsen.se/inspire_er/ows",
+        "https://ext-geodata-ows.lansstyrelsen.se/inspire_pf/ows"
       ],
       "wms_1_3": [
-        "https://ext-geodata-ows.lansstyrelsen.se"
+        "https://ext-geodata-ows.lansstyrelsen.se/inspire_am/ows",
+        "https://ext-geodata-ows.lansstyrelsen.se/inspire_er/ows",
+        "https://ext-geodata-ows.lansstyrelsen.se/inspire_pf/ows"
       ]
     },
     "publisher": [
@@ -310,13 +316,19 @@
     ],
     "protocol": {
       "atom": [
-        "https://geodata.havochvatten.se/download"
+        "https://geodata.havochvatten.se/download/fiskets-geografier/atom-topfeed.xml",
+        "https://geodata.havochvatten.se/download/limniska-vattentypsregioner/atom-topfeed.xml",
+        "https://geodata.havochvatten.se/download/omr-skyddade-enl-sfs-2001-554/atom-topfeed.xml"
       ],
       "wfs_2": [
-        "https://geodata.havochvatten.se/geoservices"
+        "https://geodata.havochvatten.se/geoservices/fiskets-geografier/ows",
+        "https://geodata.havochvatten.se/geoservices/limniska-vattentypsregioner/ows",
+        "https://geodata.havochvatten.se/geoservices/provningsgrupper-for-vattenkraftverk/ows"
       ],
       "wms_1_3": [
-        "https://geodata.havochvatten.se/geoservices"
+        "https://geodata.havochvatten.se/geoservices/fiskets-geografier/ows",
+        "https://geodata.havochvatten.se/geoservices/hav-bakgrundskartor/wms",
+        "https://geodata.havochvatten.se/geoservices/limniska-vattentypsregioner/ows"
       ]
     },
     "publisher": [
@@ -329,13 +341,19 @@
     ],
     "protocol": {
       "atom": [
-        "https://geodata.naturvardsverket.se/atom/inspire"
+        "https://geodata.naturvardsverket.se/atom/inspire/af/SE_AF_serviceFeed.xml",
+        "https://geodata.naturvardsverket.se/atom/inspire/br/SE_BR_serviceFeed.xml",
+        "https://geodata.naturvardsverket.se/atom/inspire/hh/SE_HH_serviceFeed.xml"
       ],
       "wfs_2": [
-        "https://geodata.naturvardsverket.se"
+        "https://geodata.naturvardsverket.se/inspire/af/ows",
+        "https://geodata.naturvardsverket.se/inspire/br/ows",
+        "https://geodata.naturvardsverket.se/inspire/hh/ows"
       ],
       "wms_1_3": [
-        "http://geodata.naturvardsverket.se"
+        "https://geodata.naturvardsverket.se/n2000/wms",
+        "https://geodata.naturvardsverket.se/inspire/af/ows",
+        "https://geodata.naturvardsverket.se/inspire/br/ows"
       ]
     },
     "publisher": []
@@ -364,7 +382,9 @@
         "https://geodata.scb.se/geoserver/stat/wfs"
       ],
       "wms_1_3": [
-        "https://geodata.scb.se/geoserver/ows"
+        "https://geodata.scb.se/geoserver/stat/wms",
+        "https://geodata.scb.se/geoserver/inspire/wms",
+        "https://geodata.scb.se/geoserver/inspire/US.PublicAdministrationOffice/ows"
       ]
     },
     "publisher": [
@@ -398,7 +418,9 @@
         "https://geodpags.skogsstyrelsen.se/arcgis/rest/services"
       ],
       "atom": [
-        "https://geodpags.skogsstyrelsen.se/geodataport/feeds"
+        "https://geodpags.skogsstyrelsen.se/geodataport/feeds/AvverkAnm.xml",
+        "https://geodpags.skogsstyrelsen.se/geodataport/feeds/Sumpskogar.xml",
+        "https://geodpags.skogsstyrelsen.se/geodataport/feeds/Fjallnaragr.xml"
       ]
     },
     "publisher": [
@@ -502,10 +524,14 @@
     ],
     "protocol": {
       "wfs_2": [
-        "https://inspire-raa.metria.se/geoserver/ows"
+        "https://inspire-raa.metria.se/geoserver/Byggnader/ows",
+        "https://inspire-raa.metria.se/geoserver/Kulturarv/ows",
+        "https://inspire-raa.metria.se/geoserver/Varldsarv/ows"
       ],
       "wms_1_3": [
-        "https://inspire-raa.metria.se/geoserver/ows"
+        "https://inspire-raa.metria.se/geoserver/Byggnader/ows",
+        "https://inspire-raa.metria.se/geoserver/Kulturarv/ows",
+        "https://inspire-raa.metria.se/geoserver/Varldsarv/ows"
       ]
     },
     "publisher": [
@@ -606,7 +632,9 @@
     ],
     "protocol": {
       "wms_1_3": [
-        "http://kartor.stockholm.se"
+        "http://kartor.stockholm.se/bios/wms/app/baggis/web/WMS_STHLM_ORTOFOTO_2020",
+        "http://kartor.stockholm.se/bios/wms/app/baggis/web/WMS_STHLM_ORTOFOTO_2023",
+        "http://kartor.stockholm.se/bios/wms/app/baggis/web/WMS_STHLM_ORTOFOTO_2025"
       ]
     },
     "publisher": [
@@ -646,7 +674,9 @@
     ],
     "protocol": {
       "wms_1_3": [
-        "https://maps.lantmateriet.se"
+        "https://maps.lantmateriet.se/topowebb/wms/v1",
+        "https://maps.lantmateriet.se/stompunkt/wms/v1",
+        "https://maps.lantmateriet.se/inspire/hy/wms/v1"
       ]
     },
     "publisher": []
@@ -715,7 +745,9 @@
     ],
     "protocol": {
       "api": [
-        "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter"
+        "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/1.json",
+        "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/2.json",
+        "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3.json"
       ],
       "atom": [
         "https://opendata-download-hydroobs.smhi.se/api/inspire/hydroobs.atom"
@@ -753,7 +785,9 @@
     ],
     "protocol": {
       "api": [
-        "https://opendata-download-metanalys.smhi.se/api/category"
+        "https://opendata-download-metanalys.smhi.se/api/category/fwia1g/version/1/daily/approvedtime.json",
+        "https://opendata-download-metanalys.smhi.se/api/category/fwia1g/version/1/hourly/approvedtime.json",
+        "https://opendata-download-metanalys.smhi.se/api/category/mesan2g/version/3/geotype/point/lon/16/lat/58/data.json"
       ]
     },
     "publisher": []
@@ -764,7 +798,9 @@
     ],
     "protocol": {
       "api": [
-        "https://opendata-download-metfcst.smhi.se/api/category"
+        "https://opendata-download-metfcst.smhi.se/api/category/fwif1g/version/1/daily/approvedtime.json",
+        "https://opendata-download-metfcst.smhi.se/api/category/fwif1g/version/1/hourly/approvedtime.json",
+        "https://opendata-download-metfcst.smhi.se/api/category/snow1g/version/1/geotype/point/lon/16/lat/58/data.json"
       ]
     },
     "publisher": []
@@ -776,10 +812,14 @@
     ],
     "protocol": {
       "api": [
-        "https://opendata-download-metobs.smhi.se/api"
+        "https://opendata-download-metobs.smhi.se/api/inspire/metobs-19.json",
+        "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/1.json",
+        "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/2.json"
       ],
       "atom": [
-        "https://opendata-download-metobs.smhi.se/api/inspire"
+        "https://opendata-download-metobs.smhi.se/api/inspire/metobs.atom",
+        "https://opendata-download-metobs.smhi.se/api/inspire/metobs-1.atom",
+        "https://opendata-download-metobs.smhi.se/api/inspire/metobs-2.atom"
       ]
     },
     "publisher": [
@@ -793,10 +833,14 @@
     ],
     "protocol": {
       "api": [
-        "https://opendata-download-ocobs.smhi.se/api/version/latest/parameter"
+        "https://opendata-download-ocobs.smhi.se/api/version/latest/parameter/1.json",
+        "https://opendata-download-ocobs.smhi.se/api/version/latest/parameter/2.json",
+        "https://opendata-download-ocobs.smhi.se/api/version/latest/parameter/3.json"
       ],
       "atom": [
-        "https://opendata-download-ocobs.smhi.se/api/inspire"
+        "https://opendata-download-ocobs.smhi.se/api/inspire/ocobs.atom",
+        "https://opendata-download-ocobs.smhi.se/api/inspire/ocobs-1.atom",
+        "https://opendata-download-ocobs.smhi.se/api/inspire/ocobs-2.atom"
       ]
     },
     "publisher": [
@@ -843,10 +887,14 @@
     ],
     "protocol": {
       "wfs_2": [
-        "https://opendata-view.smhi.se"
+        "https://opendata-view.smhi.se/SMHI_vatten/BARO_2022/wfs",
+        "https://opendata-view.smhi.se/algae/SR.SeaSurfaceArea/wfs",
+        "https://opendata-view.smhi.se/seaice/SR.SeaSurfaceArea/wfs"
       ],
       "wms_1_3": [
-        "https://opendata-view.smhi.se"
+        "https://opendata-view.smhi.se/met-obs/wms",
+        "https://opendata-view.smhi.se/SMHI_sealevel/wms",
+        "https://opendata-view.smhi.se/SMHI_medelvattenstand/wms"
       ]
     },
     "publisher": [
@@ -859,7 +907,9 @@
     ],
     "protocol": {
       "api": [
-        "https://opendata.smhi.se"
+        "https://opendata.smhi.se/ocobs/api",
+        "https://opendata.smhi.se/pthbv/api",
+        "https://opendata.smhi.se/radar/api"
       ]
     },
     "publisher": []
@@ -897,7 +947,9 @@
     ],
     "protocol": {
       "api": [
-        "https://oppnadata.tillvaxtverket.se/api/api/query/inkvartering/data"
+        "https://oppnadata.tillvaxtverket.se/api/api/query/inkvartering/data/GuestNights_Capacity_Day.cbase",
+        "https://oppnadata.tillvaxtverket.se/api/api/query/inkvartering/data/GuestNights_Country_Year.cbase",
+        "https://oppnadata.tillvaxtverket.se/api/api/query/inkvartering/data/GuestNights_Capacity_Year.cbase"
       ]
     },
     "publisher": []
@@ -922,14 +974,18 @@
     ],
     "protocol": {
       "atom": [
-        "https://resource.sgu.se/service/atom/inspire"
+        "https://resource.sgu.se/service/atom/inspire/sgu-inspiredownload.xml",
+        "https://resource.sgu.se/service/atom/inspire/datasets/GE_SGU_Borehole.xml",
+        "https://resource.sgu.se/service/atom/inspire/datasets/GE_SGU_Bedrock_1M.xml"
       ],
       "wfs_2": [
         "https://resource.sgu.se/m4eu/services/m4eu",
         "https://resource.sgu.se/service/bedrock1m_gsml_gu/wfs"
       ],
       "wms_1_3": [
-        "https://resource.sgu.se"
+        "https://resource.sgu.se/service/wms/130/mrr",
+        "https://resource.sgu.se/service/wms/130/alder",
+        "https://resource.sgu.se/service/wms/130/kallor"
       ]
     },
     "publisher": [
@@ -968,7 +1024,9 @@
     ],
     "protocol": {
       "atom": [
-        "https://stationsregister.miljodatasamverkan.se/docs/atom"
+        "https://stationsregister.miljodatasamverkan.se/docs/atom/atomTopFeed.xml",
+        "https://stationsregister.miljodatasamverkan.se/docs/atom/SE_EF_StnReg_DV_Badvatten/atomDatasetFeed-SE_EF_StnReg_DV_Badvatten.xml",
+        "https://stationsregister.miljodatasamverkan.se/docs/atom/SE_EF_StnReg_DV_Provfiske/atomDatasetFeed-SE_EF_StnReg_DV_Provfiske.xml"
       ],
       "wfs_2": [
         "https://stationsregister.miljodatasamverkan.se/geoserver/stationsregistret/ows",
@@ -1041,7 +1099,9 @@
     ],
     "protocol": {
       "api": [
-        "https://www7.skatteverket.se/portal/apier-och-oppna-data/utvecklarportalen/api"
+        "https://www7.skatteverket.se/portal/apier-och-oppna-data/utvecklarportalen/api/bilforman/2.0.3/%C3%96versikt",
+        "https://www7.skatteverket.se/portal/apier-och-oppna-data/utvecklarportalen/api/skattekonto/2.1.0/%C3%96versikt",
+        "https://www7.skatteverket.se/portal/apier-och-oppna-data/utvecklarportalen/api/kundhandelser/4.0.5/%C3%96versikt"
       ]
     },
     "publisher": [

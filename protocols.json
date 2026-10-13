@@ -157,8 +157,8 @@
       ],
       "support": "supported",
       "check": {
-        "path": "",
-        "expect": ""
+        "path": "/reports",
+        "expect": "\"reports\""
       }
     },
     "huwise": {
@@ -270,8 +270,8 @@
       ],
       "support": "supported",
       "check": {
-        "path": "",
-        "expect": ""
+        "path": "/swea/v1/Groups",
+        "expect": "\"groupId\""
       },
       "documentation": "https://developer.api.riksbank.se/"
     },
@@ -286,8 +286,8 @@
       ],
       "support": "supported",
       "check": {
-        "path": "",
-        "expect": ""
+        "path": "/getfilteroptions/",
+        "expect": "\"sector\""
       }
     },
     "socialstyrelsen_dataanalys": {
@@ -301,8 +301,8 @@
       ],
       "support": "supported",
       "check": {
-        "path": "",
-        "expect": ""
+        "path": "/chart/",
+        "expect": "\"count\""
       }
     },
     "socialstyrelsen_sdb": {
@@ -316,8 +316,8 @@
       ],
       "support": "supported",
       "check": {
-        "path": "",
-        "expect": ""
+        "path": "/sv",
+        "expect": "\"namn\""
       }
     },
     "sparql": {
@@ -346,8 +346,8 @@
       ],
       "support": "supported",
       "check": {
-        "path": "",
-        "expect": ""
+        "path": "/api.yaml",
+        "expect": "openapi"
       }
     },
     "trafa": {
@@ -361,7 +361,7 @@
       ],
       "support": "supported",
       "check": {
-        "path": "",
+        "path": "/structure",
         "expect": ""
       },
       "note": "Trafikanalys is wound up 2026-12-31 and goes into Tillväxtanalys; the endpoint may move."
@@ -377,8 +377,8 @@
       ],
       "support": "supported",
       "check": {
-        "path": "",
-        "expect": ""
+        "path": "/indicators",
+        "expect": "\"name\""
       }
     },
     "wfs_2": {
@@ -393,7 +393,7 @@
       "support": "planned",
       "check": {
         "path": "?service=WFS&request=GetCapabilities",
-        "expect": "WFS_Capabilities"
+        "expect": "Capabilities"
       }
     },
     "wms_1_3": {
@@ -408,7 +408,7 @@
       "support": "deferred",
       "check": {
         "path": "?service=WMS&request=GetCapabilities",
-        "expect": "WMS_Capabilities"
+        "expect": "Capabilities"
       },
       "note": "Images, not data. Recorded so a geoportal's services are complete."
     }

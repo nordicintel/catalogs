@@ -27,7 +27,7 @@ Statistikdatabasen, one for hvduppdrag and will have one for its geodata.
 | `owner` | organisation id the data belongs to | registers, edits |
 | `operator` | organisation id that runs the install when it is not the owner (MetaSolutions for `*.entryscape.net`) | edits |
 | `endpoint[]` | how to talk to it: `protocol` (id in `protocols.json`), `url`, `language[]`, optional `support` override, `checked {date, result, detail}` | registers, edits, check |
-| `status` | `active`, `inactive`, `unknown`; set by the liveness check | check |
+| `status` | `active`, `inactive`, `unknown`; set by the liveness check below | check |
 | `homepage` | the human page | registers, edits |
 | `identifier` | `dataportal` (the catalog's context on admin.dataportal.se), `data_europa` (catalogue id) | registers |
 | `same_as` | other URIs that denote the same install | registers, edits |
@@ -98,6 +98,27 @@ body and most of those have never answered. The report counts them as
 context in a shared install (`free.entryscape.com`, `editera.dataportal.se`) is
 its own catalog, keyed by host and the context's number in that install, with
 MetaSolutions or Digg as operator and only the RDF export as endpoint.
+
+## The liveness check
+
+After the registers and edits are merged, the build asks every endpoint the question
+its protocol defines (`check.path` appended to the URL, `check.expect` in the first
+64 KB of the answer) and writes the outcome as the endpoint's `checked`:
+
+| result | meaning |
+|---|---|
+| `ok` | answered as the protocol says |
+| `restricted` | 401 or 403: alive, but behind a key |
+| `error` | answered, but not as the protocol says, or a 4xx/5xx |
+| `unreachable` | no answer at all |
+
+`checked.date` is when the current result was first observed, so a weekly run that
+finds nothing changed rewrites nothing. A `dcat_ap` endpoint harvested by
+dataportal.se keeps the portal's own harvest outcome instead. A catalog is `active`
+when any endpoint is `ok` or `restricted`, `inactive` when every checked endpoint
+failed, `unknown` when nothing could be checked. When most endpoints are unreachable
+the network is judged broken: previous results are kept and the report says the
+check failed. `python scripts/build.py --no-check` skips it.
 
 ## Derived
 

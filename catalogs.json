@@ -3,6 +3,11 @@
     "api.kolada.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "kolada_v3",
           "url": "https://api.kolada.se/v3"
         }
@@ -14,18 +19,47 @@
       "owner": "SE8024305370",
       "software": "custom",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "indicator_database"
     },
     "api.lantmateriet.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "atom",
-          "url": "https://api.lantmateriet.se"
+          "url": "https://api.lantmateriet.se/byggnad/atom/v1.1/inspire/bu"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "atom",
+          "url": "https://api.lantmateriet.se/marktacke/atom/v1.1/inspire/lc"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "atom",
+          "url": "https://api.lantmateriet.se/tyngdkraft-nedladdning/atom/v1"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 401",
+            "result": "restricted"
+          },
           "protocol": "wms_1_3",
           "url": "https://api.lantmateriet.se/distribution/geodatakatalog/visning/v1/detaljplan/v1/wms"
         }
@@ -37,9 +71,10 @@
       "owner": "SE2021004888",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "api.researchdata.se": {
@@ -67,6 +102,7 @@
       "owner": "SE2021003153",
       "software": "custom",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -76,6 +112,11 @@
     "api.riksbank.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "riksbank",
           "url": "https://api.riksbank.se"
         }
@@ -87,14 +128,20 @@
       "owner": "SE2021002684",
       "software": "custom",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "api"
     },
     "api.skolverket.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 404",
+            "result": "error"
+          },
           "protocol": "api",
           "url": "https://api.skolverket.se/planned-educations/swagger-ui"
         }
@@ -106,9 +153,10 @@
       "owner": "SE2021004185",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "inactive",
       "type": "api"
     },
     "api.sundsvall.se": {
@@ -134,6 +182,7 @@
       "owner": "SE2120002411",
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -142,14 +191,29 @@
     "api.trafa.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 404",
+            "result": "error"
+          },
           "protocol": "api",
           "url": "https://api.trafa.se/api/data"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
           "url": "https://api.trafa.se/api/structure"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "trafa",
           "url": "https://api.trafa.se/api"
         }
@@ -161,10 +225,11 @@
       "owner": "SE2021006305",
       "software": "custom",
       "source": [
+        "check",
         "data_europa",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "api.webperf.se": {
@@ -189,6 +254,7 @@
       },
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -216,6 +282,7 @@
       "owner": "SE2021003815",
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -224,6 +291,11 @@
     "apigw.stockholm.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 500",
+            "result": "error"
+          },
           "protocol": "api",
           "url": "https://apigw.stockholm.se/api/PublicHittaCMS/api/serviceunits"
         }
@@ -235,9 +307,10 @@
       "owner": "SE2120000142",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "inactive",
       "type": "api"
     },
     "avropa.se": {
@@ -264,6 +337,7 @@
       "owner": "SE2021000829",
       "software": "custom",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -292,6 +366,7 @@
       },
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -309,6 +384,11 @@
           "url": "https://catalog.ale.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.ale.se"
         }
@@ -323,6 +403,7 @@
       "owner": "SE2120001439",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -341,6 +422,11 @@
           "url": "https://catalog.alingsas.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.alingsas.se"
         }
@@ -355,6 +441,7 @@
       "owner": "SE2120001553",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -372,6 +459,11 @@
           "url": "https://catalog.boras.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.boras.se"
         }
@@ -387,6 +479,7 @@
       "owner": "SE2120001561",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -405,6 +498,11 @@
           "url": "https://catalog.digg.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.digg.se"
         }
@@ -420,6 +518,7 @@
       "owner": "SE2021006883",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -438,6 +537,11 @@
           "url": "https://catalog.ehalsomyndigheten.se/store/106/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.ehalsomyndigheten.se"
         }
@@ -452,6 +556,7 @@
       "owner": "SE2021006552",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -469,6 +574,11 @@
           "url": "https://catalog.eslov.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.eslov.se"
         }
@@ -484,6 +594,7 @@
       "owner": "SE2120001173",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -502,6 +613,11 @@
           "url": "https://catalog.essunga.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.essunga.se"
         }
@@ -516,6 +632,7 @@
       "owner": "SE2120002916",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -534,6 +651,11 @@
           "url": "https://catalog.falkoping.se/store/2/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.falkoping.se"
         }
@@ -549,6 +671,7 @@
       "owner": "SE2120001744",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -567,6 +690,11 @@
           "url": "https://catalog.forsakringskassan.se/store/9/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.forsakringskassan.se"
         }
@@ -581,6 +709,7 @@
       "owner": "SE2021005521",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -598,6 +727,11 @@
           "url": "https://catalog.gavle.se/store/1/metadata/2?recursive=dcat"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.gavle.se"
         }
@@ -612,6 +746,7 @@
       "owner": "SE2120002338",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -630,6 +765,11 @@
           "url": "https://catalog.goteborg.se/store/6/metadata/2?recursive=dcat"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.goteborg.se"
         }
@@ -644,6 +784,7 @@
       "owner": "SE2120001355",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -662,6 +803,11 @@
           "url": "https://catalog.gotene.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.gotene.se"
         }
@@ -676,6 +822,7 @@
       "owner": "SE2120001652",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -694,6 +841,11 @@
           "url": "https://catalog.grastorp.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.grastorp.se"
         }
@@ -708,6 +860,7 @@
       "owner": "SE2120001595",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -726,6 +879,11 @@
           "url": "https://catalog.gullspang.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.gullspang.se"
         }
@@ -741,6 +899,7 @@
       "owner": "SE2120001637",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -759,6 +918,11 @@
           "url": "https://catalog.harryda.se/store/2/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.harryda.se"
         }
@@ -774,6 +938,7 @@
       "owner": "SE2120001264",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -792,6 +957,11 @@
           "url": "https://catalog.hjo.se/store/2/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.hjo.se"
         }
@@ -807,6 +977,7 @@
       "owner": "SE2120001728",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -825,6 +996,11 @@
           "url": "https://catalog.iaf.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.iaf.se"
         }
@@ -839,6 +1015,7 @@
       "owner": "SE2021005414",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -857,6 +1034,11 @@
           "url": "https://catalog.karlsborg.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.karlsborg.se"
         }
@@ -872,6 +1054,7 @@
       "owner": "SE2120001629",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -890,6 +1073,11 @@
           "url": "https://catalog.kungalv.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.kungalv.se"
         }
@@ -904,6 +1092,7 @@
       "owner": "SE2120001371",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -922,6 +1111,11 @@
           "url": "https://catalog.lakemedelsverket.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.lakemedelsverket.se"
         }
@@ -937,6 +1131,7 @@
       "owner": "SE2021004078",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -954,6 +1149,11 @@
           "url": "https://catalog.lansstyrelsen.se/store/2/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.lansstyrelsen.se"
         }
@@ -968,6 +1168,7 @@
       "owner": "SE2021002361-LST",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -986,6 +1187,11 @@
           "url": "https://catalog.lerum.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.lerum.se"
         }
@@ -1000,6 +1206,7 @@
       "owner": "SE2120001447",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -1017,6 +1224,11 @@
           "url": "https://catalog.lidkoping.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.lidkoping.se"
         }
@@ -1031,6 +1243,7 @@
       "owner": "SE2120001694",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1049,6 +1262,11 @@
           "url": "https://catalog.lillaedet.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.lillaedet.se"
         }
@@ -1063,6 +1281,7 @@
       "owner": "SE2120001496",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -1080,6 +1299,11 @@
           "url": "https://catalog.lomma.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.lomma.se"
         }
@@ -1094,6 +1318,7 @@
       "owner": "SE2120001066",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -1111,6 +1336,11 @@
           "url": "https://catalog.mariestad.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.mariestad.se"
         }
@@ -1126,6 +1356,7 @@
       "owner": "SE2120001686",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1144,6 +1375,11 @@
           "url": "https://catalog.mellerud.se/store/3/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.mellerud.se"
         }
@@ -1159,6 +1395,7 @@
       "owner": "SE2120001488",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -1176,6 +1413,11 @@
           "url": "https://catalog.molndal.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.molndal.se"
         }
@@ -1190,6 +1432,7 @@
       "owner": "SE2120001363",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1208,6 +1451,11 @@
           "url": "https://catalog.raa.se/store/1/metadata/2?recursive=dcat,foaf:page&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.raa.se"
         }
@@ -1222,6 +1470,7 @@
       "owner": "SE2021001090",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1240,6 +1489,11 @@
           "url": "https://catalog.skara.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.skara.se"
         }
@@ -1255,6 +1509,7 @@
       "owner": "SE2120001702",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1273,6 +1528,11 @@
           "url": "https://catalog.skl.se/store/1/metadata/2?recursive=dcat"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.skl.se"
         }
@@ -1287,6 +1547,7 @@
       "owner": "SE2220000315",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1305,6 +1566,11 @@
           "url": "https://catalog.sodertalje.se/store/1/metadata/2?recursive=dcat,dcat:downloadURL,dcterms:hasPart&repository"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.sodertalje.se"
         }
@@ -1320,6 +1586,7 @@
       "owner": "SE2120000159",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1338,6 +1605,11 @@
           "url": "https://catalog.stenungsund.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.stenungsund.se"
         }
@@ -1353,6 +1625,7 @@
       "owner": "SE2120001298",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1371,6 +1644,11 @@
           "url": "https://catalog.tibro.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.tibro.se"
         }
@@ -1386,6 +1664,7 @@
       "owner": "SE2120001660",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1404,6 +1683,11 @@
           "url": "https://catalog.tidaholm.se/store/2/metadata/2?recursive=dcat"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.tidaholm.se"
         }
@@ -1418,6 +1702,7 @@
       "owner": "SE2120001736",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1436,6 +1721,11 @@
           "url": "https://catalog.tjorn.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.tjorn.se"
         }
@@ -1450,6 +1740,7 @@
       "owner": "SE2120001306",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1468,6 +1759,11 @@
           "url": "https://catalog.toreboda.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.toreboda.se"
         }
@@ -1483,6 +1779,7 @@
       "owner": "SE2120001678",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1501,6 +1798,11 @@
           "url": "https://catalog.trollhattan.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.trollhattan.se"
         }
@@ -1515,6 +1817,7 @@
       "owner": "SE2120001546",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1533,6 +1836,11 @@
           "url": "https://catalog.ulricehamn.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.ulricehamn.se"
         }
@@ -1547,6 +1855,7 @@
       "owner": "SE2120001579",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -1564,6 +1873,11 @@
           "url": "https://catalog.upphandlingsmyndigheten.se/store/1/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.upphandlingsmyndigheten.se"
         }
@@ -1578,6 +1892,7 @@
       "owner": "SE2021006610",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1596,6 +1911,11 @@
           "url": "https://catalog.vara.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://catalog.vara.se"
         }
@@ -1610,6 +1930,7 @@
       "owner": "SE2120002924",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1619,6 +1940,11 @@
     "cdn.jordbruksverket.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "atom",
           "url": "https://cdn.jordbruksverket.se/inspire/atom/atom-topfeed.xml"
         }
@@ -1630,9 +1956,10 @@
       "owner": "SE2021004151",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "civictech.se": {
@@ -1657,6 +1984,7 @@
       },
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -1665,10 +1993,20 @@
     "daim.lfv.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
           "url": "https://daim.lfv.se/geoserver/mais/wfs"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
           "url": "https://daim.lfv.se/geoserver/mais/wms"
         }
@@ -1680,9 +2018,10 @@
       "owner": "SE2021000795",
       "software": "geoserver",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "data.arbetsformedlingen.se": {
@@ -1708,6 +2047,7 @@
       "owner": "SE2021002114",
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -1725,6 +2065,11 @@
           "url": "https://data.botkyrka.se/store/1/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://data.botkyrka.se"
         }
@@ -1739,6 +2084,7 @@
       "owner": "SE2120002882",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1757,6 +2103,11 @@
           "url": "https://data.naturvardsverket.se/store/16/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://data.naturvardsverket.se"
         }
@@ -1772,6 +2123,7 @@
       "owner": "SE2021001975",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -1789,6 +2141,11 @@
           "url": "https://data.nobelprize.org/store/7/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://data.nobelprize.org"
         }
@@ -1802,6 +2159,7 @@
       },
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -1830,6 +2188,7 @@
       "owner": "SE2021002072",
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -1857,6 +2216,7 @@
       "owner": "SE2021001868",
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -1865,6 +2225,11 @@
     "data.svk.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "ckan_v3",
           "url": "https://data.svk.se"
         },
@@ -1889,6 +2254,7 @@
       "owner": "SE2021004284",
       "software": "ckan",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -1906,6 +2272,11 @@
           "url": "https://data.tomelilla.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://data.tomelilla.se"
         }
@@ -1921,6 +2292,7 @@
       "owner": "SE2120000886",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -1930,6 +2302,11 @@
     "data.visitsweden.com": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://data.visitsweden.com"
         }
@@ -1941,14 +2318,20 @@
       "owner": "SE5565007621",
       "software": "entryscape",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "dataanalys.socialstyrelsen.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "socialstyrelsen_dataanalys",
           "url": "https://dataanalys.socialstyrelsen.se/api/v1"
         }
@@ -1960,9 +2343,10 @@
       "owner": "SE2021000555",
       "software": "custom",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "datakatalog.helsingborg.se": {
@@ -1977,6 +2361,11 @@
           "url": "https://datakatalog.helsingborg.se/store/3/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://datakatalog.helsingborg.se"
         }
@@ -1991,6 +2380,7 @@
       "owner": "SE2120001157",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2008,6 +2398,11 @@
           "url": "https://datakatalog.karlstad.se/store/1/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://datakatalog.karlstad.se"
         }
@@ -2023,6 +2418,7 @@
       "owner": "SE2120001850",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2031,10 +2427,20 @@
     "dataportal.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://admin.dataportal.se"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "sparql",
           "url": "https://admin.dataportal.se/sparql"
         }
@@ -2052,9 +2458,10 @@
       "owner": "SE2021006883",
       "software": "entryscape",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "open_data_portal"
     },
     "dataportalen.stockholm.se": {
@@ -2080,6 +2487,7 @@
       "owner": "SE2120000142",
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2088,14 +2496,29 @@
     "datavardluft.smhi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
           "url": "https://datavardluft.smhi.se/aqd/wfs"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
           "url": "https://datavardluft.smhi.se/aqd/wms"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
           "url": "https://datavardluft.smhi.se/shair/wms"
         }
@@ -2107,9 +2530,10 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "editera.dataportal.se/162": {
@@ -2136,6 +2560,7 @@
       "owner": "SE2021004185",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2164,6 +2589,7 @@
       "owner": "SE2021006487",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2192,6 +2618,7 @@
       "owner": "SE2021006230",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2221,6 +2648,7 @@
       "owner": "SE2120001249",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2250,6 +2678,7 @@
       "owner": "SE2120000514",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2279,6 +2708,7 @@
       "owner": "SE2120002387",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2307,6 +2737,7 @@
       "owner": "SE2120000241",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2335,6 +2766,7 @@
       "owner": "SE2120000266",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2363,6 +2795,7 @@
       "owner": "SE2120000258",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2391,6 +2824,7 @@
       "owner": "SE2120000324",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2420,6 +2854,7 @@
       "owner": "SE2021001850",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2449,6 +2884,7 @@
       "owner": "SE2120002049",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2477,6 +2913,7 @@
       "owner": "SE2120000563",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2505,6 +2942,7 @@
       "owner": "SE2120001140",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2534,6 +2972,7 @@
       "owner": "SE2021002627",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2563,6 +3002,7 @@
       "owner": "SE2120001074",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2592,6 +3032,7 @@
       "owner": "SE5565007621",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2620,6 +3061,7 @@
       "owner": "SE2021006305",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2637,6 +3079,11 @@
           "url": "https://ei.entryscape.net/store/1/metadata/2?recursive=dcat"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://ei.entryscape.net"
         }
@@ -2652,6 +3099,7 @@
       "owner": "SE2021005695",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -2661,10 +3109,20 @@
     "elprisersverige.nu": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 400",
+            "result": "error"
+          },
           "protocol": "api",
           "url": "https://elprisersverige.nu/api/v1/prices"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 400",
+            "result": "error"
+          },
           "protocol": "api",
           "url": "https://elprisersverige.nu/api/v1/system"
         },
@@ -2689,6 +3147,7 @@
       "owner": "SE5590719547",
       "software": "custom",
       "source": [
+        "check",
         "data_europa",
         "dataportal"
       ],
@@ -2698,18 +3157,38 @@
     "epub.sjv.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
           "url": "http://epub.sjv.se/inspire/inspire/ows"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
           "url": "https://epub.sjv.se/inspire/wfs"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
           "url": "http://epub.sjv.se/inspire/inspire/ows"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
           "url": "https://epub.sjv.se/inspire/wms"
         }
@@ -2721,9 +3200,10 @@
       "owner": "SE2021004151",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "eskilstuna.entryscape.net": {
@@ -2738,6 +3218,11 @@
           "url": "https://eskilstuna.entryscape.net/store/1/metadata/2?recursive=dcat"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://eskilstuna.entryscape.net"
         }
@@ -2753,6 +3238,7 @@
       "owner": "SE2120000357",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -2783,6 +3269,7 @@
       "owner": "SE2021005026",
       "software": "custom",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -2792,6 +3279,11 @@
     "ext-dokument.lansstyrelsen.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "atom",
           "url": "https://ext-dokument.lansstyrelsen.se/gemensamt/Geodata/Inspire/ATOM/lst_topfeed.xml"
         }
@@ -2803,14 +3295,20 @@
       "owner": "SE2021002361-LST",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "ext-geodata-applikationer.lansstyrelsen.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "arcgis_rest",
           "url": "https://ext-geodata-applikationer.lansstyrelsen.se/arcgis/rest/services"
         }
@@ -2822,14 +3320,20 @@
       "owner": "SE2021002361-LST",
       "software": "arcgis",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "ext-geodata-nationella-visning.lansstyrelsen.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "arcgis_rest",
           "url": "https://ext-geodata-nationella-visning.lansstyrelsen.se/arcgis/rest/services"
         }
@@ -2841,15 +3345,21 @@
       "owner": "SE2021002361-LST",
       "software": "arcgis",
       "source": [
+        "check",
         "data_europa",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "ext-geodata-nationella.lansstyrelsen.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
+          },
           "protocol": "arcgis_rest",
           "url": "https://ext-geodata-nationella.lansstyrelsen.se/arcgis/rest/services"
         }
@@ -2860,20 +3370,67 @@
       },
       "software": "arcgis",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "inactive",
       "type": "geoportal"
     },
     "ext-geodata-ows.lansstyrelsen.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
-          "url": "https://ext-geodata-ows.lansstyrelsen.se"
+          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_am/ows"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wfs_2",
+          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_er/ows"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wfs_2",
+          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_pf/ows"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
-          "url": "https://ext-geodata-ows.lansstyrelsen.se"
+          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_am/ows"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wms_1_3",
+          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_er/ows"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wms_1_3",
+          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_pf/ows"
         }
       ],
       "id": "ext-geodata-ows.lansstyrelsen.se",
@@ -2883,14 +3440,20 @@
       "owner": "SE2021002361-LST",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "ext-geodata-raster.lansstyrelsen.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "arcgis_rest",
           "url": "https://ext-geodata-raster.lansstyrelsen.se/arcgis/rest/services"
         }
@@ -2902,15 +3465,21 @@
       "owner": "SE2021002361-LST",
       "software": "arcgis",
       "source": [
+        "check",
         "data_europa",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "ext-geoserver.lansstyrelsen.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
+          },
           "protocol": "wfs_2",
           "url": "https://ext-geoserver.lansstyrelsen.se/geoserver/inspire_am/wfs"
         }
@@ -2922,9 +3491,10 @@
       "owner": "SE2021002361-LST",
       "software": "geoserver",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "inactive",
       "type": "geoportal"
     },
     "filer.domstol.se": {
@@ -2950,6 +3520,7 @@
       "owner": "SE2021002742",
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2977,6 +3548,7 @@
       "owner": "SE2021006545",
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -2985,6 +3557,11 @@
     "fohm-app.folkhalsomyndigheten.se/folkhalsodata": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv",
             "en"
@@ -3001,9 +3578,10 @@
       "owner": "SE2021006545",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "formas.entryscape.net": {
@@ -3018,6 +3596,11 @@
           "url": "https://formas.entryscape.net/store/2/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://formas.entryscape.net"
         }
@@ -3033,6 +3616,7 @@
       "owner": "SE2021005232",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -3041,6 +3625,11 @@
     "forsakringskassan.se/sprstatistikrapportera": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "forsakringskassan",
           "url": "https://www.forsakringskassan.se/api/sprstatistikrapportera/public/v1"
         }
@@ -3052,9 +3641,10 @@
       "owner": "SE2021005521",
       "software": "custom",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "api"
     },
     "free.entryscape.com/177": {
@@ -3080,6 +3670,7 @@
       "owner": "SE5568540701",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -3109,6 +3700,7 @@
       "owner": "SE5568540701",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -3138,6 +3730,7 @@
       "owner": "SE2021002684",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -3167,6 +3760,7 @@
       "owner": "SE2120000308",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -3196,6 +3790,7 @@
       "owner": "SE5568540701",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -3224,6 +3819,7 @@
       "owner": "SE5568540701",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -3253,6 +3849,7 @@
       "owner": "SE5568540701",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -3282,6 +3879,7 @@
       "owner": "SE5568540701",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -3310,6 +3908,7 @@
       "owner": "SE5568540701",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -3338,6 +3937,7 @@
       "owner": "SE5568540701",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -3346,14 +3946,29 @@
     "geo-inspire.trafikverket.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
           "url": "http://geo-inspire.trafikverket.se/MapService/wfs.axd/TN_RailTransportNetwork"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
           "url": "http://geo-inspire.trafikverket.se/MapService/wfs.axd/TN_RoadTransportNetwork"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
           "url": "http://geo-inspire.trafikverket.se/MapService/wfs.axd/TN_WaterTransportNetwork"
         }
@@ -3365,14 +3980,20 @@
       "owner": "SE2021006297",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "geo-transfernode.trafikverket.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 400",
+            "result": "error"
+          },
           "protocol": "wfs_2",
           "url": "http://geo-transfernode.trafikverket.se/mapservice/wfs.axd/TN_TransferNode"
         }
@@ -3384,18 +4005,29 @@
       "owner": "SE2021006297",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "inactive",
       "type": "geoportal"
     },
     "geo.hjartstartarregistret.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 401",
+            "result": "restricted"
+          },
           "protocol": "wfs_2",
           "url": "https://geo.hjartstartarregistret.se/geoserver/base_heart/ows"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 401",
+            "result": "restricted"
+          },
           "protocol": "wms_1_3",
           "url": "https://geo.hjartstartarregistret.se/geoserver/base_heart/ows"
         }
@@ -3407,14 +4039,20 @@
       "owner": "SE5568540701",
       "software": "geoserver",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "geodata-svoa-extern.stockholm.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "arcgis_rest",
           "url": "https://geodata-svoa-extern.stockholm.se/Geodata/arcgis/rest/services"
         }
@@ -3426,24 +4064,94 @@
       "owner": "SE2120000142",
       "software": "arcgis",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "geodata.havochvatten.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "atom",
-          "url": "https://geodata.havochvatten.se/download"
+          "url": "https://geodata.havochvatten.se/download/fiskets-geografier/atom-topfeed.xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "atom",
+          "url": "https://geodata.havochvatten.se/download/limniska-vattentypsregioner/atom-topfeed.xml"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "atom",
+          "url": "https://geodata.havochvatten.se/download/omr-skyddade-enl-sfs-2001-554/atom-topfeed.xml"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
-          "url": "https://geodata.havochvatten.se/geoservices"
+          "url": "https://geodata.havochvatten.se/geoservices/fiskets-geografier/ows"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wfs_2",
+          "url": "https://geodata.havochvatten.se/geoservices/limniska-vattentypsregioner/ows"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wfs_2",
+          "url": "https://geodata.havochvatten.se/geoservices/provningsgrupper-for-vattenkraftverk/ows"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
-          "url": "https://geodata.havochvatten.se/geoservices"
+          "url": "https://geodata.havochvatten.se/geoservices/fiskets-geografier/ows"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wms_1_3",
+          "url": "https://geodata.havochvatten.se/geoservices/hav-bakgrundskartor/wms"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wms_1_3",
+          "url": "https://geodata.havochvatten.se/geoservices/limniska-vattentypsregioner/ows"
         }
       ],
       "id": "geodata.havochvatten.se",
@@ -3453,14 +4161,20 @@
       "owner": "SE2021006420",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "geodata.katrineholm.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "ckan_v3",
           "url": "https://geodata.katrineholm.se"
         },
@@ -3485,6 +4199,7 @@
       "owner": "SE2120000340",
       "software": "ckan",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -3493,16 +4208,85 @@
     "geodata.naturvardsverket.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "atom",
-          "url": "https://geodata.naturvardsverket.se/atom/inspire"
+          "url": "https://geodata.naturvardsverket.se/atom/inspire/af/SE_AF_serviceFeed.xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "atom",
+          "url": "https://geodata.naturvardsverket.se/atom/inspire/br/SE_BR_serviceFeed.xml"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "atom",
+          "url": "https://geodata.naturvardsverket.se/atom/inspire/hh/SE_HH_serviceFeed.xml"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
-          "url": "https://geodata.naturvardsverket.se"
+          "url": "https://geodata.naturvardsverket.se/inspire/af/ows"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wfs_2",
+          "url": "https://geodata.naturvardsverket.se/inspire/br/ows"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wfs_2",
+          "url": "https://geodata.naturvardsverket.se/inspire/hh/ows"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
-          "url": "http://geodata.naturvardsverket.se"
+          "url": "https://geodata.naturvardsverket.se/inspire/af/ows"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wms_1_3",
+          "url": "https://geodata.naturvardsverket.se/inspire/br/ows"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wms_1_3",
+          "url": "https://geodata.naturvardsverket.se/n2000/wms"
         }
       ],
       "id": "geodata.naturvardsverket.se",
@@ -3512,14 +4296,20 @@
       "owner": "SE2021001975",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "geodata.sametinget.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "atom",
           "url": "https://geodata.sametinget.se/INSPIRE/atom/atom-topfeed.xml"
         }
@@ -3531,20 +4321,49 @@
       "owner": "SE2021004573",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "geodata.scb.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
           "url": "https://geodata.scb.se/geoserver/stat/wfs"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
-          "url": "https://geodata.scb.se/geoserver/ows"
+          "url": "https://geodata.scb.se/geoserver/inspire/US.PublicAdministrationOffice/ows"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wms_1_3",
+          "url": "https://geodata.scb.se/geoserver/inspire/wms"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wms_1_3",
+          "url": "https://geodata.scb.se/geoserver/stat/wms"
         }
       ],
       "id": "geodata.scb.se",
@@ -3554,14 +4373,20 @@
       "owner": "SE2021000837",
       "software": "geoserver",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "geodata.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "csw_2",
           "url": "https://www.geodata.se/geodataportalen/srv/swe/csw"
         }
@@ -3579,18 +4404,29 @@
       "owner": "SE2021004888",
       "software": "geonetwork",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "geodata.socialstyrelsen.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200 without 'Capabilities'",
+            "result": "error"
+          },
           "protocol": "wfs_2",
           "url": "https://geodata.socialstyrelsen.se/cgi/mapserv.exe"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200 without 'Capabilities'",
+            "result": "error"
+          },
           "protocol": "wms_1_3",
           "url": "https://geodata.socialstyrelsen.se/cgi/mapserv.exe"
         }
@@ -3602,20 +4438,49 @@
       "owner": "SE2021000555",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "inactive",
       "type": "geoportal"
     },
     "geodpags.skogsstyrelsen.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "arcgis_rest",
           "url": "https://geodpags.skogsstyrelsen.se/arcgis/rest/services"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "atom",
-          "url": "https://geodpags.skogsstyrelsen.se/geodataport/feeds"
+          "url": "https://geodpags.skogsstyrelsen.se/geodataport/feeds/AvverkAnm.xml"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "atom",
+          "url": "https://geodpags.skogsstyrelsen.se/geodataport/feeds/Fjallnaragr.xml"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "atom",
+          "url": "https://geodpags.skogsstyrelsen.se/geodataport/feeds/Sumpskogar.xml"
         }
       ],
       "id": "geodpags.skogsstyrelsen.se",
@@ -3625,18 +4490,29 @@
       "owner": "SE2021005612",
       "software": "arcgis",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "geokatalog.sjofartsverket.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 404",
+            "result": "error"
+          },
           "protocol": "atom",
           "url": "https://geokatalog.sjofartsverket.se/inspire/atom.xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 400",
+            "result": "error"
+          },
           "protocol": "wfs_2",
           "url": "https://geokatalog.sjofartsverket.se/MapService/wfs.axd/InspireAu"
         }
@@ -3648,14 +4524,20 @@
       "owner": "SE2021000654",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "inactive",
       "type": "geoportal"
     },
     "geonode.folkhalsomyndigheten.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
+          },
           "protocol": "wfs_2",
           "url": "https://geonode.folkhalsomyndigheten.se/geoserver/ows"
         }
@@ -3667,14 +4549,20 @@
       "owner": "SE2021006545",
       "software": "geoserver",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "inactive",
       "type": "geoportal"
     },
     "gis.miljo.stockholm.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
           "url": "https://gis.miljo.stockholm.se/server/services/Solinstr%C3%A5lning/MapServer/WMSServer"
         }
@@ -3686,14 +4574,20 @@
       "owner": "SE2120000142",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "gis.swedgeo.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 404",
+            "result": "error"
+          },
           "protocol": "wms_1_3",
           "url": "https://gis.swedgeo.se/geoserver/inspire2022/wms"
         }
@@ -3705,14 +4599,20 @@
       "owner": "SE2021000712",
       "software": "geoserver",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "inactive",
       "type": "geoportal"
     },
     "gisapp.msb.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "arcgis_rest",
           "url": "https://gisapp.msb.se/arcgis/rest/services"
         }
@@ -3724,14 +4624,20 @@
       "owner": "SE2021003591",
       "software": "arcgis",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "gisportal.sametinget.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
           "url": "https://gisportal.sametinget.se/server/services/INSPIRE/Renskotselomr/MapServer/WMSServer"
         }
@@ -3743,9 +4649,10 @@
       "owner": "SE2021004573",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "haninge.entryscape.net": {
@@ -3760,6 +4667,11 @@
           "url": "https://haninge.entryscape.net/store/7/metadata/dcat?recursive=dcat"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://haninge.entryscape.net"
         }
@@ -3776,6 +4688,7 @@
       "owner": "SE2120000084",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -3785,6 +4698,11 @@
     "historical.api.jobtechdev.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
           "url": "https://historical.api.jobtechdev.se/swagger.json"
         }
@@ -3796,14 +4714,20 @@
       "owner": "SE2021002114",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "api"
     },
     "hvduppdrag.scb.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -3819,20 +4743,67 @@
       "owner": "SE2021000837",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "inspire-raa.metria.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200 without 'Capabilities'",
+            "result": "error"
+          },
           "protocol": "wfs_2",
-          "url": "https://inspire-raa.metria.se/geoserver/ows"
+          "url": "https://inspire-raa.metria.se/geoserver/Byggnader/ows"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200 without 'Capabilities'",
+            "result": "error"
+          },
+          "protocol": "wfs_2",
+          "url": "https://inspire-raa.metria.se/geoserver/Kulturarv/ows"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200 without 'Capabilities'",
+            "result": "error"
+          },
+          "protocol": "wfs_2",
+          "url": "https://inspire-raa.metria.se/geoserver/Varldsarv/ows"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
-          "url": "https://inspire-raa.metria.se/geoserver/ows"
+          "url": "https://inspire-raa.metria.se/geoserver/Byggnader/ows"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wms_1_3",
+          "url": "https://inspire-raa.metria.se/geoserver/Kulturarv/ows"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wms_1_3",
+          "url": "https://inspire-raa.metria.se/geoserver/Varldsarv/ows"
         }
       ],
       "id": "inspire-raa.metria.se",
@@ -3843,18 +4814,29 @@
       "owner": "SE2021001090",
       "software": "geoserver",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "inspire-skn.metria.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200 without 'Capabilities'",
+            "result": "error"
+          },
           "protocol": "wfs_2",
           "url": "https://inspire-skn.metria.se/geoserver/skn/ows"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
           "url": "https://inspire-skn.metria.se/geoserver/skn/ows"
         }
@@ -3867,18 +4849,29 @@
       "owner": "SE2021004284",
       "software": "geoserver",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "inspire-skolverket.metria.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200 without 'Capabilities'",
+            "result": "error"
+          },
           "protocol": "wfs_2",
           "url": "https://inspire-skolverket.metria.se/geoserver/skolverket/ows"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
           "url": "https://inspire-skolverket.metria.se/geoserver/skolverket/ows"
         }
@@ -3891,18 +4884,29 @@
       "owner": "SE2021004185",
       "software": "geoserver",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "ivo.metria.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200 without 'Capabilities'",
+            "result": "error"
+          },
           "protocol": "wfs_2",
           "url": "https://ivo.metria.se/geoserver/ivo/ows"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
           "url": "https://ivo.metria.se/geoserver/ivo/ows"
         }
@@ -3915,14 +4919,20 @@
       "owner": "SE2021006537",
       "software": "geoserver",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "jobad-enrichments-api.jobtechdev.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
           "url": "https://jobad-enrichments-api.jobtechdev.se/swagger.json"
         }
@@ -3934,14 +4944,20 @@
       "owner": "SE2021002114",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "api"
     },
     "jobed-connect-api.jobtechdev.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
           "url": "https://jobed-connect-api.jobtechdev.se/swagger.json"
         }
@@ -3953,14 +4969,20 @@
       "owner": "SE2021002114",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "api"
     },
     "karta.lidingo.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200 without 'Capabilities'",
+            "result": "error"
+          },
           "protocol": "wms_1_3",
           "url": "http://karta.lidingo.se/wms"
         }
@@ -3972,17 +4994,41 @@
       "owner": "SE2120000191",
       "software": "custom",
       "source": [
+        "check",
         "data_europa",
         "edits"
       ],
-      "status": "unknown",
+      "status": "inactive",
       "type": "geoportal"
     },
     "kartor.stockholm.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
-          "url": "http://kartor.stockholm.se"
+          "url": "http://kartor.stockholm.se/bios/wms/app/baggis/web/WMS_STHLM_ORTOFOTO_2020"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wms_1_3",
+          "url": "http://kartor.stockholm.se/bios/wms/app/baggis/web/WMS_STHLM_ORTOFOTO_2023"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 404",
+            "result": "error"
+          },
+          "protocol": "wms_1_3",
+          "url": "http://kartor.stockholm.se/bios/wms/app/baggis/web/WMS_STHLM_ORTOFOTO_2025"
         }
       ],
       "id": "kartor.stockholm.se",
@@ -3992,9 +5038,10 @@
       "owner": "SE2120000142",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "katalog.lund.se": {
@@ -4009,6 +5056,11 @@
           "url": "https://katalog.lund.se/store/1/metadata/2?recursive=dcat"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://katalog.lund.se"
         }
@@ -4023,6 +5075,7 @@
       "owner": "SE2120001132",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -4041,6 +5094,11 @@
           "url": "https://katalog.riksarkivet.se/store/1/metadata/2?recursive=dcat"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://katalog.riksarkivet.se"
         }
@@ -4055,6 +5113,7 @@
       "owner": "SE2021001074",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -4073,6 +5132,11 @@
           "url": "https://kronofogden.entryscape.net/store/2/metadata/2?recursive=dcat"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://kronofogden.entryscape.net"
         }
@@ -4088,6 +5152,7 @@
       "owner": "SE2021005646",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -4106,6 +5171,11 @@
           "url": "https://kungsbacka.entryscape.net/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://kungsbacka.entryscape.net"
         }
@@ -4121,6 +5191,7 @@
       "owner": "SE2120001256",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -4139,6 +5210,11 @@
           "url": "https://lantmateriet.entryscape.net/store/1/metadata/5168?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://lantmateriet.entryscape.net"
         }
@@ -4154,6 +5230,7 @@
       "owner": "SE2021004888",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -4171,6 +5248,11 @@
           "url": "https://linkoping.entryscape.net/store/1/metadata/2?recursive=dcat"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://linkoping.entryscape.net"
         }
@@ -4186,6 +5268,7 @@
       "owner": "SE2120000449",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -4195,6 +5278,11 @@
     "links.api.jobtechdev.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
           "url": "https://links.api.jobtechdev.se/swagger.json"
         }
@@ -4206,14 +5294,20 @@
       "owner": "SE2021002114",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "api"
     },
     "m02-http-pxwebb.login.sundsvall.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200 without 'dbid'",
+            "result": "error"
+          },
           "language": [
             "sv"
           ],
@@ -4229,14 +5323,20 @@
       "owner": "SE2120002411",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "inactive",
       "type": "statistics_database"
     },
     "m4eu.sgu.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
           "url": "https://m4eu.sgu.se/m4eu/services/m4eu_v2020.8"
         }
@@ -4248,16 +5348,40 @@
       "owner": "SE2021002528",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "maps.lantmateriet.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 401",
+            "result": "restricted"
+          },
           "protocol": "wms_1_3",
-          "url": "https://maps.lantmateriet.se"
+          "url": "https://maps.lantmateriet.se/inspire/hy/wms/v1"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 401",
+            "result": "restricted"
+          },
+          "protocol": "wms_1_3",
+          "url": "https://maps.lantmateriet.se/stompunkt/wms/v1"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 401",
+            "result": "restricted"
+          },
+          "protocol": "wms_1_3",
+          "url": "https://maps.lantmateriet.se/topowebb/wms/v1"
         }
       ],
       "id": "maps.lantmateriet.se",
@@ -4267,22 +5391,38 @@
       "owner": "SE2021004888",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "mapsext.sgi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
           "url": "https://mapsext.sgi.se/geoserver/inspire_gotaalv/wms"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
           "url": "https://mapsext.sgi.se/geoserver/inspire_ovrigaalvar/wms"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
           "url": "https://mapsext.sgi.se/geoserver/wms"
         }
@@ -4294,9 +5434,10 @@
       "owner": "SE2021000712",
       "software": "geoserver",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "metadata-ext.havochvatten.se": {
@@ -4311,6 +5452,11 @@
           "url": "https://metadata-ext.havochvatten.se/store/public/metadata/1?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://metadata-ext.havochvatten.se"
         }
@@ -4326,6 +5472,7 @@
       "owner": "SE2021006420",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -4343,6 +5490,11 @@
           "url": "https://metadata.bolagsverket.se/store/2/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://metadata.bolagsverket.se"
         }
@@ -4358,6 +5510,7 @@
       "owner": "SE2021005489",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -4375,6 +5528,11 @@
           "url": "https://metadata.boverket.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://metadata.boverket.se"
         }
@@ -4390,6 +5548,7 @@
       "owner": "SE2021003989",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -4407,6 +5566,11 @@
           "url": "https://metadata.lidingo.se/store/1/metadata/1?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://metadata.lidingo.se"
         }
@@ -4422,6 +5586,7 @@
       "owner": "SE2120000191",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -4439,6 +5604,11 @@
           "url": "https://metadata.simrishamn.se/store/5/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://metadata.simrishamn.se"
         }
@@ -4454,6 +5624,7 @@
       "owner": "SE2120000969",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -4471,6 +5642,11 @@
           "url": "https://metadata.trafikverket.se/store/11/metadata/2?recursive=dcat,foaf:page,dcterms:hasPart&repository&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://metadata.trafikverket.se"
         }
@@ -4486,6 +5662,7 @@
       "owner": "SE2021006297",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -4503,6 +5680,11 @@
           "url": "https://metadatakatalog.huddinge.se/store/5/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://metadatakatalog.huddinge.se"
         }
@@ -4518,6 +5700,7 @@
       "owner": "SE2120000068",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -4535,6 +5718,11 @@
           "url": "http://www.mi.se/datasets/dcat"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -4553,10 +5741,11 @@
       "owner": "SE2021005174",
       "software": "pxweb",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
-      "status": "inactive",
+      "status": "active",
       "type": "statistics_database"
     },
     "migrationsverket.se": {
@@ -4582,6 +5771,7 @@
       "owner": "SE2021002163",
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -4590,6 +5780,11 @@
     "nationellaemissionsdatabasen.smhi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "smhi_emissions",
           "url": "https://nationellaemissionsdatabasen.smhi.se/api"
         }
@@ -4601,9 +5796,10 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "ngs.ehalsomyndigheten.se": {
@@ -4628,6 +5824,7 @@
       "owner": "SE2021006552",
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -4636,6 +5833,11 @@
     "nvgis.naturvardsverket.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
           "url": "https://nvgis.naturvardsverket.se/geoserver/lavinprognoser/ows"
         }
@@ -4647,9 +5849,10 @@
       "owner": "SE2021001975",
       "software": "geoserver",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "offwegooo.com": {
@@ -4674,6 +5877,7 @@
       },
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -4682,6 +5886,11 @@
     "opendata-api.malmo.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "ckan_v3",
           "url": "https://opendata-api.malmo.se"
         },
@@ -4706,6 +5915,7 @@
       "owner": "SE2120001124",
       "software": "ckan",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -4734,6 +5944,7 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -4742,6 +5953,11 @@
     "opendata-download-algae.smhi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
           "url": "https://opendata-download-algae.smhi.se/api"
         }
@@ -4753,26 +5969,47 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "api"
     },
     "opendata-download-hydrography.smhi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
           "url": "https://opendata-download-hydrography.smhi.se/api/version/2.0/spec/inspire-hyp/element/db"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
           "url": "https://opendata-download-hydrography.smhi.se/api/version/2.0/spec/inspire-hyp/element/rb"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
           "url": "https://opendata-download-hydrography.smhi.se/api/version/latest/spec/inspire-hyp/element/dow.json"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "atom",
           "url": "https://opendata-download-hydrography.smhi.se/api/version/2.0/spec/inspire-hyp.atom"
         }
@@ -4784,18 +6021,47 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "opendata-download-hydroobs.smhi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
+          },
           "protocol": "api",
-          "url": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter"
+          "url": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/1.json"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "api",
+          "url": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/2.json"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "api",
+          "url": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3.json"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "atom",
           "url": "https://opendata-download-hydroobs.smhi.se/api/inspire/hydroobs.atom"
         }
@@ -4807,14 +6073,20 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "opendata-download-icemap.smhi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
           "url": "https://opendata-download-icemap.smhi.se/api"
         }
@@ -4826,14 +6098,20 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "api"
     },
     "opendata-download-lightning.smhi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "atom",
           "url": "https://opendata-download-lightning.smhi.se/api/version/latest.atom"
         }
@@ -4845,16 +6123,40 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "opendata-download-metanalys.smhi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
-          "url": "https://opendata-download-metanalys.smhi.se/api/category"
+          "url": "https://opendata-download-metanalys.smhi.se/api/category/fwia1g/version/1/daily/approvedtime.json"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "api",
+          "url": "https://opendata-download-metanalys.smhi.se/api/category/fwia1g/version/1/hourly/approvedtime.json"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "api",
+          "url": "https://opendata-download-metanalys.smhi.se/api/category/mesan2g/version/3/geotype/point/lon/16/lat/58/data.json"
         }
       ],
       "id": "opendata-download-metanalys.smhi.se",
@@ -4864,16 +6166,40 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "api"
     },
     "opendata-download-metfcst.smhi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
-          "url": "https://opendata-download-metfcst.smhi.se/api/category"
+          "url": "https://opendata-download-metfcst.smhi.se/api/category/fwif1g/version/1/daily/approvedtime.json"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "api",
+          "url": "https://opendata-download-metfcst.smhi.se/api/category/fwif1g/version/1/hourly/approvedtime.json"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
+          },
+          "protocol": "api",
+          "url": "https://opendata-download-metfcst.smhi.se/api/category/snow1g/version/1/geotype/point/lon/16/lat/58/data.json"
         }
       ],
       "id": "opendata-download-metfcst.smhi.se",
@@ -4883,20 +6209,67 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "api"
     },
     "opendata-download-metobs.smhi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
+          },
           "protocol": "api",
-          "url": "https://opendata-download-metobs.smhi.se/api"
+          "url": "https://opendata-download-metobs.smhi.se/api/inspire/metobs-19.json"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "api",
+          "url": "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/1.json"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "api",
+          "url": "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/2.json"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "atom",
-          "url": "https://opendata-download-metobs.smhi.se/api/inspire"
+          "url": "https://opendata-download-metobs.smhi.se/api/inspire/metobs-1.atom"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "atom",
+          "url": "https://opendata-download-metobs.smhi.se/api/inspire/metobs-2.atom"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "atom",
+          "url": "https://opendata-download-metobs.smhi.se/api/inspire/metobs.atom"
         }
       ],
       "id": "opendata-download-metobs.smhi.se",
@@ -4906,20 +6279,67 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "opendata-download-ocobs.smhi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
-          "url": "https://opendata-download-ocobs.smhi.se/api/version/latest/parameter"
+          "url": "https://opendata-download-ocobs.smhi.se/api/version/latest/parameter/1.json"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "api",
+          "url": "https://opendata-download-ocobs.smhi.se/api/version/latest/parameter/2.json"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "api",
+          "url": "https://opendata-download-ocobs.smhi.se/api/version/latest/parameter/3.json"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "atom",
-          "url": "https://opendata-download-ocobs.smhi.se/api/inspire"
+          "url": "https://opendata-download-ocobs.smhi.se/api/inspire/ocobs-1.atom"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "atom",
+          "url": "https://opendata-download-ocobs.smhi.se/api/inspire/ocobs-2.atom"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
+          },
+          "protocol": "atom",
+          "url": "https://opendata-download-ocobs.smhi.se/api/inspire/ocobs.atom"
         }
       ],
       "id": "opendata-download-ocobs.smhi.se",
@@ -4929,14 +6349,20 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "opendata-download-radar.smhi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
           "url": "https://opendata-download-radar.smhi.se/api"
         }
@@ -4948,14 +6374,20 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "api"
     },
     "opendata-download-satellite.smhi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
           "url": "https://opendata-download-satellite.smhi.se/api/category/firedetections/version/1/year/2026/month/02/data.json"
         }
@@ -4967,14 +6399,20 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "api"
     },
     "opendata-download-warnings.smhi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
           "url": "https://opendata-download-warnings.smhi.se/ibww/api/version/1"
         }
@@ -4986,20 +6424,67 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "api"
     },
     "opendata-view.smhi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
-          "url": "https://opendata-view.smhi.se"
+          "url": "https://opendata-view.smhi.se/SMHI_vatten/BARO_2022/wfs"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wfs_2",
+          "url": "https://opendata-view.smhi.se/algae/SR.SeaSurfaceArea/wfs"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wfs_2",
+          "url": "https://opendata-view.smhi.se/seaice/SR.SeaSurfaceArea/wfs"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
-          "url": "https://opendata-view.smhi.se"
+          "url": "https://opendata-view.smhi.se/SMHI_medelvattenstand/wms"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
+            "result": "unreachable"
+          },
+          "protocol": "wms_1_3",
+          "url": "https://opendata-view.smhi.se/SMHI_sealevel/wms"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wms_1_3",
+          "url": "https://opendata-view.smhi.se/met-obs/wms"
         }
       ],
       "id": "opendata-view.smhi.se",
@@ -5009,14 +6494,20 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "opendata.bastad.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "ckan_v3",
           "url": "https://opendata.bastad.se"
         },
@@ -5041,6 +6532,7 @@
       "owner": "SE2120000944",
       "software": "ckan",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -5049,6 +6541,11 @@
     "opendata.engelholm.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "ckan_v3",
           "url": "https://opendata.engelholm.se"
         },
@@ -5073,6 +6570,7 @@
       "owner": "SE2120000977",
       "software": "ckan",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -5081,8 +6579,31 @@
     "opendata.smhi.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
-          "url": "https://opendata.smhi.se"
+          "url": "https://opendata.smhi.se/ocobs/api"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "api",
+          "url": "https://opendata.smhi.se/pthbv/api"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "api",
+          "url": "https://opendata.smhi.se/radar/api"
         }
       ],
       "id": "opendata.smhi.se",
@@ -5092,9 +6613,10 @@
       "owner": "SE2021000696",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "api"
     },
     "opendata.statenskonstrad.se": {
@@ -5109,6 +6631,11 @@
           "url": "https://opendata.statenskonstrad.se/store/1/metadata/2?recursive=dcat"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://opendata.statenskonstrad.se"
         }
@@ -5123,6 +6650,7 @@
       "owner": "SE2021001033",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -5151,6 +6679,7 @@
       "owner": "SE2120002627",
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -5159,6 +6688,11 @@
     "opendata.upplandsvasby.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "ckan_v3",
           "url": "https://opendata.upplandsvasby.se"
         },
@@ -5183,6 +6717,7 @@
       "owner": "SE2120000019",
       "software": "ckan",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -5200,6 +6735,11 @@
           "url": "https://opendata.vasteras.se/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://opendata.vasteras.se"
         }
@@ -5214,6 +6754,7 @@
       "owner": "SE2120002080",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -5223,6 +6764,11 @@
     "openexpl.stockholm.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
           "url": "https://openexpl.stockholm.se/geoserver/geoarchive/wms"
         }
@@ -5234,18 +6780,29 @@
       "owner": "SE2120000142",
       "software": "geoserver",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "openstreetgs.stockholm.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 404",
+            "result": "error"
+          },
           "protocol": "wfs_2",
           "url": "https://openstreetgs.stockholm.se/geoservice/api/DIN+API-NYCKEL/wfs"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 404",
+            "result": "error"
+          },
           "protocol": "wms_1_3",
           "url": "https://openstreetgs.stockholm.se/geoservice/api/DIN+API-NYCKEL/wms"
         }
@@ -5257,9 +6814,10 @@
       "owner": "SE2120000142",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "inactive",
       "type": "geoportal"
     },
     "oppnadata.skane.se": {
@@ -5274,6 +6832,11 @@
           "url": "https://oppnadata.skane.se/store/1/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://oppnadata.skane.se"
         }
@@ -5289,6 +6852,7 @@
       "owner": "SE2321000255",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -5297,8 +6861,31 @@
     "oppnadata.tillvaxtverket.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
-          "url": "https://oppnadata.tillvaxtverket.se/api/api/query/inkvartering/data"
+          "url": "https://oppnadata.tillvaxtverket.se/api/api/query/inkvartering/data/GuestNights_Capacity_Day.cbase"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "api",
+          "url": "https://oppnadata.tillvaxtverket.se/api/api/query/inkvartering/data/GuestNights_Capacity_Year.cbase"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "api",
+          "url": "https://oppnadata.tillvaxtverket.se/api/api/query/inkvartering/data/GuestNights_Country_Year.cbase"
         },
         {
           "checked": {
@@ -5310,6 +6897,11 @@
           "url": "https://oppnadata.tillvaxtverket.se/index.rdf"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "tillvaxtverket",
           "url": "https://oppnadata.tillvaxtverket.se"
         }
@@ -5325,6 +6917,7 @@
       "owner": "SE2021006149",
       "software": "custom",
       "source": [
+        "check",
         "data_europa",
         "dataportal",
         "edits"
@@ -5354,6 +6947,7 @@
       "owner": "SE2021006255",
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -5362,6 +6956,11 @@
     "prognos.konj.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv",
             "en"
@@ -5378,9 +6977,10 @@
       "owner": "SE2021000845",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "pts.entryscape.net": {
@@ -5395,6 +6995,11 @@
           "url": "https://pts.entryscape.net/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://pts.entryscape.net"
         }
@@ -5411,6 +7016,7 @@
       "owner": "SE2021004359",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -5428,6 +7034,11 @@
           "url": "https://pxexternal.energimyndigheten.se/resources/px/Databases/Energimyndighetens_statistikdatabas/dcat-ap.xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv",
             "en"
@@ -5447,6 +7058,7 @@
       "owner": "SE2021005000",
       "software": "pxweb",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -5456,6 +7068,11 @@
     "pxweb.etjanst.domstol.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv",
             "en"
@@ -5472,14 +7089,20 @@
       "owner": "SE2021002742",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "pxweb.lansstyrelsen.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -5495,14 +7118,20 @@
       "owner": "SE2021002361-LST",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "pxweb.skogsstyrelsen.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv",
             "en"
@@ -5519,14 +7148,20 @@
       "owner": "SE2021005612",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "pxweb2.karlstad.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -5542,14 +7177,20 @@
       "owner": "SE2120001850",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "pxweb2022.vgregion.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -5565,14 +7206,20 @@
       "owner": "SE2321000131",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "pxwebska.skogsstyrelsen.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -5588,14 +7235,20 @@
       "owner": "SE2021005612",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "qdb-external-api.myh.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 404",
+            "result": "error"
+          },
           "protocol": "api",
           "url": "https://qdb-external-api.myh.se/api/v1"
         }
@@ -5607,9 +7260,10 @@
       "owner": "SE2021006230",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "inactive",
       "type": "api"
     },
     "raw.githubusercontent.com": {
@@ -5633,6 +7287,7 @@
       },
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -5641,20 +7296,76 @@
     "resource.sgu.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "atom",
-          "url": "https://resource.sgu.se/service/atom/inspire"
+          "url": "https://resource.sgu.se/service/atom/inspire/datasets/GE_SGU_Bedrock_1M.xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "atom",
+          "url": "https://resource.sgu.se/service/atom/inspire/datasets/GE_SGU_Borehole.xml"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "atom",
+          "url": "https://resource.sgu.se/service/atom/inspire/sgu-inspiredownload.xml"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 404",
+            "result": "error"
+          },
           "protocol": "wfs_2",
           "url": "https://resource.sgu.se/m4eu/services/m4eu"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
           "url": "https://resource.sgu.se/service/bedrock1m_gsml_gu/wfs"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
-          "url": "https://resource.sgu.se"
+          "url": "https://resource.sgu.se/service/wms/130/alder"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wms_1_3",
+          "url": "https://resource.sgu.se/service/wms/130/kallor"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "wms_1_3",
+          "url": "https://resource.sgu.se/service/wms/130/mrr"
         }
       ],
       "id": "resource.sgu.se",
@@ -5664,9 +7375,10 @@
       "owner": "SE2021002528",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "riksantikvarieambetet.github.io": {
@@ -5692,6 +7404,7 @@
       "owner": "SE2021001090",
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -5709,6 +7422,11 @@
           "url": "https://rka.entryscape.net/store/4/metadata/2?recursive=dcat,dcterms:hasPart&repository"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://rka.entryscape.net"
         }
@@ -5725,6 +7443,7 @@
       "owner": "SE2220000315",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -5733,6 +7452,11 @@
     "sdb.socialstyrelsen.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "socialstyrelsen_sdb",
           "url": "https://sdb.socialstyrelsen.se/api/v1"
         }
@@ -5744,9 +7468,10 @@
       "owner": "SE2021000555",
       "software": "custom",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "skatteverket.entryscape.net": {
@@ -5761,6 +7486,11 @@
           "url": "https://skatteverket.entryscape.net/store/30/metadata/2?recursive=dcat,dcterms:hasPart&repository&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://skatteverket.entryscape.net"
         }
@@ -5777,6 +7507,7 @@
       "owner": "SE2021005448",
       "software": "entryscape",
       "source": [
+        "check",
         "data_europa",
         "dataportal",
         "edits"
@@ -5796,6 +7527,11 @@
           "url": "https://skogsstatistik.slu.se/dcat-ap.xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv",
             "en"
@@ -5815,6 +7551,7 @@
       "owner": "SE2021002817",
       "software": "pxweb",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -5833,6 +7570,11 @@
           "url": "https://skovde.entryscape.net/store/1/metadata/2?recursive=dcat"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://skovde.entryscape.net"
         }
@@ -5849,6 +7591,7 @@
       "owner": "SE2120001710",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -5857,6 +7600,11 @@
     "static.minaombud.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
           "url": "https://static.minaombud.se/openapi/dfm_konsument_v2.yaml"
         }
@@ -5868,26 +7616,65 @@
       "owner": "SE2021005489",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "api"
     },
     "stationsregister.miljodatasamverkan.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "atom",
-          "url": "https://stationsregister.miljodatasamverkan.se/docs/atom"
+          "url": "https://stationsregister.miljodatasamverkan.se/docs/atom/SE_EF_StnReg_DV_Badvatten/atomDatasetFeed-SE_EF_StnReg_DV_Badvatten.xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "atom",
+          "url": "https://stationsregister.miljodatasamverkan.se/docs/atom/SE_EF_StnReg_DV_Provfiske/atomDatasetFeed-SE_EF_StnReg_DV_Provfiske.xml"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "atom",
+          "url": "https://stationsregister.miljodatasamverkan.se/docs/atom/atomTopFeed.xml"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
           "url": "https://stationsregister.miljodatasamverkan.se/geoserver/stationsregistret/ows"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
           "url": "https://stationsregister.miljodatasamverkan.se/geoserver/stationsregistret/wfs"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
           "url": "https://stationsregister.miljodatasamverkan.se/geoserver/stationsregistret/ows"
         }
@@ -5900,15 +7687,21 @@
       "owner": "SE2021001975",
       "software": "geoserver",
       "source": [
+        "check",
         "data_europa",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "statistik-api.uka.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "uka_statistik",
           "url": "https://statistik-api.uka.se/api"
         }
@@ -5920,9 +7713,10 @@
       "owner": "SE2021006495",
       "software": "custom",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "statistik.csn.se": {
@@ -5937,6 +7731,11 @@
           "url": "https://statistik.csn.se/datasets/dcat.xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -5955,6 +7754,7 @@
       "owner": "SE2021001819",
       "software": "pxweb",
       "source": [
+        "check",
         "data_europa",
         "dataportal",
         "edits"
@@ -5965,6 +7765,11 @@
     "statistik.ehalsomyndigheten.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -5980,14 +7785,20 @@
       "owner": "SE2021006552",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "statistik.helsingborg.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -6003,14 +7814,20 @@
       "owner": "SE2120001157",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "statistik.konj.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv",
             "en"
@@ -6027,14 +7844,20 @@
       "owner": "SE2021000845",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "statistik.kulturanalys.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -6050,14 +7873,20 @@
       "owner": "SE2021006404",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "statistik.linkoping.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -6073,14 +7902,20 @@
       "owner": "SE2120000449",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "statistik.mcf.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv",
             "en"
@@ -6097,14 +7932,20 @@
       "owner": "SE2021005984",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "statistik.norrkoping.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -6120,14 +7961,20 @@
       "owner": "SE2120000456",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "statistik.orebro.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -6143,14 +7990,20 @@
       "owner": "SE2120001967",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "statistik.sjv.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -6166,14 +8019,20 @@
       "owner": "SE2021004151",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "statistik.tillvaxtanalys.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -6189,14 +8048,20 @@
       "owner": "SE2021006164",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "statistikdatabas.goteborg.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -6212,9 +8077,10 @@
       "owner": "SE2120001355",
       "software": "pxweb",
       "source": [
+        "check",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "statistikdatabasen.scb.se": {
@@ -6229,6 +8095,11 @@
           "url": "https://www.statistikdatabasen.scb.se/Resources/PX/Databases/ssd/dcat-ap.xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "pxweb_v2",
           "url": "https://statistikdatabasen.scb.se/api/v2"
         }
@@ -6243,6 +8114,7 @@
       "owner": "SE2021000837",
       "software": "pxweb",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -6252,6 +8124,11 @@
     "statistikdatabasen.skolverket.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "language": [
             "sv"
           ],
@@ -6267,15 +8144,21 @@
       "owner": "SE2021004185",
       "software": "pxweb",
       "source": [
+        "check",
         "data_europa",
         "edits"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "statistics_database"
     },
     "taxonomy.api.jobtechdev.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
           "url": "https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger-ui"
         }
@@ -6287,9 +8170,10 @@
       "owner": "SE2021002114",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "api"
     },
     "transportstyrelsen.entryscape.net": {
@@ -6304,6 +8188,11 @@
           "url": "https://transportstyrelsen.entryscape.net/store/7/metadata/2?recursive=dcat,foaf:page&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://transportstyrelsen.entryscape.net"
         }
@@ -6320,6 +8209,7 @@
       "owner": "SE2021006099",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -6348,6 +8238,7 @@
       },
       "software": "custom",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -6365,6 +8256,11 @@
           "url": "https://vgregion.entryscape.net/store/7/metadata/2?recursive=dcat"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://vgregion.entryscape.net"
         }
@@ -6380,6 +8276,7 @@
       "owner": "SE2321000131",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal",
         "edits"
       ],
@@ -6398,6 +8295,11 @@
           "url": "https://vinnova.entryscape.net/store/1/metadata/2?recursive=dcat"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://vinnova.entryscape.net"
         }
@@ -6413,6 +8315,7 @@
       "owner": "SE2021005216",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",
@@ -6421,14 +8324,29 @@
     "wms.slu.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wfs_2",
           "url": "https://wms.slu.se/inspire/ows"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 404",
+            "result": "error"
+          },
           "protocol": "wms_1_3",
           "url": "https://wms.slu.se/erosion/va/wms"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "wms_1_3",
           "url": "https://wms.slu.se/inspire/ows"
         }
@@ -6440,16 +8358,40 @@
       "owner": "SE2021002817",
       "software": "custom",
       "source": [
+        "check",
         "data_europa"
       ],
-      "status": "unknown",
+      "status": "active",
       "type": "geoportal"
     },
     "www7.skatteverket.se": {
       "endpoint": [
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "api",
-          "url": "https://www7.skatteverket.se/portal/apier-och-oppna-data/utvecklarportalen/api"
+          "url": "https://www7.skatteverket.se/portal/apier-och-oppna-data/utvecklarportalen/api/bilforman/2.0.3/%C3%96versikt"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "api",
+          "url": "https://www7.skatteverket.se/portal/apier-och-oppna-data/utvecklarportalen/api/kundhandelser/4.0.5/%C3%96versikt"
+        },
+        {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
+          "protocol": "api",
+          "url": "https://www7.skatteverket.se/portal/apier-och-oppna-data/utvecklarportalen/api/skattekonto/2.1.0/%C3%96versikt"
         },
         {
           "checked": {
@@ -6472,6 +8414,7 @@
       "owner": "SE2021005448",
       "software": "custom",
       "source": [
+        "check",
         "data_europa",
         "dataportal"
       ],
@@ -6490,6 +8433,11 @@
           "url": "https://ystad.entryscape.net/store/1/metadata/2?recursive=dcat&format=application/rdf+xml"
         },
         {
+          "checked": {
+            "date": "2026-10-13",
+            "detail": "HTTP 200",
+            "result": "ok"
+          },
           "protocol": "entrystore",
           "url": "https://ystad.entryscape.net"
         }
@@ -6505,6 +8453,7 @@
       "owner": "SE2120001181",
       "software": "entryscape",
       "source": [
+        "check",
         "dataportal"
       ],
       "status": "active",

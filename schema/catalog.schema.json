@@ -34,8 +34,8 @@
         "language": {"type": "array", "items": {"type": "string", "pattern": "^[a-z]{2}$"}, "description": "Languages the endpoint serves, when the protocol splits by language."},
         "support": {"type": "string", "enum": ["supported", "planned", "deferred", "none", "undecided"], "description": "Overrides the protocol's support for this install only."},
         "checked": {"type": "object", "required": ["date", "result"], "additionalProperties": false, "properties": {
-          "date": {"type": "string", "format": "date"},
-          "result": {"type": "string", "enum": ["ok", "error", "unreachable"]},
+          "date": {"type": "string", "format": "date", "description": "When the current result was first observed."},
+          "result": {"type": "string", "enum": ["ok", "restricted", "error", "unreachable"]},
           "detail": {"type": "string"}
         }},
         "note": {"type": "string"}

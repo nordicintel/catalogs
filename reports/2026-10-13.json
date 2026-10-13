@@ -244,9 +244,9 @@
   "count": 239,
   "date": "2026-10-13",
   "protocol": {
-    "api": 29,
+    "api": 45,
     "arcgis_rest": 7,
-    "atom": 15,
+    "atom": 31,
     "ckan_v3": 6,
     "csw_2": 1,
     "dcat_ap": 140,
@@ -263,10 +263,18 @@
     "tillvaxtverket": 1,
     "trafa": 1,
     "uka_statistik": 1,
-    "wfs_2": 30,
-    "wms_1_3": 32
+    "wfs_2": 40,
+    "wms_1_3": 50
   },
   "register": {
+    "check": {
+      "endpoints": 294,
+      "error": 25,
+      "ok": 254,
+      "restricted": 6,
+      "status": "fetched",
+      "unreachable": 9
+    },
     "data_europa": {
       "rows": 74,
       "status": "fetched"
