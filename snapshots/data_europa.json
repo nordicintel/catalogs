@@ -4,7 +4,7 @@
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 7,
+    "datasets": 8,
     "protocol": {
       "atom": [
         "https://api.lantmateriet.se"
@@ -16,7 +16,7 @@
     "publisher": [
       "http://dataportal.se/organisation/SE2021004888"
     ],
-    "services": 7
+    "services": 6
   },
   "api.skolverket.se": {
     "catalogue": [
@@ -30,6 +30,22 @@
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021004185"
+    ],
+    "services": 1
+  },
+  "api.trafa.se": {
+    "catalogue": [
+      "oppnadata"
+    ],
+    "datasets": 0,
+    "protocol": {
+      "api": [
+        "https://api.trafa.se/api/data",
+        "https://api.trafa.se/api/structure"
+      ]
+    },
+    "publisher": [
+      "http://dataportal.se/organisation/SE2021006305"
     ],
     "services": 2
   },
@@ -53,7 +69,7 @@
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 2,
+    "datasets": 1,
     "protocol": {
       "atom": [
         "https://cdn.jordbruksverket.se/inspire/atom/atom-topfeed.xml"
@@ -69,7 +85,7 @@
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 3,
+    "datasets": 2,
     "protocol": {
       "wfs_2": [
         "https://daim.lfv.se/geoserver/mais/wfs"
@@ -97,6 +113,23 @@
       "http://dataportal.se/organisation/5565007621"
     ],
     "services": 1
+  },
+  "datavardluft.smhi.se": {
+    "catalogue": [
+      "geodata-se"
+    ],
+    "datasets": 3,
+    "protocol": {
+      "wfs_2": [
+        "https://datavardluft.smhi.se/aqd/wfs"
+      ],
+      "wms_1_3": [
+        "https://datavardluft.smhi.se/aqd/wms",
+        "https://datavardluft.smhi.se/shair/wms"
+      ]
+    },
+    "publisher": [],
+    "services": 0
   },
   "elprisersverige.nu": {
     "catalogue": [
@@ -133,7 +166,7 @@
     "publisher": [
       "http://dataportal.se/organisation/SE2021004151"
     ],
-    "services": 4
+    "services": 2
   },
   "ext-dokument.lansstyrelsen.se": {
     "catalogue": [
@@ -156,7 +189,7 @@
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 2,
+    "datasets": 4,
     "protocol": {
       "arcgis_rest": [
         "https://ext-geodata-applikationer.lansstyrelsen.se/arcgis/rest/services"
@@ -169,12 +202,28 @@
   },
   "ext-geodata-nationella-visning.lansstyrelsen.se": {
     "catalogue": [
-      "geodata-se"
+      "geodata-se",
+      "oppnadata"
     ],
-    "datasets": 14,
+    "datasets": 16,
     "protocol": {
       "arcgis_rest": [
         "https://ext-geodata-nationella-visning.lansstyrelsen.se/arcgis/rest/services"
+      ]
+    },
+    "publisher": [
+      "http://dataportal.se/organisation/SE2021002361-LST"
+    ],
+    "services": 1
+  },
+  "ext-geodata-nationella.lansstyrelsen.se": {
+    "catalogue": [
+      "geodata-se"
+    ],
+    "datasets": 1,
+    "protocol": {
+      "arcgis_rest": [
+        "https://ext-geodata-nationella.lansstyrelsen.se/arcgis/rest/services"
       ]
     },
     "publisher": [],
@@ -185,29 +234,25 @@
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 5,
+    "datasets": 4,
     "protocol": {
       "wfs_2": [
-        "https://ext-geodata-ows.lansstyrelsen.se/inspire_am/ows",
-        "https://ext-geodata-ows.lansstyrelsen.se/inspire_er/ows",
-        "https://ext-geodata-ows.lansstyrelsen.se/inspire_us/ows"
+        "https://ext-geodata-ows.lansstyrelsen.se"
       ],
       "wms_1_3": [
-        "https://ext-geodata-ows.lansstyrelsen.se/inspire_am/ows",
-        "https://ext-geodata-ows.lansstyrelsen.se/inspire_er/ows",
-        "https://ext-geodata-ows.lansstyrelsen.se/inspire_us/ows"
+        "https://ext-geodata-ows.lansstyrelsen.se"
       ]
     },
     "publisher": [
       "http://dataportal.se/organisation/SE2021002361-LST"
     ],
-    "services": 2
+    "services": 4
   },
   "ext-geodata-raster.lansstyrelsen.se": {
     "catalogue": [
       "geodata-se"
     ],
-    "datasets": 2,
+    "datasets": 1,
     "protocol": {
       "arcgis_rest": [
         "https://ext-geodata-raster.lansstyrelsen.se/arcgis/rest/services"
@@ -218,9 +263,10 @@
   },
   "ext-geoserver.lansstyrelsen.se": {
     "catalogue": [
+      "geodata-se",
       "oppnadata"
     ],
-    "datasets": 0,
+    "datasets": 1,
     "protocol": {
       "wfs_2": [
         "https://ext-geoserver.lansstyrelsen.se/geoserver/inspire_am/wfs"
@@ -236,7 +282,7 @@
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 38,
+    "datasets": 45,
     "protocol": {
       "wfs_2": [
         "http://geo-inspire.trafikverket.se/MapService/wfs.axd/TN_RailTransportNetwork",
@@ -247,7 +293,7 @@
     "publisher": [
       "http://dataportal.se/organisation/SE2021006297"
     ],
-    "services": 1
+    "services": 4
   },
   "geo-transfernode.trafikverket.se": {
     "catalogue": [
@@ -304,7 +350,7 @@
       "nsip-se",
       "oppnadata"
     ],
-    "datasets": 12,
+    "datasets": 18,
     "protocol": {
       "atom": [
         "https://geodata.havochvatten.se/download"
@@ -325,13 +371,13 @@
     "catalogue": [
       "geodata-se"
     ],
-    "datasets": 28,
+    "datasets": 42,
     "protocol": {
       "atom": [
         "https://geodata.naturvardsverket.se/atom/inspire"
       ],
       "wfs_2": [
-        "https://geodata.naturvardsverket.se/inspire"
+        "https://geodata.naturvardsverket.se"
       ],
       "wms_1_3": [
         "http://geodata.naturvardsverket.se"
@@ -345,7 +391,7 @@
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 2,
+    "datasets": 1,
     "protocol": {
       "atom": [
         "https://geodata.sametinget.se/INSPIRE/atom/atom-topfeed.xml"
@@ -361,7 +407,7 @@
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 48,
+    "datasets": 46,
     "protocol": {
       "wfs_2": [
         "https://geodata.scb.se/geoserver/stat/wfs"
@@ -373,14 +419,14 @@
     "publisher": [
       "http://dataportal.se/organisation/SE2021000837"
     ],
-    "services": 22
+    "services": 20
   },
   "geodata.socialstyrelsen.se": {
     "catalogue": [
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 16,
+    "datasets": 12,
     "protocol": {
       "wfs_2": [
         "https://geodata.socialstyrelsen.se/cgi/mapserv.exe"
@@ -392,14 +438,14 @@
     "publisher": [
       "http://dataportal.se/organisation/SE2021000555"
     ],
-    "services": 4
+    "services": 6
   },
   "geodpags.skogsstyrelsen.se": {
     "catalogue": [
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 20,
+    "datasets": 18,
     "protocol": {
       "arcgis_rest": [
         "https://geodpags.skogsstyrelsen.se/arcgis/rest/services"
@@ -411,14 +457,14 @@
     "publisher": [
       "http://dataportal.se/organisation/SE2021005612"
     ],
-    "services": 12
+    "services": 14
   },
   "geokatalog.sjofartsverket.se": {
     "catalogue": [
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 3,
+    "datasets": 1,
     "protocol": {
       "atom": [
         "https://geokatalog.sjofartsverket.se/inspire/atom.xml"
@@ -464,7 +510,7 @@
     "catalogue": [
       "geodata-se"
     ],
-    "datasets": 2,
+    "datasets": 1,
     "protocol": {
       "wms_1_3": [
         "https://gis.swedgeo.se/geoserver/inspire2022/wms"
@@ -477,7 +523,7 @@
     "catalogue": [
       "geodata-se"
     ],
-    "datasets": 4,
+    "datasets": 2,
     "protocol": {
       "arcgis_rest": [
         "https://gisapp.msb.se/arcgis/rest/services"
@@ -491,7 +537,7 @@
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 3,
+    "datasets": 2,
     "protocol": {
       "wms_1_3": [
         "https://gisportal.sametinget.se/server/services/INSPIRE/Renskotselomr/MapServer/WMSServer"
@@ -522,7 +568,7 @@
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 13,
+    "datasets": 10,
     "protocol": {
       "wfs_2": [
         "https://inspire-raa.metria.se/geoserver/ows"
@@ -538,7 +584,8 @@
   },
   "inspire-skn.metria.se": {
     "catalogue": [
-      "geodata-se"
+      "geodata-se",
+      "oppnadata"
     ],
     "datasets": 1,
     "protocol": {
@@ -549,14 +596,17 @@
         "https://inspire-skn.metria.se/geoserver/skn/ows"
       ]
     },
-    "publisher": [],
-    "services": 0
+    "publisher": [
+      "http://dataportal.se/organisation/SE2021004284"
+    ],
+    "services": 1
   },
   "inspire-skolverket.metria.se": {
     "catalogue": [
+      "geodata-se",
       "oppnadata"
     ],
-    "datasets": 0,
+    "datasets": 1,
     "protocol": {
       "wfs_2": [
         "https://inspire-skolverket.metria.se/geoserver/skolverket/ows"
@@ -568,7 +618,7 @@
     "publisher": [
       "http://dataportal.se/organisation/SE2021004185"
     ],
-    "services": 2
+    "services": 1
   },
   "ivo.metria.se": {
     "catalogue": [
@@ -617,13 +667,13 @@
     "publisher": [
       "http://dataportal.se/organisation/SE2021002114"
     ],
-    "services": 2
+    "services": 1
   },
   "karta.lidingo.se": {
     "catalogue": [
       "geodata-se"
     ],
-    "datasets": 5,
+    "datasets": 7,
     "protocol": {
       "wms_1_3": [
         "http://karta.lidingo.se/wms"
@@ -660,11 +710,12 @@
     "publisher": [
       "http://dataportal.se/organisation/SE2021002114"
     ],
-    "services": 2
+    "services": 1
   },
   "m4eu.sgu.se": {
     "catalogue": [
-      "geodata-se"
+      "geodata-se",
+      "oppnadata"
     ],
     "datasets": 2,
     "protocol": {
@@ -672,14 +723,16 @@
         "https://m4eu.sgu.se/m4eu/services/m4eu_v2020.8"
       ]
     },
-    "publisher": [],
-    "services": 0
+    "publisher": [
+      "http://dataportal.se/organisation/SE2021002528"
+    ],
+    "services": 1
   },
   "maps.lantmateriet.se": {
     "catalogue": [
       "geodata-se"
     ],
-    "datasets": 20,
+    "datasets": 21,
     "protocol": {
       "wms_1_3": [
         "https://maps.lantmateriet.se"
@@ -693,7 +746,7 @@
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 5,
+    "datasets": 7,
     "protocol": {
       "wms_1_3": [
         "https://mapsext.sgi.se/geoserver/inspire_gotaalv/wms",
@@ -704,13 +757,26 @@
     "publisher": [
       "http://dataportal.se/organisation/SE2021000712"
     ],
-    "services": 6
+    "services": 5
+  },
+  "nvgis.naturvardsverket.se": {
+    "catalogue": [
+      "geodata-se"
+    ],
+    "datasets": 1,
+    "protocol": {
+      "wfs_2": [
+        "https://nvgis.naturvardsverket.se/geoserver/lavinprognoser/ows"
+      ]
+    },
+    "publisher": [],
+    "services": 0
   },
   "opendata-download-algae.smhi.se": {
     "catalogue": [
       "geodata-se"
     ],
-    "datasets": 2,
+    "datasets": 1,
     "protocol": {
       "api": [
         "https://opendata-download-algae.smhi.se/api"
@@ -724,8 +790,13 @@
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 2,
+    "datasets": 4,
     "protocol": {
+      "api": [
+        "https://opendata-download-hydrography.smhi.se/api/version/2.0/spec/inspire-hyp/element/db",
+        "https://opendata-download-hydrography.smhi.se/api/version/2.0/spec/inspire-hyp/element/rb",
+        "https://opendata-download-hydrography.smhi.se/api/version/latest/spec/inspire-hyp/element/dow.json"
+      ],
       "atom": [
         "https://opendata-download-hydrography.smhi.se/api/version/2.0/spec/inspire-hyp.atom"
       ]
@@ -740,7 +811,7 @@
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 6,
+    "datasets": 11,
     "protocol": {
       "api": [
         "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter"
@@ -754,14 +825,53 @@
     ],
     "services": 1
   },
-  "opendata-download-metanalys.smhi.se": {
+  "opendata-download-icemap.smhi.se": {
     "catalogue": [
       "geodata-se"
     ],
     "datasets": 1,
     "protocol": {
       "api": [
-        "https://opendata-download-metanalys.smhi.se/api/category/strang1g/version/1/geotype/point/lon/16/lat/58/parameter/116/data.json"
+        "https://opendata-download-icemap.smhi.se/api"
+      ]
+    },
+    "publisher": [],
+    "services": 0
+  },
+  "opendata-download-lightning.smhi.se": {
+    "catalogue": [
+      "geodata-se"
+    ],
+    "datasets": 1,
+    "protocol": {
+      "atom": [
+        "https://opendata-download-lightning.smhi.se/api/version/latest.atom"
+      ]
+    },
+    "publisher": [],
+    "services": 0
+  },
+  "opendata-download-metanalys.smhi.se": {
+    "catalogue": [
+      "geodata-se"
+    ],
+    "datasets": 7,
+    "protocol": {
+      "api": [
+        "https://opendata-download-metanalys.smhi.se/api/category"
+      ]
+    },
+    "publisher": [],
+    "services": 0
+  },
+  "opendata-download-metfcst.smhi.se": {
+    "catalogue": [
+      "geodata-se"
+    ],
+    "datasets": 7,
+    "protocol": {
+      "api": [
+        "https://opendata-download-metfcst.smhi.se/api/category"
       ]
     },
     "publisher": [],
@@ -772,7 +882,7 @@
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 42,
+    "datasets": 62,
     "protocol": {
       "api": [
         "https://opendata-download-metobs.smhi.se/api"
@@ -784,14 +894,14 @@
     "publisher": [
       "http://dataportal.se/organisation/SE2021000696"
     ],
-    "services": 2
+    "services": 1
   },
   "opendata-download-ocobs.smhi.se": {
     "catalogue": [
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 21,
+    "datasets": 24,
     "protocol": {
       "api": [
         "https://opendata-download-ocobs.smhi.se/api/version/latest/parameter"
@@ -805,12 +915,51 @@
     ],
     "services": 1
   },
+  "opendata-download-radar.smhi.se": {
+    "catalogue": [
+      "geodata-se"
+    ],
+    "datasets": 1,
+    "protocol": {
+      "api": [
+        "https://opendata-download-radar.smhi.se/api"
+      ]
+    },
+    "publisher": [],
+    "services": 0
+  },
+  "opendata-download-satellite.smhi.se": {
+    "catalogue": [
+      "geodata-se"
+    ],
+    "datasets": 1,
+    "protocol": {
+      "api": [
+        "https://opendata-download-satellite.smhi.se/api/category/firedetections/version/1/year/2026/month/02/data.json"
+      ]
+    },
+    "publisher": [],
+    "services": 0
+  },
+  "opendata-download-warnings.smhi.se": {
+    "catalogue": [
+      "geodata-se"
+    ],
+    "datasets": 1,
+    "protocol": {
+      "api": [
+        "https://opendata-download-warnings.smhi.se/ibww/api/version/1"
+      ]
+    },
+    "publisher": [],
+    "services": 0
+  },
   "opendata-view.smhi.se": {
     "catalogue": [
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 116,
+    "datasets": 138,
     "protocol": {
       "wfs_2": [
         "https://opendata-view.smhi.se"
@@ -822,13 +971,13 @@
     "publisher": [
       "http://dataportal.se/organisation/SE2021000696"
     ],
-    "services": 15
+    "services": 19
   },
   "opendata.smhi.se": {
     "catalogue": [
       "geodata-se"
     ],
-    "datasets": 54,
+    "datasets": 69,
     "protocol": {
       "api": [
         "https://opendata.smhi.se"
@@ -901,12 +1050,13 @@
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 119,
+    "datasets": 94,
     "protocol": {
       "atom": [
         "https://resource.sgu.se/service/atom/inspire"
       ],
       "wfs_2": [
+        "https://resource.sgu.se/m4eu/services/m4eu",
         "https://resource.sgu.se/service/bedrock1m_gsml_gu/wfs"
       ],
       "wms_1_3": [
@@ -916,7 +1066,7 @@
     "publisher": [
       "http://dataportal.se/organisation/SE2021002528"
     ],
-    "services": 72
+    "services": 71
   },
   "skatteverket.entryscape.net": {
     "catalogue": [
@@ -952,13 +1102,17 @@
     "catalogue": [
       "geodata-se"
     ],
-    "datasets": 7,
+    "datasets": 8,
     "protocol": {
       "atom": [
         "https://stationsregister.miljodatasamverkan.se/docs/atom"
       ],
       "wfs_2": [
+        "https://stationsregister.miljodatasamverkan.se/geoserver/stationsregistret/ows",
         "https://stationsregister.miljodatasamverkan.se/geoserver/stationsregistret/wfs"
+      ],
+      "wms_1_3": [
+        "https://stationsregister.miljodatasamverkan.se/geoserver/stationsregistret/ows"
       ]
     },
     "publisher": [],
@@ -977,7 +1131,7 @@
     "publisher": [
       "http://dataportal.se/organisation/SE2021001819"
     ],
-    "services": 268
+    "services": 253
   },
   "statistikdatabasen.skolverket.se": {
     "catalogue": [
@@ -992,12 +1146,27 @@
     "publisher": [],
     "services": 1
   },
+  "taxonomy.api.jobtechdev.se": {
+    "catalogue": [
+      "oppnadata"
+    ],
+    "datasets": 0,
+    "protocol": {
+      "api": [
+        "https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger-ui"
+      ]
+    },
+    "publisher": [
+      "http://dataportal.se/organisation/SE2021002114"
+    ],
+    "services": 1
+  },
   "wms.slu.se": {
     "catalogue": [
       "geodata-se",
       "oppnadata"
     ],
-    "datasets": 3,
+    "datasets": 2,
     "protocol": {
       "wfs_2": [
         "https://wms.slu.se/inspire/ows"

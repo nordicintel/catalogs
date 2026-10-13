@@ -142,6 +142,14 @@
     "api.trafa.se": {
       "endpoint": [
         {
+          "protocol": "api",
+          "url": "https://api.trafa.se/api/data"
+        },
+        {
+          "protocol": "api",
+          "url": "https://api.trafa.se/api/structure"
+        },
+        {
           "protocol": "trafa",
           "url": "https://api.trafa.se/api"
         }
@@ -153,6 +161,7 @@
       "owner": "SE2021006305",
       "software": "custom",
       "source": [
+        "data_europa",
         "edits"
       ],
       "status": "unknown",
@@ -2076,6 +2085,33 @@
       "status": "active",
       "type": "open_data_portal"
     },
+    "datavardluft.smhi.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://datavardluft.smhi.se/aqd/wfs"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://datavardluft.smhi.se/aqd/wms"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://datavardluft.smhi.se/shair/wms"
+        }
+      ],
+      "id": "datavardluft.smhi.se",
+      "label": {
+        "sv": "Sveriges meteorologiska och hydrologiska institut"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
     "editera.dataportal.se/162": {
       "endpoint": [
         {
@@ -2811,31 +2847,33 @@
       "status": "unknown",
       "type": "geoportal"
     },
+    "ext-geodata-nationella.lansstyrelsen.se": {
+      "endpoint": [
+        {
+          "protocol": "arcgis_rest",
+          "url": "https://ext-geodata-nationella.lansstyrelsen.se/arcgis/rest/services"
+        }
+      ],
+      "id": "ext-geodata-nationella.lansstyrelsen.se",
+      "label": {
+        "sv": "ext-geodata-nationella.lansstyrelsen.se"
+      },
+      "software": "arcgis",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
     "ext-geodata-ows.lansstyrelsen.se": {
       "endpoint": [
         {
           "protocol": "wfs_2",
-          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_am/ows"
-        },
-        {
-          "protocol": "wfs_2",
-          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_er/ows"
-        },
-        {
-          "protocol": "wfs_2",
-          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_us/ows"
+          "url": "https://ext-geodata-ows.lansstyrelsen.se"
         },
         {
           "protocol": "wms_1_3",
-          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_am/ows"
-        },
-        {
-          "protocol": "wms_1_3",
-          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_er/ows"
-        },
-        {
-          "protocol": "wms_1_3",
-          "url": "https://ext-geodata-ows.lansstyrelsen.se/inspire_us/ows"
+          "url": "https://ext-geodata-ows.lansstyrelsen.se"
         }
       ],
       "id": "ext-geodata-ows.lansstyrelsen.se",
@@ -3460,7 +3498,7 @@
         },
         {
           "protocol": "wfs_2",
-          "url": "https://geodata.naturvardsverket.se/inspire"
+          "url": "https://geodata.naturvardsverket.se"
         },
         {
           "protocol": "wms_1_3",
@@ -3823,9 +3861,10 @@
       ],
       "id": "inspire-skn.metria.se",
       "label": {
-        "sv": "inspire-skn.metria.se"
+        "sv": "Affärsverket svenska kraftnät"
       },
       "operator": "SE5567992242",
+      "owner": "SE2021004284",
       "software": "geoserver",
       "source": [
         "data_europa"
@@ -4594,6 +4633,25 @@
       "status": "active",
       "type": "open_data_portal"
     },
+    "nvgis.naturvardsverket.se": {
+      "endpoint": [
+        {
+          "protocol": "wfs_2",
+          "url": "https://nvgis.naturvardsverket.se/geoserver/lavinprognoser/ows"
+        }
+      ],
+      "id": "nvgis.naturvardsverket.se",
+      "label": {
+        "sv": "Naturvårdsverket"
+      },
+      "owner": "SE2021001975",
+      "software": "geoserver",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
     "offwegooo.com": {
       "endpoint": [
         {
@@ -4703,6 +4761,18 @@
     "opendata-download-hydrography.smhi.se": {
       "endpoint": [
         {
+          "protocol": "api",
+          "url": "https://opendata-download-hydrography.smhi.se/api/version/2.0/spec/inspire-hyp/element/db"
+        },
+        {
+          "protocol": "api",
+          "url": "https://opendata-download-hydrography.smhi.se/api/version/2.0/spec/inspire-hyp/element/rb"
+        },
+        {
+          "protocol": "api",
+          "url": "https://opendata-download-hydrography.smhi.se/api/version/latest/spec/inspire-hyp/element/dow.json"
+        },
+        {
           "protocol": "atom",
           "url": "https://opendata-download-hydrography.smhi.se/api/version/2.0/spec/inspire-hyp.atom"
         }
@@ -4742,14 +4812,71 @@
       "status": "unknown",
       "type": "geoportal"
     },
+    "opendata-download-icemap.smhi.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://opendata-download-icemap.smhi.se/api"
+        }
+      ],
+      "id": "opendata-download-icemap.smhi.se",
+      "label": {
+        "sv": "Sveriges meteorologiska och hydrologiska institut"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "api"
+    },
+    "opendata-download-lightning.smhi.se": {
+      "endpoint": [
+        {
+          "protocol": "atom",
+          "url": "https://opendata-download-lightning.smhi.se/api/version/latest.atom"
+        }
+      ],
+      "id": "opendata-download-lightning.smhi.se",
+      "label": {
+        "sv": "Sveriges meteorologiska och hydrologiska institut"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "geoportal"
+    },
     "opendata-download-metanalys.smhi.se": {
       "endpoint": [
         {
           "protocol": "api",
-          "url": "https://opendata-download-metanalys.smhi.se/api/category/strang1g/version/1/geotype/point/lon/16/lat/58/parameter/116/data.json"
+          "url": "https://opendata-download-metanalys.smhi.se/api/category"
         }
       ],
       "id": "opendata-download-metanalys.smhi.se",
+      "label": {
+        "sv": "Sveriges meteorologiska och hydrologiska institut"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "api"
+    },
+    "opendata-download-metfcst.smhi.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://opendata-download-metfcst.smhi.se/api/category"
+        }
+      ],
+      "id": "opendata-download-metfcst.smhi.se",
       "label": {
         "sv": "Sveriges meteorologiska och hydrologiska institut"
       },
@@ -4806,6 +4933,63 @@
       ],
       "status": "unknown",
       "type": "geoportal"
+    },
+    "opendata-download-radar.smhi.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://opendata-download-radar.smhi.se/api"
+        }
+      ],
+      "id": "opendata-download-radar.smhi.se",
+      "label": {
+        "sv": "Sveriges meteorologiska och hydrologiska institut"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "api"
+    },
+    "opendata-download-satellite.smhi.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://opendata-download-satellite.smhi.se/api/category/firedetections/version/1/year/2026/month/02/data.json"
+        }
+      ],
+      "id": "opendata-download-satellite.smhi.se",
+      "label": {
+        "sv": "Sveriges meteorologiska och hydrologiska institut"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "api"
+    },
+    "opendata-download-warnings.smhi.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://opendata-download-warnings.smhi.se/ibww/api/version/1"
+        }
+      ],
+      "id": "opendata-download-warnings.smhi.se",
+      "label": {
+        "sv": "Sveriges meteorologiska och hydrologiska institut"
+      },
+      "owner": "SE2021000696",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "api"
     },
     "opendata-view.smhi.se": {
       "endpoint": [
@@ -5462,6 +5646,10 @@
         },
         {
           "protocol": "wfs_2",
+          "url": "https://resource.sgu.se/m4eu/services/m4eu"
+        },
+        {
+          "protocol": "wfs_2",
           "url": "https://resource.sgu.se/service/bedrock1m_gsml_gu/wfs"
         },
         {
@@ -5693,7 +5881,15 @@
         },
         {
           "protocol": "wfs_2",
+          "url": "https://stationsregister.miljodatasamverkan.se/geoserver/stationsregistret/ows"
+        },
+        {
+          "protocol": "wfs_2",
           "url": "https://stationsregister.miljodatasamverkan.se/geoserver/stationsregistret/wfs"
+        },
+        {
+          "protocol": "wms_1_3",
+          "url": "https://stationsregister.miljodatasamverkan.se/geoserver/stationsregistret/ows"
         }
       ],
       "id": "stationsregister.miljodatasamverkan.se",
@@ -6077,6 +6273,25 @@
       "status": "unknown",
       "type": "statistics_database"
     },
+    "taxonomy.api.jobtechdev.se": {
+      "endpoint": [
+        {
+          "protocol": "api",
+          "url": "https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger-ui"
+        }
+      ],
+      "id": "taxonomy.api.jobtechdev.se",
+      "label": {
+        "sv": "Arbetsförmedlingen"
+      },
+      "owner": "SE2021002114",
+      "software": "custom",
+      "source": [
+        "data_europa"
+      ],
+      "status": "unknown",
+      "type": "api"
+    },
     "transportstyrelsen.entryscape.net": {
       "endpoint": [
         {
@@ -6296,6 +6511,6 @@
       "type": "open_data_portal"
     }
   },
-  "count": 229,
+  "count": 239,
   "generated": "2026-10-13"
 }
