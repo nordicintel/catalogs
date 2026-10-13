@@ -262,15 +262,15 @@ def main():
     generated = previous_output.get("generated", report["date"]) if catalogs == previous else report["date"]
     dump(OUTPUT, {"generated": generated, "count": len(catalogs), "catalog": catalogs})
     try:
-        # Every organisation the catalogs reference, whole, so a reader of dist/ needs no other repo.
+        # Every organisation the catalogs reference, whole, so a reader of exports/ needs no other repo.
         used = {r[f] for r in catalogs.values() for f in ("owner", "operator") if r.get(f)} | {s["vendor"] for s in products.values() if s.get("vendor")}
         referenced = cache / "organisations_referenced.json"
         referenced.parent.mkdir(parents=True, exist_ok=True)
         dump(referenced, {"generated": registry.get("generated", ""), "count": len(used & set(orgs)), "organisation": {k: orgs[k] for k in sorted(used) if k in orgs}})
         export.export(OUTPUT, ROOT / "protocols.json", ROOT / "software.json")
-        shutil.copyfile(referenced, export.DIST / "organisations.json")
-        (export.DIST / "organisations.csv").write_text(export.to_csv(orgs and {k: orgs[k] for k in sorted(used) if k in orgs}), encoding="utf-8")
-    except Exception as error:  # noqa: BLE001 - dist/ is derived; the product is already written
+        shutil.copyfile(referenced, export.EXPORTS / "organisations.json")
+        (export.EXPORTS / "organisations.csv").write_text(export.to_csv(orgs and {k: orgs[k] for k in sorted(used) if k in orgs}), encoding="utf-8")
+    except Exception as error:  # noqa: BLE001 - exports/ is derived; the product is already written
         print(f"export: {error}", file=sys.stderr)
         report["export"] = f"failed: {str(error)[:200]}"
 

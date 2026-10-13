@@ -31,7 +31,7 @@ def fetch(cache: Path):
     domains, names = {}, {}
     for k, r in data["organisation"].items():
         try:
-            out["organisation"][k] = r  # the whole record: the build ships the referenced ones in dist/
+            out["organisation"][k] = r  # the whole record: the build ships the referenced ones in exports/
             for uri in [r.get("identifier", {}).get("dataportal", "")] + r.get("same_as", []):
                 if uri:
                     out["uri"][uri] = k

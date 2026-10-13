@@ -1,4 +1,4 @@
-"""Write the products to dist/ in every format we publish: a copy of the JSON and a CSV.
+"""Write the products to exports/ in every format we publish: a copy of the JSON and a CSV.
 
 A product is a JSON file whose records sit in one dict keyed by id (``{"catalog": {…}}``
 or the dict itself). The CSV holds one row per record with the same name as the JSON and
@@ -6,7 +6,7 @@ only the extension changed, so a reader picks the format, never the file. Nested
 objects become dotted columns (``label.sv``), lists are joined with ``|``, and a list of
 objects becomes one dotted column per field with the items' values aligned by position
 (``endpoint.protocol`` and ``endpoint.url`` read pairwise). Everything is derived
-deterministically from the JSON, so dist/ changes exactly when the product does.
+deterministically from the JSON, so exports/ changes exactly when the product does.
 """
 import csv
 import io
@@ -16,7 +16,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DIST = ROOT / "dist"
+EXPORTS = ROOT / "exports"
 LIST = "|"
 INNER = ","
 
@@ -66,11 +66,11 @@ def to_csv(table):
 
 
 def export(*products: Path):
-    DIST.mkdir(exist_ok=True)
+    EXPORTS.mkdir(exist_ok=True)
     for path in products:
-        shutil.copyfile(path, DIST / path.name)
+        shutil.copyfile(path, EXPORTS / path.name)
         table = records(json.loads(path.read_text(encoding="utf-8")))
-        (DIST / path.with_suffix(".csv").name).write_text(to_csv(table), encoding="utf-8")
+        (EXPORTS / path.with_suffix(".csv").name).write_text(to_csv(table), encoding="utf-8")
 
 
 if __name__ == "__main__":

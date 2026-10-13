@@ -140,15 +140,15 @@ and keeps the previous results.
 | path | what |
 |---|---|
 | `snapshots/<register>.json` | the reduced result of the last successful fetch of each register, committed so a build still runs when a register is down |
-| `dist/organisations.json`, `dist/organisations.csv` | every organisation the catalogs name as owner, operator or vendor, as the whole record from [nordicintel/organisations](https://github.com/nordicintel/organisations), so a reader of `dist/` needs no other repository to resolve an id |
-| `dist/<product>.json`, `dist/<product>.csv` | the three product files in every published format: a copy of the JSON and a CSV with one row per record, same name, only the extension differs. Nested fields are dotted columns (`label.sv`), lists are `\|`-joined, and a list of objects gives one column per field with the items aligned by position (`endpoint.protocol`, `endpoint.url`). Derived from the JSON, so it changes exactly when the product does |
+| `exports/organisations.json`, `exports/organisations.csv` | every organisation the catalogs name as owner, operator or vendor, as the whole record from [nordicintel/organisations](https://github.com/nordicintel/organisations), so a reader of `exports/` needs no other repository to resolve an id |
+| `exports/<product>.json`, `exports/<product>.csv` | the three product files in every published format: a copy of the JSON and a CSV with one row per record, same name, only the extension differs. Nested fields are dotted columns (`label.sv`), lists are `\|`-joined, and a list of objects gives one column per field with the items aligned by position (`endpoint.protocol`, `endpoint.url`). Derived from the JSON, so it changes exactly when the product does |
 | `reports/<date>.json` | written by a build that changed a catalog or found a register with no snapshot: per register `fetched`, `stale` or `failed`, counts by software, protocol and status, added and removed ids, catalogs `without_owner`, `without_label`, `without_software` and `without_software_protocol` (the worklists for edits). `generated` in `catalogs.json` is the date of the last content change |
 
 ## Build and check
 
 ```sh
-python scripts/build.py     # fetch registers, rewrite catalogs.json, dist/, snapshots/, reports/
-python scripts/export.py catalogs.json protocols.json software.json  # rewrite dist/ alone
+python scripts/build.py     # fetch registers, rewrite catalogs.json, exports/, snapshots/, reports/
+python scripts/export.py catalogs.json protocols.json software.json  # rewrite exports/ alone
 python scripts/validate.py  # schemas and references across all files; run before committing
 ```
 
@@ -158,7 +158,7 @@ register cannot read, or that the build cannot apply, is skipped and logged, cou
 as `skipped` under that register in the report, and the other rows go through; a
 dataportal.se pipeline whose resource cannot be read keeps the URL the last snapshot
 had. A register that still cannot be fetched is replaced by its snapshot and reported
-as `stale`; only when every register fails does the build exit non-zero. The `dist/`
+as `stale`; only when every register fails does the build exit non-zero. The `exports/`
 export failing never fails the build; the report says so. Builds are deterministic,
 so a diff means a register or an edit changed. The workflow runs weekly and commits
 only when something changed.
