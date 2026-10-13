@@ -3,6 +3,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:29.147+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -17,6 +18,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:11.079+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -31,6 +33,7 @@
     "description": "Metadata och öppna data från Boverket",
     "homepage": "https://boverket.se",
     "license": "",
+    "pipeline_modified": "2025-10-17T13:49:32.793+02:00",
     "publisher": "http://dataportal.se/organisation/SE2021003989",
     "run": {
       "datasets": 22,
@@ -45,6 +48,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:41.595+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -59,6 +63,7 @@
     "description": "Datamängder som tillhandahålls för vidareutnyttjande av Sveriges riksbank.",
     "homepage": "https://www.riksbank.se/",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:46.068+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021002684",
     "run": {
       "datasets": 2,
@@ -73,6 +78,7 @@
     "description": "Urval ur samlingsdatabaserna från Statens museer för världskultur och Malmö museer som xls-filer.",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:09.269+01:00",
     "publisher": "https://katalog.datahotell.se/store/99/resource/1",
     "run": {
       "datasets": 0,
@@ -87,6 +93,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:21.972+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -101,6 +108,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:44.977+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -115,6 +123,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:39.204+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -129,6 +138,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:30.558+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -143,6 +153,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:46.905+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -157,6 +168,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:33.055+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -171,6 +183,7 @@
     "description": "Datakatalog för Universitets- och högskolerådet",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:55.925+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021006487",
     "run": {
       "datasets": 2,
@@ -185,6 +198,7 @@
     "description": "Datamängder som förvaltas hos de olika avdelningarna vid Upphandlingsmyndigheten.",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:53.105+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021006610",
     "run": {
       "datasets": 11,
@@ -199,6 +213,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:20.943+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -213,6 +228,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:41.346+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -227,6 +243,7 @@
     "description": "Katalog över Swedacs öppna data. Tjänster och applikationer som bygger på Swedacs API-tjänster ska vara utformade på ett sätt som gör det tydligt för användarna att det inte är Swedac som står bakom tjänsten eller applikationen.",
     "homepage": "",
     "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2026-05-27T09:50:25.879+02:00",
     "publisher": "http://dataportal.se/organisation/SE2021003815",
     "run": {
       "datasets": 222,
@@ -241,6 +258,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:42.309+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -255,6 +273,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:43.261+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -269,6 +288,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:38.949+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -283,6 +303,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:32.331+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -297,6 +318,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:26.284+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -311,6 +333,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:57.460+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -325,6 +348,7 @@
     "description": "I denna datakatalog publiceras öppna data av Statens konstråd",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:17.623+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021001033",
     "run": {
       "datasets": 1,
@@ -339,6 +363,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:24.433+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -353,6 +378,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:06.009+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -367,6 +393,7 @@
     "description": "Datakatalog för Sveriges lantbruksuniversitet",
     "homepage": "http://www.slu.se",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:25.750+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021002817",
     "run": {
       "datasets": 0,
@@ -381,6 +408,7 @@
     "description": "Datakatalog för myndigheten Statens skolverk.",
     "homepage": "https://www.skolverket.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:57:45.477+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021004185",
     "run": {
       "datasets": 10,
@@ -395,6 +423,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:28.353+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -409,6 +438,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:42.068+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -423,6 +453,7 @@
     "description": "Sedan 2010 har Sverige en lag om vidareutnyttjande av handlingar från den offentliga förvaltningen (PSI-lagen). Lagen bygger på ett EU-direktiv och ska underlätta för enskilda individer att använda handlingar som tillhandahålls av offentliga organisationer. SBU:s datasamlingar för vidareutnyttjande omfattar SBU:s publikationer, pågående projekt och vetenskapliga kunskapsluckor.\r\n",
     "homepage": "https://www.sbu.se/sv/datasets/",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:33.278+01:00",
     "publisher": "https://admin.dataportal.se/store/127/resource/437d3c86e3261ed5da3473cd0620acf4",
     "run": {
       "datasets": 0,
@@ -437,6 +468,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:28.856+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -451,6 +483,7 @@
     "description": "Datakatalog för Regeringskansliet.",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:55.543+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021003831",
     "run": {
       "datasets": 0,
@@ -465,6 +498,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:58.373+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -479,6 +513,7 @@
     "description": "Öppna data från Riksantikvarieämbetet.",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:58.001+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021001090",
     "run": {
       "datasets": 5,
@@ -493,6 +528,7 @@
     "description": "Pensionsmyndighetens metadatakatalog innehåller uppgifter och länkar till all information för vidareutnyttjande som tillhandahålls av pensionsmyndigheten.",
     "homepage": "",
     "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "pipeline_modified": "2025-05-23T05:44:08.159+02:00",
     "publisher": "http://dataportal.se/organisation/SE2021006255",
     "run": {
       "datasets": 305,
@@ -507,6 +543,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:41.099+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -521,6 +558,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:31.007+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -535,6 +573,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:30.792+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -549,6 +588,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:21.174+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -563,6 +603,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:56.716+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -577,6 +618,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2026-04-28T14:49:22.662+02:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -591,6 +633,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:40.038+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -605,6 +648,7 @@
     "description": "Vinnovas öppna data",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:04.642+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021005216",
     "run": {
       "datasets": 10,
@@ -619,6 +663,7 @@
     "description": "Läkemedelsverkets öppna data som är publicerade och redo att delas med dataportal.se.",
     "homepage": "https://www.lakemedelsverket.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2025-05-03T02:15:12.754+02:00",
     "publisher": "http://dataportal.se/organisation/SE2021004078",
     "run": {
       "datasets": 19,
@@ -633,6 +678,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:48.617+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -647,6 +693,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:21.479+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -661,6 +708,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:53.586+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -675,6 +723,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:15.942+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -689,6 +738,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:48.070+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -703,6 +753,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:38.243+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -717,6 +768,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:22.452+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -731,6 +783,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:56.940+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -745,6 +798,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:40.164+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -759,6 +813,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:13.638+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -773,6 +828,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:53.847+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -787,6 +843,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:54.080+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -801,6 +858,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:03.101+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -815,6 +873,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:20.707+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -829,6 +888,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:42.540+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -843,6 +903,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:44.748+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -857,6 +918,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:57.181+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -871,6 +933,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:54.587+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -885,6 +948,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:52.089+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -899,6 +963,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:40.846+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -913,6 +978,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:59.346+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -927,6 +993,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:41.836+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -941,6 +1008,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:08.199+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -955,6 +1023,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:56.043+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -969,6 +1038,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:39.456+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -983,6 +1053,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:39.707+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -997,6 +1068,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:02.486+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1011,6 +1083,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:43.512+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1025,6 +1098,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:51.384+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1039,6 +1113,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:40.375+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1053,6 +1128,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:17.976+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1067,6 +1143,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2026-04-28T14:47:53.591+02:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1081,6 +1158,7 @@
     "description": "Öppna data från statskontoret kring månadsutfall och årsutfall för statens budget. Utfallet bygger på de statliga myndigheternas rapportering till statsredovisningssystemet i Hermes.",
     "homepage": "https://www.statskontoret.se/psidata",
     "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.sv",
+    "pipeline_modified": "2024-12-17T00:58:10.262+01:00",
     "publisher": "https://www.statskontoret.se/datasets/dcat#agent1",
     "run": {
       "datasets": 4,
@@ -1095,6 +1173,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:46.321+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1109,6 +1188,7 @@
     "description": "Energirelaterad öppen data",
     "homepage": "",
     "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2026-04-28T14:52:26.659+02:00",
     "publisher": "http://dataportal.se/organisation/SE2021005000",
     "run": {
       "datasets": 335,
@@ -1123,6 +1203,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:52.540+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1137,6 +1218,7 @@
     "description": "Energimarknadsinspektionens data",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:25.454+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021005695",
     "run": {
       "datasets": 34,
@@ -1151,6 +1233,7 @@
     "description": "Katalogen innehåller metadataposter och tillhörande kategoriseringar som länkar till e-hälsospecifikationer för sektorn hälsa, vård och omsorg.",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:32.560+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021006552",
     "run": {
       "datasets": 4,
@@ -1165,6 +1248,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-10-07T17:17:51.986+02:00",
     "publisher": "",
     "run": {
       "datasets": 83,
@@ -1179,6 +1263,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:38.005+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1193,6 +1278,7 @@
     "description": "I vår statistikdatabas kan du själv ta fram de uppgifter om studiestödet som du är intresserad av.",
     "homepage": "https://statistik.csn.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:57:51.034+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021001819",
     "run": {
       "datasets": 506,
@@ -1207,6 +1293,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:38.706+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1221,6 +1308,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:49.410+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1235,6 +1323,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:36.569+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1249,6 +1338,7 @@
     "description": "The catalog contains open data from Swedish public employment service ",
     "homepage": "https://arbetsformedlingen.se/om-webbplatsen/apier-och-oppna-data",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2026-04-28T14:48:34.391+02:00",
     "publisher": "http://dataportal.se/organisation/SE2021002114",
     "run": {
       "datasets": 72,
@@ -1263,6 +1353,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:49.873+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1277,6 +1368,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:27.272+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1291,6 +1383,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:59.138+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1305,6 +1398,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:15.417+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1319,6 +1413,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:52.985+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1333,6 +1428,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:44.523+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1347,6 +1443,7 @@
     "description": "Metadatakatalog för Region Skåne",
     "homepage": "https://skane.se",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2025-08-22T12:48:27.588+02:00",
     "publisher": "http://dataportal.se/organisation/SE2321000255",
     "run": {
       "datasets": 12,
@@ -1361,6 +1458,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:48.787+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1375,6 +1473,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:37.924+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1389,6 +1488,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:23.194+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1403,6 +1503,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:40.825+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1417,6 +1518,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:50.873+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1431,6 +1533,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:54.852+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1445,6 +1548,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:38.587+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1459,6 +1563,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:11.051+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1473,6 +1578,7 @@
     "description": "Post- och telestyrelsen är den myndighet som bevakar områdena elektronisk kommunikation och post i Sverige.",
     "homepage": "https://pts.se",
     "license": "http://creativecommons.org/licenses/by/4.0/",
+    "pipeline_modified": "2024-12-17T00:57:49.553+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021004359",
     "run": {
       "datasets": 9,
@@ -1487,6 +1593,7 @@
     "description": "En sammaställning  av öppna och delade data från våra datakällor",
     "homepage": "https://data.prv.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:58:06.646+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021002072",
     "run": {
       "datasets": 16,
@@ -1501,6 +1608,7 @@
     "description": "Öppna data från Västra Götalandsregionen",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:23.686+01:00",
     "publisher": "http://dataportal.se/organisation/SE2321000131",
     "run": {
       "datasets": 18,
@@ -1515,6 +1623,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:13:00.648+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1529,6 +1638,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:21.659+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1543,6 +1653,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:34.764+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1557,6 +1668,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:28.091+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1571,6 +1683,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:35.540+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1585,6 +1698,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:19.659+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1599,6 +1713,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:38.477+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1613,6 +1728,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:19.984+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1627,6 +1743,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:36.555+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1641,6 +1758,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:52.460+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1655,6 +1773,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:04.458+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1669,6 +1788,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:42.991+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1683,6 +1803,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:03.530+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1697,6 +1818,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:25.185+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1711,6 +1833,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:50.375+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1725,6 +1848,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:14.145+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1739,6 +1863,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:52.776+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1753,6 +1878,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:36.806+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1767,6 +1893,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:47.615+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1781,6 +1908,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:03.021+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1795,6 +1923,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:47.478+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1809,6 +1938,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:58.749+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1823,6 +1953,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:40.234+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1837,6 +1968,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:40.283+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1851,6 +1983,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:20.708+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1865,6 +1998,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:45.794+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1879,6 +2013,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:50.130+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1893,6 +2028,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:39.183+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1907,6 +2043,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:56.766+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1921,6 +2058,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:15.066+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1935,6 +2073,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:41.280+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1949,6 +2088,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:07.268+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1963,6 +2103,7 @@
     "description": "Information som framställs eller samlas in av myndigheter har ofta användningsområden utanför den offentliga förvaltningen. Olika aktörer i samhället kan vidareutnyttja informationen för att skapa kommersiella eller ideella tjänster. På den här sidan hittar du den information som är tillgänglig som Öppna data hos Migrationsverket.\n\t\t\n\t\tJust nu är de öppna data begränsade till den officiella statistik som också publiceras på våra statistiksidor här på webben. Migrationsverket har naturligtvis mer information än detta. Men antingen har den ännu inte klassificerats som möjlig att publicera eller också kan vi inte lämna ut den eftersom den innehåller personuppgifter, sekretessbelagd information, upphovsrättsskyddat material eller skyddas av speciallagstiftning.\n\n\t\tAnsvarig för öppna data på Migrationsverket är enheten för statistik och analys.\n\n\t\tDen här typen av vidareutnyttjande av myndighetsinformation regleras i PSI-lagen. PSI står för Public Sector Information.\n\t\t",
     "homepage": "http://www.migrationsverket.se/psidata",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T01:02:35.753+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021002163",
     "run": {
       "datasets": 15,
@@ -1977,6 +2118,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:41.777+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -1991,6 +2133,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:50.758+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2005,6 +2148,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:24.721+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2019,6 +2163,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:45.549+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2033,6 +2178,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:24.808+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2047,6 +2193,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:40.772+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2061,6 +2208,7 @@
     "description": "denna katalog behövs för skördning till öppnadata.se - ta inte bort",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:05.931+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001132",
     "run": {
       "datasets": 1,
@@ -2075,6 +2223,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:57.893+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2089,6 +2238,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:54.367+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2103,6 +2253,7 @@
     "description": "Datakatalog för Livsmedelsverket",
     "homepage": "https://www.livsmedelsverket.se",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:08.983+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021001850",
     "run": {
       "datasets": 3,
@@ -2117,6 +2268,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:43.933+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2131,6 +2283,7 @@
     "description": "Central metadatakatalog för Lidingö stad.",
     "homepage": "https://lidingo.se",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2026-04-28T14:50:23.244+02:00",
     "publisher": "https://metadata.lidingo.se/store/2/resource/2",
     "run": {
       "datasets": 67,
@@ -2145,6 +2298,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:40.553+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2159,6 +2313,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:23.931+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2173,6 +2328,7 @@
     "description": "Öppna data",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:59.392+01:00",
     "publisher": "https://catalog.lerum.se/store/1/resource/1",
     "run": {
       "datasets": 1,
@@ -2187,6 +2343,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:56.391+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2201,6 +2358,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:12.142+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2215,6 +2373,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:48.367+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2229,6 +2388,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:25.077+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2243,6 +2403,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:51.505+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2257,6 +2418,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:57.107+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2271,6 +2433,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:09.537+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2285,6 +2448,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:16.996+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2299,6 +2463,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:06.997+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2313,6 +2478,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:34.524+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2327,6 +2493,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:56.609+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2341,6 +2508,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:09.507+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2355,6 +2523,7 @@
     "description": "Katalog för Öppna Data Region Blekinge",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:27.835+01:00",
     "publisher": "http://dataportal.se/organisation/SE2321000081",
     "run": {
       "datasets": 0,
@@ -2369,6 +2538,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:06.415+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2383,6 +2553,7 @@
     "description": "Öppna data från Kungliga biblioteket",
     "homepage": "https://data.kb.se",
     "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "pipeline_modified": "2024-12-17T01:10:44.000+01:00",
     "publisher": "https://admin.dataportal.se/store/254/resource/7d89e5afd68a0ce5b25d3329c869e619",
     "run": {
       "datasets": 0,
@@ -2397,6 +2568,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:19.576+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2411,6 +2583,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:23.700+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2425,6 +2598,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:45.055+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2439,6 +2613,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:56.125+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2453,6 +2628,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:49.641+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2467,6 +2643,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:30.111+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2481,6 +2658,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:25.637+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2495,6 +2673,7 @@
     "description": "Här finns öppen data från Olofströms",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:48.771+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000811",
     "run": {
       "datasets": 0,
@@ -2509,6 +2688,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:08.351+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2523,6 +2703,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:54.879+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2537,6 +2718,7 @@
     "description": "Datakatalog för Varbergs kommun",
     "homepage": "https://varberg.se",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:54.599+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001249",
     "run": {
       "datasets": 12,
@@ -2551,6 +2733,7 @@
     "description": "Katalogen innehåller alla datamängder som Kronofogden publicerar som öppna data eller PSI-data.",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2025-03-05T11:19:15.064+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021005646",
     "run": {
       "datasets": 20,
@@ -2565,6 +2748,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:41.542+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2579,6 +2763,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:35.323+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2593,6 +2778,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:46.010+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2607,6 +2793,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2025-02-28T15:47:38.822+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2621,6 +2808,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:22.696+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2635,6 +2823,7 @@
     "description": "All vår öppna data",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:46.330+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001157",
     "run": {
       "datasets": 31,
@@ -2649,6 +2838,7 @@
     "description": "Botkyrka kommuns öppna data",
     "homepage": "",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2026-04-28T14:46:55.209+02:00",
     "publisher": "http://dataportal.se/organisation/SE2120002882",
     "run": {
       "datasets": 4,
@@ -2663,6 +2853,7 @@
     "description": "Open data from The Swedish Transport Agency",
     "homepage": "https://transportstyrelsen.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:57:52.359+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021006099",
     "run": {
       "datasets": 24,
@@ -2677,6 +2868,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:47.726+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2691,6 +2883,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:39.811+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2705,6 +2898,7 @@
     "description": "Katalogen innehåller alla datamängder som Konsumentverket publicerar som öppna data eller PSI-data.",
     "homepage": "https://www.konsumentverket.se/psidata",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T01:02:37.866+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021002064",
     "run": {
       "datasets": 0,
@@ -2719,6 +2913,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:55.352+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2733,6 +2928,7 @@
     "description": "Öppen data för Vingåkers kommun",
     "homepage": "https://www.vingaker.se/",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:49.311+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000308",
     "run": {
       "datasets": 3,
@@ -2747,6 +2943,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:17.471+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2761,6 +2958,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:41.125+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2775,6 +2973,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:33.520+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2789,6 +2988,7 @@
     "description": "Datakatalog för Tierps kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:59.622+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000266",
     "run": {
       "datasets": 1,
@@ -2803,6 +3003,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:44.766+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2817,6 +3018,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2026-05-19T14:43:25.661+02:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2831,6 +3033,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:08.021+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2845,6 +3048,7 @@
     "description": "Datakatalog för Solna stad",
     "homepage": "https://www.solna.se/",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:31.823+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000183",
     "run": {
       "datasets": 0,
@@ -2859,6 +3063,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:56.324+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2873,6 +3078,7 @@
     "description": "Förteckning över Skövde kommuns datamängder.",
     "homepage": "https://www.skovde.se/psidata",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:58:25.074+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001710",
     "run": {
       "datasets": 14,
@@ -2887,6 +3093,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:24.294+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2901,6 +3108,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:56.092+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2915,6 +3123,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:13.141+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2929,6 +3138,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:16.748+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2943,6 +3153,7 @@
     "description": "Metadatakatalog för öppna data från Malmö stad",
     "homepage": "https://opendata-api.malmo.se",
     "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "pipeline_modified": "2026-04-28T14:42:36.152+02:00",
     "publisher": "https://malmo.se/",
     "run": {
       "datasets": 175,
@@ -2957,6 +3168,7 @@
     "description": "Öppna data från Lomma kommun.",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:52.072+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001066",
     "run": {
       "datasets": 29,
@@ -2971,6 +3183,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:13.600+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2985,6 +3198,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:04.436+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -2999,6 +3213,7 @@
     "description": "Datamängder och öppna data från Eslövs kommun",
     "homepage": "https://eslov.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:57:46.572+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001173",
     "run": {
       "datasets": 5,
@@ -3013,6 +3228,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:06.999+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3027,6 +3243,7 @@
     "description": "Öppna data från Dals-Eds kommun.",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:46.855+01:00",
     "publisher": "https://catalog.dalsed.se/store/1/resource/1",
     "run": {
       "datasets": 0,
@@ -3041,6 +3258,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:12.371+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3055,6 +3273,7 @@
     "description": "Öppna Data Alingsås kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:23.727+01:00",
     "publisher": "https://catalog.alingsas.se/store/1/resource/1",
     "run": {
       "datasets": 2,
@@ -3069,6 +3288,7 @@
     "description": "Datakatalog för Jönköpings kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:45.531+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000530",
     "run": {
       "datasets": 0,
@@ -3083,6 +3303,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:21.401+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3097,6 +3318,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:05.615+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3111,6 +3333,7 @@
     "description": "Metadata catalog from Simrishamn municipality with metadata for open data and shared data.",
     "homepage": "https://www.simrishamn.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2025-02-25T14:15:16.621+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000969",
     "run": {
       "datasets": 4,
@@ -3125,6 +3348,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:05.123+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3139,6 +3363,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:58.500+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3153,6 +3378,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:11.504+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3167,6 +3393,7 @@
     "description": "Öppna data från Ystad kommun.",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:47.391+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001181",
     "run": {
       "datasets": 2,
@@ -3181,6 +3408,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:50.347+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3195,6 +3423,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:34.053+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3209,6 +3438,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:43.039+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3223,6 +3453,7 @@
     "description": "Öppna Data för Töreboda kommun",
     "homepage": "https://www.toreboda.se",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:57:52.868+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001678",
     "run": {
       "datasets": 4,
@@ -3237,6 +3468,7 @@
     "description": "Här publiceras öppna data från Vara Kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:54.107+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120002924",
     "run": {
       "datasets": 3,
@@ -3251,6 +3483,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:13:00.913+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3265,6 +3498,7 @@
     "description": "Datakatalog för Svedala kommun.",
     "homepage": "https://svedala.se",
     "license": "",
+    "pipeline_modified": "2025-08-19T09:31:25.056+02:00",
     "publisher": "http://dataportal.se/organisation/SE2120001074",
     "run": {
       "datasets": 2,
@@ -3279,6 +3513,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:11.081+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3293,6 +3528,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:49.610+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3307,6 +3543,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:34.840+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3321,6 +3558,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:46.999+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3335,6 +3573,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:06.771+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3349,6 +3588,7 @@
     "description": "Öppna data från Melleruds kommun",
     "homepage": "https://mellerud.se",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:56.133+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001488",
     "run": {
       "datasets": 1,
@@ -3363,6 +3603,7 @@
     "description": "Öppna data från Lilla Edets kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:47.925+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001496",
     "run": {
       "datasets": 1,
@@ -3377,6 +3618,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:51.126+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3391,6 +3633,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:08.265+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3405,6 +3648,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:22.429+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3419,6 +3663,7 @@
     "description": "Katrineholms kommuns geodatakatalog med öppna geografiska dataset och karttjänster för allmänt bruk.",
     "homepage": "https://geodata.katrineholm.se",
     "license": "http://creativecommons.org/licenses/by/4.0/",
+    "pipeline_modified": "2025-10-22T12:55:40.888+02:00",
     "publisher": "http://dataportal.se/organisation/SE2120000340",
     "run": {
       "datasets": 2,
@@ -3433,6 +3678,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:05.789+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3447,6 +3693,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:42.311+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3461,6 +3708,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:55.131+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3475,6 +3723,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:22.151+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3489,6 +3738,7 @@
     "description": "Samling av Hjo kommuns öppna data",
     "homepage": "https://hjo.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2025-02-28T14:43:49.109+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001728",
     "run": {
       "datasets": 1,
@@ -3503,6 +3753,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:13:00.081+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3517,6 +3768,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:18.820+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3531,6 +3783,7 @@
     "description": "Datakatalog för Gislaveds kommun",
     "homepage": "https://gislaved.se/",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:50.475+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000514",
     "run": {
       "datasets": 5,
@@ -3545,6 +3798,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:57.708+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3559,6 +3813,7 @@
     "description": "Öppna data från Falköpings kommun",
     "homepage": "https://falkoping.se",
     "license": "",
+    "pipeline_modified": "2025-05-05T08:32:28.976+02:00",
     "publisher": "http://dataportal.se/organisation/SE2120001744",
     "run": {
       "datasets": 2,
@@ -3573,6 +3828,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2026-05-19T14:43:48.837+02:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3587,6 +3843,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:37.276+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3601,6 +3858,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:57.217+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3615,6 +3873,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:17.233+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3629,6 +3888,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:51.601+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3643,6 +3903,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:11.547+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3657,6 +3918,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:09.799+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3671,6 +3933,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:01.206+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3685,6 +3948,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:00.986+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3699,6 +3963,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:29.888+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3713,6 +3978,7 @@
     "description": "Öppna data från Vänersborg kommun",
     "homepage": "",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:57:51.282+01:00",
     "publisher": "https://catalog.vanersborg.se/store/1/resource/1",
     "run": {
       "datasets": 0,
@@ -3727,6 +3993,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:07.470+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3741,6 +4008,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:00.768+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3755,6 +4023,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:04.425+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3769,6 +4038,7 @@
     "description": "Demodata",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:19.927+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001579",
     "run": {
       "datasets": 3,
@@ -3783,6 +4053,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:32.828+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3797,6 +4068,7 @@
     "description": "Här finns öppna data från Tranemo kommun.",
     "homepage": "http://www.tranemo.se/",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:19.417+01:00",
     "publisher": "https://catalog.tranemo.se/store/2/resource/1",
     "run": {
       "datasets": 0,
@@ -3811,6 +4083,7 @@
     "description": "Öppna data Tomelilla kommun",
     "homepage": "https://www.tomelilla.se/",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:38.158+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000886",
     "run": {
       "datasets": 39,
@@ -3825,6 +4098,7 @@
     "description": "Här finns öppna data från Tjörns kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:53.601+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001306",
     "run": {
       "datasets": 9,
@@ -3839,6 +4113,7 @@
     "description": "Öppna data från Tibro kommun",
     "homepage": "https://tibro.se",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:49.048+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001660",
     "run": {
       "datasets": 1,
@@ -3853,6 +4128,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:07.243+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3867,6 +4143,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:05.365+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3881,6 +4158,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:05.281+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3895,6 +4173,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:55.367+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3909,6 +4188,7 @@
     "description": "Här finns öppna data från Stenungsunds kommun.",
     "homepage": "https://www.stenungsund.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:58:00.699+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001298",
     "run": {
       "datasets": 5,
@@ -3923,6 +4203,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:59.831+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3937,6 +4218,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:13.357+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3951,6 +4233,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:04.720+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3965,6 +4248,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:10.836+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3979,6 +4263,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:48.729+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -3993,6 +4278,7 @@
     "description": "Datakatalog för Sävsjö kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:46.569+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000563",
     "run": {
       "datasets": 1,
@@ -4007,6 +4293,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:34.053+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4021,6 +4308,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:13:00.388+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4035,6 +4323,7 @@
     "description": "",
     "homepage": "https://geodata.sandviken.se",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:48.144+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4049,6 +4338,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:58.472+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4063,6 +4353,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:12.674+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4077,6 +4368,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:59.574+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4091,6 +4383,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:02.204+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4105,6 +4398,7 @@
     "description": "Datakatalog för Oxelösunds kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2025-01-10T11:02:07.228+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000324",
     "run": {
       "datasets": 5,
@@ -4119,6 +4413,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:14.832+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4133,6 +4428,7 @@
     "description": "Datakatalog för Överkalix kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:47.641+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120002684",
     "run": {
       "datasets": 0,
@@ -4147,6 +4443,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:11.887+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4161,6 +4458,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:32.067+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4175,6 +4473,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:21.269+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4189,6 +4488,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:08.111+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4203,6 +4503,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:12.923+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4217,6 +4518,7 @@
     "description": "",
     "homepage": "https://extgeodataportal.orebro.se",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2025-05-21T13:03:09.941+02:00",
     "publisher": "https://www.orebro.se",
     "run": {
       "datasets": 0,
@@ -4231,6 +4533,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:07.611+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4245,6 +4548,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:10.024+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4259,6 +4563,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:02.760+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4273,6 +4578,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:06.821+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4287,6 +4593,7 @@
     "description": "Datakatalog för Nyköpings kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:58.640+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120002940",
     "run": {
       "datasets": 0,
@@ -4301,6 +4608,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:06.505+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4315,6 +4623,7 @@
     "description": "Öppna datamängder från Uppsala kommun",
     "homepage": "https://www.uppsala.se",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T01:02:37.523+01:00",
     "publisher": "https://catalog.uppsala.se/store/1/resource/24",
     "run": {
       "datasets": 0,
@@ -4329,6 +4638,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:57.943+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4343,6 +4653,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:14.932+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4357,6 +4668,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:20.973+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4371,6 +4683,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:57.367+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4385,6 +4698,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:12.865+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4399,6 +4713,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:04.205+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4413,6 +4728,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:14.144+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4427,6 +4743,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:59.666+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4441,6 +4758,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:18.840+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4455,6 +4773,7 @@
     "description": "Linköping kommuns öppna data",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:37.743+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000449",
     "run": {
       "datasets": 10,
@@ -4469,6 +4788,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:15.655+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4483,6 +4803,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:00.109+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4497,6 +4818,7 @@
     "description": "Här publiceras öppna data från Lidköpings kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:24.250+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001694",
     "run": {
       "datasets": 2,
@@ -4511,6 +4833,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:06.327+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4525,6 +4848,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:08.448+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4539,6 +4863,7 @@
     "description": "Datakatalog för Landskrona stad",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:35.027+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001140",
     "run": {
       "datasets": 1,
@@ -4553,6 +4878,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:10.026+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4567,6 +4893,7 @@
     "description": "Här hanterar Kungsbacka kommun öppna data och delade data.",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:53.862+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001256",
     "run": {
       "datasets": 17,
@@ -4581,6 +4908,7 @@
     "description": "Metadata med Öppna data från Kungälvs kommun.",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:02.873+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001371",
     "run": {
       "datasets": 15,
@@ -4595,6 +4923,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:12.617+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4609,6 +4938,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:26.796+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4623,6 +4953,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:37.083+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4637,6 +4968,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:43.315+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4651,6 +4983,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:43.769+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4665,6 +4998,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:46.031+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4679,6 +5013,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:43.549+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4693,6 +5028,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:24.803+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4707,6 +5043,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:41.484+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4721,6 +5058,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:49.123+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4735,6 +5073,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:09.258+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4749,6 +5088,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:07.073+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4763,6 +5103,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:22.957+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4777,6 +5118,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:10.263+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4791,6 +5133,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:02.409+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4805,6 +5148,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:00.531+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4819,6 +5163,7 @@
     "description": "Öppen data för Härryda kommun",
     "homepage": "https://www.harryda.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:58:00.472+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001264",
     "run": {
       "datasets": 19,
@@ -4833,6 +5178,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:59.197+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4847,6 +5193,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:46.523+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4861,6 +5208,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:45.792+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4875,6 +5223,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:16.676+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4889,6 +5238,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:11.975+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4903,6 +5253,7 @@
     "description": "Datakatalog för Håbo kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:04.906+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000241",
     "run": {
       "datasets": 8,
@@ -4917,6 +5268,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:28.584+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4931,6 +5283,7 @@
     "description": "Öppna Data för Gullspångs kommun",
     "homepage": "https://www.gullspang.se",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:57:58.324+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001637",
     "run": {
       "datasets": 5,
@@ -4945,6 +5298,7 @@
     "description": "Öppna data från Grästorps Kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:52.619+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001595",
     "run": {
       "datasets": 2,
@@ -4959,6 +5313,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:02.646+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4973,6 +5328,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:16.235+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -4987,6 +5343,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:59.880+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5001,6 +5358,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:02.146+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5015,6 +5373,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:01.905+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5029,6 +5388,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:01.670+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5043,6 +5403,7 @@
     "description": "Här publiceras öppna data från Essunga kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:18.595+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120002916",
     "run": {
       "datasets": 5,
@@ -5057,6 +5418,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:07.519+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5071,6 +5433,7 @@
     "description": "Katalog över de dataset som publiceras som öppna data av Umeå kommun",
     "homepage": "https://opendata.umea.se",
     "license": "https://creativecommons.org/licenses/by/4.0/",
+    "pipeline_modified": "2026-04-28T14:49:53.613+02:00",
     "publisher": "https://admin.dataportal.se/store/43/resource/7a00bd3796ed09a600646432cb321722",
     "run": {
       "datasets": 334,
@@ -5085,6 +5448,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:09.010+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5099,6 +5463,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:03.723+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5113,6 +5478,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:05.533+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5127,6 +5493,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:51.764+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5141,6 +5508,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:20.705+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5155,6 +5523,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:10.007+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5169,6 +5538,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:08.815+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5183,6 +5553,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:06.038+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5197,6 +5568,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:14.390+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5211,6 +5583,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:16.231+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5225,6 +5598,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:27.036+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5239,6 +5613,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:08.498+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5253,6 +5628,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:22.959+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5267,6 +5643,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:13.882+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5281,6 +5658,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:54.553+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5295,6 +5673,7 @@
     "description": "Datakatalog för Älvkarleby kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:55.658+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000258",
     "run": {
       "datasets": 1,
@@ -5309,6 +5688,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:03.487+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5323,6 +5703,7 @@
     "description": "Öppna data från Ale",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:20.434+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001439",
     "run": {
       "datasets": 9,
@@ -5337,6 +5718,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:11.613+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5351,6 +5733,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:15.164+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5365,6 +5748,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:16.481+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5379,6 +5763,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:22.212+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5393,6 +5778,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:01.422+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5407,6 +5793,7 @@
     "description": "Huvudkatalog för metadata och öppna data.",
     "homepage": "https://kemi.se",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:01.879+01:00",
     "publisher": "https://data.kemi.se/store/2/resource/1",
     "run": {
       "datasets": 0,
@@ -5421,6 +5808,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:09.743+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5435,6 +5823,7 @@
     "description": "Här publicerar Karlstads kommun öppna data.",
     "homepage": "https://karlstad.se/",
     "license": "",
+    "pipeline_modified": "2025-04-03T02:46:55.356+02:00",
     "publisher": "http://dataportal.se/organisation/SE2120001850",
     "run": {
       "datasets": 14,
@@ -5449,6 +5838,7 @@
     "description": "Öppna data katalog för Karlskrona kommun",
     "homepage": "https://www.karlskrona.se",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:55.154+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000829",
     "run": {
       "datasets": 0,
@@ -5463,6 +5853,7 @@
     "description": "Central metadatakatalog för Karlsborgs kommun",
     "homepage": "https://karlsborg.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2025-05-08T14:15:18.861+02:00",
     "publisher": "http://dataportal.se/organisation/SE2120001629",
     "run": {
       "datasets": 1,
@@ -5477,6 +5868,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:59.444+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5491,6 +5883,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:58.212+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5505,6 +5898,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:57.641+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5519,6 +5913,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:57.922+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5533,6 +5928,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:24.566+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5547,6 +5943,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:42.742+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5561,6 +5958,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:46.581+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5575,6 +5973,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:49.162+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5589,6 +5988,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:53.017+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5603,6 +6003,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2025-01-27T10:58:12.819+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5617,6 +6018,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:56.556+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5631,6 +6033,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:41.003+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5645,6 +6048,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:51.120+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5659,6 +6063,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:18.131+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5673,6 +6078,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:47.857+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5687,6 +6093,7 @@
     "description": "Denna katalog innehåller öpna data från Trollhättans Stad",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:48.415+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001546",
     "run": {
       "datasets": 16,
@@ -5701,6 +6108,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:44.840+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5715,6 +6123,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:55.100+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5729,6 +6138,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:58.132+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5743,6 +6153,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:42.266+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5757,6 +6168,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:57.482+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5771,6 +6183,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:20.187+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5785,6 +6198,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:51.634+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5799,6 +6213,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:50.884+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5813,6 +6228,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:23.983+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5827,6 +6243,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:53.527+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5841,6 +6258,7 @@
     "description": "Öppna data",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:58.586+01:00",
     "publisher": "https://catalog.trelleborg.se/store/2/resource/1",
     "run": {
       "datasets": 0,
@@ -5855,6 +6273,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:39.679+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5869,6 +6288,7 @@
     "description": "Heby kommuns öppna data katalog",
     "homepage": "https://www.heby.se",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T01:03:43.749+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120002049",
     "run": {
       "datasets": 5,
@@ -5883,6 +6303,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2026-05-19T14:38:33.251+02:00",
     "publisher": "",
     "run": {
       "datasets": 3,
@@ -5897,6 +6318,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:56.850+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5911,6 +6333,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:55.838+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5925,6 +6348,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:52.125+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5939,6 +6363,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:22.689+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5953,6 +6378,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:02.879+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5967,6 +6393,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:03.968+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -5981,6 +6408,7 @@
     "description": "Här finns öppna data från Sölvesborgs kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:54.887+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000852",
     "run": {
       "datasets": 0,
@@ -5995,6 +6423,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:06.545+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6009,6 +6438,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:54.288+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6023,6 +6453,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:33.537+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6037,6 +6468,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:23.429+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6051,6 +6483,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:46.259+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6065,6 +6498,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:21.705+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6079,6 +6513,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:53.793+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6093,6 +6528,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:56.987+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6107,6 +6543,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:19.332+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6121,6 +6558,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:55.871+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6135,6 +6573,7 @@
     "description": "Datakatalog för Myndigheten för yrkeshögskolan",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:55.832+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021006230",
     "run": {
       "datasets": 2,
@@ -6149,6 +6588,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:20.467+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6163,6 +6603,7 @@
     "description": "Metadatakatalog för Trafikverket.",
     "homepage": "https://www.trafikverket.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2025-06-06T02:15:12.630+02:00",
     "publisher": "http://dataportal.se/organisation/SE2021006297",
     "run": {
       "datasets": 334,
@@ -6177,6 +6618,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:04.972+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6191,6 +6633,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:47.345+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6205,6 +6648,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:08.757+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6219,6 +6663,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2025-01-27T10:57:40.354+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6233,6 +6678,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:38.854+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6247,6 +6693,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:44.996+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6261,6 +6708,7 @@
     "description": "Open Data catalog for the Swedish municipality of Mariestad",
     "homepage": "https://www.mariestad.se",
     "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+    "pipeline_modified": "2024-12-17T00:57:45.829+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001686",
     "run": {
       "datasets": 5,
@@ -6275,6 +6723,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:05.229+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6289,6 +6738,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:17.704+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6303,6 +6753,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:43.490+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6317,6 +6768,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2026-04-28T14:47:26.205+02:00",
     "publisher": "",
     "run": {
       "datasets": 4,
@@ -6331,6 +6783,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:17.133+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6345,6 +6798,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:47.053+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6359,6 +6813,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:21.877+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6373,6 +6828,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:01.393+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6387,6 +6843,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:39.344+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6401,6 +6858,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:51.370+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6415,6 +6873,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:21.930+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6429,6 +6888,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:46.829+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6443,6 +6903,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:52.718+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6457,6 +6918,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:39.098+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6471,6 +6933,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:03.240+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6485,6 +6948,7 @@
     "description": "Här finns vår öppen data för kommunen",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:18.371+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000845",
     "run": {
       "datasets": 0,
@@ -6499,6 +6963,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:39.567+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6513,6 +6978,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:04.730+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6527,6 +6993,7 @@
     "description": "Datakatalog för Habo kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:48.183+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001611",
     "run": {
       "datasets": 0,
@@ -6541,6 +7008,7 @@
     "description": "Denna katalog innehåller öppna data från Formas.",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:22.585+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021005232",
     "run": {
       "datasets": 6,
@@ -6555,6 +7023,7 @@
     "description": "Public health statistics",
     "homepage": "",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2026-09-14T14:40:06.635+02:00",
     "publisher": "https://fohm-app.folkhalsomyndigheten.se/Folkhalsodata/organization/1669",
     "run": {
       "datasets": 1668,
@@ -6569,6 +7038,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:04.232+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6583,6 +7053,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:41.996+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6597,6 +7068,7 @@
     "description": "Här finns öppna data för Falu kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:54.366+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120002221",
     "run": {
       "datasets": 0,
@@ -6611,6 +7083,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:15.415+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6625,6 +7098,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:13.866+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6639,6 +7113,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:07.772+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6653,6 +7128,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:43.717+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6667,6 +7143,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:10.516+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6681,6 +7158,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:22.805+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6695,6 +7173,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:05.522+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6709,6 +7188,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:39.427+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6723,6 +7203,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:20.444+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6737,6 +7218,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:45.274+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6751,6 +7233,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:04.007+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6765,6 +7248,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:44.205+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6779,6 +7263,7 @@
     "description": "Myndigheten Tillväxtverket är ansvarig för inkvarteringsstatistiken som är en del av Sveriges officiella statistik. Den redovisar gästnätter, kapacitet, beläggning samt gästernas, fördelat på hemländer för hotell, stugbyar, vandrarhem, campingplatser samt kommersiellt förmedlade privata stugor och lägenheter (SoL) i Sverige. Inkvarteringsstatistiken produceras på Tillväxtverket med SCB som underleverantör av datainsamlingen.",
     "homepage": "http://www.tillvaxtverket.se",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:58:01.155+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021006149",
     "run": {
       "datasets": 12,
@@ -6793,6 +7278,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:10.480+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6807,6 +7293,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:44.296+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6821,6 +7308,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:51.870+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6835,6 +7323,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:12.443+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6849,6 +7338,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:03.771+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6863,6 +7353,7 @@
     "description": "Öppna data från Inspektionen för arbetslöshetsförsäkringen (IAF)",
     "homepage": "",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:57:57.187+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021005414",
     "run": {
       "datasets": 30,
@@ -6877,6 +7368,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:42.499+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6891,6 +7383,7 @@
     "description": "Försäkringskassans öppna data.",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:14.617+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021005521",
     "run": {
       "datasets": 51,
@@ -6905,6 +7398,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:44.602+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6919,6 +7413,7 @@
     "description": "Datamängder som förvaltas hos de olika förvaltningarna i Huddinge kommun.",
     "homepage": "https://www.huddinge.se/psi/geodata/",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:23.489+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000068",
     "run": {
       "datasets": 109,
@@ -6933,6 +7428,7 @@
     "description": "Här delas öppna data i Tidaholms kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2025-01-24T14:15:15.938+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001736",
     "run": {
       "datasets": 4,
@@ -6947,6 +7443,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:50.637+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6961,6 +7458,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:22.150+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6975,6 +7473,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:52.313+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -6989,6 +7488,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:43.244+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7003,6 +7503,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:49.392+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7017,6 +7518,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:38.922+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7031,6 +7533,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:09.067+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7045,6 +7548,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:39.942+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7059,6 +7563,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:10.566+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7073,6 +7578,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:11.739+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7087,6 +7593,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:05.023+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7101,6 +7608,7 @@
     "description": "Huvudkatalog för HaVskatten - metadata från Havs- och Vattenmyndigheten för länkade öppna data.",
     "homepage": "https://www.havochvatten.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2026-04-28T14:41:12.630+02:00",
     "publisher": "http://dataportal.se/organisation/SE2021006420",
     "run": {
       "datasets": 75,
@@ -7115,6 +7623,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:54.522+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7129,6 +7638,7 @@
     "description": "Haninges katalog för publicerad datamängd ...",
     "homepage": "http://haninge.se/psidata",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:58:14.371+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000084",
     "run": {
       "datasets": 8,
@@ -7143,6 +7653,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:33.810+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7157,6 +7668,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:55.282+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7171,6 +7683,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:45.498+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7185,6 +7698,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:58.149+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7199,6 +7713,7 @@
     "description": "Här publiceras öppna data från Götene kommun.",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:50.212+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001652",
     "run": {
       "datasets": 3,
@@ -7213,6 +7728,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:35.785+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7227,6 +7743,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:09.330+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7241,6 +7758,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:34.296+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7255,6 +7773,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:37.334+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7269,6 +7788,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:16.894+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7283,6 +7803,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:18.219+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7297,6 +7818,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:46.771+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7311,6 +7833,7 @@
     "description": "Gävles datakatalog",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:37.035+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120002338",
     "run": {
       "datasets": 66,
@@ -7325,6 +7848,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:09.771+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7339,6 +7863,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:46.292+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7353,6 +7878,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:25.331+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7367,6 +7893,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:21.556+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7381,6 +7908,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:16.454+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7395,6 +7923,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:20.217+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7409,6 +7938,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:42.546+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7423,6 +7953,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:42.068+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7437,6 +7968,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:37.606+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7451,6 +7983,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:38.686+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7465,6 +7998,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:13:01.173+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7479,6 +8013,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:58.977+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7493,6 +8028,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:50.095+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7507,6 +8043,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:07.985+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7521,6 +8058,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:35.088+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7535,6 +8073,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:40.512+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7549,6 +8088,7 @@
     "description": "Statens veterinärmedicinska anstalt, SVA, är en expertmyndighet med beredskapsuppdrag. SVA främjar djurs och människors hälsa, svensk djurhållning och vår miljö genom diagnostik, forskning, beredskap och rådgivning. Myndigheten ligger under Näringsdepartementet.",
     "homepage": "",
     "license": "http://creativecommons.org/licenses/by/4.0/",
+    "pipeline_modified": "2024-12-17T01:02:36.196+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021001868",
     "run": {
       "datasets": 32,
@@ -7563,6 +8103,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:23.996+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7577,6 +8118,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:15.685+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7591,6 +8133,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:20.137+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7605,6 +8148,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:54.052+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7619,6 +8163,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:36.060+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7633,6 +8178,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:48.501+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7647,6 +8193,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:34.357+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7661,6 +8208,7 @@
     "description": "Eskilstuna Kommuns öppna datamängder",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2025-10-30T15:03:49.802+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000357",
     "run": {
       "datasets": 8,
@@ -7675,6 +8223,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:47.244+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7689,6 +8238,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:53.272+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7703,6 +8253,7 @@
     "description": "Central metadatakatalog för Skatteverket.",
     "homepage": "https://skatteverket.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2025-02-27T14:48:02.381+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021005448",
     "run": {
       "datasets": 195,
@@ -7717,6 +8268,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:29.659+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7731,6 +8283,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:17.863+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7745,6 +8298,7 @@
     "description": "En samling av datamängder från Sveriges Domstolar",
     "homepage": "https://www.domstol.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2025-02-27T14:14:48.547+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021002742",
     "run": {
       "datasets": 70,
@@ -7759,6 +8313,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:11.325+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7773,6 +8328,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:50.597+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7787,6 +8343,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:49.850+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7801,6 +8358,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:38.178+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7815,6 +8373,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:54.771+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7829,6 +8388,7 @@
     "description": "Data från Burlövs kommun",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:45.097+01:00",
     "publisher": "https://catalog.burlov.se/store/1/resource/1",
     "run": {
       "datasets": 0,
@@ -7843,6 +8403,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:10.818+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7857,6 +8418,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:55.033+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7871,6 +8433,7 @@
     "description": "Denna API-katalog innehåller en samling publika API:er som tillhandahålls av Sundsvalls Kommun",
     "homepage": "https://utveckling.sundsvall.se/kallkod-och-data/oppna-data-och-oppna-apier",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2026-04-28T14:41:55.111+02:00",
     "publisher": "http://dataportal.se/organisation/SE2120002411",
     "run": {
       "datasets": 3,
@@ -7885,6 +8448,7 @@
     "description": "Denna katalog innehåller öppna data över demokommun",
     "homepage": "https://www.boras.se/psidata",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:12.202+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001561",
     "run": {
       "datasets": 15,
@@ -7899,6 +8463,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:07.884+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7913,6 +8478,7 @@
     "description": "The Swedish Companies Registration Office provides tailored and easily accessible information and services for companies and citizens so that companies' and citizens' contacts with the authority become easier and more efficient. The information consists of both produced data sets in file format and API calls produced for our services.",
     "homepage": "https://bolagsverket.se/",
     "license": "",
+    "pipeline_modified": "2026-04-28T14:43:25.076+02:00",
     "publisher": "http://dataportal.se/organisation/SE2021005489",
     "run": {
       "datasets": 19,
@@ -7927,6 +8493,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:34.604+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7941,6 +8508,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:13:01.430+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7955,6 +8523,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:51.880+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7969,6 +8538,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:47.985+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7983,6 +8553,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:45.268+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -7997,6 +8568,7 @@
     "description": "Båstads kommun öppen data",
     "homepage": "https://opendata.bastad.se",
     "license": "https://docs.dataportal.se/dcat/sv/#dcat_Distribution-dcterms_license",
+    "pipeline_modified": "2026-04-28T14:40:29.952+02:00",
     "publisher": "https://www.bastad.se/",
     "run": {
       "datasets": 2,
@@ -8011,6 +8583,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:36.293+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8025,6 +8598,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:49.062+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8039,6 +8613,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:12:58.724+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8053,6 +8628,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:38.453+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8067,6 +8643,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:08.566+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8081,6 +8658,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:19.052+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8095,6 +8673,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:11.278+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8109,6 +8688,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:44.749+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8123,6 +8703,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:42.789+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8137,6 +8718,7 @@
     "description": "Datakatalog för Ånge kommun",
     "homepage": "https://www.ange.se/",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:43.980+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120002387",
     "run": {
       "datasets": 1,
@@ -8151,6 +8733,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:41.762+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8165,6 +8748,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:05.762+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8179,6 +8763,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:11.321+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8193,6 +8778,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:10:48.242+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8207,6 +8793,7 @@
     "description": "Trafiklab is a Swedish community for open public transport data.",
     "homepage": "https://www.trafiklab.se",
     "license": "",
+    "pipeline_modified": "2018-03-19T22:42:19.294+01:00",
     "publisher": "https://www.trafiklab.se/sites/default/files/dcat/trafiklab_publisher.rdf",
     "run": {
       "datasets": 0,
@@ -8221,6 +8808,7 @@
     "description": "Katalogen innehåller metadataposter som länkar till metadataportaler för Naturvårdsverkets övriga handlingar",
     "homepage": "https://www.naturvardsverket.se",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:57:56.362+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021001975",
     "run": {
       "datasets": 137,
@@ -8235,6 +8823,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:35.311+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8249,6 +8838,7 @@
     "description": "Urval ur samlingsdatabaserna från Statens museer för världskultur och Malmö museer som xls-filer. All data här finns även tillgänglig via k-samsök, se www.ksamsok.se. Nyckel:\nhack4heritage\nhack1234\n",
     "homepage": "",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2018-03-19T22:39:54.250+01:00",
     "publisher": "https://katalog.datahotell.se/store/99/resource/1",
     "run": {
       "datasets": 0,
@@ -8263,6 +8853,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:31.264+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8277,6 +8868,7 @@
     "description": "SKR",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2021-11-30T15:06:55.687+01:00",
     "publisher": "http://dataportal.se/organisation/2220000315",
     "run": {
       "datasets": 27,
@@ -8291,6 +8883,7 @@
     "description": "goteborg.se",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2025-03-04T09:55:40.746+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001355",
     "run": {
       "datasets": 45,
@@ -8305,6 +8898,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:19.877+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8319,6 +8913,7 @@
     "description": "RKA driver och utvecklar databasen Kolada som innehåller cirka 6 000 nyckeltal för kommuner och regioner och för de verksamheter de driver. Du får bland annat information om vad Kolada är och erbjuder, när data publiceras, källor, och hur du publicerar nyckeltal i Kolada.",
     "homepage": "https://rka.nu/",
     "license": "http://creativecommons.org/licenses/by/4.0/",
+    "pipeline_modified": "2023-09-18T11:30:19.869+02:00",
     "publisher": "http://dataportal.se/organisation/SE2220000315",
     "run": {
       "datasets": 5849,
@@ -8333,6 +8928,7 @@
     "description": "Öppna data från Mölndals stad",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:53.342+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001363",
     "run": {
       "datasets": 7,
@@ -8347,6 +8943,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:14.640+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8361,6 +8958,7 @@
     "description": "Data från mätningar av partikelhalter i luften",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2021-04-12T11:30:06.430+02:00",
     "publisher": "https://free.entryscape.com/store/177/resource/1",
     "run": {
       "datasets": 1,
@@ -8375,6 +8973,7 @@
     "description": "SOCH (Swedish Open Cultural Heritage) is a web service used to search and retrieve data from any organisation holding information or media relating to Swedish cultural heritage.",
     "homepage": "https://www.raa.se/k-samsok/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2018-09-14T09:36:31.941+02:00",
     "publisher": "http://www.raa.se/",
     "run": {
       "datasets": 173,
@@ -8389,6 +8988,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:47.430+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8403,6 +9003,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:31.517+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8417,6 +9018,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:25.986+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8431,6 +9033,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:18.565+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8445,6 +9048,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:33.798+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8459,6 +9063,7 @@
     "description": "Stockholms stads dataportal för öppna data",
     "homepage": "https://dataportalen.stockholm.se",
     "license": "http://creativecommons.org/licenses/by/4.0/",
+    "pipeline_modified": "2026-06-25T08:18:22.591+02:00",
     "publisher": "",
     "run": {
       "datasets": 310,
@@ -8473,6 +9078,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:46.048+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8487,6 +9093,7 @@
     "description": "Södertälje kommuns centrala metadatakatalog",
     "homepage": "https://www.sodertalje.se/psidata",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:58:03.667+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000159",
     "run": {
       "datasets": 115,
@@ -8501,6 +9108,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:44.239+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8515,6 +9123,7 @@
     "description": "DIGG:s data och API:er som tillhandahålls för vidareutnyttjande",
     "homepage": "https://www.digg.se/",
     "license": "http://creativecommons.org/licenses/by/4.0/",
+    "pipeline_modified": "2025-11-29T02:33:14.341+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021006883",
     "run": {
       "datasets": 10,
@@ -8529,6 +9138,7 @@
     "description": "Länsstyrelsernas datakatalog",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2026-04-28T14:45:49.339+02:00",
     "publisher": "http://dataportal.se/organisation/SE2021002361-LST",
     "run": {
       "datasets": 16,
@@ -8543,6 +9153,7 @@
     "description": "Öppna data från Avropa kring giltiga ramavtal och vilka ramavtal viss organisationer är avropsberättigade på.",
     "homepage": "https://www.avropa.se/psidata",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2019-02-14T15:43:05.464+01:00",
     "publisher": "https://www.avropa.se/datasets/dcat#agent1",
     "run": {
       "datasets": 1,
@@ -8557,6 +9168,7 @@
     "description": "Datamängder inom energisektorn",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2019-03-04T15:05:48.760+01:00",
     "publisher": "https://stuns.entryscape.net/store/1/resource/1",
     "run": {
       "datasets": 0,
@@ -8571,6 +9183,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2026-04-28T14:46:20.338+02:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8585,6 +9198,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2019-08-22T14:23:19.524+02:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8599,6 +9213,7 @@
     "description": "Nationell metadatakatalog för geodata och geodatatjänster i Sverige",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2026-04-28T14:51:31.373+02:00",
     "publisher": "http://dataportal.se/organisation/SE2021004888",
     "run": {
       "datasets": 755,
@@ -8613,6 +9228,7 @@
     "description": "SMHI - Öppna Data, metadatakatalog",
     "homepage": "https://www.smhi.se/data/utforskaren-oppna-data",
     "license": "https://creativecommons.org/licenses/by/4.0/",
+    "pipeline_modified": "2024-12-17T00:58:03.085+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021000696",
     "run": {
       "datasets": 138,
@@ -8627,6 +9243,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:29.403+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8641,6 +9258,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:15:10.258+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8655,6 +9273,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:19.705+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8669,6 +9288,7 @@
     "description": "Nobel Prize outreach data catalog",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2021-07-06T16:18:51.957+02:00",
     "publisher": "https://data.nobelprize.org/store/7/resource/1",
     "run": {
       "datasets": 1,
@@ -8683,6 +9303,7 @@
     "description": "Metadatakatalog för öppna data, allmänna handlingar och offentliga förfrågningar till svenska myndigheter från Handlingar.se. Plattformen drivs av den ideella föreningen Open Knowledge Sverige.",
     "homepage": "https://handlingar.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2021-10-07T20:07:21.359+02:00",
     "publisher": "https://free.entryscape.com/store/302/resource/11",
     "run": {
       "datasets": 5,
@@ -8697,6 +9318,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:55.608+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8711,6 +9333,7 @@
     "description": "En katalog med ett urval av den öppna data som tillhandahålls av Webperf.se",
     "homepage": "https://webperf.se",
     "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "pipeline_modified": "2022-08-16T19:01:06.827+02:00",
     "publisher": "https://webperf.se",
     "run": {
       "datasets": 1,
@@ -8725,6 +9348,7 @@
     "description": "Civic Tech Sweden är ett nätverk av individer och organisationer som använder teknik för att förbättra den svenska demokratin, bland annat med öppna data",
     "homepage": "https://civictech.se",
     "license": "",
+    "pipeline_modified": "2024-11-02T22:43:29.082+01:00",
     "publisher": "https://civictech.se",
     "run": {
       "datasets": 4,
@@ -8739,6 +9363,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2022-09-21T13:48:50.818+02:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8753,6 +9378,7 @@
     "description": "Använd vårt helt öppna och gratis API för att hämta dagens och morgondagens svenska elpriser. Fritt tillgänglig för vem som helst, för vad som helst.",
     "homepage": "https://www.elprisetjustnu.se/",
     "license": "",
+    "pipeline_modified": "2022-11-29T15:23:48.754+01:00",
     "publisher": "https://free.entryscape.com/store/576/resource/1",
     "run": {
       "datasets": 1,
@@ -8767,6 +9393,7 @@
     "description": "Katalogen innehåller partner-API:er från Skatteverket.",
     "homepage": "https://www7.skatteverket.se/portal/apier-och-oppna-data/utvecklarportalen",
     "license": "https://www.skatteverket.se/omoss/digitalasamarbeten/kontaktaossomapieroppnadataochandradigitalasamarbeten.4.7c708f0e16bed42cd055bf0.html",
+    "pipeline_modified": "2023-02-22T14:22:53.291+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021005448",
     "run": {
       "datasets": 27,
@@ -8781,6 +9408,7 @@
     "description": "Researchdata.se beskriver forskningsdata från svenska universitet och andra organisationer som bedriver forskning.",
     "homepage": "https://researchdata.se/catalogue/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2025-04-24T09:05:18.760+02:00",
     "publisher": "https://researchdata.se/",
     "run": {
       "datasets": 6618,
@@ -8795,6 +9423,7 @@
     "description": "Öppna data från Digidel",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2023-10-02T10:57:52.511+02:00",
     "publisher": "https://free.entryscape.com/store/640/resource/1",
     "run": {
       "datasets": 3,
@@ -8809,6 +9438,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:57.702+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8823,6 +9453,7 @@
     "description": "Svenska valundersökningar från 1968 till idag",
     "homepage": "",
     "license": "https://dataportal.se/concepts/licensecategories/otherlicense",
+    "pipeline_modified": "2023-11-08T11:49:54.832+01:00",
     "publisher": "",
     "run": {
       "datasets": 1,
@@ -8837,6 +9468,7 @@
     "description": "Öppna data om samåkning",
     "homepage": "https://skjutsgruppen.se/",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-02-12T16:37:13.738+01:00",
     "publisher": "https://free.entryscape.com/store/679/resource/1",
     "run": {
       "datasets": 1,
@@ -8851,6 +9483,7 @@
     "description": "Här finns öppna data från PRO.",
     "homepage": "https://pro.se/",
     "license": "",
+    "pipeline_modified": "2024-05-10T11:07:47.962+02:00",
     "publisher": "https://free.entryscape.com/store/688/resource/1",
     "run": {
       "datasets": 1,
@@ -8865,6 +9498,7 @@
     "description": "Datakatalog för Region Uppsala",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:47.921+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8879,6 +9513,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:17.379+01:00",
     "publisher": "",
     "run": {
       "datasets": 570,
@@ -8893,6 +9528,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:08.702+01:00",
     "publisher": "",
     "run": {
       "datasets": 71,
@@ -8907,6 +9543,7 @@
     "description": "Data från hjärtstartarregistret",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-10-07T11:03:48.566+02:00",
     "publisher": "https://free.entryscape.com/store/727/resource/1",
     "run": {
       "datasets": 2,
@@ -8921,6 +9558,7 @@
     "description": "Här publiceras öppna data från Skara kommun.",
     "homepage": "https://www.skara.se",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T00:57:44.513+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120001702",
     "run": {
       "datasets": 6,
@@ -8935,6 +9573,7 @@
     "description": "Metadata från Klimatbyrån och Klimatkollen",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-10-30T10:37:26.398+01:00",
     "publisher": "https://free.entryscape.com/store/730/resource/1",
     "run": {
       "datasets": 2,
@@ -8949,6 +9588,7 @@
     "description": "Öppna data från Upplands Väsby kommun",
     "homepage": "https://opendata.upplandsvasby.se",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2025-02-10T15:09:02.377+01:00",
     "publisher": "http://dataportal.se/organisation/SE2120000019",
     "run": {
       "datasets": 9,
@@ -8963,6 +9603,7 @@
     "description": "Officiell statistik om skogarnas tillstånd och förändring",
     "homepage": "",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-11-25T12:28:47.395+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021002817",
     "run": {
       "datasets": 92,
@@ -8977,6 +9618,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:45.260+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -8991,6 +9633,7 @@
     "description": "Metadatakatalog för Visit Sweden.",
     "homepage": "https://corporate.visitsweden.com",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2025-09-17T17:34:20.642+02:00",
     "publisher": "http://dataportal.se/organisation/5565007621",
     "run": {
       "datasets": 2,
@@ -9005,6 +9648,7 @@
     "description": "Kommun Kartan samlar, strukuterar, geokoderar och visar offentlig information från svenska kommuner och myndigheter.",
     "homepage": "https://kommunkartan.se",
     "license": "https://creativecommons.org/licenses/by/4.0/",
+    "pipeline_modified": "2026-04-28T14:50:55.065+02:00",
     "publisher": "https://admin.dataportal.se/store/847/resource/af9d95eb1ca52e530818b3f203c831b4",
     "run": {
       "datasets": 0,
@@ -9019,6 +9663,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:04.153+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -9033,6 +9678,7 @@
     "description": "Ängelholms kommun - Öppna data",
     "homepage": "https://opendata.engelholm.se",
     "license": "https://docs.dataportal.se/dcat/sv/#dcat_Distribution-dcterms_license",
+    "pipeline_modified": "2026-05-26T17:54:56.763+02:00",
     "publisher": "https://www.engelholm.se",
     "run": {
       "datasets": 3,
@@ -9047,6 +9693,7 @@
     "description": "Datakatalog från Barnsakert.se, en oberoende svensk kunskapsbank för barnsäkerhet i bil. Innehåller sammanställda testresultat relaterade till bilbarnstolar.",
     "homepage": "https://www.barnsakert.se",
     "license": "https://creativecommons.org/licenses/by/4.0/",
+    "pipeline_modified": "2026-06-09T13:52:46.489+02:00",
     "publisher": "https://www.barnsakert.se/#organisation",
     "run": {
       "datasets": 1,
@@ -9061,6 +9708,7 @@
     "description": "Default CKAN portal",
     "homepage": "https://data.svk.se",
     "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "pipeline_modified": "2026-09-24T15:54:50.003+02:00",
     "publisher": "http://svk.se",
     "run": {
       "datasets": 10,
@@ -9075,6 +9723,7 @@
     "description": "Katalog över öppna data från Vårdbetyg, oberoende betyg på svensk vård byggt på öppna data. Innehåller det öppna datasetet med patientupplevelse (Nationell Patientenkät), tillgänglighet (Socialstyrelsens väntetider i primärvården) och det sammanvägda Vårdbetyget per vårdcentral. Vårdbetyg är fristående och representerar ingen myndighet eller region.",
     "homepage": "https://vardbetyg.se",
     "license": "http://creativecommons.org/licenses/by/4.0/",
+    "pipeline_modified": "2026-07-12T07:58:06.293+02:00",
     "publisher": "https://vardbetyg.se/data/dcat.rdf#agent",
     "run": {
       "datasets": 1,
@@ -9089,6 +9738,7 @@
     "description": "Jeux de données ouverts produits par Off We Gooo : climat mensuel, altitude et température de la mer pour plus de 220 destinations de voyage. Licence CC BY 4.0.",
     "homepage": "https://offwegooo.com/fr/donnees-ouvertes",
     "license": "",
+    "pipeline_modified": "2026-08-10T11:17:19.002+02:00",
     "publisher": "https://offwegooo.com/#org",
     "run": {
       "datasets": 3,
@@ -9103,6 +9753,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2026-08-25T00:51:21.171+02:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -9117,6 +9768,7 @@
     "description": "Hitta dagens och morgondagens elpriser i Sverige via Elpriser Sveriges kostnadsfria API. Katalogen beskriver spotpriser per kvart och timme för SE1–SE4 i JSON och CSV, utan API-nyckel. Morgondagens priser är tillgängliga efter publicering hos källan. Här finns även tillgänglig elprishistorik och kompletterande datamängder om det svenska elsystemet. Katalogens metadata tillhandahålls under CC0 enligt DCAT-AP-SE. API:t och dess data omfattas av separata användningsvillkor med obligatorisk tillbakalänk.",
     "homepage": "https://elprisersverige.nu/api",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2026-10-07T11:18:44.206+02:00",
     "publisher": "https://elprisersverige.nu/dcat-ap-se.rdf#utgivare",
     "run": {
       "datasets": 10,
@@ -9131,6 +9783,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:42.788+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -9145,6 +9798,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:57:55.416+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -9159,6 +9813,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:39.936+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -9173,6 +9828,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:40.602+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -9187,6 +9843,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:45.805+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -9201,6 +9858,7 @@
     "description": "Statistikmyndigheten SCB:s Statistikdatabas",
     "homepage": "",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "pipeline_modified": "2024-12-17T01:03:43.026+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021000837",
     "run": {
       "datasets": 4292,
@@ -9215,6 +9873,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:23.438+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -9229,6 +9888,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:56.267+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -9243,6 +9903,7 @@
     "description": "Rymdstyrelsens öppna data (PSI-data)",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T00:58:23.052+01:00",
     "publisher": "https://free.entryscape.com/store/223/resource/1",
     "run": {
       "datasets": 0,
@@ -9257,6 +9918,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:04:56.496+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -9271,6 +9933,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:02:27.527+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -9285,6 +9948,7 @@
     "description": "",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:44.489+01:00",
     "publisher": "",
     "run": {
       "datasets": 0,
@@ -9299,6 +9963,7 @@
     "description": "Öppna data från Riksdagsförvaltningen",
     "homepage": "https://www.riksdagen.se/sv/dokument-och-lagar/riksdagens-oppna-data/",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:03:47.159+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021002627",
     "run": {
       "datasets": 10,
@@ -9313,6 +9978,7 @@
     "description": "Samlingar med data, både från myndigheten själv och mottagen data från andra aktörer.",
     "homepage": "",
     "license": "",
+    "pipeline_modified": "2024-12-17T01:11:00.321+01:00",
     "publisher": "http://dataportal.se/organisation/SE2021001074",
     "run": {
       "datasets": 36,

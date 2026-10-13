@@ -3,14 +3,14 @@ and how the last harvest went.
 
 dataportal.se is an EntryScape install. Each registered catalog has its own context in
 the store with a dcat:Catalog entry (title, publisher, homepage), a Pipeline whose fetch
-step carries the harvested URL, and PipelineResult entries, the latest tagged "latest",
+step carries the harvested URL (read only when the pipeline's modified date has changed
+since the last snapshot), and PipelineResult entries, the latest tagged "latest",
 with the run's status, date, dataset count and validation errors. The catalog entry also
 gives description, language, license and spatial coverage; description and license are kept. The reduced result is
 keyed by context id.
 """
 import json
 import urllib.parse
-from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from .common import cached, http, skip
@@ -60,19 +60,19 @@ def _raw(previous):
     pipelines = _search("graphType:Pipeline")
     results = _search("graphType:PipelineResult AND tag.literal:latest")
     sources = {}
-
-    def source(e):
+    for e in pipelines:
+        # The resource holds the URL the publisher registered; it changes only when they re-register,
+        # and the entry's modified date says when. Unchanged since the last snapshot: keep that URL.
+        known = previous.get(e.get("contextId")) or {}
+        if known.get("source") and known.get("pipeline_modified") == _first(e.get("info") or {}, "dc/terms/modified"):
+            sources[e["contextId"]] = known["source"]
+            continue
         try:
-            return _source_url(e["contextId"], e["entryId"])
+            sources[e["contextId"]] = _source_url(e["contextId"], e["entryId"])
         except Exception as error:  # noqa: BLE001 - keep the URL the last build knew for this context
             skip("dataportal pipeline", e.get("contextId"), error)
-            return previous[e["contextId"]]["source"] if e.get("contextId") in previous else None
-
-    # One resource per pipeline, several hundred of them: read a few at a time, in order.
-    with ThreadPoolExecutor(max_workers=8) as pool:
-        for e, url in zip(pipelines, pool.map(source, pipelines)):
-            if url is not None:
-                sources[e["contextId"]] = url
+            if known.get("source"):
+                sources[e["contextId"]] = known["source"]
     return json.dumps({"catalogs": catalogs, "pipelines": pipelines, "results": results, "sources": sources},
                       ensure_ascii=False).encode()
 
@@ -97,6 +97,7 @@ def fetch(cache: Path, previous=None):
             entry = out.setdefault(e["contextId"], {"title": _first(e.get("metadata") or {}, "dc/terms/title"), "description": "",
                                                     "publisher": "", "homepage": "", "license": "", "source": "", "run": None})
             entry["source"] = entry["source"] or raw["sources"].get(e["contextId"], "")
+            entry["pipeline_modified"] = _first(e.get("info") or {}, "dc/terms/modified")
         except Exception as error:  # noqa: BLE001
             skip("dataportal pipeline", e.get("contextId"), error)
     for e in raw["results"]:
