@@ -7324,8 +7324,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 500",
-            "result": "error"
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "api",
           "url": "https://esg-dn1.nsc.liu.se/esg-search/search"
@@ -10171,8 +10171,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
-            "result": "unreachable"
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "wfs_2",
           "url": "http://geo-inspire.trafikverket.se/MapService/wfs.axd/TN_RoadTransportNetwork"
@@ -24478,8 +24478,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 404",
-            "result": "error"
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "language": [
             "sv"
@@ -24500,7 +24500,7 @@
         "check",
         "edits"
       ],
-      "status": "error"
+      "status": "ok"
     },
     "px.socialstyrelsen.se": {
       "endpoint": [
