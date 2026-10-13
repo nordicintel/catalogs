@@ -1,6 +1,6 @@
 {
   "added": [],
-  "changed": 1057,
+  "changed": 4,
   "count": 1057,
   "date": "2026-10-13",
   "protocol": {
@@ -36,6 +36,14 @@
     "wms_1_3": 67
   },
   "register": {
+    "check": {
+      "endpoints": 734,
+      "error": 54,
+      "ok": 594,
+      "restricted": 13,
+      "status": "fetched",
+      "unreachable": 73
+    },
     "data_europa": {
       "rows": 74,
       "status": "fetched"
@@ -63,8 +71,8 @@
     "pxweb": 33
   },
   "status": {
-    "error": 498,
-    "ok": 515,
+    "error": 499,
+    "ok": 514,
     "restricted": 7,
     "unreachable": 37
   },

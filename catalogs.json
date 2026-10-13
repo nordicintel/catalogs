@@ -4418,8 +4418,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 502",
-            "result": "error"
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "oai_pmh",
           "url": "https://commons.wmu.se/do/oai"
@@ -4436,7 +4436,7 @@
         "check",
         "edits"
       ],
-      "status": "error"
+      "status": "ok"
     },
     "daim.lfv.se": {
       "endpoint": [
@@ -10323,8 +10323,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "wfs_2",
           "url": "http://geo-inspire.trafikverket.se/MapService/wfs.axd/TN_RoadTransportNetwork"
@@ -24587,8 +24587,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "HTTP 307",
+            "result": "error"
           },
           "protocol": "web",
           "url": "https://patientenkat.se/"
@@ -24606,7 +24606,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "error"
     },
     "pbr.se": {
       "endpoint": [
@@ -30558,8 +30558,8 @@
         {
           "checked": {
             "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "detail": "HTTP 307",
+            "result": "error"
           },
           "protocol": "web",
           "url": "https://www.vantetider.se/"
@@ -30577,7 +30577,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "error"
     },
     "varbergstingsratt.domstol.se": {
       "endpoint": [
