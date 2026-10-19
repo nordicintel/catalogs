@@ -251,19 +251,22 @@
     "publisher": [],
     "title": ""
   },
-  "ext-geoserver.lansstyrelsen.se": {
+  "gd-huddinge.sokigohosting.com": {
     "catalogue": [
-      "oppnadata"
+      "nsip-se"
     ],
     "protocol": {
       "wfs_2": [
-        "https://ext-geoserver.lansstyrelsen.se/geoserver/inspire_am/wfs"
+        "https://gd-huddinge.sokigohosting.com/public-maps/Oppnadata/MBF"
+      ],
+      "wms_1_3": [
+        "https://gd-huddinge.sokigohosting.com/public-maps/Oppnadata/MBF"
       ]
     },
     "publisher": [
-      "http://dataportal.se/organisation/SE2021002361-LST"
+      "http://dataportal.se/organisation/SE2120000068"
     ],
-    "title": "SE.LST INSPIRE Nedladdningstjänst (WFS)"
+    "title": ""
   },
   "geo-inspire.trafikverket.se": {
     "catalogue": [
@@ -733,7 +736,6 @@
     "protocol": {
       "wms_1_3": [
         "https://mapsext.sgi.se/geoserver/inspire_gotaalv/wms",
-        "https://mapsext.sgi.se/geoserver/inspire_ovrigaalvar/wms",
         "https://mapsext.sgi.se/geoserver/wms"
       ]
     },
