@@ -1094,8 +1094,8 @@
     "protocol": {
       "atom": [
         "https://stationsregister.miljodatasamverkan.se/docs/atom/atomTopFeed.xml",
-        "https://stationsregister.miljodatasamverkan.se/docs/atom/SE_EF_StnReg_DV_Badvatten/atomDatasetFeed-SE_EF_StnReg_DV_Badvatten.xml",
-        "https://stationsregister.miljodatasamverkan.se/docs/atom/SE_EF_StnReg_DV_Provfiske/atomDatasetFeed-SE_EF_StnReg_DV_Provfiske.xml"
+        "https://stationsregister.miljodatasamverkan.se/docs/atom/SE_EF_StnReg_DV_Provfiske/atomDatasetFeed-SE_EF_StnReg_DV_Provfiske.xml",
+        "https://stationsregister.miljodatasamverkan.se/docs/atom/SE_EF_StnReg_DV_Grundvatten/atomDatasetFeed-SE_EF_StnReg_DV_Grundvatten.xml"
       ],
       "wfs_2": [
         "https://stationsregister.miljodatasamverkan.se/geoserver/stationsregistret/ows",
