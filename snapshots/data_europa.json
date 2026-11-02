@@ -997,7 +997,8 @@
         "https://openstreetgs.stockholm.se/geoservice/api/DIN+API-NYCKEL/wfs"
       ],
       "wms_1_3": [
-        "https://openstreetgs.stockholm.se/geoservice/api/DIN+API-NYCKEL/wms"
+        "https://openstreetgs.stockholm.se/geoservice/api/DIN+API-NYCKEL/wms",
+        "https://openstreetgs.stockholm.se/geoservice/api/wms"
       ]
     },
     "publisher": [
