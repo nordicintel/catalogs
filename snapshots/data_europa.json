@@ -287,7 +287,6 @@
   },
   "geo-transfernode.trafikverket.se": {
     "catalogue": [
-      "geodata-se",
       "oppnadata"
     ],
     "protocol": {
@@ -447,8 +446,8 @@
       ],
       "atom": [
         "https://geodpags.skogsstyrelsen.se/geodataport/feeds/AvverkAnm.xml",
-        "https://geodpags.skogsstyrelsen.se/geodataport/feeds/Sumpskogar.xml",
-        "https://geodpags.skogsstyrelsen.se/geodataport/feeds/Fjallnaragr.xml"
+        "https://geodpags.skogsstyrelsen.se/geodataport/feeds/Rasoskred.xml",
+        "https://geodpags.skogsstyrelsen.se/geodataport/feeds/Sumpskogar.xml"
       ]
     },
     "publisher": [

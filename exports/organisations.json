@@ -1,6 +1,6 @@
 {
   "count": 642,
-  "generated": "2026-10-13",
+  "generated": "2026-11-09",
   "organisation": {
     "SE2021000035": {
       "department": "Justitiedepartementet",
@@ -5216,6 +5216,10 @@
       "status": "active"
     },
     "SE2021003476": {
+      "alias": [
+        "Statens arbetsgivarverk",
+        "Statens avtalsverk"
+      ],
       "department": "Finansdepartementet",
       "email": "registrator@arbetsgivarverket.se",
       "established": "1979-01-01",
@@ -20656,7 +20660,6 @@
     },
     "SE2321000040": {
       "alias": [
-        "Landstinget i Östergötland",
         "Region Östergötland",
         "Östergötlands läns landsting"
       ],

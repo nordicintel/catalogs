@@ -553,7 +553,7 @@
     "ydre.se": "SE2120000381",
     "ystad.se": "SE2120001181"
   },
-  "generated": "2026-10-13",
+  "generated": "2026-11-09",
   "name": {
     "- the swedish national courts administration": "SE2021002742",
     ". skolverket": "SE2021004185",
@@ -1618,7 +1618,6 @@
     "landstinget i stockholm": "SE2321000016",
     "landstinget i uppsala län": "SE2321000024",
     "landstinget i värmland": "SE2321000156",
-    "landstinget i östergötland": "SE2321000040",
     "landstinget kronoberg": "SE2321000065",
     "landstinget sörmland": "SE2321000032",
     "landstinget västernorrland": "SE2321000206",
@@ -2632,6 +2631,8 @@
     "state accountability board": "SE2021005836",
     "state occupational pensions and group life board": "SE2021005851",
     "statens ansvarsnämnd": "SE2021005836",
+    "statens arbetsgivarverk": "SE2021003476",
+    "statens avtalsverk": "SE2021003476",
     "statens beredning för medicinsk och social utvärdering": "SE2021004417",
     "statens beredning för medicinsk utvärdering": "SE2021004417",
     "statens biografbyrå": "SE2021001041",
@@ -9489,6 +9490,10 @@
       "status": "active"
     },
     "SE2021003476": {
+      "alias": [
+        "Statens arbetsgivarverk",
+        "Statens avtalsverk"
+      ],
       "department": "Finansdepartementet",
       "email": "registrator@arbetsgivarverket.se",
       "established": "1979-01-01",
@@ -30297,7 +30302,6 @@
     },
     "SE2321000040": {
       "alias": [
-        "Landstinget i Östergötland",
         "Region Östergötland",
         "Östergötlands läns landsting"
       ],
