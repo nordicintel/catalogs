@@ -553,7 +553,7 @@
     "ydre.se": "SE2120000381",
     "ystad.se": "SE2120001181"
   },
-  "generated": "2026-11-09",
+  "generated": "2026-11-23",
   "name": {
     "- the swedish national courts administration": "SE2021002742",
     ". skolverket": "SE2021004185",
@@ -1320,7 +1320,6 @@
     "imy": "SE2021000050",
     "indikatorn beräknas av lunds universtet, med data från och i samarbete med skogsstyrelsen.": "SE2021005612",
     "insamlingsstiftelsen för reumatologisk forskning vid spenshult": "SE8024256052",
-    "inspektionen för arbetslöshetsförsäkring": "SE2021005414",
     "inspektionen för arbetslöshetsförsäkringen": "SE2021005414",
     "inspektionen för arbetslöshetsförsäkringen (iaf)": "SE2021005414",
     "inspektionen för socialförsäkringen": "SE2021006248",
@@ -12666,7 +12665,6 @@
     "SE2021005414": {
       "alias": [
         "IAF:s öppna data",
-        "Inspektionen för Arbetslöshetsförsäkring",
         "Inspektionen för arbetslöshetsförsäkringen",
         "Inspektionen för arbetslöshetsförsäkringen (IAF)"
       ],
@@ -12689,7 +12687,7 @@
         "label": "Statlig enhet"
       },
       "organisation_type": "NationalAuthority",
-      "registered_label": "INSPEKTIONEN FÖR ARBETSLÖSHETSFÖRSÄKRING",
+      "registered_label": "INSPEKTIONEN FÖR ARBETSLÖSHETSFÖRSÄKRINGEN",
       "same_as": [
         "https://catalog.iaf.se/store/1/resource/1"
       ],
@@ -28899,7 +28897,7 @@
       "source": [
         "scb_bulk"
       ],
-      "status": "active"
+      "status": "deregistered"
     },
     "SE2220002451": {
       "established": "2008-01-11",

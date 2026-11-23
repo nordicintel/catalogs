@@ -4,7 +4,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 4 validation errors",
             "result": "error"
           },
@@ -57,7 +57,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -83,7 +83,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -109,7 +109,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -160,7 +160,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -186,7 +186,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -212,7 +212,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -238,7 +238,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -264,7 +264,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -290,7 +290,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -337,11 +337,41 @@
       ],
       "status": "ok"
     },
+    "anslutna.se": {
+      "description": {
+        "sv": "Öppna data från Anslutna om flerbostadshus i Sverige."
+      },
+      "endpoint": [
+        {
+          "checked": {
+            "date": "2026-11-23",
+            "detail": "dataportal.se harvest Success, 1 datasets, 2 validation errors",
+            "result": "ok"
+          },
+          "protocol": "dcat_ap",
+          "url": "https://anslutna.se/datasets/dcat"
+        }
+      ],
+      "homepage": "https://anslutna.se/",
+      "id": "anslutna.se",
+      "identifier": {
+        "dataportal": "https://admin.dataportal.se/store/864"
+      },
+      "label": {
+        "sv": "Anslutna – öppna data"
+      },
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "source": [
+        "check",
+        "dataportal"
+      ],
+      "status": "ok"
+    },
     "ap1.se": {
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -367,7 +397,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -393,7 +423,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -419,7 +449,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -445,7 +475,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -471,7 +501,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -596,8 +626,8 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
-            "detail": "dataportal.se harvest Success, 6672 datasets, 186 validation errors",
+            "date": "2026-11-23",
+            "detail": "dataportal.se harvest Success, 6713 datasets, 186 validation errors",
             "result": "ok"
           },
           "protocol": "dcat_ap",
@@ -710,7 +740,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 3 datasets, 3 validation errors",
             "result": "ok"
           },
@@ -784,7 +814,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -814,7 +844,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 223 datasets, 3 validation errors",
             "result": "ok"
           },
@@ -861,9 +891,9 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-09",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "date": "2026-11-23",
+            "detail": "HTTP 404",
+            "result": "error"
           },
           "protocol": "api",
           "url": "https://apps.sgu.se/geolagret/ResultJSONGNServlet"
@@ -880,13 +910,13 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "error"
     },
     "arbetsdomstolen.se": {
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -912,7 +942,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -938,7 +968,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1048,7 +1078,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1099,7 +1129,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1125,7 +1155,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1151,7 +1181,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1202,7 +1232,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1228,7 +1258,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1254,7 +1284,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1280,7 +1310,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1306,7 +1336,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1332,7 +1362,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1358,7 +1388,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1409,7 +1439,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1435,7 +1465,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1461,7 +1491,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1499,7 +1529,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1528,7 +1558,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 4 validation errors",
             "result": "ok"
           },
@@ -1558,7 +1588,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1587,7 +1617,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -1614,7 +1644,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1640,7 +1670,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1666,7 +1696,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1744,7 +1774,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1770,7 +1800,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1796,7 +1826,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1822,7 +1852,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1873,7 +1903,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1899,7 +1929,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1925,7 +1955,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -1951,7 +1981,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -2003,7 +2033,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -2029,7 +2059,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -2055,7 +2085,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -2081,7 +2111,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -2132,7 +2162,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -2158,7 +2188,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -2209,7 +2239,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -2238,7 +2268,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 9 datasets, 6 validation errors",
             "result": "ok"
           },
@@ -2278,7 +2308,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 2 datasets, 2 validation errors",
             "result": "ok"
           },
@@ -2317,7 +2347,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 15 datasets, 3 validation errors",
             "result": "ok"
           },
@@ -2358,7 +2388,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -2409,7 +2439,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -2460,7 +2490,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 10 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -2502,7 +2532,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 4 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -2538,7 +2568,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 3 validation errors",
             "result": "error"
           },
@@ -2579,7 +2609,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 5 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -2621,7 +2651,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 5 datasets, 2 validation errors",
             "result": "ok"
           },
@@ -2661,7 +2691,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -2702,7 +2732,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 37 datasets, 97 validation errors",
             "result": "ok"
           },
@@ -2741,7 +2771,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 67 datasets, 4 validation errors",
             "result": "ok"
           },
@@ -2781,7 +2811,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 45 datasets, 7 validation errors",
             "result": "ok"
           },
@@ -2821,7 +2851,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 3 datasets, 2 validation errors",
             "result": "ok"
           },
@@ -2861,7 +2891,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 2 datasets, 3 validation errors",
             "result": "ok"
           },
@@ -2901,7 +2931,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 5 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -2943,7 +2973,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 19 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -2985,7 +3015,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -3027,7 +3057,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 32 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -3068,7 +3098,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -3110,7 +3140,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -3161,7 +3191,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 15 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -3201,7 +3231,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 19 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -3242,7 +3272,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 16 datasets, 4 validation errors",
             "result": "ok"
           },
@@ -3282,7 +3312,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -3321,7 +3351,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -3361,7 +3391,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -3400,7 +3430,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 29 datasets, 2 validation errors",
             "result": "ok"
           },
@@ -3439,7 +3469,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 5 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -3481,7 +3511,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 2 validation errors",
             "result": "ok"
           },
@@ -3521,7 +3551,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 7 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -3561,7 +3591,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 5 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -3601,7 +3631,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 6 datasets, 6 validation errors",
             "result": "ok"
           },
@@ -3643,7 +3673,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 27 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -3683,8 +3713,8 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
-            "detail": "dataportal.se harvest Success, 120 datasets, 0 validation errors",
+            "date": "2026-11-23",
+            "detail": "dataportal.se harvest Success, 121 datasets, 0 validation errors",
             "result": "ok"
           },
           "protocol": "dcat_ap",
@@ -3725,7 +3755,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 5 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -3767,7 +3797,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 2 validation errors",
             "result": "ok"
           },
@@ -3808,7 +3838,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 4 datasets, 3 validation errors",
             "result": "ok"
           },
@@ -3848,7 +3878,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 9 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -3888,7 +3918,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 4 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -3930,7 +3960,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 3 validation errors",
             "result": "error"
           },
@@ -3971,7 +4001,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -4022,7 +4052,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 16 datasets, 2 validation errors",
             "result": "ok"
           },
@@ -4062,7 +4092,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 3 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -4101,7 +4131,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 11 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -4141,7 +4171,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -4193,7 +4223,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 2 validation errors",
             "result": "error"
           },
@@ -4235,7 +4265,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 3 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -4298,7 +4328,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 4 datasets, 4 validation errors",
             "result": "ok"
           },
@@ -4404,7 +4434,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -4500,9 +4530,9 @@
         },
         {
           "checked": {
-            "date": "2026-11-02",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "date": "2026-11-23",
+            "detail": "TimeoutError: The read operation timed out",
+            "result": "unreachable"
           },
           "protocol": "dcat_ap",
           "url": "https://data-kalmar.opendata.arcgis.com/api/feed/dcat-ap/2.0.1.json"
@@ -4641,7 +4671,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 73 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -4672,7 +4702,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 4 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -4788,7 +4818,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -4830,7 +4860,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -4881,7 +4911,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 137 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -4922,7 +4952,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 3 validation errors",
             "result": "ok"
           },
@@ -4960,7 +4990,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 16 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -5016,7 +5046,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 33 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -5055,7 +5085,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 10 datasets, 9 validation errors",
             "result": "ok"
           },
@@ -5087,7 +5117,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 39 datasets, 2 validation errors",
             "result": "ok"
           },
@@ -5223,7 +5253,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -5252,7 +5282,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 31 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -5291,7 +5321,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 14 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -5337,7 +5367,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -5435,8 +5465,8 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
-            "detail": "dataportal.se harvest Success, 309 datasets, 2 validation errors",
+            "date": "2026-11-23",
+            "detail": "dataportal.se harvest Success, 308 datasets, 2 validation errors",
             "result": "ok"
           },
           "protocol": "dcat_ap",
@@ -5515,9 +5545,9 @@
         },
         {
           "checked": {
-            "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "date": "2026-11-23",
+            "detail": "RemoteDisconnected: Remote end closed connection without response",
+            "result": "unreachable"
           },
           "protocol": "wms_1_3",
           "url": "https://datavardluft.smhi.se/shair/wms"
@@ -5560,7 +5590,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -5661,7 +5691,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -5737,7 +5767,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -5746,7 +5776,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -5755,7 +5785,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -5785,7 +5815,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -5861,7 +5891,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -5887,7 +5917,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -5916,7 +5946,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 10 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -5949,7 +5979,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -5980,7 +6010,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -6011,7 +6041,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 12 datasets, 5 validation errors",
             "result": "ok"
           },
@@ -6043,7 +6073,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 5 datasets, 14 validation errors",
             "result": "ok"
           },
@@ -6075,7 +6105,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -6107,7 +6137,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 3 validation errors",
             "result": "error"
           },
@@ -6138,7 +6168,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 8 datasets, 2 validation errors",
             "result": "ok"
           },
@@ -6169,7 +6199,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 3 validation errors",
             "result": "error"
           },
@@ -6200,7 +6230,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 3 validation errors",
             "result": "error"
           },
@@ -6231,7 +6261,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -6262,7 +6292,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 2 validation errors",
             "result": "ok"
           },
@@ -6293,7 +6323,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 5 datasets, 5 validation errors",
             "result": "ok"
           },
@@ -6324,7 +6354,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 3 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -6356,7 +6386,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 5 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -6389,7 +6419,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 3 validation errors",
             "result": "error"
           },
@@ -6420,7 +6450,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -6451,7 +6481,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 3 validation errors",
             "result": "error"
           },
@@ -6483,7 +6513,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -6514,7 +6544,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -6545,7 +6575,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 10 datasets, 15 validation errors",
             "result": "ok"
           },
@@ -6577,7 +6607,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 3 validation errors",
             "result": "error"
           },
@@ -6609,7 +6639,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 3 validation errors",
             "result": "error"
           },
@@ -6640,7 +6670,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 2 datasets, 4 validation errors",
             "result": "ok"
           },
@@ -6672,7 +6702,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -6702,7 +6732,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 4 datasets, 7 validation errors",
             "result": "ok"
           },
@@ -6730,7 +6760,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -6758,7 +6788,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -6789,7 +6819,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 34 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -6827,7 +6857,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -6853,7 +6883,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -6879,7 +6909,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -6905,7 +6935,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -6931,7 +6961,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -6957,7 +6987,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -7004,7 +7034,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 10 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -7033,7 +7063,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -7059,7 +7089,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -7085,7 +7115,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -7111,7 +7141,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -7120,7 +7150,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -7129,7 +7159,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -7138,7 +7168,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -7147,7 +7177,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -7156,7 +7186,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -7165,7 +7195,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -7246,7 +7276,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -7297,7 +7327,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -7357,9 +7387,9 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "date": "2026-11-23",
+            "detail": "HTTP 404",
+            "result": "error"
           },
           "protocol": "api",
           "url": "https://esg-dn2.nsc.liu.se/thredds/catalog/catalog.xml"
@@ -7376,7 +7406,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "error"
     },
     "esg-dn3.nsc.liu.se": {
       "endpoint": [
@@ -7410,7 +7440,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 8 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -7448,7 +7478,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -7477,9 +7507,9 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
-            "detail": "dataportal.se harvest Success, 4 datasets, 5 validation errors",
-            "result": "ok"
+            "date": "2026-11-23",
+            "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
+            "result": "error"
           },
           "protocol": "dcat_ap",
           "url": "http://www.esv.se/datasets/dcat"
@@ -7501,7 +7531,7 @@
         "dataportal",
         "edits"
       ],
-      "status": "ok"
+      "status": "error"
     },
     "experience.arcgis.com/bd33a3829b804d1ab3af4ba2843db4ed": {
       "endpoint": [
@@ -7767,8 +7797,8 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-09",
-            "detail": "HTTP 502",
+            "date": "2026-11-23",
+            "detail": "HTTP 404",
             "result": "error"
           },
           "protocol": "api",
@@ -8321,7 +8351,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -8375,7 +8405,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -8401,7 +8431,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -8430,7 +8460,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -8479,7 +8509,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -8505,7 +8535,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -8531,7 +8561,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -8607,7 +8637,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -8633,7 +8663,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -8662,7 +8692,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 70 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -8690,7 +8720,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -8716,7 +8746,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -8742,7 +8772,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -8793,7 +8823,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -8819,7 +8849,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -8870,7 +8900,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -8899,7 +8929,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1668 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -8955,7 +8985,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -8984,7 +9014,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 6 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -9045,7 +9075,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9071,7 +9101,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9097,7 +9127,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9123,7 +9153,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9149,7 +9179,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9175,7 +9205,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9201,7 +9231,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9227,7 +9257,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9253,7 +9283,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9279,7 +9309,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9305,7 +9335,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9331,7 +9361,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9357,7 +9387,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9383,7 +9413,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9409,7 +9439,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9435,7 +9465,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9461,7 +9491,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9487,7 +9517,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9516,7 +9546,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -9544,7 +9574,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9572,7 +9602,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9603,7 +9633,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9634,7 +9664,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 5 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -9664,7 +9694,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9692,7 +9722,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -9723,7 +9753,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -9755,7 +9785,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 3 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -9787,7 +9817,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -9819,7 +9849,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 3 datasets, 14 validation errors",
             "result": "ok"
           },
@@ -9850,7 +9880,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -9883,7 +9913,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 2 validation errors",
             "result": "ok"
           },
@@ -9915,7 +9945,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -9946,7 +9976,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -9974,7 +10004,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -10000,7 +10030,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -10114,7 +10144,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -10140,7 +10170,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -10166,18 +10196,18 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "date": "2026-11-23",
+            "detail": "HTTP 400",
+            "result": "error"
           },
           "protocol": "wfs_2",
           "url": "http://geo-inspire.trafikverket.se/MapService/wfs.axd/TN_RailTransportNetwork"
         },
         {
           "checked": {
-            "date": "2026-11-09",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "date": "2026-11-23",
+            "detail": "HTTP 400",
+            "result": "error"
           },
           "protocol": "wfs_2",
           "url": "http://geo-inspire.trafikverket.se/MapService/wfs.axd/TN_RoadTransportNetwork"
@@ -10287,9 +10317,9 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
-            "detail": "HTTP 500",
-            "result": "error"
+            "date": "2026-11-23",
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "arcgis_rest",
           "url": "https://geodata-svoa-extern.stockholm.se/Geodata/arcgis/rest/services"
@@ -10302,7 +10332,7 @@
         "check",
         "data_europa"
       ],
-      "status": "error"
+      "status": "ok"
     },
     "geodata.almhult.se": {
       "endpoint": [
@@ -10475,9 +10505,9 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-10-13",
-            "detail": "HTTP 403",
-            "result": "restricted"
+            "date": "2026-11-23",
+            "detail": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certifi",
+            "result": "unreachable"
           },
           "protocol": "arcgis_rest",
           "url": "http://geodata.helsingborg.se/arcgis/rest/services"
@@ -10494,7 +10524,7 @@
         "check",
         "edits"
       ],
-      "status": "restricted"
+      "status": "unreachable"
     },
     "geodata.katrineholm.se": {
       "description": {
@@ -10512,7 +10542,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 2 datasets, 11 validation errors",
             "result": "ok"
           },
@@ -10724,7 +10754,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -11005,9 +11035,9 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-10-26",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "date": "2026-11-23",
+            "detail": "TimeoutError: timed out",
+            "result": "unreachable"
           },
           "protocol": "arcgis_rest",
           "url": "https://geodata.vastervik.se/arcgis/rest/services"
@@ -11024,7 +11054,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "geodata.ystad.se": {
       "endpoint": [
@@ -11064,9 +11094,9 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-09",
-            "detail": "HTTP 404",
-            "result": "error"
+            "date": "2026-11-23",
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "csw_2",
           "url": "https://geodatakatalogen.naturvardsverket.se/geonetwork/srv/eng/csw"
@@ -11087,7 +11117,7 @@
         "check",
         "edits"
       ],
-      "status": "error"
+      "status": "ok"
     },
     "geodpags.skogsstyrelsen.se": {
       "endpoint": [
@@ -11303,18 +11333,18 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
-            "result": "unreachable"
+            "date": "2026-11-23",
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "arcgis_rest",
           "url": "https://geoportalen.lund.se/arcgis/rest/services"
         },
         {
           "checked": {
-            "date": "2026-10-13",
-            "detail": "TimeoutError: timed out",
-            "result": "unreachable"
+            "date": "2026-11-23",
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "web",
           "url": "https://geoportalen.lund.se/portal/apps/instant/filtergallery/index.html"
@@ -11331,7 +11361,7 @@
         "check",
         "edits"
       ],
-      "status": "unreachable"
+      "status": "ok"
     },
     "geoportalen.vasttrafik.se": {
       "endpoint": [
@@ -11591,7 +11621,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12248,7 +12278,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12274,7 +12304,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12300,7 +12330,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12326,7 +12356,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12352,7 +12382,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12378,7 +12408,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12404,7 +12434,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12473,7 +12503,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12523,7 +12553,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12549,7 +12579,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12575,7 +12605,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12601,7 +12631,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12627,7 +12657,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12653,7 +12683,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12679,7 +12709,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12708,7 +12738,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 8 datasets, 10 validation errors",
             "result": "ok"
           },
@@ -12748,7 +12778,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12774,7 +12804,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12800,7 +12830,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12826,7 +12856,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12852,7 +12882,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12928,7 +12958,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12954,7 +12984,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -12980,7 +13010,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13006,7 +13036,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13032,7 +13062,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13058,7 +13088,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13109,7 +13139,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13160,7 +13190,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13211,7 +13241,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13260,7 +13290,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13286,7 +13316,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13312,7 +13342,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13338,7 +13368,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13364,7 +13394,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13390,7 +13420,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13416,7 +13446,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13442,7 +13472,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13468,7 +13498,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13494,7 +13524,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13520,7 +13550,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13546,7 +13576,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13572,7 +13602,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13598,7 +13628,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13624,7 +13654,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13650,7 +13680,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13701,7 +13731,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13755,7 +13785,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13781,7 +13811,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13807,7 +13837,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13968,7 +13998,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -13994,7 +14024,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14020,7 +14050,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14105,7 +14135,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14131,7 +14161,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14182,7 +14212,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14254,7 +14284,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14280,7 +14310,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14331,7 +14361,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14357,7 +14387,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14383,7 +14413,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14409,7 +14439,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14435,7 +14465,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14461,7 +14491,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14487,7 +14517,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14513,7 +14543,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14539,7 +14569,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14565,7 +14595,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -14616,7 +14646,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -16612,9 +16642,9 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-09",
-            "detail": "ConnectionResetError: [Errno 104] Connection reset by peer",
-            "result": "unreachable"
+            "date": "2026-11-23",
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "web",
           "url": "https://kartor.norrkoping.se/spatialmap"
@@ -16631,7 +16661,7 @@
         "check",
         "edits"
       ],
-      "status": "unreachable"
+      "status": "ok"
     },
     "kartor.nykoping.se": {
       "endpoint": [
@@ -17097,7 +17127,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17136,7 +17166,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -17176,7 +17206,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 36 datasets, 3 validation errors",
             "result": "ok"
           },
@@ -17238,7 +17268,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17264,7 +17294,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17290,7 +17320,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17341,7 +17371,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17367,7 +17397,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17418,7 +17448,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17444,7 +17474,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17495,7 +17525,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17521,7 +17551,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17547,7 +17577,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17573,7 +17603,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17602,7 +17632,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17629,7 +17659,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17655,7 +17685,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17706,7 +17736,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17732,7 +17762,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17761,7 +17791,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17801,7 +17831,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17827,7 +17857,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17853,7 +17883,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17904,7 +17934,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17930,7 +17960,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17956,7 +17986,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -17985,7 +18015,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 20 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -18048,7 +18078,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18074,7 +18104,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18125,7 +18155,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18151,7 +18181,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18180,7 +18210,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 17 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -18218,7 +18248,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18244,7 +18274,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18270,7 +18300,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18296,7 +18326,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18322,7 +18352,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18348,7 +18378,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18357,7 +18387,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18366,7 +18396,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18375,7 +18405,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18384,7 +18414,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18393,7 +18423,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18402,7 +18432,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18411,7 +18441,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18420,7 +18450,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18429,7 +18459,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18438,7 +18468,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18447,7 +18477,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18456,7 +18486,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18465,7 +18495,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18474,7 +18504,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18483,7 +18513,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18492,7 +18522,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18501,7 +18531,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18510,7 +18540,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18519,7 +18549,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18528,7 +18558,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18579,7 +18609,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 750 datasets, 188 validation errors",
             "result": "ok"
           },
@@ -18616,7 +18646,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18642,7 +18672,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18694,7 +18724,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18720,7 +18750,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18746,7 +18776,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18772,7 +18802,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18798,7 +18828,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18824,7 +18854,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18850,7 +18880,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18879,7 +18909,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 10 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -18917,7 +18947,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -18966,7 +18996,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19017,7 +19047,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19043,7 +19073,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19095,7 +19125,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19121,7 +19151,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19147,7 +19177,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19198,7 +19228,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19224,7 +19254,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19250,7 +19280,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19276,7 +19306,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19327,7 +19357,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19353,7 +19383,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19379,7 +19409,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19405,7 +19435,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19431,7 +19461,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19457,7 +19487,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19483,7 +19513,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19534,7 +19564,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19560,7 +19590,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19586,7 +19616,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19612,7 +19642,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19689,7 +19719,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19715,7 +19745,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19741,7 +19771,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19767,7 +19797,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19945,7 +19975,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19971,7 +20001,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -19997,7 +20027,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -20023,7 +20053,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -20074,7 +20104,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -20125,7 +20155,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -20206,7 +20236,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 74 datasets, 374 validation errors",
             "result": "ok"
           },
@@ -20247,7 +20277,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 19 datasets, 2 validation errors",
             "result": "ok"
           },
@@ -20287,7 +20317,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 22 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -20362,7 +20392,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 67 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -20403,7 +20433,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 4 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -20441,7 +20471,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 3 validation errors",
             "result": "error"
           },
@@ -20482,7 +20512,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 334 datasets, 2541 validation errors",
             "result": "ok"
           },
@@ -20523,8 +20553,8 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
-            "detail": "dataportal.se harvest Success, 222 datasets, 323 validation errors",
+            "date": "2026-11-23",
+            "detail": "dataportal.se harvest Success, 222 datasets, 322 validation errors",
             "result": "ok"
           },
           "protocol": "dcat_ap",
@@ -20560,7 +20590,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -20601,7 +20631,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -20632,7 +20662,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 15 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -20738,7 +20768,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -20764,7 +20794,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -20790,7 +20820,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -20816,7 +20846,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -20842,7 +20872,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -20868,7 +20898,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -20894,7 +20924,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -20920,7 +20950,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -20971,7 +21001,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -20997,7 +21027,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21023,7 +21053,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21049,7 +21079,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21075,7 +21105,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21126,7 +21156,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21152,7 +21182,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21178,7 +21208,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21229,7 +21259,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21255,7 +21285,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21281,7 +21311,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21332,7 +21362,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21407,7 +21437,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21433,7 +21463,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 83 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -21459,7 +21489,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21485,7 +21515,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21511,7 +21541,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21537,7 +21567,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21588,7 +21618,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21614,7 +21644,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21640,7 +21670,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21666,7 +21696,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21717,7 +21747,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21743,7 +21773,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21819,7 +21849,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21866,7 +21896,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21892,7 +21922,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21918,7 +21948,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21944,7 +21974,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21970,7 +22000,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -21996,7 +22026,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -22022,7 +22052,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -22051,7 +22081,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 3 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -22077,7 +22107,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -22128,7 +22158,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -22225,7 +22255,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 180 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -22257,7 +22287,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 139 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -22794,7 +22824,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 2 datasets, 18 validation errors",
             "result": "ok"
           },
@@ -22835,7 +22865,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 3 datasets, 19 validation errors",
             "result": "ok"
           },
@@ -22930,7 +22960,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -22969,8 +22999,8 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
-            "detail": "dataportal.se harvest Success, 334 datasets, 0 validation errors",
+            "date": "2026-11-23",
+            "detail": "dataportal.se harvest Success, 334 datasets, 1 validation errors",
             "result": "ok"
           },
           "protocol": "dcat_ap",
@@ -23012,18 +23042,18 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
-            "detail": "HTTP 500",
-            "result": "error"
+            "date": "2026-11-23",
+            "detail": "HTTP 200",
+            "result": "ok"
           },
           "protocol": "ckan_v3",
           "url": "https://opendata.upplandsvasby.se"
         },
         {
           "checked": {
-            "date": "2026-11-16",
-            "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
-            "result": "error"
+            "date": "2026-11-23",
+            "detail": "dataportal.se harvest Success, 9 datasets, 65 validation errors",
+            "result": "ok"
           },
           "protocol": "dcat_ap",
           "url": "https://opendata.upplandsvasby.se/catalog.rdf"
@@ -23044,7 +23074,7 @@
         "check",
         "dataportal"
       ],
-      "status": "error"
+      "status": "ok"
     },
     "opendata.uppsala.se": {
       "endpoint": [
@@ -23111,7 +23141,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 3 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -23235,7 +23265,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23312,7 +23342,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23363,7 +23393,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23414,7 +23444,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 12 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -23455,7 +23485,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23533,7 +23563,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 12 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -23573,7 +23603,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23599,7 +23629,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23625,7 +23655,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23651,7 +23681,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23702,7 +23732,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23728,7 +23758,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23754,7 +23784,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23780,7 +23810,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23806,7 +23836,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23832,7 +23862,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23858,7 +23888,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23884,7 +23914,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23910,7 +23940,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23936,7 +23966,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -23987,7 +24017,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -24038,7 +24068,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -24089,7 +24119,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -24141,7 +24171,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -24170,7 +24200,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 305 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -24223,7 +24253,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -24249,7 +24279,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -24275,7 +24305,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -24326,7 +24356,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -24409,7 +24439,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 9 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -24540,7 +24570,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -24840,7 +24870,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -24866,7 +24896,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -24892,7 +24922,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -24918,7 +24948,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -24947,7 +24977,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 1 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -24973,7 +25003,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -24999,7 +25029,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25025,7 +25055,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25051,7 +25081,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25077,7 +25107,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25103,7 +25133,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25129,7 +25159,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25315,7 +25345,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25369,7 +25399,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 173 datasets, 522 validation errors",
             "result": "ok"
           },
@@ -25422,7 +25452,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25448,7 +25478,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25474,7 +25504,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25500,7 +25530,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25529,8 +25559,8 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
-            "detail": "dataportal.se harvest Success, 5895 datasets, 512 validation errors",
+            "date": "2026-11-23",
+            "detail": "dataportal.se harvest Success, 5900 datasets, 512 validation errors",
             "result": "ok"
           },
           "protocol": "dcat_ap",
@@ -25568,7 +25598,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25594,7 +25624,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25620,7 +25650,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25646,7 +25676,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25672,7 +25702,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25698,7 +25728,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25724,7 +25754,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25750,7 +25780,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25776,7 +25806,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25802,7 +25832,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25828,7 +25858,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25857,7 +25887,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -25983,7 +26013,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26009,7 +26039,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26085,7 +26115,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26111,7 +26141,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26137,7 +26167,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26163,7 +26193,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26189,7 +26219,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26215,7 +26245,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26241,7 +26271,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26270,7 +26300,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 196 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -26311,7 +26341,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26337,7 +26367,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26363,7 +26393,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26418,7 +26448,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 92 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -26461,7 +26491,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26487,8 +26517,8 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
-            "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
+            "date": "2026-11-23",
+            "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
           "protocol": "dcat_ap",
@@ -26516,7 +26546,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 14 datasets, 19 validation errors",
             "result": "ok"
           },
@@ -26555,7 +26585,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26581,7 +26611,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26641,7 +26671,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26717,7 +26747,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26743,7 +26773,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26769,7 +26799,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26795,7 +26825,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26846,7 +26876,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26872,7 +26902,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26898,7 +26928,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26924,7 +26954,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -26975,7 +27005,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -27001,7 +27031,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -27102,7 +27132,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -27128,7 +27158,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -27154,7 +27184,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -27163,7 +27193,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -27217,7 +27247,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -27243,7 +27273,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -27269,7 +27299,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -27295,7 +27325,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -27321,7 +27351,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -27516,7 +27546,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 506 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -27612,9 +27642,9 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-10-13",
-            "detail": "HTTP 200",
-            "result": "ok"
+            "date": "2026-11-23",
+            "detail": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certifi",
+            "result": "unreachable"
           },
           "language": [
             "sv"
@@ -27634,7 +27664,7 @@
         "check",
         "edits"
       ],
-      "status": "ok"
+      "status": "unreachable"
     },
     "statistik.konj.se": {
       "endpoint": [
@@ -27970,8 +28000,8 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
-            "detail": "dataportal.se harvest Success, 4291 datasets, 0 validation errors",
+            "date": "2026-11-23",
+            "detail": "dataportal.se harvest Success, 4292 datasets, 0 validation errors",
             "result": "ok"
           },
           "protocol": "dcat_ap",
@@ -28056,7 +28086,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28082,7 +28112,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28108,7 +28138,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28134,7 +28164,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28160,7 +28190,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28186,7 +28216,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28212,7 +28242,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28266,7 +28296,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28365,7 +28395,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28391,7 +28421,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28417,7 +28447,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28468,7 +28498,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28494,7 +28524,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28520,7 +28550,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28546,7 +28576,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28597,7 +28627,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28623,7 +28653,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28711,7 +28741,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28737,7 +28767,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28763,7 +28793,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28837,7 +28867,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28863,7 +28893,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28889,7 +28919,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28942,7 +28972,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -28993,7 +29023,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29019,7 +29049,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29091,7 +29121,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29154,7 +29184,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29183,7 +29213,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 24 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -29223,7 +29253,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29249,7 +29279,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29275,7 +29305,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29326,7 +29356,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29352,7 +29382,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29378,7 +29408,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29404,7 +29434,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29455,7 +29485,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29493,7 +29523,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29519,7 +29549,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29570,7 +29600,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29596,7 +29626,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29622,7 +29652,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29648,7 +29678,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29725,7 +29755,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29751,7 +29781,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29777,7 +29807,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29803,7 +29833,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29829,7 +29859,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29855,7 +29885,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29881,7 +29911,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29907,7 +29937,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29933,7 +29963,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -29985,7 +30015,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30011,7 +30041,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30040,8 +30070,8 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
-            "detail": "dataportal.se harvest Success, 1 datasets, 14 validation errors",
+            "date": "2026-11-23",
+            "detail": "dataportal.se harvest Success, 1 datasets, 16 validation errors",
             "result": "ok"
           },
           "protocol": "dcat_ap",
@@ -30094,7 +30124,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30123,7 +30153,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30149,7 +30179,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30175,7 +30205,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30201,7 +30231,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30227,7 +30257,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30253,7 +30283,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30279,7 +30309,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30305,7 +30335,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30331,7 +30361,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30357,7 +30387,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30411,7 +30441,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 18 datasets, 2 validation errors",
             "result": "ok"
           },
@@ -30449,7 +30479,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30475,7 +30505,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30501,7 +30531,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30530,7 +30560,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 10 datasets, 2 validation errors",
             "result": "ok"
           },
@@ -30567,7 +30597,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30618,7 +30648,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30644,7 +30674,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -30950,7 +30980,7 @@
         },
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 27 datasets, 0 validation errors",
             "result": "ok"
           },
@@ -30979,7 +31009,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Failed, 0 datasets, 0 validation errors",
             "result": "error"
           },
@@ -31008,7 +31038,7 @@
       "endpoint": [
         {
           "checked": {
-            "date": "2026-11-16",
+            "date": "2026-11-23",
             "detail": "dataportal.se harvest Success, 2 datasets, 1 validation errors",
             "result": "ok"
           },
@@ -31042,6 +31072,6 @@
       "status": "ok"
     }
   },
-  "count": 1057,
-  "generated": "2026-11-16"
+  "count": 1058,
+  "generated": "2026-11-23"
 }

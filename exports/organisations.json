@@ -1,6 +1,6 @@
 {
   "count": 642,
-  "generated": "2026-11-09",
+  "generated": "2026-11-23",
   "organisation": {
     "SE2021000035": {
       "department": "Justitiedepartementet",
@@ -7841,7 +7841,6 @@
     "SE2021005414": {
       "alias": [
         "IAF:s öppna data",
-        "Inspektionen för Arbetslöshetsförsäkring",
         "Inspektionen för arbetslöshetsförsäkringen",
         "Inspektionen för arbetslöshetsförsäkringen (IAF)"
       ],
@@ -7864,7 +7863,7 @@
         "label": "Statlig enhet"
       },
       "organisation_type": "NationalAuthority",
-      "registered_label": "INSPEKTIONEN FÖR ARBETSLÖSHETSFÖRSÄKRING",
+      "registered_label": "INSPEKTIONEN FÖR ARBETSLÖSHETSFÖRSÄKRINGEN",
       "same_as": [
         "https://catalog.iaf.se/store/1/resource/1"
       ],
